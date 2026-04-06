@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Launch Loyalty — Epic Status Report</title>
+<style>
+
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --done:#22c55e;--inprog:#eab308;--todo:#cbd5e1;
+  --bg:#f1f5f9;--card:#fff;--text:#0f172a;--muted:#64748b;
+  --closed:#059669;--readydeploy:#0d9488;--indev:#2563eb;
+  --readydev:#7c3aed;--design:#d97706;--discover:#db2777;
+  --backlog:#64748b;--blocked:#dc2626;
+}
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);padding:0;margin:0}
+.page{max-width:1440px;margin:0 auto;padding:28px 32px 48px}
+
+/* Header */
+.header{margin-bottom:28px}
+.header h1{font-size:30px;font-weight:800;letter-spacing:-.3px;margin-bottom:16px}
+
+/* Week Selector Prominente */
+.week-selector-prominent{background:var(--card);padding:16px 20px;border-radius:10px;margin-bottom:16px;box-shadow:0 2px 4px rgba(0,0,0,.08)}
+.week-selector-prominent label{display:block;font-size:12px;font-weight:600;text-transform:uppercase;color:var(--muted);margin-bottom:8px;letter-spacing:.5px}
+.week-selector-prominent select{font-size:16px;font-weight:700;padding:10px 16px;width:100%;max-width:400px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;cursor:pointer}
+.baseline-indicator{display:block;font-size:13px;color:var(--muted);margin-top:6px}
+
+/* Meta Box */
+.meta-box{background:#f8fafc;padding:12px 16px;border-radius:8px;border:1px solid #e2e8f0}
+.meta-line{font-size:14px;margin:4px 0}
+.meta-line strong{font-weight:600;color:var(--text)}
+.delta-line{margin-top:8px;padding-top:8px;border-top:1px solid #e2e8f0}
+.delta{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:4px;font-size:12px;font-weight:600;margin-right:8px}
+.delta.up{background:#dcfce7;color:#15803d}
+.delta.down{background:#fee2e2;color:#991b1b}
+
+/* Cards */
+.cards{display:grid;grid-template-columns:auto repeat(3,1fr);gap:16px;margin-bottom:28px}
+.card{background:var(--card);border-radius:14px;padding:22px 20px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.card-val{font-size:38px;font-weight:800;line-height:1}
+.card-lbl{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.6px;margin-top:6px}
+.card-val.v-done{color:var(--done)}.card-val.v-ip{color:var(--inprog)}.card-val.v-todo{color:var(--backlog)}
+
+/* Comparison Cards */
+.comparison-panel{background:var(--card);border-radius:14px;padding:20px 24px;margin-bottom:28px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04)}
+.comparison-panel h2{font-size:18px;font-weight:700;margin-bottom:16px;color:var(--text)}
+.comparison-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.comp-card{background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:16px;text-align:center}
+.comp-card-label{font-size:12px;font-weight:600;text-transform:uppercase;color:var(--muted);margin-bottom:8px;letter-spacing:.5px}
+.comp-card-change{display:flex;flex-direction:column;align-items:center;gap:4px;margin:12px 0}
+.comp-prev{font-size:16px;font-weight:600;color:var(--muted)}
+.comp-arrow{font-size:20px;color:var(--muted)}
+.comp-current{font-size:28px;font-weight:800;color:var(--text)}
+.comp-metric{font-size:11px;color:var(--muted);margin-top:4px}
+.comp-delta{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:6px;font-size:13px;font-weight:700;margin-top:8px}
+.comp-delta.positive{background:#dcfce7;color:#15803d}
+.comp-delta.negative{background:#fee2e2;color:#991b1b}
+.comp-delta.neutral{background:#f1f5f9;color:var(--muted)}
+
+/* Circular progress */
+.circ-wrap{position:relative;width:110px;height:110px;margin-bottom:6px}
+.circ-wrap svg{width:110px;height:110px;transform:rotate(-90deg)}
+.circ-bg{fill:none;stroke:#e2e8f0;stroke-width:10}
+.circ-fg{fill:none;stroke:var(--indev);stroke-width:10;stroke-linecap:round;transition:stroke-dashoffset .8s cubic-bezier(.4,0,.2,1)}
+.circ-pct{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:800;color:var(--indev)}
+
+/* Scope Changes Panel */
+.scope-panel{background:var(--card);border-radius:14px;padding:20px 24px;margin-bottom:28px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04)}
+.scope-panel.collapsed .scope-body{display:none}
+.scope-header{cursor:pointer;user-select:none}
+.scope-header h2{font-size:20px;font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.scope-summary{display:flex;gap:12px;margin:12px 0;flex-wrap:wrap}
+.scope-metric{font-size:13px;font-weight:600;padding:6px 12px;background:#f1f5f9;border-radius:6px;color:var(--text)}
+.scope-toggle{margin-top:12px;padding:8px 20px;background:var(--indev);color:white;border:none;border-radius:6px;font-weight:600;cursor:pointer;font-size:13px;transition:background .2s}
+.scope-toggle:hover{background:#1d4ed8}
+.scope-body{margin-top:20px;padding-top:20px;border-top:2px solid #f1f5f9}
+.scope-section{margin-bottom:24px}
+.scope-section:last-child{margin-bottom:0}
+.scope-section h4{font-size:14px;font-weight:700;margin-bottom:10px;color:var(--text);display:flex;align-items:center;gap:6px}
+.scope-item{padding:8px 12px;background:#fafbfc;border-radius:6px;margin-bottom:6px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.scope-item a{font-weight:700;color:var(--indev);text-decoration:none;font-size:13px}
+.scope-item a:hover{text-decoration:underline}
+.scope-item-name{font-size:13px;color:var(--text);flex:1;min-width:200px}
+.scope-item-count{font-size:12px;font-weight:600;color:var(--muted);margin-left:auto}
+.scope-item-reason{font-size:12px;color:var(--muted);font-style:italic}
+.net-impact{background:#f8fafc;padding:16px;border-radius:8px;border:2px solid #e2e8f0}
+.net-impact h4{margin-bottom:8px}
+.net-impact p{font-size:14px;line-height:1.6;color:var(--text)}
+.refinement-note{font-size:12px;color:var(--muted);font-style:italic;margin-bottom:10px;padding:8px 12px;background:#fef3c7;border-radius:6px;border-left:3px solid #d97706}
+
+/* Filter + legend row */
+.controls{display:flex;align-items:center;gap:24px;margin-bottom:22px;flex-wrap:wrap}
+.filter-grp{display:flex;align-items:center;gap:8px}
+.filter-grp label{font-weight:600;font-size:14px}
+.filter-grp select{padding:7px 12px;border-radius:8px;border:1px solid #cbd5e1;font-size:14px;background:#fff;cursor:pointer}
+.legend{display:flex;gap:22px;font-size:15px;font-weight:500}
+.legend-item{display:flex;align-items:center;gap:8px}
+.legend-sw{width:22px;height:22px;border-radius:5px;flex-shrink:0}
+
+/* Panels */
+.panel{background:var(--card);border-radius:14px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);margin-bottom:28px}
+.panel>h2{font-size:20px;font-weight:700;margin-bottom:18px}
+
+/* Group header */
+.gh{display:flex;align-items:center;gap:10px;padding:11px 8px;margin-top:14px;border-radius:8px;background:#f8fafc;cursor:pointer;user-select:none;transition:background .15s}
+.gh:first-child{margin-top:0}
+.gh:hover{background:#f1f5f9}
+.gh h3{font-size:14px;font-weight:700}
+.gh-stats{font-size:12px;color:var(--muted);font-weight:500}
+.gh-arrow{margin-left:auto;font-size:11px;color:var(--muted);transition:transform .2s}
+.gh-arrow.collapsed{transform:rotate(-90deg)}
+.g-body{overflow:hidden;transition:max-height .35s ease}
+.g-body.collapsed{max-height:0!important}
+
+/* Badges */
+.badge{display:inline-block;padding:2px 9px;border-radius:5px;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;white-space:nowrap;line-height:1.6}
+.b-CLOSED{background:#d1fae5;color:#065f46}
+.b-READY_DEPLOYMENT{background:#ccfbf1;color:#0f766e}
+.b-IN-DEVELOPMENT{background:#dbeafe;color:#1d4ed8}
+.b-READY_TO_DEVELOP{background:#ede9fe;color:#6d28d9}
+.b-DESIGN{background:#fef3c7;color:#92400e}
+.b-DISCOVER{background:#fce7f3;color:#9d174d}
+.b-Backlog{background:#f1f5f9;color:#475569}
+.b-BLOCKED{background:#fee2e2;color:#991b1b}
+
+/* Border colors */
+.bl-CLOSED{border-left-color:var(--closed)!important}
+.bl-READY_DEPLOYMENT{border-left-color:var(--readydeploy)!important}
+.bl-IN-DEVELOPMENT{border-left-color:var(--indev)!important}
+.bl-READY_TO_DEVELOP{border-left-color:var(--readydev)!important}
+.bl-DESIGN{border-left-color:var(--design)!important}
+.bl-DISCOVER{border-left-color:var(--discover)!important}
+.bl-Backlog{border-left-color:var(--backlog)!important}
+.bl-BLOCKED{border-left-color:var(--blocked)!important}
+
+/* Chart bar rows */
+.br{display:grid;grid-template-columns:370px 1fr 52px;align-items:center;gap:10px;padding:5px 0 5px 10px;border-bottom:1px solid #f1f5f9;border-left:3px solid transparent;transition:background .1s}
+.br:hover{background:#fafbfc}
+.br-lbl{display:flex;align-items:center;gap:7px;font-size:13px;line-height:1.35;min-width:0}
+.br-lbl a{color:var(--indev);text-decoration:none;font-weight:700;font-size:12px;white-space:nowrap;flex-shrink:0}
+.br-lbl a:hover{text-decoration:underline}
+.br-name{white-space:normal;word-break:break-word}
+
+/* Stacked bar track */
+.bt{height:26px;background:#eef2f6;border-radius:5px;display:flex;overflow:visible;position:relative}
+.bs{height:100%;display:flex;align-items:center;justify-content:center;border-radius:0;position:relative;overflow:visible}
+.bt .bs:first-child{border-radius:5px 0 0 5px}
+.bt .bs:last-child{border-radius:0 5px 5px 0}
+.bt .bs:only-child{border-radius:5px}
+.bs-d{background:var(--done)}.bs-i{background:var(--inprog)}.bs-t{background:var(--todo)}
+.bs-lbl{font-size:11px;font-weight:700;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.35);white-space:nowrap;pointer-events:none;line-height:1}
+.br-pct{font-size:13px;font-weight:700;text-align:right;white-space:nowrap;color:var(--text)}
+
+/* Details section */
+.details-scroll{max-height:720px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#cbd5e1 #f1f5f9}
+.details-scroll::-webkit-scrollbar{width:6px}
+.details-scroll::-webkit-scrollbar-track{background:#f1f5f9;border-radius:3px}
+.details-scroll::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:3px}
+.dc{padding:11px 0 11px 10px;border-bottom:1px solid #f1f5f9;border-left:3px solid transparent}
+.dc:hover{background:#fafbfc}
+.dc-top{display:flex;align-items:center;gap:9px;margin-bottom:7px;flex-wrap:wrap}
+.dc-top a{font-weight:700;color:var(--indev);text-decoration:none;font-size:14px}
+.dc-top a:hover{text-decoration:underline}
+.dc-name{font-size:13.5px;font-weight:500}
+.dc-prog{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.dc-bar{width:320px;max-width:100%;height:20px;background:#eef2f6;border-radius:5px;display:flex;overflow:visible;flex-shrink:0}
+.dc-bar .bs:first-child{border-radius:5px 0 0 5px}
+.dc-bar .bs:last-child{border-radius:0 5px 5px 0}
+.dc-bar .bs:only-child{border-radius:5px}
+.dc-pct{font-size:14px;font-weight:700;min-width:40px}
+.dc-counts{font-size:13px;color:var(--muted)}
+.dc-counts span{margin-right:10px}
+.dc-counts .cd{color:#16a34a;font-weight:600}
+.dc-counts .ci{color:#ca8a04;font-weight:600}
+.dc-counts .ct{color:#94a3b8;font-weight:600}
+
+@media(max-width:1000px){
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .br{grid-template-columns:220px 1fr 46px}
+  .comparison-cards{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .page{padding:16px}
+  .cards{grid-template-columns:1fr 1fr}
+  .br{grid-template-columns:1fr;gap:4px}
+  .br-lbl{grid-column:1/-1}
+  .week-selector-prominent select{max-width:100%}
+  .comparison-cards{grid-template-columns:1fr}
+}
+
+
+/* Meta Box - SIMPLE */
+.meta-box{background:#f8fafc;padding:12px 16px;border-radius:8px;border:1px solid #e2e8f0;margin-bottom:24px}
+
+/* Cards Grid - 4 cards total */
+.cards-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:28px}
+
+/* Epic arrow for collapse */
+.br{display:grid;grid-template-columns:370px 1fr 52px 20px;align-items:center;gap:10px;padding:5px 0 5px 10px;border-bottom:1px solid #f1f5f9;border-left:3px solid transparent;transition:background .1s;cursor:pointer}
+.br-arrow{font-size:11px;color:var(--muted);transition:transform .2s;text-align:center}
+.br-arrow.collapsed{transform:rotate(-90deg)}
+
+/* Workitems table colapsable */
+.workitems-section{max-height:0;overflow:hidden;transition:max-height .3s ease;background:#fafbfc;margin:8px 10px 0 10px;border-radius:6px}
+.workitems-section.open{max-height:2000px;padding:12px}
+.workitems-table{width:100%;border-collapse:collapse;font-size:12px}
+.workitems-table th{background:#fff;padding:8px;text-align:left;font-weight:600;color:var(--muted);border-bottom:2px solid #e2e8f0;font-size:11px;text-transform:uppercase}
+.workitems-table td{padding:8px;border-bottom:1px solid #e2e8f0}
+.workitem-key{color:var(--indev);font-weight:700;font-size:11px}
+.workitem-type{display:inline-block;padding:2px 6px;border-radius:3px;font-size:9px;font-weight:700;text-transform:uppercase}
+.type-story{background:#d1fae5;color:#065f46}
+.type-bug{background:#fee2e2;color:#991b1b}
+.type-task{background:#dbeafe;color:#1d4ed8}
+.type-spike{background:#fef3c7;color:#92400e}
+.type-techdebt{background:#f1f5f9;color:#475569}
+
+/* STATUS COLOREADO */
+.status-badge{display:inline-block;padding:3px 8px;border-radius:4px;font-size:10px;font-weight:700;text-transform:uppercase}
+.status-closed,.status-done{background:#d1fae5;color:#065f46}
+.status-in-development,.status-pr-created,.status-pr-merged{background:#dbeafe;color:#1d4ed8}
+.status-in-stage,.status-in-qa,.status-waiting-review,.status-ready-prod{background:#fef3c7;color:#92400e}
+.status-backlog,.status-ready-for-development,.status-on-hold{background:#f1f5f9;color:#475569}
+
+.priority-1\:urgent,.priority-2\:important{color:#dc2626;font-weight:700}
+.priority-3\:standard{color:#d97706;font-weight:600}
+
+/* WNI Section */
+.wni-section{background:var(--card);border-radius:14px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);margin-top:40px;border-top:4px solid #dc2626}
+.wni-section h2{font-size:20px;font-weight:700;margin-bottom:12px;color:#dc2626}
+.wni-note{background:#fee2e2;padding:12px 16px;border-radius:8px;border-left:4px solid #dc2626;margin-bottom:16px;font-size:13px;color:#991b1b}
+.wni-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));gap:8px}
+.wni-item{padding:8px 12px;background:#fafbfc;border-radius:6px;border-left:3px solid #dc2626;font-size:12px}
+.wni-item-key{color:#dc2626;font-weight:700;margin-right:8px}
+
+</style>
+</head>
+<body>
+<div class="page">
+<div class="header">
+  <h1>Launch Loyalty — Epic Status Report</h1>
+</div>
+
+<div class="meta-box">
+  <div class="meta-line" style="font-size:16px;font-weight:700;color:var(--text);margin-bottom:8px">Release: R9.3 — May 1, 2026</div>
+  <div class="meta-line"><strong>Report Date:</strong> April 6, 2026</div>
+  <div class="meta-line"><strong>Active Scope:</strong> 9 Epics, 51 Workitems</div>
+  <div class="meta-line"><strong>Project Context:</strong> ~245 workitems in active epics (21% in this release)</div>
+  <div class="meta-line"><strong>Excluded from Project:</strong> 23 Will Not Implement epics, 6 Reenbit epics</div>
+</div>
+
+<div class="cards-grid">
+  <div class="card">
+    <div class="circ-wrap">
+      <svg viewBox="0 0 110 110">
+        <circle class="circ-bg" cx="55" cy="55" r="48"></circle>
+        <circle class="circ-fg" cx="55" cy="55" r="48" stroke-dasharray="301.6" stroke-dashoffset="148"></circle>
+      </svg>
+      <div class="circ-pct">51%</div>
+    </div>
+    <div class="card-lbl" style="margin-top:8px">51 Total Workitems</div>
+  </div>
+  <div class="card">
+    <div class="card-val v-done">26</div>
+    <div class="card-lbl">Done</div>
+  </div>
+  <div class="card">
+    <div class="card-val v-ip">6</div>
+    <div class="card-lbl">In Progress</div>
+  </div>
+  <div class="card">
+    <div class="card-val v-todo">19</div>
+    <div class="card-lbl">To Do</div>
+  </div>
+</div>
+
+<div class="panel">
+  <h2>Epics in R9.3 (9 total)</h2>
+  <div id="statusGroups"></div>
+</div>
+
+<div class="wni-section">
+  <h2>⚠️ Will Not Implement Epics (Project Reference)</h2>
+  <div class="wni-note">
+    <strong>Context:</strong> These 23 epics from the overall LL project have been marked as "Will Not Implement" and are excluded from all active metrics and releases.
+  </div>
+  <div class="wni-list" id="wniList"></div>
+</div>
+
+</div>
+
+<script>
+const DATA = {"total_workitems_r93":51,"total_workitems_project":245,"completed":26,"epics_by_status":{"IN-DEVELOPMENT":[{"key":"LL-300","name":"PMP - Create Plan Details Section","isReebit":false,"workitems":[{"key":"LL-508","summary":"PMP/Plan Details Email/Header for Plan Details Notification needs to subject specific","status":"In Development","type":"Bug","isReebit":false,"priority":"1: Urgent","assignee":"Hernan Camacho"},{"key":"LL-733","summary":"Member does not receive Plan Details Email on selecting Send Plan Details button in PMP","status":"Closed","type":"Bug","isReebit":false,"priority":"2: Important","assignee":"Chris Rubio"},{"key":"LL-509","summary":"PMP/Plan Details Email/Phone number and Email address in the footer does not correspond to Brand set in CSP and System settings","status":"Closed","type":"Bug","isReebit":false,"priority":"1: Urgent","assignee":"Chris Rubio"},{"key":"LL-413","summary":"Email PDF Details","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-342","summary":"[Refactor] PMP - Create Plan Details Section","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"}],"progress":{"done":4,"inProgress":1,"todo":0,"total":5,"percent_done":80,"percent_ip":20,"percent_todo":0,"percent":80}},{"key":"LL-308","name":"LL Dynamic Support Contact Info Displayed Across Portals","isReebit":false,"workitems":[{"key":"LL-525","summary":"Story 2.1: Audit Templates & Update Membership Agreement PDF","status":"In Development","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-547","summary":"Story 5.2: Shared npm Package - Add SupportInfoService","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Hernan Camacho"},{"key":"LL-544","summary":"Story 1.4: Data Migration Verification & Audit Scripts","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-542","summary":"Story 1.3: Create New Lightweight Support Info Endpoint","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-541","summary":"Story 1.2: Add Caching Layer for Support Info Resolution","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-540","summary":"Story 1.1: Extract Shared Resolution Method & Add Resolution Logging","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-526","summary":"Story 2.2 Dynamically Display Support Contact Info in Plan Details PDF and Membership Cards","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Hernan Camacho"},{"key":"LL-529","summary":"Story 5.4: SmileHealth Portal - Integrate Plan-Specific Support Info","status":"Ready for Development","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Marcos Mart\u00ednez"},{"key":"LL-546","summary":"Story 5.1: BFF - Add Support Info Endpoint to Purchase Widget API","status":"Ready Prod","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Hernan Camacho"},{"key":"LL-545","summary":"MP Support Contact Story 3.2: Member Portal Support Page/Modal with All Contact Fields","status":"In Stage","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Valentyna Tenus"},{"key":"LL-344","summary":"MP Support Contact Story 3.1 Dynamically Display Support Contact Info in Member Portal","status":"In Stage","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Valentyna Tenus"}],"progress":{"done":6,"inProgress":4,"todo":1,"total":11,"percent_done":55,"percent_ip":36,"percent_todo":9,"percent":55}},{"key":"LL-350","name":"LL Updates to Plan Details PDF","isReebit":false,"workitems":[{"key":"LL-441","summary":"FE - Plan Details PDF Styling Matches Figma","status":"Closed","type":"Story","isReebit":false,"priority":"2: Important","assignee":"Hernan Camacho"},{"key":"LL-435","summary":"Plan Details PDF to use Marketing Data for Included Benefits","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-317","summary":"Update Plan Details PDF to Dynamically Display All Plan Details","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"}],"progress":{"done":3,"inProgress":0,"todo":0,"total":3,"percent_done":100,"percent_ip":0,"percent_todo":0,"percent":100}},{"key":"LL-354","name":"PMP and Purchase Portals - Plan is Tied to Practice at Time of Purchase","isReebit":false,"workitems":[{"key":"LL-637","summary":"Smile Health/User can close the practice selection pop-up without selecting a practice","status":"Closed","type":"Bug","isReebit":false,"priority":"2: Important","assignee":"Hernan Camacho"},{"key":"LL-631","summary":"LL - Close button is misaligned and appears outside of modal container","status":"Closed","type":"Bug","isReebit":false,"priority":"1: Urgent","assignee":"Hernan Camacho"},{"key":"LL-438","summary":"SmileHealth - Practice Search Component on Org-Level URLS","status":"Closed","type":"Story","isReebit":false,"priority":"2: Important","assignee":"Marcos Mart\u00ednez"},{"key":"LL-437","summary":"SmileHealth - Org URL Practice Selection","status":"Closed","type":"Story","isReebit":false,"priority":"2: Important","assignee":"Marcos Mart\u00ednez"},{"key":"LL-406","summary":"[Test] SmileHealth - Office-Specific URL Auto-Ties Practice at Purchase","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-404","summary":"[Test] PMP - Office-Level User Auto-Tie Plan Purchase to Practice","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"}],"progress":{"done":6,"inProgress":0,"todo":0,"total":6,"percent_done":100,"percent_ip":0,"percent_todo":0,"percent":100}},{"key":"LL-398","name":"RE - LL Smile Health Updates","isReebit":true,"workitems":[{"key":"LL-467","summary":"Additional Benefits - Add New Provider Search Codes from Careington","status":"Closed","type":"Story","isReebit":true,"priority":"2: Important","assignee":"Chris Rubio"},{"key":"LL-458","summary":"SmileHealth - Additional Benefits Page - Provider Search Link","status":"Closed","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-457","summary":"SmileHealth - Additional Benefits Page - Benefit Details Display","status":"Closed","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-456","summary":"SmileHealth - Plan Benefits - Additional Benefits Link","status":"Closed","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Chris Rubio"}],"progress":{"done":4,"inProgress":0,"todo":0,"total":4,"percent_done":100,"percent_ip":0,"percent_todo":0,"percent":100}},{"key":"LL-575","name":"Updates to Benefit Summary","isReebit":true,"workitems":[{"key":"LL-585","summary":"Story 3.2: WellFit Pay Benefit Drilldown Expansion and Visibility","status":"In Development","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Marcos Mart\u00ednez"},{"key":"LL-584","summary":"Story 3.1: Marketplace API ADA Code Description Enrichment","status":"Closed","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"},{"key":"LL-582","summary":"Story 2.1: Treatment API BFF Benefit Summary Proxy Endpoint","status":"PR Created","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Nazarii  Polinyk"},{"key":"LL-583","summary":"Story 2.2: Member Portal Benefit Summary Display and Visibility","status":"In Stage","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Valentyna Tenus"},{"key":"LL-581","summary":"Story 1.1: Add HasBenefitSummary Visibility Flag to Plans API","status":"In Stage","type":"Story","isReebit":false,"priority":"3: Standard","assignee":"Chris Rubio"}],"progress":{"done":1,"inProgress":4,"todo":0,"total":5,"percent_done":20,"percent_ip":80,"percent_todo":0,"percent":20}}],"DESIGN":[{"key":"LL-362","name":"Data Services - Daily Data Pull - Additional Benefit Verbiage","isReebit":false,"workitems":[{"key":"LL-503","summary":"Additional Benefits - Link to Stored Verbiage in SmileHealth","status":"Closed","type":"Story","isReebit":false,"priority":"2: Important","assignee":"Chris Rubio"},{"key":"LL-504","summary":"Additional Benefits - Update Details and Link to Stored Verbiage in Plan Details PDF","status":"In QA","type":"Story","isReebit":false,"priority":"2: Important","assignee":"Hernan Camacho"},{"key":"LL-477","summary":"PMP - Update Data Displayed in Additional Benefits View","status":"In Stage","type":"Story","isReebit":false,"priority":"2: Important","assignee":"Chris Rubio"}],"progress":{"done":1,"inProgress":2,"todo":0,"total":3,"percent_done":33,"percent_ip":67,"percent_todo":0,"percent":33}}],"Backlog":[{"key":"LL-532","name":"PMP Updates Pending Other Teams","isReebit":false,"workitems":[{"key":"LL-442","summary":"PMP - Plan Details - No plans found when not wellfitpay.admin login","status":"Ready Prod","type":"Bug","isReebit":false,"priority":"1: Urgent","assignee":"Vivienne Chawande"}],"progress":{"done":0,"inProgress":1,"todo":0,"total":1,"percent_done":0,"percent_ip":100,"percent_todo":0,"percent":0}},{"key":"LL-601","name":"Updates to Marketing Details","isReebit":false,"workitems":[{"key":"LL-617","summary":"4.2: PDF Exception Asterisks & Footnotes","status":"Backlog","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Dima Shtympel"},{"key":"LL-616","summary":"4.1: PDF Benefit Table \u2014 Structured Column Display","status":"Backlog","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Dima Shtympel"},{"key":"LL-615","summary":"3.3: Common Dental Plan Savings Display","status":"Backlog","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Unassigned"},{"key":"LL-614","summary":"3.2: Benefit Details \u2014 Exception Asterisks & Footnotes","status":"Backlog","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Unassigned"},{"key":"LL-613","summary":"3.1: Benefit Details \u2014 Pricing Columns, You Save Display & Column Visibility","status":"Backlog","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Unassigned"},{"key":"LL-611","summary":"2.3: CSP Admin UI \u2014 Benefit Details Structured Entry","status":"Backlog","type":"Story","isReebit":true,"priority":"3: Standard","assignee":"Unassigned"},{"key":"LL-610","summary":"2.2: Validation Rules \u2014 Section-Aware Field Validation","status":"Backlog","type":"Story","isReebit":true,"priority":"2: Important","assignee":"Petro Yarish"},{"key":"LL-609","summary":"2.1: Save Endpoint \u2014 Structured Marketing Detail Write Path","status":"Backlog","type":"Story","isReebit":true,"priority":"2: Important","assignee":"Petro Yarish"},{"key":"LL-608","summary":"1.5: Treatment API Read Path \u2014 SGDP Backward Compatibility","status":"Backlog","type":"Story","isReebit":true,"priority":"2: Important","assignee":"Petro Yarish"},{"key":"LL-607","summary":"1.4: Plans API Read Path Integration","status":"Backlog","type":"Story","isReebit":true,"priority":"2: Important","assignee":"Yurii  Mochulskyi"},{"key":"LL-606","summary":"1.3: MarketingDetailResolver \u2014 Core Resolution Logic","status":"Backlog","type":"Story","isReebit":true,"priority":"2: Important","assignee":"Dima Shtympel"},{"key":"LL-605","summary":"1.2: Database Migration & Dual-Architecture Entity Updates","status":"Backlog","type":"Story","isReebit":true,"priority":"2: Important","assignee":"Yurii  Mochulskyi"},{"key":"LL-604","summary":"1.1: Discovery \u2014 CategoryName-to-SectionType Mapping","status":"Backlog","type":"Spike","isReebit":true,"priority":"2: Important","assignee":"Yurii  Mochulskyi"}],"progress":{"done":0,"inProgress":0,"todo":13,"total":13,"percent_done":0,"percent_ip":0,"percent_todo":100,"percent":0}}]},"status_summary":{"IN-DEVELOPMENT":{"epic_count":6,"total_workitems":34,"done_workitems":24,"percent":71,"ip_workitems":9,"todo_workitems":1},"DESIGN":{"epic_count":1,"total_workitems":3,"done_workitems":1,"percent":33,"ip_workitems":2,"todo_workitems":0},"Backlog":{"epic_count":2,"total_workitems":14,"done_workitems":0,"percent":0,"ip_workitems":1,"todo_workitems":13}}};
+const WNI = [{"key":"LL-14","summary":"Provider Portal - honor max number of people"},{"key":"LL-19","summary":"Enable Dynamic Website Display of Custom Plan Details"},{"key":"LL-27","summary":"Display Dynamic Exclusions"},{"key":"LL-30","summary":"Renewal Payment Processing for LL Plans"},{"key":"LL-33","summary":"CRM Communication Plan for Transition to Members"},{"key":"LL-42","summary":"Smile Health Website - Plans Details Page Changes"},{"key":"LL-43","summary":"Dynamic Support Contact Configuration"},{"key":"LL-49","summary":"Plan Design Changes to Intake in Plan Rules Set Up"},{"key":"LL-54","summary":"Plan design details to Dynamically drive Benefit summaries"},{"key":"LL-55","summary":"Plan Design Details to dynamically load Plan details document"},{"key":"LL-63","summary":"Delete - Plan details to Dynamically drive CRM communication"},{"key":"LL-67","summary":"CSP - Plan Management - Sales Details"},{"key":"LL-179","summary":"Smile Health Location selection in Widget"},{"key":"LL-180","summary":"Take in Picture Selection"},{"key":"LL-193","summary":"PMP - Display Patient Home Office on Profile"},{"key":"LL-227","summary":"Plans Marketplace - Honor max number of people"},{"key":"LL-228","summary":"CSP - Honor max number of people"},{"key":"LL-233","summary":"Member portal honor max number of people"},{"key":"LL-242","summary":"First Round of Data Migration for Launch Loyalty to QA"},{"key":"LL-301","summary":"Purchase Portal/Smile Health - Display Max Number of People"},{"key":"LL-312","summary":"LL Discovery For New Integrated Schedule Widget Needed"},{"key":"LL-357","summary":"ACH Frontend - Audit Trail Recording Widget"},{"key":"LL-374","summary":"Workflow Test"}];
+
+let epicToggleState = {};
+
+const STATUS_ORDER = {
+  'Closed': 1, 'Done': 2,
+  'In Stage': 3, 'Ready Prod': 4, 'In QA': 5, 'PR Merged': 6, 'PR Created': 7, 'WAITING REVIEW': 8, 'In Development': 9,
+  'Ready for Development': 10, 'On Hold': 11, 'Backlog': 12
+};
+
+function toggle(id){
+  document.getElementById(id).classList.toggle('collapsed');
+  document.getElementById(id+'-a').classList.toggle('collapsed');
+}
+
+function toggleEpic(epicKey){
+  const section = document.getElementById('workitems-'+epicKey);
+  const arrow = document.getElementById('arrow-'+epicKey);
+  epicToggleState[epicKey] = !epicToggleState[epicKey];
+  section.classList.toggle('open');
+  arrow.classList.toggle('collapsed');
+}
+
+function esc(str){
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function jira(key){
+  return `https://wellfit.atlassian.net/browse/${key}`;
+}
+
+function statusClass(status){
+  return 'status-' + status.toLowerCase().replace(/ /g,'-');
+}
+
+function renderStatusGroups(){
+  const statusOrder = ['IN-DEVELOPMENT', 'DESIGN', 'Backlog'];
+  let html = '';
+  let gid = 0;
+  
+  statusOrder.forEach(status => {
+    const epics = DATA.epics_by_status[status];
+    if(!epics || epics.length === 0) return;
+    
+    const summary = DATA.status_summary[status];
+    const grpId = 'g'+gid++;
+    const badgeClass = 'b-' + status.replace(/ /g, '_');
+    
+    html += `<div class="gh" onclick="toggle('${grpId}')">`;
+    html += `<h3><span class="badge ${badgeClass}">${status}</span> ${status}</h3>`;
+    html += `<span class="gh-stats">${summary.epic_count} epics, ${summary.total_workitems} workitems, ${summary.done_workitems} done (${summary.percent}%)</span>`;
+    html += `<span class="gh-arrow" id="${grpId}-a">&#9660;</span>`;
+    html += `</div>`;
+    
+    html += `<div class="g-body" id="${grpId}">`;
+    
+    epics.forEach(epic => {
+      const prog = epic.progress;
+      const reenbityTag = epic.isReebit ? '<span class="reenbit-tag">Reenbit</span>' : '';
+      
+      epicToggleState[epic.key] = false;
+      
+      html += `<div style="margin-bottom:4px">`;
+      html += `<div class="br" onclick="toggleEpic('${epic.key}')">`;
+      html += `<div class="br-lbl">`;
+      html += `<a href="${jira(epic.key)}" target="_blank" onclick="event.stopPropagation()">${epic.key}</a>`;
+      html += `<span class="br-name">${esc(epic.name)}</span>${reenbityTag}`;
+      html += `</div>`;
+      
+      html += `<div class="bt">`;
+      if(prog.done > 0){
+        html += `<div class="bs bs-d" style="width:${prog.percent_done}%">`;
+        html += `<span class="bs-lbl">${prog.done}</span>`;
+        html += `</div>`;
+      }
+      if(prog.inProgress > 0){
+        html += `<div class="bs bs-i" style="width:${prog.percent_ip}%">`;
+        html += `<span class="bs-lbl">${prog.inProgress}</span>`;
+        html += `</div>`;
+      }
+      if(prog.todo > 0){
+        html += `<div class="bs bs-t" style="width:${prog.percent_todo}%">`;
+        html += `<span class="bs-lbl">${prog.todo}</span>`;
+        html += `</div>`;
+      }
+      html += `</div>`;
+      html += `<div class="br-pct">${prog.percent}%</div>`;
+      html += `<span class="br-arrow collapsed" id="arrow-${epic.key}">&#9660;</span>`;
+      html += `</div>`;
+      
+      const sortedWorkitems = [...epic.workitems].sort((a,b) => {
+        const orderA = STATUS_ORDER[a.status] || 999;
+        const orderB = STATUS_ORDER[b.status] || 999;
+        return orderA - orderB;
+      });
+      
+      html += `<div class="workitems-section" id="workitems-${epic.key}">`;
+      html += `<table class="workitems-table">`;
+      html += `<thead><tr>`;
+      html += `<th>Key</th><th>Summary</th><th>Status</th><th>Type</th><th>Priority</th><th>Assignee</th>`;
+      html += `</tr></thead>`;
+      html += `<tbody>`;
+      
+      sortedWorkitems.forEach(w => {
+        const wReenbit = w.isReebit ? ' <span class="reenbit-tag">Reenbit</span>' : '';
+        const typeClass = 'type-' + w.type.toLowerCase().replace(' ','');
+        const prioClass = w.priority ? 'priority-' + w.priority.toLowerCase().replace(/ /g,'-').replace(/:/g,'\\:') : '';
+        const statusBadgeClass = statusClass(w.status);
+        
+        html += `<tr>`;
+        html += `<td><a href="${jira(w.key)}" target="_blank" class="workitem-key">${w.key}</a></td>`;
+        html += `<td>${esc(w.summary)}${wReenbit}</td>`;
+        html += `<td><span class="status-badge ${statusBadgeClass}">${w.status}</span></td>`;
+        html += `<td><span class="workitem-type ${typeClass}">${w.type}</span></td>`;
+        html += `<td class="${prioClass}">${w.priority || 'None'}</td>`;
+        html += `<td>${w.assignee}</td>`;
+        html += `</tr>`;
+      });
+      
+      html += `</tbody></table>`;
+      html += `</div>`;
+      html += `</div>`;
+    });
+    
+    html += `</div>`;
+  });
+  
+  document.getElementById('statusGroups').innerHTML = html;
+}
+
+function renderWNI(){
+  let html = '';
+  WNI.forEach(epic => {
+    html += `<div class="wni-item">`;
+    html += `<a href="${jira(epic.key)}" target="_blank" class="wni-item-key">${epic.key}</a>`;
+    html += `${esc(epic.summary)}`;
+    html += `</div>`;
+  });
+  document.getElementById('wniList').innerHTML = html;
+}
+
+renderStatusGroups();
+renderWNI();
+</script>
+</body>
+</html>
