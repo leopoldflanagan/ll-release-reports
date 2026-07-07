@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LL QA Roadmap — Feature Delivery to QA</title>
+<style>
+  :root{
+    --blue:#1B5FA8; --navy:#123E6B; --green:#4CAF2E;
+    --ink:#0f1f30; --muted:#5a6b7d; --line:#e3e9f0; --bg:#f6f8fb;
+    --amber:#E8A317; --red:#D64545; --purple:#7A5FB0;
+    --track:#eef2f7;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:var(--bg); line-height:1.45; padding:32px 24px 64px;
+  }
+  .wrap{max-width:1180px;margin:0 auto}
+  header{margin-bottom:8px}
+  .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:700}
+  h1{font-size:26px;color:var(--navy);margin:4px 0 6px;font-weight:800;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:14px;max-width:70ch}
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin:20px 0 8px;align-items:center;font-size:12.5px;color:var(--muted)}
+  .legend b{color:var(--ink);font-weight:600}
+  .chip{display:inline-flex;align-items:center;gap:6px}
+  .sw{width:14px;height:14px;border-radius:3px;display:inline-block}
+  .sw.dev{background:var(--amber)} .sw.test{background:var(--purple)} .sw.ready{background:var(--green)} .sw.late{background:var(--red)}
+  .board{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:visible;margin-top:14px;box-shadow:0 1px 3px rgba(18,62,107,.05)}
+  .scalerow{border-top-left-radius:12px;border-top-right-radius:12px;overflow:hidden}
+  .scalerow{display:grid;grid-template-columns:320px 1fr;border-bottom:2px solid var(--navy)}
+  .scalerow .corner{padding:10px 14px;font-size:12px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.06em;border-right:1px solid var(--line)}
+  .weeks{display:grid}
+  .weekhead{display:flex;flex-direction:column;justify-content:center;align-items:center;font-size:11px;color:var(--muted);padding:6px 2px;border-left:1px solid var(--line);text-align:center}
+  .weekhead b{color:var(--navy);font-size:11.5px;font-weight:700;display:block}
+  .weekhead.freeze{background:rgba(214,69,69,.06)}
+  .group{border-bottom:1px solid var(--line)}
+  .grouphead{background:var(--navy);color:#fff;padding:7px 14px;font-size:12.5px;font-weight:700;letter-spacing:.02em;display:flex;justify-content:space-between}
+  .grouphead .rng{opacity:.7;font-weight:500}
+  .row{display:grid;grid-template-columns:320px 1fr;border-top:1px solid var(--line);min-height:44px}
+  .row:hover{background:#fafcff}
+  .cellL{padding:8px 14px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;gap:2px}
+  .fkey{font-size:11px;color:var(--blue);font-weight:700;font-variant-numeric:tabular-nums}
+  .fname{font-size:12.5px;color:var(--ink);font-weight:500;line-height:1.25}
+  .fmeta{font-size:10.5px;color:var(--muted)}
+  .lane{position:relative;display:grid}
+  .gridcell{border-left:1px solid var(--line)}
+  .gridcell.freeze{background:rgba(214,69,69,.05)}
+  .bar{position:absolute;top:50%;transform:translateY(-50%);height:22px;border-radius:5px;display:flex;align-items:center;padding:0 8px;font-size:10.5px;font-weight:600;color:#fff;white-space:nowrap;overflow:visible;box-shadow:0 1px 2px rgba(0,0,0,.12);text-decoration:none;cursor:pointer;transition:filter .12s,box-shadow .12s}
+  .bar:hover{filter:brightness(1.06);box-shadow:0 2px 6px rgba(0,0,0,.22)}
+  .bar:focus-visible{outline:2px solid var(--navy);outline-offset:2px}
+  .bar.dev{background:var(--amber)} .bar.test{background:var(--purple)} .bar.ready{background:var(--green)} .bar.late{background:var(--red)}
+  .bar .dot{width:6px;height:6px;border-radius:50%;background:#fff;margin-right:5px;flex:none}
+  .bartip{position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--navy);color:#fff;padding:8px 11px;border-radius:8px;font-size:11.5px;font-weight:500;line-height:1.4;white-space:normal;width:max-content;max-width:260px;box-shadow:0 4px 14px rgba(0,0,0,.28);opacity:0;visibility:hidden;transition:opacity .12s;z-index:20;pointer-events:none;text-align:left}
+  .bartip b{color:#fff;font-weight:700}
+  .bartip i{color:#b9c9dc;font-style:normal;font-size:10.5px}
+  .bartip::after{content:"";position:absolute;top:100%;left:50%;transform:translateX(-50%);border:6px solid transparent;border-top-color:var(--navy)}
+  .bar:hover .bartip{opacity:1;visibility:visible}
+  a.fkey{text-decoration:none;cursor:pointer}
+  a.fkey:hover{text-decoration:underline}
+  a.k{text-decoration:none;cursor:pointer}
+  a.k:hover{text-decoration:underline}
+  .flag{position:absolute;top:0;bottom:0;width:2px;background:var(--red);z-index:3}
+  .flag span{position:absolute;top:-2px;left:4px;font-size:9.5px;color:var(--red);font-weight:700;white-space:nowrap;background:rgba(255,255,255,.85);padding:1px 3px;border-radius:3px}
+  .foot{margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+  .card h3{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--navy);margin-bottom:10px}
+  .card.pending h3{color:var(--red)}
+  /* peek list: show ~5.5 rows collapsed with fade, then See more */
+  ul.plist.peek{position:relative;overflow:hidden;transition:max-height .2s}
+  ul.plist.peek.collapsed{max-height:var(--peek-h,232px)}
+  ul.plist.peek.collapsed::after{content:"";position:absolute;left:0;right:0;bottom:0;height:52px;background:linear-gradient(to bottom,rgba(255,255,255,0),#fff);pointer-events:none}
+  .seemore{appearance:none;margin-top:10px;background:#fff;border:1px solid var(--line);color:var(--blue);font-weight:700;font-size:12.5px;padding:7px 14px;border-radius:8px;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:6px}
+  .seemore:hover{border-color:var(--blue);background:#f4f8fc}
+  .seemore::after{content:"▾";font-size:11px}
+  .seemore.open::after{content:"▴"}
+  .plist{list-style:none;font-size:12.5px}
+  .plist li{padding:5px 0;border-bottom:1px dashed var(--line);display:flex;justify-content:space-between;gap:10px}
+  .plist li:last-child{border-bottom:0}
+  .plist .k{color:var(--blue);font-weight:700;flex:none}
+  .plist .who{color:var(--muted);font-size:11.5px}
+  .tag{font-size:10px;font-weight:700;padding:1px 6px;border-radius:20px;text-transform:uppercase;letter-spacing:.03em}
+  .tag.late{background:rgba(214,69,69,.12);color:var(--red)}
+  .tag.none{background:rgba(90,107,125,.12);color:var(--muted)}
+  .note{font-size:11.5px;color:var(--muted);margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+  /* tabs */
+  .tabs{display:flex;gap:4px;margin:18px 0 0;border-bottom:2px solid var(--line)}
+  .tab{appearance:none;background:none;border:0;padding:10px 18px;font-size:13px;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;font-family:inherit}
+  .tab:hover{color:var(--navy)}
+  .tab.active{color:var(--blue);border-bottom-color:var(--blue)}
+  .panel{display:none}
+  .panel.active{display:block}
+  /* data table */
+  .xref{width:100%;border-collapse:collapse;margin-top:16px;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
+  .xref thead th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+  .xref tbody td{padding:9px 12px;border-top:1px solid var(--line);vertical-align:top}
+  .xref tbody tr:hover{background:#fafcff}
+  .xref a{color:var(--blue);font-weight:700;text-decoration:none}
+  .xref a:hover{text-decoration:underline}
+  .pod{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:20px;background:rgba(27,95,168,.1);color:var(--blue)}
+  .pill{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;letter-spacing:.02em}
+  .pill.testing{background:rgba(122,95,176,.14);color:var(--purple)}
+  .pill.dev{background:rgba(232,163,23,.16);color:#9a6a06}
+  .pill.hold{background:rgba(90,107,125,.14);color:var(--muted)}
+  .pill.idea{background:rgba(27,95,168,.1);color:var(--blue)}
+  .pill.closed{background:rgba(76,175,46,.14);color:#2f7d1c}
+  .lbl{font-size:10px;color:var(--muted);background:var(--track);padding:1px 6px;border-radius:4px;margin-right:3px;white-space:nowrap}
+  .muted-date{color:var(--muted)}
+  .xnote{font-size:12px;color:var(--muted);margin-top:12px}
+  .themebtns{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+  .themefilter{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
+  .themefilter:hover{border-color:var(--blue);color:var(--blue)}
+  .themefilter.active{background:var(--blue);border-color:var(--blue);color:#fff}
+  .podbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
+  .podbtn:hover{border-color:var(--blue);color:var(--blue)}
+  .podbtn.active{background:var(--blue);border-color:var(--blue);color:#fff}
+  .tbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
+  .tbtn:hover{border-color:var(--green);color:var(--green)}
+  .tbtn.active{background:var(--green);border-color:var(--green);color:#fff}
+  .filterrow{display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap}
+  .flabel{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;min-width:44px}
+  .proj{display:inline-block;padding:2px 7px;border-radius:4px;background:#eef2f7;color:var(--navy);font-size:11px;font-weight:700}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:16px}
+  .sc{padding:16px 18px}
+  .sctitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
+  .bignum{font-size:38px;font-weight:800;color:var(--blue);line-height:1}
+  .scsub{font-size:12px;color:var(--muted);margin-top:6px}
+  .scgrid{display:flex;flex-direction:column;gap:6px}
+  .scell{display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .sk{font-size:13px;color:var(--ink)}
+  .sv{font-size:13px;font-weight:700;color:var(--navy);background:#eef2f7;border-radius:10px;padding:1px 9px;min-width:26px;text-align:center}
+  .segbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 14px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
+  .segbtn:hover{border-color:var(--navy);color:var(--navy)}
+  .segbtn.active{background:var(--navy);border-color:var(--navy);color:#fff}
+  .bugcol{margin-top:20px}
+  .bugcolhead{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:2px solid var(--line);margin-bottom:8px}
+  .bugcolhead.near{border-bottom-color:var(--green)}
+  .bugcolhead.back{border-bottom-color:#cbd5e1}
+  .bugcount{font-size:12px;font-weight:700;color:var(--navy);background:#eef2f7;border-radius:10px;padding:1px 9px}
+  .bugtbl{margin-top:0}
+  .sprint{display:inline-block;padding:1px 7px;border-radius:4px;background:#f3e8ff;color:#6b21a8;font-size:11px;font-weight:600}
+  .warnico{display:inline-block;color:var(--red);font-weight:700;margin-right:5px;cursor:help}
+  .sztag{color:var(--muted)}
+  /* card-as-filter */
+  .bugcardbtn{appearance:none;text-align:left;font-family:inherit;cursor:pointer;border:1px solid var(--line);transition:border-color .12s,box-shadow .12s,transform .08s}
+  .bugcardbtn:hover{border-color:var(--blue);box-shadow:0 2px 8px rgba(18,62,107,.1)}
+  .bugcardbtn.sel{border-color:var(--blue);box-shadow:0 0 0 2px rgba(27,95,168,.25)}
+  .pctrow{margin-top:6px;font-size:12px;color:var(--muted)}
+  .pctnum{font-weight:800;color:var(--navy);font-size:14px}
+  .pctbar{margin-top:6px;height:6px;border-radius:4px;background:var(--track);overflow:hidden}
+  .pctbar span{display:block;height:100%;background:var(--blue);border-radius:4px}
+  /* visible status header in bug board */
+  .colstatus{font-size:13px;font-weight:800;color:#fff;background:var(--navy);padding:4px 12px;border-radius:6px;letter-spacing:.01em}
+  .bugcolhead.near .colstatus{background:var(--green)}
+  .bugcolhead.back .colstatus{background:#7c8a99}
+  .colstatus.hold{background:var(--red)}
+  /* On Hold status filter chip */
+  .holdchip{margin-left:14px;border-color:var(--red)!important;color:var(--red)!important}
+  .holdchip:hover{border-color:var(--red)!important;color:var(--red)!important}
+  .holdchip.active{background:var(--red)!important;border-color:var(--red)!important;color:#fff!important}
+  /* sortable table headers */
+  th.sortable{cursor:pointer;user-select:none;white-space:nowrap}
+  th.sortable:hover{background:#1b4d82}
+  th.sortable::after{content:"⇅";opacity:.4;margin-left:5px;font-size:10px}
+  th.sortable.sort-asc::after{content:"▲";opacity:1;margin-left:5px;font-size:9px}
+  th.sortable.sort-desc::after{content:"▼";opacity:1;margin-left:5px;font-size:9px}
+  /* T-shirt size pills */
+  .tshirt{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:20px}
+  .t-small{background:#e6f4ea;color:#2f7d1c}
+  .t-moderate{background:#e7f0fb;color:var(--blue)}
+  .t-large{background:#fef3d9;color:#9a6a06}
+  .t-xlarge{background:#fde8d6;color:#b45309}
+  .t-huge{background:#fbe0e0;color:var(--red)}
+  .datasrc{margin-top:32px;padding:16px 18px;border-top:1px solid var(--line);display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;font-size:12.5px}
+  .datasrc .dslabel{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+  .datasrc a{color:var(--blue);font-weight:700;text-decoration:none}
+  .datasrc a:hover{text-decoration:underline}
+  .datasrc .dsnote{color:var(--muted)}
+  @media(max-width:820px){
+    .scalerow,.row{grid-template-columns:180px 1fr}
+    .foot{grid-template-columns:1fr}
+    .fname{font-size:11.5px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Launch Loyalty · QA Delivery</div>
+    <h1>QA Roadmap — Features Inbound to Testing</h1>
+    <p class="sub">Each bar sits on the Dev-estimated <b>Target End date</b> — when the Feature is expected to reach Stage for QA. Grouped by QA week through the R9.7 freeze. Read it left to right: what lands soonest is what QA plans first.</p>
+  </header>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="all">Active Features</button>
+    <button class="tab" data-tab="allroadmap">All PODs QA Roadmap</button>
+    <button class="tab" data-tab="bugs">Active Bugs</button>
+  </div>
+
+  <div class="panel active" id="panel-all">
+    <p class="sub" style="margin-top:16px">Active LL Features (Pod = LL), ordered by workflow status — top of the list is closest to Closed, bottom is Backlog. Closed features are excluded. Filter by Release or Status.</p>
+    <div class="cards" id="allcards"></div>
+    <div class="filterrow"><span class="flabel">Release</span>
+    <div class="themebtns" id="relfilter"></div></div>
+    <div class="filterrow"><span class="flabel">Status</span>
+    <div class="themebtns" id="allstatusfilter"></div></div>
+    <table class="xref">
+      <thead>
+        <tr><th>Feature</th><th class="sortable" data-sort="status">Status</th><th class="sortable" data-sort="release">Release</th><th class="sortable" data-sort="ted">Target End</th><th class="sortable" data-sort="size">Size</th><th>Owner</th></tr>
+      </thead>
+      <tbody id="allbody"></tbody>
+    </table>
+    <p class="xnote" id="allnote"></p>
+  </div>
+
+  <div class="panel" id="panel-allroadmap">
+    <p class="sub" style="margin-top:16px">Consolidated QA delivery roadmap. Work still in build is placed by Dev-estimated <b>Target End date</b> through the R9.7 freeze — read left to right, soonest first. Anything already <b>In Testing</b> is pulled out into a separate <b>QA Ready / In Progress</b> lane at the top (it's already with QA, so its date no longer matters). Bar length reflects the feature's T-shirt size; blocked/on-hold shows red with a Spotlight note on hover; a ⚠ marks a date that has passed without reaching Testing.</p>
+    <div class="filterrow"><span class="flabel">Segment</span>
+    <div class="themebtns" id="segfilter">
+      <button class="segbtn active" data-seg="all">All Pods</button>
+      <button class="segbtn" data-seg="LL">LL QA Roadmap</button>
+      <button class="segbtn" data-seg="PLANS">Plans QA Roadmap</button>
+      <button class="segbtn" data-seg="cross">Cross Pod QA Roadmap</button>
+    </div></div>
+    <div class="legend" style="margin-top:14px">
+      <span class="chip"><span class="sw ready"></span><b>QA Ready / In Progress</b> (In Testing)</span>
+      <span class="chip"><span class="sw dev"></span><b>In progress</b> — bar shows Target End date</span>
+      <span class="chip"><span class="sw late"></span><b>Blocked / On Hold</b> — hover for Spotlight note</span>
+      <span class="chip"><span class="warnico">⚠</span><b>Date passed</b> — needs update</span>
+      <span class="chip"><span class="sw" style="background:var(--red);width:3px;height:14px;border-radius:1px"></span><b>Release freeze</b> — shaded column in the timeline</span>
+    </div>
+    <p class="sub" style="font-size:12px;margin-top:8px">Bar length is proportional to the feature's <b>T-shirt size</b> (Small → Huge), the same way bar color reflects status.</p>
+    <div class="board" id="board"></div>
+    <div class="card pending" style="margin-top:18px">
+      <h3 id="backlogtitle">No placeable date — follow-up queue</h3>
+      <p class="note" id="backlognote" style="margin-top:0;border-top:0;padding-top:0">Features with no future Target End date — early-stage or in-flow without an estimate. Not placed on the timeline until Dev sets a date.</p>
+      <ul class="plist peek" id="nodate" style="margin-top:12px"></ul>
+      <button class="seemore" id="nodate-toggle" type="button"></button>
+    </div>
+    <p class="note" id="stamp" style="margin-top:12px"></p>
+  </div>
+
+  <div class="panel" id="panel-bugs">
+    <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status chips to filter (multi-select).</p>
+    <div class="cards" id="bugcards"></div>
+    <div class="filterrow"><span class="flabel">Status</span>
+    <div class="themebtns" id="bugstatusfilter"></div></div>
+    <div id="bugboard"></div>
+    <p class="xnote" id="bugnote"></p>
+
+    <div class="card pending" style="margin-top:26px">
+      <h3>PLANS bugs with no Pod — needs triage &amp; assignment</h3>
+      <p class="sub" style="font-size:12.5px;margin:10px 0">Active bugs in the PLANS project with no Pod value set. Review and assign a Pod. <a id="nopodjira" href="#" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">Open this list in Jira ↗</a></p>
+      <ul class="plist peek" id="nopodlist"></ul>
+      <button class="seemore" id="nopod-toggle" type="button"></button>
+    </div>
+  </div>
+
+  <footer class="datasrc">
+    <span class="dslabel">Fuente de datos</span>
+    <a href="https://wellfitteams-my.sharepoint.com/:x:/g/personal/shikha_atal_wellfit_com/IQAOhNA8nXULR7EWfYBM2BPmAS-KfxYOB_pqopyXdRtuO3Q?e=hKHRyg" target="_blank" rel="noopener">LaunchLoyalty Timelines.xlsx</a>
+    <span class="dsnote">— planilla en SharePoint. Los datos de features y bugs también se reconcilian contra Jira (Pod = LL). Este HTML es un snapshot y no se actualiza solo.</span>
+  </footer>
+</div><!-- /wrap -->
+
+
+<script>
+// ---- LL Feature data (fresh from Jira: Pod=LL, active) ----
+// Workflow (Backlog → Closed). Higher rank = closer to Closed.
+const FWORKFLOW = ["Backlog","Requirements","Architecture","Epics & Stories","Ready for Development","On Hold","In Development","PR Created","PR Merged","In Stage","Dev Verification","In Testing"];
+function fRank(s){ const i=FWORKFLOW.indexOf(s); return i<0?0:i; }
+// A feature is "QA Ready / In Progress" once it reaches In Testing (or beyond) — date no longer matters.
+function isQA(f){ return /test/i.test(f.status); }
+// blocked/on-hold → red
+function isBlocked(f){ return /hold|block/i.test(f.status); }
+// overdue: has a past date AND has NOT yet reached In Testing → date must be updated
+function isOverdue(f){ return f.ted && new Date(f.ted) < TODAY && !isQA(f); }
+// Optional Leadership Spotlight note per feature (by-exception; filled by SM). Shown on hover for blocked/at-risk bars.
+const SPOTLIGHT = {
+  "PLANS-15451":"Plan Design on hold pending prioritization decision — not currently staffed.",
+  "PLANS-14180":"Wallet Enhancements for ACH on hold; revisit once ACH core lands."
+};
+const FEATURES = [
+  {key:"PLANS-17687",name:"Incorporate Payment Widget into Plan Purchase Widget",status:"In Development",ted:"2026-07-15",fv:"R9.6",who:"Valentyna Tenus",tshirt:"Large"},
+  {key:"PLANS-17587",name:"Restrictions on Renewals",status:"In Development",ted:"2026-07-15",fv:"R9.7",who:"Shchekochykhin Vladyslav",tshirt:"Large"},
+  {key:"PLANS-17463",name:"New Bill To Office Option",status:"In Development",ted:"2026-07-09",fv:"R9.6",who:"Mykyta Moroz",tshirt:"Moderate"},
+  {key:"PLANS-17282",name:"Unintegrated Member Portal View",status:"In Development",ted:"2026-07-20",fv:"R9.6",who:"Denys Kernychnyi",tshirt:"Large"},
+  {key:"PLANS-17114",name:"Handling ACH Declines",status:"In Development",ted:"2026-07-09",fv:"R9.6",who:"Shchekochykhin Vladyslav",tshirt:"X-Large"},
+  {key:"PLANS-17004",name:"Handle Integration within The Member Portal",status:"In Development",ted:"2026-06-19",fv:"R9.6",who:"Yurii Mochulskyi",tshirt:"Moderate"},
+  {key:"PLANS-16409",name:"Electronic Consent Form Updates",status:"In Development",ted:"2026-07-24",fv:"R9.6",who:"Dima Shtympel",tshirt:"Huge"},
+  {key:"PLANS-16091",name:"Dynamic Legal Language - Portal Footer",status:"In Development",ted:"2026-07-10",fv:"R9.6",who:"Valentyna Tenus",tshirt:"Moderate"},
+  {key:"PLANS-15540",name:"open-closed-network",status:"In Development",ted:null,fv:null,who:"Unassigned",tshirt:null},
+  {key:"PLANS-15247",name:"Individual Plan - Discount for Extra Members & the Wellfit Share",status:"In Development",ted:"2026-07-10",fv:"R9.6",who:"Petro Yarish",tshirt:"Small"},
+  {key:"PLANS-15226",name:"WAIVEFAM Promo Code",status:"In Development",ted:"2026-07-08",fv:"R9.6",who:"Mykyta Moroz",tshirt:"Small"},
+  {key:"PLANS-15451",name:"Plan Design",status:"On Hold",ted:null,fv:"R9.7",who:"Dima Shtympel",tshirt:"Huge"},
+  {key:"PLANS-14180",name:"Wallet Enhancements for ACH",status:"On Hold",ted:null,fv:"R9.6",who:"Ivan Yarymovych",tshirt:"Large"},
+  {key:"PLANS-18095",name:"Hide Mail Option",status:"In Testing",ted:"2026-07-03",fv:"R9.6",who:"Rostyslav Masniuk",tshirt:null},
+  {key:"PLANS-18019",name:"Migrate Plans",status:"In Testing",ted:null,fv:"R9.6",who:"Chris Rubio",tshirt:"Moderate"},
+  {key:"PLANS-17686",name:"Updates to Transaction History",status:"In Testing",ted:null,fv:"R9.6",who:"Nazarii Polinyk",tshirt:"Small"},
+  {key:"PLANS-17580",name:"Membership Fee Promo Codes",status:"In Testing",ted:"2026-06-19",fv:"R9.6",who:"Mykyta Moroz",tshirt:"Moderate"},
+  {key:"PLANS-17576",name:"Migrate Orgs, Practices AND Members",status:"In Testing",ted:null,fv:"R9.6",who:"Chris Rubio",tshirt:"Moderate"},
+  {key:"PLANS-17161",name:"Marketing Details Updates",status:"In Testing",ted:"2026-07-10",fv:"R9.6",who:"Dima Shtympel",tshirt:"X-Large"},
+  {key:"PLANS-15748",name:"Ach Refunds Inside of Csp",status:"In Testing",ted:"2026-06-16",fv:"R9.6",who:"Mykyta Moroz",tshirt:"Huge"},
+  {key:"PLANS-15222",name:"Legal Language Updates for Intake Form & Check Out Pages",status:"In Testing",ted:"2026-07-31",fv:"R9.6",who:"Valentyna Tenus",tshirt:"Large"},
+  {key:"PLANS-14501",name:"Use Custom URL on Smile Health",status:"In Testing",ted:"2026-06-16",fv:"R9.6",who:"Ivan Yarymovych",tshirt:"Large"},
+  {key:"PLANS-14280",name:"Member Portal Terms and Conditions on Initial Login",status:"In Testing",ted:"2026-06-19",fv:"R9.6",who:"Denys Kernychnyi",tshirt:"Large"},
+  {key:"PLANS-18413",name:"Marketing Details",status:"Requirements",ted:null,fv:"R9.6",who:"Vasyl Skochko",tshirt:null},
+  {key:"PLANS-17582",name:"Bulk Sellable Acceptable",status:"Architecture",ted:null,fv:null,who:"Unassigned",tshirt:"Large"},
+  {key:"PLANS-18481",name:"Unify Purchase Into NPM Package",status:"Epics & Stories",ted:"2026-07-20",fv:"R9.6",who:"Ivan Yarymovych",tshirt:"Large"}
+];
+
+const TODAY = new Date("2026-07-07");
+// QA weeks through R9.7 freeze (2026-08-23)
+const WEEKS = [
+  {label:"Jul 6–12",  start:"2026-07-06", end:"2026-07-12"},
+  {label:"Jul 13–19", start:"2026-07-13", end:"2026-07-19"},
+  {label:"Jul 20–26", start:"2026-07-20", end:"2026-07-26", freeze:"R9.6 freeze Jul 27"},
+  {label:"Jul 27–Aug 2", start:"2026-07-27", end:"2026-08-02"},
+  {label:"Aug 3–9",  start:"2026-08-03", end:"2026-08-09"},
+  {label:"Aug 10–16", start:"2026-08-10", end:"2026-08-16"},
+  {label:"Aug 17–23", start:"2026-08-17", end:"2026-08-23", freeze:"R9.7 freeze Aug 23"}
+];
+const NW = WEEKS.length;
+const T0 = new Date(WEEKS[0].start), T1 = new Date(WEEKS[NW-1].end);
+const SPAN = (T1 - T0);
+function pct(d){ return Math.max(0,Math.min(100, ((new Date(d)-T0)/SPAN)*100)); }
+function weekOf(f){
+  // QA-ready (In Testing+) features live in a dedicated lane, not a date week
+  if(isQA(f)) return -2;
+  if(!f.ted) return -1;
+  const dt=new Date(f.ted);
+  // overdue (date passed, not yet in testing) → clamp into the current week so it still shows, flagged
+  if(dt < T0) return 0;
+  for(let i=0;i<NW;i++){ if(dt>=new Date(WEEKS[i].start) && dt<=new Date(WEEKS[i].end)) return i; }
+  return -1;
+}
+function cls(f){
+  if(isBlocked(f)) return "late";          // blocked / on hold → red
+  if(isQA(f)) return "ready";              // In Testing+ → green (QA can work it)
+  if(isOverdue(f)) return "dev";           // date passed but still amber bar; warning icon flags it
+  return "dev";                            // in progress toward QA → amber
+}
+function barLabel(f){
+  if(isQA(f)) return "In Testing";
+  const warn = isOverdue(f) ? "⚠ " : "";
+  if(f.ted) return warn+new Date(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric'});
+  return "—";
+}
+// T-shirt size scale (Jira "Size" field). Rank for sorting; px for bar width.
+const TSHIRT_RANK = {"Small":1,"Moderate":2,"Large":3,"X-Large":4,"Huge":5};
+const TSHIRT_PX = {"Small":90,"Moderate":125,"Large":160,"X-Large":195,"Huge":230};
+function tshirtRank(t){ return TSHIRT_RANK[t]||0; }
+// bar width scaled by T-shirt size; referenced, not exact
+function barWidth(f){
+  return TSHIRT_PX[f.tshirt] || 100;       // no size → default
+}
+
+const board=document.getElementById("board");
+function weekCenter(wi){ const s=pct(WEEKS[wi].start), e=pct(WEEKS[wi].end); return (s+e)/2; }
+
+// Normalize the three data sources into one shape the roadmap can render.
+// LL segment uses the curated FEATURES (QA-ready flags + sheet weeks).
+// PLANS / cross segments derive from the master ALL set, placed by Target End date.
+function segData(seg){
+  if(seg==="LL") return {items:FEATURES.slice()};
+  const src = ALL.filter(x=> (seg==="PLANS" ? x.pod==="PLANS" : (x.pod && x.pod!=="LL" && x.pod!=="PLANS")) && !/closed|done|will not/i.test(x.status));
+  const items = src.map(x=>({key:x.key,name:x.name,ted:x.ted,fv:x.fv,status:x.status,who:x.who,pod:x.pod,size:x.size||null}));
+  return {items};
+}
+function segAll(){
+  const ll = segData("LL").items.map(f=>({...f,pod:"LL"}));
+  const pl = segData("PLANS").items;
+  const xp = segData("cross").items;
+  return {items:[...ll,...pl,...xp]};
+}
+function renderRoadmap(seg){
+  const data = seg==="all" ? segAll() : segData(seg);
+  const items = data.items;
+  // scale header
+  let scale=`<div class="scalerow"><div class="corner">Feature</div><div class="weeks" style="grid-template-columns:repeat(${NW},1fr)">`;
+  WEEKS.forEach(w=>{ scale+=`<div class="weekhead ${w.freeze?'freeze':''}"><b>${w.label}</b>${w.freeze?`<span style="color:var(--red)">${w.freeze}</span>`:''}</div>`; });
+  scale+=`</div></div>`;
+  board.innerHTML=scale;
+
+  const qaReadyList = items.filter(f=>weekOf(f)===-2);
+  const placed = items.filter(f=>weekOf(f)>=0);
+  const backlog = items.filter(f=>weekOf(f)===-1);
+
+  function barRow(f, leftPct){
+    const c=cls(f);
+    const url=JIRA+f.key;
+    const w=barWidth(f);
+    const podTag = f.pod ? `<span class="pod" style="margin-right:6px">${f.pod}</span>` : '';
+    const over = isOverdue(f);
+    const spot = SPOTLIGHT[f.key];
+    // tooltip content (custom CSS tooltip so it appears reliably over the whole bar)
+    let tipHead = `${f.key} — ${f.status}`;
+    let tipBody = "";
+    if(isBlocked(f) && spot) tipBody = "🔦 "+spot;
+    else if(isBlocked(f)) tipBody = "Blocked / On Hold";
+    else if(over) tipBody = "⚠ Target End date has passed and it isn't In Testing yet — date needs updating.";
+    else if(isQA(f)) tipBody = "In Testing — already with QA.";
+    else if(f.ted) tipBody = "Target End "+new Date(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+    const tipSize = f.tshirt ? `Size: ${f.tshirt}` : "";
+    const tip = `<span class="bartip"><b>${tipHead}</b>${tipBody?`<br>${tipBody}`:''}${tipSize?`<br>${tipSize}`:''}<br><i>click → open in Jira</i></span>`;
+    const warnIcon = over ? `<span class="warnico" title="Target End date is in the past and the feature is not yet In Testing — please update the date.">⚠</span>` : '';
+    const szMeta = f.tshirt ? ` · ${f.tshirt}` : '';
+    const row=document.createElement("div"); row.className="row";
+    const lane=`<div class="lane" style="grid-template-columns:repeat(${NW},1fr)">`+
+      WEEKS.map(x=>`<div class="gridcell ${x.freeze?'freeze':''}"></div>`).join("")+
+      `<a class="bar ${c}" href="${url}" target="_blank" rel="noopener" style="left:calc(${leftPct}% - 2px);width:${w}px;${leftPct>60?'transform:translate(-100%,-50%)':''}"><span class="dot"></span>${barLabel(f)}${tip}</a>`+
+      `</div>`;
+    row.innerHTML=`<div class="cellL">${podTag}<a class="fkey" href="${url}" target="_blank" rel="noopener" title="Open in Jira">${f.key}</a><span class="fname">${warnIcon}${f.name}</span><span class="fmeta">${f.fv||'—'} · ${f.status}${szMeta} · ${f.who}</span></div>${lane}`;
+    return row;
+  }
+
+  // 1) QA Ready / In Progress lane (In Testing+) — separated, date-independent
+  if(qaReadyList.length){
+    const g=document.createElement("div"); g.className="group";
+    g.innerHTML=`<div class="grouphead" style="background:var(--green)">✅ QA Ready / In Progress<span class="rng">${qaReadyList.length} — already in QA's hands</span></div>`;
+    qaReadyList.sort((a,b)=>a.key.localeCompare(b.key)).forEach(f=>{ g.appendChild(barRow(f, 6)); });
+    board.appendChild(g);
+  }
+  // 2) Weekly lanes by Target End date
+  const byWeek={};
+  placed.forEach(f=>{ const wi=weekOf(f); (byWeek[wi]=byWeek[wi]||[]).push(f); });
+  WEEKS.forEach((w,wi)=>{
+    const list=(byWeek[wi]||[]).sort((a,b)=>new Date(a.ted||WEEKS[wi].start)-new Date(b.ted||WEEKS[wi].start));
+    if(!list.length) return;
+    const g=document.createElement("div"); g.className="group";
+    g.innerHTML=`<div class="grouphead">QA Week — ${w.label}<span class="rng">${list.length} item${list.length>1?'s':''}</span></div>`;
+    list.forEach(f=>{
+      const left = (new Date(f.ted) < T0) ? weekCenter(0) : pct(f.ted);
+      g.appendChild(barRow(f, left));
+    });
+    board.appendChild(g);
+  });
+  // backlog / no-date (only real Features)
+  const nd=document.getElementById("nodate"); nd.innerHTML="";
+  backlog.sort((a,b)=>fRank(b.status)-fRank(a.status)||a.key.localeCompare(b.key)).forEach(p=>{
+    const keyEl = `<a class="k" href="${JIRA}${p.key}" target="_blank" rel="noopener">${p.key}</a>`;
+    const podTag = (p.pod && p.pod!=="LL") ? `${p.pod} · ` : '';
+    const li=document.createElement("li");
+    li.innerHTML=`${keyEl}<span style="flex:1">${p.name}<br><span class="who">${podTag}${p.fv||'no FV'} · ${p.who}</span></span>${statusPill(p.status)}`;
+    nd.appendChild(li);
+  });
+  document.getElementById("backlogtitle").textContent = `Backlog / no placeable date — ${backlog.length} item${backlog.length!==1?'s':''}`;
+  setupPeek("nodate","nodate-toggle",5);
+  document.getElementById("stamp").textContent="Snapshot built "+TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})+" from Jira. Roadmap is a snapshot — it does not auto-refresh.";
+}
+document.querySelectorAll("#segfilter .segbtn").forEach(b=>{
+  b.addEventListener("click",()=>{
+    document.querySelectorAll("#segfilter .segbtn").forEach(x=>x.classList.remove("active"));
+    b.classList.add("active"); renderRoadmap(b.dataset.seg);
+  });
+});
+// initial render deferred until ALL is defined (called at end)
+
+// ==== MASTER DATA: all active features across pods ====
+const ALL = [
+  {key:"DYN-1077",name:"Launch Loyalty Migration Emails",pod:"DYN",proj:"DYN",status:"In Development",fv:"R9.6",ted:"2026-07-10",who:"Unassigned",theme:"LL-MVP"},
+  {key:"DYN-1080",name:"LL - Expired Plans Winback Journey",pod:"DYN",proj:"DYN",status:"Epics & Stories",fv:"R9.6",ted:null,who:"Unassigned",theme:"LL-MVP"},
+  {key:"DYN-1094",name:"Account Onboarding Fields",pod:"DYN",proj:"DYN",status:"Closed",fv:"R9.5",ted:null,who:"Unassigned",theme:"LL-MVP"},
+  {key:"DYN-708",name:"Launch loyalty New Email Journeys",pod:"DYN",proj:"DYN",status:"In Testing",fv:"R9.6",ted:"2026-07-07",who:"Unassigned",theme:"LL-MVP"},
+  {key:"DYN-763",name:"Dynamic Admin Fees in Email Journeys",pod:"DYN",proj:"DYN",status:"In Testing",fv:"R9.6",ted:"2026-06-30",who:"Satva Tech",theme:"LL-MVP"},
+  {key:"DYN-820",name:"Non Annual Renewals",pod:"DYN",proj:"DYN",status:"In Testing",fv:"R9.6",ted:"2026-07-13",who:"Unassigned",theme:"LL-MVP"},
+  {key:"PLANS-17468",name:"Open Network Dashboard Upgrades",pod:"EDW",proj:"PLANS",status:"Ready for Development",fv:"R9.7",ted:null,who:"Unassigned",theme:"LL-MVP"},
+  {key:"PLANS-17577",name:"Link Tokens for C/C & ACH to Members",pod:"EDW",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:null,who:"Lloyd Tokerud",theme:"LL-MVP"},
+  {key:"PLANS-17588",name:"DSO Dashboard",pod:"EDW",proj:"PLANS",status:"Ready for Development",fv:"R9.7",ted:null,who:"Unassigned",theme:"LL-MVP"},
+  {key:"PLANS-14280",name:"Member Portal Terms and Conditions on Initial Login",pod:"LL",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:"2026-06-19",who:"Denys  Kernychnyi",theme:"LL-MVP"},
+  {key:"PLANS-14501",name:"Use Custom URL on Smile Health",pod:"LL",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:"2026-06-16",who:"Ivan Yarymovych",theme:"LL-MVP"},
+  {key:"PLANS-15222",name:"Legal Language Updates for Intake Form & Check Out Pages",pod:"LL",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:"2026-07-31",who:"Valentyna Tenus",theme:"LL-MVP"},
+  {key:"PLANS-15226",name:"WAIVEFAM Promo Code",pod:"LL",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-06-09",who:"Mykyta  Moroz",theme:"LL-MVP"},
+  {key:"PLANS-15243",name:"Incorporate Practice Selection into Plans Purchase Widget",pod:"LL",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-18",who:"Rostyslav  Masniuk",theme:"LL-MVP"},
+  {key:"PLANS-15247",name:"Individual Plan - Discount for Extra Members & the Wellfit Share",pod:"LL",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-07-10",who:"Petro Yarish",theme:"LL-MVP"},
+  {key:"PLANS-15451",name:"Plan Design",pod:"LL",proj:"PLANS",status:"On Hold",fv:"R9.7",ted:null,who:"Dima Shtympel",theme:"LL-MVP"},
+  {key:"PLANS-15629",name:"Allow Design Profile for Purchase Widget",pod:"LL",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-14",who:"Valentyna Tenus",theme:"LL-MVP"},
+  {key:"PLANS-15801",name:"Hide CSP Toggle for Organization-Level Open/Closed Network",pod:"LL",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-16",who:"Petro Yarish",theme:"LL-MVP"},
+  {key:"PLANS-16091",name:"Dynamic Legal Language - Portal Footer",pod:"LL",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-07-10",who:"Valentyna Tenus",theme:"LL-MVP"},
+  {key:"PLANS-16333",name:"Support Contact Info",pod:"LL",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-16",who:"Petro Yarish",theme:"LL-MVP"},
+  {key:"PLANS-16409",name:"Electronic Consent Form Updates",pod:"LL",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-07-24",who:"Dima Shtympel",theme:"LL-MVP"},
+  {key:"PLANS-17004",name:"Handle Integration within The Member Portal",pod:"LL",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-06-19",who:"Yurii  Mochulskyi",theme:"LL-MVP"},
+  {key:"PLANS-17161",name:"Marketing Details Updates",pod:"LL",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:"2026-07-10",who:"Dima Shtympel",theme:"LL-MVP"},
+  {key:"PLANS-17282",name:"Unintegrated Member Portal View",pod:"LL",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-07-20",who:"Denys  Kernychnyi",theme:"LL-MVP"},
+  {key:"PLANS-17463",name:"New Bill To Office Option",pod:"LL",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-07-09",who:"Mykyta  Moroz",theme:"LL-MVP"},
+  {key:"PLANS-17576",name:"Migrate Orgs, Practices AND Members",pod:"LL",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:null,who:"Chris Rubio",theme:"LL-MVP"},
+  {key:"PLANS-17580",name:"Membership Fee Promo Codes",pod:"LL",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:"2026-06-19",who:"Mykyta  Moroz",theme:"LL-MVP"},
+  {key:"PLANS-17587",name:"Restrictions on Renewals",pod:"LL",proj:"PLANS",status:"In Development",fv:"R9.7",ted:"2026-07-15",who:"Shchekochykhin Vladyslav",theme:"LL-MVP"},
+  {key:"PLANS-17614",name:"Additional Benefits",pod:"LL",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-19",who:"Ivan Yarymovych",theme:"LL-MVP"},
+  {key:"PLANS-18019",name:"Migrate Plans",pod:"LL",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:null,who:"Chris Rubio",theme:"LL-MVP"},
+  {key:"PAY-3756",name:"Launch Loyalty Token Migration",pod:"PAY",proj:"PAY",status:"In Development",fv:"R9.6",ted:"2026-07-17",who:"Stephen Perry",theme:"LL-MVP"},
+  {key:"PLANS-14430",name:"One Smile Custom Website",pod:"PLANS",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:"2026-07-24",who:"Santiago Kirk Cabrera",theme:"LL-MVP"},
+  {key:"PLANS-15100",name:"Essential Smiles Plan Custom Website",pod:"PLANS",proj:"PLANS",status:"Ready for Development",fv:"R9.6",ted:"2026-07-24",who:"Mariano Hernández",theme:"LL-MVP"},
+  {key:"PLANS-15298",name:"Additional Benefit Eligibility SFTP Feed",pod:"PLANS",proj:"PLANS",status:"Epics & Stories",fv:"R9.6",ted:null,who:"Unassigned",theme:"LL-MVP"},
+  {key:"PLANS-15661",name:"Promo Code Input in Plans Marketplace",pod:"PLANS",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-15",who:"Daryl Myrick",theme:"LL-MVP"},
+  {key:"PLANS-15892",name:"Subscription Recurring Charge Processing",pod:"PLANS",proj:"PLANS",status:"Epics & Stories",fv:"R9.7",ted:null,who:"Chris Rubio",theme:"LL-MVP"},
+  {key:"PLANS-15984",name:"PMP Ancillary Benefit Card",pod:"PLANS",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-07-24",who:"Daryl Myrick",theme:"LL-MVP"},
+  {key:"PLANS-16267",name:"Update Auto-Renewal w/Panda Doc Signature",pod:"PLANS",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:"2026-07-24",who:"David Jones",theme:"LL-MVP"},
+  {key:"PLANS-16352",name:"Honor Plan Maximum",pod:"PLANS",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-21",who:"Clint Tredway",theme:"LL-MVP"},
+  {key:"PLANS-16563",name:"Subscription Renewal Extension",pod:"PLANS",proj:"PLANS",status:"Epics & Stories",fv:"R9.7",ted:null,who:"Chris Rubio",theme:"LL-MVP"},
+  {key:"PLANS-16670",name:"Tie Plan Purchase to Office",pod:"PLANS",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-07-17",who:"Daryl Myrick",theme:"LL-MVP"},
+  {key:"PLANS-16677",name:"PMP - Account Status in Account Information",pod:"PLANS",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:"2026-07-24",who:"Hunter Redhead",theme:"LL-MVP"},
+  {key:"PLANS-16779",name:"Notes Section for Account Information",pod:"PLANS",proj:"PLANS",status:"Ready for Development",fv:"R9.6",ted:"2026-07-17",who:"Unassigned",theme:"LL-MVP"},
+  {key:"PLANS-17058",name:"Renewal Transaction Handling for Migrated Members",pod:"PLANS",proj:"PLANS",status:"Epics & Stories",fv:"R9.6",ted:null,who:"Chris Rubio",theme:"LL-MVP"},
+  {key:"PLANS-17113",name:"Email Branding Consolidation",pod:"PLANS",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-19",who:"Conor Kamperman",theme:"LL-MVP"},
+  {key:"PLANS-17465",name:"Override for Admin Fee & Downpayment portion",pod:"PLANS",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-11",who:"Daryl Myrick",theme:"LL-MVP"},
+  {key:"PLANS-17466",name:"Membership Agreements for Open/Closed Networks",pod:"PLANS",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-11",who:"David Jones",theme:"LL-MVP"},
+  {key:"PLANS-17467",name:"Advanced Member Search - Open Network Support",pod:"PLANS",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-19",who:"Michael McNulty",theme:"LL-MVP"},
+  {key:"PLANS-17581",name:"Disbursement Splits & Admin Fee Splits",pod:"PLANS",proj:"PLANS",status:"In Development",fv:"R9.6",ted:null,who:"Unassigned",theme:"LL-MVP"},
+  {key:"PLANS-17585",name:"Auto-Renewal Re-Try Process",pod:"PLANS",proj:"PLANS",status:"Architecture",fv:"R9.7",ted:null,who:"Michael McNulty",theme:"LL-MVP"},
+  {key:"PLANS-17586",name:"Member Portal Support for Subscription Payments",pod:"PLANS",proj:"PLANS",status:"Epics & Stories",fv:"R9.6",ted:null,who:"Unassigned",theme:"LL-MVP"},
+  {key:"PLANS-17705",name:"Handicap Accessible Data Storage",pod:"PLANS",proj:"PLANS",status:"Closed",fv:"R9.5",ted:"2026-06-12",who:"Chris Rubio",theme:"LL-MVP"},
+  {key:"PLANS-17729",name:"Subscription Purchases inside of Plans",pod:"PLANS",proj:"PLANS",status:"Ready for Development",fv:"R9.7",ted:null,who:"Unassigned",theme:"LL-MVP"},
+  {key:"PLAT-5572",name:"Launch Loyalty Migration",pod:"PLAT",proj:"PLAT",status:"Ready for Development",fv:"R9.6",ted:null,who:"Unassigned",theme:"LL-MVP"},
+  {key:"PLAT-5573",name:"SaaS Fee Per Practice",pod:"PLAT",proj:"PLAT",status:"Architecture",fv:"R9.7",ted:null,who:"Vic Du Plessis",theme:"LL-MVP"},
+  {key:"WEL-5793",name:"DSO - Phase 1  & Phase 2",pod:"WEL",proj:"WEL",status:"In Development",fv:"R9.6",ted:"2026-08-05",who:"Daniel Marineni",theme:"LL-MVP"},
+  {key:"PLANS-18049",name:"REVENUE SHARE REPORT: Show these reports in a WFP dashboard",pod:"EDW",proj:"PLANS",status:"Epics & Stories",fv:"R9.6",ted:null,who:"Vic Du Plessis",theme:"LL-Fast Follows"},
+  {key:"PLANS-17582",name:"Bulk Sellable Acceptable",pod:"LL",proj:"PLANS",status:"Architecture",fv:null,ted:null,who:"Unassigned",theme:"LL-Fast Follows"},
+  {key:"PLANS-18095",name:"Hide Mail Option",pod:"LL",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:"2026-07-03",who:"Rostyslav  Masniuk",theme:"LL-Fast Follows"},
+  {key:"PLANS-18481",name:"Unify Purchase Into NPM Package",pod:"LL",proj:"PLANS",status:"Epics & Stories",fv:"R9.6",ted:"2026-07-20",who:"Ivan Yarymovych",theme:"LL-Fast Follows"},
+  {key:"PLANS-14421",name:"Provider Search in Member Portal",pod:"PLANS",proj:"PLANS",status:"Epics & Stories",fv:null,ted:null,who:"Michael McNulty",theme:"LL-Fast Follows"},
+  {key:"PLANS-17724",name:"UCR Bulk Upload for PMP",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Vic Du Plessis",theme:"LL-Fast Follows"},
+  {key:"PLANS-17726",name:"Goals Dashboard",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Unassigned",theme:"LL-Fast Follows"},
+  {key:"PLANS-17727",name:"Show Provider by Office for Website",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Vic Du Plessis",theme:"LL-Fast Follows"},
+  {key:"PLANS-17728",name:"CSP ADD Plans Settings FOR Individual Plus",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Unassigned",theme:"LL-Fast Follows"},
+  {key:"PLANS-17731",name:"DSO Plan Payment Feature",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Unassigned",theme:"LL-Fast Follows"},
+  {key:"PLANS-17732",name:"Implement web analytics platform to support DSO analytics requirements",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Unassigned",theme:"LL-Fast Follows"},
+  {key:"PLANS-17746",name:"Benefit Usage and Office Assignment",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Michael McNulty",theme:"LL-Fast Follows"},
+  {key:"PLANS-18017",name:"Multi-Practice User - Manage Patient",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Unassigned",theme:"LL-Fast Follows"},
+  {key:"PLANS-18018",name:"Define Refund Window Timeframes",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Michael McNulty",theme:"LL-Fast Follows"},
+  {key:"PLANS-18020",name:"Tie Plan Renewals to Office",pod:"PLANS",proj:"PLANS",status:"Architecture",fv:"R9.6",ted:null,who:"Daryl Myrick",theme:"LL-Fast Follows"},
+  {key:"PLANS-18074",name:"CSP - Request a Refund",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Vic Du Plessis",theme:"LL-Fast Follows"},
+  {key:"PLAT-5586",name:"Product Selection PER Practice",pod:"PLAT",proj:"PLAT",status:"Architecture",fv:null,ted:null,who:"Unassigned",theme:"LL-Fast Follows"},
+  {key:"PLAT-5587",name:"Multi Org Hierarchy",pod:"PLAT",proj:"PLAT",status:"Idea",fv:null,ted:null,who:"Unassigned",theme:"LL-Fast Follows"},
+  {key:"PLAT-5603",name:"Plan Design",pod:"PLAT",proj:"PLAT",status:"Architecture",fv:null,ted:null,who:"Vic Du Plessis",theme:"LL-Fast Follows"},
+  {key:"PLANS-16678",name:"PMP - Account Information Google/Apple Wallet",pod:null,proj:"PLANS",status:"In Development",fv:null,ted:null,who:"Rostyslav  Masniuk",theme:"LL-Fast Follows"},
+  {key:"PLANS-16750",name:"Plan Office Payment Enhancement",pod:null,proj:"PLANS",status:"Architecture",fv:null,ted:null,who:"Michael McNulty",theme:"LL-Fast Follows"},
+  {key:"DYN-668",name:"Plans Journey - ACH Email Updates",pod:"DYN",proj:"DYN",status:"In Development",fv:"R9.6",ted:"2026-06-30",who:"Unassigned",theme:"ACH"},
+  {key:"PAY-3751",name:"ACH Reporting",pod:"EDW",proj:"PAY",status:"In Development",fv:"R9.6",ted:"2026-07-15",who:"Lloyd Tokerud",theme:"ACH"},
+  {key:"PLANS-17723",name:"ACH Payment Method EDW Pipeline",pod:"EDW",proj:"PLANS",status:"Closed",fv:"R9.6",ted:null,who:"Lloyd Tokerud",theme:"ACH"},
+  {key:"PLANS-17114",name:"Handling ACH Declines",pod:"LL",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-07-09",who:"Shchekochykhin Vladyslav",theme:"ACH"},
+  {key:"PLANS-17686",name:"Updates to Transaction History",pod:"LL",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:null,who:"Nazarii  Polinyk",theme:"ACH"},
+  {key:"PLANS-17687",name:"Incorporate Payment Widget into Plan Purchase Widget",pod:"LL",proj:"PLANS",status:"In Development",fv:"R9.6",ted:"2026-07-15",who:"Valentyna Tenus",theme:"ACH"},
+  {key:"PLANS-14180",name:"Wallet Enhancements for ACH",pod:"PLANS",proj:"PLANS",status:"On Hold",fv:"R9.6",ted:null,who:"Chris Rubio",theme:"ACH"},
+  {key:"PLAT-5427",name:"ACH Widget Feature",pod:"PLAT",proj:"PLAT",status:"In Development",fv:"R9.6",ted:null,who:"Nimesh Panchal",theme:"ACH"},
+  {key:"PLAT-5525",name:"communication-service",pod:"PLAT",proj:"PLAT",status:"In Development",fv:"R9.5.1",ted:"2026-07-17",who:"Nimesh Panchal",theme:"ACH"},
+  {key:"PLAT-5576",name:"ACH Authorization Service",pod:"PLAT",proj:"PLAT",status:"Epics & Stories",fv:"R9.5.1",ted:"2026-07-17",who:"Nimesh Panchal",theme:"ACH"},
+  {key:"WEL-5777",name:"ACH Core Support",pod:"WEL",proj:"WEL",status:"In Testing",fv:"R9.6",ted:"2026-08-05",who:"Daniel Marineni",theme:"ACH"},
+  {key:"DYN-1030",name:"Ach Emails WFP Non Plans",pod:"DYN",proj:"DYN",status:"Blocked",fv:"R9.6",ted:null,who:"Satva Tech",theme:"ACH-Fast Follows"},
+  {key:"PLANS-15748",name:"Ach Refunds Inside of Csp",pod:"LL",proj:"PLANS",status:"In Testing",fv:"R9.6",ted:"2026-06-16",who:"Mykyta  Moroz",theme:"ACH-Fast Follows"},
+  {key:"PLANS-17725",name:"Handle ACH in Member Portal",pod:"PLANS",proj:"PLANS",status:"Idea",fv:null,ted:null,who:"Unassigned",theme:"ACH-Fast Follows"},
+  {key:"WEL-5833",name:"ACH Transaction Details Modal",pod:"WEL",proj:"WEL",status:"In Development",fv:"R9.6",ted:null,who:"Daniel Marineni",theme:"ACH-Fast Follows"}
+];
+
+const JIRA="https://wellfit.atlassian.net/browse/";
+function statusPill(s){
+  const k=(s||'').toLowerCase();
+  let cls="dev";
+  if(k.includes("test")) cls="testing";
+  else if(k.includes("hold")) cls="hold";
+  else if(k.includes("idea")) cls="idea";
+  else if(k.includes("closed")||k.includes("done")) cls="closed";
+  else if(k.includes("ready for dev")) cls="idea";
+  return `<span class="pill ${cls}">${s}</span>`;
+}
+function fmtDate(d){ return d?new Date(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}):'<span class="muted-date">\u2014</span>'; }
+
+// ---- Active Features tab (Pod = LL) ----
+const allbody=document.getElementById("allbody");
+let fRelease="all", fStatus="all", fCard="all";
+let fSortKey="status", fSortDir="desc";   // default: workflow (status) closest-to-Closed on top
+const FCARD_PRED = {
+  all: ()=>true,
+  qa: isQA,
+  dev: f=>/develop|pr /i.test(f.status),
+  early: f=>/backlog|requirement|architecture|epics|ready for dev/i.test(f.status),
+  blocked: isBlocked,
+  overdue: isOverdue
+};
+function featureSortVal(f, key){
+  switch(key){
+    case "status": return fRank(f.status);
+    case "release": return f.fv||"";
+    case "ted": return f.ted?new Date(f.ted).getTime():(fSortDir==="asc"?Infinity:-Infinity);
+    case "size": return tshirtRank(f.tshirt);
+    default: return 0;
+  }
+}
+function renderAll(){
+  allbody.innerHTML="";
+  let rows = FEATURES.slice();
+  if(fRelease!=="all") rows=rows.filter(f=>(f.fv||"—")===fRelease);
+  if(fStatus!=="all") rows=rows.filter(f=>f.status===fStatus);
+  if(fCard!=="all") rows=rows.filter(FCARD_PRED[fCard]);
+  const dir = fSortDir==="asc"?1:-1;
+  rows.sort((a,b)=>{
+    const av=featureSortVal(a,fSortKey), bv=featureSortVal(b,fSortKey);
+    if(av<bv) return -1*dir; if(av>bv) return 1*dir;
+    return a.key.localeCompare(b.key);
+  });
+  rows.forEach(f=>{
+    const over=isOverdue(f);
+    const warn = over ? `<span class="warnico" title="Target End date is in the past and the feature is not yet In Testing — please update the date.">⚠</span>` : '';
+    const sz = f.tshirt?`<span class="tshirt t-${f.tshirt.replace(/[^a-zA-Z]/g,'').toLowerCase()}">${f.tshirt}</span>`:'<span class="muted-date">\u2014</span>';
+    const tr=document.createElement("tr");
+    tr.innerHTML=`<td><a href="${JIRA}${f.key}" target="_blank" rel="noopener">${f.key}</a><br><span style="color:var(--ink)">${warn}${f.name}</span></td>`+
+      `<td>${statusPill(f.status)}</td><td>${f.fv||'<span class="muted-date">\u2014</span>'}</td>`+
+      `<td>${fmtDate(f.ted)}</td><td>${sz}</td><td>${f.who}</td>`;
+    allbody.appendChild(tr);
+  });
+  renderCards();
+  updateSortHeaders();
+  document.getElementById("allnote").textContent=`Showing ${rows.length} of ${FEATURES.length} active LL Features. Click a column header to sort; click a card to filter. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
+}
+function renderCards(){
+  // cards always reflect the release/status filters (but not the card filter itself), so counts are stable targets
+  let base=FEATURES.slice();
+  if(fRelease!=="all") base=base.filter(f=>(f.fv||"—")===fRelease);
+  if(fStatus!=="all") base=base.filter(f=>f.status===fStatus);
+  const total=base.length;
+  const qa=base.filter(isQA).length;
+  const dev=base.filter(FCARD_PRED.dev).length;
+  const early=base.filter(FCARD_PRED.early).length;
+  const blocked=base.filter(isBlocked).length;
+  const overdue=base.filter(isOverdue).length;
+  const pctv=n=>total?Math.round(n/total*100):0;
+  const bar=n=>`<div class="pctbar"><span style="width:${pctv(n)}%"></span></div>`;
+  const box=document.getElementById("allcards");
+  const card=(id,title,val,color,subOrPct)=>`<button class="card sc bugcardbtn${fCard===id?' sel':''}" data-fcard="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div>${id==="all"?`<div class="scsub">${subOrPct}</div>`:`<div class="pctrow"><span class="pctnum">${pctv(val)}%</span> of active</div>${bar(val)}`}</button>`;
+  box.innerHTML=
+    card("all","Active features",total,"var(--blue)","Pod LL · click to filter")+
+    card("qa","QA Ready / In Progress",qa,"var(--green)")+
+    card("dev","In development",dev,"var(--amber)")+
+    card("early","Early stage",early,"var(--muted)")+
+    card("blocked","Blocked / On Hold",blocked,blocked?"var(--red)":"var(--green)")+
+    card("overdue","Dates to update",overdue,overdue?"var(--red)":"var(--green)");
+  box.querySelectorAll(".bugcardbtn").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      const id=btn.dataset.fcard;
+      // clicking "Blocked / On Hold" also drives the Status chip to On Hold when present
+      fCard = (fCard===id?"all":id);
+      renderAll();
+    });
+  });
+}
+function updateSortHeaders(){
+  document.querySelectorAll("#panel-all th.sortable").forEach(th=>{
+    th.classList.remove("sort-asc","sort-desc");
+    if(th.dataset.sort===fSortKey) th.classList.add(fSortDir==="asc"?"sort-asc":"sort-desc");
+  });
+}
+// build Release + Status filter chips
+(function featureFilters(){
+  const rels=["all",...Array.from(new Set(FEATURES.map(f=>f.fv||"—"))).sort()];
+  const rf=document.getElementById("relfilter");
+  rels.forEach((r,i)=>{ const b=document.createElement("button"); b.className="podbtn"+(i===0?" active":""); b.dataset.rel=r; b.textContent=r==="all"?"All":r;
+    b.addEventListener("click",()=>{ rf.querySelectorAll(".podbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fRelease=r; renderAll(); }); rf.appendChild(b); });
+  const sts=["all",...Array.from(new Set(FEATURES.map(f=>f.status))).sort((a,b)=>fRank(b)-fRank(a))];
+  const sf=document.getElementById("allstatusfilter");
+  sts.forEach((s,i)=>{ const b=document.createElement("button"); b.className="tbtn"+(i===0?" active":""); b.dataset.status=s; b.textContent=s==="all"?"All":s;
+    b.addEventListener("click",()=>{ sf.querySelectorAll(".tbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fStatus=s; renderAll(); }); sf.appendChild(b); });
+})();
+// sortable headers
+document.querySelectorAll("#panel-all th.sortable").forEach(th=>{
+  th.addEventListener("click",()=>{
+    const k=th.dataset.sort;
+    if(fSortKey===k){ fSortDir = fSortDir==="asc"?"desc":"asc"; }
+    else { fSortKey=k; fSortDir = (k==="status")?"desc":"asc"; }
+    renderAll();
+  });
+});
+renderAll();
+
+// ---- Initial consolidated roadmap render (ALL now defined above) ----
+renderRoadmap("all");
+
+// ==== ACTIVE BUGS (Pod = LL, not closed) ====
+const BUGS = [
+  {key:"PLANS-19109",name:"CSP - Support Email Not Updated in Plan Management > Support Profile After Updating Support Profile",pod:"LL",status:"In Development",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Petro Yarish",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18529",name:"PLANS-18529: Stage - Member Portal - Wallet download still uses legacy get-member-qr-code endpoint instead of Plans API",pod:"LL",status:"In Development",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Nazarii  Polinyk",reporter:"Gabriel Perez Cardozo",prio:"3: Standard"},
+  {key:"PLANS-18301",name:"Stage - Smile Health - Support - The email is sent to the support email, but it is not being received",pod:"LL",status:"In Development",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Nazarii  Polinyk",reporter:"Gabriel Perez Cardozo",prio:"3: Standard"},
+  {key:"PLANS-16898",name:"WFP \\ Membership Agreement layout issue and “Accept” button enabled by default",pod:"LL",status:"In Development",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Clint Tredway",reporter:"Luis Moreno",prio:"3: Standard"},
+  {key:"PLANS-16889",name:"WFP portal - PDF Benefit Table not updated according to CSP marketing settings ",pod:"LL",status:"In Development",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-14922",name:"[Existing issue] Member  portal -showing a System  message that's applicable  for only Employer plans  (PDS Team)",pod:"LL",status:"In Development",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Valentyna Tenus",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-19114",name:"CSP - blocker -  Org exceptions not saving properly",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18790",name:"Marketing Setting - Value Row Should Not Require Quantity and Should Be Configured Separately",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18787",name:"Marketing setting -  Plan Summary \"Value\" Does Not Auto-Calculate",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18784",name:"Marketing setting - Plan Summary \"Saving\" Value Does Not Auto-Populate",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18680",name:"WFP portal - RoleWFP - Some Plan Details documents are generated using a legacy template and display the SGDP logo instead of the expected WFP branding",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18667",name:"Member portal - Plan details - should show only members plan details ( member purchased prophy, should show prophy)",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18657",name:"Member Portal - Plan details - CDPS - not showing sections names /  and duplicated rows (2 issues)",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18652",name:"Member Portal - Plan details - Benefit details has empty/duplicated rows",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18603",name:"Stage - PMP - Purchase Plan - Incorrect toast message displayed when сpromo code is not eligible",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Mykyta  Moroz",reporter:"Gabriel Perez Cardozo",prio:"3: Standard"},
+  {key:"PLANS-18591",name:"Blocker - CSP - Getting WAIVEFAM promo code validation when saving Smile aliance Plan template",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Mykyta  Moroz",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18524",name:"Provider - Restricted plans remain visible and selectable during plan selection; however plan purchase is restricted as expected",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:null,who:"Anuradhi Wickramasinghe",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18164",name:"Stage - CSP - Promo Codes - Removing all promo Code Rules doesn't persist after save",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Mykyta  Moroz",reporter:"Gabriel Perez Cardozo",prio:"3: Standard"},
+  {key:"PLANS-16858",name:"Two Primary Cards shown in Member Portal",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:null,who:"Unassigned",reporter:"Michael McNulty",prio:"3: Standard"},
+  {key:"PLANS-16403",name:"Member portal - missing logo and profile icon misalignment",pod:"LL",status:"Backlog",cat:"To Do",fv:"R9.6",sprint:null,who:"Unassigned",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-16288",name:"[Dental Dreams] - Zip code search is not working",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:null,who:"Unassigned",reporter:"Juan Rodrigo Mejia Rivera",prio:"3: Standard"},
+  {key:"PLANS-15283",name:"Member Portal \\ Failed to display expected values in Procedures section of Treatment Summaries",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:null,who:"Unassigned",reporter:"Luis Moreno",prio:"3: Standard"},
+  {key:"PLANS-15280",name:"Member Portal \\ Dates overlap in Procedures section of Treatment Summaries",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:null,who:"Unassigned",reporter:"Luis Moreno",prio:"3: Standard"},
+  {key:"PLANS-15078",name:"Retest - Member Portal - Overview - The “SAVE” button is enabled even without entering any data",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Gabriel Perez Cardozo",prio:"3: Standard"},
+  {key:"PLANS-15076",name:"Retest - Member Portal - Auto Renewal - Incorrect button label (\"Yes\" instead of \"Confirm\") ",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Gabriel Perez Cardozo",prio:"3: Standard"},
+  {key:"PLANS-15072",name:"Retest - Member Portal - Payments - Credit Card still appears and has not been removed",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Gabriel Perez Cardozo",prio:"3: Standard"},
+  {key:"PLANS-15040",name:"Member Portal - Print -SGDP CA /SGDP plan membership cards- failed to load document",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-15036",name:"Member portal - Responsible party's Expired plans are not showing in member portal",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-15033",name:"Member portal - All plans - Theming /nav bar icons not loading for Responsible Party(RP without a plan)",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-15009",name:"Member portal - Renew - not showing correct coverage level when renew from Dashoard ",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-15006",name:"Member portal - Renew - showing KIDS plans when Renew a SGDP plan (Sgdp plan purchased from SGDP site, no office assigned)",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-14947",name:"Member portal - Broken - showing add plan when member has both sgdp and kids plans - 409 error ( plan purchased from Provider)",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-14923",name:"[Exising issue] Member poral -no validations for  Downgrade renewals",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-14904",name:" Member Portal – ADD PLAN button visible for SGDP plans and allows KIDS plan selection when no practice is assigned",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Product Manager Agent",reporter:"Anuradhi Wickramasinghe",prio:"2: Important"},
+  {key:"PLANS-14884",name:"Additional Benefits | Refresh causes content not to load and Back button does not redirect to /plan",pod:"LL",status:"Backlog",cat:"To Do",fv:null,sprint:"LL-Sprint 17-26",who:"Unassigned",reporter:"Mireya Alvarez",prio:"3: Standard"},
+  {key:"PLANS-18883",name:"Blocker - [PMP] - WAIVEFAM promo code is not applied while purchasing a plan",pod:"LL",status:"Ready for Development",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Mykyta  Moroz",reporter:"Juan Rodrigo Mejia Rivera",prio:"3: Standard"},
+  {key:"PLANS-18646",name:"Member Portal - Plan Details - Plan summary details are incorrect compared to configured CSP marketing settings",pod:"LL",status:"Ready for Development",cat:"To Do",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-8578",name:"MPV3 | Minor benefit summaries are not shown for RP",pod:"LL",status:"Ready for Development",cat:"To Do",fv:null,sprint:"Plans-Sprint 15-26",who:"Clint Tredway",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18781",name:"Marketing setting - \"You Save\" Does Not Calculate Based on UCR × Quantity",pod:"LL",status:"PR Created",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Valentyna Tenus",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18461",name:"Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",pod:"LL",status:"PR Created",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-16015",name:"Incorrect Plan Details PDF is displayed in Member and PMP for WFP/Smile Health plans (Plan details as per marketing settings in CSP are not displayed)",pod:"LL",status:"PR Merged",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Vivienne Chawande",prio:"3: Standard"},
+  {key:"PLANS-18507",name:"Dynamic Purchase Portal / DCA – Plan Purchase Restrictions Not Enforced",pod:"LL",status:"In QA",cat:"In Progress",fv:"R9.6",sprint:null,who:"Denys  Kernychnyi",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18442",name:"Member portal - Portal restrictions not applied for “Add Plan” in Member Portal",pod:"LL",status:"On Hold",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18668",name:"WFP Portal - The office should see a PDF for Perio & a PDF for Prophy - if they are selling both plans. / Missing Marketing details table",pod:"LL",status:"In Stage",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18504",name:"CSP - Past dates can be selected for Restriction activate ON/OFF dates ; Restrictions not applied when select a past date range.",pod:"LL",status:"In Stage",cat:"In Progress",fv:"R9.6",sprint:null,who:"Denys  Kernychnyi",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18495",name:"WFP - Still showing old template - Support information is not visible",pod:"LL",status:"In Stage",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Petro Yarish",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18078",name:"Stage - CSP - Plan Overview - API returns 200 when WAIVEFAM is not valid for the selected plan",pod:"LL",status:"In Stage",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Mykyta  Moroz",reporter:"Gabriel Perez Cardozo",prio:"3: Standard"},
+  {key:"PLANS-17035",name:"Member portal - RENEW button visible after renewing plan added thorugh ADD PLAN;  and renewed the wrong members plan",pod:"LL",status:"In Stage",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Clint Tredway",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-14920",name:"PLANS-14920: Member portal: SGDP member: Missing 'print' membership card button (2 issues)",pod:"LL",status:"In Stage",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Denys  Kernychnyi",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"LL-874",name:"[PMP]-Acknowledgement is included in the payload even when the option was not checked ",pod:"LL",status:"In Stage",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 16-26",who:"Valentyna Tenus",reporter:"Juan Rodrigo Mejia Rivera",prio:"3: Standard"},
+  {key:"PLANS-16552",name:"Member portal - password change confirmation message  popoup UI has changed.",pod:"LL",status:"WAITING REVIEW",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Shchekochykhin Vladyslav",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"},
+  {key:"PLANS-18664",name:"Member portal - Exclusions -Exclusions section duplicated and incorrectly positioned in Plan Details PDF",pod:"LL",status:"Dev Verification",cat:"In Progress",fv:"R9.6",sprint:"LL-Sprint 17-26",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe",prio:"3: Standard"}
+];
+// Workflow order: index 0 = backlog (furthest from done), high = closest to closing.
+// Board renders columns by rank DESC so closest-to-close sits first; On Hold is always pinned on top.
+const FLOW = ["Backlog","Ready for Development","On Hold","In Development","PR Created","WAITING REVIEW","PR Merged","Dev Verification","In Stage","In QA"];
+function flowRank(s){ const i=FLOW.indexOf(s); return i<0?0:i; }
+const NEAR_CLOSE = ["In Stage","In QA","Dev Verification","PR Merged"];
+// PLANS bugs with no Pod (needs triage)
+const NOPOD = [
+  {key:"PLANS-19130",name:"Additional Benefits Card/ Unable to select the Provider links in the back of the Card",status:"Backlog",who:"Unassigned",reporter:"Vivienne Chawande"},
+  {key:"PLANS-19127",name:"Additional Benefits Card /Start Date format is incorrect at the front of the card",status:"In Development",who:"Daryl Myrick",reporter:"Vivienne Chawande"},
+  {key:"PLANS-19123",name:"Remove Support Phone Number from Search patients result screen",status:"Backlog",who:"Hunter Redhead",reporter:"Michael McNulty"},
+  {key:"PLANS-19025",name:"PMP/Migration/Practice : Comfort Dental Studio is displayed twice in the practice dropdown in PMP",status:"In Development",who:"Hunter Redhead",reporter:"Vivienne Chawande"},
+  {key:"PLANS-18898",name:"Crosby \\ Preprod  Discount plans are charged an admin fee during auto-renewal",status:"Backlog",who:"Unassigned",reporter:"Luis Moreno"},
+  {key:"PLANS-18895",name:"CSP - Org Selection section disappears after selecting an Organization before clicking Save ; click on cancel org still saved.",status:"Backlog",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-18882",name:"PLAN BENEFITS: Add Discount to Plan Benefits Section",status:"Ready for Development",who:"Valentyna Tenus",reporter:"Vic Du Plessis"},
+  {key:"PLANS-18878",name:"Member Portal \\ Crosby members can view plan cards that belong to a different organization",status:"Backlog",who:"Unassigned",reporter:"Luis Moreno"},
+  {key:"PLANS-18802",name:"Member Portal \\ Error while renewing Crosby Adhoc Plan a 500 code error is shown",status:"Backlog",who:"Unassigned",reporter:"Luis Moreno"},
+  {key:"PLANS-18728",name:"Payment Portals Not getting Plan Costs back",status:"Backlog",who:"Michael McNulty",reporter:"Michael McNulty"},
+  {key:"PLANS-18575",name:"CSP - Stage - Practices (Monet)are not showing for SGDP CA Plan while purchasing",status:"Backlog",who:"Unassigned",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-18564",name:"WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",status:"Backlog",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-18500",name:"Provider - WFP plans has sgdp membership agreement",status:"Backlog",who:"Unassigned",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-18356",name:" PDS: Mandatory Field Required - Patient MRN",status:"Backlog",who:"Unassigned",reporter:"Charles Rosenbaum"},
+  {key:"PLANS-18287",name:"age - PMP - Purchase Plan - Unable to Purchase a Plan Due to a 400 Bad Request (\"Captcha Error\")",status:"In Development",who:"Hunter Redhead",reporter:"Gabriel Perez Cardozo"},
+  {key:"PLANS-18083",name:"Member portal - ADD PLAN - add member ; giving 500 error",status:"Backlog",who:"Unassigned",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-18038",name:"Smile Health portal embeds the SGDP plan-widget in dev and prod (WIDGET_URL) — should use the purchase-widget",status:"Backlog",who:"Unassigned",reporter:"Clint Tredway"},
+  {key:"PLANS-17978",name:"WFP - Blocker - Plan purchase/ Manual Renew failed (takes few minutes)- forever loading page",status:"Backlog",who:"Unassigned",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-17966",name:"Member portal- 500 error in the console",status:"Backlog",who:"Dima Shtympel",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-17951",name:"QA Test - Member portal - Broken UI",status:"Backlog",who:"Mireya Alvarez",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-17713",name:"Provider - 18+ warning is not visible when purchase plan through add treatment flow",status:"Backlog",who:"Unassigned",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-17430",name:"WellfitPay | Stage | PBO sending a 400 when trying to add a new card| ",status:"Backlog",who:"Unassigned",reporter:"Hazel Loya"},
+  {key:"PLANS-17423",name:"Member Portal /Smile health- missing Wellfit logo in membership agreement doc",status:"Backlog",who:"Unassigned",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-17422",name:"Member Portal - ADD PLAN visible for ADHA plans purchased from ADHA site (showing KIDS and SGDP plans)",status:"Backlog",who:"Unassigned",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-16901",name:"Member Portal - Contact Information is empty after verifying email address",status:"Backlog",who:"Unassigned",reporter:"Mireya Alvarez"},
+  {key:"PLANS-16298",name:"Member Portal - Saved payment methods disappear after refreshing the Payments page",status:"Backlog",who:"Unassigned",reporter:"Mireya Alvarez"},
+  {key:"PLANS-16289",name:"Member Portal \\ Add Plan flow is broken",status:"Backlog",who:"Clint Tredway",reporter:"Luis Moreno"},
+  {key:"PLANS-16163",name:"Member Portal \\ Opt-out reasons email flow is throwing a 401 error when user is not previously Logged in at MemberPortal",status:"Backlog",who:"Unassigned",reporter:"Luis Moreno"},
+  {key:"PLANS-16106",name:"Smile Health - Pre-Prod Purchase - reCAPTCHA Displays \"Invalid Domain for Site Key\"",status:"Backlog",who:"Unassigned",reporter:"Mireya Alvarez"},
+  {key:"PLANS-15683",name:"WFP- Clicking on Manage Patient again - showing empty search page",status:"Backlog",who:"Unassigned",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-15657",name:"Member Portal \\ Failed to display Benefit Summary",status:"Backlog",who:"Unassigned",reporter:"Luis Moreno"},
+  {key:"PLANS-15258",name:"Member portal - Treatment Summary page UI has changed / no back button/ Export button",status:"Backlog",who:"Unassigned",reporter:"Anuradhi Wickramasinghe"},
+  {key:"PLANS-15219",name:"Stage - PMP - Purchase - Payment Method is empty",status:"Backlog",who:"Unassigned",reporter:"Gabriel Perez Cardozo"},
+  {key:"PLANS-15104",name:"WFP \\ Users unable to select a plan due to CAPTCHA issue",status:"Backlog",who:"Unassigned",reporter:"Luis Moreno"}
+];
+
+// card-driven filter: null = no card filter; otherwise a predicate key
+let bugCard="all";           // all | near | backlog | wip | unassigned
+let bugStatuses=new Set();   // multi-select status chips; empty = all
+const CARD_PRED = {
+  all: ()=>true,
+  near: b=>NEAR_CLOSE.includes(b.status),
+  backlog: b=>b.status==="Backlog",
+  wip: b=>b.cat==="In Progress",
+  unassigned: b=>b.who==="Unassigned",
+  onhold: b=>/hold/i.test(b.status)
+};
+function bugRows(){
+  let r=BUGS.slice();
+  if(bugCard!=="all") r=r.filter(CARD_PRED[bugCard]);
+  if(bugStatuses.size) r=r.filter(b=>bugStatuses.has(b.status));
+  return r;
+}
+function renderBugCards(){
+  const box=document.getElementById("bugcards");
+  const total=BUGS.length;
+  const near=BUGS.filter(CARD_PRED.near).length;
+  const backlog=BUGS.filter(CARD_PRED.backlog).length;
+  const wip=BUGS.filter(CARD_PRED.wip).length;
+  const unassigned=BUGS.filter(CARD_PRED.unassigned).length;
+  const onhold=BUGS.filter(CARD_PRED.onhold).length;
+  const pct=n=>total?Math.round(n/total*100):0;
+  const bar=n=>`<div class="pctbar"><span style="width:${pct(n)}%"></span></div>`;
+  const card=(id,title,val,color,sub)=>`<button class="card sc bugcardbtn${bugCard===id?' sel':''}" data-card="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div>${id==="all"?`<div class="scsub">${sub}</div>`:`<div class="pctrow"><span class="pctnum">${pct(val)}%</span> of active</div>${bar(val)}`}</button>`;
+  box.innerHTML=
+    card("all","Active bugs",total,"var(--blue)","not closed · Pod LL")+
+    card("near","Near closing",near,"var(--green)","In Stage · In QA · Dev Verification · PR Merged")+
+    card("wip","Work in progress",wip,"var(--amber)")+
+    card("backlog","In backlog",backlog,"var(--muted)")+
+    card("unassigned","Unassigned",unassigned,unassigned?"var(--red)":"var(--green)")+
+    card("onhold","On Hold",onhold,onhold?"var(--red)":"var(--green)");
+  box.querySelectorAll(".bugcardbtn").forEach(btn=>{
+    btn.addEventListener("click",()=>{ bugCard = (bugCard===btn.dataset.card?"all":btn.dataset.card); renderBugs(); });
+  });
+}
+function renderBugs(){
+  renderBugCards();
+  const rows=bugRows();
+  // group by status; On Hold pinned first, then by flow rank DESC (closest to close), backlog last
+  const groups={};
+  rows.forEach(b=>{ (groups[b.status]=groups[b.status]||[]).push(b); });
+  const ordered=Object.keys(groups).sort((a,b)=>{
+    const ah=/hold/i.test(a), bh=/hold/i.test(b);
+    if(ah!==bh) return ah?-1:1;            // On Hold always on top
+    return flowRank(b)-flowRank(a);
+  });
+  const wrap=document.getElementById("bugboard"); wrap.innerHTML="";
+  ordered.forEach(st=>{
+    const list=groups[st];
+    const near=NEAR_CLOSE.includes(st);
+    const isBack=st==="Backlog";
+    const hold=/hold/i.test(st);
+    const sec=document.createElement("div"); sec.className="bugcol";
+    sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''}"><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
+    const tbl=document.createElement("table"); tbl.className="xref bugtbl";
+    tbl.innerHTML=`<thead><tr><th>Bug</th><th>Fix Version</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
+    const tb=document.createElement("tbody");
+    list.sort((a,b)=>a.key.localeCompare(b.key)).forEach(b=>{
+      const tr=document.createElement("tr");
+      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a><br><span style="color:var(--ink)">${b.name}</span></td>`+
+        `<td>${b.fv||'<span class="muted-date">—</span>'}</td>`+
+        `<td>${b.sprint?`<span class="sprint">${b.sprint}</span>`:'<span class="muted-date">—</span>'}</td>`+
+        `<td>${b.who}</td><td>${b.reporter}</td>`;
+      tb.appendChild(tr);
+    });
+    tbl.appendChild(tb); sec.appendChild(tbl); wrap.appendChild(sec);
+  });
+  document.getElementById("bugnote").textContent=`Showing ${rows.length} of ${BUGS.length} active bugs. Columns ordered by workflow — On Hold pinned first, then closest to closing, backlog last. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
+}
+// status filter chips — multi-select (checkbox behavior). "All" clears; "On Hold" pinned right after All.
+(function bugStatusFilters(){
+  const present = FLOW.filter(s=>BUGS.some(b=>b.status===s));
+  const onhold = present.filter(s=>/hold/i.test(s));
+  const rest = present.filter(s=>!/hold/i.test(s)).sort((a,b)=>flowRank(b)-flowRank(a));
+  const sts=["all",...onhold,...rest];
+  const sf=document.getElementById("bugstatusfilter");
+  sts.forEach(s=>{
+    const btn=document.createElement("button");
+    const hold=/hold/i.test(s);
+    btn.className="tbtn"+(s==="all"?" active":"")+(hold?" holdchip":"");
+    btn.dataset.status=s; btn.textContent=s==="all"?"All":s;
+    btn.addEventListener("click",()=>{
+      if(s==="all"){ bugStatuses.clear(); sf.querySelectorAll(".tbtn").forEach(x=>x.classList.remove("active")); btn.classList.add("active"); renderBugs(); return; }
+      if(bugStatuses.has(s)){ bugStatuses.delete(s); btn.classList.remove("active"); }
+      else { bugStatuses.add(s); btn.classList.add("active"); }
+      const allBtn=sf.querySelector('.tbtn[data-status="all"]');
+      if(bugStatuses.size){ allBtn.classList.remove("active"); } else { allBtn.classList.add("active"); }
+      renderBugs();
+    });
+    sf.appendChild(btn);
+  });
+})();
+// generic peek/see-more wiring: show `n` rows collapsed, fade the next, toggle the rest
+function setupPeek(listId, btnId, n){
+  const ul=document.getElementById(listId), btn=document.getElementById(btnId);
+  if(!ul||!btn) return;
+  const items=ul.children, total=items.length;
+  if(total<=n){ ul.classList.remove("collapsed"); ul.style.removeProperty("--peek-h"); btn.style.display="none"; return; }
+  let h=0; for(let i=0;i<n;i++) h+=items[i].offsetHeight;
+  h += Math.round((items[n]?items[n].offsetHeight:0)*0.5);
+  if(h===0){ ul.classList.remove("collapsed"); btn.style.display="none"; return; } // panel hidden; will re-run on show
+  ul.style.setProperty("--peek-h", h+"px");
+  const collapse=()=>{ ul.classList.add("collapsed"); btn.classList.remove("open"); btn.textContent=`See ${total-n} more`; };
+  const expand=()=>{ ul.classList.remove("collapsed"); btn.classList.add("open"); btn.textContent="See less"; };
+  btn.style.display="inline-flex";
+  btn.onclick=()=>{ ul.classList.contains("collapsed")?expand():collapse(); };
+  collapse();
+}
+// no-pod PLANS bugs list + Jira link
+(function noPodList(){
+  const jql = 'project = PLANS AND issuetype = Bug AND "Pod[Dropdown]" IS EMPTY AND statusCategory != Done ORDER BY created DESC';
+  document.getElementById("nopodjira").href = "https://wellfit.atlassian.net/issues/?jql="+encodeURIComponent(jql);
+  const ul=document.getElementById("nopodlist");
+  NOPOD.forEach(b=>{
+    const li=document.createElement("li");
+    li.innerHTML=`<a class="k" href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a><span style="flex:1">${b.name}<br><span class="who">${b.who} · reporter ${b.reporter}</span></span>${statusPill(b.status)}`;
+    ul.appendChild(li);
+  });
+  setupPeek("nopodlist","nopod-toggle",5);
+})();
+renderBugs();
+
+// ---- Tab switching ----
+document.querySelectorAll(".tab").forEach(t=>{
+  t.addEventListener("click",()=>{
+    document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+    document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
+    t.classList.add("active");
+    document.getElementById("panel-"+t.dataset.tab).classList.add("active");
+    // peek heights can only be measured once the panel is visible
+    if(t.dataset.tab==="allroadmap") setupPeek("nodate","nodate-toggle",5);
+    if(t.dataset.tab==="bugs") setupPeek("nopodlist","nopod-toggle",5);
+  });
+});
+</script>
+</body>
+</html>
