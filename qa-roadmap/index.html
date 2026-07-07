@@ -98,6 +98,11 @@
   .xref a{color:var(--blue);font-weight:700;text-decoration:none}
   .xref a:hover{text-decoration:underline}
   .pod{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:20px;background:rgba(27,95,168,.1);color:var(--blue)}
+  .themetag{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;white-space:nowrap;background:rgba(122,95,176,.12);color:var(--purple)}
+  .themetag.th-llmvp{background:rgba(27,95,168,.12);color:var(--blue)}
+  .themetag.th-llfastfollows{background:rgba(76,175,46,.14);color:#2f7d1c}
+  .themetag.th-ach{background:rgba(122,95,176,.14);color:var(--purple)}
+  .themetag.th-achfastfollows{background:rgba(232,163,23,.16);color:#9a6c00}
   .pill{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;letter-spacing:.02em}
   .pill.testing{background:rgba(122,95,176,.14);color:var(--purple)}
   .pill.dev{background:rgba(232,163,23,.16);color:#9a6a06}
@@ -107,18 +112,31 @@
   .lbl{font-size:10px;color:var(--muted);background:var(--track);padding:1px 6px;border-radius:4px;margin-right:3px;white-space:nowrap}
   .muted-date{color:var(--muted)}
   .xnote{font-size:12px;color:var(--muted);margin-top:12px}
-  .themebtns{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+  .themebtns{display:flex;flex-wrap:wrap;gap:6px}
   .themefilter{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
   .themefilter:hover{border-color:var(--blue);color:var(--blue)}
   .themefilter.active{background:var(--blue);border-color:var(--blue);color:#fff}
-  .podbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
-  .podbtn:hover{border-color:var(--blue);color:var(--blue)}
+  /* filter panel: groups the filter rows into one tidy card */
+  .filterpanel{background:#fff;border:1px solid var(--line);border-radius:12px;padding:4px 16px;margin-top:16px;box-shadow:0 1px 3px rgba(18,62,107,.05)}
+  .filterrow{display:flex;align-items:baseline;gap:14px;padding:11px 0;flex-wrap:wrap;border-top:1px solid var(--line)}
+  .filterrow:first-child{border-top:0}
+  .flabel{font-size:10.5px;font-weight:800;color:var(--navy);text-transform:uppercase;letter-spacing:.07em;min-width:62px;flex:none;padding-top:5px}
+  .podbtn,.tbtn,.segbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:4px 12px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .12s;line-height:1.5}
+  /* default accent = blue (Pod) */
+  .podbtn:hover,.tbtn:hover,.segbtn:hover{border-color:var(--blue);color:var(--blue);background:#f4f8fc}
   .podbtn.active{background:var(--blue);border-color:var(--blue);color:#fff}
-  .tbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
-  .tbtn:hover{border-color:var(--green);color:var(--green)}
-  .tbtn.active{background:var(--green);border-color:var(--green);color:#fff}
-  .filterrow{display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap}
-  .flabel{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;min-width:44px}
+  .tbtn.active{background:var(--blue);border-color:var(--blue);color:#fff}
+  .segbtn.active{background:var(--navy);border-color:var(--navy);color:#fff}
+  /* per-group active accents so each row reads at a glance */
+  #themefilter .podbtn.active{background:var(--purple);border-color:var(--purple)}
+  #themefilter .podbtn:hover{border-color:var(--purple);color:var(--purple);background:#f7f4fc}
+  #rmthemefilter .podbtn.active{background:var(--purple);border-color:var(--purple)}
+  #rmthemefilter .podbtn:hover{border-color:var(--purple);color:var(--purple);background:#f7f4fc}
+  #relfilter .podbtn.active{background:var(--navy);border-color:var(--navy)}
+  #allstatusfilter .tbtn.active{background:var(--green);border-color:var(--green)}
+  #allstatusfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
+  #bugstatusfilter .tbtn.active{background:var(--green);border-color:var(--green)}
+  #bugstatusfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
   .proj{display:inline-block;padding:2px 7px;border-radius:4px;background:#eef2f7;color:var(--navy);font-size:11px;font-weight:700}
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:16px}
   .sc{padding:16px 18px}
@@ -129,9 +147,6 @@
   .scell{display:flex;align-items:center;justify-content:space-between;gap:12px}
   .sk{font-size:13px;color:var(--ink)}
   .sv{font-size:13px;font-weight:700;color:var(--navy);background:#eef2f7;border-radius:10px;padding:1px 9px;min-width:26px;text-align:center}
-  .segbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 14px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
-  .segbtn:hover{border-color:var(--navy);color:var(--navy)}
-  .segbtn.active{background:var(--navy);border-color:var(--navy);color:#fff}
   .bugcol{margin-top:20px}
   .bugcolhead{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:2px solid var(--line);margin-bottom:8px}
   .bugcolhead.near{border-bottom-color:var(--green)}
@@ -198,15 +213,21 @@
   </div>
 
   <div class="panel active" id="panel-all">
-    <p class="sub" style="margin-top:16px">Active LL Features (Pod = LL), ordered by workflow status — top of the list is closest to Closed, bottom is Backlog. Closed features are excluded. Filter by Release or Status.</p>
+    <p class="sub" style="margin-top:16px">Active Features across all pods, grouped by <b>Theme</b>. Ordered by workflow status — top is closest to Closed, bottom is Backlog. Closed features are excluded. Filter by Theme, Pod, Release or Status.</p>
     <div class="cards" id="allcards"></div>
-    <div class="filterrow"><span class="flabel">Release</span>
-    <div class="themebtns" id="relfilter"></div></div>
-    <div class="filterrow"><span class="flabel">Status</span>
-    <div class="themebtns" id="allstatusfilter"></div></div>
+    <div class="filterpanel">
+      <div class="filterrow"><span class="flabel">Theme</span>
+      <div class="themebtns" id="themefilter"></div></div>
+      <div class="filterrow"><span class="flabel">Pod</span>
+      <div class="themebtns" id="podfilter"></div></div>
+      <div class="filterrow"><span class="flabel">Release</span>
+      <div class="themebtns" id="relfilter"></div></div>
+      <div class="filterrow"><span class="flabel">Status</span>
+      <div class="themebtns" id="allstatusfilter"></div></div>
+    </div>
     <table class="xref">
       <thead>
-        <tr><th>Feature</th><th class="sortable" data-sort="status">Status</th><th class="sortable" data-sort="release">Release</th><th class="sortable" data-sort="ted">Target End</th><th class="sortable" data-sort="size">Size</th><th>Owner</th></tr>
+        <tr><th>Feature</th><th class="sortable" data-sort="theme">Theme</th><th class="sortable" data-sort="pod">Pod</th><th class="sortable" data-sort="status">Status</th><th class="sortable" data-sort="release">Release</th><th class="sortable" data-sort="ted">Target End</th><th class="sortable" data-sort="size">Size</th><th>Owner</th></tr>
       </thead>
       <tbody id="allbody"></tbody>
     </table>
@@ -215,13 +236,17 @@
 
   <div class="panel" id="panel-allroadmap">
     <p class="sub" style="margin-top:16px">Consolidated QA delivery roadmap. Work still in build is placed by Dev-estimated <b>Target End date</b> through the R9.7 freeze — read left to right, soonest first. Anything already <b>In Testing</b> is pulled out into a separate <b>QA Ready / In Progress</b> lane at the top (it's already with QA, so its date no longer matters). Bar length reflects the feature's T-shirt size; blocked/on-hold shows red with a Spotlight note on hover; a ⚠ marks a date that has passed without reaching Testing.</p>
-    <div class="filterrow"><span class="flabel">Segment</span>
-    <div class="themebtns" id="segfilter">
-      <button class="segbtn active" data-seg="all">All Pods</button>
-      <button class="segbtn" data-seg="LL">LL QA Roadmap</button>
-      <button class="segbtn" data-seg="PLANS">Plans QA Roadmap</button>
-      <button class="segbtn" data-seg="cross">Cross Pod QA Roadmap</button>
-    </div></div>
+    <div class="filterpanel">
+      <div class="filterrow"><span class="flabel">Segment</span>
+      <div class="themebtns" id="segfilter">
+        <button class="segbtn active" data-seg="all">All Pods</button>
+        <button class="segbtn" data-seg="LL">LL QA Roadmap</button>
+        <button class="segbtn" data-seg="PLANS">Plans QA Roadmap</button>
+        <button class="segbtn" data-seg="cross">Cross Pod QA Roadmap</button>
+      </div></div>
+      <div class="filterrow"><span class="flabel">Theme</span>
+      <div class="themebtns" id="rmthemefilter"></div></div>
+    </div>
     <div class="legend" style="margin-top:14px">
       <span class="chip"><span class="sw ready"></span><b>QA Ready / In Progress</b> (In Testing)</span>
       <span class="chip"><span class="sw dev"></span><b>In progress</b> — bar shows Target End date</span>
@@ -243,8 +268,10 @@
   <div class="panel" id="panel-bugs">
     <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status chips to filter (multi-select).</p>
     <div class="cards" id="bugcards"></div>
-    <div class="filterrow"><span class="flabel">Status</span>
-    <div class="themebtns" id="bugstatusfilter"></div></div>
+    <div class="filterpanel">
+      <div class="filterrow"><span class="flabel">Status</span>
+      <div class="themebtns" id="bugstatusfilter"></div></div>
+    </div>
     <div id="bugboard"></div>
     <p class="xnote" id="bugnote"></p>
 
@@ -309,6 +336,8 @@ const FEATURES = [
   {key:"PLANS-18481",name:"Unify Purchase Into NPM Package",status:"Epics & Stories",ted:"2026-07-20",fv:"R9.6",who:"Ivan Yarymovych",tshirt:"Large"}
 ];
 
+const FEATURES_ALL = [{"key": "DYN-668", "name": "Plans Journey - ACH Email Updates", "status": "In Development", "ted": "2026-06-30", "fv": "R9.6", "who": "Unassigned", "tshirt": "Moderate", "pod": "DYN", "theme": "ACH"}, {"key": "PAY-3751", "name": "ACH Reporting", "status": "In Development", "ted": "2026-07-15", "fv": "R9.6", "who": "Lloyd Tokerud", "tshirt": "X-Large", "pod": "EDW", "theme": "ACH"}, {"key": "PLANS-14180", "name": "Wallet Enhancements for ACH", "status": "On Hold", "ted": null, "fv": "R9.6", "who": "Ivan Yarymovych", "tshirt": "Large", "pod": "LL", "theme": "ACH"}, {"key": "PLANS-17114", "name": "Handling ACH Declines", "status": "In Development", "ted": "2026-07-09", "fv": "R9.6", "who": "Shchekochykhin Vladyslav", "tshirt": "X-Large", "pod": "LL", "theme": "ACH"}, {"key": "PLANS-17686", "name": "Updates to Transaction History", "status": "In Testing", "ted": null, "fv": "R9.6", "who": "Nazarii Polinyk", "tshirt": "Small", "pod": "LL", "theme": "ACH"}, {"key": "PLANS-17687", "name": "Incorporate Payment Widget into Plan Purchase Widget", "status": "In Development", "ted": "2026-07-15", "fv": "R9.6", "who": "Valentyna Tenus", "tshirt": "Large", "pod": "LL", "theme": "ACH"}, {"key": "PLAT-5427", "name": "ACH Widget Feature", "status": "In Development", "ted": null, "fv": "R9.6", "who": "Nimesh Panchal", "tshirt": "Moderate", "pod": "PLAT", "theme": "ACH"}, {"key": "PLAT-5525", "name": "communication-service", "status": "In Development", "ted": "2026-07-17", "fv": "R9.5.1", "who": "Nimesh Panchal", "tshirt": "X-Large", "pod": "PLAT", "theme": "ACH"}, {"key": "PLAT-5576", "name": "ACH Authorization Service", "status": "Epics & Stories", "ted": "2026-07-17", "fv": "R9.5.1", "who": "Nimesh Panchal", "tshirt": "X-Large", "pod": "PLAT", "theme": "ACH"}, {"key": "WEL-5777", "name": "ACH Core Support", "status": "In Testing", "ted": "2026-08-05", "fv": "R9.6", "who": "Daniel Marineni", "tshirt": "Large", "pod": "WEL", "theme": "ACH"}, {"key": "DYN-1030", "name": "Ach Emails WFP Non Plans", "status": "Blocked", "ted": null, "fv": "R9.6", "who": "Satva Tech", "tshirt": "Small", "pod": "DYN", "theme": "ACH-Fast Follows"}, {"key": "PLANS-15748", "name": "Ach Refunds Inside of Csp", "status": "In Testing", "ted": "2026-06-16", "fv": "R9.6", "who": "Mykyta Moroz", "tshirt": "Huge", "pod": "LL", "theme": "ACH-Fast Follows"}, {"key": "PLANS-17725", "name": "Handle ACH in Member Portal", "status": "Idea", "ted": null, "fv": null, "who": "Unassigned", "tshirt": null, "pod": "PLANS", "theme": "ACH-Fast Follows"}, {"key": "WEL-5833", "name": "ACH Transaction Details Modal", "status": "In Development", "ted": null, "fv": "R9.6", "who": "Daniel Marineni", "tshirt": "Large", "pod": "WEL", "theme": "ACH-Fast Follows"}, {"key": "PLANS-14421", "name": "Provider Search in Member Portal", "status": "Epics & Stories", "ted": null, "fv": null, "who": "Michael McNulty", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-16678", "name": "PMP - Account Information Google/Apple Wallet", "status": "In Development", "ted": null, "fv": null, "who": "Rostyslav Masniuk", "tshirt": null, "pod": "", "theme": "LL-Fast Follows"}, {"key": "PLANS-16750", "name": "Plan Office Payment Enhancement", "status": "Architecture", "ted": null, "fv": null, "who": "Michael McNulty", "tshirt": null, "pod": "", "theme": "LL-Fast Follows"}, {"key": "PLANS-17582", "name": "Bulk Sellable Acceptable", "status": "Architecture", "ted": null, "fv": null, "who": "Unassigned", "tshirt": "Large", "pod": "LL", "theme": "LL-Fast Follows"}, {"key": "PLANS-17724", "name": "UCR Bulk Upload for PMP", "status": "Idea", "ted": null, "fv": null, "who": "Vic Du Plessis", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-17726", "name": "Goals Dashboard", "status": "Idea", "ted": null, "fv": null, "who": "Unassigned", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-17727", "name": "Show Provider by Office for Website", "status": "Idea", "ted": null, "fv": null, "who": "Vic Du Plessis", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-17728", "name": "CSP ADD Plans Settings FOR Individual Plus", "status": "Idea", "ted": null, "fv": null, "who": "Unassigned", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-17731", "name": "DSO Plan Payment Feature", "status": "Idea", "ted": null, "fv": null, "who": "Unassigned", "tshirt": "Large", "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-17732", "name": "Implement web analytics platform to support DSO analytics requirements", "status": "Idea", "ted": null, "fv": null, "who": "Unassigned", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-17746", "name": "Benefit Usage and Office Assignment", "status": "Idea", "ted": null, "fv": null, "who": "Michael McNulty", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-18017", "name": "Multi-Practice User - Manage Patient", "status": "Idea", "ted": null, "fv": null, "who": "Unassigned", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-18018", "name": "Define Refund Window Timeframes", "status": "Idea", "ted": null, "fv": null, "who": "Michael McNulty", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-18020", "name": "Tie Plan Renewals to Office", "status": "Architecture", "ted": null, "fv": "R9.6", "who": "Daryl Myrick", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-18049", "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard", "status": "Epics & Stories", "ted": null, "fv": "R9.6", "who": "Vic Du Plessis", "tshirt": "Moderate", "pod": "EDW", "theme": "LL-Fast Follows"}, {"key": "PLANS-18074", "name": "CSP - Request a Refund", "status": "Idea", "ted": null, "fv": null, "who": "Vic Du Plessis", "tshirt": null, "pod": "PLANS", "theme": "LL-Fast Follows"}, {"key": "PLANS-18095", "name": "Hide Mail Option", "status": "In Testing", "ted": "2026-07-03", "fv": "R9.6", "who": "Rostyslav Masniuk", "tshirt": null, "pod": "LL", "theme": "LL-Fast Follows"}, {"key": "PLANS-18481", "name": "Unify Purchase Into NPM Package", "status": "Epics & Stories", "ted": "2026-07-20", "fv": "R9.6", "who": "Ivan Yarymovych", "tshirt": "Large", "pod": "LL", "theme": "LL-Fast Follows"}, {"key": "PLAT-5586", "name": "Product Selection PER Practice", "status": "Architecture", "ted": null, "fv": null, "who": "Unassigned", "tshirt": null, "pod": "PLAT", "theme": "LL-Fast Follows"}, {"key": "PLAT-5587", "name": "Multi Org Hierarchy", "status": "Idea", "ted": null, "fv": null, "who": "Unassigned", "tshirt": null, "pod": "PLAT", "theme": "LL-Fast Follows"}, {"key": "PLAT-5603", "name": "Plan Design", "status": "Architecture", "ted": null, "fv": null, "who": "Vic Du Plessis", "tshirt": null, "pod": "PLAT", "theme": "LL-Fast Follows"}, {"key": "DYN-1077", "name": "Launch Loyalty Migration Emails", "status": "In Development", "ted": "2026-07-10", "fv": "R9.6", "who": "Unassigned", "tshirt": "Moderate", "pod": "DYN", "theme": "LL-MVP"}, {"key": "DYN-1080", "name": "LL - Expired Plans Winback Journey", "status": "Epics & Stories", "ted": null, "fv": "R9.6", "who": "Unassigned", "tshirt": "Small", "pod": "DYN", "theme": "LL-MVP"}, {"key": "DYN-708", "name": "Launch loyalty New Email Journeys", "status": "In Testing", "ted": "2026-07-07", "fv": "R9.6", "who": "Unassigned", "tshirt": "Moderate", "pod": "DYN", "theme": "LL-MVP"}, {"key": "DYN-763", "name": "Dynamic Admin Fees in Email Journeys", "status": "In Testing", "ted": "2026-06-30", "fv": "R9.6", "who": "Satva Tech", "tshirt": "Large", "pod": "DYN", "theme": "LL-MVP"}, {"key": "DYN-820", "name": "Non Annual Renewals", "status": "In Testing", "ted": "2026-07-13", "fv": "R9.6", "who": "Unassigned", "tshirt": "Moderate", "pod": "DYN", "theme": "LL-MVP"}, {"key": "PAY-3756", "name": "Launch Loyalty Token Migration", "status": "In Development", "ted": "2026-07-17", "fv": "R9.6", "who": "Stephen Perry", "tshirt": "Huge", "pod": "PAY", "theme": "LL-MVP"}, {"key": "PLANS-14280", "name": "Member Portal Terms and Conditions on Initial Login", "status": "In Testing", "ted": "2026-06-19", "fv": "R9.6", "who": "Denys Kernychnyi", "tshirt": "Large", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-14430", "name": "One Smile Custom Website", "status": "In Testing", "ted": "2026-07-24", "fv": "R9.6", "who": "Santiago Kirk Cabrera", "tshirt": "X-Large", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-14501", "name": "Use Custom URL on Smile Health", "status": "In Testing", "ted": "2026-06-16", "fv": "R9.6", "who": "Ivan Yarymovych", "tshirt": "Large", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-15100", "name": "Essential Smiles Plan Custom Website", "status": "Ready for Development", "ted": "2026-07-24", "fv": "R9.6", "who": "Mariano Hernández", "tshirt": "X-Large", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-15222", "name": "Legal Language Updates for Intake Form & Check Out Pages", "status": "In Testing", "ted": "2026-07-31", "fv": "R9.6", "who": "Valentyna Tenus", "tshirt": "Large", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-15226", "name": "WAIVEFAM Promo Code", "status": "In Development", "ted": "2026-07-08", "fv": "R9.6", "who": "Mykyta Moroz", "tshirt": "Small", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-15247", "name": "Individual Plan - Discount for Extra Members & the Wellfit Share", "status": "In Development", "ted": "2026-07-10", "fv": "R9.6", "who": "Petro Yarish", "tshirt": "Small", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-15298", "name": "Additional Benefit Eligibility SFTP Feed", "status": "Epics & Stories", "ted": null, "fv": "R9.6", "who": "Unassigned", "tshirt": "Moderate", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-15451", "name": "Plan Design", "status": "On Hold", "ted": null, "fv": "R9.7", "who": "Dima Shtympel", "tshirt": "Huge", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-15892", "name": "Subscription Recurring Charge Processing", "status": "Epics & Stories", "ted": null, "fv": "R9.7", "who": "Chris Rubio", "tshirt": "Large", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-15984", "name": "PMP Ancillary Benefit Card", "status": "In Development", "ted": "2026-07-24", "fv": "R9.6", "who": "Daryl Myrick", "tshirt": "Moderate", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-16091", "name": "Dynamic Legal Language - Portal Footer", "status": "In Development", "ted": "2026-07-10", "fv": "R9.6", "who": "Valentyna Tenus", "tshirt": "Moderate", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-16267", "name": "Update Auto-Renewal w/Panda Doc Signature", "status": "In Testing", "ted": "2026-07-24", "fv": "R9.6", "who": "David Jones", "tshirt": "Small", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-16409", "name": "Electronic Consent Form Updates", "status": "In Development", "ted": "2026-07-24", "fv": "R9.6", "who": "Dima Shtympel", "tshirt": "Huge", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-16563", "name": "Subscription Renewal Extension", "status": "Epics & Stories", "ted": null, "fv": "R9.7", "who": "Chris Rubio", "tshirt": "Large", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-16670", "name": "Tie Plan Purchase to Office", "status": "In Development", "ted": "2026-07-17", "fv": "R9.6", "who": "Daryl Myrick", "tshirt": "Large", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-16677", "name": "PMP - Account Status in Account Information", "status": "In Testing", "ted": "2026-07-24", "fv": "R9.6", "who": "Hunter Redhead", "tshirt": "Moderate", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-16779", "name": "Notes Section for Account Information", "status": "Ready for Development", "ted": "2026-07-17", "fv": "R9.6", "who": "Unassigned", "tshirt": "Large", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-17004", "name": "Handle Integration within The Member Portal", "status": "In Development", "ted": "2026-06-19", "fv": "R9.6", "who": "Yurii Mochulskyi", "tshirt": "Moderate", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-17058", "name": "Renewal Transaction Handling for Migrated Members", "status": "Epics & Stories", "ted": null, "fv": "R9.6", "who": "Chris Rubio", "tshirt": "Moderate", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-17161", "name": "Marketing Details Updates", "status": "In Testing", "ted": "2026-07-10", "fv": "R9.6", "who": "Dima Shtympel", "tshirt": "X-Large", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-17282", "name": "Unintegrated Member Portal View", "status": "In Development", "ted": "2026-07-20", "fv": "R9.6", "who": "Denys Kernychnyi", "tshirt": "Large", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-17463", "name": "New Bill To Office Option", "status": "In Development", "ted": "2026-07-09", "fv": "R9.6", "who": "Mykyta Moroz", "tshirt": "Moderate", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-17468", "name": "Open Network Dashboard Upgrades", "status": "Ready for Development", "ted": null, "fv": "R9.7", "who": "Unassigned", "tshirt": "Large", "pod": "EDW", "theme": "LL-MVP"}, {"key": "PLANS-17577", "name": "Link Tokens for C/C & ACH to Members", "status": "In Testing", "ted": null, "fv": "R9.6", "who": "Lloyd Tokerud", "tshirt": "Moderate", "pod": "EDW", "theme": "LL-MVP"}, {"key": "PLANS-17580", "name": "Membership Fee Promo Codes", "status": "In Testing", "ted": "2026-06-19", "fv": "R9.6", "who": "Mykyta Moroz", "tshirt": "Moderate", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-17581", "name": "Disbursement Splits & Admin Fee Splits", "status": "In Development", "ted": null, "fv": "R9.6", "who": "Unassigned", "tshirt": "Moderate", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-17585", "name": "Auto-Renewal Re-Try Process", "status": "Architecture", "ted": null, "fv": "R9.7", "who": "Michael McNulty", "tshirt": "Moderate", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-17586", "name": "Member Portal Support for Subscription Payments", "status": "Epics & Stories", "ted": null, "fv": "R9.6", "who": "Unassigned", "tshirt": "Moderate", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-17587", "name": "Restrictions on Renewals", "status": "In Development", "ted": "2026-07-15", "fv": "R9.7", "who": "Shchekochykhin Vladyslav", "tshirt": "Large", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLANS-17588", "name": "DSO Dashboard", "status": "Ready for Development", "ted": null, "fv": "R9.7", "who": "Unassigned", "tshirt": "Large", "pod": "EDW", "theme": "LL-MVP"}, {"key": "PLANS-17729", "name": "Subscription Purchases inside of Plans", "status": "Ready for Development", "ted": null, "fv": "R9.7", "who": "Unassigned", "tshirt": "X-Large", "pod": "PLANS", "theme": "LL-MVP"}, {"key": "PLANS-18019", "name": "Migrate Plans", "status": "In Testing", "ted": null, "fv": "R9.6", "who": "Chris Rubio", "tshirt": "Moderate", "pod": "LL", "theme": "LL-MVP"}, {"key": "PLAT-5572", "name": "Launch Loyalty Migration", "status": "Ready for Development", "ted": null, "fv": "R9.6", "who": "Unassigned", "tshirt": "X-Large", "pod": "PLAT", "theme": "LL-MVP"}, {"key": "PLAT-5573", "name": "SaaS Fee Per Practice", "status": "Architecture", "ted": null, "fv": "R9.7", "who": "Vic Du Plessis", "tshirt": "Moderate", "pod": "PLAT", "theme": "LL-MVP"}, {"key": "WEL-5793", "name": "DSO - Phase 1 & Phase 2", "status": "In Development", "ted": "2026-08-05", "fv": "R9.6", "who": "Daniel Marineni", "tshirt": "X-Large", "pod": "WEL", "theme": "LL-MVP"}, {"key": "PLANS-15540", "name": "open-closed-network", "status": "In Development", "ted": null, "fv": null, "who": "Unassigned", "tshirt": null, "pod": "LL", "theme": ""}, {"key": "PLANS-17576", "name": "Migrate Orgs, Practices AND Members", "status": "In Testing", "ted": null, "fv": "R9.6", "who": "Chris Rubio", "tshirt": "Moderate", "pod": "LL", "theme": ""}, {"key": "PLANS-18413", "name": "Marketing Details", "status": "Requirements", "ted": null, "fv": "R9.6", "who": "Vasyl Skochko", "tshirt": null, "pod": "LL", "theme": ""}];
+
 const TODAY = new Date("2026-07-07");
 // QA weeks through R9.7 freeze (2026-08-23)
 const WEEKS = [
@@ -361,10 +390,18 @@ function weekCenter(wi){ const s=pct(WEEKS[wi].start), e=pct(WEEKS[wi].end); ret
 // Normalize the three data sources into one shape the roadmap can render.
 // LL segment uses the curated FEATURES (QA-ready flags + sheet weeks).
 // PLANS / cross segments derive from the master ALL set, placed by Target End date.
+// Theme lookup by key (from the cross-pod theme dataset) so roadmap items can be theme-filtered.
+const THEME_BY_KEY = {};
+FEATURES_ALL.forEach(f=>{ if(f.theme) THEME_BY_KEY[f.key]=f.theme; });
+let rmSeg="all", rmTheme="all";
 function segData(seg){
-  if(seg==="LL") return {items:FEATURES.slice()};
-  const src = ALL.filter(x=> (seg==="PLANS" ? x.pod==="PLANS" : (x.pod && x.pod!=="LL" && x.pod!=="PLANS")) && !/closed|done|will not/i.test(x.status));
-  const items = src.map(x=>({key:x.key,name:x.name,ted:x.ted,fv:x.fv,status:x.status,who:x.who,pod:x.pod,size:x.size||null}));
+  let items;
+  if(seg==="LL"){ items=FEATURES.slice(); }
+  else {
+    const src = ALL.filter(x=> (seg==="PLANS" ? x.pod==="PLANS" : (x.pod && x.pod!=="LL" && x.pod!=="PLANS")) && !/closed|done|will not/i.test(x.status));
+    items = src.map(x=>({key:x.key,name:x.name,ted:x.ted,fv:x.fv,status:x.status,who:x.who,pod:x.pod,size:x.size||null}));
+  }
+  items.forEach(f=>{ f.theme = f.theme || THEME_BY_KEY[f.key] || ""; });
   return {items};
 }
 function segAll(){
@@ -374,8 +411,10 @@ function segAll(){
   return {items:[...ll,...pl,...xp]};
 }
 function renderRoadmap(seg){
+  rmSeg = seg;
   const data = seg==="all" ? segAll() : segData(seg);
-  const items = data.items;
+  let items = data.items;
+  if(rmTheme!=="all") items = items.filter(f=>(f.theme||"")===rmTheme);
   // scale header
   let scale=`<div class="scalerow"><div class="corner">Feature</div><div class="weeks" style="grid-template-columns:repeat(${NW},1fr)">`;
   WEEKS.forEach(w=>{ scale+=`<div class="weekhead ${w.freeze?'freeze':''}"><b>${w.label}</b>${w.freeze?`<span style="color:var(--red)">${w.freeze}</span>`:''}</div>`; });
@@ -448,10 +487,23 @@ function renderRoadmap(seg){
   setupPeek("nodate","nodate-toggle",5);
   document.getElementById("stamp").textContent="Snapshot built "+TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})+" from Jira. Roadmap is a snapshot — it does not auto-refresh.";
 }
+function buildRoadmapThemeChips(){
+  const data = rmSeg==="all" ? segAll() : segData(rmSeg);
+  const order=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
+  let found=Array.from(new Set(data.items.map(f=>f.theme).filter(Boolean)));
+  found.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
+  const themes=["all",...found];
+  // if current rmTheme no longer available in this segment, reset to all
+  if(rmTheme!=="all" && !found.includes(rmTheme)) rmTheme="all";
+  const box=document.getElementById("rmthemefilter"); box.innerHTML="";
+  themes.forEach(t=>{ const b=document.createElement("button"); b.className="podbtn"+((t==="all"?rmTheme==="all":rmTheme===t)?" active":""); b.textContent=t==="all"?"All":t;
+    b.addEventListener("click",()=>{ rmTheme=t; buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
+    box.appendChild(b); });
+}
 document.querySelectorAll("#segfilter .segbtn").forEach(b=>{
   b.addEventListener("click",()=>{
     document.querySelectorAll("#segfilter .segbtn").forEach(x=>x.classList.remove("active"));
-    b.classList.add("active"); renderRoadmap(b.dataset.seg);
+    b.classList.add("active"); rmSeg=b.dataset.seg; buildRoadmapThemeChips(); renderRoadmap(rmSeg);
   });
 });
 // initial render deferred until ALL is defined (called at end)
@@ -565,15 +617,15 @@ function statusPill(s){
 }
 function fmtDate(d){ return d?new Date(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}):'<span class="muted-date">\u2014</span>'; }
 
-// ---- Active Features tab (Pod = LL) ----
+// ---- Active Features tab (all pods, grouped by Theme) ----
 const allbody=document.getElementById("allbody");
-let fRelease="all", fStatus="all", fCard="all";
+let fRelease="all", fStatus="all", fCard="all", fTheme="all", fPod="all";
 let fSortKey="status", fSortDir="desc";   // default: workflow (status) closest-to-Closed on top
 const FCARD_PRED = {
   all: ()=>true,
   qa: isQA,
   dev: f=>/develop|pr /i.test(f.status),
-  early: f=>/backlog|requirement|architecture|epics|ready for dev/i.test(f.status),
+  early: f=>/backlog|requirement|architecture|epics|ready for dev|idea/i.test(f.status),
   blocked: isBlocked,
   overdue: isOverdue
 };
@@ -583,14 +635,25 @@ function featureSortVal(f, key){
     case "release": return f.fv||"";
     case "ted": return f.ted?new Date(f.ted).getTime():(fSortDir==="asc"?Infinity:-Infinity);
     case "size": return tshirtRank(f.tshirt);
+    case "theme": return f.theme||"zzz";
+    case "pod": return f.pod||"zzz";
     default: return 0;
   }
 }
+// apply the non-card filters (theme / pod / release / status) — shared by table and cards
+function featureBase(){
+  let rows = FEATURES_ALL.slice();
+  if(fTheme!=="all")   rows=rows.filter(f=>(f.theme||"")===fTheme);
+  if(fPod!=="all")     rows=rows.filter(f=>(f.pod||"")===fPod);
+  if(fRelease!=="all") rows=rows.filter(f=>(f.fv||"—")===fRelease);
+  if(fStatus!=="all")  rows=rows.filter(f=>f.status===fStatus);
+  return rows;
+}
+function themePill(t){ return t?`<span class="themetag th-${t.replace(/[^a-zA-Z]/g,'').toLowerCase()}">${t}</span>`:'<span class="muted-date">\u2014</span>'; }
+function podPill(p){ return p?`<span class="pod">${p}</span>`:'<span class="muted-date">\u2014</span>'; }
 function renderAll(){
   allbody.innerHTML="";
-  let rows = FEATURES.slice();
-  if(fRelease!=="all") rows=rows.filter(f=>(f.fv||"—")===fRelease);
-  if(fStatus!=="all") rows=rows.filter(f=>f.status===fStatus);
+  let rows = featureBase();
   if(fCard!=="all") rows=rows.filter(FCARD_PRED[fCard]);
   const dir = fSortDir==="asc"?1:-1;
   rows.sort((a,b)=>{
@@ -604,19 +667,18 @@ function renderAll(){
     const sz = f.tshirt?`<span class="tshirt t-${f.tshirt.replace(/[^a-zA-Z]/g,'').toLowerCase()}">${f.tshirt}</span>`:'<span class="muted-date">\u2014</span>';
     const tr=document.createElement("tr");
     tr.innerHTML=`<td><a href="${JIRA}${f.key}" target="_blank" rel="noopener">${f.key}</a><br><span style="color:var(--ink)">${warn}${f.name}</span></td>`+
+      `<td>${themePill(f.theme)}</td><td>${podPill(f.pod)}</td>`+
       `<td>${statusPill(f.status)}</td><td>${f.fv||'<span class="muted-date">\u2014</span>'}</td>`+
       `<td>${fmtDate(f.ted)}</td><td>${sz}</td><td>${f.who}</td>`;
     allbody.appendChild(tr);
   });
   renderCards();
   updateSortHeaders();
-  document.getElementById("allnote").textContent=`Showing ${rows.length} of ${FEATURES.length} active LL Features. Click a column header to sort; click a card to filter. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
+  document.getElementById("allnote").textContent=`Showing ${rows.length} of ${FEATURES_ALL.length} active Features across all pods. Click a column header to sort; click a card to filter. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
 }
 function renderCards(){
-  // cards always reflect the release/status filters (but not the card filter itself), so counts are stable targets
-  let base=FEATURES.slice();
-  if(fRelease!=="all") base=base.filter(f=>(f.fv||"—")===fRelease);
-  if(fStatus!=="all") base=base.filter(f=>f.status===fStatus);
+  // cards reflect the theme/pod/release/status filters (but not the card filter itself)
+  let base=featureBase();
   const total=base.length;
   const qa=base.filter(isQA).length;
   const dev=base.filter(FCARD_PRED.dev).length;
@@ -626,9 +688,10 @@ function renderCards(){
   const pctv=n=>total?Math.round(n/total*100):0;
   const bar=n=>`<div class="pctbar"><span style="width:${pctv(n)}%"></span></div>`;
   const box=document.getElementById("allcards");
+  const scope = fTheme!=="all" ? fTheme : (fPod!=="all" ? "Pod "+fPod : "All pods");
   const card=(id,title,val,color,subOrPct)=>`<button class="card sc bugcardbtn${fCard===id?' sel':''}" data-fcard="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div>${id==="all"?`<div class="scsub">${subOrPct}</div>`:`<div class="pctrow"><span class="pctnum">${pctv(val)}%</span> of active</div>${bar(val)}`}</button>`;
   box.innerHTML=
-    card("all","Active features",total,"var(--blue)","Pod LL · click to filter")+
+    card("all","Active features",total,"var(--blue)",scope+" · click to filter")+
     card("qa","QA Ready / In Progress",qa,"var(--green)")+
     card("dev","In development",dev,"var(--amber)")+
     card("early","Early stage",early,"var(--muted)")+
@@ -637,7 +700,6 @@ function renderCards(){
   box.querySelectorAll(".bugcardbtn").forEach(btn=>{
     btn.addEventListener("click",()=>{
       const id=btn.dataset.fcard;
-      // clicking "Blocked / On Hold" also drives the Status chip to On Hold when present
       fCard = (fCard===id?"all":id);
       renderAll();
     });
@@ -649,16 +711,34 @@ function updateSortHeaders(){
     if(th.dataset.sort===fSortKey) th.classList.add(fSortDir==="asc"?"sort-asc":"sort-desc");
   });
 }
-// build Release + Status filter chips
+// build Theme + Pod + Release + Status filter chips
 (function featureFilters(){
-  const rels=["all",...Array.from(new Set(FEATURES.map(f=>f.fv||"—"))).sort()];
+  // Theme (ordered: LL-MVP, LL-Fast Follows, ACH, ACH-Fast Follows, then any others)
+  const themeOrder=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
+  const themesFound=Array.from(new Set(FEATURES_ALL.map(f=>f.theme).filter(Boolean)));
+  themesFound.sort((a,b)=>{const ia=themeOrder.indexOf(a),ib=themeOrder.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
+  const hasNoTheme=FEATURES_ALL.some(f=>!f.theme);
+  const themes=["all",...themesFound,...(hasNoTheme?["(none)"]:[])];
+  const tf=document.getElementById("themefilter");
+  themes.forEach((t,i)=>{ const b=document.createElement("button"); b.className="podbtn"+(i===0?" active":""); b.textContent=t==="all"?"All":t;
+    b.addEventListener("click",()=>{ tf.querySelectorAll(".podbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fTheme=(t==="(none)"?"":t); fCard="all"; renderAll(); }); tf.appendChild(b); });
+  // Pod
+  const podsFound=Array.from(new Set(FEATURES_ALL.map(f=>f.pod).filter(Boolean))).sort();
+  const hasNoPod=FEATURES_ALL.some(f=>!f.pod);
+  const pods=["all",...podsFound,...(hasNoPod?["(none)"]:[])];
+  const pf=document.getElementById("podfilter");
+  pods.forEach((p,i)=>{ const b=document.createElement("button"); b.className="podbtn"+(i===0?" active":""); b.textContent=p==="all"?"All":p;
+    b.addEventListener("click",()=>{ pf.querySelectorAll(".podbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fPod=(p==="(none)"?"":p); fCard="all"; renderAll(); }); pf.appendChild(b); });
+  // Release
+  const rels=["all",...Array.from(new Set(FEATURES_ALL.map(f=>f.fv||"—"))).sort()];
   const rf=document.getElementById("relfilter");
   rels.forEach((r,i)=>{ const b=document.createElement("button"); b.className="podbtn"+(i===0?" active":""); b.dataset.rel=r; b.textContent=r==="all"?"All":r;
-    b.addEventListener("click",()=>{ rf.querySelectorAll(".podbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fRelease=r; renderAll(); }); rf.appendChild(b); });
-  const sts=["all",...Array.from(new Set(FEATURES.map(f=>f.status))).sort((a,b)=>fRank(b)-fRank(a))];
+    b.addEventListener("click",()=>{ rf.querySelectorAll(".podbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fRelease=r; fCard="all"; renderAll(); }); rf.appendChild(b); });
+  // Status
+  const sts=["all",...Array.from(new Set(FEATURES_ALL.map(f=>f.status))).sort((a,b)=>fRank(b)-fRank(a))];
   const sf=document.getElementById("allstatusfilter");
   sts.forEach((s,i)=>{ const b=document.createElement("button"); b.className="tbtn"+(i===0?" active":""); b.dataset.status=s; b.textContent=s==="all"?"All":s;
-    b.addEventListener("click",()=>{ sf.querySelectorAll(".tbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fStatus=s; renderAll(); }); sf.appendChild(b); });
+    b.addEventListener("click",()=>{ sf.querySelectorAll(".tbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fStatus=s; fCard="all"; renderAll(); }); sf.appendChild(b); });
 })();
 // sortable headers
 document.querySelectorAll("#panel-all th.sortable").forEach(th=>{
@@ -672,6 +752,7 @@ document.querySelectorAll("#panel-all th.sortable").forEach(th=>{
 renderAll();
 
 // ---- Initial consolidated roadmap render (ALL now defined above) ----
+buildRoadmapThemeChips();
 renderRoadmap("all");
 
 // ==== ACTIVE BUGS (Pod = LL, not closed) ====
