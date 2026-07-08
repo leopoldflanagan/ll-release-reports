@@ -224,13 +224,13 @@
   </header>
 
   <div class="tabs">
-    <button class="tab active" data-tab="all">Active Features</button>
-    <button class="tab" data-tab="allroadmap">All PODs QA Roadmap</button>
+    <button class="tab active" data-tab="allroadmap">All PODs QA Roadmap</button>
+    <button class="tab" data-tab="all">Active Features</button>
     <button class="tab" data-tab="bugs">Active Bugs</button>
   </div>
 
-  <div class="panel active" id="panel-all">
-    <p class="sub" style="margin-top:16px">Active Features across all pods, grouped by <b>Theme</b>. Ordered by workflow status — top is closest to Closed, bottom is Backlog. Closed features are excluded. Filter by Theme, Pod, Release or Status.</p>
+  <div class="panel" id="panel-all">
+    <p class="sub" style="margin-top:16px">Active Features across all pods, grouped by <b>Theme</b>. Ordered by workflow status — top is closest to Closed, bottom is Backlog. Closed features are excluded. Filter by Theme, Pod, Release or Status — pick several chips in a group to combine them.</p>
     <div class="cards" id="allcards"></div>
     <div class="filterpanel">
       <div class="filterrow"><span class="flabel">Theme</span>
@@ -251,7 +251,7 @@
     <p class="xnote" id="allnote"></p>
   </div>
 
-  <div class="panel" id="panel-allroadmap">
+  <div class="panel active" id="panel-allroadmap">
     <p class="sub" style="margin-top:16px">Consolidated QA delivery roadmap. Work still in build is placed by Dev-estimated <b>Target End date</b> through the R9.7 freeze — read left to right, soonest first. Anything already <b>In Testing</b> is pulled out into a separate <b>QA Ready / In Progress</b> lane at the top (it's already with QA, so its date no longer matters). Bar length reflects the feature's T-shirt size; blocked/on-hold shows red with a Spotlight note on hover; a ⚠ marks a date that has passed without reaching Testing.</p>
     <div class="filterpanel">
       <div class="filterrow"><span class="flabel">Segment</span>
@@ -293,7 +293,7 @@
     <p class="xnote" id="bugnote"></p>
 
     <div class="card pending" style="margin-top:26px">
-      <h3>PLANS bugs with no Pod — needs triage &amp; assignment</h3>
+      <h3 id="nopodtitle">PLANS bugs with no Pod — needs triage &amp; assignment</h3>
       <p class="sub" style="font-size:12.5px;margin:10px 0">Active bugs in the PLANS project with no Pod value set. Review and assign a Pod. <a id="nopodjira" href="#" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">Open this list in Jira ↗</a></p>
       <ul class="plist peek" id="nopodlist"></ul>
       <button class="seemore" id="nopod-toggle" type="button"></button>
@@ -411,7 +411,7 @@ function weekCenter(wi){ const s=pct(WEEKS[wi].start), e=pct(WEEKS[wi].end); ret
 // Theme lookup by key (from the cross-pod theme dataset) so roadmap items can be theme-filtered.
 const THEME_BY_KEY = {};
 FEATURES_ALL.forEach(f=>{ if(f.theme) THEME_BY_KEY[f.key]=f.theme; });
-let rmSeg="all", rmTheme="all";
+let rmSeg="all", rmThemes=new Set();   // rmThemes: empty = All; multi-select OR
 function segData(seg){
   let items;
   if(seg==="LL"){ items=FEATURES.slice(); }
@@ -432,7 +432,7 @@ function renderRoadmap(seg){
   rmSeg = seg;
   const data = seg==="all" ? segAll() : segData(seg);
   let items = data.items;
-  if(rmTheme!=="all") items = items.filter(f=>(f.theme||"")===rmTheme);
+  if(rmThemes.size) items = items.filter(f=>rmThemes.has(f.theme||""));
   // scale header
   let scale=`<div class="scalerow"><div class="corner">Feature</div><div class="weeks" style="grid-template-columns:repeat(${NW},1fr)">`;
   WEEKS.forEach(w=>{ scale+=`<div class="weekhead ${w.freeze?'freeze':''}"><b>${w.label}</b>${w.freeze?`<span style="color:var(--red)">${w.freeze}</span>`:''}</div>`; });
@@ -510,13 +510,20 @@ function buildRoadmapThemeChips(){
   const order=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
   let found=Array.from(new Set(data.items.map(f=>f.theme).filter(Boolean)));
   found.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
-  const themes=["all",...found];
-  // if current rmTheme no longer available in this segment, reset to all
-  if(rmTheme!=="all" && !found.includes(rmTheme)) rmTheme="all";
+  // drop any selected themes no longer present in this segment
+  [...rmThemes].forEach(t=>{ if(!found.includes(t)) rmThemes.delete(t); });
   const box=document.getElementById("rmthemefilter"); box.innerHTML="";
-  themes.forEach(t=>{ const b=document.createElement("button"); b.className="podbtn"+((t==="all"?rmTheme==="all":rmTheme===t)?" active":""); b.textContent=t==="all"?"All":t;
-    b.addEventListener("click",()=>{ rmTheme=t; buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
-    box.appendChild(b); });
+  // All chip (clears the Set)
+  const allBtn=document.createElement("button");
+  allBtn.className="podbtn"+(rmThemes.size===0?" active":""); allBtn.textContent="All";
+  allBtn.addEventListener("click",()=>{ rmThemes.clear(); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
+  box.appendChild(allBtn);
+  found.forEach(t=>{
+    const b=document.createElement("button");
+    b.className="podbtn"+(rmThemes.has(t)?" active":""); b.textContent=t;
+    b.addEventListener("click",()=>{ if(rmThemes.has(t)) rmThemes.delete(t); else rmThemes.add(t); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
+    box.appendChild(b);
+  });
 }
 document.querySelectorAll("#segfilter .segbtn").forEach(b=>{
   b.addEventListener("click",()=>{
@@ -637,7 +644,9 @@ function fmtDate(d){ return d?new Date(d).toLocaleDateString('en-US',{month:'sho
 
 // ---- Active Features tab (all pods, grouped by Theme) ----
 const allbody=document.getElementById("allbody");
-let fRelease="all", fStatus="all", fCard="all", fTheme="all", fPod="all";
+// multi-select filter state: empty Set = "All". Within a group = OR; across groups = AND.
+let fThemes=new Set(), fPods=new Set(), fReleases=new Set(), fStatuses=new Set();
+let fCard="all";
 let fSortKey="status", fSortDir="desc";   // default: workflow (status) closest-to-Closed on top
 const FCARD_PRED = {
   all: ()=>true,
@@ -659,13 +668,15 @@ function featureSortVal(f, key){
   }
 }
 // apply the non-card filters (theme / pod / release / status) — shared by table and cards
+// empty Set = no filter for that group; non-empty = OR within group; across groups = AND
 function featureBase(){
-  let rows = FEATURES_ALL.slice();
-  if(fTheme!=="all")   rows=rows.filter(f=>(f.theme||"")===fTheme);
-  if(fPod!=="all")     rows=rows.filter(f=>(f.pod||"")===fPod);
-  if(fRelease!=="all") rows=rows.filter(f=>(f.fv||"—")===fRelease);
-  if(fStatus!=="all")  rows=rows.filter(f=>f.status===fStatus);
-  return rows;
+  return FEATURES_ALL.filter(f=>{
+    if(fThemes.size   && !fThemes.has(f.theme||""))   return false;
+    if(fPods.size     && !fPods.has(f.pod||""))       return false;
+    if(fReleases.size && !fReleases.has(f.fv||"—"))   return false;
+    if(fStatuses.size && !fStatuses.has(f.status))    return false;
+    return true;
+  });
 }
 function themePill(t){ return t?`<span class="themetag th-${t.replace(/[^a-zA-Z]/g,'').toLowerCase()}">${t}</span>`:'<span class="muted-date">\u2014</span>'; }
 function podPill(p){ return p?`<span class="pod">${p}</span>`:'<span class="muted-date">\u2014</span>'; }
@@ -706,7 +717,9 @@ function renderCards(){
   const pctv=n=>total?Math.round(n/total*100):0;
   const bar=n=>`<div class="pctbar"><span style="width:${pctv(n)}%"></span></div>`;
   const box=document.getElementById("allcards");
-  const scope = fTheme!=="all" ? fTheme : (fPod!=="all" ? "Pod "+fPod : "All pods");
+  const scope = fThemes.size ? [...fThemes].map(t=>t||"(none)").join(", ")
+              : fPods.size ? "Pod "+[...fPods].map(p=>p||"(none)").join(", ")
+              : "All pods";
   const card=(id,title,val,color,subOrPct)=>`<button class="card sc bugcardbtn${fCard===id?' sel':''}" data-fcard="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div>${id==="all"?`<div class="scsub">${subOrPct}</div>`:`<div class="pctrow"><span class="pctnum">${pctv(val)}%</span> of active</div>${bar(val)}`}</button>`;
   box.innerHTML=
     card("all","Active features",total,"var(--blue)",scope+" · click to filter")+
@@ -729,34 +742,52 @@ function updateSortHeaders(){
     if(th.dataset.sort===fSortKey) th.classList.add(fSortDir==="asc"?"sort-asc":"sort-desc");
   });
 }
-// build Theme + Pod + Release + Status filter chips
+// build Theme + Pod + Release + Status filter chips — multi-select (checkbox behavior)
+// within a group: empty Set = All; picking values = OR. Across groups = AND.
 (function featureFilters(){
-  // Theme (ordered: LL-MVP, LL-Fast Follows, ACH, ACH-Fast Follows, then any others)
   const themeOrder=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
+  // generic builder: containerId, value list, the Set to drive, chip class
+  function buildGroup(containerId, values, set, chipClass){
+    const box=document.getElementById(containerId);
+    const allBtn=document.createElement("button");
+    allBtn.className=chipClass+" active"; allBtn.dataset.val="__all__"; allBtn.textContent="All";
+    allBtn.addEventListener("click",()=>{ set.clear(); syncGroup(box,set); fCard="all"; renderAll(); });
+    box.appendChild(allBtn);
+    values.forEach(v=>{
+      const b=document.createElement("button");
+      b.className=chipClass; b.dataset.val=v;
+      b.textContent = v==="__none__" ? "(none)" : v;
+      b.addEventListener("click",()=>{
+        const key = v==="__none__" ? "" : v;
+        if(set.has(key)) set.delete(key); else set.add(key);
+        syncGroup(box,set); fCard="all"; renderAll();
+      });
+      box.appendChild(b);
+    });
+  }
+  // reflect Set state onto a group's chips (All active iff Set empty)
+  function syncGroup(box,set){
+    box.querySelectorAll("button").forEach(btn=>{
+      const v=btn.dataset.val;
+      if(v==="__all__"){ btn.classList.toggle("active", set.size===0); }
+      else { const key = v==="__none__" ? "" : v; btn.classList.toggle("active", set.has(key)); }
+    });
+  }
+  // Theme
   const themesFound=Array.from(new Set(FEATURES_ALL.map(f=>f.theme).filter(Boolean)));
   themesFound.sort((a,b)=>{const ia=themeOrder.indexOf(a),ib=themeOrder.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
-  const hasNoTheme=FEATURES_ALL.some(f=>!f.theme);
-  const themes=["all",...themesFound,...(hasNoTheme?["(none)"]:[])];
-  const tf=document.getElementById("themefilter");
-  themes.forEach((t,i)=>{ const b=document.createElement("button"); b.className="podbtn"+(i===0?" active":""); b.textContent=t==="all"?"All":t;
-    b.addEventListener("click",()=>{ tf.querySelectorAll(".podbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fTheme=(t==="(none)"?"":t); fCard="all"; renderAll(); }); tf.appendChild(b); });
+  if(FEATURES_ALL.some(f=>!f.theme)) themesFound.push("__none__");
+  buildGroup("themefilter", themesFound, fThemes, "podbtn");
   // Pod
   const podsFound=Array.from(new Set(FEATURES_ALL.map(f=>f.pod).filter(Boolean))).sort();
-  const hasNoPod=FEATURES_ALL.some(f=>!f.pod);
-  const pods=["all",...podsFound,...(hasNoPod?["(none)"]:[])];
-  const pf=document.getElementById("podfilter");
-  pods.forEach((p,i)=>{ const b=document.createElement("button"); b.className="podbtn"+(i===0?" active":""); b.textContent=p==="all"?"All":p;
-    b.addEventListener("click",()=>{ pf.querySelectorAll(".podbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fPod=(p==="(none)"?"":p); fCard="all"; renderAll(); }); pf.appendChild(b); });
+  if(FEATURES_ALL.some(f=>!f.pod)) podsFound.push("__none__");
+  buildGroup("podfilter", podsFound, fPods, "podbtn");
   // Release
-  const rels=["all",...Array.from(new Set(FEATURES_ALL.map(f=>f.fv||"—"))).sort()];
-  const rf=document.getElementById("relfilter");
-  rels.forEach((r,i)=>{ const b=document.createElement("button"); b.className="podbtn"+(i===0?" active":""); b.dataset.rel=r; b.textContent=r==="all"?"All":r;
-    b.addEventListener("click",()=>{ rf.querySelectorAll(".podbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fRelease=r; fCard="all"; renderAll(); }); rf.appendChild(b); });
+  const rels=Array.from(new Set(FEATURES_ALL.map(f=>f.fv||"—"))).sort();
+  buildGroup("relfilter", rels, fReleases, "podbtn");
   // Status
-  const sts=["all",...Array.from(new Set(FEATURES_ALL.map(f=>f.status))).sort((a,b)=>fRank(b)-fRank(a))];
-  const sf=document.getElementById("allstatusfilter");
-  sts.forEach((s,i)=>{ const b=document.createElement("button"); b.className="tbtn"+(i===0?" active":""); b.dataset.status=s; b.textContent=s==="all"?"All":s;
-    b.addEventListener("click",()=>{ sf.querySelectorAll(".tbtn").forEach(x=>x.classList.remove("active")); b.classList.add("active"); fStatus=s; fCard="all"; renderAll(); }); sf.appendChild(b); });
+  const sts=Array.from(new Set(FEATURES_ALL.map(f=>f.status))).sort((a,b)=>fRank(b)-fRank(a));
+  buildGroup("allstatusfilter", sts, fStatuses, "tbtn");
 })();
 // sortable headers
 document.querySelectorAll("#panel-all th.sortable").forEach(th=>{
@@ -1011,6 +1042,8 @@ function setupPeek(listId, btnId, n){
     ul.appendChild(li);
   });
   setupPeek("nopodlist","nopod-toggle",5);
+  const nt=document.getElementById("nopodtitle");
+  if(nt) nt.innerHTML=`PLANS bugs with no Pod — needs triage &amp; assignment — ${NOPOD.length} item${NOPOD.length!==1?'s':''}`;
 })();
 renderBugs();
 
