@@ -273,8 +273,18 @@ def main():
                   f'const TODAY = new Date("{today.isoformat()}");', html, count=1)
     html = splice(html, "WEEKS", js_array("WEEKS", weeks))
 
+    # GENERATED_AT: full UTC timestamp so the header can show freshness (date + time).
+    now_iso = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
+    if re.search(r'const GENERATED_AT = "[^"]*";', html):
+        html = re.sub(r'const GENERATED_AT = "[^"]*";',
+                      f'const GENERATED_AT = "{now_iso}";', html, count=1)
+    else:
+        # first run after adding the marker: inject right after TODAY
+        html = re.sub(r'(const TODAY = new Date\("[^"]*"\);)',
+                      r'\1\nconst GENERATED_AT = "' + now_iso + '";', html, count=1)
+
     open(path, "w", encoding="utf-8").write(html)
-    print("Done.")
+    print(f"Done — generated at {now_iso}")
 
 
 if __name__ == "__main__":

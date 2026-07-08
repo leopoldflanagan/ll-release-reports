@@ -1,11 +1,11 @@
 name: Refresh LL QA Roadmap
 
 # Two triggers:
-#   - schedule: daily at 13:00 UTC = 07:00 America/Mexico_City (UTC-6), Mon–Fri
-#   - workflow_dispatch: the "Run workflow" button (what the dashboard link opens)
+#   - schedule: every 2 hours, every day (UTC — the app shows local time)
+#   - workflow_dispatch: manual "Run workflow" button in the Actions tab
 on:
   schedule:
-    - cron: "0 13 * * 1-5"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 # Allow the job to push the regenerated index.html back to the repo
