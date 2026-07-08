@@ -1,0 +1,45 @@
+name: Refresh LL QA Roadmap
+
+# Two triggers:
+#   - schedule: daily at 13:00 UTC = 07:00 America/Mexico_City (UTC-6), Mon–Fri
+#   - workflow_dispatch: the "Run workflow" button (what the dashboard link opens)
+on:
+  schedule:
+    - cron: "0 13 * * 1-5"
+  workflow_dispatch:
+
+# Allow the job to push the regenerated index.html back to the repo
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh dashboard data from Jira
+        env:
+          JIRA_BASE_URL: https://wellfit.atlassian.net
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+        run: |
+          python3 scripts/refresh_dashboard.py qa-roadmap/index.html
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "LL Dashboard Bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet -- qa-roadmap/index.html; then
+            echo "No changes — dashboard already up to date."
+          else
+            git add qa-roadmap/index.html
+            git commit -m "Auto-refresh LL QA roadmap ($(date -u +%Y-%m-%d))"
+            git push
+          fi
