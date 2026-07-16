@@ -126,28 +126,47 @@
   .themefilter{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
   .themefilter:hover{border-color:var(--blue);color:var(--blue)}
   .themefilter.active{background:var(--blue);border-color:var(--blue);color:#fff}
-  /* filter panel: groups the filter rows into one tidy card */
-  .filterpanel{background:#fff;border:1px solid var(--line);border-radius:12px;padding:4px 16px;margin-top:16px;box-shadow:0 1px 3px rgba(18,62,107,.05)}
-  .filterrow{display:flex;align-items:baseline;gap:14px;padding:11px 0;flex-wrap:wrap;border-top:1px solid var(--line)}
+  /* ===== Search + filter toolbar (redesigned) ===== */
+  .toolbar{margin-top:18px;display:flex;flex-direction:column;gap:0;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 1px 3px rgba(18,62,107,.06);overflow:hidden}
+  .searchbar{display:flex;align-items:center;gap:11px;padding:13px 18px;border-bottom:1px solid var(--line);position:relative}
+  .searchbar svg.si{flex:none;color:var(--muted);transition:color .15s}
+  .searchbar.focused svg.si{color:var(--blue)}
+  .searchbar input{border:0;outline:0;font-family:inherit;font-size:15px;color:var(--ink);flex:1;background:transparent;font-weight:500}
+  .searchbar input::placeholder{color:#9aa8b6;font-weight:400}
+  .searchbar::after{content:"";position:absolute;left:0;bottom:-1px;height:2px;width:0;background:var(--blue);transition:width .2s ease}
+  .searchbar.focused::after{width:100%}
+  .searchcount{flex:none;font-size:11.5px;font-weight:700;color:var(--muted);background:var(--track);padding:3px 10px;border-radius:20px;white-space:nowrap;display:none}
+  .searchbar.has-text .searchcount{display:inline-block}
+  .clearsearch{appearance:none;border:0;background:var(--track);color:var(--muted);width:22px;height:22px;border-radius:50%;cursor:pointer;font-size:14px;line-height:1;flex:none;display:none;align-items:center;justify-content:center;transition:all .12s}
+  .clearsearch:hover{background:#dde5ee;color:var(--ink)}
+  .searchbar.has-text .clearsearch{display:inline-flex}
+  .filterpanel{background:transparent;border:0;border-radius:0;padding:2px 18px 6px;margin-top:0;box-shadow:none}
+  .filterrow{display:flex;align-items:center;gap:12px;padding:10px 0;flex-wrap:wrap;border-top:1px solid var(--line)}
   .filterrow:first-child{border-top:0}
-  .flabel{font-size:10.5px;font-weight:800;color:var(--navy);text-transform:uppercase;letter-spacing:.07em;min-width:62px;flex:none;padding-top:5px}
-  .podbtn,.tbtn,.segbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:4px 12px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .12s;line-height:1.5}
+  .flabel{font-size:10.5px;font-weight:800;color:var(--navy);text-transform:uppercase;letter-spacing:.07em;min-width:62px;flex:none}
+  .filterfoot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 18px;border-top:1px solid var(--line);background:#fafcff;min-height:40px}
+  .filterfoot .fcount{font-size:12px;color:var(--muted);font-weight:500}
+  .filterfoot .fcount b{color:var(--navy);font-weight:700}
+  .clearall{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 13px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .12s;display:none;align-items:center;gap:6px}
+  .clearall:hover{border-color:var(--red);color:var(--red);background:#fdf4f4}
+  .clearall.show{display:inline-flex}
+  .podbtn,.tbtn,.segbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 13px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .12s;line-height:1.5}
   /* default accent = blue (Pod) */
   .podbtn:hover,.tbtn:hover,.segbtn:hover{border-color:var(--blue);color:var(--blue);background:#f4f8fc}
-  .podbtn.active{background:var(--blue);border-color:var(--blue);color:#fff}
-  .tbtn.active{background:var(--blue);border-color:var(--blue);color:#fff}
-  .segbtn.active{background:var(--navy);border-color:var(--navy);color:#fff}
+  .podbtn.active{background:var(--blue);border-color:var(--blue);color:#fff;box-shadow:0 1px 4px rgba(27,95,168,.28)}
+  .tbtn.active{background:var(--blue);border-color:var(--blue);color:#fff;box-shadow:0 1px 4px rgba(27,95,168,.28)}
+  .segbtn.active{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:0 1px 4px rgba(18,62,107,.3)}
   /* per-group active accents so each row reads at a glance */
-  #themefilter .podbtn.active{background:var(--purple);border-color:var(--purple)}
+  #themefilter .podbtn.active{background:var(--purple);border-color:var(--purple);box-shadow:0 1px 4px rgba(122,95,176,.3)}
   #themefilter .podbtn:hover{border-color:var(--purple);color:var(--purple);background:#f7f4fc}
-  #rmthemefilter .podbtn.active{background:var(--purple);border-color:var(--purple)}
+  #rmthemefilter .podbtn.active{background:var(--purple);border-color:var(--purple);box-shadow:0 1px 4px rgba(122,95,176,.3)}
   #rmthemefilter .podbtn:hover{border-color:var(--purple);color:var(--purple);background:#f7f4fc}
-  #relfilter .podbtn.active{background:var(--navy);border-color:var(--navy)}
-  #allstatusfilter .tbtn.active{background:var(--green);border-color:var(--green)}
+  #relfilter .podbtn.active{background:var(--navy);border-color:var(--navy);box-shadow:0 1px 4px rgba(18,62,107,.3)}
+  #allstatusfilter .tbtn.active{background:var(--green);border-color:var(--green);box-shadow:0 1px 4px rgba(76,175,46,.3)}
   #allstatusfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
-  #bugstatusfilter .tbtn.active{background:var(--green);border-color:var(--green)}
+  #bugstatusfilter .tbtn.active{background:var(--green);border-color:var(--green);box-shadow:0 1px 4px rgba(76,175,46,.3)}
   #bugstatusfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
-  #bugpriofilter .tbtn.active{background:var(--purple);border-color:var(--purple);color:#fff}
+  #bugpriofilter .tbtn.active{background:var(--purple);border-color:var(--purple);color:#fff;box-shadow:0 1px 4px rgba(122,95,176,.3)}
   #bugpriofilter .tbtn:hover{border-color:var(--purple);color:var(--purple);background:#f5f1fb}
   #bugpriofilter .tbtn.active:hover{color:#fff}
   .prio{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:20px;letter-spacing:.02em;white-space:nowrap}
@@ -156,6 +175,10 @@
   .prio.p3{background:#e7f0fb;color:var(--blue)}
   .prio.p4{background:#eef2f7;color:var(--muted)}
   .prio.p5,.prio.px{background:#eef2f7;color:var(--muted)}
+  /* priority-group cards: breakdown row of the two levels inside */
+  .priobreak{display:flex;gap:8px;margin-top:10px;padding-top:9px;border-top:1px solid var(--line)}
+  .priobreak .pb{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;color:var(--ink)}
+  .priocard.sel{border-color:var(--red)}
   .bugtoolbar{display:flex;justify-content:flex-end;margin:14px 0 4px}
   .exportbtn{appearance:none;border:1px solid var(--green);background:#fff;color:#2f7d1c;font-weight:700;font-size:12.5px;padding:8px 16px;border-radius:8px;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:7px;transition:background .12s}
   .exportbtn:hover{background:#f3faef}
@@ -186,6 +209,10 @@
   .pctnum{font-weight:800;color:var(--navy);font-size:14px}
   .pctbar{margin-top:6px;height:6px;border-radius:4px;background:var(--track);overflow:hidden}
   .pctbar span{display:block;height:100%;background:var(--blue);border-radius:4px}
+  /* center all content inside Active Bugs summary cards */
+  #bugcards .sc{text-align:center}
+  #bugcards .sc .pctbar{width:70%;margin-left:auto;margin-right:auto}
+  #bugcards .priobreak{justify-content:center}
   /* visible status header in bug board */
   .colstatus{font-size:13px;font-weight:800;color:#fff;background:var(--navy);padding:4px 12px;border-radius:6px;letter-spacing:.01em}
   .bugcolhead.near .colstatus{background:var(--green)}
@@ -244,15 +271,27 @@
   <div class="panel" id="panel-all">
     <p class="sub" style="margin-top:16px">Active Features across all pods, grouped by <b>Theme</b>. Ordered by workflow status — top is closest to Closed, bottom is Backlog. Closed features are excluded. Filter by Theme, Pod, Release or Status — pick several chips in a group to combine them.</p>
     <div class="cards" id="allcards"></div>
-    <div class="filterpanel">
-      <div class="filterrow"><span class="flabel">Theme</span>
-      <div class="themebtns" id="themefilter"></div></div>
-      <div class="filterrow"><span class="flabel">Pod</span>
-      <div class="themebtns" id="podfilter"></div></div>
-      <div class="filterrow"><span class="flabel">Release</span>
-      <div class="themebtns" id="relfilter"></div></div>
-      <div class="filterrow"><span class="flabel">Status</span>
-      <div class="themebtns" id="allstatusfilter"></div></div>
+    <div class="toolbar">
+      <div class="searchbar" id="allsearchbox">
+        <svg class="si" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg>
+        <input type="text" id="allsearch" placeholder="Search features by title or key…">
+        <span class="searchcount" id="allsearchcount"></span>
+        <button class="clearsearch" id="allsearchclear" type="button" aria-label="Clear">×</button>
+      </div>
+      <div class="filterpanel">
+        <div class="filterrow"><span class="flabel">Theme</span>
+        <div class="themebtns" id="themefilter"></div></div>
+        <div class="filterrow"><span class="flabel">Pod</span>
+        <div class="themebtns" id="podfilter"></div></div>
+        <div class="filterrow"><span class="flabel">Release</span>
+        <div class="themebtns" id="relfilter"></div></div>
+        <div class="filterrow"><span class="flabel">Status</span>
+        <div class="themebtns" id="allstatusfilter"></div></div>
+      </div>
+      <div class="filterfoot">
+        <span class="fcount" id="allfcount"></span>
+        <button class="clearall" id="allclearall" type="button">✕ Clear all filters</button>
+      </div>
     </div>
     <table class="xref">
       <thead>
@@ -265,16 +304,24 @@
 
   <div class="panel active" id="panel-allroadmap">
     <p class="sub" style="margin-top:16px">Consolidated QA delivery roadmap. Work still in build is placed by Dev-estimated <b>Target End date</b> through the R9.7 freeze — read left to right, soonest first. Anything already <b>In Testing</b> is pulled out into a separate <b>QA Ready / In Progress</b> lane at the top (it's already with QA, so its date no longer matters). Bar length reflects the feature's T-shirt size; blocked/on-hold shows red with a Spotlight note on hover; a ⚠ marks a date that has passed without reaching Testing.</p>
-    <div class="filterpanel">
-      <div class="filterrow"><span class="flabel">Segment</span>
-      <div class="themebtns" id="segfilter">
-        <button class="segbtn active" data-seg="all">All Pods</button>
-        <button class="segbtn" data-seg="LL">LL QA Roadmap</button>
-        <button class="segbtn" data-seg="PLANS">Plans QA Roadmap</button>
-        <button class="segbtn" data-seg="cross">Cross Pod QA Roadmap</button>
-      </div></div>
-      <div class="filterrow"><span class="flabel">Theme</span>
-      <div class="themebtns" id="rmthemefilter"></div></div>
+    <div class="toolbar">
+      <div class="searchbar" id="rmsearchbox">
+        <svg class="si" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg>
+        <input type="text" id="rmsearch" placeholder="Search roadmap by title or key…">
+        <span class="searchcount" id="rmsearchcount"></span>
+        <button class="clearsearch" id="rmsearchclear" type="button" aria-label="Clear">×</button>
+      </div>
+      <div class="filterpanel">
+        <div class="filterrow"><span class="flabel">Segment</span>
+        <div class="themebtns" id="segfilter">
+          <button class="segbtn active" data-seg="all">All Pods</button>
+          <button class="segbtn" data-seg="LL">LL QA Roadmap</button>
+          <button class="segbtn" data-seg="PLANS">Plans QA Roadmap</button>
+          <button class="segbtn" data-seg="cross">Cross Pod QA Roadmap</button>
+        </div></div>
+        <div class="filterrow"><span class="flabel">Theme</span>
+        <div class="themebtns" id="rmthemefilter"></div></div>
+      </div>
     </div>
     <div class="legend" style="margin-top:14px">
       <span class="chip"><span class="sw ready"></span><b>QA Ready / In Progress</b> (In Testing)</span>
@@ -297,13 +344,27 @@
   <div class="panel" id="panel-bugs">
     <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status or priority chips to filter (multi-select), and export the filtered list to Excel.</p>
     <div class="cards" id="bugcards"></div>
-    <div class="filterpanel">
-      <div class="filterrow"><span class="flabel">Status</span>
-      <div class="themebtns" id="bugstatusfilter"></div></div>
-      <div class="filterrow"><span class="flabel">Priority</span>
-      <div class="themebtns" id="bugpriofilter"></div></div>
+    <div class="toolbar">
+      <div class="searchbar" id="bugsearchbox">
+        <svg class="si" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg>
+        <input type="text" id="bugsearch" placeholder="Search bugs by title or key…">
+        <span class="searchcount" id="bugsearchcount"></span>
+        <button class="clearsearch" id="bugsearchclear" type="button" aria-label="Clear">×</button>
+      </div>
+      <div class="filterpanel">
+        <div class="filterrow"><span class="flabel">Status</span>
+        <div class="themebtns" id="bugstatusfilter"></div></div>
+        <div class="filterrow"><span class="flabel">Priority</span>
+        <div class="themebtns" id="bugpriofilter"></div></div>
+      </div>
+      <div class="filterfoot">
+        <span class="fcount" id="bugfcount"></span>
+        <div style="display:flex;align-items:center;gap:10px">
+          <button class="clearall" id="bugclearall" type="button">✕ Clear all filters</button>
+          <button class="exportbtn" id="bugexport" type="button">⬇ Export to Excel</button>
+        </div>
+      </div>
     </div>
-    <div class="bugtoolbar"><button class="exportbtn" id="bugexport" type="button">⬇ Export to Excel</button></div>
     <div id="bugboard"></div>
     <p class="xnote" id="bugnote"></p>
 
@@ -413,6 +474,7 @@ function renderRoadmap(seg){
   const data = seg==="all" ? segAll() : segData(seg);
   let items = data.items;
   if(rmThemes.size) items = items.filter(f=>rmThemes.has(f.theme||""));
+  if(rmSearchTerm) items = items.filter(f=>matchSearch(f, rmSearchTerm));
   // scale header
   let scale=`<div class="scalerow"><div class="corner">Feature</div><div class="weeks" style="grid-template-columns:repeat(${NW},1fr)">`;
   WEEKS.forEach(w=>{ scale+=`<div class="weekhead ${w.freeze?'freeze':''}"><b>${w.label}</b>${w.freeze?`<span style="color:var(--red)">${w.freeze}</span>`:''}</div>`; });
@@ -556,12 +618,36 @@ function featureSortVal(f, key){
 }
 // apply the non-card filters (theme / pod / release / status) — shared by table and cards
 // empty Set = no filter for that group; non-empty = OR within group; across groups = AND
+// ---- text search state (per tab) ----
+let allSearchTerm="", bugSearchTerm="", rmSearchTerm="";
+function matchSearch(item, term){
+  if(!term) return true;
+  const hay=((item.name||"")+" "+(item.key||"")).toLowerCase();
+  return term.toLowerCase().split(/\s+/).filter(Boolean).every(w=>hay.includes(w));
+}
+function wireSearch(boxId, inputId, clearId, countId, setter, rerender, countFn){
+  const box=document.getElementById(boxId), input=document.getElementById(inputId),
+        clear=document.getElementById(clearId), cnt=document.getElementById(countId);
+  if(!box||!input) return;
+  const apply=()=>{
+    setter(input.value.trim());
+    box.classList.toggle("has-text", input.value.length>0);
+    rerender();
+    if(cnt && countFn) cnt.textContent = countFn()+" found";
+  };
+  input.addEventListener("input", apply);
+  input.addEventListener("focus", ()=>box.classList.add("focused"));
+  input.addEventListener("blur", ()=>box.classList.remove("focused"));
+  input.addEventListener("keydown", e=>{ if(e.key==="Escape"){ input.value=""; apply(); } });
+  if(clear) clear.addEventListener("click", ()=>{ input.value=""; apply(); input.focus(); });
+}
 function featureBase(){
   return FEATURES_ALL.filter(f=>{
     if(fThemes.size   && !fThemes.has(f.theme||""))   return false;
     if(fPods.size     && !fPods.has(f.pod||""))       return false;
     if(fReleases.size && !fReleases.has(f.fv||"—"))   return false;
     if(fStatuses.size && !fStatuses.has(f.status))    return false;
+    if(!matchSearch(f, allSearchTerm))                return false;
     return true;
   });
 }
@@ -590,7 +676,18 @@ function renderAll(){
   });
   renderCards();
   updateSortHeaders();
+  updateFeatureFoot(rows.length);
   document.getElementById("allnote").textContent=`Showing ${rows.length} of ${FEATURES_ALL.length} active Features across all pods. Click a column header to sort; click a card to filter. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
+}
+function featureActiveCount(){
+  return fThemes.size+fPods.size+fReleases.size+fStatuses.size
+    + (fCard!=="all"?1:0) + (allSearchTerm?1:0);
+}
+function updateFeatureFoot(shown){
+  const n=featureActiveCount();
+  const fc=document.getElementById("allfcount"), ca=document.getElementById("allclearall");
+  if(fc) fc.innerHTML = n ? `<b>${shown}</b> shown · ${n} filter${n>1?'s':''} active` : `<b>${shown}</b> features`;
+  if(ca) ca.classList.toggle("show", n>0);
 }
 function renderCards(){
   // cards reflect the theme/pod/release/status filters (but not the card filter itself)
@@ -686,10 +783,27 @@ document.querySelectorAll("#panel-all th.sortable").forEach(th=>{
   });
 });
 renderAll();
+wireSearch("allsearchbox","allsearch","allsearchclear","allsearchcount",
+  v=>{ allSearchTerm=v; }, renderAll, ()=>featureBase().filter(f=>fCard==="all"||FCARD_PRED[fCard](f)).length);
+document.getElementById("allclearall").addEventListener("click", ()=>{
+  ["themefilter","podfilter","relfilter","allstatusfilter"].forEach(id=>{
+    const allChip=document.querySelector('#'+id+' button[data-val="__all__"]');
+    if(allChip) allChip.click();
+  });
+  fCard="all";
+  const si=document.getElementById("allsearch");
+  if(si){ si.value=""; allSearchTerm=""; document.getElementById("allsearchbox").classList.remove("has-text"); }
+  renderAll();
+});
 
 // ---- Initial consolidated roadmap render (ALL now defined above) ----
 buildRoadmapThemeChips();
 renderRoadmap("all");
+wireSearch("rmsearchbox","rmsearch","rmsearchclear","rmsearchcount",
+  v=>{ rmSearchTerm=v; }, ()=>renderRoadmap(rmSeg),
+  ()=>{ const d=rmSeg==="all"?segAll():segData(rmSeg); let it=d.items;
+    if(rmThemes.size) it=it.filter(f=>rmThemes.has(f.theme||""));
+    if(rmSearchTerm) it=it.filter(f=>matchSearch(f,rmSearchTerm)); return it.length; });
 // header freshness indicator — reads GENERATED_AT (UTC) written by the refresh script
 (function(){
   var el=document.getElementById("freshpill"); if(!el) return;
@@ -730,13 +844,16 @@ const CARD_PRED = {
   backlog: b=>b.status==="Backlog",
   wip: b=>b.cat==="In Progress",
   unassigned: b=>b.who==="Unassigned",
-  onhold: b=>/hold/i.test(b.status)
+  onhold: b=>/hold/i.test(b.status),
+  urgent: b=>prioNum(b.prio)<=2,   // P1 + P2
+  routine: b=>prioNum(b.prio)>=3    // P3 + P4
 };
 function bugRows(){
   let r=BUGS.slice();
   if(bugCard!=="all") r=r.filter(CARD_PRED[bugCard]);
   if(bugStatuses.size) r=r.filter(b=>bugStatuses.has(b.status));
   if(bugPrios.size) r=r.filter(b=>bugPrios.has(b.prio||""));
+  if(bugSearchTerm) r=r.filter(b=>matchSearch(b, bugSearchTerm));
   return r;
 }
 function renderBugCards(){
@@ -747,11 +864,23 @@ function renderBugCards(){
   const wip=BUGS.filter(CARD_PRED.wip).length;
   const unassigned=BUGS.filter(CARD_PRED.unassigned).length;
   const onhold=BUGS.filter(CARD_PRED.onhold).length;
+  // priority groups
+  const p1=BUGS.filter(b=>prioNum(b.prio)===1).length;
+  const p2=BUGS.filter(b=>prioNum(b.prio)===2).length;
+  const p3=BUGS.filter(b=>prioNum(b.prio)===3).length;
+  const p4=BUGS.filter(b=>prioNum(b.prio)>=4).length;
+  const urgent=p1+p2, routine=p3+p4;
   const pct=n=>total?Math.round(n/total*100):0;
   const bar=n=>`<div class="pctbar"><span style="width:${pct(n)}%"></span></div>`;
   const card=(id,title,val,color,sub)=>`<button class="card sc bugcardbtn${bugCard===id?' sel':''}" data-card="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div>${id==="all"?`<div class="scsub">${sub}</div>`:`<div class="pctrow"><span class="pctnum">${pct(val)}%</span> of active</div>${bar(val)}`}</button>`;
+  // priority-group card: big count + % + breakdown of the two levels inside
+  const priocard=(id,title,val,color,breakdown)=>`<button class="card sc bugcardbtn priocard${bugCard===id?' sel':''}" data-card="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div><div class="pctrow"><span class="pctnum">${pct(val)}%</span> of active</div>${bar(val)}<div class="priobreak">${breakdown}</div></button>`;
   box.innerHTML=
     card("all","Active bugs",total,"var(--blue)","not closed · Pod LL")+
+    priocard("urgent","Urgent · P1 + P2",urgent,"var(--red)",
+      `<span class="pb"><span class="prio p1">P1</span> ${p1}</span><span class="pb"><span class="prio p2">P2</span> ${p2}</span>`)+
+    priocard("routine","Routine · P3 + P4",routine,"var(--blue)",
+      `<span class="pb"><span class="prio p3">P3</span> ${p3}</span><span class="pb"><span class="prio p4">P4</span> ${p4}</span>`)+
     card("near","Near closing",near,"var(--green)","In Stage · In QA · Dev Verification · PR Merged")+
     card("wip","Work in progress",wip,"var(--amber)")+
     card("backlog","In backlog",backlog,"var(--muted)")+
@@ -796,6 +925,16 @@ function renderBugs(){
     tbl.appendChild(tb); sec.appendChild(tbl); wrap.appendChild(sec);
   });
   document.getElementById("bugnote").textContent=`Showing ${rows.length} of ${BUGS.length} active bugs. Columns ordered by workflow — On Hold pinned first, then closest to closing, backlog last. Within each column, highest priority first. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
+  updateBugFoot(rows.length);
+}
+function bugActiveCount(){
+  return bugStatuses.size+bugPrios.size+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0);
+}
+function updateBugFoot(shown){
+  const n=bugActiveCount();
+  const fc=document.getElementById("bugfcount"), ca=document.getElementById("bugclearall");
+  if(fc) fc.innerHTML = n ? `<b>${shown}</b> shown · ${n} filter${n>1?'s':''} active` : `<b>${shown}</b> bugs`;
+  if(ca) ca.classList.toggle("show", n>0);
 }
 // status filter chips — multi-select (checkbox behavior). "All" clears; "On Hold" pinned right after All.
 (function bugStatusFilters(){
@@ -902,6 +1041,18 @@ function setupPeek(listId, btnId, n){
   if(nt) nt.innerHTML=`PLANS bugs with no Pod — needs triage &amp; assignment — ${NOPOD.length} item${NOPOD.length!==1?'s':''}`;
 })();
 renderBugs();
+wireSearch("bugsearchbox","bugsearch","bugsearchclear","bugsearchcount",
+  v=>{ bugSearchTerm=v; }, renderBugs, ()=>bugRows().length);
+document.getElementById("bugclearall").addEventListener("click", ()=>{
+  const sAll=document.querySelector('#bugstatusfilter .tbtn[data-status="all"]');
+  if(sAll) sAll.click();
+  const pAll=document.querySelector('#bugpriofilter .tbtn[data-prio="__all__"]');
+  if(pAll) pAll.click();
+  bugCard="all";
+  const si=document.getElementById("bugsearch");
+  if(si){ si.value=""; bugSearchTerm=""; document.getElementById("bugsearchbox").classList.remove("has-text"); }
+  renderBugs();
+});
 
 // ---- Tab switching ----
 document.querySelectorAll(".tab").forEach(t=>{
