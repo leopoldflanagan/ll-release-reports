@@ -147,6 +147,18 @@
   #allstatusfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
   #bugstatusfilter .tbtn.active{background:var(--green);border-color:var(--green)}
   #bugstatusfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
+  #bugpriofilter .tbtn.active{background:var(--purple);border-color:var(--purple);color:#fff}
+  #bugpriofilter .tbtn:hover{border-color:var(--purple);color:var(--purple);background:#f5f1fb}
+  #bugpriofilter .tbtn.active:hover{color:#fff}
+  .prio{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:20px;letter-spacing:.02em;white-space:nowrap}
+  .prio.p1{background:#fbe0e0;color:var(--red)}
+  .prio.p2{background:#fde8d6;color:#b45309}
+  .prio.p3{background:#e7f0fb;color:var(--blue)}
+  .prio.p4{background:#eef2f7;color:var(--muted)}
+  .prio.p5,.prio.px{background:#eef2f7;color:var(--muted)}
+  .bugtoolbar{display:flex;justify-content:flex-end;margin:14px 0 4px}
+  .exportbtn{appearance:none;border:1px solid var(--green);background:#fff;color:#2f7d1c;font-weight:700;font-size:12.5px;padding:8px 16px;border-radius:8px;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:7px;transition:background .12s}
+  .exportbtn:hover{background:#f3faef}
   .proj{display:inline-block;padding:2px 7px;border-radius:4px;background:#eef2f7;color:var(--navy);font-size:11px;font-weight:700}
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:16px}
   .sc{padding:16px 18px}
@@ -283,12 +295,15 @@
   </div>
 
   <div class="panel" id="panel-bugs">
-    <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status chips to filter (multi-select).</p>
+    <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status or priority chips to filter (multi-select), and export the filtered list to Excel.</p>
     <div class="cards" id="bugcards"></div>
     <div class="filterpanel">
       <div class="filterrow"><span class="flabel">Status</span>
       <div class="themebtns" id="bugstatusfilter"></div></div>
+      <div class="filterrow"><span class="flabel">Priority</span>
+      <div class="themebtns" id="bugpriofilter"></div></div>
     </div>
+    <div class="bugtoolbar"><button class="exportbtn" id="bugexport" type="button">⬇ Export to Excel</button></div>
     <div id="bugboard"></div>
     <p class="xnote" id="bugnote"></p>
 
@@ -706,6 +721,9 @@ const NOPOD = [{"key": "PLANS-19772", "name": "Auto renewal \\ SGDP TN Plans are
 // card-driven filter: null = no card filter; otherwise a predicate key
 let bugCard="all";           // all | near | backlog | wip | unassigned
 let bugStatuses=new Set();   // multi-select status chips; empty = all
+let bugPrios=new Set();      // multi-select priority chips; empty = all
+function prioNum(p){ const m=/^(\d+)/.exec(p||""); return m?parseInt(m[1],10):99; }
+function prioShort(p){ const m=/^(\d+)/.exec(p||""); return m?("P"+m[1]):"—"; }
 const CARD_PRED = {
   all: ()=>true,
   near: b=>NEAR_CLOSE.includes(b.status),
@@ -718,6 +736,7 @@ function bugRows(){
   let r=BUGS.slice();
   if(bugCard!=="all") r=r.filter(CARD_PRED[bugCard]);
   if(bugStatuses.size) r=r.filter(b=>bugStatuses.has(b.status));
+  if(bugPrios.size) r=r.filter(b=>bugPrios.has(b.prio||""));
   return r;
 }
 function renderBugCards(){
@@ -762,11 +781,13 @@ function renderBugs(){
     const sec=document.createElement("div"); sec.className="bugcol";
     sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''}"><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
     const tbl=document.createElement("table"); tbl.className="xref bugtbl";
-    tbl.innerHTML=`<thead><tr><th>Bug</th><th>Fix Version</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
+    tbl.innerHTML=`<thead><tr><th>Bug</th><th>Priority</th><th>Fix Version</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
     const tb=document.createElement("tbody");
-    list.sort((a,b)=>a.key.localeCompare(b.key)).forEach(b=>{
+    list.sort((a,b)=>prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key)).forEach(b=>{
+      const pn=prioNum(b.prio);
       const tr=document.createElement("tr");
       tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a><br><span style="color:var(--ink)">${b.name}</span></td>`+
+        `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
         `<td>${b.fv||'<span class="muted-date">—</span>'}</td>`+
         `<td>${b.sprint?`<span class="sprint">${b.sprint}</span>`:'<span class="muted-date">—</span>'}</td>`+
         `<td>${b.who}</td><td>${b.reporter}</td>`;
@@ -774,7 +795,7 @@ function renderBugs(){
     });
     tbl.appendChild(tb); sec.appendChild(tbl); wrap.appendChild(sec);
   });
-  document.getElementById("bugnote").textContent=`Showing ${rows.length} of ${BUGS.length} active bugs. Columns ordered by workflow — On Hold pinned first, then closest to closing, backlog last. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
+  document.getElementById("bugnote").textContent=`Showing ${rows.length} of ${BUGS.length} active bugs. Columns ordered by workflow — On Hold pinned first, then closest to closing, backlog last. Within each column, highest priority first. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
 }
 // status filter chips — multi-select (checkbox behavior). "All" clears; "On Hold" pinned right after All.
 (function bugStatusFilters(){
@@ -799,6 +820,57 @@ function renderBugs(){
     sf.appendChild(btn);
   });
 })();
+// priority filter chips — multi-select, same behavior as status
+(function bugPrioFilters(){
+  const prios=Array.from(new Set(BUGS.map(b=>b.prio).filter(Boolean)))
+    .sort((a,b)=>prioNum(a)-prioNum(b));
+  const pf=document.getElementById("bugpriofilter");
+  const allBtn=document.createElement("button");
+  allBtn.className="tbtn active"; allBtn.dataset.prio="__all__"; allBtn.textContent="All";
+  allBtn.addEventListener("click",()=>{ bugPrios.clear(); syncPrioChips(pf); renderBugs(); });
+  pf.appendChild(allBtn);
+  prios.forEach(p=>{
+    const btn=document.createElement("button");
+    btn.className="tbtn"; btn.dataset.prio=p;
+    const label = /^\d+:\s*/.test(p) ? prioShort(p)+" · "+p.replace(/^\d+:\s*/,"") : p;
+    btn.textContent=label;
+    btn.addEventListener("click",()=>{
+      if(bugPrios.has(p)) bugPrios.delete(p); else bugPrios.add(p);
+      syncPrioChips(pf); renderBugs();
+    });
+    pf.appendChild(btn);
+  });
+})();
+function syncPrioChips(pf){
+  pf.querySelectorAll(".tbtn").forEach(btn=>{
+    const v=btn.dataset.prio;
+    if(v==="__all__") btn.classList.toggle("active", bugPrios.size===0);
+    else btn.classList.toggle("active", bugPrios.has(v));
+  });
+}
+// Export currently-filtered bugs to a real spreadsheet (SpreadsheetML, no dependencies)
+function exportBugsToExcel(){
+  const rows=bugRows().slice().sort((a,b)=>
+    flowRank(b.status)-flowRank(a.status)||prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key));
+  const cols=["Key","Summary","Status","Priority","Fix Version","Sprint","Assignee","Reporter"];
+  const esc=s=>String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  const cell=v=>`<Cell><Data ss:Type="String">${esc(v)}</Data></Cell>`;
+  const headRow=`<Row>${cols.map(c=>`<Cell><Data ss:Type="String">${esc(c)}</Data></Cell>`).join("")}</Row>`;
+  const bodyRows=rows.map(b=>`<Row>${[b.key,b.name,b.status,b.prio,b.fv,b.sprint,b.who,b.reporter].map(cell).join("")}</Row>`).join("");
+  const xml=`<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<Worksheet ss:Name="Active Bugs"><Table>${headRow}${bodyRows}</Table></Worksheet>
+</Workbook>`;
+  const blob=new Blob([xml],{type:"application/vnd.ms-excel"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+  const stamp=new Date().toISOString().slice(0,10);
+  a.href=url; a.download=`LL-active-bugs-${stamp}.xls`;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+document.getElementById("bugexport").addEventListener("click", exportBugsToExcel);
 // generic peek/see-more wiring: show `n` rows collapsed, fade the next, toggle the rest
 function setupPeek(listId, btnId, n){
   const ul=document.getElementById(listId), btn=document.getElementById(btnId);

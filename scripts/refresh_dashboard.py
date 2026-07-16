@@ -36,7 +36,7 @@ CLOUD_FIELDS = {
 }
 FIELDS = ["summary", "status", "fixVersions", "assignee", "reporter",
           "project", "customfield_11626", "customfield_10023",
-          "customfield_10044", "customfield_10020"]  # 10020 = Sprint
+          "customfield_10044", "customfield_10020", "priority"]  # 10020 = Sprint
 
 THEMES = ["LL-MVP", "LL-Fast Follows", "ACH", "ACH-Fast Follows"]
 
@@ -95,6 +95,7 @@ def parse_issue(i, theme=None):
     fv = f.get("fixVersions") or []
     assignee = f.get("assignee") or {}
     reporter = f.get("reporter") or {}
+    prio = f.get("priority") or {}
     sprint = f.get("customfield_10020") or []
     sprint_name = None
     if isinstance(sprint, list) and sprint:
@@ -111,6 +112,7 @@ def parse_issue(i, theme=None):
         "reporter": clean(reporter.get("displayName")) or "",
         "tshirt": (ts.get("value") if ts else None),
         "sprint": sprint_name,
+        "prio": (prio.get("name") if prio else None) or "3: Standard",
         "theme": theme or "",
     }
 
@@ -186,7 +188,7 @@ def pull_bugs():
         out.append({"key": r["key"], "name": r["name"], "pod": "LL",
                     "status": r["status"], "cat": cat, "fv": r.get("fv"),
                     "sprint": r.get("sprint"), "who": r.get("who") or "Unassigned",
-                    "reporter": r.get("reporter") or "", "prio": "3: Standard"})
+                    "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard"})
     return out
 
 
