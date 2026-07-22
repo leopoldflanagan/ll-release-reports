@@ -199,6 +199,12 @@
   .bugcount{font-size:12px;font-weight:700;color:var(--navy);background:#eef2f7;border-radius:10px;padding:1px 9px}
   .bugtbl{margin-top:0}
   .sprint{display:inline-block;padding:1px 7px;border-radius:4px;background:#f3e8ff;color:#6b21a8;font-size:11px;font-weight:600}
+  /* NEW tag for recently-created bugs */
+  .newtag{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.05em;padding:1px 6px;border-radius:20px;background:var(--green);color:#fff;vertical-align:middle;margin-left:2px}
+  /* NEW filter toggle chip (green accent, standalone) */
+  #bugnewfilter .tbtn.active{background:var(--green);border-color:var(--green);color:#fff;box-shadow:0 1px 4px rgba(76,175,46,.3)}
+  #bugnewfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
+  #bugnewfilter .tbtn.active:hover{color:#fff}
   .warnico{display:inline-block;color:var(--red);font-weight:700;margin-right:5px;cursor:help}
   .sztag{color:var(--muted)}
   /* card-as-filter */
@@ -356,6 +362,8 @@
         <div class="themebtns" id="bugstatusfilter"></div></div>
         <div class="filterrow"><span class="flabel">Priority</span>
         <div class="themebtns" id="bugpriofilter"></div></div>
+        <div class="filterrow"><span class="flabel">Recent</span>
+        <div class="themebtns" id="bugnewfilter"></div></div>
       </div>
       <div class="filterfoot">
         <span class="fcount" id="bugfcount"></span>
@@ -836,8 +844,18 @@ const NOPOD = [{"key": "PLANS-19772", "name": "Auto renewal \\ SGDP TN Plans are
 let bugCard="all";           // all | near | backlog | wip | unassigned
 let bugStatuses=new Set();   // multi-select status chips; empty = all
 let bugPrios=new Set();      // multi-select priority chips; empty = all
+let bugNewOnly=false;        // when true, show only bugs created within NEW_DAYS
+const NEW_DAYS=2;            // a bug is "NEW" if created within this many days
 function prioNum(p){ const m=/^(\d+)/.exec(p||""); return m?parseInt(m[1],10):99; }
 function prioShort(p){ const m=/^(\d+)/.exec(p||""); return m?("P"+m[1]):"—"; }
+// a bug is NEW if its created date is within NEW_DAYS of the snapshot date (TODAY)
+function isNew(b){
+  if(!b.created) return false;
+  const c=new Date(b.created+"T00:00:00");
+  if(isNaN(c)) return false;
+  const diff=(TODAY - c)/(1000*60*60*24);
+  return diff>=0 && diff<=NEW_DAYS;
+}
 const CARD_PRED = {
   all: ()=>true,
   near: b=>NEAR_CLOSE.includes(b.status),
@@ -853,6 +871,7 @@ function bugRows(){
   if(bugCard!=="all") r=r.filter(CARD_PRED[bugCard]);
   if(bugStatuses.size) r=r.filter(b=>bugStatuses.has(b.status));
   if(bugPrios.size) r=r.filter(b=>bugPrios.has(b.prio||""));
+  if(bugNewOnly) r=r.filter(isNew);
   if(bugSearchTerm) r=r.filter(b=>matchSearch(b, bugSearchTerm));
   return r;
 }
@@ -914,8 +933,9 @@ function renderBugs(){
     const tb=document.createElement("tbody");
     list.sort((a,b)=>prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key)).forEach(b=>{
       const pn=prioNum(b.prio);
+      const newTag = isNew(b) ? ` <span class="newtag" title="Created within the last ${NEW_DAYS} days">NEW</span>` : '';
       const tr=document.createElement("tr");
-      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a><br><span style="color:var(--ink)">${b.name}</span></td>`+
+      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}<br><span style="color:var(--ink)">${b.name}</span></td>`+
         `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
         `<td>${b.fv||'<span class="muted-date">—</span>'}</td>`+
         `<td>${b.sprint?`<span class="sprint">${b.sprint}</span>`:'<span class="muted-date">—</span>'}</td>`+
@@ -928,7 +948,7 @@ function renderBugs(){
   updateBugFoot(rows.length);
 }
 function bugActiveCount(){
-  return bugStatuses.size+bugPrios.size+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0);
+  return bugStatuses.size+bugPrios.size+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0)+(bugNewOnly?1:0);
 }
 function updateBugFoot(shown){
   const n=bugActiveCount();
@@ -985,6 +1005,25 @@ function syncPrioChips(pf){
     const v=btn.dataset.prio;
     if(v==="__all__") btn.classList.toggle("active", bugPrios.size===0);
     else btn.classList.toggle("active", bugPrios.has(v));
+  });
+}
+// NEW filter: a single toggle chip. Counts how many bugs qualify as NEW.
+(function bugNewFilter(){
+  const nf=document.getElementById("bugnewfilter");
+  if(!nf) return;
+  const newCount=BUGS.filter(isNew).length;
+  const allBtn=document.createElement("button");
+  allBtn.className="tbtn active"; allBtn.dataset.newf="all"; allBtn.textContent="All";
+  const newBtn=document.createElement("button");
+  newBtn.className="tbtn"; newBtn.dataset.newf="new";
+  newBtn.innerHTML=`🆕 New (last ${NEW_DAYS}d) · ${newCount}`;
+  allBtn.addEventListener("click",()=>{ bugNewOnly=false; syncNewChips(nf); renderBugs(); });
+  newBtn.addEventListener("click",()=>{ bugNewOnly=true; syncNewChips(nf); renderBugs(); });
+  nf.appendChild(allBtn); nf.appendChild(newBtn);
+})();
+function syncNewChips(nf){
+  nf.querySelectorAll(".tbtn").forEach(btn=>{
+    btn.classList.toggle("active", (btn.dataset.newf==="new")===bugNewOnly);
   });
 }
 // Export currently-filtered bugs to a real spreadsheet (SpreadsheetML, no dependencies)
@@ -1048,6 +1087,8 @@ document.getElementById("bugclearall").addEventListener("click", ()=>{
   if(sAll) sAll.click();
   const pAll=document.querySelector('#bugpriofilter .tbtn[data-prio="__all__"]');
   if(pAll) pAll.click();
+  const nAll=document.querySelector('#bugnewfilter .tbtn[data-newf="all"]');
+  if(nAll) nAll.click();
   bugCard="all";
   const si=document.getElementById("bugsearch");
   if(si){ si.value=""; bugSearchTerm=""; document.getElementById("bugsearchbox").classList.remove("has-text"); }
