@@ -41,5 +41,6 @@ jobs:
           else
             git add qa-roadmap/index.html
             git commit -m "Auto-refresh LL QA roadmap ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin main
             git push
           fi
