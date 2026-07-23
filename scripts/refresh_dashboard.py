@@ -36,7 +36,7 @@ CLOUD_FIELDS = {
 }
 FIELDS = ["summary", "status", "fixVersions", "assignee", "reporter",
           "project", "customfield_11626", "customfield_10023",
-          "customfield_10044", "customfield_10020", "priority", "created"]  # 10020 = Sprint
+          "customfield_10044", "customfield_10020", "priority", "created", "labels"]  # 10020 = Sprint
 
 THEMES = ["LL-MVP", "LL-Fast Follows", "ACH", "ACH-Fast Follows"]
 
@@ -114,6 +114,7 @@ def parse_issue(i, theme=None):
         "sprint": sprint_name,
         "prio": (prio.get("name") if prio else None) or "3: Standard",
         "created": (f.get("created") or "")[:10],
+        "labels": f.get("labels") or [],
         "theme": theme or "",
     }
 
@@ -190,7 +191,7 @@ def pull_bugs():
                     "status": r["status"], "cat": cat, "fv": r.get("fv"),
                     "sprint": r.get("sprint"), "who": r.get("who") or "Unassigned",
                     "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard",
-                    "created": r.get("created") or ""})
+                    "created": r.get("created") or "", "labels": r.get("labels") or []})
     return out
 
 
