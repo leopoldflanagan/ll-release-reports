@@ -1,11 +1,14 @@
 name: Refresh LL QA Roadmap
 
-# Two triggers:
+# Triggers:
 #   - schedule: every 2 hours, every day (UTC — the app shows local time)
+#   - schedule: Mon/Wed/Fri at 15:00 UTC (= 10am US Central during daylight saving / CDT;
+#               note: becomes 9am when Central switches to standard time / CST in November)
 #   - workflow_dispatch: manual "Run workflow" button in the Actions tab
 on:
   schedule:
     - cron: "0 */2 * * *"
+    - cron: "0 15 * * 1,3,5"
   workflow_dispatch:
 
 # Allow the job to push the regenerated index.html back to the repo
@@ -24,6 +27,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Sync with remote before regenerating
+        run: |
+          git config user.name  "LL Dashboard Bot"
+          git config user.email "actions@github.com"
+          git pull --no-rebase -X ours origin main || true
+
       - name: Refresh dashboard data from Jira
         env:
           JIRA_BASE_URL: https://wellfit.atlassian.net
@@ -37,10 +46,16 @@ jobs:
           git config user.name  "LL Dashboard Bot"
           git config user.email "actions@github.com"
           if git diff --quiet -- qa-roadmap/index.html; then
-            echo "No changes — dashboard already up to date."
+            echo "No changes - dashboard already up to date."
           else
             git add qa-roadmap/index.html
             git commit -m "Auto-refresh LL QA roadmap ($(date -u +%Y-%m-%d))"
-            git pull --rebase origin main
-            git push
+            for i in 1 2 3; do
+              if git push; then
+                echo "Pushed successfully."
+                break
+              fi
+              echo "Push rejected - syncing with remote and retrying ($i)..."
+              git pull --no-rebase -X ours origin main -m "Merge remote, keep fresh dashboard"
+            done
           fi
