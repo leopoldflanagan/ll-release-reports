@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T15:21:57+00:00",
+ "generated_at": "2026-07-24T15:32:30+00:00",
  "today": "2026-07-24",
  "features": [
   {
@@ -384,9 +384,9 @@
   {
    "key": "PLANS-16267",
    "name": "Update Auto-Renewal w/Panda Doc Signature",
-   "status": "In Development",
-   "ted": "2026-07-24",
-   "fv": "R9.6",
+   "status": "Blocked",
+   "ted": "2026-08-07",
+   "fv": "R9.7",
    "who": "David Jones",
    "tshirt": "Small",
    "pod": "PLANS",
@@ -1180,9 +1180,9 @@
    "name": "Update Auto-Renewal w/Panda Doc Signature",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "In Development",
-   "fv": "R9.6",
-   "ted": "2026-07-24",
+   "status": "Blocked",
+   "fv": "R9.7",
+   "ted": "2026-08-07",
    "who": "David Jones",
    "theme": "LL-MVP"
   },
