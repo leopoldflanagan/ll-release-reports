@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T20:27:44+00:00",
+ "generated_at": "2026-07-24T22:21:20+00:00",
  "today": "2026-07-24",
  "features": [
   {
@@ -1863,8 +1863,8 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1879,7 +1879,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": null,
+   "fv": "R9.6",
    "sprint": "Plans-Sprint 18-26",
    "who": "Nazarii Polinyk",
    "reporter": "Anuradhi Wickramasinghe",
@@ -1971,14 +1971,56 @@
    ]
   },
   {
+   "key": "PLANS-20272",
+   "name": "Plan Details - Minor UI enhancements",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-24",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20268",
+   "name": "Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-24",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20265",
+   "name": "Plan Details PDF - Administered by not Dynamic",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-24",
+   "labels": []
+  },
+  {
    "key": "PLANS-20240",
    "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.6",
    "sprint": "Plans-Sprint 18-26",
-   "who": "Unassigned",
+   "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-23",
@@ -1993,7 +2035,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 18-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Rostyslav Masniuk",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
@@ -2008,7 +2050,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2024,28 +2066,12 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
    "who": "Mykyta Moroz",
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-07-23",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20133",
-   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "1: Urgent",
-   "created": "2026-07-22",
    "labels": [
     "product_prioritized"
    ]
@@ -2056,7 +2082,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2072,7 +2098,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2410,7 +2436,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Reenbit - Backlog",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2695,22 +2721,6 @@
    ]
   },
   {
-   "key": "PLANS-19209",
-   "name": "PLANS-19209: Wellfit Pay Portal: PMP: Plan Card: Print: PDF: Incorrect text in the Disclaimer \"Administered By\"",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-08",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19114",
    "name": "CSP - blocker - Org exceptions not saving properly",
    "pod": "LL",
@@ -2754,16 +2764,9 @@
   {
    "key": "PLANS-20274",
    "name": "One Smile: Ensure when on the site even without a specific practice we are showing correct contact phone number",
-   "status": "In Development",
+   "status": "PR Merged",
    "who": "Mariano Hernández",
    "reporter": "Sushma Bankar"
-  },
-  {
-   "key": "PLANS-20272",
-   "name": "Plan Details - Minor UI enhancements",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
   },
   {
    "key": "PLANS-20269",
@@ -2771,20 +2774,6 @@
    "status": "In Stage",
    "who": "Mariano Hernández",
    "reporter": "Sushma Bankar"
-  },
-  {
-   "key": "PLANS-20268",
-   "name": "Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-20265",
-   "name": "Plan Details PDF - Administered by not Dynamic",
-   "status": "Backlog",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe"
   },
   {
    "key": "PLANS-20263",
