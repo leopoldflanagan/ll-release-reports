@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-23T12:29:29+00:00",
- "today": "2026-07-23",
+ "generated_at": "2026-07-24T15:19:24+00:00",
+ "today": "2026-07-24",
  "features": [
   {
    "key": "PLANS-18019",
@@ -57,15 +57,6 @@
    "tshirt": "Huge"
   },
   {
-   "key": "PLANS-17004",
-   "name": "Handle Integration within The Member Portal",
-   "status": "In Testing",
-   "ted": "2026-07-29",
-   "fv": "R9.6",
-   "who": "Gabriel Perez Cardozo",
-   "tshirt": "Moderate"
-  },
-  {
    "key": "PLANS-18481",
    "name": "Unify Purchase Into NPM Package",
    "status": "In Development",
@@ -95,8 +86,8 @@
   {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
-   "status": "In Testing",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-07-24",
    "fv": "R9.6",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
@@ -104,7 +95,7 @@
   {
    "key": "PLANS-15748",
    "name": "Ach Refunds Inside of Csp",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": "2026-06-16",
    "fv": "R9.6",
    "who": "Mykyta Moroz",
@@ -129,6 +120,15 @@
    "tshirt": "Small"
   },
   {
+   "key": "PLANS-17004",
+   "name": "Handle Integration within The Member Portal",
+   "status": "In Testing",
+   "ted": "2026-07-29",
+   "fv": "R9.6",
+   "who": "Petro Yarish",
+   "tshirt": "Moderate"
+  },
+  {
    "key": "PLANS-18344",
    "name": "Smile Health - Display Admin Fee Dynamically (WA State Law)",
    "status": "In Testing",
@@ -138,10 +138,19 @@
    "tshirt": null
   },
   {
+   "key": "PLANS-16678",
+   "name": "PMP - Account Information Google/Apple Wallet",
+   "status": "In Development",
+   "ted": "2026-08-11",
+   "fv": null,
+   "who": "Rostyslav Masniuk",
+   "tshirt": null
+  },
+  {
    "key": "PLANS-17587",
    "name": "Restrictions on Renewals",
    "status": "In Development",
-   "ted": "2026-07-23",
+   "ted": "2026-07-24",
    "fv": "R9.6",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large"
@@ -150,7 +159,7 @@
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
    "status": "On Hold",
-   "ted": "2026-07-15",
+   "ted": null,
    "fv": "R9.6",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large"
@@ -160,7 +169,7 @@
    "name": "Wallet Enhancements for ACH",
    "status": "On Hold",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large"
   },
@@ -186,8 +195,8 @@
    "key": "PLANS-18413",
    "name": "Marketing Details",
    "status": "In Development",
-   "ted": "2026-07-23",
-   "fv": "R9.6",
+   "ted": "2026-07-30",
+   "fv": "R9.7",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate"
   },
@@ -195,7 +204,7 @@
    "key": "PLANS-17725",
    "name": "Handle ACH in Member Portal",
    "status": "In Development",
-   "ted": "2026-07-24",
+   "ted": null,
    "fv": "R9.6",
    "who": "Vasyl Skochko",
    "tshirt": null
@@ -217,15 +226,6 @@
    "fv": null,
    "who": "Unassigned",
    "tshirt": "Large"
-  },
-  {
-   "key": "PLANS-16678",
-   "name": "PMP - Account Information Google/Apple Wallet",
-   "status": "Ready for Development",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": null
   },
   {
    "key": "PLANS-15540",
@@ -420,7 +420,7 @@
    "status": "In Testing",
    "ted": "2026-07-29",
    "fv": "R9.6",
-   "who": "Gabriel Perez Cardozo",
+   "who": "Petro Yarish",
    "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-MVP"
@@ -461,8 +461,8 @@
   {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
-   "status": "In Testing",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-07-24",
    "fv": "R9.6",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate",
@@ -539,7 +539,7 @@
    "key": "PLANS-17587",
    "name": "Restrictions on Renewals",
    "status": "In Development",
-   "ted": "2026-07-23",
+   "ted": "2026-07-24",
    "fv": "R9.6",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large",
@@ -583,8 +583,8 @@
    "key": "PLANS-18413",
    "name": "Marketing Details",
    "status": "In Development",
-   "ted": "2026-07-23",
-   "fv": "R9.6",
+   "ted": "2026-07-30",
+   "fv": "R9.7",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate",
    "pod": "LL",
@@ -593,7 +593,7 @@
   {
    "key": "PLANS-18777",
    "name": "Ability to Hide UCR Code Admin Screen, and Explore Savings.",
-   "status": "Ready for Development",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.6",
    "who": "Daryl Myrick",
@@ -670,10 +670,10 @@
   {
    "key": "PLANS-16678",
    "name": "PMP - Account Information Google/Apple Wallet",
-   "status": "Ready for Development",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-11",
    "fv": null,
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -925,7 +925,7 @@
    "name": "Wallet Enhancements for ACH",
    "status": "On Hold",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large",
    "pod": "LL",
@@ -935,7 +935,7 @@
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
    "status": "On Hold",
-   "ted": "2026-07-15",
+   "ted": null,
    "fv": "R9.6",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large",
@@ -968,33 +968,11 @@
    "key": "PLANS-17725",
    "name": "Handle ACH in Member Portal",
    "status": "In Development",
-   "ted": "2026-07-24",
+   "ted": null,
    "fv": "R9.6",
    "who": "Vasyl Skochko",
    "tshirt": null,
    "pod": "LL",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLAT-5525",
-   "name": "communication-service",
-   "status": "In Development",
-   "ted": "2026-07-20",
-   "fv": "R9.5.2",
-   "who": "Nimesh Panchal",
-   "tshirt": "X-Large",
-   "pod": "PLAT",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLAT-5576",
-   "name": "ACH Authorization Service",
-   "status": "In Development",
-   "ted": "2026-07-20",
-   "fv": "R9.5.1",
-   "who": "Nimesh Panchal",
-   "tshirt": "X-Large",
-   "pod": "PLAT",
    "theme": "ACH"
   },
   {
@@ -1022,7 +1000,7 @@
   {
    "key": "PLANS-15748",
    "name": "Ach Refunds Inside of Csp",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": "2026-06-16",
    "fv": "R9.6",
    "who": "Mykyta Moroz",
@@ -1238,7 +1216,7 @@
    "status": "In Testing",
    "fv": "R9.6",
    "ted": "2026-07-29",
-   "who": "Gabriel Perez Cardozo",
+   "who": "Petro Yarish",
    "theme": "LL-MVP"
   },
   {
@@ -1279,9 +1257,9 @@
    "name": "New Bill To Office Option",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "In Development",
    "fv": "R9.6",
-   "ted": null,
+   "ted": "2026-07-24",
    "who": "Mykyta Moroz",
    "theme": "LL-MVP"
   },
@@ -1358,7 +1336,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.6",
-   "ted": "2026-07-23",
+   "ted": "2026-07-24",
    "who": "Shchekochykhin Vladyslav",
    "theme": "LL-MVP"
   },
@@ -1401,8 +1379,8 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Development",
-   "fv": "R9.6",
-   "ted": "2026-07-23",
+   "fv": "R9.7",
+   "ted": "2026-07-30",
    "who": "Vasyl Skochko",
    "theme": "LL-MVP"
   },
@@ -1411,7 +1389,7 @@
    "name": "Ability to Hide UCR Code Admin Screen, and Explore Savings.",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R9.6",
    "ted": null,
    "who": "Daryl Myrick",
@@ -1488,10 +1466,10 @@
    "name": "PMP - Account Information Google/Apple Wallet",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": null,
-   "ted": null,
-   "who": "Unassigned",
+   "ted": "2026-08-11",
+   "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1742,7 +1720,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "On Hold",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": null,
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
@@ -1754,7 +1732,7 @@
    "proj": "PLANS",
    "status": "On Hold",
    "fv": "R9.6",
-   "ted": "2026-07-15",
+   "ted": null,
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
   },
@@ -1787,30 +1765,8 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.6",
-   "ted": "2026-07-24",
+   "ted": null,
    "who": "Vasyl Skochko",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLAT-5525",
-   "name": "communication-service",
-   "pod": "PLAT",
-   "proj": "PLAT",
-   "status": "In Development",
-   "fv": "R9.5.2",
-   "ted": "2026-07-20",
-   "who": "Nimesh Panchal",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLAT-5576",
-   "name": "ACH Authorization Service",
-   "pod": "PLAT",
-   "proj": "PLAT",
-   "status": "In Development",
-   "fv": "R9.5.1",
-   "ted": "2026-07-20",
-   "who": "Nimesh Panchal",
    "theme": "ACH"
   },
   {
@@ -1840,7 +1796,7 @@
    "name": "Ach Refunds Inside of Csp",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.6",
    "ted": "2026-06-16",
    "who": "Mykyta Moroz",
@@ -1871,33 +1827,31 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-19979",
-   "name": "PLANS-19979: SmileHealth: Purchase Widget (npm): Plans DB: SGDP 2024 template missing from BenefitPolicyOrganizations on DEV - Plans-API returns empty templates for Denture Repair LLC",
+   "key": "PLANS-20239",
+   "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20061",
+   "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": null,
-   "sprint": null,
+   "sprint": "Plans-Sprint 18-26",
    "who": "Nazarii Polinyk",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19868",
-   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
-   "created": "2026-07-17",
+   "created": "2026-07-22",
    "labels": [
     "product_prioritized"
    ]
@@ -1919,22 +1873,6 @@
    ]
   },
   {
-   "key": "PLANS-19785",
-   "name": "Provider - Plan can be renewed when renewal restriction is enabled",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-16",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19680",
    "name": "Smile Health/Ancilliary Benefits/Error is displayed at the Careington Provider Search Page",
    "pod": "LL",
@@ -1948,39 +1886,6 @@
    "created": "2026-07-15",
    "labels": [
     "DCA",
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19679",
-   "name": "[Membership Fee Promo] - Renewing a plan displays wrong annual plan cost",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-07-15",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19636",
-   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-14",
-   "labels": [
     "product_prioritized"
    ]
   },
@@ -2017,45 +1922,13 @@
    ]
   },
   {
-   "key": "PLANS-19114",
-   "name": "CSP - blocker - Org exceptions not saving properly",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-07",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-18895",
-   "name": "CSP - Org Selection section disappears after selecting an Organization before clicking Save ; click on cancel org still saved.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-02",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-18680",
    "name": "WFP portal - RoleWFP - Some Plan Details documents are generated using a legacy template and display the SGDP logo instead of the expected WFP branding",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.6",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "Plans-Sprint 19-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2065,8 +1938,24 @@
    ]
   },
   {
-   "key": "PLANS-18564",
-   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
+   "key": "PLANS-18529",
+   "name": "PLANS-18529: Stage - Member Portal - Wallet download still uses legacy get-member-qr-code endpoint instead of Plans API",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-06-25",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18461",
+   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -2075,7 +1964,7 @@
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-06-26",
+   "created": "2026-06-24",
    "labels": [
     "product_prioritized"
    ]
@@ -2095,6 +1984,62 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20240",
+   "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20234",
+   "name": "Smile Health - Admin Fee - Portal doesn' display unavailable state after admin fee retrieval retries are exhausted",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20232",
+   "name": "Plan Details PDF -Does not reflect dynamic footer settings when dynamic footer is Enabled",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20207",
+   "name": "WaiveFam/Able to Apply Waivefam promo code to an Initial plan purchase",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-23",
+   "labels": []
   },
   {
    "key": "PLANS-20133",
@@ -2138,38 +2083,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20061",
-   "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20047",
-   "name": "member /wfp - plan details - showing sgdp logo (in legacy template) for non sgdp plans",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
    "labels": [
     "product_prioritized"
    ]
@@ -2245,7 +2158,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "Plans-Sprint 19-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
@@ -2261,7 +2174,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "Plans-Sprint 19-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
@@ -2277,7 +2190,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "Plans-Sprint 19-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
@@ -2496,6 +2409,48 @@
    ]
   },
   {
+   "key": "LL-879",
+   "name": "DCA plans visible on smile health",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Reenbit - Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20040",
+   "name": "Purchase portal / WFP - One Smile Dental - Duplicate Plans Displayed on \"Choose a Plan\" Page",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20000",
+   "name": "Comfort Dental>Stage>Plan Names are duplicate after select office and same happening after selecting any Plan",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": []
+  },
+  {
    "key": "PLANS-18882",
    "name": "PLAN BENEFITS: Add Discount to Plan Benefits Section",
    "pod": "LL",
@@ -2528,18 +2483,67 @@
    ]
   },
   {
-   "key": "PLANS-19946",
-   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
+   "key": "PLANS-20047",
+   "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vivienne Chawande",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
-   "created": "2026-07-20",
+   "created": "2026-07-21",
    "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19868",
+   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19785",
+   "name": "Provider - Plan can be renewed when renewal restriction is enabled",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-16",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19679",
+   "name": "[Membership Fee Promo] - Renewing a plan displays wrong annual plan cost",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-07-15",
+   "labels": [
+    "LLplans",
     "product_prioritized"
    ]
   },
@@ -2561,6 +2565,22 @@
    ]
   },
   {
+   "key": "PLANS-19636",
+   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-14",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19140",
    "name": "PLANS-19140: PMP: Additional Benefits: Back of the card: UI is not matching Figma",
    "pod": "LL",
@@ -2577,17 +2597,17 @@
    ]
   },
   {
-   "key": "PLANS-18461",
-   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
+   "key": "PLANS-19114",
+   "name": "CSP - blocker - Org exceptions not saving properly",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-24",
+   "prio": "2: Important",
+   "created": "2026-07-07",
    "labels": [
     "product_prioritized"
    ]
@@ -2632,7 +2652,7 @@
    "status": "On Hold",
    "cat": "In Progress",
    "fv": null,
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "Plans-Sprint 19-26",
    "who": "Valentyna Tenus",
    "reporter": "Valentyna Tenus",
    "prio": "3: Standard",
@@ -2658,35 +2678,18 @@
    ]
   },
   {
-   "key": "PLANS-20033",
-   "name": "Stage - CSP - Promo Codes - Promo Code creates a new variant instead of updating the existing configuration",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19883",
-   "name": "[Membership Fee Promo] - Autorenewal did not include discount",
+   "key": "PLANS-19946",
+   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
+   "who": "Vivienne Chawande",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
    "created": "2026-07-20",
    "labels": [
-    "LLplans",
     "product_prioritized"
    ]
   },
@@ -2702,22 +2705,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-16",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19645",
-   "name": "Member portal - Admin Fee displayed as whole number (18) instead of configured decimal value (17.5) on Overview page",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-07-15",
    "labels": [
     "product_prioritized"
    ]
@@ -2739,17 +2726,17 @@
    ]
   },
   {
-   "key": "PLANS-18529",
-   "name": "PLANS-18529: Stage - Member Portal - Wallet download still uses legacy get-member-qr-code endpoint instead of Plans API",
+   "key": "PLANS-18564",
+   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Gabriel Perez Cardozo",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-06-25",
+   "created": "2026-06-26",
    "labels": [
     "product_prioritized"
    ]
@@ -2757,31 +2744,45 @@
  ],
  "nopod": [
   {
+   "key": "PLANS-20238",
+   "name": "DCA plans visible on smile health",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-20231",
+   "name": "One Smile -FAQ section: update billing descriptor",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Sushma Bankar"
+  },
+  {
+   "key": "PLANS-20224",
+   "name": "Update landing page header message to \"Join our Dental Savings Plan today!”",
+   "status": "Backlog",
+   "who": "Mariano Hernández",
+   "reporter": "Sushma Bankar"
+  },
+  {
+   "key": "PLANS-20178",
+   "name": "500 Error in CSP updating a Benefit Plan Template",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Michael McNulty"
+  },
+  {
    "key": "PLANS-20169",
    "name": "PMP/Waivefam/Plan Summary displays incorrect information on applying Waivefam promo",
-   "status": "Backlog",
+   "status": "PR Created",
    "who": "Mykyta Moroz",
    "reporter": "Vivienne Chawande"
   },
   {
-   "key": "PLANS-20166",
-   "name": "PMP \\ Multi Practice View renewal flow does not allow to continue to checkout page",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-20163",
-   "name": "PMP \\ Multi Practice View renewal flow does not always detect the plans of selected practice",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
    "key": "PLANS-20153",
    "name": "PMP \\ rate limiting is triggered during normal user activity",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "Ready for Development",
+   "who": "Daryl Myrick",
    "reporter": "Luis Moreno Soberón"
   },
   {
@@ -2794,8 +2795,8 @@
   {
    "key": "PLANS-20126",
    "name": "PMP \\ Auto Renew preference set during the plan purchase is not preserved on plan creation",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
   },
   {
