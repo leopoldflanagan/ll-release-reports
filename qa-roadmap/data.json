@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T15:32:30+00:00",
+ "generated_at": "2026-07-24T16:30:05+00:00",
  "today": "2026-07-24",
  "features": [
   {
@@ -86,8 +86,8 @@
   {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
-   "status": "In Development",
-   "ted": "2026-07-24",
+   "status": "In Testing",
+   "ted": "2026-07-31",
    "fv": "R9.6",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
@@ -177,7 +177,7 @@
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "status": "In Development",
-   "ted": "2026-07-24",
+   "ted": "2026-07-27",
    "fv": "R9.6",
    "who": "Valentyna Tenus",
    "tshirt": "Large"
@@ -461,8 +461,8 @@
   {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
-   "status": "In Development",
-   "ted": "2026-07-24",
+   "status": "In Testing",
+   "ted": "2026-07-31",
    "fv": "R9.6",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate",
@@ -957,7 +957,7 @@
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "status": "In Development",
-   "ted": "2026-07-24",
+   "ted": "2026-07-27",
    "fv": "R9.6",
    "who": "Valentyna Tenus",
    "tshirt": "Large",
@@ -1257,9 +1257,9 @@
    "name": "New Bill To Office Option",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.6",
-   "ted": "2026-07-24",
+   "ted": "2026-07-31",
    "who": "Mykyta Moroz",
    "theme": "LL-MVP"
   },
@@ -1754,7 +1754,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.6",
-   "ted": "2026-07-24",
+   "ted": "2026-07-27",
    "who": "Valentyna Tenus",
    "theme": "ACH"
   },
@@ -1838,7 +1838,9 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-23",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20061",
@@ -1890,22 +1892,6 @@
    ]
   },
   {
-   "key": "PLANS-19209",
-   "name": "PLANS-19209: Wellfit Pay Portal: PMP: Plan Card: Print: PDF: Incorrect text in the Disclaimer \"Administered By\"",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-08",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19205",
    "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
    "pod": "LL",
@@ -1931,7 +1917,7 @@
    "sprint": "Plans-Sprint 19-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-06-29",
    "labels": [
     "product_prioritized"
@@ -1970,22 +1956,6 @@
    ]
   },
   {
-   "key": "PLANS-14922",
-   "name": "[Existing issue] Member portal -showing a System message that's applicable for only Employer plans (PDS Team)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-03-13",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20240",
    "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
    "pod": "LL",
@@ -1995,9 +1965,11 @@
    "sprint": "Plans-Sprint 18-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-07-23",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20234",
@@ -2011,7 +1983,9 @@
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
    "created": "2026-07-23",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20232",
@@ -2023,9 +1997,11 @@
    "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-07-23",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20207",
@@ -2039,7 +2015,9 @@
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-07-23",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20133",
@@ -2051,9 +2029,11 @@
    "sprint": null,
    "who": "Mykyta Moroz",
    "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-07-22",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20068",
@@ -2420,7 +2400,9 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-23",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20040",
@@ -2434,7 +2416,9 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-21",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20000",
@@ -2448,7 +2432,9 @@
    "reporter": "Vinita Thankur",
    "prio": "1: Urgent",
    "created": "2026-07-21",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-18882",
@@ -2478,6 +2464,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2025-08-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20169",
+   "name": "PMP/Waivefam/Plan Summary displays incorrect information on applying Waivefam promo",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-22",
    "labels": [
     "product_prioritized"
    ]
@@ -2726,6 +2728,22 @@
    ]
   },
   {
+   "key": "PLANS-19209",
+   "name": "PLANS-19209: Wellfit Pay Portal: PMP: Plan Card: Print: PDF: Incorrect text in the Disclaimer \"Administered By\"",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-08",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -2743,48 +2761,6 @@
   }
  ],
  "nopod": [
-  {
-   "key": "PLANS-20238",
-   "name": "DCA plans visible on smile health",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-20231",
-   "name": "One Smile -FAQ section: update billing descriptor",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Sushma Bankar"
-  },
-  {
-   "key": "PLANS-20224",
-   "name": "Update landing page header message to \"Join our Dental Savings Plan today!”",
-   "status": "In Development",
-   "who": "Mariano Hernández",
-   "reporter": "Sushma Bankar"
-  },
-  {
-   "key": "PLANS-20178",
-   "name": "500 Error in CSP updating a Benefit Plan Template",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Michael McNulty"
-  },
-  {
-   "key": "PLANS-20169",
-   "name": "PMP/Waivefam/Plan Summary displays incorrect information on applying Waivefam promo",
-   "status": "PR Created",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-20153",
-   "name": "PMP \\ rate limiting is triggered during normal user activity",
-   "status": "Ready for Development",
-   "who": "Daryl Myrick",
-   "reporter": "Luis Moreno Soberón"
-  },
   {
    "key": "PLANS-20137",
    "name": "PMP Overview - Field label displays \"Accredited Practice\" instead of \"Office Assignment\"",
