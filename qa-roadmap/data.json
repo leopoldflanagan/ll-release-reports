@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T18:27:48+00:00",
+ "generated_at": "2026-07-24T20:27:44+00:00",
  "today": "2026-07-24",
  "features": [
   {
@@ -239,7 +239,7 @@
   {
    "key": "PLANS-15540",
    "name": "open-closed-network",
-   "status": "In Development",
+   "status": "Ready for Development",
    "ted": null,
    "fv": null,
    "who": "Unassigned",
@@ -677,6 +677,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-15540",
+   "name": "open-closed-network",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-16678",
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "In Development",
@@ -1038,17 +1049,6 @@
    "tshirt": "Large",
    "pod": "WEL",
    "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "PLANS-15540",
-   "name": "open-closed-network",
-   "status": "In Development",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
   }
  ],
  "all": [
@@ -1482,6 +1482,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-15540",
+   "name": "open-closed-network",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Ready for Development",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-16678",
    "name": "PMP - Account Information Google/Apple Wallet",
    "pod": "LL",
@@ -1843,17 +1854,6 @@
    "ted": "2026-09-09",
    "who": "Daniel Marineni",
    "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "PLANS-15540",
-   "name": "open-closed-network",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Development",
-   "fv": null,
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
   }
  ],
  "bugs": [
@@ -2695,22 +2695,6 @@
    ]
   },
   {
-   "key": "PLANS-19465",
-   "name": "Renaming a plan (benefitplan template) does not rename sales.plan — plan info missing from Sales tab on reload",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Chris Rubio",
-   "reporter": "Leopoldo Flanagan",
-   "prio": "2: Important",
-   "created": "2026-07-10",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19209",
    "name": "PLANS-19209: Wellfit Pay Portal: PMP: Plan Card: Print: PDF: Incorrect text in the Disclaimer \"Administered By\"",
    "pod": "LL",
@@ -2770,7 +2754,7 @@
   {
    "key": "PLANS-20274",
    "name": "One Smile: Ensure when on the site even without a specific practice we are showing correct contact phone number",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "Mariano Hernández",
    "reporter": "Sushma Bankar"
   },
