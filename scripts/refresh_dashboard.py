@@ -244,13 +244,15 @@ def splice(html, marker_decl, new_decl):
 
 
 def main():
+    # New architecture: the script writes a data-only JSON file.
+    # The HTML never gets touched by the bot — it fetches this JSON at load time.
+    # This makes bot writes and manual HTML edits touch DIFFERENT files → no merge conflicts, ever.
     if len(sys.argv) < 2:
-        sys.exit("usage: refresh_dashboard.py path/to/index.html")
+        sys.exit("usage: refresh_dashboard.py path/to/data.json")
     path = sys.argv[1]
-    html = open(path, encoding="utf-8").read()
 
     today = dt.date.today()
-    print(f"Refreshing {path} — snapshot {today.isoformat()}")
+    print(f"Refreshing data → {path} — snapshot {today.isoformat()}")
 
     ll = pull_ll_features()
     print(f"  LL features: {len(ll)}")
@@ -265,31 +267,22 @@ def main():
     print(f"  no-pod bugs: {len(nopod)}")
     weeks = build_weeks(today)
 
-    # splice each data block
-    html = splice(html, "FEATURES", js_array("FEATURES", ll))
-    html = splice(html, "FEATURES_ALL", js_array("FEATURES_ALL", features_all))
-    html = splice(html, "ALL", js_array("ALL", all_set))
-    html = splice(html, "BUGS", js_array("BUGS", bugs))
-    html = splice(html, "NOPOD", js_array("NOPOD", nopod))
-
-    # TODAY (single-line const) and WEEKS
-    import re
-    html = re.sub(r'const TODAY = new Date\("[^"]*"\);',
-                  f'const TODAY = new Date("{today.isoformat()}");', html, count=1)
-    html = splice(html, "WEEKS", js_array("WEEKS", weeks))
-
-    # GENERATED_AT: full UTC timestamp so the header can show freshness (date + time).
     now_iso = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
-    if re.search(r'const GENERATED_AT = "[^"]*";', html):
-        html = re.sub(r'const GENERATED_AT = "[^"]*";',
-                      f'const GENERATED_AT = "{now_iso}";', html, count=1)
-    else:
-        # first run after adding the marker: inject right after TODAY
-        html = re.sub(r'(const TODAY = new Date\("[^"]*"\);)',
-                      r'\1\nconst GENERATED_AT = "' + now_iso + '";', html, count=1)
 
-    open(path, "w", encoding="utf-8").write(html)
-    print(f"Done — generated at {now_iso}")
+    payload = {
+        "generated_at": now_iso,
+        "today": today.isoformat(),
+        "features": ll,
+        "features_all": features_all,
+        "all": all_set,
+        "bugs": bugs,
+        "nopod": nopod,
+        "weeks": weeks,
+    }
+
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(payload, fh, ensure_ascii=False, indent=1)
+    print(f"Done — wrote {path}, generated at {now_iso}")
 
 
 if __name__ == "__main__":

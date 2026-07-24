@@ -39,23 +39,24 @@ jobs:
           JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
           JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
         run: |
-          python3 scripts/refresh_dashboard.py qa-roadmap/index.html
+          python3 scripts/refresh_dashboard.py qa-roadmap/data.json
 
       - name: Commit and push if changed
         run: |
           git config user.name  "LL Dashboard Bot"
           git config user.email "actions@github.com"
-          if git diff --quiet -- qa-roadmap/index.html; then
-            echo "No changes - dashboard already up to date."
+          # Bot only ever writes data.json — never the HTML — so conflicts are impossible.
+          if git diff --quiet -- qa-roadmap/data.json; then
+            echo "No changes - data already up to date."
           else
-            git add qa-roadmap/index.html
-            git commit -m "Auto-refresh LL QA roadmap ($(date -u +%Y-%m-%d))"
+            git add qa-roadmap/data.json
+            git commit -m "Auto-refresh LL QA data ($(date -u +%Y-%m-%d))"
             for i in 1 2 3; do
               if git push; then
                 echo "Pushed successfully."
                 break
               fi
               echo "Push rejected - syncing with remote and retrying ($i)..."
-              git pull --no-rebase -X ours origin main -m "Merge remote, keep fresh dashboard"
+              git pull --no-rebase -X ours origin main -m "Merge remote data refresh"
             done
           fi
