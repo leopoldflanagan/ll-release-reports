@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T15:19:24+00:00",
+ "generated_at": "2026-07-24T15:21:57+00:00",
  "today": "2026-07-24",
  "features": [
   {
@@ -384,7 +384,7 @@
   {
    "key": "PLANS-16267",
    "name": "Update Auto-Renewal w/Panda Doc Signature",
-   "status": "On Hold",
+   "status": "In Development",
    "ted": "2026-07-24",
    "fv": "R9.6",
    "who": "David Jones",
@@ -1180,7 +1180,7 @@
    "name": "Update Auto-Renewal w/Panda Doc Signature",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "On Hold",
+   "status": "In Development",
    "fv": "R9.6",
    "ted": "2026-07-24",
    "who": "David Jones",
@@ -2760,7 +2760,7 @@
   {
    "key": "PLANS-20224",
    "name": "Update landing page header message to \"Join our Dental Savings Plan today!”",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "Mariano Hernández",
    "reporter": "Sushma Bankar"
   },
