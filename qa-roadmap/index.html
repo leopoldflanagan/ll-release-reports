@@ -1,1187 +1,2872 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LL QA Roadmap — Feature Delivery to QA</title>
-<style>
-  :root{
-    --blue:#1B5FA8; --navy:#123E6B; --green:#4CAF2E;
-    --ink:#0f1f30; --muted:#5a6b7d; --line:#e3e9f0; --bg:#f6f8fb;
-    --amber:#E8A317; --red:#D64545; --purple:#7A5FB0;
-    --track:#eef2f7;
+{
+ "generated_at": "2026-07-24T14:57:48+00:00",
+ "today": "2026-07-24",
+ "features": [
+  {
+   "key": "PLANS-18019",
+   "name": "Migrate Plans",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Chris Rubio",
+   "tshirt": "Moderate"
+  },
+  {
+   "key": "PLANS-17282",
+   "name": "Unintegrated Member Portal View",
+   "status": "In Testing",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Denys Kernychnyi",
+   "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-18651",
+   "name": "Marketing Details - Quantity",
+   "status": "In Testing",
+   "ted": "2026-07-21",
+   "fv": "R9.6",
+   "who": "Dima Shtympel",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-17161",
+   "name": "Marketing Details Updates",
+   "status": "In Development",
+   "ted": "2026-07-22",
+   "fv": "R9.6",
+   "who": "Dima Shtympel",
+   "tshirt": "X-Large"
+  },
+  {
+   "key": "PLANS-16409",
+   "name": "Electronic Consent Form Updates",
+   "status": "In Development",
+   "ted": "2026-08-07",
+   "fv": "R9.7",
+   "who": "Dima Shtympel",
+   "tshirt": "Huge"
+  },
+  {
+   "key": "PLANS-15451",
+   "name": "Plan Design",
+   "status": "On Hold",
+   "ted": "2026-09-30",
+   "fv": null,
+   "who": "Dima Shtympel",
+   "tshirt": "Huge"
+  },
+  {
+   "key": "PLANS-18481",
+   "name": "Unify Purchase Into NPM Package",
+   "status": "In Development",
+   "ted": "2026-07-20",
+   "fv": "R9.7",
+   "who": "Ivan Yarymovych",
+   "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-14501",
+   "name": "Use Custom URL on Smile Health",
+   "status": "In Testing",
+   "ted": "2026-07-27",
+   "fv": "R9.6",
+   "who": "Ivan Yarymovych",
+   "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-17580",
+   "name": "Membership Fee Promo Codes",
+   "status": "In Development",
+   "ted": "2026-07-31",
+   "fv": "R9.6",
+   "who": "Mykyta Moroz",
+   "tshirt": "Moderate"
+  },
+  {
+   "key": "PLANS-17463",
+   "name": "New Bill To Office Option",
+   "status": "In Development",
+   "ted": "2026-07-24",
+   "fv": "R9.6",
+   "who": "Mykyta Moroz",
+   "tshirt": "Moderate"
+  },
+  {
+   "key": "PLANS-15748",
+   "name": "Ach Refunds Inside of Csp",
+   "status": "In Development",
+   "ted": "2026-06-16",
+   "fv": "R9.6",
+   "who": "Mykyta Moroz",
+   "tshirt": "Huge"
+  },
+  {
+   "key": "PLANS-15226",
+   "name": "WAIVEFAM Promo Code",
+   "status": "In Testing",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Mykyta Moroz",
+   "tshirt": "Small"
+  },
+  {
+   "key": "PLANS-17686",
+   "name": "Updates to Transaction History",
+   "status": "On Hold",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Nazarii Polinyk",
+   "tshirt": "Small"
+  },
+  {
+   "key": "PLANS-17004",
+   "name": "Handle Integration within The Member Portal",
+   "status": "In Testing",
+   "ted": "2026-07-29",
+   "fv": "R9.6",
+   "who": "Petro Yarish",
+   "tshirt": "Moderate"
+  },
+  {
+   "key": "PLANS-18344",
+   "name": "Smile Health - Display Admin Fee Dynamically (WA State Law)",
+   "status": "In Testing",
+   "ted": "2026-07-20",
+   "fv": "R9.6",
+   "who": "Rostyslav Masniuk",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-17587",
+   "name": "Restrictions on Renewals",
+   "status": "In Development",
+   "ted": "2026-07-24",
+   "fv": "R9.6",
+   "who": "Shchekochykhin Vladyslav",
+   "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-17114",
+   "name": "Handling ACH Declines",
+   "status": "On Hold",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Shchekochykhin Vladyslav",
+   "tshirt": "X-Large"
+  },
+  {
+   "key": "PLANS-14180",
+   "name": "Wallet Enhancements for ACH",
+   "status": "On Hold",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Shchekochykhin Vladyslav",
+   "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-17687",
+   "name": "Incorporate Payment Widget into Plan Purchase Widget",
+   "status": "In Development",
+   "ted": "2026-07-24",
+   "fv": "R9.6",
+   "who": "Valentyna Tenus",
+   "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-16091",
+   "name": "Dynamic Legal Language - Portal Footer",
+   "status": "In Testing",
+   "ted": "2026-07-24",
+   "fv": "R9.6",
+   "who": "Valentyna Tenus",
+   "tshirt": "Moderate"
+  },
+  {
+   "key": "PLANS-18413",
+   "name": "Marketing Details",
+   "status": "In Development",
+   "ted": "2026-07-30",
+   "fv": "R9.7",
+   "who": "Vasyl Skochko",
+   "tshirt": "Moderate"
+  },
+  {
+   "key": "PLANS-17725",
+   "name": "Handle ACH in Member Portal",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Vasyl Skochko",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-18909",
+   "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Vic Du Plessis",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-17582",
+   "name": "Bulk Sellable Acceptable",
+   "status": "Architecture",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-16678",
+   "name": "PMP - Account Information Google/Apple Wallet",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-15540",
+   "name": "open-closed-network",
+   "status": "In Development",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null
   }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    color:var(--ink); background:var(--bg); line-height:1.45; padding:32px 24px 64px;
+ ],
+ "features_all": [
+  {
+   "key": "DYN-1077",
+   "name": "Launch Loyalty Migration Emails",
+   "status": "In Development",
+   "ted": "2026-07-28",
+   "fv": "R9.6",
+   "who": "Rojesh Thapa",
+   "tshirt": "Moderate",
+   "pod": "DYN",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "DYN-1080",
+   "name": "LL - Expired Plans Winback Journey",
+   "status": "On Hold",
+   "ted": "2026-07-30",
+   "fv": "R9.6",
+   "who": "Unassigned",
+   "tshirt": "Small",
+   "pod": "DYN",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "DYN-708",
+   "name": "Launch loyalty New Email Journeys",
+   "status": "In Testing",
+   "ted": "2026-07-30",
+   "fv": "R9.6",
+   "who": "Rojesh Thapa",
+   "tshirt": "Moderate",
+   "pod": "DYN",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "DYN-763",
+   "name": "Dynamic Admin Fees in Email Journeys",
+   "status": "In Testing",
+   "ted": "2026-07-30",
+   "fv": "R9.6",
+   "who": "Satva Tech",
+   "tshirt": "Large",
+   "pod": "DYN",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "DYN-820",
+   "name": "Non Annual Renewals",
+   "status": "In Testing",
+   "ted": "2026-07-30",
+   "fv": "R9.6",
+   "who": "Unassigned",
+   "tshirt": "Moderate",
+   "pod": "DYN",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PAY-3756",
+   "name": "Launch Loyalty Token Migration",
+   "status": "In Development",
+   "ted": "2026-08-05",
+   "fv": "R9.6",
+   "who": "Stephen Perry",
+   "tshirt": "Huge",
+   "pod": "PAY",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-14501",
+   "name": "Use Custom URL on Smile Health",
+   "status": "In Testing",
+   "ted": "2026-07-27",
+   "fv": "R9.6",
+   "who": "Ivan Yarymovych",
+   "tshirt": "Large",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-15100",
+   "name": "Essential Smiles Plan Custom Website",
+   "status": "In Development",
+   "ted": "2026-07-24",
+   "fv": "R9.6",
+   "who": "Mariano Hernández",
+   "tshirt": "X-Large",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-15226",
+   "name": "WAIVEFAM Promo Code",
+   "status": "In Testing",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Mykyta Moroz",
+   "tshirt": "Small",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-15298",
+   "name": "Additional Benefit Eligibility SFTP Feed",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "David Jones",
+   "tshirt": "Moderate",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-15892",
+   "name": "Subscription Recurring Charge Processing",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Chris Rubio",
+   "tshirt": "Large",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-15984",
+   "name": "PMP Ancillary Benefit Card",
+   "status": "In Testing",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Daryl Myrick",
+   "tshirt": "Moderate",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-16091",
+   "name": "Dynamic Legal Language - Portal Footer",
+   "status": "In Testing",
+   "ted": "2026-07-24",
+   "fv": "R9.6",
+   "who": "Valentyna Tenus",
+   "tshirt": "Moderate",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-16267",
+   "name": "Update Auto-Renewal w/Panda Doc Signature",
+   "status": "On Hold",
+   "ted": "2026-07-24",
+   "fv": "R9.6",
+   "who": "David Jones",
+   "tshirt": "Small",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-16409",
+   "name": "Electronic Consent Form Updates",
+   "status": "In Development",
+   "ted": "2026-08-07",
+   "fv": "R9.7",
+   "who": "Dima Shtympel",
+   "tshirt": "Huge",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-16563",
+   "name": "Subscription Renewal Extension",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Chris Rubio",
+   "tshirt": "Large",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17004",
+   "name": "Handle Integration within The Member Portal",
+   "status": "In Testing",
+   "ted": "2026-07-29",
+   "fv": "R9.6",
+   "who": "Petro Yarish",
+   "tshirt": "Moderate",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17058",
+   "name": "Renewal Transaction Handling for Migrated Members",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Chris Rubio",
+   "tshirt": "Moderate",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17161",
+   "name": "Marketing Details Updates",
+   "status": "In Development",
+   "ted": "2026-07-22",
+   "fv": "R9.6",
+   "who": "Dima Shtympel",
+   "tshirt": "X-Large",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17282",
+   "name": "Unintegrated Member Portal View",
+   "status": "In Testing",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Denys Kernychnyi",
+   "tshirt": "Large",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17463",
+   "name": "New Bill To Office Option",
+   "status": "In Development",
+   "ted": "2026-07-24",
+   "fv": "R9.6",
+   "who": "Mykyta Moroz",
+   "tshirt": "Moderate",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17468",
+   "name": "Open Network Dashboard Upgrades",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": "Large",
+   "pod": "EDW",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17577",
+   "name": "Link Tokens for C/C & ACH to Members",
+   "status": "In Testing",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Lloyd Tokerud",
+   "tshirt": "Moderate",
+   "pod": "EDW",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17580",
+   "name": "Membership Fee Promo Codes",
+   "status": "In Development",
+   "ted": "2026-07-31",
+   "fv": "R9.6",
+   "who": "Mykyta Moroz",
+   "tshirt": "Moderate",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17581",
+   "name": "Disbursement Splits & Admin Fee Splits",
+   "status": "In Development",
+   "ted": "2026-07-17",
+   "fv": "R9.6",
+   "who": "David Jones",
+   "tshirt": "Moderate",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17585",
+   "name": "Auto-Renewal Re-Try Process",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Michael McNulty",
+   "tshirt": "Moderate",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17586",
+   "name": "Member Portal Support for Subscription Payments",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": "Moderate",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17587",
+   "name": "Restrictions on Renewals",
+   "status": "In Development",
+   "ted": "2026-07-24",
+   "fv": "R9.6",
+   "who": "Shchekochykhin Vladyslav",
+   "tshirt": "Large",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17588",
+   "name": "DSO Dashboard",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": "Large",
+   "pod": "EDW",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17729",
+   "name": "Subscription Purchases inside of Plans",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": "X-Large",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-18019",
+   "name": "Migrate Plans",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Chris Rubio",
+   "tshirt": "Moderate",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-18413",
+   "name": "Marketing Details",
+   "status": "In Development",
+   "ted": "2026-07-30",
+   "fv": "R9.7",
+   "who": "Vasyl Skochko",
+   "tshirt": "Moderate",
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-18777",
+   "name": "Ability to Hide UCR Code Admin Screen, and Explore Savings.",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Daryl Myrick",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-18909",
+   "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Vic Du Plessis",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLAT-5572",
+   "name": "Launch Loyalty Migration",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Unassigned",
+   "tshirt": "X-Large",
+   "pod": "PLAT",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLAT-5573",
+   "name": "SaaS Fee Per Practice",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Vic Du Plessis",
+   "tshirt": "Moderate",
+   "pod": "PLAT",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "WEL-5793",
+   "name": "DSO - Phase 1 & Phase 2",
+   "status": "In Development",
+   "ted": "2026-08-05",
+   "fv": "R9.6",
+   "who": "Daniel Marineni",
+   "tshirt": "X-Large",
+   "pod": "WEL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-14421",
+   "name": "Provider Search in Member Portal",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": null,
+   "who": "Michael McNulty",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-15451",
+   "name": "Plan Design",
+   "status": "On Hold",
+   "ted": "2026-09-30",
+   "fv": null,
+   "who": "Dima Shtympel",
+   "tshirt": "Huge",
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-16678",
+   "name": "PMP - Account Information Google/Apple Wallet",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-16750",
+   "name": "Plan Office Payment Enhancement",
+   "status": "Architecture",
+   "ted": null,
+   "fv": null,
+   "who": "Michael McNulty",
+   "tshirt": null,
+   "pod": "",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17582",
+   "name": "Bulk Sellable Acceptable",
+   "status": "Architecture",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": "Large",
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17724",
+   "name": "UCR Bulk Upload for PMP",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Vic Du Plessis",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17726",
+   "name": "Goals Dashboard",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17727",
+   "name": "Show Provider by Office for Website",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Vic Du Plessis",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17728",
+   "name": "CSP ADD Plans Settings FOR Individual Plus",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17731",
+   "name": "DSO Plan Payment Feature",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": "Large",
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17732",
+   "name": "Implement web analytics platform to support DSO analytics requirements",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17746",
+   "name": "Benefit Usage and Office Assignment",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Michael McNulty",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18017",
+   "name": "Multi-Practice User - Manage Patient",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18018",
+   "name": "Define Refund Window Timeframes",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Michael McNulty",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18020",
+   "name": "Tie Plan Renewals to Office",
+   "status": "In Testing",
+   "ted": "2026-07-31",
+   "fv": "R9.6",
+   "who": "David Jones",
+   "tshirt": "Small",
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18049",
+   "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Vic Du Plessis",
+   "tshirt": "Moderate",
+   "pod": "EDW",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18074",
+   "name": "CSP - Request a Refund",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Vic Du Plessis",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18344",
+   "name": "Smile Health - Display Admin Fee Dynamically (WA State Law)",
+   "status": "In Testing",
+   "ted": "2026-07-20",
+   "fv": "R9.6",
+   "who": "Rostyslav Masniuk",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18481",
+   "name": "Unify Purchase Into NPM Package",
+   "status": "In Development",
+   "ted": "2026-07-20",
+   "fv": "R9.7",
+   "who": "Ivan Yarymovych",
+   "tshirt": "Large",
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18651",
+   "name": "Marketing Details - Quantity",
+   "status": "In Testing",
+   "ted": "2026-07-21",
+   "fv": "R9.6",
+   "who": "Dima Shtympel",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLAT-5586",
+   "name": "Product Selection PER Practice",
+   "status": "Architecture",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLAT",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLAT-5587",
+   "name": "Multi Org Hierarchy",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Vic Du Plessis",
+   "tshirt": null,
+   "pod": "PLAT",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLAT-5603",
+   "name": "Plan Design",
+   "status": "Architecture",
+   "ted": null,
+   "fv": null,
+   "who": "Vic Du Plessis",
+   "tshirt": null,
+   "pod": "PLAT",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "DYN-668",
+   "name": "Plans Journey - ACH Email Updates",
+   "status": "In Development",
+   "ted": "2026-07-31",
+   "fv": "R9.6",
+   "who": "Unassigned",
+   "tshirt": "Moderate",
+   "pod": "DYN",
+   "theme": "ACH"
+  },
+  {
+   "key": "PAY-3751",
+   "name": "ACH Reporting",
+   "status": "In Development",
+   "ted": "2026-09-02",
+   "fv": "R9.6",
+   "who": "Lloyd Tokerud",
+   "tshirt": "X-Large",
+   "pod": "EDW",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-14180",
+   "name": "Wallet Enhancements for ACH",
+   "status": "On Hold",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Shchekochykhin Vladyslav",
+   "tshirt": "Large",
+   "pod": "LL",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-17114",
+   "name": "Handling ACH Declines",
+   "status": "On Hold",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Shchekochykhin Vladyslav",
+   "tshirt": "X-Large",
+   "pod": "LL",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-17686",
+   "name": "Updates to Transaction History",
+   "status": "On Hold",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Nazarii Polinyk",
+   "tshirt": "Small",
+   "pod": "LL",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-17687",
+   "name": "Incorporate Payment Widget into Plan Purchase Widget",
+   "status": "In Development",
+   "ted": "2026-07-24",
+   "fv": "R9.6",
+   "who": "Valentyna Tenus",
+   "tshirt": "Large",
+   "pod": "LL",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-17725",
+   "name": "Handle ACH in Member Portal",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.6",
+   "who": "Vasyl Skochko",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "ACH"
+  },
+  {
+   "key": "WEL-5777",
+   "name": "ACH Core Support",
+   "status": "In Testing",
+   "ted": "2026-08-05",
+   "fv": "R9.6",
+   "who": "Daniel Marineni",
+   "tshirt": "Large",
+   "pod": "WEL",
+   "theme": "ACH"
+  },
+  {
+   "key": "DYN-1030",
+   "name": "Ach Emails WFP Non Plans",
+   "status": "Blocked",
+   "ted": null,
+   "fv": null,
+   "who": "Satva Tech",
+   "tshirt": "Small",
+   "pod": "DYN",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-15748",
+   "name": "Ach Refunds Inside of Csp",
+   "status": "In Development",
+   "ted": "2026-06-16",
+   "fv": "R9.6",
+   "who": "Mykyta Moroz",
+   "tshirt": "Huge",
+   "pod": "LL",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "WEL-5833",
+   "name": "ACH Transaction Details Modal",
+   "status": "In Development",
+   "ted": "2026-09-09",
+   "fv": "R9.6",
+   "who": "Daniel Marineni",
+   "tshirt": "Large",
+   "pod": "WEL",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-15540",
+   "name": "open-closed-network",
+   "status": "In Development",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
   }
-  .wrap{max-width:1180px;margin:0 auto}
-  header{margin-bottom:8px}
-  .hdrow{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
-  .hdactions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-  .snapstamp{font-size:11.5px;color:var(--muted)}
-  .freshpill{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:700;padding:7px 14px;border-radius:20px;white-space:nowrap}
-  .freshpill::before{content:"";width:8px;height:8px;border-radius:50%;flex:none}
-  .freshpill.fresh{background:rgba(76,175,46,.12);color:#2f7d1c}
-  .freshpill.fresh::before{background:var(--green);box-shadow:0 0 0 3px rgba(76,175,46,.18)}
-  .freshpill.stale{background:rgba(232,163,23,.14);color:#9a6a06}
-  .freshpill.stale::before{background:var(--amber)}
-  .freshsub{font-size:11px;font-weight:500;opacity:.75;margin-left:2px}
-  .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:700}
-  h1{font-size:26px;color:var(--navy);margin:4px 0 6px;font-weight:800;letter-spacing:-.01em}
-  .sub{color:var(--muted);font-size:14px;max-width:70ch}
-  .legend{display:flex;flex-wrap:wrap;gap:16px;margin:20px 0 8px;align-items:center;font-size:12.5px;color:var(--muted)}
-  .legend b{color:var(--ink);font-weight:600}
-  .chip{display:inline-flex;align-items:center;gap:6px}
-  .sw{width:14px;height:14px;border-radius:3px;display:inline-block}
-  .sw.dev{background:var(--amber)} .sw.test{background:var(--purple)} .sw.ready{background:var(--green)} .sw.late{background:var(--red)}
-  .board{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:visible;margin-top:14px;box-shadow:0 1px 3px rgba(18,62,107,.05)}
-  .scalerow{border-top-left-radius:12px;border-top-right-radius:12px;overflow:hidden}
-  .scalerow{display:grid;grid-template-columns:320px 1fr;border-bottom:2px solid var(--navy)}
-  .scalerow .corner{padding:10px 14px;font-size:12px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.06em;border-right:1px solid var(--line)}
-  .weeks{display:grid}
-  .weekhead{display:flex;flex-direction:column;justify-content:center;align-items:center;font-size:11px;color:var(--muted);padding:6px 2px;border-left:1px solid var(--line);text-align:center}
-  .weekhead b{color:var(--navy);font-size:11.5px;font-weight:700;display:block}
-  .weekhead.freeze{background:rgba(214,69,69,.06)}
-  .group{border-bottom:1px solid var(--line)}
-  .grouphead{background:var(--navy);color:#fff;padding:7px 14px;font-size:12.5px;font-weight:700;letter-spacing:.02em;display:flex;justify-content:space-between}
-  .grouphead .rng{opacity:.7;font-weight:500}
-  .row{display:grid;grid-template-columns:320px 1fr;border-top:1px solid var(--line);min-height:44px}
-  .row:hover{background:#fafcff}
-  .cellL{padding:8px 14px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;gap:2px}
-  .fkey{font-size:11px;color:var(--blue);font-weight:700;font-variant-numeric:tabular-nums}
-  .fname{font-size:12.5px;color:var(--ink);font-weight:500;line-height:1.25}
-  .fmeta{font-size:10.5px;color:var(--muted)}
-  .lane{position:relative;display:grid}
-  .gridcell{border-left:1px solid var(--line)}
-  .gridcell.freeze{background:rgba(214,69,69,.05)}
-  .bar{position:absolute;top:50%;transform:translateY(-50%);height:22px;border-radius:5px;display:flex;align-items:center;padding:0 8px;font-size:10.5px;font-weight:600;color:#fff;white-space:nowrap;overflow:visible;box-shadow:0 1px 2px rgba(0,0,0,.12);text-decoration:none;cursor:pointer;transition:filter .12s,box-shadow .12s}
-  .bar:hover{filter:brightness(1.06);box-shadow:0 2px 6px rgba(0,0,0,.22)}
-  .bar:focus-visible{outline:2px solid var(--navy);outline-offset:2px}
-  .bar.dev{background:var(--amber)} .bar.test{background:var(--purple)} .bar.ready{background:var(--green)} .bar.late{background:var(--red)}
-  .bar .dot{width:6px;height:6px;border-radius:50%;background:#fff;margin-right:5px;flex:none}
-  .bartip{position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--navy);color:#fff;padding:8px 11px;border-radius:8px;font-size:11.5px;font-weight:500;line-height:1.4;white-space:normal;width:max-content;max-width:260px;box-shadow:0 4px 14px rgba(0,0,0,.28);opacity:0;visibility:hidden;transition:opacity .12s;z-index:20;pointer-events:none;text-align:left}
-  .bartip b{color:#fff;font-weight:700}
-  .bartip i{color:#b9c9dc;font-style:normal;font-size:10.5px}
-  .bartip::after{content:"";position:absolute;top:100%;left:50%;transform:translateX(-50%);border:6px solid transparent;border-top-color:var(--navy)}
-  .bar:hover .bartip{opacity:1;visibility:visible}
-  a.fkey{text-decoration:none;cursor:pointer}
-  a.fkey:hover{text-decoration:underline}
-  a.k{text-decoration:none;cursor:pointer}
-  a.k:hover{text-decoration:underline}
-  .flag{position:absolute;top:0;bottom:0;width:2px;background:var(--red);z-index:3}
-  .flag span{position:absolute;top:-2px;left:4px;font-size:9.5px;color:var(--red);font-weight:700;white-space:nowrap;background:rgba(255,255,255,.85);padding:1px 3px;border-radius:3px}
-  .foot{margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 18px}
-  .card h3{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--navy);margin-bottom:10px}
-  .card.pending h3{color:var(--red)}
-  /* peek list: show ~5.5 rows collapsed with fade, then See more */
-  ul.plist.peek{position:relative;overflow:hidden;transition:max-height .2s}
-  ul.plist.peek.collapsed{max-height:var(--peek-h,232px)}
-  ul.plist.peek.collapsed::after{content:"";position:absolute;left:0;right:0;bottom:0;height:52px;background:linear-gradient(to bottom,rgba(255,255,255,0),#fff);pointer-events:none}
-  .seemore{appearance:none;margin-top:10px;background:#fff;border:1px solid var(--line);color:var(--blue);font-weight:700;font-size:12.5px;padding:7px 14px;border-radius:8px;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:6px}
-  .seemore:hover{border-color:var(--blue);background:#f4f8fc}
-  .seemore::after{content:"▾";font-size:11px}
-  .seemore.open::after{content:"▴"}
-  .plist{list-style:none;font-size:12.5px}
-  .plist li{padding:5px 0;border-bottom:1px dashed var(--line);display:flex;justify-content:space-between;gap:10px}
-  .plist li:last-child{border-bottom:0}
-  .plist .k{color:var(--blue);font-weight:700;flex:none}
-  .plist .who{color:var(--muted);font-size:11.5px}
-  .tag{font-size:10px;font-weight:700;padding:1px 6px;border-radius:20px;text-transform:uppercase;letter-spacing:.03em}
-  .tag.late{background:rgba(214,69,69,.12);color:var(--red)}
-  .tag.none{background:rgba(90,107,125,.12);color:var(--muted)}
-  .note{font-size:11.5px;color:var(--muted);margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
-  /* tabs */
-  .tabs{display:flex;gap:4px;margin:18px 0 0;border-bottom:2px solid var(--line)}
-  .tab{appearance:none;background:none;border:0;padding:10px 18px;font-size:13px;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;font-family:inherit}
-  .tab:hover{color:var(--navy)}
-  .tab.active{color:var(--blue);border-bottom-color:var(--blue)}
-  .panel{display:none}
-  .panel.active{display:block}
-  /* data table */
-  .xref{width:100%;border-collapse:collapse;margin-top:16px;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
-  .xref thead th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
-  .xref tbody td{padding:9px 12px;border-top:1px solid var(--line);vertical-align:top}
-  .xref tbody tr:hover{background:#fafcff}
-  .xref a{color:var(--blue);font-weight:700;text-decoration:none}
-  .xref a:hover{text-decoration:underline}
-  .pod{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:20px;background:rgba(27,95,168,.1);color:var(--blue)}
-  .themetag{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;white-space:nowrap;background:rgba(122,95,176,.12);color:var(--purple)}
-  .themetag.th-llmvp{background:rgba(27,95,168,.12);color:var(--blue)}
-  .themetag.th-llfastfollows{background:rgba(76,175,46,.14);color:#2f7d1c}
-  .themetag.th-ach{background:rgba(122,95,176,.14);color:var(--purple)}
-  .themetag.th-achfastfollows{background:rgba(232,163,23,.16);color:#9a6c00}
-  .pill{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;letter-spacing:.02em}
-  .pill.testing{background:rgba(122,95,176,.14);color:var(--purple)}
-  .pill.dev{background:rgba(232,163,23,.16);color:#9a6a06}
-  .pill.hold{background:rgba(90,107,125,.14);color:var(--muted)}
-  .pill.idea{background:rgba(27,95,168,.1);color:var(--blue)}
-  .pill.closed{background:rgba(76,175,46,.14);color:#2f7d1c}
-  .lbl{font-size:10px;color:var(--muted);background:var(--track);padding:1px 6px;border-radius:4px;margin-right:3px;white-space:nowrap}
-  .muted-date{color:var(--muted)}
-  .xnote{font-size:12px;color:var(--muted);margin-top:12px}
-  .themebtns{display:flex;flex-wrap:wrap;gap:6px}
-  .themefilter{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
-  .themefilter:hover{border-color:var(--blue);color:var(--blue)}
-  .themefilter.active{background:var(--blue);border-color:var(--blue);color:#fff}
-  /* ===== Search + filter toolbar (redesigned) ===== */
-  .toolbar{margin-top:18px;display:flex;flex-direction:column;gap:0;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 1px 3px rgba(18,62,107,.06);overflow:hidden}
-  .searchbar{display:flex;align-items:center;gap:11px;padding:13px 18px;border-bottom:1px solid var(--line);position:relative}
-  .searchbar svg.si{flex:none;color:var(--muted);transition:color .15s}
-  .searchbar.focused svg.si{color:var(--blue)}
-  .searchbar input{border:0;outline:0;font-family:inherit;font-size:15px;color:var(--ink);flex:1;background:transparent;font-weight:500}
-  .searchbar input::placeholder{color:#9aa8b6;font-weight:400}
-  .searchbar::after{content:"";position:absolute;left:0;bottom:-1px;height:2px;width:0;background:var(--blue);transition:width .2s ease}
-  .searchbar.focused::after{width:100%}
-  .searchcount{flex:none;font-size:11.5px;font-weight:700;color:var(--muted);background:var(--track);padding:3px 10px;border-radius:20px;white-space:nowrap;display:none}
-  .searchbar.has-text .searchcount{display:inline-block}
-  .clearsearch{appearance:none;border:0;background:var(--track);color:var(--muted);width:22px;height:22px;border-radius:50%;cursor:pointer;font-size:14px;line-height:1;flex:none;display:none;align-items:center;justify-content:center;transition:all .12s}
-  .clearsearch:hover{background:#dde5ee;color:var(--ink)}
-  .searchbar.has-text .clearsearch{display:inline-flex}
-  .filterpanel{background:transparent;border:0;border-radius:0;padding:2px 18px 6px;margin-top:0;box-shadow:none}
-  .filterrow{display:flex;align-items:center;gap:12px;padding:10px 0;flex-wrap:wrap;border-top:1px solid var(--line)}
-  .filterrow:first-child{border-top:0}
-  .flabel{font-size:10.5px;font-weight:800;color:var(--navy);text-transform:uppercase;letter-spacing:.07em;min-width:62px;flex:none}
-  .filterfoot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 18px;border-top:1px solid var(--line);background:#fafcff;min-height:40px}
-  .filterfoot .fcount{font-size:12px;color:var(--muted);font-weight:500}
-  .filterfoot .fcount b{color:var(--navy);font-weight:700}
-  .clearall{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 13px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .12s;display:none;align-items:center;gap:6px}
-  .clearall:hover{border-color:var(--red);color:var(--red);background:#fdf4f4}
-  .clearall.show{display:inline-flex}
-  .podbtn,.tbtn,.segbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 13px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .12s;line-height:1.5}
-  /* default accent = blue (Pod) */
-  .podbtn:hover,.tbtn:hover,.segbtn:hover{border-color:var(--blue);color:var(--blue);background:#f4f8fc}
-  .podbtn.active{background:var(--blue);border-color:var(--blue);color:#fff;box-shadow:0 1px 4px rgba(27,95,168,.28)}
-  .tbtn.active{background:var(--blue);border-color:var(--blue);color:#fff;box-shadow:0 1px 4px rgba(27,95,168,.28)}
-  .segbtn.active{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:0 1px 4px rgba(18,62,107,.3)}
-  /* per-group active accents so each row reads at a glance */
-  #themefilter .podbtn.active{background:var(--purple);border-color:var(--purple);box-shadow:0 1px 4px rgba(122,95,176,.3)}
-  #themefilter .podbtn:hover{border-color:var(--purple);color:var(--purple);background:#f7f4fc}
-  #rmthemefilter .podbtn.active{background:var(--purple);border-color:var(--purple);box-shadow:0 1px 4px rgba(122,95,176,.3)}
-  #rmthemefilter .podbtn:hover{border-color:var(--purple);color:var(--purple);background:#f7f4fc}
-  #relfilter .podbtn.active{background:var(--navy);border-color:var(--navy);box-shadow:0 1px 4px rgba(18,62,107,.3)}
-  #allstatusfilter .tbtn.active{background:var(--green);border-color:var(--green);box-shadow:0 1px 4px rgba(76,175,46,.3)}
-  #allstatusfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
-  #bugstatusfilter .tbtn.active{background:var(--green);border-color:var(--green);box-shadow:0 1px 4px rgba(76,175,46,.3)}
-  #bugstatusfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
-  #bugpriofilter .tbtn.active{background:var(--purple);border-color:var(--purple);color:#fff;box-shadow:0 1px 4px rgba(122,95,176,.3)}
-  #bugpriofilter .tbtn:hover{border-color:var(--purple);color:var(--purple);background:#f5f1fb}
-  #bugpriofilter .tbtn.active:hover{color:#fff}
-  .prio{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:20px;letter-spacing:.02em;white-space:nowrap}
-  .prio.p1{background:#fbe0e0;color:var(--red)}
-  .prio.p2{background:#fde8d6;color:#b45309}
-  .prio.p3{background:#e7f0fb;color:var(--blue)}
-  .prio.p4{background:#eef2f7;color:var(--muted)}
-  .prio.p5,.prio.px{background:#eef2f7;color:var(--muted)}
-  /* priority-group cards: breakdown row of the two levels inside */
-  .priobreak{display:flex;gap:8px;margin-top:10px;padding-top:9px;border-top:1px solid var(--line)}
-  .priobreak .pb{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;color:var(--ink)}
-  .priocard.sel{border-color:var(--red)}
-  .bugtoolbar{display:flex;justify-content:flex-end;margin:14px 0 4px}
-  .exportbtn{appearance:none;border:1px solid var(--green);background:#fff;color:#2f7d1c;font-weight:700;font-size:12.5px;padding:8px 16px;border-radius:8px;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:7px;transition:background .12s}
-  .exportbtn:hover{background:#f3faef}
-  .proj{display:inline-block;padding:2px 7px;border-radius:4px;background:#eef2f7;color:var(--navy);font-size:11px;font-weight:700}
-  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:16px}
-  .sc{padding:16px 18px}
-  .sctitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
-  .bignum{font-size:38px;font-weight:800;color:var(--blue);line-height:1}
-  .scsub{font-size:12px;color:var(--muted);margin-top:6px}
-  .scgrid{display:flex;flex-direction:column;gap:6px}
-  .scell{display:flex;align-items:center;justify-content:space-between;gap:12px}
-  .sk{font-size:13px;color:var(--ink)}
-  .sv{font-size:13px;font-weight:700;color:var(--navy);background:#eef2f7;border-radius:10px;padding:1px 9px;min-width:26px;text-align:center}
-  .bugcol{margin-top:20px}
-  .bugcolhead{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:2px solid var(--line);margin-bottom:8px}
-  .bugcolhead.near{border-bottom-color:var(--green)}
-  .bugcolhead.back{border-bottom-color:#cbd5e1}
-  .bugcount{font-size:12px;font-weight:700;color:var(--navy);background:#eef2f7;border-radius:10px;padding:1px 9px}
-  .bugtbl{margin-top:0}
-  .sprint{display:inline-block;padding:1px 7px;border-radius:4px;background:#f3e8ff;color:#6b21a8;font-size:11px;font-weight:600}
-  /* NEW tag for recently-created bugs */
-  .newtag{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.05em;padding:1px 6px;border-radius:20px;background:var(--green);color:#fff;vertical-align:middle;margin-left:2px}
-  /* NEW filter toggle chip (green accent, standalone) */
-  #bugnewfilter .tbtn.active{background:var(--green);border-color:var(--green);color:#fff;box-shadow:0 1px 4px rgba(76,175,46,.3)}
-  #bugnewfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
-  #bugnewfilter .tbtn.active:hover{color:#fff}
-  #buglabelfilter .tbtn.active{background:var(--amber);border-color:var(--amber);color:#fff;box-shadow:0 1px 4px rgba(232,163,23,.3)}
-  #buglabelfilter .tbtn:hover{border-color:var(--amber);color:#b45309;background:#fdf6e8}
-  #buglabelfilter .tbtn.active:hover{color:#fff}
-  .warnico{display:inline-block;color:var(--red);font-weight:700;margin-right:5px;cursor:help}
-  .sztag{color:var(--muted)}
-  /* card-as-filter */
-  .bugcardbtn{appearance:none;text-align:left;font-family:inherit;cursor:pointer;border:1px solid var(--line);transition:border-color .12s,box-shadow .12s,transform .08s}
-  .bugcardbtn:hover{border-color:var(--blue);box-shadow:0 2px 8px rgba(18,62,107,.1)}
-  .bugcardbtn.sel{border-color:var(--blue);box-shadow:0 0 0 2px rgba(27,95,168,.25)}
-  .pctrow{margin-top:6px;font-size:12px;color:var(--muted)}
-  .pctnum{font-weight:800;color:var(--navy);font-size:14px}
-  .pctbar{margin-top:6px;height:6px;border-radius:4px;background:var(--track);overflow:hidden}
-  .pctbar span{display:block;height:100%;background:var(--blue);border-radius:4px}
-  /* center all content inside Active Bugs summary cards */
-  #bugcards .sc{text-align:center}
-  #bugcards .sc .pctbar{width:70%;margin-left:auto;margin-right:auto}
-  #bugcards .priobreak{justify-content:center}
-  /* visible status header in bug board */
-  .colstatus{font-size:13px;font-weight:800;color:#fff;background:var(--navy);padding:4px 12px;border-radius:6px;letter-spacing:.01em}
-  .bugcolhead.near .colstatus{background:var(--green)}
-  .bugcolhead.back .colstatus{background:#7c8a99}
-  .colstatus.hold{background:var(--red)}
-  /* On Hold status filter chip */
-  .holdchip{margin-left:14px;border-color:var(--red)!important;color:var(--red)!important}
-  .holdchip:hover{border-color:var(--red)!important;color:var(--red)!important}
-  .holdchip.active{background:var(--red)!important;border-color:var(--red)!important;color:#fff!important}
-  /* sortable table headers */
-  th.sortable{cursor:pointer;user-select:none;white-space:nowrap}
-  th.sortable:hover{background:#1b4d82}
-  th.sortable::after{content:"⇅";opacity:.4;margin-left:5px;font-size:10px}
-  th.sortable.sort-asc::after{content:"▲";opacity:1;margin-left:5px;font-size:9px}
-  th.sortable.sort-desc::after{content:"▼";opacity:1;margin-left:5px;font-size:9px}
-  /* T-shirt size pills */
-  .tshirt{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:20px}
-  .t-small{background:#e6f4ea;color:#2f7d1c}
-  .t-moderate{background:#e7f0fb;color:var(--blue)}
-  .t-large{background:#fef3d9;color:#9a6a06}
-  .t-xlarge{background:#fde8d6;color:#b45309}
-  .t-huge{background:#fbe0e0;color:var(--red)}
-  .datasrc{margin-top:32px;padding:16px 18px;border-top:1px solid var(--line);display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;font-size:12.5px}
-  .datasrc .dslabel{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
-  .datasrc a{color:var(--blue);font-weight:700;text-decoration:none}
-  .datasrc a:hover{text-decoration:underline}
-  .datasrc .dsnote{color:var(--muted)}
-  @media(max-width:820px){
-    .scalerow,.row{grid-template-columns:180px 1fr}
-    .foot{grid-template-columns:1fr}
-    .fname{font-size:11.5px}
+ ],
+ "all": [
+  {
+   "key": "DYN-1077",
+   "name": "Launch Loyalty Migration Emails",
+   "pod": "DYN",
+   "proj": "DYN",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-07-28",
+   "who": "Rojesh Thapa",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "DYN-1080",
+   "name": "LL - Expired Plans Winback Journey",
+   "pod": "DYN",
+   "proj": "DYN",
+   "status": "On Hold",
+   "fv": "R9.6",
+   "ted": "2026-07-30",
+   "who": "Unassigned",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "DYN-708",
+   "name": "Launch loyalty New Email Journeys",
+   "pod": "DYN",
+   "proj": "DYN",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-07-30",
+   "who": "Rojesh Thapa",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "DYN-763",
+   "name": "Dynamic Admin Fees in Email Journeys",
+   "pod": "DYN",
+   "proj": "DYN",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-07-30",
+   "who": "Satva Tech",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "DYN-820",
+   "name": "Non Annual Renewals",
+   "pod": "DYN",
+   "proj": "DYN",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-07-30",
+   "who": "Unassigned",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PAY-3756",
+   "name": "Launch Loyalty Token Migration",
+   "pod": "PAY",
+   "proj": "PAY",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-08-05",
+   "who": "Stephen Perry",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-14501",
+   "name": "Use Custom URL on Smile Health",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-07-27",
+   "who": "Ivan Yarymovych",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-15100",
+   "name": "Essential Smiles Plan Custom Website",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-07-24",
+   "who": "Mariano Hernández",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-15226",
+   "name": "WAIVEFAM Promo Code",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Mykyta Moroz",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-15298",
+   "name": "Additional Benefit Eligibility SFTP Feed",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "David Jones",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-15892",
+   "name": "Subscription Recurring Charge Processing",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Epics & Stories",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Chris Rubio",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-15984",
+   "name": "PMP Ancillary Benefit Card",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Daryl Myrick",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-16091",
+   "name": "Dynamic Legal Language - Portal Footer",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-07-24",
+   "who": "Valentyna Tenus",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-16267",
+   "name": "Update Auto-Renewal w/Panda Doc Signature",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "On Hold",
+   "fv": "R9.6",
+   "ted": "2026-07-24",
+   "who": "David Jones",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-16409",
+   "name": "Electronic Consent Form Updates",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.7",
+   "ted": "2026-08-07",
+   "who": "Dima Shtympel",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-16563",
+   "name": "Subscription Renewal Extension",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Epics & Stories",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Chris Rubio",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17004",
+   "name": "Handle Integration within The Member Portal",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-07-29",
+   "who": "Petro Yarish",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17058",
+   "name": "Renewal Transaction Handling for Migrated Members",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Epics & Stories",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Chris Rubio",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17161",
+   "name": "Marketing Details Updates",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-07-22",
+   "who": "Dima Shtympel",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17282",
+   "name": "Unintegrated Member Portal View",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Denys Kernychnyi",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17463",
+   "name": "New Bill To Office Option",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-07-24",
+   "who": "Mykyta Moroz",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17468",
+   "name": "Open Network Dashboard Upgrades",
+   "pod": "EDW",
+   "proj": "PLANS",
+   "status": "Ready for Development",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17577",
+   "name": "Link Tokens for C/C & ACH to Members",
+   "pod": "EDW",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Lloyd Tokerud",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17580",
+   "name": "Membership Fee Promo Codes",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-07-31",
+   "who": "Mykyta Moroz",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17581",
+   "name": "Disbursement Splits & Admin Fee Splits",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-07-17",
+   "who": "David Jones",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17585",
+   "name": "Auto-Renewal Re-Try Process",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Michael McNulty",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17586",
+   "name": "Member Portal Support for Subscription Payments",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Epics & Stories",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17587",
+   "name": "Restrictions on Renewals",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-07-24",
+   "who": "Shchekochykhin Vladyslav",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17588",
+   "name": "DSO Dashboard",
+   "pod": "EDW",
+   "proj": "PLANS",
+   "status": "Ready for Development",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-17729",
+   "name": "Subscription Purchases inside of Plans",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Ready for Development",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-18019",
+   "name": "Migrate Plans",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Chris Rubio",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-18413",
+   "name": "Marketing Details",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.7",
+   "ted": "2026-07-30",
+   "who": "Vasyl Skochko",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-18777",
+   "name": "Ability to Hide UCR Code Admin Screen, and Explore Savings.",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Daryl Myrick",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-18909",
+   "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Ready for Development",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Vic Du Plessis",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLAT-5572",
+   "name": "Launch Loyalty Migration",
+   "pod": "PLAT",
+   "proj": "PLAT",
+   "status": "Ready for Development",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLAT-5573",
+   "name": "SaaS Fee Per Practice",
+   "pod": "PLAT",
+   "proj": "PLAT",
+   "status": "Architecture",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Vic Du Plessis",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "WEL-5793",
+   "name": "DSO - Phase 1 & Phase 2",
+   "pod": "WEL",
+   "proj": "WEL",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-08-05",
+   "who": "Daniel Marineni",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-14421",
+   "name": "Provider Search in Member Portal",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Epics & Stories",
+   "fv": null,
+   "ted": null,
+   "who": "Michael McNulty",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-15451",
+   "name": "Plan Design",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "On Hold",
+   "fv": null,
+   "ted": "2026-09-30",
+   "who": "Dima Shtympel",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-16678",
+   "name": "PMP - Account Information Google/Apple Wallet",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Ready for Development",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-16750",
+   "name": "Plan Office Payment Enhancement",
+   "pod": "",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": null,
+   "ted": null,
+   "who": "Michael McNulty",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17582",
+   "name": "Bulk Sellable Acceptable",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17724",
+   "name": "UCR Bulk Upload for PMP",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Vic Du Plessis",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17726",
+   "name": "Goals Dashboard",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17727",
+   "name": "Show Provider by Office for Website",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Vic Du Plessis",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17728",
+   "name": "CSP ADD Plans Settings FOR Individual Plus",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17731",
+   "name": "DSO Plan Payment Feature",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17732",
+   "name": "Implement web analytics platform to support DSO analytics requirements",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17746",
+   "name": "Benefit Usage and Office Assignment",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Michael McNulty",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18017",
+   "name": "Multi-Practice User - Manage Patient",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18018",
+   "name": "Define Refund Window Timeframes",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Michael McNulty",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18020",
+   "name": "Tie Plan Renewals to Office",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-07-31",
+   "who": "David Jones",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18049",
+   "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard",
+   "pod": "EDW",
+   "proj": "PLANS",
+   "status": "Epics & Stories",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Vic Du Plessis",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18074",
+   "name": "CSP - Request a Refund",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Vic Du Plessis",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18344",
+   "name": "Smile Health - Display Admin Fee Dynamically (WA State Law)",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-07-20",
+   "who": "Rostyslav Masniuk",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18481",
+   "name": "Unify Purchase Into NPM Package",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.7",
+   "ted": "2026-07-20",
+   "who": "Ivan Yarymovych",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18651",
+   "name": "Marketing Details - Quantity",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-07-21",
+   "who": "Dima Shtympel",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLAT-5586",
+   "name": "Product Selection PER Practice",
+   "pod": "PLAT",
+   "proj": "PLAT",
+   "status": "Architecture",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLAT-5587",
+   "name": "Multi Org Hierarchy",
+   "pod": "PLAT",
+   "proj": "PLAT",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Vic Du Plessis",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLAT-5603",
+   "name": "Plan Design",
+   "pod": "PLAT",
+   "proj": "PLAT",
+   "status": "Architecture",
+   "fv": null,
+   "ted": null,
+   "who": "Vic Du Plessis",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "DYN-668",
+   "name": "Plans Journey - ACH Email Updates",
+   "pod": "DYN",
+   "proj": "DYN",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-07-31",
+   "who": "Unassigned",
+   "theme": "ACH"
+  },
+  {
+   "key": "PAY-3751",
+   "name": "ACH Reporting",
+   "pod": "EDW",
+   "proj": "PAY",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-09-02",
+   "who": "Lloyd Tokerud",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-14180",
+   "name": "Wallet Enhancements for ACH",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "On Hold",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Shchekochykhin Vladyslav",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-17114",
+   "name": "Handling ACH Declines",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "On Hold",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Shchekochykhin Vladyslav",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-17686",
+   "name": "Updates to Transaction History",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "On Hold",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Nazarii Polinyk",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-17687",
+   "name": "Incorporate Payment Widget into Plan Purchase Widget",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-07-24",
+   "who": "Valentyna Tenus",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-17725",
+   "name": "Handle ACH in Member Portal",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": null,
+   "who": "Vasyl Skochko",
+   "theme": "ACH"
+  },
+  {
+   "key": "WEL-5777",
+   "name": "ACH Core Support",
+   "pod": "WEL",
+   "proj": "WEL",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-08-05",
+   "who": "Daniel Marineni",
+   "theme": "ACH"
+  },
+  {
+   "key": "DYN-1030",
+   "name": "Ach Emails WFP Non Plans",
+   "pod": "DYN",
+   "proj": "DYN",
+   "status": "Blocked",
+   "fv": null,
+   "ted": null,
+   "who": "Satva Tech",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-15748",
+   "name": "Ach Refunds Inside of Csp",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-06-16",
+   "who": "Mykyta Moroz",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "WEL-5833",
+   "name": "ACH Transaction Details Modal",
+   "pod": "WEL",
+   "proj": "WEL",
+   "status": "In Development",
+   "fv": "R9.6",
+   "ted": "2026-09-09",
+   "who": "Daniel Marineni",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-15540",
+   "name": "open-closed-network",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
   }
-</style>
-</head>
-<body>
-<div class="wrap">
-  <header>
-    <div class="hdrow">
-      <div>
-        <div class="eyebrow">Launch Loyalty · QA Delivery</div>
-        <h1>QA Roadmap — Features Inbound to Testing</h1>
-      </div>
-      <div class="hdactions">
-        <span class="freshpill" id="freshpill" title="Data auto-refreshes from Jira every 2 hours"></span>
-      </div>
-    </div>
-    <p class="sub">Each bar sits on the Dev-estimated <b>Target End date</b> — when the Feature is expected to reach Stage for QA. Grouped by QA week through the R9.7 freeze. Read it left to right: what lands soonest is what QA plans first.</p>
-  </header>
-
-  <div class="tabs">
-    <button class="tab active" data-tab="allroadmap">All PODs QA Roadmap</button>
-    <button class="tab" data-tab="all">Active Features</button>
-    <button class="tab" data-tab="bugs">Active Bugs</button>
-  </div>
-
-  <div class="panel" id="panel-all">
-    <p class="sub" style="margin-top:16px">Active Features across all pods, grouped by <b>Theme</b>. Ordered by workflow status — top is closest to Closed, bottom is Backlog. Closed features are excluded. Filter by Theme, Pod, Release or Status — pick several chips in a group to combine them.</p>
-    <div class="cards" id="allcards"></div>
-    <div class="toolbar">
-      <div class="searchbar" id="allsearchbox">
-        <svg class="si" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg>
-        <input type="text" id="allsearch" placeholder="Search features by title or key…">
-        <span class="searchcount" id="allsearchcount"></span>
-        <button class="clearsearch" id="allsearchclear" type="button" aria-label="Clear">×</button>
-      </div>
-      <div class="filterpanel">
-        <div class="filterrow"><span class="flabel">Theme</span>
-        <div class="themebtns" id="themefilter"></div></div>
-        <div class="filterrow"><span class="flabel">Pod</span>
-        <div class="themebtns" id="podfilter"></div></div>
-        <div class="filterrow"><span class="flabel">Release</span>
-        <div class="themebtns" id="relfilter"></div></div>
-        <div class="filterrow"><span class="flabel">Status</span>
-        <div class="themebtns" id="allstatusfilter"></div></div>
-      </div>
-      <div class="filterfoot">
-        <span class="fcount" id="allfcount"></span>
-        <button class="clearall" id="allclearall" type="button">✕ Clear all filters</button>
-      </div>
-    </div>
-    <table class="xref">
-      <thead>
-        <tr><th>Feature</th><th class="sortable" data-sort="theme">Theme</th><th class="sortable" data-sort="pod">Pod</th><th class="sortable" data-sort="status">Status</th><th class="sortable" data-sort="release">Release</th><th class="sortable" data-sort="ted">Target End</th><th class="sortable" data-sort="size">Size</th><th>Owner</th></tr>
-      </thead>
-      <tbody id="allbody"></tbody>
-    </table>
-    <p class="xnote" id="allnote"></p>
-  </div>
-
-  <div class="panel active" id="panel-allroadmap">
-    <p class="sub" style="margin-top:16px">Consolidated QA delivery roadmap. Work still in build is placed by Dev-estimated <b>Target End date</b> through the R9.7 freeze — read left to right, soonest first. Anything already <b>In Testing</b> is pulled out into a separate <b>QA Ready / In Progress</b> lane at the top (it's already with QA, so its date no longer matters). Bar length reflects the feature's T-shirt size; blocked/on-hold shows red with a Spotlight note on hover; a ⚠ marks a date that has passed without reaching Testing.</p>
-    <div class="toolbar">
-      <div class="searchbar" id="rmsearchbox">
-        <svg class="si" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg>
-        <input type="text" id="rmsearch" placeholder="Search roadmap by title or key…">
-        <span class="searchcount" id="rmsearchcount"></span>
-        <button class="clearsearch" id="rmsearchclear" type="button" aria-label="Clear">×</button>
-      </div>
-      <div class="filterpanel">
-        <div class="filterrow"><span class="flabel">Segment</span>
-        <div class="themebtns" id="segfilter">
-          <button class="segbtn active" data-seg="all">All Pods</button>
-          <button class="segbtn" data-seg="LL">LL QA Roadmap</button>
-          <button class="segbtn" data-seg="PLANS">Plans QA Roadmap</button>
-          <button class="segbtn" data-seg="cross">Cross Pod QA Roadmap</button>
-        </div></div>
-        <div class="filterrow"><span class="flabel">Theme</span>
-        <div class="themebtns" id="rmthemefilter"></div></div>
-      </div>
-    </div>
-    <div class="legend" style="margin-top:14px">
-      <span class="chip"><span class="sw ready"></span><b>QA Ready / In Progress</b> (In Testing)</span>
-      <span class="chip"><span class="sw dev"></span><b>In progress</b> — bar shows Target End date</span>
-      <span class="chip"><span class="sw late"></span><b>Blocked / On Hold</b> — hover for Spotlight note</span>
-      <span class="chip"><span class="warnico">⚠</span><b>Date passed</b> — needs update</span>
-      <span class="chip"><span class="sw" style="background:var(--red);width:3px;height:14px;border-radius:1px"></span><b>Release freeze</b> — shaded column in the timeline</span>
-    </div>
-    <p class="sub" style="font-size:12px;margin-top:8px">Bar length is proportional to the feature's <b>T-shirt size</b> (Small → Huge), the same way bar color reflects status.</p>
-    <div class="board" id="board"></div>
-    <div class="card pending" style="margin-top:18px">
-      <h3 id="backlogtitle">No placeable date — follow-up queue</h3>
-      <p class="note" id="backlognote" style="margin-top:0;border-top:0;padding-top:0">Features with no future Target End date — early-stage or in-flow without an estimate. Not placed on the timeline until Dev sets a date.</p>
-      <ul class="plist peek" id="nodate" style="margin-top:12px"></ul>
-      <button class="seemore" id="nodate-toggle" type="button"></button>
-    </div>
-    <p class="note" id="stamp" style="margin-top:12px"></p>
-  </div>
-
-  <div class="panel" id="panel-bugs">
-    <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status or priority chips to filter (multi-select), and export the filtered list to Excel.</p>
-    <div class="cards" id="bugcards"></div>
-    <div class="toolbar">
-      <div class="searchbar" id="bugsearchbox">
-        <svg class="si" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg>
-        <input type="text" id="bugsearch" placeholder="Search bugs by title or key…">
-        <span class="searchcount" id="bugsearchcount"></span>
-        <button class="clearsearch" id="bugsearchclear" type="button" aria-label="Clear">×</button>
-      </div>
-      <div class="filterpanel">
-        <div class="filterrow"><span class="flabel">Status</span>
-        <div class="themebtns" id="bugstatusfilter"></div></div>
-        <div class="filterrow"><span class="flabel">Priority</span>
-        <div class="themebtns" id="bugpriofilter"></div></div>
-        <div class="filterrow"><span class="flabel">Recent</span>
-        <div class="themebtns" id="bugnewfilter"></div></div>
-        <div class="filterrow"><span class="flabel">Prioritized</span>
-        <div class="themebtns" id="buglabelfilter"></div></div>
-      </div>
-      <div class="filterfoot">
-        <span class="fcount" id="bugfcount"></span>
-        <div style="display:flex;align-items:center;gap:10px">
-          <button class="clearall" id="bugclearall" type="button">✕ Clear all filters</button>
-          <button class="exportbtn" id="bugexport" type="button">⬇ Export to Excel</button>
-        </div>
-      </div>
-    </div>
-    <div id="bugboard"></div>
-    <p class="xnote" id="bugnote"></p>
-
-    <div class="card pending" style="margin-top:26px">
-      <h3 id="nopodtitle">PLANS bugs with no Pod — needs triage &amp; assignment</h3>
-      <p class="sub" style="font-size:12.5px;margin:10px 0">Active bugs in the PLANS project with no Pod value set. Review and assign a Pod. <a id="nopodjira" href="#" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">Open this list in Jira ↗</a></p>
-      <ul class="plist peek" id="nopodlist"></ul>
-      <button class="seemore" id="nopod-toggle" type="button"></button>
-    </div>
-  </div>
-
-  <footer class="datasrc">
-    <span class="dslabel">Fuente de datos</span>
-    <a href="https://wellfitteams-my.sharepoint.com/:x:/g/personal/shikha_atal_wellfit_com/IQAOhNA8nXULR7EWfYBM2BPmAS-KfxYOB_pqopyXdRtuO3Q?e=hKHRyg" target="_blank" rel="noopener">LaunchLoyalty Timelines.xlsx</a>
-    <span class="dsnote">— planilla en SharePoint. Los datos de features y bugs también se reconcilian contra Jira (Pod = LL). Este HTML es un snapshot y no se actualiza solo.</span>
-  </footer>
-</div><!-- /wrap -->
-
-
-<script>
-// ---- LL Feature data (fresh from Jira: Pod=LL, active) ----
-// Workflow (Backlog → Closed). Higher rank = closer to Closed.
-const FWORKFLOW = ["Backlog","Requirements","Architecture","Epics & Stories","Ready for Development","On Hold","In Development","PR Created","PR Merged","In Stage","Dev Verification","In Testing"];
-function fRank(s){ const i=FWORKFLOW.indexOf(s); return i<0?0:i; }
-// A feature is "QA Ready / In Progress" once it reaches In Testing (or beyond) — date no longer matters.
-function isQA(f){ return /test/i.test(f.status); }
-// blocked/on-hold → red
-function isBlocked(f){ return /hold|block/i.test(f.status); }
-// overdue: has a past date AND has NOT yet reached In Testing → date must be updated
-function isOverdue(f){ return f.ted && new Date(f.ted) < TODAY && !isQA(f); }
-// Optional Leadership Spotlight note per feature (by-exception; filled by SM). Shown on hover for blocked/at-risk bars.
-const SPOTLIGHT = {
-  "PLANS-15451":"Plan Design on hold pending prioritization decision — not currently staffed.",
-  "PLANS-14180":"Wallet Enhancements for ACH on hold; revisit once ACH core lands."
-};
-let FEATURES = [];
-
-let FEATURES_ALL = [];
-
-let TODAY = new Date();
-let GENERATED_AT = "";
-// QA weeks through R9.7 freeze (2026-08-23)
-let WEEKS = [];
-let NW = 0, T0 = null, T1 = null, SPAN = 1;
-function recomputeWeekBounds(){ NW = WEEKS.length; T0 = new Date(WEEKS[0].start); T1 = new Date(WEEKS[NW-1].end); SPAN = (T1 - T0) || 1; }
-function pct(d){ return Math.max(0,Math.min(100, ((new Date(d)-T0)/SPAN)*100)); }
-function weekOf(f){
-  // QA-ready (In Testing+) features live in a dedicated lane, not a date week
-  if(isQA(f)) return -2;
-  if(!f.ted) return -1;
-  const dt=new Date(f.ted);
-  // overdue (date passed, not yet in testing) → clamp into the current week so it still shows, flagged
-  if(dt < T0) return 0;
-  for(let i=0;i<NW;i++){ if(dt>=new Date(WEEKS[i].start) && dt<=new Date(WEEKS[i].end)) return i; }
-  return -1;
-}
-function cls(f){
-  if(isBlocked(f)) return "late";          // blocked / on hold → red
-  if(isQA(f)) return "ready";              // In Testing+ → green (QA can work it)
-  if(isOverdue(f)) return "dev";           // date passed but still amber bar; warning icon flags it
-  return "dev";                            // in progress toward QA → amber
-}
-function barLabel(f){
-  if(isQA(f)) return "In Testing";
-  const warn = isOverdue(f) ? "⚠ " : "";
-  if(f.ted) return warn+new Date(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric'});
-  return "—";
-}
-// T-shirt size scale (Jira "Size" field). Rank for sorting; px for bar width.
-const TSHIRT_RANK = {"Small":1,"Moderate":2,"Large":3,"X-Large":4,"Huge":5};
-const TSHIRT_PX = {"Small":90,"Moderate":125,"Large":160,"X-Large":195,"Huge":230};
-function tshirtRank(t){ return TSHIRT_RANK[t]||0; }
-// bar width scaled by T-shirt size; referenced, not exact
-function barWidth(f){
-  return TSHIRT_PX[f.tshirt] || 100;       // no size → default
-}
-
-const board=document.getElementById("board");
-function weekCenter(wi){ const s=pct(WEEKS[wi].start), e=pct(WEEKS[wi].end); return (s+e)/2; }
-
-// Normalize the three data sources into one shape the roadmap can render.
-// LL segment uses the curated FEATURES (QA-ready flags + sheet weeks).
-// PLANS / cross segments derive from the master ALL set, placed by Target End date.
-// Theme lookup by key (from the cross-pod theme dataset) so roadmap items can be theme-filtered.
-const THEME_BY_KEY = {};
-FEATURES_ALL.forEach(f=>{ if(f.theme) THEME_BY_KEY[f.key]=f.theme; });
-let rmSeg="all", rmThemes=new Set();   // rmThemes: empty = All; multi-select OR
-function segData(seg){
-  let items;
-  if(seg==="LL"){ items=FEATURES.slice(); }
-  else {
-    const src = ALL.filter(x=> (seg==="PLANS" ? x.pod==="PLANS" : (x.pod && x.pod!=="LL" && x.pod!=="PLANS")) && !/closed|done|will not/i.test(x.status));
-    items = src.map(x=>({key:x.key,name:x.name,ted:x.ted,fv:x.fv,status:x.status,who:x.who,pod:x.pod,size:x.size||null}));
+ ],
+ "bugs": [
+  {
+   "key": "PLANS-20239",
+   "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20061",
+   "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19979",
+   "name": "PLANS-19979: SmileHealth: Purchase Widget (npm): Plans DB: SGDP 2024 template missing from BenefitPolicyOrganizations on DEV - Plans-API returns empty templates for Denture Repair LLC",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Nazarii Polinyk",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19864",
+   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19680",
+   "name": "Smile Health/Ancilliary Benefits/Error is displayed at the Careington Provider Search Page",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-15",
+   "labels": [
+    "DCA",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19209",
+   "name": "PLANS-19209: Wellfit Pay Portal: PMP: Plan Card: Print: PDF: Incorrect text in the Disclaimer \"Administered By\"",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-08",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19205",
+   "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-08",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18680",
+   "name": "WFP portal - RoleWFP - Some Plan Details documents are generated using a legacy template and display the SGDP logo instead of the expected WFP branding",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-29",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18529",
+   "name": "PLANS-18529: Stage - Member Portal - Wallet download still uses legacy get-member-qr-code endpoint instead of Plans API",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-06-25",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18461",
+   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-24",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-14922",
+   "name": "[Existing issue] Member portal -showing a System message that's applicable for only Employer plans (PDS Team)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-03-13",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20240",
+   "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20234",
+   "name": "Smile Health - Admin Fee - Portal doesn' display unavailable state after admin fee retrieval retries are exhausted",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20232",
+   "name": "Plan Details PDF -Does not reflect dynamic footer settings when dynamic footer is Enabled",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20207",
+   "name": "WaiveFam/Able to Apply Waivefam promo code to an Initial plan purchase",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20133",
+   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-22",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20068",
+   "name": "Provider Portal: Renew button is not displayed for plans in renewal period when Purchase Restriction is enabled",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19988",
+   "name": "paymentManagementAPI (httpClients idx 5) has no per-env baseUrl — resolves to localhost in deployed envs",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Denys Kernychnyi",
+   "prio": "2: Important",
+   "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19874",
+   "name": "One smile/ Essential smile - Portal restrictions not applied",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-17",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19673",
+   "name": "Smile Health - getting a 500 error when purchasing a smile health plan - STAGE",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-15",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19648",
+   "name": "Member Portal / Provider Portal - Admin fee not discounted when plan is on renewal period",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-15",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18790",
+   "name": "Marketing Setting - Value Row Should Not Require Quantity and Should Be Configured Separately",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-07-01",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18787",
+   "name": "Marketing setting - Plan Summary \"Value\" Does Not Auto-Calculate",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-07-01",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18784",
+   "name": "Marketing setting - Plan Summary \"Saving\" Value Does Not Auto-Populate",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-07-01",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-16901",
+   "name": "Member Portal - Contact Information is empty after verifying email address",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-05-27",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-16858",
+   "name": "Two Primary Cards shown in Member Portal",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.6",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Michael McNulty",
+   "prio": "2: Important",
+   "created": "2026-05-27",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-16403",
+   "name": "Member portal - missing logo and profile icon misalignment",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.6",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-05-20",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-16298",
+   "name": "Member Portal - Saved payment methods disappear after refreshing the Payments page",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-05-19",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-15657",
+   "name": "Member Portal \\ Failed to display Benefit Summary",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno",
+   "prio": "3: Standard",
+   "created": "2026-04-29",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-15283",
+   "name": "Member Portal \\ Failed to display expected values in Procedures section of Treatment Summaries",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno",
+   "prio": "3: Standard",
+   "created": "2026-04-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-15280",
+   "name": "Member Portal \\ Dates overlap in Procedures section of Treatment Summaries",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno",
+   "prio": "4: Low",
+   "created": "2026-04-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-15258",
+   "name": "Member portal - Treatment Summary page UI has changed / no back button/ Export button",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-04-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-15078",
+   "name": "Retest - Member Portal - Overview - The “SAVE” button is enabled even without entering any data",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-04-14",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-15036",
+   "name": "Member portal - Responsible party's Expired plans are not showing in member portal",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-04-09",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-15033",
+   "name": "Member portal - All plans - Theming /nav bar icons not loading for Responsible Party(RP without a plan)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-04-09",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-14923",
+   "name": "[Exising issue] Member poral -no validations for Downgrade renewals",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-03-13",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-14884",
+   "name": "Additional Benefits | Refresh causes content not to load and Back button does not redirect to /plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-02-26",
+   "labels": [
+    "Reenbit",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "LL-879",
+   "name": "DCA plans visible on smile health",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Reenbit - Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20040",
+   "name": "Purchase portal / WFP - One Smile Dental - Duplicate Plans Displayed on \"Choose a Plan\" Page",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20000",
+   "name": "Comfort Dental>Stage>Plan Names are duplicate after select office and same happening after selecting any Plan",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": []
+  },
+  {
+   "key": "PLANS-18882",
+   "name": "PLAN BENEFITS: Add Discount to Plan Benefits Section",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vic Du Plessis",
+   "prio": "2: Important",
+   "created": "2026-07-01",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-8578",
+   "name": "MPV3 | Minor benefit summaries are not shown for RP",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 15-26",
+   "who": "Clint Tredway",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2025-08-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20047",
+   "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19868",
+   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19785",
+   "name": "Provider - Plan can be renewed when renewal restriction is enabled",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-16",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19679",
+   "name": "[Membership Fee Promo] - Renewing a plan displays wrong annual plan cost",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-07-15",
+   "labels": [
+    "LLplans",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19668",
+   "name": "[Membership Fee Promo] - Discount is displayed in the summary and no promo is applied",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-07-15",
+   "labels": [
+    "LLplans",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19636",
+   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-14",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19140",
+   "name": "PLANS-19140: PMP: Additional Benefits: Back of the card: UI is not matching Figma",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-07-07",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19114",
+   "name": "CSP - blocker - Org exceptions not saving properly",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-07",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19757",
+   "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-07-16",
+   "labels": [
+    "LLplans",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18603",
+   "name": "Stage - PMP - Purchase Plan - Incorrect toast message displayed when сpromo code is not eligible",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "2: Important",
+   "created": "2026-06-26",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-16717",
+   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "3: Standard",
+   "created": "2026-05-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-15006",
+   "name": "Member portal - Renew - showing KIDS plans when Renew a SGDP plan (Sgdp plan purchased from SGDP site, no office assigned)",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Clint Tredway",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-04-06",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19946",
+   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Vivienne Chawande",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-20",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19721",
+   "name": "Member / WFP portal -Plan Details PDF - All bugs",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-16",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19465",
+   "name": "Renaming a plan (benefitplan template) does not rename sales.plan — plan info missing from Sales tab on reload",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Chris Rubio",
+   "reporter": "Leopoldo Flanagan",
+   "prio": "2: Important",
+   "created": "2026-07-10",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18564",
+   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-26",
+   "labels": [
+    "product_prioritized"
+   ]
   }
-  items.forEach(f=>{ f.theme = f.theme || THEME_BY_KEY[f.key] || ""; });
-  return {items};
-}
-function segAll(){
-  const ll = segData("LL").items.map(f=>({...f,pod:"LL"}));
-  const pl = segData("PLANS").items;
-  const xp = segData("cross").items;
-  return {items:[...ll,...pl,...xp]};
-}
-function renderRoadmap(seg){
-  rmSeg = seg;
-  const data = seg==="all" ? segAll() : segData(seg);
-  let items = data.items;
-  if(rmThemes.size) items = items.filter(f=>rmThemes.has(f.theme||""));
-  if(rmSearchTerm) items = items.filter(f=>matchSearch(f, rmSearchTerm));
-  // scale header
-  let scale=`<div class="scalerow"><div class="corner">Feature</div><div class="weeks" style="grid-template-columns:repeat(${NW},1fr)">`;
-  WEEKS.forEach(w=>{ scale+=`<div class="weekhead ${w.freeze?'freeze':''}"><b>${w.label}</b>${w.freeze?`<span style="color:var(--red)">${w.freeze}</span>`:''}</div>`; });
-  scale+=`</div></div>`;
-  board.innerHTML=scale;
-
-  const qaReadyList = items.filter(f=>weekOf(f)===-2);
-  const placed = items.filter(f=>weekOf(f)>=0);
-  const backlog = items.filter(f=>weekOf(f)===-1);
-
-  function barRow(f, leftPct){
-    const c=cls(f);
-    const url=JIRA+f.key;
-    const w=barWidth(f);
-    const podTag = f.pod ? `<span class="pod" style="margin-right:6px">${f.pod}</span>` : '';
-    const over = isOverdue(f);
-    const spot = SPOTLIGHT[f.key];
-    // tooltip content (custom CSS tooltip so it appears reliably over the whole bar)
-    let tipHead = `${f.key} — ${f.status}`;
-    let tipBody = "";
-    if(isBlocked(f) && spot) tipBody = "🔦 "+spot;
-    else if(isBlocked(f)) tipBody = "Blocked / On Hold";
-    else if(over) tipBody = "⚠ Target End date has passed and it isn't In Testing yet — date needs updating.";
-    else if(isQA(f)) tipBody = "In Testing — already with QA.";
-    else if(f.ted) tipBody = "Target End "+new Date(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
-    const tipSize = f.tshirt ? `Size: ${f.tshirt}` : "";
-    const tip = `<span class="bartip"><b>${tipHead}</b>${tipBody?`<br>${tipBody}`:''}${tipSize?`<br>${tipSize}`:''}<br><i>click → open in Jira</i></span>`;
-    const warnIcon = over ? `<span class="warnico" title="Target End date is in the past and the feature is not yet In Testing — please update the date.">⚠</span>` : '';
-    const szMeta = f.tshirt ? ` · ${f.tshirt}` : '';
-    const row=document.createElement("div"); row.className="row";
-    const lane=`<div class="lane" style="grid-template-columns:repeat(${NW},1fr)">`+
-      WEEKS.map(x=>`<div class="gridcell ${x.freeze?'freeze':''}"></div>`).join("")+
-      `<a class="bar ${c}" href="${url}" target="_blank" rel="noopener" style="left:calc(${leftPct}% - 2px);width:${w}px;${leftPct>60?'transform:translate(-100%,-50%)':''}"><span class="dot"></span>${barLabel(f)}${tip}</a>`+
-      `</div>`;
-    row.innerHTML=`<div class="cellL">${podTag}<a class="fkey" href="${url}" target="_blank" rel="noopener" title="Open in Jira">${f.key}</a><span class="fname">${warnIcon}${f.name}</span><span class="fmeta">${f.fv||'—'} · ${f.status}${szMeta} · ${f.who}</span></div>${lane}`;
-    return row;
+ ],
+ "nopod": [
+  {
+   "key": "PLANS-20238",
+   "name": "DCA plans visible on smile health",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-20231",
+   "name": "One Smile -FAQ section: update billing descriptor",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Sushma Bankar"
+  },
+  {
+   "key": "PLANS-20224",
+   "name": "Update landing page header message to \"Join our Dental Savings Plan today!”",
+   "status": "Backlog",
+   "who": "Mariano Hernández",
+   "reporter": "Sushma Bankar"
+  },
+  {
+   "key": "PLANS-20178",
+   "name": "500 Error in CSP updating a Benefit Plan Template",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Michael McNulty"
+  },
+  {
+   "key": "PLANS-20169",
+   "name": "PMP/Waivefam/Plan Summary displays incorrect information on applying Waivefam promo",
+   "status": "PR Created",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande"
+  },
+  {
+   "key": "PLANS-20153",
+   "name": "PMP \\ rate limiting is triggered during normal user activity",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
+   "key": "PLANS-20137",
+   "name": "PMP Overview - Field label displays \"Accredited Practice\" instead of \"Office Assignment\"",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
+  {
+   "key": "PLANS-20126",
+   "name": "PMP \\ Auto Renew preference set during the plan purchase is not preserved on plan creation",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
+   "key": "PLANS-20112",
+   "name": "Patient renewed online, but the plan changed to the kids plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vera King"
+  },
+  {
+   "key": "PLANS-19784",
+   "name": "CSP - automatically checking different checkboxes",
+   "status": "Backlog",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
   }
-
-  // 1) QA Ready / In Progress lane (In Testing+) — separated, date-independent
-  if(qaReadyList.length){
-    const g=document.createElement("div"); g.className="group";
-    g.innerHTML=`<div class="grouphead" style="background:var(--green)">✅ QA Ready / In Progress<span class="rng">${qaReadyList.length} — already in QA's hands</span></div>`;
-    qaReadyList.sort((a,b)=>a.key.localeCompare(b.key)).forEach(f=>{ g.appendChild(barRow(f, 6)); });
-    board.appendChild(g);
+ ],
+ "weeks": [
+  {
+   "label": "Jul 20–26",
+   "start": "2026-07-20",
+   "end": "2026-07-26"
+  },
+  {
+   "label": "Jul 27–Aug 2",
+   "start": "2026-07-27",
+   "end": "2026-08-02",
+   "freeze": "R9.6 freeze Jul 27"
+  },
+  {
+   "label": "Aug 3–9",
+   "start": "2026-08-03",
+   "end": "2026-08-09"
+  },
+  {
+   "label": "Aug 10–16",
+   "start": "2026-08-10",
+   "end": "2026-08-16"
+  },
+  {
+   "label": "Aug 17–23",
+   "start": "2026-08-17",
+   "end": "2026-08-23",
+   "freeze": "R9.7 freeze Aug 23"
+  },
+  {
+   "label": "Aug 24–30",
+   "start": "2026-08-24",
+   "end": "2026-08-30"
+  },
+  {
+   "label": "Aug 31–Sep 6",
+   "start": "2026-08-31",
+   "end": "2026-09-06"
   }
-  // 2) Weekly lanes by Target End date
-  const byWeek={};
-  placed.forEach(f=>{ const wi=weekOf(f); (byWeek[wi]=byWeek[wi]||[]).push(f); });
-  WEEKS.forEach((w,wi)=>{
-    const list=(byWeek[wi]||[]).sort((a,b)=>new Date(a.ted||WEEKS[wi].start)-new Date(b.ted||WEEKS[wi].start));
-    if(!list.length) return;
-    const g=document.createElement("div"); g.className="group";
-    g.innerHTML=`<div class="grouphead">QA Week — ${w.label}<span class="rng">${list.length} item${list.length>1?'s':''}</span></div>`;
-    list.forEach(f=>{
-      const left = (new Date(f.ted) < T0) ? weekCenter(0) : pct(f.ted);
-      g.appendChild(barRow(f, left));
-    });
-    board.appendChild(g);
-  });
-  // backlog / no-date (only real Features)
-  const nd=document.getElementById("nodate"); nd.innerHTML="";
-  backlog.sort((a,b)=>fRank(b.status)-fRank(a.status)||a.key.localeCompare(b.key)).forEach(p=>{
-    const keyEl = `<a class="k" href="${JIRA}${p.key}" target="_blank" rel="noopener">${p.key}</a>`;
-    const podTag = (p.pod && p.pod!=="LL") ? `${p.pod} · ` : '';
-    const li=document.createElement("li");
-    li.innerHTML=`${keyEl}<span style="flex:1">${p.name}<br><span class="who">${podTag}${p.fv||'no FV'} · ${p.who}</span></span>${statusPill(p.status)}`;
-    nd.appendChild(li);
-  });
-  document.getElementById("backlogtitle").textContent = `Backlog / no placeable date — ${backlog.length} item${backlog.length!==1?'s':''}`;
-  setupPeek("nodate","nodate-toggle",5);
-  document.getElementById("stamp").textContent="Snapshot built "+TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})+" from Jira. Roadmap is a snapshot — it does not auto-refresh.";
+ ]
 }
-function buildRoadmapThemeChips(){
-  const data = rmSeg==="all" ? segAll() : segData(rmSeg);
-  const order=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
-  let found=Array.from(new Set(data.items.map(f=>f.theme).filter(Boolean)));
-  found.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
-  // drop any selected themes no longer present in this segment
-  [...rmThemes].forEach(t=>{ if(!found.includes(t)) rmThemes.delete(t); });
-  const box=document.getElementById("rmthemefilter"); box.innerHTML="";
-  // All chip (clears the Set)
-  const allBtn=document.createElement("button");
-  allBtn.className="podbtn"+(rmThemes.size===0?" active":""); allBtn.textContent="All";
-  allBtn.addEventListener("click",()=>{ rmThemes.clear(); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
-  box.appendChild(allBtn);
-  found.forEach(t=>{
-    const b=document.createElement("button");
-    b.className="podbtn"+(rmThemes.has(t)?" active":""); b.textContent=t;
-    b.addEventListener("click",()=>{ if(rmThemes.has(t)) rmThemes.delete(t); else rmThemes.add(t); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
-    box.appendChild(b);
-  });
-}
-document.querySelectorAll("#segfilter .segbtn").forEach(b=>{
-  b.addEventListener("click",()=>{
-    document.querySelectorAll("#segfilter .segbtn").forEach(x=>x.classList.remove("active"));
-    b.classList.add("active"); rmSeg=b.dataset.seg; buildRoadmapThemeChips(); renderRoadmap(rmSeg);
-  });
-});
-// initial render deferred until ALL is defined (called at end)
-
-// ==== MASTER DATA: all active features across pods ====
-let ALL = [];
-
-const JIRA="https://wellfit.atlassian.net/browse/";
-function statusPill(s){
-  const k=(s||'').toLowerCase();
-  let cls="dev";
-  if(k.includes("test")) cls="testing";
-  else if(k.includes("hold")) cls="hold";
-  else if(k.includes("idea")) cls="idea";
-  else if(k.includes("closed")||k.includes("done")) cls="closed";
-  else if(k.includes("ready for dev")) cls="idea";
-  return `<span class="pill ${cls}">${s}</span>`;
-}
-function fmtDate(d){ return d?new Date(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}):'<span class="muted-date">\u2014</span>'; }
-
-// ---- Active Features tab (all pods, grouped by Theme) ----
-const allbody=document.getElementById("allbody");
-// multi-select filter state: empty Set = "All". Within a group = OR; across groups = AND.
-let fThemes=new Set(), fPods=new Set(), fReleases=new Set(), fStatuses=new Set();
-let fCard="all";
-let fSortKey="status", fSortDir="desc";   // default: workflow (status) closest-to-Closed on top
-const FCARD_PRED = {
-  all: ()=>true,
-  qa: isQA,
-  dev: f=>/develop|pr /i.test(f.status),
-  early: f=>/backlog|requirement|architecture|epics|ready for dev|idea/i.test(f.status),
-  blocked: isBlocked,
-  overdue: isOverdue
-};
-function featureSortVal(f, key){
-  switch(key){
-    case "status": return fRank(f.status);
-    case "release": return f.fv||"";
-    case "ted": return f.ted?new Date(f.ted).getTime():(fSortDir==="asc"?Infinity:-Infinity);
-    case "size": return tshirtRank(f.tshirt);
-    case "theme": return f.theme||"zzz";
-    case "pod": return f.pod||"zzz";
-    default: return 0;
-  }
-}
-// apply the non-card filters (theme / pod / release / status) — shared by table and cards
-// empty Set = no filter for that group; non-empty = OR within group; across groups = AND
-// ---- text search state (per tab) ----
-let allSearchTerm="", bugSearchTerm="", rmSearchTerm="";
-function matchSearch(item, term){
-  if(!term) return true;
-  const hay=((item.name||"")+" "+(item.key||"")).toLowerCase();
-  return term.toLowerCase().split(/\s+/).filter(Boolean).every(w=>hay.includes(w));
-}
-function wireSearch(boxId, inputId, clearId, countId, setter, rerender, countFn){
-  const box=document.getElementById(boxId), input=document.getElementById(inputId),
-        clear=document.getElementById(clearId), cnt=document.getElementById(countId);
-  if(!box||!input) return;
-  const apply=()=>{
-    setter(input.value.trim());
-    box.classList.toggle("has-text", input.value.length>0);
-    rerender();
-    if(cnt && countFn) cnt.textContent = countFn()+" found";
-  };
-  input.addEventListener("input", apply);
-  input.addEventListener("focus", ()=>box.classList.add("focused"));
-  input.addEventListener("blur", ()=>box.classList.remove("focused"));
-  input.addEventListener("keydown", e=>{ if(e.key==="Escape"){ input.value=""; apply(); } });
-  if(clear) clear.addEventListener("click", ()=>{ input.value=""; apply(); input.focus(); });
-}
-function featureBase(){
-  return FEATURES_ALL.filter(f=>{
-    if(fThemes.size   && !fThemes.has(f.theme||""))   return false;
-    if(fPods.size     && !fPods.has(f.pod||""))       return false;
-    if(fReleases.size && !fReleases.has(f.fv||"—"))   return false;
-    if(fStatuses.size && !fStatuses.has(f.status))    return false;
-    if(!matchSearch(f, allSearchTerm))                return false;
-    return true;
-  });
-}
-function themePill(t){ return t?`<span class="themetag th-${t.replace(/[^a-zA-Z]/g,'').toLowerCase()}">${t}</span>`:'<span class="muted-date">\u2014</span>'; }
-function podPill(p){ return p?`<span class="pod">${p}</span>`:'<span class="muted-date">\u2014</span>'; }
-function renderAll(){
-  allbody.innerHTML="";
-  let rows = featureBase();
-  if(fCard!=="all") rows=rows.filter(FCARD_PRED[fCard]);
-  const dir = fSortDir==="asc"?1:-1;
-  rows.sort((a,b)=>{
-    const av=featureSortVal(a,fSortKey), bv=featureSortVal(b,fSortKey);
-    if(av<bv) return -1*dir; if(av>bv) return 1*dir;
-    return a.key.localeCompare(b.key);
-  });
-  rows.forEach(f=>{
-    const over=isOverdue(f);
-    const warn = over ? `<span class="warnico" title="Target End date is in the past and the feature is not yet In Testing — please update the date.">⚠</span>` : '';
-    const sz = f.tshirt?`<span class="tshirt t-${f.tshirt.replace(/[^a-zA-Z]/g,'').toLowerCase()}">${f.tshirt}</span>`:'<span class="muted-date">\u2014</span>';
-    const tr=document.createElement("tr");
-    tr.innerHTML=`<td><a href="${JIRA}${f.key}" target="_blank" rel="noopener">${f.key}</a><br><span style="color:var(--ink)">${warn}${f.name}</span></td>`+
-      `<td>${themePill(f.theme)}</td><td>${podPill(f.pod)}</td>`+
-      `<td>${statusPill(f.status)}</td><td>${f.fv||'<span class="muted-date">\u2014</span>'}</td>`+
-      `<td>${fmtDate(f.ted)}</td><td>${sz}</td><td>${f.who}</td>`;
-    allbody.appendChild(tr);
-  });
-  renderCards();
-  updateSortHeaders();
-  updateFeatureFoot(rows.length);
-  document.getElementById("allnote").textContent=`Showing ${rows.length} of ${FEATURES_ALL.length} active Features across all pods. Click a column header to sort; click a card to filter. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
-}
-function featureActiveCount(){
-  return fThemes.size+fPods.size+fReleases.size+fStatuses.size
-    + (fCard!=="all"?1:0) + (allSearchTerm?1:0);
-}
-function updateFeatureFoot(shown){
-  const n=featureActiveCount();
-  const fc=document.getElementById("allfcount"), ca=document.getElementById("allclearall");
-  if(fc) fc.innerHTML = n ? `<b>${shown}</b> shown · ${n} filter${n>1?'s':''} active` : `<b>${shown}</b> features`;
-  if(ca) ca.classList.toggle("show", n>0);
-}
-function renderCards(){
-  // cards reflect the theme/pod/release/status filters (but not the card filter itself)
-  let base=featureBase();
-  const total=base.length;
-  const qa=base.filter(isQA).length;
-  const dev=base.filter(FCARD_PRED.dev).length;
-  const early=base.filter(FCARD_PRED.early).length;
-  const blocked=base.filter(isBlocked).length;
-  const overdue=base.filter(isOverdue).length;
-  const pctv=n=>total?Math.round(n/total*100):0;
-  const bar=n=>`<div class="pctbar"><span style="width:${pctv(n)}%"></span></div>`;
-  const box=document.getElementById("allcards");
-  const scope = fThemes.size ? [...fThemes].map(t=>t||"(none)").join(", ")
-              : fPods.size ? "Pod "+[...fPods].map(p=>p||"(none)").join(", ")
-              : "All pods";
-  const card=(id,title,val,color,subOrPct)=>`<button class="card sc bugcardbtn${fCard===id?' sel':''}" data-fcard="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div>${id==="all"?`<div class="scsub">${subOrPct}</div>`:`<div class="pctrow"><span class="pctnum">${pctv(val)}%</span> of active</div>${bar(val)}`}</button>`;
-  box.innerHTML=
-    card("all","Active features",total,"var(--blue)",scope+" · click to filter")+
-    card("qa","QA Ready / In Progress",qa,"var(--green)")+
-    card("dev","In development",dev,"var(--amber)")+
-    card("early","Early stage",early,"var(--muted)")+
-    card("blocked","Blocked / On Hold",blocked,blocked?"var(--red)":"var(--green)")+
-    card("overdue","Dates to update",overdue,overdue?"var(--red)":"var(--green)");
-  box.querySelectorAll(".bugcardbtn").forEach(btn=>{
-    btn.addEventListener("click",()=>{
-      const id=btn.dataset.fcard;
-      fCard = (fCard===id?"all":id);
-      renderAll();
-    });
-  });
-}
-function updateSortHeaders(){
-  document.querySelectorAll("#panel-all th.sortable").forEach(th=>{
-    th.classList.remove("sort-asc","sort-desc");
-    if(th.dataset.sort===fSortKey) th.classList.add(fSortDir==="asc"?"sort-asc":"sort-desc");
-  });
-}
-// build Theme + Pod + Release + Status filter chips — multi-select (checkbox behavior)
-// within a group: empty Set = All; picking values = OR. Across groups = AND.
-function featureFilters(){
-  const themeOrder=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
-  // generic builder: containerId, value list, the Set to drive, chip class
-  function buildGroup(containerId, values, set, chipClass){
-    const box=document.getElementById(containerId);
-    const allBtn=document.createElement("button");
-    allBtn.className=chipClass+" active"; allBtn.dataset.val="__all__"; allBtn.textContent="All";
-    allBtn.addEventListener("click",()=>{ set.clear(); syncGroup(box,set); fCard="all"; renderAll(); });
-    box.appendChild(allBtn);
-    values.forEach(v=>{
-      const b=document.createElement("button");
-      b.className=chipClass; b.dataset.val=v;
-      b.textContent = v==="__none__" ? "(none)" : v;
-      b.addEventListener("click",()=>{
-        const key = v==="__none__" ? "" : v;
-        if(set.has(key)) set.delete(key); else set.add(key);
-        syncGroup(box,set); fCard="all"; renderAll();
-      });
-      box.appendChild(b);
-    });
-  }
-  // reflect Set state onto a group's chips (All active iff Set empty)
-  function syncGroup(box,set){
-    box.querySelectorAll("button").forEach(btn=>{
-      const v=btn.dataset.val;
-      if(v==="__all__"){ btn.classList.toggle("active", set.size===0); }
-      else { const key = v==="__none__" ? "" : v; btn.classList.toggle("active", set.has(key)); }
-    });
-  }
-  // Theme
-  const themesFound=Array.from(new Set(FEATURES_ALL.map(f=>f.theme).filter(Boolean)));
-  themesFound.sort((a,b)=>{const ia=themeOrder.indexOf(a),ib=themeOrder.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
-  if(FEATURES_ALL.some(f=>!f.theme)) themesFound.push("__none__");
-  buildGroup("themefilter", themesFound, fThemes, "podbtn");
-  // Pod
-  const podsFound=Array.from(new Set(FEATURES_ALL.map(f=>f.pod).filter(Boolean))).sort();
-  if(FEATURES_ALL.some(f=>!f.pod)) podsFound.push("__none__");
-  buildGroup("podfilter", podsFound, fPods, "podbtn");
-  // Release
-  const rels=Array.from(new Set(FEATURES_ALL.map(f=>f.fv||"—"))).sort();
-  buildGroup("relfilter", rels, fReleases, "podbtn");
-  // Status
-  const sts=Array.from(new Set(FEATURES_ALL.map(f=>f.status))).sort((a,b)=>fRank(b)-fRank(a));
-  buildGroup("allstatusfilter", sts, fStatuses, "tbtn");
-}
-// sortable headers
-document.querySelectorAll("#panel-all th.sortable").forEach(th=>{
-  th.addEventListener("click",()=>{
-    const k=th.dataset.sort;
-    if(fSortKey===k){ fSortDir = fSortDir==="asc"?"desc":"asc"; }
-    else { fSortKey=k; fSortDir = (k==="status")?"desc":"asc"; }
-    renderAll();
-  });
-});
-function initFeaturesAndRoadmap(){
-  featureFilters();
-  renderAll();
-  wireSearch("allsearchbox","allsearch","allsearchclear","allsearchcount",
-    v=>{ allSearchTerm=v; }, renderAll, ()=>featureBase().filter(f=>fCard==="all"||FCARD_PRED[fCard](f)).length);
-  document.getElementById("allclearall").addEventListener("click", ()=>{
-    ["themefilter","podfilter","relfilter","allstatusfilter"].forEach(id=>{
-      const allChip=document.querySelector('#'+id+' button[data-val="__all__"]');
-      if(allChip) allChip.click();
-    });
-    fCard="all";
-    const si=document.getElementById("allsearch");
-    if(si){ si.value=""; allSearchTerm=""; document.getElementById("allsearchbox").classList.remove("has-text"); }
-    renderAll();
-  });
-  buildRoadmapThemeChips();
-  renderRoadmap("all");
-  wireSearch("rmsearchbox","rmsearch","rmsearchclear","rmsearchcount",
-    v=>{ rmSearchTerm=v; }, ()=>renderRoadmap(rmSeg),
-    ()=>{ const d=rmSeg==="all"?segAll():segData(rmSeg); let it=d.items;
-      if(rmThemes.size) it=it.filter(f=>rmThemes.has(f.theme||""));
-      if(rmSearchTerm) it=it.filter(f=>matchSearch(f,rmSearchTerm)); return it.length; });
-}
-function updateFreshpill(){
-  var el=document.getElementById("freshpill"); if(!el) return;
-  var gen=new Date(GENERATED_AT);
-  if(isNaN(gen)){ el.className="freshpill stale"; el.textContent="Snapshot date unknown"; return; }
-  var ageH=(Date.now()-gen.getTime())/36e5;              // hours since generated
-  var when=gen.toLocaleString(undefined,{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
-  if(ageH < 3){                                          // cron runs every 2h → <3h is healthy
-    el.className="freshpill fresh";
-    el.innerHTML="Data up to date <span class='freshsub'>· "+when+"</span>";
-  } else {
-    var label = ageH < 24 ? Math.round(ageH)+"h ago"
-              : Math.round(ageH/24)+"d ago";
-    el.className="freshpill stale";
-    el.innerHTML="Last updated "+label+" <span class='freshsub'>· "+when+"</span>";
-  }
-}
-
-// ==== ACTIVE BUGS (Pod = LL, not closed) ====
-let BUGS = [];
-// Workflow order: index 0 = backlog (furthest from done), high = closest to closing.
-// Board renders columns by rank DESC so closest-to-close sits first; On Hold is always pinned on top.
-const FLOW = ["Backlog","Ready for Development","On Hold","In Development","PR Created","WAITING REVIEW","PR Merged","Dev Verification","In Stage","In QA"];
-function flowRank(s){ const i=FLOW.indexOf(s); return i<0?0:i; }
-const NEAR_CLOSE = ["In Stage","In QA","Dev Verification","PR Merged"];
-// PLANS bugs with no Pod (needs triage)
-let NOPOD = [];
-
-// card-driven filter: null = no card filter; otherwise a predicate key
-let bugCard="all";           // all | near | backlog | wip | unassigned
-let bugStatuses=new Set();   // multi-select status chips; empty = all
-let bugPrios=new Set();      // multi-select priority chips; empty = all
-let bugNewOnly=false;        // when true, show only bugs created within NEW_DAYS
-let bugLabelFilter="all";    // all | prioritized | unprioritized
-const NEW_DAYS=2;            // a bug is "NEW" if created within this many days
-const PRIO_LABEL="product_prioritized";
-function hasLabel(b){ return Array.isArray(b.labels) && b.labels.includes(PRIO_LABEL); }
-function prioNum(p){ const m=/^(\d+)/.exec(p||""); return m?parseInt(m[1],10):99; }
-function prioShort(p){ const m=/^(\d+)/.exec(p||""); return m?("P"+m[1]):"—"; }
-// a bug is NEW if its created date is within NEW_DAYS of the snapshot date (TODAY)
-function isNew(b){
-  if(!b.created) return false;
-  const c=new Date(b.created+"T00:00:00");
-  if(isNaN(c)) return false;
-  const diff=(TODAY - c)/(1000*60*60*24);
-  return diff>=0 && diff<=NEW_DAYS;
-}
-const CARD_PRED = {
-  all: ()=>true,
-  near: b=>NEAR_CLOSE.includes(b.status),
-  backlog: b=>b.status==="Backlog",
-  wip: b=>b.cat==="In Progress",
-  unassigned: b=>b.who==="Unassigned",
-  onhold: b=>/hold/i.test(b.status),
-  urgent: b=>prioNum(b.prio)<=2,   // P1 + P2
-  routine: b=>prioNum(b.prio)>=3    // P3 + P4
-};
-function bugRows(){
-  let r=BUGS.slice();
-  if(bugCard!=="all") r=r.filter(CARD_PRED[bugCard]);
-  if(bugStatuses.size) r=r.filter(b=>bugStatuses.has(b.status));
-  if(bugPrios.size) r=r.filter(b=>bugPrios.has(b.prio||""));
-  if(bugNewOnly) r=r.filter(isNew);
-  if(bugLabelFilter==="prioritized") r=r.filter(hasLabel);
-  else if(bugLabelFilter==="unprioritized") r=r.filter(b=>!hasLabel(b));
-  if(bugSearchTerm) r=r.filter(b=>matchSearch(b, bugSearchTerm));
-  return r;
-}
-function renderBugCards(){
-  const box=document.getElementById("bugcards");
-  const total=BUGS.length;
-  const near=BUGS.filter(CARD_PRED.near).length;
-  const backlog=BUGS.filter(CARD_PRED.backlog).length;
-  const wip=BUGS.filter(CARD_PRED.wip).length;
-  const unassigned=BUGS.filter(CARD_PRED.unassigned).length;
-  const onhold=BUGS.filter(CARD_PRED.onhold).length;
-  // priority groups
-  const p1=BUGS.filter(b=>prioNum(b.prio)===1).length;
-  const p2=BUGS.filter(b=>prioNum(b.prio)===2).length;
-  const p3=BUGS.filter(b=>prioNum(b.prio)===3).length;
-  const p4=BUGS.filter(b=>prioNum(b.prio)>=4).length;
-  const urgent=p1+p2, routine=p3+p4;
-  const pct=n=>total?Math.round(n/total*100):0;
-  const bar=n=>`<div class="pctbar"><span style="width:${pct(n)}%"></span></div>`;
-  const card=(id,title,val,color,sub)=>`<button class="card sc bugcardbtn${bugCard===id?' sel':''}" data-card="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div>${id==="all"?`<div class="scsub">${sub}</div>`:`<div class="pctrow"><span class="pctnum">${pct(val)}%</span> of active</div>${bar(val)}`}</button>`;
-  // priority-group card: big count + % + breakdown of the two levels inside
-  const priocard=(id,title,val,color,breakdown)=>`<button class="card sc bugcardbtn priocard${bugCard===id?' sel':''}" data-card="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div><div class="pctrow"><span class="pctnum">${pct(val)}%</span> of active</div>${bar(val)}<div class="priobreak">${breakdown}</div></button>`;
-  box.innerHTML=
-    card("all","Active bugs",total,"var(--blue)","not closed · Pod LL")+
-    priocard("urgent","Urgent · P1 + P2",urgent,"var(--red)",
-      `<span class="pb"><span class="prio p1">P1</span> ${p1}</span><span class="pb"><span class="prio p2">P2</span> ${p2}</span>`)+
-    priocard("routine","Routine · P3 + P4",routine,"var(--blue)",
-      `<span class="pb"><span class="prio p3">P3</span> ${p3}</span><span class="pb"><span class="prio p4">P4</span> ${p4}</span>`)+
-    card("near","Near closing",near,"var(--green)","In Stage · In QA · Dev Verification · PR Merged")+
-    card("wip","Work in progress",wip,"var(--amber)")+
-    card("backlog","In backlog",backlog,"var(--muted)")+
-    card("unassigned","Unassigned",unassigned,unassigned?"var(--red)":"var(--green)")+
-    card("onhold","On Hold",onhold,onhold?"var(--red)":"var(--green)");
-  box.querySelectorAll(".bugcardbtn").forEach(btn=>{
-    btn.addEventListener("click",()=>{ bugCard = (bugCard===btn.dataset.card?"all":btn.dataset.card); renderBugs(); });
-  });
-}
-function renderBugs(){
-  renderBugCards();
-  const rows=bugRows();
-  // group by status; On Hold pinned first, then by flow rank DESC (closest to close), backlog last
-  const groups={};
-  rows.forEach(b=>{ (groups[b.status]=groups[b.status]||[]).push(b); });
-  const ordered=Object.keys(groups).sort((a,b)=>{
-    const ah=/hold/i.test(a), bh=/hold/i.test(b);
-    if(ah!==bh) return ah?-1:1;            // On Hold always on top
-    return flowRank(b)-flowRank(a);
-  });
-  const wrap=document.getElementById("bugboard"); wrap.innerHTML="";
-  ordered.forEach(st=>{
-    const list=groups[st];
-    const near=NEAR_CLOSE.includes(st);
-    const isBack=st==="Backlog";
-    const hold=/hold/i.test(st);
-    const sec=document.createElement("div"); sec.className="bugcol";
-    sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''}"><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
-    const tbl=document.createElement("table"); tbl.className="xref bugtbl";
-    tbl.innerHTML=`<thead><tr><th>Bug</th><th>Priority</th><th>Fix Version</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
-    const tb=document.createElement("tbody");
-    list.sort((a,b)=>prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key)).forEach(b=>{
-      const pn=prioNum(b.prio);
-      const newTag = isNew(b) ? ` <span class="newtag" title="Created within the last ${NEW_DAYS} days">NEW</span>` : '';
-      const tr=document.createElement("tr");
-      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}<br><span style="color:var(--ink)">${b.name}</span></td>`+
-        `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
-        `<td>${b.fv||'<span class="muted-date">—</span>'}</td>`+
-        `<td>${b.sprint?`<span class="sprint">${b.sprint}</span>`:'<span class="muted-date">—</span>'}</td>`+
-        `<td>${b.who}</td><td>${b.reporter}</td>`;
-      tb.appendChild(tr);
-    });
-    tbl.appendChild(tb); sec.appendChild(tbl); wrap.appendChild(sec);
-  });
-  document.getElementById("bugnote").textContent=`Showing ${rows.length} of ${BUGS.length} active bugs. Columns ordered by workflow — On Hold pinned first, then closest to closing, backlog last. Within each column, highest priority first. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
-  updateBugFoot(rows.length);
-}
-function bugActiveCount(){
-  return bugStatuses.size+bugPrios.size+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0)+(bugNewOnly?1:0)+(bugLabelFilter!=="all"?1:0);
-}
-function updateBugFoot(shown){
-  const n=bugActiveCount();
-  const fc=document.getElementById("bugfcount"), ca=document.getElementById("bugclearall");
-  if(fc) fc.innerHTML = n ? `<b>${shown}</b> shown · ${n} filter${n>1?'s':''} active` : `<b>${shown}</b> bugs`;
-  if(ca) ca.classList.toggle("show", n>0);
-}
-// status filter chips — multi-select (checkbox behavior). "All" clears; "On Hold" pinned right after All.
-function bugStatusFilters(){
-  const present = FLOW.filter(s=>BUGS.some(b=>b.status===s));
-  const onhold = present.filter(s=>/hold/i.test(s));
-  const rest = present.filter(s=>!/hold/i.test(s)).sort((a,b)=>flowRank(b)-flowRank(a));
-  const sts=["all",...onhold,...rest];
-  const sf=document.getElementById("bugstatusfilter");
-  sts.forEach(s=>{
-    const btn=document.createElement("button");
-    const hold=/hold/i.test(s);
-    btn.className="tbtn"+(s==="all"?" active":"")+(hold?" holdchip":"");
-    btn.dataset.status=s; btn.textContent=s==="all"?"All":s;
-    btn.addEventListener("click",()=>{
-      if(s==="all"){ bugStatuses.clear(); sf.querySelectorAll(".tbtn").forEach(x=>x.classList.remove("active")); btn.classList.add("active"); renderBugs(); return; }
-      if(bugStatuses.has(s)){ bugStatuses.delete(s); btn.classList.remove("active"); }
-      else { bugStatuses.add(s); btn.classList.add("active"); }
-      const allBtn=sf.querySelector('.tbtn[data-status="all"]');
-      if(bugStatuses.size){ allBtn.classList.remove("active"); } else { allBtn.classList.add("active"); }
-      renderBugs();
-    });
-    sf.appendChild(btn);
-  });
-}
-// priority filter chips — multi-select, same behavior as status
-function bugPrioFilters(){
-  const prios=Array.from(new Set(BUGS.map(b=>b.prio).filter(Boolean)))
-    .sort((a,b)=>prioNum(a)-prioNum(b));
-  const pf=document.getElementById("bugpriofilter");
-  const allBtn=document.createElement("button");
-  allBtn.className="tbtn active"; allBtn.dataset.prio="__all__"; allBtn.textContent="All";
-  allBtn.addEventListener("click",()=>{ bugPrios.clear(); syncPrioChips(pf); renderBugs(); });
-  pf.appendChild(allBtn);
-  prios.forEach(p=>{
-    const btn=document.createElement("button");
-    btn.className="tbtn"; btn.dataset.prio=p;
-    const label = /^\d+:\s*/.test(p) ? prioShort(p)+" · "+p.replace(/^\d+:\s*/,"") : p;
-    btn.textContent=label;
-    btn.addEventListener("click",()=>{
-      if(bugPrios.has(p)) bugPrios.delete(p); else bugPrios.add(p);
-      syncPrioChips(pf); renderBugs();
-    });
-    pf.appendChild(btn);
-  });
-}
-function syncPrioChips(pf){
-  pf.querySelectorAll(".tbtn").forEach(btn=>{
-    const v=btn.dataset.prio;
-    if(v==="__all__") btn.classList.toggle("active", bugPrios.size===0);
-    else btn.classList.toggle("active", bugPrios.has(v));
-  });
-}
-// NEW filter: a single toggle chip. Counts how many bugs qualify as NEW.
-function bugNewFilter(){
-  const nf=document.getElementById("bugnewfilter");
-  if(!nf) return;
-  const newCount=BUGS.filter(isNew).length;
-  const allBtn=document.createElement("button");
-  allBtn.className="tbtn active"; allBtn.dataset.newf="all"; allBtn.textContent="All";
-  const newBtn=document.createElement("button");
-  newBtn.className="tbtn"; newBtn.dataset.newf="new";
-  newBtn.innerHTML=`🆕 New (last ${NEW_DAYS}d) · ${newCount}`;
-  allBtn.addEventListener("click",()=>{ bugNewOnly=false; syncNewChips(nf); renderBugs(); });
-  newBtn.addEventListener("click",()=>{ bugNewOnly=true; syncNewChips(nf); renderBugs(); });
-  nf.appendChild(allBtn); nf.appendChild(newBtn);
-}
-function syncNewChips(nf){
-  nf.querySelectorAll(".tbtn").forEach(btn=>{
-    btn.classList.toggle("active", (btn.dataset.newf==="new")===bugNewOnly);
-  });
-}
-// Prioritized (product_prioritized label) filter: All / Prioritized / Not prioritized
-function bugLabelFilters(){
-  const lf=document.getElementById("buglabelfilter");
-  if(!lf) return;
-  const withLabel=BUGS.filter(hasLabel).length;
-  const without=BUGS.length-withLabel;
-  const opts=[
-    ["all","All"],
-    ["prioritized",`✅ Prioritized · ${withLabel}`],
-    ["unprioritized",`⚠️ Not prioritized · ${without}`]
-  ];
-  opts.forEach(([val,label])=>{
-    const btn=document.createElement("button");
-    btn.className="tbtn"+(bugLabelFilter===val?" active":"");
-    btn.dataset.labelf=val; btn.textContent=label;
-    btn.addEventListener("click",()=>{ bugLabelFilter=val; syncLabelChips(lf); renderBugs(); });
-    lf.appendChild(btn);
-  });
-}
-function syncLabelChips(lf){
-  lf.querySelectorAll(".tbtn").forEach(btn=>{
-    btn.classList.toggle("active", btn.dataset.labelf===bugLabelFilter);
-  });
-}
-// Export currently-filtered bugs to a real spreadsheet (SpreadsheetML, no dependencies)
-function exportBugsToExcel(){
-  const rows=bugRows().slice().sort((a,b)=>
-    flowRank(b.status)-flowRank(a.status)||prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key));
-  const cols=["Key","Summary","Status","Priority","Fix Version","Sprint","Assignee","Reporter"];
-  const esc=s=>String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-  const cell=v=>`<Cell><Data ss:Type="String">${esc(v)}</Data></Cell>`;
-  const headRow=`<Row>${cols.map(c=>`<Cell><Data ss:Type="String">${esc(c)}</Data></Cell>`).join("")}</Row>`;
-  const bodyRows=rows.map(b=>`<Row>${[b.key,b.name,b.status,b.prio,b.fv,b.sprint,b.who,b.reporter].map(cell).join("")}</Row>`).join("");
-  const xml=`<?xml version="1.0"?>
-<?mso-application progid="Excel.Sheet"?>
-<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
-<Worksheet ss:Name="Active Bugs"><Table>${headRow}${bodyRows}</Table></Worksheet>
-</Workbook>`;
-  const blob=new Blob([xml],{type:"application/vnd.ms-excel"});
-  const url=URL.createObjectURL(blob);
-  const a=document.createElement("a");
-  const stamp=new Date().toISOString().slice(0,10);
-  a.href=url; a.download=`LL-active-bugs-${stamp}.xls`;
-  document.body.appendChild(a); a.click(); document.body.removeChild(a);
-  setTimeout(()=>URL.revokeObjectURL(url),1000);
-}
-document.getElementById("bugexport").addEventListener("click", exportBugsToExcel);
-// generic peek/see-more wiring: show `n` rows collapsed, fade the next, toggle the rest
-function setupPeek(listId, btnId, n){
-  const ul=document.getElementById(listId), btn=document.getElementById(btnId);
-  if(!ul||!btn) return;
-  const items=ul.children, total=items.length;
-  if(total<=n){ ul.classList.remove("collapsed"); ul.style.removeProperty("--peek-h"); btn.style.display="none"; return; }
-  let h=0; for(let i=0;i<n;i++) h+=items[i].offsetHeight;
-  h += Math.round((items[n]?items[n].offsetHeight:0)*0.5);
-  if(h===0){ ul.classList.remove("collapsed"); btn.style.display="none"; return; } // panel hidden; will re-run on show
-  ul.style.setProperty("--peek-h", h+"px");
-  const collapse=()=>{ ul.classList.add("collapsed"); btn.classList.remove("open"); btn.textContent=`See ${total-n} more`; };
-  const expand=()=>{ ul.classList.remove("collapsed"); btn.classList.add("open"); btn.textContent="See less"; };
-  btn.style.display="inline-flex";
-  btn.onclick=()=>{ ul.classList.contains("collapsed")?expand():collapse(); };
-  collapse();
-}
-// no-pod PLANS bugs list + Jira link
-function noPodList(){
-  const jql = 'project = PLANS AND issuetype = Bug AND "Pod[Dropdown]" IS EMPTY AND statusCategory != Done ORDER BY created DESC';
-  document.getElementById("nopodjira").href = "https://wellfit.atlassian.net/issues/?jql="+encodeURIComponent(jql);
-  const ul=document.getElementById("nopodlist");
-  NOPOD.forEach(b=>{
-    const li=document.createElement("li");
-    li.innerHTML=`<a class="k" href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a><span style="flex:1">${b.name}<br><span class="who">${b.who} · reporter ${b.reporter}</span></span>${statusPill(b.status)}`;
-    ul.appendChild(li);
-  });
-  setupPeek("nopodlist","nopod-toggle",5);
-  const nt=document.getElementById("nopodtitle");
-  if(nt) nt.innerHTML=`PLANS bugs with no Pod — needs triage &amp; assignment — ${NOPOD.length} item${NOPOD.length!==1?'s':''}`;
-}
-function initBugs(){
-  bugStatusFilters();
-  bugPrioFilters();
-  bugNewFilter();
-  bugLabelFilters();
-  noPodList();
-  renderBugs();
-  wireSearch("bugsearchbox","bugsearch","bugsearchclear","bugsearchcount",
-    v=>{ bugSearchTerm=v; }, renderBugs, ()=>bugRows().length);
-  document.getElementById("bugclearall").addEventListener("click", ()=>{
-    const sAll=document.querySelector('#bugstatusfilter .tbtn[data-status="all"]');
-    if(sAll) sAll.click();
-    const pAll=document.querySelector('#bugpriofilter .tbtn[data-prio="__all__"]');
-    if(pAll) pAll.click();
-    const nAll=document.querySelector('#bugnewfilter .tbtn[data-newf="all"]');
-    if(nAll) nAll.click();
-    const lAll=document.querySelector('#buglabelfilter .tbtn[data-labelf="all"]');
-    if(lAll) lAll.click();
-    bugCard="all";
-    const si=document.getElementById("bugsearch");
-    if(si){ si.value=""; bugSearchTerm=""; document.getElementById("bugsearchbox").classList.remove("has-text"); }
-    renderBugs();
-  });
-}
-
-// ============ BOOTSTRAP: load data.json, then build everything ============
-// The bot writes qa-roadmap/data.json (data only). This HTML never contains data,
-// so the bot and manual HTML edits never touch the same file → no git conflicts.
-function applyData(d){
-  FEATURES = d.features || [];
-  FEATURES_ALL = d.features_all || [];
-  ALL = d.all || [];
-  BUGS = d.bugs || [];
-  NOPOD = d.nopod || [];
-  WEEKS = d.weeks || [];
-  TODAY = d.today ? new Date(d.today+"T00:00:00") : new Date();
-  GENERATED_AT = d.generated_at || "";
-  recomputeWeekBounds();
-}
-function initDashboard(){
-  initFeaturesAndRoadmap();
-  initBugs();
-  updateFreshpill();
-}
-(function bootstrap(){
-  // cache-bust so a fresh snapshot shows without a hard reload
-  fetch("data.json?_="+Date.now())
-    .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
-    .then(d=>{ applyData(d); initDashboard(); })
-    .catch(err=>{
-      console.error("Could not load data.json:", err);
-      var el=document.getElementById("freshpill");
-      if(el){ el.className="freshpill stale"; el.textContent="Could not load data — check data.json"; }
-      // still init with empty data so the page structure renders
-      initDashboard();
-    });
-})();
-
-// ---- Tab switching ----
-document.querySelectorAll(".tab").forEach(t=>{
-  t.addEventListener("click",()=>{
-    document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
-    document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
-    t.classList.add("active");
-    document.getElementById("panel-"+t.dataset.tab).classList.add("active");
-    // peek heights can only be measured once the panel is visible
-    if(t.dataset.tab==="allroadmap") setupPeek("nodate","nodate-toggle",5);
-    if(t.dataset.tab==="bugs") setupPeek("nopodlist","nopod-toggle",5);
-  });
-});
-</script>
-</body>
-</html>
