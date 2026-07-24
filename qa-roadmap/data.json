@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T16:30:05+00:00",
+ "generated_at": "2026-07-24T18:27:48+00:00",
  "today": "2026-07-24",
  "features": [
   {
@@ -216,6 +216,15 @@
    "ted": null,
    "fv": "R9.6",
    "who": "Vic Du Plessis",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-20258",
+   "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
    "tshirt": null
   },
   {
@@ -971,6 +980,17 @@
    "ted": null,
    "fv": "R9.6",
    "who": "Vasyl Skochko",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-20258",
+   "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
    "tshirt": null,
    "pod": "LL",
    "theme": "ACH"
@@ -1770,6 +1790,17 @@
    "theme": "ACH"
   },
   {
+   "key": "PLANS-20258",
+   "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "ACH"
+  },
+  {
    "key": "WEL-5777",
    "name": "ACH Core Support",
    "pod": "WEL",
@@ -1924,22 +1955,6 @@
    ]
   },
   {
-   "key": "PLANS-18529",
-   "name": "PLANS-18529: Stage - Member Portal - Wallet download still uses legacy get-member-qr-code endpoint instead of Plans API",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-06-25",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-18461",
    "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
    "pod": "LL",
@@ -1978,7 +1993,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL-Sprint 18-26",
    "who": "Rostyslav Masniuk",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
@@ -2599,22 +2614,6 @@
    ]
   },
   {
-   "key": "PLANS-19114",
-   "name": "CSP - blocker - Org exceptions not saving properly",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-07",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19757",
    "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
    "pod": "LL",
@@ -2696,22 +2695,6 @@
    ]
   },
   {
-   "key": "PLANS-19721",
-   "name": "Member / WFP portal -Plan Details PDF - All bugs",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-16",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19465",
    "name": "Renaming a plan (benefitplan template) does not rename sales.plan — plan info missing from Sales tab on reload",
    "pod": "LL",
@@ -2744,6 +2727,22 @@
    ]
   },
   {
+   "key": "PLANS-19114",
+   "name": "CSP - blocker - Org exceptions not saving properly",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-07",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -2762,25 +2761,53 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-20137",
-   "name": "PMP Overview - Field label displays \"Accredited Practice\" instead of \"Office Assignment\"",
+   "key": "PLANS-20275",
+   "name": "One Smile: Fee schedule is listed twice",
    "status": "Backlog",
    "who": "Unassigned",
+   "reporter": "Sushma Bankar"
+  },
+  {
+   "key": "PLANS-20274",
+   "name": "One Smile: Ensure when on the site even without a specific practice we are showing correct contact phone number",
+   "status": "Backlog",
+   "who": "Mariano Hernández",
+   "reporter": "Sushma Bankar"
+  },
+  {
+   "key": "PLANS-20272",
+   "name": "Plan Details - Minor UI enhancements",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-20269",
+   "name": "One Smile: Fix the hard coded Plan ID for NV and WA offices to be available",
+   "status": "In Stage",
+   "who": "Mariano Hernández",
+   "reporter": "Sushma Bankar"
+  },
+  {
+   "key": "PLANS-20268",
+   "name": "Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-20265",
+   "name": "Plan Details PDF - Administered by not Dynamic",
+   "status": "Backlog",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-20263",
+   "name": "One Smile | Essential Smile - Security Code field accepts invalid CVV length",
+   "status": "Backlog",
+   "who": "Mariano Hernández",
    "reporter": "Mireya Alvarez"
-  },
-  {
-   "key": "PLANS-20126",
-   "name": "PMP \\ Auto Renew preference set during the plan purchase is not preserved on plan creation",
-   "status": "In Development",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-20112",
-   "name": "Patient renewed online, but the plan changed to the kids plan",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vera King"
   },
   {
    "key": "PLANS-19784",
