@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-24T22:21:20+00:00",
- "today": "2026-07-24",
+ "generated_at": "2026-07-25T00:23:05+00:00",
+ "today": "2026-07-25",
  "features": [
   {
    "key": "PLANS-18019",
@@ -2008,9 +2008,11 @@
    "sprint": "LL - Low Prior Bugs",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "4: Low",
    "created": "2026-07-24",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20240",
@@ -2765,13 +2767,6 @@
    "key": "PLANS-20274",
    "name": "One Smile: Ensure when on the site even without a specific practice we are showing correct contact phone number",
    "status": "PR Merged",
-   "who": "Mariano Hernández",
-   "reporter": "Sushma Bankar"
-  },
-  {
-   "key": "PLANS-20269",
-   "name": "One Smile: Fix the hard coded Plan ID for NV and WA offices to be available",
-   "status": "In Stage",
    "who": "Mariano Hernández",
    "reporter": "Sushma Bankar"
   },
