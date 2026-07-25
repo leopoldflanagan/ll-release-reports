@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-25T00:23:05+00:00",
+ "generated_at": "2026-07-25T02:59:51+00:00",
  "today": "2026-07-25",
  "features": [
   {
@@ -1969,6 +1969,20 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20301",
+   "name": "Smile Health, DCA/Practice search Pop-up/No Results text does not match text in user story",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-07-24",
+   "labels": []
   },
   {
    "key": "PLANS-20272",
