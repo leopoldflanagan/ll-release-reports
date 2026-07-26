@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-26T16:18:47+00:00",
+ "generated_at": "2026-07-26T18:18:30+00:00",
  "today": "2026-07-26",
  "features": [
   {
@@ -32,8 +32,8 @@
   {
    "key": "PLANS-17161",
    "name": "Marketing Details Updates",
-   "status": "In Development",
-   "ted": "2026-07-22",
+   "status": "In Testing",
+   "ted": "2026-07-27",
    "fv": "R9.6",
    "who": "Dima Shtympel",
    "tshirt": "X-Large"
@@ -448,8 +448,8 @@
   {
    "key": "PLANS-17161",
    "name": "Marketing Details Updates",
-   "status": "In Development",
-   "ted": "2026-07-22",
+   "status": "In Testing",
+   "ted": "2026-07-27",
    "fv": "R9.6",
    "who": "Dima Shtympel",
    "tshirt": "X-Large",
@@ -1255,9 +1255,9 @@
    "name": "Marketing Details Updates",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.6",
-   "ted": "2026-07-22",
+   "ted": "2026-07-27",
    "who": "Dima Shtympel",
    "theme": "LL-MVP"
   },
