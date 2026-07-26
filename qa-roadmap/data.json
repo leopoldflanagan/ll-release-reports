@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-26T18:18:30+00:00",
+ "generated_at": "2026-07-26T20:19:20+00:00",
  "today": "2026-07-26",
  "features": [
   {
@@ -77,7 +77,7 @@
   {
    "key": "PLANS-17580",
    "name": "Membership Fee Promo Codes",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-07-31",
    "fv": "R9.6",
    "who": "Mykyta Moroz",
@@ -95,8 +95,8 @@
   {
    "key": "PLANS-15748",
    "name": "Ach Refunds Inside of Csp",
-   "status": "In Development",
-   "ted": "2026-06-16",
+   "status": "In Testing",
+   "ted": null,
    "fv": "R9.6",
    "who": "Mykyta Moroz",
    "tshirt": "Huge"
@@ -149,8 +149,8 @@
   {
    "key": "PLANS-17587",
    "name": "Restrictions on Renewals",
-   "status": "In Development",
-   "ted": "2026-07-24",
+   "status": "In Testing",
+   "ted": "2026-07-27",
    "fv": "R9.6",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large"
@@ -203,7 +203,7 @@
   {
    "key": "PLANS-17725",
    "name": "Handle ACH in Member Portal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": null,
    "fv": "R9.6",
    "who": "Vasyl Skochko",
@@ -503,7 +503,7 @@
   {
    "key": "PLANS-17580",
    "name": "Membership Fee Promo Codes",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-07-31",
    "fv": "R9.6",
    "who": "Mykyta Moroz",
@@ -547,8 +547,8 @@
   {
    "key": "PLANS-17587",
    "name": "Restrictions on Renewals",
-   "status": "In Development",
-   "ted": "2026-07-24",
+   "status": "In Testing",
+   "ted": "2026-07-27",
    "fv": "R9.6",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large",
@@ -987,7 +987,7 @@
   {
    "key": "PLANS-17725",
    "name": "Handle ACH in Member Portal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": null,
    "fv": "R9.6",
    "who": "Vasyl Skochko",
@@ -1031,8 +1031,8 @@
   {
    "key": "PLANS-15748",
    "name": "Ach Refunds Inside of Csp",
-   "status": "In Development",
-   "ted": "2026-06-16",
+   "status": "In Testing",
+   "ted": null,
    "fv": "R9.6",
    "who": "Mykyta Moroz",
    "tshirt": "Huge",
@@ -1310,7 +1310,7 @@
    "name": "Membership Fee Promo Codes",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.6",
    "ted": "2026-07-31",
    "who": "Mykyta Moroz",
@@ -1354,9 +1354,9 @@
    "name": "Restrictions on Renewals",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.6",
-   "ted": "2026-07-24",
+   "ted": "2026-07-27",
    "who": "Shchekochykhin Vladyslav",
    "theme": "LL-MVP"
   },
@@ -1794,7 +1794,7 @@
    "name": "Handle ACH in Member Portal",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.6",
    "ted": null,
    "who": "Vasyl Skochko",
@@ -1838,9 +1838,9 @@
    "name": "Ach Refunds Inside of Csp",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.6",
-   "ted": "2026-06-16",
+   "ted": null,
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
