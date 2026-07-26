@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-26T14:29:38+00:00",
+ "generated_at": "2026-07-26T16:18:47+00:00",
  "today": "2026-07-26",
  "features": [
   {
@@ -214,7 +214,7 @@
    "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Vic Du Plessis",
    "tshirt": null
   },
@@ -615,7 +615,7 @@
    "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Vic Du Plessis",
    "tshirt": null,
    "pod": "LL",
@@ -1421,7 +1421,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Ready for Development",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": null,
    "who": "Vic Du Plessis",
    "theme": "LL-MVP"
