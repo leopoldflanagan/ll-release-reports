@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-27T12:59:36+00:00",
+ "generated_at": "2026-07-27T14:57:43+00:00",
  "today": "2026-07-27",
  "features": [
   {
@@ -923,7 +923,7 @@
    "name": "Plans Journey - ACH Email Updates",
    "status": "In Development",
    "ted": "2026-07-31",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -1729,7 +1729,7 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Development",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": "2026-07-31",
    "who": "Unassigned",
    "theme": "ACH"
@@ -1939,22 +1939,6 @@
    ]
   },
   {
-   "key": "PLANS-19205",
-   "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-08",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-18461",
    "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
    "pod": "LL",
@@ -2102,7 +2086,7 @@
    "cat": "To Do",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
-   "who": "Shchekochykhin Vladyslav",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-15",
@@ -2154,22 +2138,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
    "created": "2026-07-01",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-18680",
-   "name": "WFP portal - RoleWFP - Some Plan Details documents are generated using a legacy template and display the SGDP logo instead of the expected WFP branding",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-06-29",
    "labels": [
     "product_prioritized"
    ]
@@ -2562,6 +2530,22 @@
    ]
   },
   {
+   "key": "PLANS-19205",
+   "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-08",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19140",
    "name": "PLANS-19140: PMP: Additional Benefits: Back of the card: UI is not matching Figma",
    "pod": "LL",
@@ -2589,38 +2573,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19785",
-   "name": "Provider - Plan can be renewed when renewal restriction is enabled",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-16",
    "labels": [
     "product_prioritized"
    ]
@@ -2691,6 +2643,22 @@
    ]
   },
   {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19946",
    "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
    "pod": "LL",
@@ -2702,6 +2670,22 @@
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-07-20",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19785",
+   "name": "Provider - Plan can be renewed when renewal restriction is enabled",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-16",
    "labels": [
     "product_prioritized"
    ]
@@ -2750,7 +2734,7 @@
   {
    "key": "PLANS-20274",
    "name": "One Smile: Ensure when on the site even without a specific practice we are showing correct contact phone number",
-   "status": "PR Merged",
+   "status": "In Stage",
    "who": "Mariano Hernández",
    "reporter": "Sushma Bankar"
   },
