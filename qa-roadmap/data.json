@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-27T07:02:16+00:00",
+ "generated_at": "2026-07-27T09:02:57+00:00",
  "today": "2026-07-27",
  "features": [
   {
@@ -1858,6 +1858,22 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-20240",
+   "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20239",
    "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
    "pod": "LL",
@@ -2010,22 +2026,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
    "created": "2026-07-24",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20240",
-   "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-23",
    "labels": [
     "product_prioritized"
    ]
