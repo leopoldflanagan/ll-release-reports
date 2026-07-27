@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-27T09:02:57+00:00",
+ "generated_at": "2026-07-27T11:01:42+00:00",
  "today": "2026-07-27",
  "features": [
   {
@@ -1955,22 +1955,6 @@
    ]
   },
   {
-   "key": "PLANS-18680",
-   "name": "WFP portal - RoleWFP - Some Plan Details documents are generated using a legacy template and display the SGDP logo instead of the expected WFP branding",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-06-29",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-18461",
    "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
    "pod": "LL",
@@ -2079,54 +2063,6 @@
    ]
   },
   {
-   "key": "PLANS-20068",
-   "name": "Provider Portal: Renew button is not displayed for plans in renewal period when Purchase Restriction is enabled",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19988",
-   "name": "paymentManagementAPI (httpClients idx 5) has no per-env baseUrl — resolves to localhost in deployed envs",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Denys Kernychnyi",
-   "prio": "2: Important",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19874",
    "name": "One smile/ Essential smile - Portal restrictions not applied",
    "pod": "LL",
@@ -2218,6 +2154,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
    "created": "2026-07-01",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18680",
+   "name": "WFP portal - RoleWFP - Some Plan Details documents are generated using a legacy template and display the SGDP logo instead of the expected WFP branding",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.6",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-06-29",
    "labels": [
     "product_prioritized"
    ]
@@ -2560,22 +2512,6 @@
    ]
   },
   {
-   "key": "PLANS-19785",
-   "name": "Provider - Plan can be renewed when renewal restriction is enabled",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-16",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19679",
    "name": "[Membership Fee Promo] - Renewing a plan displays wrong annual plan cost",
    "pod": "LL",
@@ -2637,6 +2573,54 @@
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-07-07",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20068",
+   "name": "Provider Portal: Renew button is not displayed for plans in renewal period when Purchase Restriction is enabled",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19785",
+   "name": "Provider - Plan can be renewed when renewal restriction is enabled",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-16",
    "labels": [
     "product_prioritized"
    ]
