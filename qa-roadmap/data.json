@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-27T20:28:23+00:00",
+ "generated_at": "2026-07-27T22:21:05+00:00",
  "today": "2026-07-27",
  "features": [
   {
@@ -203,8 +203,8 @@
   {
    "key": "PLANS-17725",
    "name": "Handle ACH in Member Portal",
-   "status": "In Testing",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-31",
    "fv": "R9.6",
    "who": "Vasyl Skochko",
    "tshirt": null
@@ -987,8 +987,8 @@
   {
    "key": "PLANS-17725",
    "name": "Handle ACH in Member Portal",
-   "status": "In Testing",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-31",
    "fv": "R9.6",
    "who": "Vasyl Skochko",
    "tshirt": null,
@@ -1794,9 +1794,9 @@
    "name": "Handle ACH in Member Portal",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "In Development",
    "fv": "R9.6",
-   "ted": null,
+   "ted": "2026-08-31",
    "who": "Vasyl Skochko",
    "theme": "ACH"
   },
@@ -1890,22 +1890,6 @@
    ]
   },
   {
-   "key": "PLANS-19864",
-   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19680",
    "name": "Smile Health/Ancilliary Benefits/Error is displayed at the Careington Provider Search Page",
    "pod": "LL",
@@ -1953,6 +1937,20 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20346",
+   "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-07-27",
+   "labels": []
   },
   {
    "key": "PLANS-20327",
@@ -2530,6 +2528,22 @@
    ]
   },
   {
+   "key": "PLANS-19864",
+   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19679",
    "name": "[Membership Fee Promo] - Renewing a plan displays wrong annual plan cost",
    "pod": "LL",
@@ -2684,13 +2698,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Sushma Bankar"
-  },
-  {
-   "key": "PLANS-19784",
-   "name": "Please delete",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
