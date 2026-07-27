@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-27T14:57:43+00:00",
+ "generated_at": "2026-07-27T15:54:20+00:00",
  "today": "2026-07-27",
  "features": [
   {
@@ -1939,6 +1939,22 @@
    ]
   },
   {
+   "key": "PLANS-18564",
+   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-26",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-18461",
    "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
    "pod": "LL",
@@ -2400,6 +2416,22 @@
    ]
   },
   {
+   "key": "PLANS-19946",
+   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Vivienne Chawande",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-20",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-18882",
    "name": "PLAN BENEFITS: Add Discount to Plan Benefits Section",
    "pod": "LL",
@@ -2562,22 +2594,6 @@
    ]
   },
   {
-   "key": "PLANS-20068",
-   "name": "Provider Portal: Renew button is not displayed for plans in renewal period when Purchase Restriction is enabled",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19757",
    "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
    "pod": "LL",
@@ -2643,6 +2659,22 @@
    ]
   },
   {
+   "key": "PLANS-20068",
+   "name": "Provider Portal: Renew button is not displayed for plans in renewal period when Purchase Restriction is enabled",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20067",
    "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
    "pod": "LL",
@@ -2659,22 +2691,6 @@
    ]
   },
   {
-   "key": "PLANS-19946",
-   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Vivienne Chawande",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-20",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19785",
    "name": "Provider - Plan can be renewed when renewal restriction is enabled",
    "pod": "LL",
@@ -2686,38 +2702,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-16",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19114",
-   "name": "CSP - blocker - Org exceptions not saving properly",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-07",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-18564",
-   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-26",
    "labels": [
     "product_prioritized"
    ]
