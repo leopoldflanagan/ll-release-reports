@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T20:24:26+00:00",
+ "generated_at": "2026-07-28T22:20:17+00:00",
  "today": "2026-07-28",
  "features": [
   {
@@ -51,7 +51,7 @@
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
-   "ted": "2026-07-27",
+   "ted": "2026-07-31",
    "fv": "R9.6",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
@@ -299,7 +299,7 @@
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
-   "ted": "2026-07-27",
+   "ted": "2026-07-31",
    "fv": "R9.6",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
@@ -719,7 +719,7 @@
    "status": "Idea",
    "ted": null,
    "fv": null,
-   "who": "Michael McNulty",
+   "who": "Unassigned",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -1041,7 +1041,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.6",
-   "ted": "2026-07-27",
+   "ted": "2026-07-31",
    "who": "Ivan Yarymovych",
    "theme": "LL-MVP"
   },
@@ -1460,7 +1460,7 @@
    "status": "Idea",
    "fv": null,
    "ted": null,
-   "who": "Michael McNulty",
+   "who": "Unassigned",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1858,7 +1858,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Petro Yarish",
    "reporter": "Vivienne Chawande",
@@ -1901,6 +1901,20 @@
    ]
   },
   {
+   "key": "PLANS-20387",
+   "name": "ACH<Member Portal<Not displaying message if Only ACH Payment option is available for purchasing plan for secondary member in Member Portal",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-07-28",
+   "labels": []
+  },
+  {
    "key": "PLANS-20383",
    "name": "WFP - Getting a 400 Error When Purchasing a Plan Using \"Paid by Office\" Option When Org Is Configured for \"Bill to Office\"",
    "pod": "LL",
@@ -1908,9 +1922,9 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "Plans-Sprint 18-26",
-   "who": "Unassigned",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-07-28",
    "labels": []
   },
@@ -1926,22 +1940,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-23",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20363",
-   "name": "Blocker-Member Portal-Stage-ACH is not displaying on Dashboard and Manage Payment after feature flag is ON in CSP",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-28",
    "labels": [
     "product_prioritized"
    ]
@@ -2006,22 +2004,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
    "created": "2026-07-24",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20234",
-   "name": "Smile Health - Admin Fee - Portal doesn' display unavailable state after admin fee retrieval retries are exhausted",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-07-23",
    "labels": [
     "product_prioritized"
    ]
@@ -2559,9 +2541,16 @@
  ],
  "nopod": [
   {
+   "key": "PLANS-20386",
+   "name": "CSP \\ Network Configuration Practice Network selection does not match the Membership Agreement type",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
    "key": "PLANS-20377",
    "name": "PROD: FAILED 835 - resolving this issue with object reference not set to an instance of object issue.",
-   "status": "PR Merged",
+   "status": "In Stage",
    "who": "Sailaja Yanamandra",
    "reporter": "Sushma Bankar"
   }
