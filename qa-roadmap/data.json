@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T06:48:59+00:00",
+ "generated_at": "2026-07-28T08:53:08+00:00",
  "today": "2026-07-28",
  "features": [
   {
@@ -1921,6 +1921,22 @@
    ]
   },
   {
+   "key": "PLANS-19648",
+   "name": "Member Portal / Provider Portal - Admin fee not discounted when plan is on renewal period",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-15",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -2089,22 +2105,6 @@
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
-   "created": "2026-07-15",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19648",
-   "name": "Member Portal / Provider Portal - Admin fee not discounted when plan is on renewal period",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
    "created": "2026-07-15",
    "labels": [
     "product_prioritized"
@@ -2480,22 +2480,6 @@
    ]
   },
   {
-   "key": "PLANS-20169",
-   "name": "PMP/Waivefam/Plan Summary displays incorrect information on applying Waivefam promo",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20047",
    "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
    "pod": "LL",
@@ -2544,40 +2528,6 @@
    ]
   },
   {
-   "key": "PLANS-19679",
-   "name": "[Membership Fee Promo] - Renewing a plan displays wrong annual plan cost",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-07-15",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19668",
-   "name": "[Membership Fee Promo] - Discount is displayed in the summary and no promo is applied",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-15",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19205",
    "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
    "pod": "LL",
@@ -2606,6 +2556,56 @@
    "prio": "3: Standard",
    "created": "2026-07-07",
    "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20169",
+   "name": "PMP/Waivefam/Plan Summary displays incorrect information on applying Waivefam promo",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19679",
+   "name": "[Membership Fee Promo] - Renewing a plan displays wrong annual plan cost",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-07-15",
+   "labels": [
+    "LLplans",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19668",
+   "name": "[Membership Fee Promo] - Discount is displayed in the summary and no promo is applied",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-07-15",
+   "labels": [
+    "LLplans",
     "product_prioritized"
    ]
   },
