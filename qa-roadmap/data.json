@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T16:30:37+00:00",
+ "generated_at": "2026-07-28T18:26:29+00:00",
  "today": "2026-07-28",
  "features": [
   {
@@ -19,15 +19,6 @@
    "fv": "R9.6",
    "who": "Denys Kernychnyi",
    "tshirt": "Large"
-  },
-  {
-   "key": "PLANS-18651",
-   "name": "Marketing Details - Quantity",
-   "status": "In Testing",
-   "ted": "2026-07-21",
-   "fv": "R9.6",
-   "who": "Dima Shtympel",
-   "tshirt": null
   },
   {
    "key": "PLANS-16409",
@@ -369,17 +360,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-15984",
-   "name": "PMP Ancillary Benefit Card",
-   "status": "In Testing",
-   "ted": null,
-   "fv": "R9.6",
-   "who": "Daryl Myrick",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-16091",
    "name": "Dynamic Legal Language - Portal Footer",
    "status": "In Testing",
@@ -608,17 +588,6 @@
    "who": "Vic Du Plessis",
    "tshirt": null,
    "pod": "LL",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLAT-5572",
-   "name": "Launch Loyalty Migration",
-   "status": "In Testing",
-   "ted": null,
-   "fv": "R9.6",
-   "who": "Unassigned",
-   "tshirt": "X-Large",
-   "pod": "PLAT",
    "theme": "LL-MVP"
   },
   {
@@ -860,17 +829,6 @@
    "fv": "R9.7",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
-   "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-18651",
-   "name": "Marketing Details - Quantity",
-   "status": "In Testing",
-   "ted": "2026-07-21",
-   "fv": "R9.6",
-   "who": "Dima Shtympel",
-   "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -1163,17 +1121,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-15984",
-   "name": "PMP Ancillary Benefit Card",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": null,
-   "who": "Daryl Myrick",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-16091",
    "name": "Dynamic Legal Language - Portal Footer",
    "pod": "LL",
@@ -1402,17 +1349,6 @@
    "fv": "R9.7",
    "ted": null,
    "who": "Vic Du Plessis",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLAT-5572",
-   "name": "Launch Loyalty Migration",
-   "pod": "PLAT",
-   "proj": "PLAT",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": null,
-   "who": "Unassigned",
    "theme": "LL-MVP"
   },
   {
@@ -1658,17 +1594,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-18651",
-   "name": "Marketing Details - Quantity",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-07-21",
-   "who": "Dima Shtympel",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLAT-5586",
    "name": "Product Selection PER Practice",
    "pod": "PLAT",
@@ -1847,7 +1772,9 @@
    "reporter": "Vinita Thankur",
    "prio": "1: Urgent",
    "created": "2026-07-27",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20327",
@@ -1861,20 +1788,6 @@
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-07-27",
-   "labels": []
-  },
-  {
-   "key": "PLANS-20239",
-   "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-23",
    "labels": [
     "product_prioritized"
    ]
@@ -1923,6 +1836,22 @@
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-07-20",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19868",
+   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
    "labels": [
     "product_prioritized"
    ]
@@ -2016,11 +1945,29 @@
    "cat": "To Do",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
-   "who": "Vasyl Skochko",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-07-28",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20275",
+   "name": "One Smile: Fee schedule is listed twice",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Sushma Bankar",
+   "prio": "2: Important",
+   "created": "2026-07-24",
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20272",
@@ -2030,7 +1977,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-24",
@@ -2472,6 +2419,22 @@
    ]
   },
   {
+   "key": "PLANS-20239",
+   "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20047",
    "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
    "pod": "LL",
@@ -2499,55 +2462,6 @@
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-07-07",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19679",
-   "name": "[Membership Fee Promo] - Renewing a plan displays wrong annual plan cost",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-07-15",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20169",
-   "name": "PMP/Waivefam/Plan Summary displays incorrect information on applying Waivefam promo",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19868",
-   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
    "labels": [
     "product_prioritized"
    ]
@@ -2666,15 +2580,7 @@
    ]
   }
  ],
- "nopod": [
-  {
-   "key": "PLANS-20275",
-   "name": "One Smile: Fee schedule is listed twice",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Sushma Bankar"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Jul 27–Aug 2",
