@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T10:48:11+00:00",
+ "generated_at": "2026-07-28T12:32:47+00:00",
  "today": "2026-07-28",
  "features": [
   {
@@ -1872,6 +1872,20 @@
    "labels": []
   },
   {
+   "key": "PLANS-20327",
+   "name": "Blocker - premieronedentalplan/ Unable to access https://stage.premieronedentalplan.wellfit.com/",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-07-27",
+   "labels": []
+  },
+  {
    "key": "PLANS-20239",
    "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
    "pod": "LL",
@@ -1967,20 +1981,6 @@
    "labels": [
     "product_prioritized"
    ]
-  },
-  {
-   "key": "PLANS-20327",
-   "name": "Blocker - premieronedentalplan/ Unable to access https://stage.premieronedentalplan.wellfit.com/",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-07-27",
-   "labels": []
   },
   {
    "key": "PLANS-20272",
