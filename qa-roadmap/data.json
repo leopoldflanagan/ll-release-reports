@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T14:47:44+00:00",
+ "generated_at": "2026-07-28T16:30:37+00:00",
  "today": "2026-07-28",
  "features": [
   {
@@ -28,15 +28,6 @@
    "fv": "R9.6",
    "who": "Dima Shtympel",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-17161",
-   "name": "Marketing Details Updates",
-   "status": "In Testing",
-   "ted": "2026-07-27",
-   "fv": "R9.6",
-   "who": "Dima Shtympel",
-   "tshirt": "X-Large"
   },
   {
    "key": "PLANS-16409",
@@ -192,6 +183,15 @@
    "tshirt": "Moderate"
   },
   {
+   "key": "PLANS-20258",
+   "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
+   "status": "In Development",
+   "ted": "2026-08-05",
+   "fv": "R9.7",
+   "who": "Vasyl Skochko",
+   "tshirt": null
+  },
+  {
    "key": "PLANS-18413",
    "name": "Marketing Details",
    "status": "In Development",
@@ -203,7 +203,7 @@
   {
    "key": "PLANS-17725",
    "name": "Handle ACH in Member Portal",
-   "status": "In Testing",
+   "status": "In Development",
    "ted": "2026-08-31",
    "fv": "R9.6",
    "who": "Vasyl Skochko",
@@ -219,13 +219,13 @@
    "tshirt": null
   },
   {
-   "key": "PLANS-20258",
-   "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
-   "status": "Idea",
+   "key": "PLANS-17586",
+   "name": "Member Portal Support for Subscription Payments",
+   "status": "Epics & Stories",
    "ted": null,
-   "fv": null,
+   "fv": "R9.7",
    "who": "Unassigned",
-   "tshirt": null
+   "tshirt": "Moderate"
   },
   {
    "key": "PLANS-17582",
@@ -446,17 +446,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-17161",
-   "name": "Marketing Details Updates",
-   "status": "In Testing",
-   "ted": "2026-07-27",
-   "fv": "R9.6",
-   "who": "Dima Shtympel",
-   "tshirt": "X-Large",
-   "pod": "LL",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-17282",
    "name": "Unintegrated Member Portal View",
    "status": "In Testing",
@@ -541,7 +530,7 @@
    "fv": "R9.7",
    "who": "Unassigned",
    "tshirt": "Moderate",
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": "LL-MVP"
   },
   {
@@ -987,7 +976,7 @@
   {
    "key": "PLANS-17725",
    "name": "Handle ACH in Member Portal",
-   "status": "In Testing",
+   "status": "In Development",
    "ted": "2026-08-31",
    "fv": "R9.6",
    "who": "Vasyl Skochko",
@@ -998,10 +987,10 @@
   {
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
-   "status": "Idea",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
+   "status": "In Development",
+   "ted": "2026-08-05",
+   "fv": "R9.7",
+   "who": "Vasyl Skochko",
    "tshirt": null,
    "pod": "LL",
    "theme": "ACH"
@@ -1251,17 +1240,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-17161",
-   "name": "Marketing Details Updates",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-07-27",
-   "who": "Dima Shtympel",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-17282",
    "name": "Unintegrated Member Portal View",
    "pod": "LL",
@@ -1341,7 +1319,7 @@
   {
    "key": "PLANS-17586",
    "name": "Member Portal Support for Subscription Payments",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "PLANS",
    "status": "Epics & Stories",
    "fv": "R9.7",
@@ -1794,7 +1772,7 @@
    "name": "Handle ACH in Member Portal",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "In Development",
    "fv": "R9.6",
    "ted": "2026-08-31",
    "who": "Vasyl Skochko",
@@ -1805,10 +1783,10 @@
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Idea",
-   "fv": null,
-   "ted": null,
-   "who": "Unassigned",
+   "status": "In Development",
+   "fv": "R9.7",
+   "ted": "2026-08-05",
+   "who": "Vasyl Skochko",
    "theme": "ACH"
   },
   {
@@ -1877,7 +1855,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Nazarii Polinyk",
    "reporter": "Vivienne Chawande",
@@ -1929,6 +1907,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19946",
+   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Vivienne Chawande",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-20",
    "labels": [
     "product_prioritized"
    ]
@@ -1997,6 +1991,36 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20369",
+   "name": "DCA plans visible on smile health",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20363",
+   "name": "Blocker-Member Portal-Stage-ACH is not displaying on Dashboard and Manage Payment after feature flag is ON in CSP",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-07-28",
+   "labels": []
   },
   {
    "key": "PLANS-20272",
@@ -2384,22 +2408,6 @@
    ]
   },
   {
-   "key": "LL-879",
-   "name": "DCA plans visible on smile health",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-23",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20000",
    "name": "Comfort Dental>Stage>Plan Names are duplicate after select office and same happening after selecting any Plan",
    "pod": "LL",
@@ -2411,22 +2419,6 @@
    "reporter": "Vinita Thankur",
    "prio": "1: Urgent",
    "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19946",
-   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Vivienne Chawande",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-20",
    "labels": [
     "product_prioritized"
    ]
@@ -2502,59 +2494,11 @@
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
+   "sprint": "LL-Sprint 17-26",
    "who": "Nazarii Polinyk",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-07-07",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20169",
-   "name": "PMP/Waivefam/Plan Summary displays incorrect information on applying Waivefam promo",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19868",
-   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19864",
-   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
    "labels": [
     "product_prioritized"
    ]
@@ -2577,19 +2521,50 @@
    ]
   },
   {
-   "key": "PLANS-19668",
-   "name": "[Membership Fee Promo] - Discount is displayed in the summary and no promo is applied",
+   "key": "PLANS-20169",
+   "name": "PMP/Waivefam/Plan Summary displays incorrect information on applying Waivefam promo",
    "pod": "LL",
-   "status": "PR Merged",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19868",
+   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
+   "pod": "LL",
+   "status": "In QA",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-15",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
    "labels": [
-    "LLplans",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19864",
+   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
     "product_prioritized"
    ]
   },
@@ -2597,7 +2572,7 @@
    "key": "PLANS-19636",
    "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
    "pod": "LL",
-   "status": "PR Merged",
+   "status": "In QA",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
@@ -2613,7 +2588,7 @@
    "key": "PLANS-19205",
    "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
    "pod": "LL",
-   "status": "PR Merged",
+   "status": "In QA",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
@@ -2692,20 +2667,6 @@
   }
  ],
  "nopod": [
-  {
-   "key": "PLANS-20363",
-   "name": "Member Portal-Stage-ACH is not displaying on Dashboard and Manage Payment after feature flag is ON in CSP",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur"
-  },
-  {
-   "key": "PLANS-20362",
-   "name": "WFP - Previous Member Details Persist When Purchasing Another Plan, Resulting in 400 Error and Fields Cannot Be Cleared",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-20275",
    "name": "One Smile: Fee schedule is listed twice",
