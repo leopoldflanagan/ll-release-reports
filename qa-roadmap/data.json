@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T18:26:29+00:00",
+ "generated_at": "2026-07-28T20:24:26+00:00",
  "today": "2026-07-28",
  "features": [
   {
@@ -165,15 +165,6 @@
    "tshirt": "Large"
   },
   {
-   "key": "PLANS-16091",
-   "name": "Dynamic Legal Language - Portal Footer",
-   "status": "In Testing",
-   "ted": "2026-07-24",
-   "fv": "R9.6",
-   "who": "Valentyna Tenus",
-   "tshirt": "Moderate"
-  },
-  {
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "status": "In Development",
@@ -194,11 +185,11 @@
   {
    "key": "PLANS-17725",
    "name": "Handle ACH in Member Portal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-31",
    "fv": "R9.6",
    "who": "Vasyl Skochko",
-   "tshirt": null
+   "tshirt": "Tiny"
   },
   {
    "key": "PLANS-18909",
@@ -316,17 +307,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-15100",
-   "name": "Essential Smiles Plan Custom Website",
-   "status": "In Testing",
-   "ted": "2026-07-24",
-   "fv": "R9.6",
-   "who": "Mariano Hernández",
-   "tshirt": "X-Large",
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-15226",
    "name": "WAIVEFAM Promo Code",
    "status": "In Testing",
@@ -357,17 +337,6 @@
    "who": "Chris Rubio",
    "tshirt": "Large",
    "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-16091",
-   "name": "Dynamic Legal Language - Portal Footer",
-   "status": "In Testing",
-   "ted": "2026-07-24",
-   "fv": "R9.6",
-   "who": "Valentyna Tenus",
-   "tshirt": "Moderate",
-   "pod": "LL",
    "theme": "LL-MVP"
   },
   {
@@ -932,17 +901,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-17725",
-   "name": "Handle ACH in Member Portal",
-   "status": "In Development",
-   "ted": "2026-08-31",
-   "fv": "R9.6",
-   "who": "Vasyl Skochko",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "status": "In Development",
@@ -983,6 +941,17 @@
    "fv": "R9.6",
    "who": "Mykyta Moroz",
    "tshirt": "Huge",
+   "pod": "LL",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-17725",
+   "name": "Handle ACH in Member Portal",
+   "status": "In Testing",
+   "ted": "2026-08-31",
+   "fv": "R9.6",
+   "who": "Vasyl Skochko",
+   "tshirt": "Tiny",
    "pod": "LL",
    "theme": "ACH-Fast Follows"
   },
@@ -1077,17 +1046,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-15100",
-   "name": "Essential Smiles Plan Custom Website",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-07-24",
-   "who": "Mariano Hernández",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-15226",
    "name": "WAIVEFAM Promo Code",
    "pod": "LL",
@@ -1118,17 +1076,6 @@
    "fv": "R9.7",
    "ted": null,
    "who": "Chris Rubio",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-16091",
-   "name": "Dynamic Legal Language - Portal Footer",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-07-24",
-   "who": "Valentyna Tenus",
    "theme": "LL-MVP"
   },
   {
@@ -1693,17 +1640,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-17725",
-   "name": "Handle ACH in Member Portal",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Development",
-   "fv": "R9.6",
-   "ted": "2026-08-31",
-   "who": "Vasyl Skochko",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "pod": "LL",
@@ -1748,6 +1684,17 @@
    "theme": "ACH-Fast Follows"
   },
   {
+   "key": "PLANS-17725",
+   "name": "Handle ACH in Member Portal",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.6",
+   "ted": "2026-08-31",
+   "who": "Vasyl Skochko",
+   "theme": "ACH-Fast Follows"
+  },
+  {
    "key": "WEL-5833",
    "name": "ACH Transaction Details Modal",
    "pod": "WEL",
@@ -1788,6 +1735,22 @@
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-07-27",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
    "labels": [
     "product_prioritized"
    ]
@@ -1890,6 +1853,22 @@
    ]
   },
   {
+   "key": "PLANS-19636",
+   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-14",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -1920,6 +1899,20 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20383",
+   "name": "WFP - Getting a 400 Error When Purchasing a Plan Using \"Paid by Office\" Option When Org Is Configured for \"Bill to Office\"",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-28",
+   "labels": []
   },
   {
    "key": "PLANS-20369",
@@ -2483,22 +2476,6 @@
    ]
   },
   {
-   "key": "PLANS-19636",
-   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-14",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19205",
    "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
    "pod": "LL",
@@ -2580,7 +2557,15 @@
    ]
   }
  ],
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-20377",
+   "name": "PROD: FAILED 835 - resolving this issue with object reference not set to an instance of object issue.",
+   "status": "PR Merged",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Sushma Bankar"
+  }
+ ],
  "weeks": [
   {
    "label": "Jul 27–Aug 2",
