@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T12:32:47+00:00",
+ "generated_at": "2026-07-28T14:47:44+00:00",
  "today": "2026-07-28",
  "features": [
   {
@@ -59,7 +59,7 @@
   {
    "key": "PLANS-18481",
    "name": "Unify Purchase Into NPM Package",
-   "status": "In Development",
+   "status": "On Hold",
    "ted": "2026-07-20",
    "fv": "R9.7",
    "who": "Ivan Yarymovych",
@@ -349,7 +349,7 @@
   {
    "key": "PLANS-15298",
    "name": "Additional Benefit Eligibility SFTP Feed",
-   "status": "In Development",
+   "status": "Blocked",
    "ted": null,
    "fv": "R9.7",
    "who": "David Jones",
@@ -514,7 +514,7 @@
   {
    "key": "PLANS-17581",
    "name": "Disbursement Splits & Admin Fee Splits",
-   "status": "In Development",
+   "status": "Blocked",
    "ted": "2026-07-17",
    "fv": "R9.6",
    "who": "David Jones",
@@ -604,7 +604,7 @@
    "name": "Ability to Hide UCR Code Admin Screen, and Explore Savings.",
    "status": "In Development",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Daryl Myrick",
    "tshirt": null,
    "pod": "PLANS",
@@ -624,7 +624,7 @@
   {
    "key": "PLAT-5572",
    "name": "Launch Loyalty Migration",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": null,
    "fv": "R9.6",
    "who": "Unassigned",
@@ -866,7 +866,7 @@
   {
    "key": "PLANS-18481",
    "name": "Unify Purchase Into NPM Package",
-   "status": "In Development",
+   "status": "On Hold",
    "ted": "2026-07-20",
    "fv": "R9.7",
    "who": "Ivan Yarymovych",
@@ -1156,7 +1156,7 @@
    "name": "Additional Benefit Eligibility SFTP Feed",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "Blocked",
    "fv": "R9.7",
    "ted": null,
    "who": "David Jones",
@@ -1321,7 +1321,7 @@
    "name": "Disbursement Splits & Admin Fee Splits",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "Blocked",
    "fv": "R9.6",
    "ted": "2026-07-17",
    "who": "David Jones",
@@ -1410,7 +1410,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "In Development",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": null,
    "who": "Daryl Myrick",
    "theme": "LL-MVP"
@@ -1431,7 +1431,7 @@
    "name": "Launch Loyalty Migration",
    "pod": "PLAT",
    "proj": "PLAT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.6",
    "ted": null,
    "who": "Unassigned",
@@ -1673,7 +1673,7 @@
    "name": "Unify Purchase Into NPM Package",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "On Hold",
    "fv": "R9.7",
    "ted": "2026-07-20",
    "who": "Ivan Yarymovych",
@@ -1893,7 +1893,7 @@
    "cat": "In Progress",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-23",
@@ -1913,6 +1913,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20040",
+   "name": "Purchase portal / WFP - One Smile Dental - Duplicate Plans Displayed on \"Choose a Plan\" Page",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
    "labels": [
     "product_prioritized"
    ]
@@ -1984,7 +2000,7 @@
   },
   {
    "key": "PLANS-20272",
-   "name": "Plan Details - Minor UI enhancements",
+   "name": "PLANS-20272: Wellfit Pay Portal: Plan Details: PDF: Needed minor UI enhancements",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -2384,22 +2400,6 @@
    ]
   },
   {
-   "key": "PLANS-20040",
-   "name": "Purchase portal / WFP - One Smile Dental - Duplicate Plans Displayed on \"Choose a Plan\" Page",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20000",
    "name": "Comfort Dental>Stage>Plan Names are duplicate after select office and same happening after selecting any Plan",
    "pod": "LL",
@@ -2491,22 +2491,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19205",
-   "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-08",
    "labels": [
     "product_prioritized"
    ]
@@ -2626,6 +2610,22 @@
    ]
   },
   {
+   "key": "PLANS-19205",
+   "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-08",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19757",
    "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
    "pod": "LL",
@@ -2692,6 +2692,20 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20363",
+   "name": "Member Portal-Stage-ACH is not displaying on Dashboard and Manage Payment after feature flag is ON in CSP",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
+  {
+   "key": "PLANS-20362",
+   "name": "WFP - Previous Member Details Persist When Purchasing Another Plan, Resulting in 400 Error and Fields Cannot Be Cleared",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-20275",
    "name": "One Smile: Fee schedule is listed twice",
