@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T00:19:25+00:00",
+ "generated_at": "2026-07-29T02:59:48+00:00",
  "today": "2026-07-29",
  "features": [
   {
@@ -197,6 +197,15 @@
    "status": "Ready for Development",
    "ted": null,
    "fv": "R9.7",
+   "who": "Vic Du Plessis",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-14421",
+   "name": "Provider Search in Member Portal",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": null,
    "who": "Vic Du Plessis",
    "tshirt": null
   },
@@ -587,9 +596,9 @@
    "status": "Epics & Stories",
    "ted": null,
    "fv": null,
-   "who": "Michael McNulty",
+   "who": "Vic Du Plessis",
    "tshirt": null,
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1323,12 +1332,12 @@
   {
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "PLANS",
    "status": "Epics & Stories",
    "fv": null,
    "ted": null,
-   "who": "Michael McNulty",
+   "who": "Vic Du Plessis",
    "theme": "LL-Fast Follows"
   },
   {
