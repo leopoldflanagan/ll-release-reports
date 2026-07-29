@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T20:19:45+00:00",
+ "generated_at": "2026-07-29T22:18:00+00:00",
  "today": "2026-07-29",
  "features": [
   {
@@ -294,17 +294,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PAY-3756",
-   "name": "Launch Loyalty Token Migration",
-   "status": "In Testing",
-   "ted": "2026-08-05",
-   "fv": "R9.6",
-   "who": "Stephen Perry",
-   "tshirt": "Huge",
-   "pod": "PAY",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
@@ -847,8 +836,8 @@
    "key": "PAY-3751",
    "name": "ACH Reporting",
    "status": "In Development",
-   "ted": "2026-09-02",
-   "fv": "R9.6",
+   "ted": "2026-08-14",
+   "fv": "R9.7",
    "who": "Lloyd Tokerud",
    "tshirt": "X-Large",
    "pod": "EDW",
@@ -914,7 +903,7 @@
    "name": "ACH Core Support",
    "status": "In Testing",
    "ted": "2026-08-05",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Daniel Marineni",
    "tshirt": "Large",
    "pod": "WEL",
@@ -958,7 +947,7 @@
    "name": "ACH Transaction Details Modal",
    "status": "In Development",
    "ted": "2026-09-09",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Daniel Marineni",
    "tshirt": "Large",
    "pod": "WEL",
@@ -1022,17 +1011,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PAY-3756",
-   "name": "Launch Loyalty Token Migration",
-   "pod": "PAY",
-   "proj": "PAY",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-08-05",
-   "who": "Stephen Perry",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "pod": "LL",
@@ -1577,8 +1555,8 @@
    "pod": "EDW",
    "proj": "PAY",
    "status": "In Development",
-   "fv": "R9.6",
-   "ted": "2026-09-02",
+   "fv": "R9.7",
+   "ted": "2026-08-14",
    "who": "Lloyd Tokerud",
    "theme": "ACH"
   },
@@ -1643,7 +1621,7 @@
    "pod": "WEL",
    "proj": "WEL",
    "status": "In Testing",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": "2026-08-05",
    "who": "Daniel Marineni",
    "theme": "ACH"
@@ -1687,7 +1665,7 @@
    "pod": "WEL",
    "proj": "WEL",
    "status": "In Development",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": "2026-09-09",
    "who": "Daniel Marineni",
    "theme": "ACH-Fast Follows"
