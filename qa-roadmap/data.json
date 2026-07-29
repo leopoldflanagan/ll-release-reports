@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T08:55:12+00:00",
+ "generated_at": "2026-07-29T10:50:53+00:00",
  "today": "2026-07-29",
  "features": [
   {
@@ -1782,7 +1782,7 @@
   },
   {
    "key": "PLANS-20040",
-   "name": "Purchase portal / WFP - One Smile Dental - Duplicate Plans Displayed on \"Choose a Plan\" Page",
+   "name": "PLANS-20040: One Smile Portal: Purchase: Duplicate plans are displayed on \"Choose Plan\" page",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -1790,6 +1790,22 @@
    "sprint": null,
    "who": "Ivan Yarymovych",
    "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20000",
+   "name": "PLANS-20000: Smile Health Portal: Purchase: Plans are duplicated after select office and same happening after selecting any plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Vinita Thankur",
    "prio": "1: Urgent",
    "created": "2026-07-21",
    "labels": [
@@ -2335,22 +2351,6 @@
    "created": "2026-02-26",
    "labels": [
     "Reenbit",
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20000",
-   "name": "Comfort Dental>Stage>Plan Names are duplicate after select office and same happening after selecting any Plan",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
     "product_prioritized"
    ]
   },
