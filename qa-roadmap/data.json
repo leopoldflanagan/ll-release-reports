@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T16:28:20+00:00",
+ "generated_at": "2026-07-29T18:18:26+00:00",
  "today": "2026-07-29",
  "features": [
   {
@@ -1814,22 +1814,6 @@
    ]
   },
   {
-   "key": "PLANS-19673",
-   "name": "PLANS-19673: Smile Health: Getting a 500 error when purchasing a smile health plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-15",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19648",
    "name": "Member Portal / Provider Portal - Admin fee not discounted when plan is on renewal period",
    "pod": "LL",
@@ -1894,18 +1878,34 @@
    ]
   },
   {
+   "key": "PLANS-20507",
+   "name": "QA Test - WFP - Plans Sales - Verify office to bill payments after report refresh",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": []
+  },
+  {
    "key": "PLANS-20499",
    "name": "CSP - Bill to Office purchases - Purchased fees are not showing under plan details",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Unassigned",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-29",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20496",
@@ -1914,12 +1914,14 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans-Sprint 18-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "4: Low",
    "created": "2026-07-29",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20495",
@@ -1928,7 +1930,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 18-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2470,7 +2472,7 @@
    "key": "PLANS-20239",
    "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
    "pod": "LL",
-   "status": "PR Merged",
+   "status": "In QA",
    "cat": "In Progress",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
@@ -2596,7 +2598,15 @@
    ]
   }
  ],
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-20510",
+   "name": "Member Portal \\ When manually renewing a plan membership agreement link button is redirecting user to Dashboard page",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  }
+ ],
  "weeks": [
   {
    "label": "Jul 27–Aug 2",
