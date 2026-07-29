@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T12:37:09+00:00",
+ "generated_at": "2026-07-29T14:44:46+00:00",
  "today": "2026-07-29",
  "features": [
   {
@@ -34,7 +34,7 @@
    "name": "Plan Design",
    "status": "On Hold",
    "ted": "2026-09-30",
-   "fv": null,
+   "fv": "R9.7",
    "who": "Dima Shtympel",
    "tshirt": "Huge"
   },
@@ -122,8 +122,8 @@
   {
    "key": "PLANS-17586",
    "name": "Member Portal Support for Subscription Payments",
-   "status": "Epics & Stories",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-25",
    "fv": "R9.7",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate"
@@ -483,8 +483,8 @@
   {
    "key": "PLANS-17586",
    "name": "Member Portal Support for Subscription Payments",
-   "status": "Epics & Stories",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-25",
    "fv": "R9.7",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate",
@@ -606,7 +606,7 @@
    "name": "Plan Design",
    "status": "On Hold",
    "ted": "2026-09-30",
-   "fv": null,
+   "fv": "R9.7",
    "who": "Dima Shtympel",
    "tshirt": "Huge",
    "pod": "LL",
@@ -1224,9 +1224,9 @@
    "name": "Member Portal Support for Subscription Payments",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-25",
    "who": "Rostyslav Masniuk",
    "theme": "LL-MVP"
   },
@@ -1346,7 +1346,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "On Hold",
-   "fv": null,
+   "fv": "R9.7",
    "ted": "2026-09-30",
    "who": "Dima Shtympel",
    "theme": "LL-Fast Follows"
@@ -1749,33 +1749,33 @@
    ]
   },
   {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "key": "PLANS-20040",
+   "name": "PLANS-20040: One Smile Portal: Purchase: Duplicate plans are displayed on \"Choose Plan\" page",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
+   "fv": null,
+   "sprint": null,
+   "who": "Nazarii Polinyk",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
    "labels": [
     "product_prioritized"
    ]
   },
   {
-   "key": "PLANS-20061",
-   "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
+   "key": "PLANS-20000",
+   "name": "PLANS-20000: Smile Health Portal: Purchase: Plans are duplicated after select office and same happening after selecting any plan",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
+   "fv": null,
+   "sprint": null,
    "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
    "labels": [
     "product_prioritized"
    ]
@@ -1792,22 +1792,6 @@
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-07-20",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19868",
-   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
    "labels": [
     "product_prioritized"
    ]
@@ -1837,7 +1821,7 @@
    "cat": "In Progress",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-15",
@@ -1908,6 +1892,20 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20491",
+   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": []
   },
   {
    "key": "PLANS-20387",
@@ -2007,7 +2005,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL - Low Prior Bugs",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2050,44 +2048,12 @@
    ]
   },
   {
-   "key": "PLANS-20040",
-   "name": "PLANS-20040: One Smile Portal: Purchase: Duplicate plans are displayed on \"Choose Plan\" page",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20000",
-   "name": "PLANS-20000: Smile Health Portal: Purchase: Plans are duplicated after select office and same happening after selecting any plan",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19874",
    "name": "One smile/ Essential smile - Portal restrictions not applied",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2103,7 +2069,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "Plans-Sprint 19-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2119,7 +2085,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "Plans-Sprint 19-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2135,7 +2101,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "Plans-Sprint 19-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2403,6 +2369,38 @@
    ]
   },
   {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20061",
+   "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20047",
    "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
    "pod": "LL",
@@ -2414,6 +2412,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19868",
+   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
    "labels": [
     "product_prioritized"
    ]
@@ -2551,7 +2565,7 @@
  "nopod": [
   {
    "key": "PLANS-20490",
-   "name": "WFP- Overview page - Membership shows as 'Delinquent' for WFP Purchases",
+   "name": "delete",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
