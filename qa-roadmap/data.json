@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-29T18:18:26+00:00",
+ "generated_at": "2026-07-29T20:19:45+00:00",
  "today": "2026-07-29",
  "features": [
   {
    "key": "PLANS-18019",
-   "name": "Migrate Plans",
+   "name": "Migrate Plans - Phase 1",
    "status": "In Testing",
    "ted": null,
    "fv": "R9.6",
@@ -78,7 +78,7 @@
    "key": "PLANS-15748",
    "name": "Ach Refunds Inside of Csp",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-10",
    "fv": "R9.6",
    "who": "Mykyta Moroz",
    "tshirt": "Huge"
@@ -141,7 +141,7 @@
    "key": "PLANS-17587",
    "name": "Restrictions on Renewals",
    "status": "In Testing",
-   "ted": "2026-07-27",
+   "ted": "2026-08-07",
    "fv": "R9.6",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large"
@@ -441,7 +441,7 @@
    "name": "Link Tokens for C/C & ACH to Members",
    "status": "In Testing",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Lloyd Tokerud",
    "tshirt": "Moderate",
    "pod": "EDW",
@@ -495,7 +495,7 @@
    "key": "PLANS-17587",
    "name": "Restrictions on Renewals",
    "status": "In Testing",
-   "ted": "2026-07-27",
+   "ted": "2026-08-07",
    "fv": "R9.6",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large",
@@ -526,7 +526,7 @@
   },
   {
    "key": "PLANS-18019",
-   "name": "Migrate Plans",
+   "name": "Migrate Plans - Phase 1",
    "status": "In Testing",
    "ted": null,
    "fv": "R9.6",
@@ -756,17 +756,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-18020",
-   "name": "Tie Plan Renewals to Office",
-   "status": "In Testing",
-   "ted": "2026-07-31",
-   "fv": "R9.6",
-   "who": "David Jones",
-   "tshirt": "Small",
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-18049",
    "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard",
    "status": "Epics & Stories",
@@ -946,7 +935,7 @@
    "key": "PLANS-15748",
    "name": "Ach Refunds Inside of Csp",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-10",
    "fv": "R9.6",
    "who": "Mykyta Moroz",
    "tshirt": "Huge",
@@ -1181,7 +1170,7 @@
    "pod": "EDW",
    "proj": "PLANS",
    "status": "In Testing",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": null,
    "who": "Lloyd Tokerud",
    "theme": "LL-MVP"
@@ -1237,7 +1226,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.6",
-   "ted": "2026-07-27",
+   "ted": "2026-08-07",
    "who": "Shchekochykhin Vladyslav",
    "theme": "LL-MVP"
   },
@@ -1265,7 +1254,7 @@
   },
   {
    "key": "PLANS-18019",
-   "name": "Migrate Plans",
+   "name": "Migrate Plans - Phase 1",
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Testing",
@@ -1495,17 +1484,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-18020",
-   "name": "Tie Plan Renewals to Office",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-07-31",
-   "who": "David Jones",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-18049",
    "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard",
    "pod": "EDW",
@@ -1688,7 +1666,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.6",
-   "ted": null,
+   "ted": "2026-08-10",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
@@ -1716,6 +1694,20 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-20518",
+   "name": "Smile Health - Comfort Dental - Provider URL does not appear to be proper in the footer",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": []
+  },
   {
    "key": "PLANS-20346",
    "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
@@ -1879,13 +1871,13 @@
   },
   {
    "key": "PLANS-20507",
-   "name": "QA Test - WFP - Plans Sales - Verify office to bill payments after report refresh",
+   "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
    "sprint": "Plans-Sprint 18-26",
-   "who": "Anuradhi Wickramasinghe",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-29",
@@ -2357,6 +2349,22 @@
    ]
   },
   {
+   "key": "PLANS-20539",
+   "name": "PMP-[WAIVEFAM] Add plan button is not displayed for once max number of members is reached for the Plan (tiered plans )",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": [
+    "LLplans"
+   ]
+  },
+  {
    "key": "PLANS-18882",
    "name": "PLAN BENEFITS: Add Discount to Plan Benefits Section",
    "pod": "LL",
@@ -2469,6 +2477,23 @@
    ]
   },
   {
+   "key": "PLANS-19757",
+   "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-07-16",
+   "labels": [
+    "LLplans",
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20239",
    "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
    "pod": "LL",
@@ -2533,23 +2558,6 @@
    ]
   },
   {
-   "key": "PLANS-19757",
-   "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-07-16",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-18603",
    "name": "Stage - PMP - Purchase Plan - Incorrect toast message displayed when сpromo code is not eligible",
    "pod": "LL",
@@ -2600,10 +2608,17 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-20510",
-   "name": "Member Portal \\ When manually renewing a plan membership agreement link button is redirecting user to Dashboard page",
+   "key": "PLANS-20542",
+   "name": "PMP \\ Membership Agreement changes from Closed to Open after dependent removal during manual renewal flow",
    "status": "Backlog",
    "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
+   "key": "PLANS-20510",
+   "name": "Member Portal \\ When manually renewing a plan membership agreement link button is redirecting user to Dashboard page",
+   "status": "PR Created",
+   "who": "Clint Tredway",
    "reporter": "Luis Moreno Soberón"
   }
  ],
