@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T14:44:46+00:00",
+ "generated_at": "2026-07-29T15:39:44+00:00",
  "today": "2026-07-29",
  "features": [
   {
@@ -846,7 +846,7 @@
   {
    "key": "DYN-668",
    "name": "Plans Journey - ACH Email Updates",
-   "status": "In Development",
+   "status": "Blocked",
    "ted": "2026-07-31",
    "fv": "R9.7",
    "who": "Unassigned",
@@ -1587,7 +1587,7 @@
    "name": "Plans Journey - ACH Email Updates",
    "pod": "DYN",
    "proj": "DYN",
-   "status": "In Development",
+   "status": "Blocked",
    "fv": "R9.7",
    "ted": "2026-07-31",
    "who": "Unassigned",
@@ -1894,12 +1894,26 @@
    ]
   },
   {
+   "key": "PLANS-20495",
+   "name": "WFP - Practice Credit Card Not Removed from Office Payments When Organization Is Switched from \"Paid by Office\" to \"Bill to Office\"",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": []
+  },
+  {
    "key": "PLANS-20491",
    "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "Plans-Sprint 18-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -1918,20 +1932,6 @@
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
-   "created": "2026-07-28",
-   "labels": []
-  },
-  {
-   "key": "PLANS-20383",
-   "name": "WFP - Getting a 400 Error When Purchasing a Plan Using \"Paid by Office\" Option When Org Is Configured for \"Bill to Office\"",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
    "created": "2026-07-28",
    "labels": []
   },
@@ -2449,22 +2449,6 @@
    ]
   },
   {
-   "key": "PLANS-19140",
-   "name": "PLANS-19140: PMP: Additional Benefits: Back of the card: UI is not matching Figma",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-07-07",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19864",
    "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
    "pod": "LL",
@@ -2492,6 +2476,22 @@
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-07-08",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19140",
+   "name": "PLANS-19140: PMP: Additional Benefits: Back of the card: UI is not matching Figma",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 17-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-07-07",
    "labels": [
     "product_prioritized"
    ]
@@ -2574,21 +2574,21 @@
    "key": "PLANS-20406",
    "name": "PMP \\ Membership Agreement is not available when upgrading a plan",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Hunter Redhead",
    "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-20401",
    "name": "PMP \\ Membership Agreement form on plan purchase shows wrong title on closed network configuration",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "Ready for Development",
+   "who": "Mariano Hernández",
    "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-20386",
    "name": "CSP \\ Network Configuration Practice Network selection does not match the Membership Agreement type",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "Ready for Development",
+   "who": "Santiago Kirk Cabrera",
    "reporter": "Luis Moreno Soberón"
   },
   {
