@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T15:39:44+00:00",
+ "generated_at": "2026-07-29T16:28:20+00:00",
  "today": "2026-07-29",
  "features": [
   {
@@ -1894,6 +1894,34 @@
    ]
   },
   {
+   "key": "PLANS-20499",
+   "name": "CSP - Bill to Office purchases - Purchased fees are not showing under plan details",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": []
+  },
+  {
+   "key": "PLANS-20496",
+   "name": "WFP - Incorrect Success Message Displayed for 'Bill to Office' Purchases",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": []
+  },
+  {
    "key": "PLANS-20495",
    "name": "WFP - Practice Credit Card Not Removed from Office Payments When Organization Is Switched from \"Paid by Office\" to \"Bill to Office\"",
    "pod": "LL",
@@ -1901,11 +1929,13 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 18-26",
-   "who": "Unassigned",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-29",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20491",
@@ -1915,11 +1945,13 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 18-26",
-   "who": "Unassigned",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-07-29",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20387",
@@ -1927,13 +1959,15 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
+   "fv": "R9.7",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-07-28",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20369",
@@ -2562,43 +2596,7 @@
    ]
   }
  ],
- "nopod": [
-  {
-   "key": "PLANS-20490",
-   "name": "delete",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-20406",
-   "name": "PMP \\ Membership Agreement is not available when upgrading a plan",
-   "status": "Backlog",
-   "who": "Hunter Redhead",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-20401",
-   "name": "PMP \\ Membership Agreement form on plan purchase shows wrong title on closed network configuration",
-   "status": "Ready for Development",
-   "who": "Mariano Hernández",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-20386",
-   "name": "CSP \\ Network Configuration Practice Network selection does not match the Membership Agreement type",
-   "status": "Ready for Development",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-20377",
-   "name": "PROD: FAILED 835 - resolving this issue with object reference not set to an instance of object issue.",
-   "status": "In Stage",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Sushma Bankar"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Jul 27–Aug 2",
