@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T06:50:50+00:00",
+ "generated_at": "2026-07-29T08:55:12+00:00",
  "today": "2026-07-29",
  "features": [
   {
@@ -120,6 +120,15 @@
    "tshirt": null
   },
   {
+   "key": "PLANS-17586",
+   "name": "Member Portal Support for Subscription Payments",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Rostyslav Masniuk",
+   "tshirt": "Moderate"
+  },
+  {
    "key": "PLANS-16678",
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "In Development",
@@ -208,15 +217,6 @@
    "fv": null,
    "who": "Vic Du Plessis",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-17586",
-   "name": "Member Portal Support for Subscription Payments",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": "R9.7",
-   "who": "Unassigned",
-   "tshirt": "Moderate"
   },
   {
    "key": "PLANS-17582",
@@ -486,7 +486,7 @@
    "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.7",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-MVP"
@@ -1227,7 +1227,7 @@
    "status": "Epics & Stories",
    "fv": "R9.7",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "theme": "LL-MVP"
   },
   {
@@ -2549,6 +2549,20 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20406",
+   "name": "PMP \\ Membership Agreement is not available when upgrading a plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
+   "key": "PLANS-20401",
+   "name": "PMP \\ Membership Agreement form on plan purchase shows wrong title on closed network configuration",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-20386",
    "name": "CSP \\ Network Configuration Practice Network selection does not match the Membership Agreement type",
