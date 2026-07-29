@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T10:50:53+00:00",
+ "generated_at": "2026-07-29T12:37:09+00:00",
  "today": "2026-07-29",
  "features": [
   {
@@ -1781,38 +1781,6 @@
    ]
   },
   {
-   "key": "PLANS-20040",
-   "name": "PLANS-20040: One Smile Portal: Purchase: Duplicate plans are displayed on \"Choose Plan\" page",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20000",
-   "name": "PLANS-20000: Smile Health Portal: Purchase: Plans are duplicated after select office and same happening after selecting any plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19946",
    "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
    "pod": "LL",
@@ -1858,6 +1826,22 @@
    "created": "2026-07-15",
    "labels": [
     "DCA",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19673",
+   "name": "PLANS-19673: Smile Health: Getting a 500 error when purchasing a smile health plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-15",
+   "labels": [
     "product_prioritized"
    ]
   },
@@ -2066,6 +2050,38 @@
    ]
   },
   {
+   "key": "PLANS-20040",
+   "name": "PLANS-20040: One Smile Portal: Purchase: Duplicate plans are displayed on \"Choose Plan\" page",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20000",
+   "name": "PLANS-20000: Smile Health Portal: Purchase: Plans are duplicated after select office and same happening after selecting any plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19874",
    "name": "One smile/ Essential smile - Portal restrictions not applied",
    "pod": "LL",
@@ -2077,22 +2093,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-17",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19673",
-   "name": "Smile Health - getting a 500 error when purchasing a smile health plan - STAGE",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-15",
    "labels": [
     "product_prioritized"
    ]
@@ -2403,22 +2403,6 @@
    ]
   },
   {
-   "key": "PLANS-20239",
-   "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-23",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20047",
    "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
    "pod": "LL",
@@ -2435,10 +2419,26 @@
    ]
   },
   {
+   "key": "PLANS-20239",
+   "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19140",
    "name": "PLANS-19140: PMP: Additional Benefits: Back of the card: UI is not matching Figma",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 17-26",
@@ -2549,6 +2549,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20490",
+   "name": "WFP- Overview page - Membership shows as 'Delinquent' for WFP Purchases",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-20406",
    "name": "PMP \\ Membership Agreement is not available when upgrading a plan",
