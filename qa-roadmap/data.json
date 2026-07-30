@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T02:59:23+00:00",
+ "generated_at": "2026-07-30T04:59:28+00:00",
  "today": "2026-07-30",
  "features": [
   {
@@ -1709,7 +1709,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Nazarii Polinyk",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
