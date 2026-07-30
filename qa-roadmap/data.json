@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T12:30:33+00:00",
+ "generated_at": "2026-07-30T14:44:24+00:00",
  "today": "2026-07-30",
  "features": [
   {
@@ -186,7 +186,7 @@
    "key": "PLANS-18413",
    "name": "Marketing Details",
    "status": "In Development",
-   "ted": "2026-07-30",
+   "ted": "2026-08-06",
    "fv": "R9.7",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate"
@@ -528,7 +528,7 @@
    "key": "PLANS-18413",
    "name": "Marketing Details",
    "status": "In Development",
-   "ted": "2026-07-30",
+   "ted": "2026-08-06",
    "fv": "R9.7",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate",
@@ -1248,7 +1248,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-07-30",
+   "ted": "2026-08-06",
    "who": "Vasyl Skochko",
    "theme": "LL-MVP"
   },
@@ -2127,7 +2127,7 @@
    "cat": "To Do",
    "fv": "R9.6",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Michael McNulty",
    "reporter": "Michael McNulty",
    "prio": "2: Important",
    "created": "2026-05-27",
