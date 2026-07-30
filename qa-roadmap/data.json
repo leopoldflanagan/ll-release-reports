@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T16:29:26+00:00",
+ "generated_at": "2026-07-30T18:27:45+00:00",
  "today": "2026-07-30",
  "features": [
   {
@@ -1689,22 +1689,6 @@
    ]
   },
   {
-   "key": "PLANS-20491",
-   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20346",
    "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
    "pod": "LL",
@@ -2350,13 +2334,29 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": null,
    "sprint": "LL-Sprint 18-26",
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "4: Low",
    "created": "2026-07-29",
    "labels": []
+  },
+  {
+   "key": "PLANS-20491",
+   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-29",
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20272",
@@ -2601,6 +2601,20 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20615",
+   "name": "Member Portal \\ Existing members do not retain their Legacy Membership Agreement",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
+   "key": "PLANS-20614",
+   "name": "CSP -",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-20594",
    "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
