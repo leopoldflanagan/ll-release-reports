@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T00:20:45+00:00",
+ "generated_at": "2026-07-30T02:59:23+00:00",
  "today": "2026-07-30",
  "features": [
   {
@@ -2352,10 +2352,10 @@
    "sprint": "LL-Sprint 18-26",
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-07-29",
    "labels": [
-    "LLplans"
+    "product_prioritized"
    ]
   },
   {
@@ -2493,7 +2493,7 @@
    "pod": "LL",
    "status": "In QA",
    "cat": "In Progress",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL - Low Prior Bugs",
    "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2601,6 +2601,20 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20560",
+   "name": "CSP \\ Plan activation is allowed when the Membership Agreement logo dynamic field is missing",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
+   "key": "PLANS-20555",
+   "name": "PMP/Autorenew flag turns OFF for the primary member on adding a member to a plan with Autorenew ON",
+   "status": "Backlog",
+   "who": "Vivienne Chawande",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-20547",
    "name": "Stage - Member Portal - The member-context-banner is not rendered on the Treatment Summaries page",
