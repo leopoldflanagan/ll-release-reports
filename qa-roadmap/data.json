@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T18:27:45+00:00",
+ "generated_at": "2026-07-30T20:24:49+00:00",
  "today": "2026-07-30",
  "features": [
   {
@@ -1850,6 +1850,20 @@
    ]
   },
   {
+   "key": "PLANS-20547",
+   "name": "Stage - Member Portal - The member-context-banner is not rendered on the Treatment Summaries page",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": []
+  },
+  {
    "key": "PLANS-20507",
    "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
    "pod": "LL",
@@ -2439,22 +2453,6 @@
    ]
   },
   {
-   "key": "PLANS-19868",
-   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19757",
    "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
    "pod": "LL",
@@ -2468,22 +2466,6 @@
    "created": "2026-07-16",
    "labels": [
     "LLplans",
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19636",
-   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-14",
-   "labels": [
     "product_prioritized"
    ]
   },
@@ -2515,22 +2497,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-17",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19205",
-   "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-08",
    "labels": [
     "product_prioritized"
    ]
@@ -2598,6 +2564,54 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-19868",
+   "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19636",
+   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-14",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19205",
+   "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-08",
+   "labels": [
+    "product_prioritized"
+   ]
   }
  ],
  "nopod": [
@@ -2635,13 +2649,6 @@
    "status": "Backlog",
    "who": "David Jones",
    "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-20547",
-   "name": "Stage - Member Portal - The member-context-banner is not rendered on the Treatment Summaries page",
-   "status": "Backlog",
-   "who": "Petro Yarish",
-   "reporter": "Gabriel Perez Cardozo"
   },
   {
    "key": "PLANS-20542",
