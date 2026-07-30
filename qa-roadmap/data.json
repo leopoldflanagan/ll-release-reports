@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T10:41:12+00:00",
+ "generated_at": "2026-07-30T12:30:33+00:00",
  "today": "2026-07-30",
  "features": [
   {
@@ -1976,22 +1976,6 @@
    ]
   },
   {
-   "key": "PLANS-20272",
-   "name": "PLANS-20272: Wellfit Pay Portal: Plan Details: PDF: Needed minor UI enhancements",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-24",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20268",
    "name": "Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
    "pod": "LL",
@@ -2375,6 +2359,22 @@
    "labels": []
   },
   {
+   "key": "PLANS-20272",
+   "name": "PLANS-20272: Wellfit Pay Portal: Plan Details: PDF: Needed minor UI enhancements",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-24",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20240",
    "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
    "pod": "LL",
@@ -2414,7 +2414,7 @@
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "Plans-Sprint 18-26",
-   "who": "Nazarii Polinyk",
+   "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22",
