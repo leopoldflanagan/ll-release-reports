@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T20:24:49+00:00",
+ "generated_at": "2026-07-30T22:21:40+00:00",
  "today": "2026-07-30",
  "features": [
   {
@@ -15,7 +15,7 @@
    "key": "PLANS-17282",
    "name": "Unintegrated Member Portal View",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-07-31",
    "fv": "R9.6",
    "who": "Denys Kernychnyi",
    "tshirt": "Large"
@@ -396,7 +396,7 @@
    "key": "PLANS-17282",
    "name": "Unintegrated Member Portal View",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-07-31",
    "fv": "R9.6",
    "who": "Denys Kernychnyi",
    "tshirt": "Large",
@@ -1116,7 +1116,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.6",
-   "ted": null,
+   "ted": "2026-07-31",
    "who": "Denys Kernychnyi",
    "theme": "LL-MVP"
   },
@@ -1834,6 +1834,20 @@
    ]
   },
   {
+   "key": "PLANS-20626",
+   "name": "Member Portal<Stage<ACH<Only ACH payment option<while enabling auto-renew<Add Payment Method option showing 2 times",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-07-30",
+   "labels": []
+  },
+  {
    "key": "PLANS-20551",
    "name": "Ancillary Benefit Pull Down Option on Site",
    "pod": "LL",
@@ -2405,22 +2419,6 @@
    ]
   },
   {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20061",
    "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
    "pod": "LL",
@@ -2433,39 +2431,6 @@
    "prio": "2: Important",
    "created": "2026-07-22",
    "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20047",
-   "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19757",
-   "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-07-16",
-   "labels": [
-    "LLplans",
     "product_prioritized"
    ]
   },
@@ -2486,6 +2451,38 @@
    ]
   },
   {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20047",
+   "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19864",
    "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
    "pod": "LL",
@@ -2498,6 +2495,23 @@
    "prio": "2: Important",
    "created": "2026-07-17",
    "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19757",
+   "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-07-16",
+   "labels": [
+    "LLplans",
     "product_prioritized"
    ]
   },
@@ -2649,13 +2663,6 @@
    "status": "Backlog",
    "who": "David Jones",
    "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-20542",
-   "name": "PMP \\ Membership Agreement changes from Closed to Open after dependent removal during manual renewal flow",
-   "status": "Backlog",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-20510",
