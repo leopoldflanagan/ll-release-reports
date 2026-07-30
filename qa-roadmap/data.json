@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T04:59:28+00:00",
+ "generated_at": "2026-07-30T06:49:16+00:00",
  "today": "2026-07-30",
  "features": [
   {
@@ -1673,20 +1673,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-20518",
-   "name": "Smile Health - Comfort Dental - Provider URL does not appear to be proper in the footer",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-29",
-   "labels": []
-  },
-  {
    "key": "PLANS-20346",
    "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
    "pod": "LL",
@@ -2469,6 +2455,20 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20518",
+   "name": "Smile Health - Comfort Dental - Provider URL does not appear to be proper in the footer",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": []
   },
   {
    "key": "PLANS-19757",
