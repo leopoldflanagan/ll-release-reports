@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T14:44:24+00:00",
+ "generated_at": "2026-07-30T16:29:26+00:00",
  "today": "2026-07-30",
  "features": [
   {
@@ -42,7 +42,7 @@
    "key": "PLANS-18481",
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
-   "ted": "2026-07-20",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
@@ -781,7 +781,7 @@
    "key": "PLANS-18481",
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
-   "ted": "2026-07-20",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
@@ -902,7 +902,7 @@
    "key": "WEL-5777",
    "name": "ACH Core Support",
    "status": "In Testing",
-   "ted": "2026-08-05",
+   "ted": "2026-09-02",
    "fv": "R9.7",
    "who": "Daniel Marineni",
    "tshirt": "Large",
@@ -1501,7 +1501,7 @@
    "proj": "PLANS",
    "status": "On Hold",
    "fv": "R9.7",
-   "ted": "2026-07-20",
+   "ted": "2026-08-14",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -1622,7 +1622,7 @@
    "proj": "WEL",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-05",
+   "ted": "2026-09-02",
    "who": "Daniel Marineni",
    "theme": "ACH"
   },
@@ -2125,8 +2125,8 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": null,
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
    "who": "Michael McNulty",
    "reporter": "Michael McNulty",
    "prio": "2: Important",
@@ -2602,17 +2602,24 @@
  ],
  "nopod": [
   {
+   "key": "PLANS-20594",
+   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Petro Yarish"
+  },
+  {
    "key": "PLANS-20560",
    "name": "CSP \\ Plan activation is allowed when the Membership Agreement logo dynamic field is missing",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Michael McNulty",
    "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-20555",
    "name": "PMP/Autorenew flag turns OFF for the primary member on adding a member to a plan with Autorenew ON",
    "status": "Backlog",
-   "who": "Vivienne Chawande",
+   "who": "David Jones",
    "reporter": "Vivienne Chawande"
   },
   {
@@ -2626,7 +2633,7 @@
    "key": "PLANS-20542",
    "name": "PMP \\ Membership Agreement changes from Closed to Open after dependent removal during manual renewal flow",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
   },
   {
