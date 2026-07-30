@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-29T22:18:00+00:00",
- "today": "2026-07-29",
+ "generated_at": "2026-07-30T00:20:45+00:00",
+ "today": "2026-07-30",
  "features": [
   {
    "key": "PLANS-18019",
@@ -1848,6 +1848,22 @@
    ]
   },
   {
+   "key": "PLANS-20551",
+   "name": "Ancillary Benefit Pull Down Option on Site",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-07-29",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20507",
    "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
    "pod": "LL",
@@ -2585,6 +2601,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20547",
+   "name": "Stage - Member Portal - The member-context-banner is not rendered on the Treatment Summaries page",
+   "status": "Backlog",
+   "who": "Petro Yarish",
+   "reporter": "Gabriel Perez Cardozo"
+  },
   {
    "key": "PLANS-20542",
    "name": "PMP \\ Membership Agreement changes from Closed to Open after dependent removal during manual renewal flow",
