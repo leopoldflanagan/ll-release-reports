@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-30T08:52:29+00:00",
+ "generated_at": "2026-07-30T10:41:12+00:00",
  "today": "2026-07-30",
  "features": [
   {
@@ -2394,7 +2394,7 @@
    "key": "PLANS-20067",
    "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
@@ -2410,7 +2410,7 @@
    "key": "PLANS-20061",
    "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "Plans-Sprint 18-26",
@@ -2426,7 +2426,7 @@
    "key": "PLANS-20047",
    "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
@@ -2442,7 +2442,7 @@
    "key": "PLANS-19868",
    "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
@@ -2450,22 +2450,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-17",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19636",
-   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-14",
    "labels": [
     "product_prioritized"
    ]
@@ -2484,6 +2468,22 @@
    "created": "2026-07-16",
    "labels": [
     "LLplans",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19636",
+   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-14",
+   "labels": [
     "product_prioritized"
    ]
   },
