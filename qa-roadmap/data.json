@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T18:28:08+00:00",
+ "generated_at": "2026-07-31T20:26:40+00:00",
  "today": "2026-07-31",
  "features": [
   {
@@ -97,7 +97,7 @@
    "name": "Updates to Transaction History",
    "status": "Blocked",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Nazarii Polinyk",
    "tshirt": "Small"
   },
@@ -151,7 +151,7 @@
    "name": "Handling ACH Declines",
    "status": "Blocked",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large"
   },
@@ -168,7 +168,7 @@
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "status": "In Development",
-   "ted": "2026-07-30",
+   "ted": "2026-08-03",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
    "tshirt": "Large"
@@ -452,7 +452,7 @@
    "name": "Disbursement Splits & Admin Fee Splits",
    "status": "Blocked",
    "ted": "2026-07-17",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "David Jones",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -538,7 +538,7 @@
   {
    "key": "PLANS-18777",
    "name": "Ability to Hide UCR Code Admin Screen, and Explore Savings.",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": null,
    "fv": "R9.7",
    "who": "Daryl Myrick",
@@ -859,7 +859,7 @@
    "name": "Handling ACH Declines",
    "status": "Blocked",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large",
    "pod": "LL",
@@ -870,7 +870,7 @@
    "name": "Updates to Transaction History",
    "status": "Blocked",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Nazarii Polinyk",
    "tshirt": "Small",
    "pod": "LL",
@@ -880,7 +880,7 @@
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "status": "In Development",
-   "ted": "2026-07-30",
+   "ted": "2026-08-03",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
    "tshirt": "Large",
@@ -1170,7 +1170,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Blocked",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": "2026-07-17",
    "who": "David Jones",
    "theme": "LL-MVP"
@@ -1257,7 +1257,7 @@
    "name": "Ability to Hide UCR Code Admin Screen, and Explore Savings.",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": null,
    "who": "Daryl Myrick",
@@ -1577,7 +1577,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Blocked",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": null,
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
@@ -1588,7 +1588,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Blocked",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": null,
    "who": "Nazarii Polinyk",
    "theme": "ACH"
@@ -1600,7 +1600,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-07-30",
+   "ted": "2026-08-03",
    "who": "Valentyna Tenus",
    "theme": "ACH"
   },
@@ -2383,7 +2383,7 @@
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Mykyta Moroz",
    "reporter": "Juan Rodrigo Mejia Rivera",
