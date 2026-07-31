@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T03:00:15+00:00",
+ "generated_at": "2026-07-31T05:07:13+00:00",
  "today": "2026-07-31",
  "features": [
   {
@@ -1872,10 +1872,26 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 18-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Petro Yarish",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20518",
+   "name": "Smile Health - Comfort Dental - Provider URL does not appear to be proper in the footer",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
    "created": "2026-07-29",
    "labels": [
     "product_prioritized"
@@ -2321,7 +2337,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans-Sprint 18-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2374,22 +2390,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2025-08-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20518",
-   "name": "Smile Health - Comfort Dental - Provider URL does not appear to be proper in the footer",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-07-29",
    "labels": [
     "product_prioritized"
    ]
