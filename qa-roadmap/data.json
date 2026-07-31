@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T15:45:00+00:00",
+ "generated_at": "2026-07-31T16:31:24+00:00",
  "today": "2026-07-31",
  "features": [
   {
@@ -1705,54 +1705,6 @@
    ]
   },
   {
-   "key": "PLANS-20327",
-   "name": "Blocker - premieronedentalplan/ Unable to access https://stage.premieronedentalplan.wellfit.com/",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-07-27",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20040",
-   "name": "PLANS-20040: One Smile Portal: Purchase: Duplicate plans are displayed on \"Choose Plan\" page",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20000",
-   "name": "PLANS-20000: Smile Health Portal: Purchase: Plans are duplicated after select office and same happening after selecting any plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Nazarii Polinyk",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19946",
    "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
    "pod": "LL",
@@ -1765,23 +1717,6 @@
    "prio": "1: Urgent",
    "created": "2026-07-20",
    "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19680",
-   "name": "Smile Health/Ancilliary Benefits/Error is displayed at the Careington Provider Search Page",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-15",
-   "labels": [
-    "DCA",
     "product_prioritized"
    ]
   },
@@ -1957,6 +1892,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20327",
+   "name": "Blocker - premieronedentalplan/ Unable to access https://stage.premieronedentalplan.wellfit.com/",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-07-27",
    "labels": [
     "product_prioritized"
    ]
@@ -2523,6 +2474,38 @@
    ]
   },
   {
+   "key": "PLANS-20040",
+   "name": "PLANS-20040: One Smile Portal: Purchase: Duplicate plans are displayed on \"Choose Plan\" page",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20000",
+   "name": "PLANS-20000: Smile Health Portal: Purchase: Plans are duplicated after select office and same happening after selecting any plan",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Nazarii Polinyk",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19864",
    "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
    "pod": "LL",
@@ -2552,6 +2535,23 @@
    "created": "2026-07-16",
    "labels": [
     "LLplans",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19680",
+   "name": "Smile Health/Ancilliary Benefits/Error is displayed at the Careington Provider Search Page",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-15",
+   "labels": [
+    "DCA",
     "product_prioritized"
    ]
   },
