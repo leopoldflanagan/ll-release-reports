@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T00:22:45+00:00",
+ "generated_at": "2026-07-31T03:00:15+00:00",
  "today": "2026-07-31",
  "features": [
   {
@@ -384,7 +384,7 @@
   {
    "key": "PLANS-17058",
    "name": "Renewal Transaction Handling for Migrated Members",
-   "status": "Epics & Stories",
+   "status": "Blocked",
    "ted": null,
    "fv": "R9.7",
    "who": "Chris Rubio",
@@ -428,7 +428,7 @@
   {
    "key": "PLANS-17577",
    "name": "Link Tokens for C/C & ACH to Members",
-   "status": "In Testing",
+   "status": "Blocked",
    "ted": null,
    "fv": "R9.7",
    "who": "Lloyd Tokerud",
@@ -1103,7 +1103,7 @@
    "name": "Renewal Transaction Handling for Migrated Members",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Epics & Stories",
+   "status": "Blocked",
    "fv": "R9.7",
    "ted": null,
    "who": "Chris Rubio",
@@ -1147,7 +1147,7 @@
    "name": "Link Tokens for C/C & ACH to Members",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "Blocked",
    "fv": "R9.7",
    "ted": null,
    "who": "Lloyd Tokerud",
@@ -1827,9 +1827,27 @@
    "sprint": "LL-Sprint 18-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-07-30",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20594",
+   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20551",
@@ -1854,12 +1872,14 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL-Sprint 18-26",
    "who": "Petro Yarish",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
    "created": "2026-07-29",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20499",
@@ -2306,7 +2326,9 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-29",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-18882",
@@ -2368,7 +2390,9 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
    "created": "2026-07-29",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20491",
@@ -2628,46 +2652,11 @@
    "reporter": "Luis Moreno Soberón"
   },
   {
-   "key": "PLANS-20615",
-   "name": "Member Portal \\ Existing members do not retain their Legacy Membership Agreement",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
    "key": "PLANS-20614",
    "name": "CSP -",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-20594",
-   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Petro Yarish"
-  },
-  {
-   "key": "PLANS-20560",
-   "name": "CSP \\ Plan activation is allowed when the Membership Agreement logo dynamic field is missing",
-   "status": "Backlog",
-   "who": "Michael McNulty",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-20555",
-   "name": "PMP/Autorenew flag turns OFF for the primary member on adding a member to a plan with Autorenew ON",
-   "status": "Backlog",
-   "who": "David Jones",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-20510",
-   "name": "Member Portal \\ When manually renewing a plan membership agreement link button is redirecting user to Dashboard page",
-   "status": "PR Created",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno Soberón"
   }
  ],
  "weeks": [
