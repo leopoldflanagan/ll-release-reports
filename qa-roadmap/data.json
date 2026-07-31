@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-30T22:21:40+00:00",
- "today": "2026-07-30",
+ "generated_at": "2026-07-31T00:22:45+00:00",
+ "today": "2026-07-31",
  "features": [
   {
    "key": "PLANS-18019",
@@ -1673,22 +1673,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-20539",
-   "name": "PMP-[WAIVEFAM] Add plan button is not displayed for once max number of members is reached for the Plan (tiered plans )",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20346",
    "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
    "pod": "LL",
@@ -1873,20 +1857,6 @@
    "sprint": null,
    "who": "Petro Yarish",
    "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-07-29",
-   "labels": []
-  },
-  {
-   "key": "PLANS-20507",
-   "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-29",
    "labels": []
@@ -2325,6 +2295,20 @@
    ]
   },
   {
+   "key": "PLANS-20507",
+   "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": []
+  },
+  {
    "key": "PLANS-18882",
    "name": "PLAN BENEFITS: Add Discount to Plan Benefits Section",
    "pod": "LL",
@@ -2336,6 +2320,22 @@
    "reporter": "Vic Du Plessis",
    "prio": "2: Important",
    "created": "2026-07-01",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18603",
+   "name": "Stage - PMP - Purchase Plan - Incorrect toast message displayed when сpromo code is not eligible",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-06-26",
    "labels": [
     "product_prioritized"
    ]
@@ -2414,6 +2414,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20539",
+   "name": "PMP-[WAIVEFAM] Add plan button is not displayed for once max number of members is reached for the Plan (tiered plans )",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-07-29",
    "labels": [
     "product_prioritized"
    ]
@@ -2532,22 +2548,6 @@
    ]
   },
   {
-   "key": "PLANS-18603",
-   "name": "Stage - PMP - Purchase Plan - Incorrect toast message displayed when сpromo code is not eligible",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-06-26",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-16717",
    "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
    "pod": "LL",
@@ -2557,24 +2557,8 @@
    "sprint": "Plans-Sprint 19-26",
    "who": "Valentyna Tenus",
    "reporter": "Valentyna Tenus",
-   "prio": "3: Standard",
-   "created": "2026-05-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-15006",
-   "name": "Member portal - Renew - showing KIDS plans when Renew a SGDP plan (Sgdp plan purchased from SGDP site, no office assigned)",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL-Sprint 18-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
-   "created": "2026-04-06",
+   "created": "2026-05-22",
    "labels": [
     "product_prioritized"
    ]
@@ -2629,6 +2613,20 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20644",
+   "name": "CSP \\ Disabling the OpenClosedNetwork feature flag does not restore the Legacy Membership Agreement across purchase and Member Portal flows",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
+   "key": "PLANS-20640",
+   "name": "Member Portal \\ Existing member do not retain their original Closed Membership Agreement after plan configuration changes to Open Network",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-20615",
    "name": "Member Portal \\ Existing members do not retain their Legacy Membership Agreement",
