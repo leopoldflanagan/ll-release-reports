@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-31T14:46:35+00:00",
+ "generated_at": "2026-07-31T15:45:00+00:00",
  "today": "2026-07-31",
  "features": [
   {
    "key": "PLANS-18019",
-   "name": "Migrate Plans - Phase 1",
+   "name": "Migrate Plans - Phase 1 & 2",
    "status": "In Testing",
    "ted": null,
    "fv": "R9.6",
@@ -515,7 +515,7 @@
   },
   {
    "key": "PLANS-18019",
-   "name": "Migrate Plans - Phase 1",
+   "name": "Migrate Plans - Phase 1 & 2",
    "status": "In Testing",
    "ted": null,
    "fv": "R9.6",
@@ -1232,7 +1232,7 @@
   },
   {
    "key": "PLANS-18019",
-   "name": "Migrate Plans - Phase 1",
+   "name": "Migrate Plans - Phase 1 & 2",
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Testing",
