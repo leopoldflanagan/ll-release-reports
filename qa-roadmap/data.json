@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T05:07:13+00:00",
+ "generated_at": "2026-07-31T06:55:02+00:00",
  "today": "2026-07-31",
  "features": [
   {
@@ -1673,6 +1673,22 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-20594",
+   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20346",
    "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
    "pod": "LL",
@@ -1825,24 +1841,8 @@
    "cat": "To Do",
    "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20594",
-   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Petro Yarish",
    "prio": "2: Important",
    "created": "2026-07-30",
    "labels": [
