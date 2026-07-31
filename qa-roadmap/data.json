@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T08:59:14+00:00",
+ "generated_at": "2026-07-31T10:51:51+00:00",
  "today": "2026-07-31",
  "features": [
   {
@@ -1673,22 +1673,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-20626",
-   "name": "Member Portal<Stage<ACH<Only ACH payment option<while enabling auto-renew<Add Payment Method option showing 2 times",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20594",
    "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
    "pod": "LL",
@@ -2395,6 +2379,22 @@
    ]
   },
   {
+   "key": "PLANS-20626",
+   "name": "Member Portal<Stage<ACH<Only ACH payment option<while enabling auto-renew<Add Payment Method option showing 2 times",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20491",
    "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
    "pod": "LL",
@@ -2406,22 +2406,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20272",
-   "name": "PLANS-20272: Wellfit Pay Portal: Plan Details: PDF: Needed minor UI enhancements",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-24",
    "labels": [
     "product_prioritized"
    ]
@@ -2454,6 +2438,22 @@
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "1: Urgent",
    "created": "2026-07-29",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20272",
+   "name": "PLANS-20272: Wellfit Pay Portal: Plan Details: PDF: Needed minor UI enhancements",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-24",
    "labels": [
     "product_prioritized"
    ]
@@ -2637,6 +2637,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20648",
+   "name": "WFP-Minor UI- 'Plan support' and 'Members' panels overlapped",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-20644",
    "name": "CSP \\ Disabling the OpenClosedNetwork feature flag does not restore the Legacy Membership Agreement across purchase and Member Portal flows",
