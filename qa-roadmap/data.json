@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T20:26:40+00:00",
+ "generated_at": "2026-07-31T22:18:45+00:00",
  "today": "2026-07-31",
  "features": [
   {
@@ -10,15 +10,6 @@
    "fv": "R9.6",
    "who": "Chris Rubio",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "PLANS-17282",
-   "name": "Unintegrated Member Portal View",
-   "status": "In Testing",
-   "ted": "2026-07-31",
-   "fv": "R9.6",
-   "who": "Denys Kernychnyi",
-   "tshirt": "Large"
   },
   {
    "key": "PLANS-16409",
@@ -390,17 +381,6 @@
    "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17282",
-   "name": "Unintegrated Member Portal View",
-   "status": "In Testing",
-   "ted": "2026-07-31",
-   "fv": "R9.6",
-   "who": "Denys Kernychnyi",
-   "tshirt": "Large",
-   "pod": "LL",
    "theme": "LL-MVP"
   },
   {
@@ -1107,17 +1087,6 @@
    "fv": "R9.7",
    "ted": null,
    "who": "Chris Rubio",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17282",
-   "name": "Unintegrated Member Portal View",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-07-31",
-   "who": "Denys Kernychnyi",
    "theme": "LL-MVP"
   },
   {
