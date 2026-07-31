@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T16:31:24+00:00",
+ "generated_at": "2026-07-31T18:28:08+00:00",
  "today": "2026-07-31",
  "features": [
   {
@@ -242,8 +242,8 @@
    "key": "DYN-1077",
    "name": "Launch Loyalty Migration Emails",
    "status": "In Development",
-   "ted": "2026-07-28",
-   "fv": "R9.6",
+   "ted": "2026-08-21",
+   "fv": "R9.7",
    "who": "Rojesh Thapa",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -264,8 +264,8 @@
    "key": "DYN-708",
    "name": "Launch loyalty New Email Journeys",
    "status": "In Testing",
-   "ted": "2026-07-30",
-   "fv": "R9.6",
+   "ted": "2026-08-14",
+   "fv": "R9.7",
    "who": "Rojesh Thapa",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -275,8 +275,8 @@
    "key": "DYN-763",
    "name": "Dynamic Admin Fees in Email Journeys",
    "status": "In Testing",
-   "ted": "2026-07-30",
-   "fv": "R9.6",
+   "ted": "2026-08-14",
+   "fv": "R9.7",
    "who": "Satva Tech",
    "tshirt": "Large",
    "pod": "DYN",
@@ -286,8 +286,8 @@
    "key": "DYN-820",
    "name": "Non Annual Renewals",
    "status": "In Testing",
-   "ted": "2026-07-30",
-   "fv": "R9.6",
+   "ted": "2026-08-14",
+   "fv": "R9.7",
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -571,7 +571,7 @@
   {
    "key": "WEL-5793",
    "name": "DSO - Phase 1 & Phase 2",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-05",
    "fv": "R9.6",
    "who": "Daniel Marineni",
@@ -961,8 +961,8 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Development",
-   "fv": "R9.6",
-   "ted": "2026-07-28",
+   "fv": "R9.7",
+   "ted": "2026-08-21",
    "who": "Rojesh Thapa",
    "theme": "LL-MVP"
   },
@@ -983,8 +983,8 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-07-30",
+   "fv": "R9.7",
+   "ted": "2026-08-14",
    "who": "Rojesh Thapa",
    "theme": "LL-MVP"
   },
@@ -994,8 +994,8 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-07-30",
+   "fv": "R9.7",
+   "ted": "2026-08-14",
    "who": "Satva Tech",
    "theme": "LL-MVP"
   },
@@ -1005,8 +1005,8 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-07-30",
+   "fv": "R9.7",
+   "ted": "2026-08-14",
    "who": "Unassigned",
    "theme": "LL-MVP"
   },
@@ -1290,7 +1290,7 @@
    "name": "DSO - Phase 1 & Phase 2",
    "pod": "WEL",
    "proj": "WEL",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.6",
    "ted": "2026-08-05",
    "who": "Daniel Marineni",
@@ -2556,22 +2556,6 @@
    ]
   },
   {
-   "key": "PLANS-19140",
-   "name": "PLANS-19140: PMP: Additional Benefits: Back of the card: UI is not matching Figma",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-07-07",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-16717",
    "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
    "pod": "LL",
@@ -2634,9 +2618,32 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-19140",
+   "name": "PLANS-19140: PMP: Additional Benefits: Back of the card: UI is not matching Figma",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 17-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-07-07",
+   "labels": [
+    "product_prioritized"
+   ]
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20668",
+   "name": "(Enhanment) - Dental365 | Confort Dental - Increase practice logo size on Purchase and Success pages",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
   {
    "key": "PLANS-20648",
    "name": "WFP-Minor UI- 'Plan support' and 'Members' panels overlapped",
