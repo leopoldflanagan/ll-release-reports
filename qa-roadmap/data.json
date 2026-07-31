@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T06:55:02+00:00",
+ "generated_at": "2026-07-31T08:59:14+00:00",
  "today": "2026-07-31",
  "features": [
   {
@@ -177,7 +177,7 @@
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "status": "In Development",
-   "ted": "2026-08-05",
+   "ted": "2026-08-07",
    "fv": "R9.7",
    "who": "Vasyl Skochko",
    "tshirt": null
@@ -891,7 +891,7 @@
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "status": "In Development",
-   "ted": "2026-08-05",
+   "ted": "2026-08-07",
    "fv": "R9.7",
    "who": "Vasyl Skochko",
    "tshirt": null,
@@ -1611,7 +1611,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-05",
+   "ted": "2026-08-07",
    "who": "Vasyl Skochko",
    "theme": "ACH"
   },
@@ -1672,6 +1672,22 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-20626",
+   "name": "Member Portal<Stage<ACH<Only ACH payment option<while enabling auto-renew<Add Payment Method option showing 2 times",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
   {
    "key": "PLANS-20594",
    "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
@@ -1829,22 +1845,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-06-24",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20626",
-   "name": "Member Portal<Stage<ACH<Only ACH payment option<while enabling auto-renew<Add Payment Method option showing 2 times",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-30",
    "labels": [
     "product_prioritized"
    ]
