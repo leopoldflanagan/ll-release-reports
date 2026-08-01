@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-01T20:17:26+00:00",
+ "generated_at": "2026-08-01T22:16:52+00:00",
  "today": "2026-08-01",
  "features": [
   {
@@ -8,7 +8,7 @@
    "status": "In Testing",
    "ted": null,
    "fv": "R9.6",
-   "who": "Chris Rubio",
+   "who": "Clint Tredway",
    "tshirt": "Moderate"
   },
   {
@@ -499,7 +499,7 @@
    "status": "In Testing",
    "ted": null,
    "fv": "R9.6",
-   "who": "Chris Rubio",
+   "who": "Clint Tredway",
    "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-MVP"
@@ -881,8 +881,8 @@
   {
    "key": "WEL-5777",
    "name": "ACH Core Support",
-   "status": "In Testing",
-   "ted": "2026-09-02",
+   "status": "Blocked",
+   "ted": null,
    "fv": "R9.7",
    "who": "Daniel Marineni",
    "tshirt": "Large",
@@ -1207,7 +1207,7 @@
    "status": "In Testing",
    "fv": "R9.6",
    "ted": null,
-   "who": "Chris Rubio",
+   "who": "Clint Tredway",
    "theme": "LL-MVP"
   },
   {
@@ -1589,9 +1589,9 @@
    "name": "ACH Core Support",
    "pod": "WEL",
    "proj": "WEL",
-   "status": "In Testing",
+   "status": "Blocked",
    "fv": "R9.7",
-   "ted": "2026-09-02",
+   "ted": null,
    "who": "Daniel Marineni",
    "theme": "ACH"
   },
