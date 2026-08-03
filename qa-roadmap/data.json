@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T16:46:42+00:00",
+ "generated_at": "2026-08-03T18:32:25+00:00",
  "today": "2026-08-03",
  "features": [
   {
@@ -1658,6 +1658,20 @@
    ]
   },
   {
+   "key": "PLANS-20303",
+   "name": "PLANS-20303: Provider Portal: SGDP TN: Plan Details: PDF displays binary characters",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-26",
+   "labels": []
+  },
+  {
    "key": "PLANS-19946",
    "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
    "pod": "LL",
@@ -1688,20 +1702,6 @@
    "labels": [
     "product_prioritized"
    ]
-  },
-  {
-   "key": "PLANS-20614",
-   "name": "CSP - Blocker - Restriction Banner Not Displayed on Member Profile After Plan Cancellation (All portals)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-30",
-   "labels": []
   },
   {
    "key": "PLANS-20551",
@@ -2265,22 +2265,6 @@
    ]
   },
   {
-   "key": "PLANS-20594",
-   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20491",
    "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
    "pod": "LL",
@@ -2295,20 +2279,6 @@
    "labels": [
     "product_prioritized"
    ]
-  },
-  {
-   "key": "PLANS-20303",
-   "name": "PLANS-20303: Provider Portal: SGDP TN: Plan Details: PDF displays binary characters",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Vivienne Chawande",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-26",
-   "labels": []
   },
   {
    "key": "PLANS-20240",
@@ -2336,6 +2306,22 @@
    "sprint": "LL-Sprint 18-26",
    "who": "Vasyl Skochko",
    "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20594",
+   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
    "prio": "2: Important",
    "created": "2026-07-30",
    "labels": [
@@ -2381,7 +2367,7 @@
    "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -2534,6 +2520,20 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20614",
+   "name": "CSP - Blocker - Restriction Banner Not Displayed on Member Profile After Plan Cancellation (All portals)",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-30",
+   "labels": []
   },
   {
    "key": "PLANS-16717",
