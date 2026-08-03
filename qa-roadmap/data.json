@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T11:02:05+00:00",
+ "generated_at": "2026-08-03T12:59:06+00:00",
  "today": "2026-08-03",
  "features": [
   {
@@ -1690,38 +1690,6 @@
    ]
   },
   {
-   "key": "PLANS-18564",
-   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-26",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-18461",
-   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-24",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20551",
    "name": "Ancillary Benefit Pull Down Option on Site",
    "pod": "LL",
@@ -2283,22 +2251,6 @@
    ]
   },
   {
-   "key": "PLANS-20626",
-   "name": "Member Portal<Stage<ACH<Only ACH payment option<while enabling auto-renew<Add Payment Method option showing 2 times",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20594",
    "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
    "pod": "LL",
@@ -2342,6 +2294,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20626",
+   "name": "Member Portal<Stage<ACH<Only ACH payment option<while enabling auto-renew<Add Payment Method option showing 2 times",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-07-30",
    "labels": [
     "product_prioritized"
    ]
@@ -2521,6 +2489,38 @@
    "created": "2026-07-15",
    "labels": [
     "DCA",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18564",
+   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-26",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18461",
+   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-24",
+   "labels": [
     "product_prioritized"
    ]
   },
