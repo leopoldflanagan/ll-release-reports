@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T20:29:15+00:00",
+ "generated_at": "2026-08-03T22:20:27+00:00",
  "today": "2026-08-03",
  "features": [
   {
@@ -245,7 +245,7 @@
    "name": "LL - Expired Plans Winback Journey",
    "status": "Blocked",
    "ted": "2026-07-30",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Unassigned",
    "tshirt": "Small",
    "pod": "DYN",
@@ -952,7 +952,7 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "Blocked",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": "2026-07-30",
    "who": "Unassigned",
    "theme": "LL-MVP"
@@ -1950,7 +1950,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
@@ -1966,7 +1966,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
@@ -1982,7 +1982,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
@@ -2368,7 +2368,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22",
@@ -2617,6 +2617,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20695",
+   "name": "Member portal - Renew button showing disabled in Dashboard for expired plans (btn visible in plan overview as expected)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-20677",
    "name": "CREG Plan - Dependencies",
