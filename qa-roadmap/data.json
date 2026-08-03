@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T14:59:03+00:00",
+ "generated_at": "2026-08-03T15:54:45+00:00",
  "today": "2026-08-03",
  "features": [
   {
@@ -1690,6 +1690,20 @@
    ]
   },
   {
+   "key": "PLANS-20614",
+   "name": "CSP - Blocker - Restriction Banner Not Displayed on Member Profile After Plan Cancellation (All portals)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-30",
+   "labels": []
+  },
+  {
    "key": "PLANS-20551",
    "name": "Ancillary Benefit Pull Down Option on Site",
    "pod": "LL",
@@ -2336,7 +2350,7 @@
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2498,7 +2512,7 @@
    "pod": "LL",
    "status": "In QA",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2514,7 +2528,7 @@
    "pod": "LL",
    "status": "In QA",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2607,6 +2621,13 @@
  ],
  "nopod": [
   {
+   "key": "PLANS-20681",
+   "name": "PMP- Existing Member Detection Not Triggered Across Practices and Plan Purchase Fails with Validation Error when member has a active plan(Same Org , Practice A and B)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-20677",
    "name": "CREG Plan - Dependencies",
    "status": "Backlog",
@@ -2640,13 +2661,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-20614",
-   "name": "CSP - Blocker - Restriction banner not visible after plan cancellation",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
