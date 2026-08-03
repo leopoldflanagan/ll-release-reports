@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T12:59:06+00:00",
+ "generated_at": "2026-08-03T14:59:03+00:00",
  "today": "2026-08-03",
  "features": [
   {
@@ -2607,6 +2607,13 @@
  ],
  "nopod": [
   {
+   "key": "PLANS-20677",
+   "name": "CREG Plan - Dependencies",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vera King"
+  },
+  {
    "key": "PLANS-20668",
    "name": "(Enhanment) - Dental365 | Confort Dental - Increase practice logo size on Purchase and Success pages",
    "status": "Backlog",
@@ -2636,7 +2643,7 @@
   },
   {
    "key": "PLANS-20614",
-   "name": "CSP -",
+   "name": "CSP - Blocker - Restriction banner not visible after plan cancellation",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
