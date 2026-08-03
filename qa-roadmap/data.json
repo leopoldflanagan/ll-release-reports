@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T18:32:25+00:00",
+ "generated_at": "2026-08-03T20:29:15+00:00",
  "today": "2026-08-03",
  "features": [
   {
@@ -1664,7 +1664,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
+   "sprint": "LL-Sprint 18-26",
    "who": "Nazarii Polinyk",
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
@@ -1854,7 +1854,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 18-26",
+   "sprint": "Plans-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Sushma Bankar",
    "prio": "2: Important",
@@ -2265,13 +2265,29 @@
    ]
   },
   {
+   "key": "PLANS-20594",
+   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20491",
    "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 18-26",
+   "sprint": "LL-Sprint 18-26",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
@@ -2287,7 +2303,7 @@
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
+   "sprint": "LL-Sprint 18-26",
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -2306,22 +2322,6 @@
    "sprint": "LL-Sprint 18-26",
    "who": "Vasyl Skochko",
    "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20594",
-   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
    "prio": "2: Important",
    "created": "2026-07-30",
    "labels": [
