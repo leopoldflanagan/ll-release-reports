@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T15:54:45+00:00",
+ "generated_at": "2026-08-03T16:46:42+00:00",
  "today": "2026-08-03",
  "features": [
   {
@@ -450,17 +450,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-17586",
-   "name": "Member Portal Support for Subscription Payments",
-   "status": "In Development",
-   "ted": "2026-08-25",
-   "fv": "R9.7",
-   "who": "Rostyslav Masniuk",
-   "tshirt": "Moderate",
-   "pod": "LL",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-17587",
    "name": "Restrictions on Renewals",
    "status": "In Testing",
@@ -622,6 +611,17 @@
    "fv": null,
    "who": "Unassigned",
    "tshirt": "Large",
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17586",
+   "name": "Member Portal Support for Subscription Payments",
+   "status": "In Development",
+   "ted": "2026-08-25",
+   "fv": "R9.7",
+   "who": "Rostyslav Masniuk",
+   "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -1156,17 +1156,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-17586",
-   "name": "Member Portal Support for Subscription Payments",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Development",
-   "fv": "R9.7",
-   "ted": "2026-08-25",
-   "who": "Rostyslav Masniuk",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-17587",
    "name": "Restrictions on Renewals",
    "pod": "LL",
@@ -1329,6 +1318,17 @@
    "fv": null,
    "ted": null,
    "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17586",
+   "name": "Member Portal Support for Subscription Payments",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.7",
+   "ted": "2026-08-25",
+   "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
   {
@@ -2297,6 +2297,20 @@
    ]
   },
   {
+   "key": "PLANS-20303",
+   "name": "PLANS-20303: Provider Portal: SGDP TN: Plan Details: PDF displays binary characters",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Vivienne Chawande",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-26",
+   "labels": []
+  },
+  {
    "key": "PLANS-20240",
    "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
    "pod": "LL",
@@ -2366,8 +2380,8 @@
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -2473,23 +2487,6 @@
    ]
   },
   {
-   "key": "PLANS-19757",
-   "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-07-16",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19680",
    "name": "Smile Health/Ancilliary Benefits/Error is displayed at the Careington Provider Search Page",
    "pod": "LL",
@@ -2545,7 +2542,7 @@
    "status": "On Hold",
    "cat": "In Progress",
    "fv": null,
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "LL-Sprint 18-26",
    "who": "Valentyna Tenus",
    "reporter": "Valentyna Tenus",
    "prio": "2: Important",
@@ -2620,13 +2617,6 @@
   }
  ],
  "nopod": [
-  {
-   "key": "PLANS-20681",
-   "name": "PMP- Existing Member Detection Not Triggered Across Practices and Plan Purchase Fails with Validation Error when member has a active plan(Same Org , Practice A and B)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-20677",
    "name": "CREG Plan - Dependencies",
