@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T12:34:06+00:00",
+ "generated_at": "2026-08-04T14:47:33+00:00",
  "today": "2026-08-04",
  "features": [
   {
@@ -133,7 +133,7 @@
    "name": "Restrictions on Renewals",
    "status": "In Testing",
    "ted": "2026-08-07",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large"
   },
@@ -454,7 +454,7 @@
    "name": "Restrictions on Renewals",
    "status": "In Testing",
    "ted": "2026-08-07",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large",
    "pod": "LL",
@@ -1161,7 +1161,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Testing",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": "2026-08-07",
    "who": "Shchekochykhin Vladyslav",
    "theme": "LL-MVP"
@@ -1658,20 +1658,6 @@
    ]
   },
   {
-   "key": "PLANS-20303",
-   "name": "PLANS-20303: Provider Portal: SGDP TN: Plan Details: PDF displays binary characters",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-26",
-   "labels": []
-  },
-  {
    "key": "PLANS-20061",
    "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
    "pod": "LL",
@@ -1734,6 +1720,20 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20701",
+   "name": "Member Portal : Membership Card: Incorrect Page is opened on selecting Provider Link and Member Agreement/Fee schedule links",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-03",
+   "labels": []
   },
   {
    "key": "PLANS-20551",
@@ -2297,6 +2297,20 @@
    ]
   },
   {
+   "key": "PLANS-20303",
+   "name": "PLANS-20303: Provider Portal: SGDP TN: Plan Details: PDF displays binary characters",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-26",
+   "labels": []
+  },
+  {
    "key": "PLANS-20240",
    "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
    "pod": "LL",
@@ -2593,17 +2607,10 @@
    "reporter": "Petro Yarish"
   },
   {
-   "key": "PLANS-20701",
-   "name": "Member Portal : Membership Card: Incorrect Page is opened on selecting Provider Link and Member Agreement/Fee schedule links",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
    "key": "PLANS-20695",
    "name": "Member portal - Renew button showing disabled in Dashboard for expired plans (btn visible in plan overview as expected)",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "PR Created",
+   "who": "Clint Tredway",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
