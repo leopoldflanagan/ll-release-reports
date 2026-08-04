@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T14:47:33+00:00",
+ "generated_at": "2026-08-04T16:34:35+00:00",
  "today": "2026-08-04",
  "features": [
   {
@@ -882,7 +882,7 @@
    "key": "WEL-5777",
    "name": "ACH Core Support",
    "status": "Blocked",
-   "ted": null,
+   "ted": "2026-09-02",
    "fv": "R9.7",
    "who": "Daniel Marineni",
    "tshirt": "Large",
@@ -1591,7 +1591,7 @@
    "proj": "WEL",
    "status": "Blocked",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-09-02",
    "who": "Daniel Marineni",
    "theme": "ACH"
   },
@@ -1658,6 +1658,22 @@
    ]
   },
   {
+   "key": "PLANS-20275",
+   "name": "One Smile: Fee schedule is listed twice",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Conor Kamperman",
+   "reporter": "Sushma Bankar",
+   "prio": "2: Important",
+   "created": "2026-07-24",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20061",
    "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
    "pod": "LL",
@@ -1669,6 +1685,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20047",
+   "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
    "labels": [
     "product_prioritized"
    ]
@@ -1741,7 +1773,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Camille Knight",
@@ -1875,22 +1907,6 @@
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-07-27",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20275",
-   "name": "One Smile: Fee schedule is listed twice",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-07-24",
    "labels": [
     "product_prioritized"
    ]
@@ -2297,20 +2313,6 @@
    ]
   },
   {
-   "key": "PLANS-20303",
-   "name": "PLANS-20303: Provider Portal: SGDP TN: Plan Details: PDF displays binary characters",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-26",
-   "labels": []
-  },
-  {
    "key": "PLANS-20240",
    "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
    "pod": "LL",
@@ -2343,22 +2345,6 @@
    ]
   },
   {
-   "key": "PLANS-20594",
-   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20491",
    "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
    "pod": "LL",
@@ -2370,22 +2356,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19636",
-   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-14",
    "labels": [
     "product_prioritized"
    ]
@@ -2450,22 +2420,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20047",
-   "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
    "labels": [
     "product_prioritized"
    ]
@@ -2582,6 +2536,36 @@
    "labels": []
   },
   {
+   "key": "PLANS-20594",
+   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20303",
+   "name": "PLANS-20303: Provider Portal: SGDP TN: Plan Details: PDF displays binary characters",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-26",
+   "labels": []
+  },
+  {
    "key": "PLANS-19868",
    "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
    "pod": "LL",
@@ -2596,13 +2580,57 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-19636",
+   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-14",
+   "labels": [
+    "product_prioritized"
+   ]
   }
  ],
  "nopod": [
   {
+   "key": "PLANS-20720",
+   "name": "One Smile - Headers are displayed in the center of the screen & missing logos",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-20716",
+   "name": "One Smile - CRM - welcome email - Activate button not functioning",
+   "status": "Backlog",
+   "who": "Rojesh Thapa",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-20713",
+   "name": "Preprod - CSP - Legal text feature not working.",
+   "status": "In Development",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-20711",
+   "name": "Discount Percentage of Prosthodontics and Oral Surgery Needs to be Removed",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Ezra Skeete"
+  },
+  {
    "key": "PLANS-20706",
    "name": "Denticon eligibility file processing aborts the entire file on a single malformed CSV row",
-   "status": "Ready for Development",
+   "status": "PR Created",
    "who": "Petro Yarish",
    "reporter": "Petro Yarish"
   },
