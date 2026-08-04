@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T06:48:38+00:00",
+ "generated_at": "2026-08-04T08:54:05+00:00",
  "today": "2026-08-04",
  "features": [
   {
@@ -1720,17 +1720,17 @@
    ]
   },
   {
-   "key": "PLANS-19636",
-   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
+   "key": "PLANS-16717",
+   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-14",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "2: Important",
+   "created": "2026-05-22",
    "labels": [
     "product_prioritized"
    ]
@@ -2297,22 +2297,6 @@
    ]
   },
   {
-   "key": "PLANS-20594",
-   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20491",
    "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
    "pod": "LL",
@@ -2356,6 +2340,38 @@
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20594",
+   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19636",
+   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-14",
    "labels": [
     "product_prioritized"
    ]
@@ -2552,22 +2568,6 @@
    "labels": []
   },
   {
-   "key": "PLANS-16717",
-   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "2: Important",
-   "created": "2026-05-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19868",
    "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
    "pod": "LL",
@@ -2585,6 +2585,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20706",
+   "name": "Denticon eligibility file processing aborts the entire file on a single malformed CSV row",
+   "status": "Ready for Development",
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish"
+  },
   {
    "key": "PLANS-20701",
    "name": "Member Portal : Membership Card: Incorrect Page is opened on selecting Provider Link and Member Agreement/Fee schedule links",
