@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T05:00:40+00:00",
+ "generated_at": "2026-08-04T06:48:38+00:00",
  "today": "2026-08-04",
  "features": [
   {
@@ -2350,7 +2350,7 @@
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Vasyl Skochko",
    "reporter": "Vinita Thankur",
