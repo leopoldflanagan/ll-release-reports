@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T18:29:44+00:00",
+ "generated_at": "2026-08-04T20:28:46+00:00",
  "today": "2026-08-04",
  "features": [
   {
@@ -1611,6 +1611,38 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-20713",
+   "name": "Preprod - CSP - Legal text feature - Dynamic footer is not showing in preprod.",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-04",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20594",
+   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20346",
    "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
    "pod": "LL",
@@ -1636,7 +1668,7 @@
    "sprint": "LL-Sprint 18-26",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-07-22",
    "labels": [
     "product_prioritized"
@@ -1691,6 +1723,20 @@
    ]
   },
   {
+   "key": "PLANS-20745",
+   "name": "QA retest - PLANS-20720 - One Smile - Headers are displayed in the center of the screen & missing logos",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-04",
+   "labels": []
+  },
+  {
    "key": "PLANS-20701",
    "name": "Member Portal : Membership Card: Incorrect Page is opened on selecting Provider Link and Member Agreement/Fee schedule links",
    "pod": "LL",
@@ -1700,9 +1746,11 @@
    "sprint": "LL-Sprint 18-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-03",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20551",
@@ -2282,6 +2330,22 @@
    ]
   },
   {
+   "key": "PLANS-20706",
+   "name": "Denticon eligibility file processing aborts the entire file on a single malformed CSV row",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "1: Urgent",
+   "created": "2026-08-04",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20626",
    "name": "Member Portal<Stage<ACH<Only ACH payment option<while enabling auto-renew<Add Payment Method option showing 2 times",
    "pod": "LL",
@@ -2291,22 +2355,6 @@
    "sprint": "LL-Sprint 18-26",
    "who": "Vasyl Skochko",
    "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20594",
-   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
    "prio": "2: Important",
    "created": "2026-07-30",
    "labels": [
@@ -2486,7 +2534,9 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-30",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20275",
@@ -2553,71 +2603,7 @@
    ]
   }
  ],
- "nopod": [
-  {
-   "key": "PLANS-20713",
-   "name": "Preprod - CSP - Legal text feature not working.",
-   "status": "In Development",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-20711",
-   "name": "Discount Percentage of Prosthodontics and Oral Surgery Needs to be Removed",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Ezra Skeete"
-  },
-  {
-   "key": "PLANS-20706",
-   "name": "Denticon eligibility file processing aborts the entire file on a single malformed CSV row",
-   "status": "PR Merged",
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish"
-  },
-  {
-   "key": "PLANS-20695",
-   "name": "Member portal - Renew button showing disabled in Dashboard for expired plans (btn visible in plan overview as expected)",
-   "status": "PR Created",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-20677",
-   "name": "CREG Plan - Dependencies",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vera King"
-  },
-  {
-   "key": "PLANS-20668",
-   "name": "(Enhanment) - Dental365 | Confort Dental - Increase practice logo size on Purchase and Success pages",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Mireya Alvarez"
-  },
-  {
-   "key": "PLANS-20648",
-   "name": "WFP-Minor UI- 'Plan support' and 'Members' panels overlapped",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-20644",
-   "name": "CSP \\ Disabling the OpenClosedNetwork feature flag does not restore the Legacy Membership Agreement across purchase and Member Portal flows",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-20640",
-   "name": "Member Portal \\ Existing member do not retain their original Closed Membership Agreement after plan configuration changes to Open Network",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 3–9",
