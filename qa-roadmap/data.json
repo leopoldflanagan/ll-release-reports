@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T00:22:30+00:00",
+ "generated_at": "2026-08-04T02:59:45+00:00",
  "today": "2026-08-04",
  "features": [
   {
@@ -1672,6 +1672,22 @@
    "labels": []
   },
   {
+   "key": "PLANS-20061",
+   "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19946",
    "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
    "pod": "LL",
@@ -1699,6 +1715,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-15",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19636",
+   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-14",
    "labels": [
     "product_prioritized"
    ]
@@ -2393,22 +2425,6 @@
    ]
   },
   {
-   "key": "PLANS-20061",
-   "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20047",
    "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
    "pod": "LL",
@@ -2566,57 +2582,16 @@
    "labels": [
     "product_prioritized"
    ]
-  },
-  {
-   "key": "PLANS-19636",
-   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-14",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19205",
-   "name": "PLANS-19205: Wellfit Pay Portal: PMP: Plan Card: Error is displayed on selecting provider link",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-08",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19140",
-   "name": "PLANS-19140: PMP: Additional Benefits: Back of the card: UI is not matching Figma",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-07-07",
-   "labels": [
-    "product_prioritized"
-   ]
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20701",
+   "name": "Member Portal : Membership Card: Incorrect Page is opened on selecting Provider Link and Member Agreement/Fee schedule links",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-20695",
    "name": "Member portal - Renew button showing disabled in Dashboard for expired plans (btn visible in plan overview as expected)",
