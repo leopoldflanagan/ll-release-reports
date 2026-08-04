@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-04T10:51:53+00:00",
+ "generated_at": "2026-08-04T12:34:06+00:00",
  "today": "2026-08-04",
  "features": [
   {
@@ -2297,22 +2297,6 @@
    ]
   },
   {
-   "key": "PLANS-20491",
-   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20240",
    "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
    "pod": "LL",
@@ -2356,6 +2340,22 @@
    "reporter": "Petro Yarish",
    "prio": "2: Important",
    "created": "2026-07-30",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20491",
+   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-29",
    "labels": [
     "product_prioritized"
    ]
