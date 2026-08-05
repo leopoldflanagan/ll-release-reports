@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T10:49:00+00:00",
+ "generated_at": "2026-08-05T12:32:54+00:00",
  "today": "2026-08-05",
  "features": [
   {
@@ -1611,22 +1611,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-20713",
-   "name": "Preprod - CSP - Legal text feature - Dynamic footer is not showing in preprod.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-04",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20346",
    "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
    "pod": "LL",
@@ -1689,6 +1673,20 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20759",
+   "name": "Smile Health - Zip code search is not fucntioning - 400 error (Missing / in the url)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-05",
+   "labels": []
   },
   {
    "key": "PLANS-20745",
@@ -2261,6 +2259,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2025-08-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20713",
+   "name": "Preprod - CSP - Legal text feature - Dynamic footer is not showing in preprod.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-04",
    "labels": [
     "product_prioritized"
    ]
