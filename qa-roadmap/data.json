@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T18:29:19+00:00",
+ "generated_at": "2026-08-05T20:28:58+00:00",
  "today": "2026-08-05",
  "features": [
   {
@@ -518,17 +518,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "WEL-5793",
-   "name": "DSO - Phase 1 & Phase 2",
-   "status": "In Testing",
-   "ted": "2026-08-05",
-   "fv": "R9.6",
-   "who": "Daniel Marineni",
-   "tshirt": "X-Large",
-   "pod": "WEL",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "status": "Epics & Stories",
@@ -641,7 +630,7 @@
   {
    "key": "PLANS-17728",
    "name": "CSP ADD Plans Settings FOR Individual Plus",
-   "status": "Idea",
+   "status": "Ready for Development",
    "ted": null,
    "fv": null,
    "who": "Unassigned",
@@ -663,7 +652,7 @@
   {
    "key": "PLANS-17732",
    "name": "Implement web analytics platform to support DSO analytics requirements",
-   "status": "Idea",
+   "status": "Requirements",
    "ted": null,
    "fv": null,
    "who": "Unassigned",
@@ -685,7 +674,7 @@
   {
    "key": "PLANS-18017",
    "name": "Multi-Practice User - Manage Patient",
-   "status": "Idea",
+   "status": "Architecture",
    "ted": null,
    "fv": null,
    "who": "Unassigned",
@@ -718,7 +707,7 @@
   {
    "key": "PLANS-18074",
    "name": "CSP - Request a Refund",
-   "status": "Idea",
+   "status": "Architecture",
    "ted": null,
    "fv": null,
    "who": "Michael McNulty",
@@ -1213,17 +1202,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "WEL-5793",
-   "name": "DSO - Phase 1 & Phase 2",
-   "pod": "WEL",
-   "proj": "WEL",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": "2026-08-05",
-   "who": "Daniel Marineni",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "pod": "LL",
@@ -1338,7 +1316,7 @@
    "name": "CSP ADD Plans Settings FOR Individual Plus",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "Ready for Development",
    "fv": null,
    "ted": null,
    "who": "Unassigned",
@@ -1360,7 +1338,7 @@
    "name": "Implement web analytics platform to support DSO analytics requirements",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "Requirements",
    "fv": null,
    "ted": null,
    "who": "Unassigned",
@@ -1382,7 +1360,7 @@
    "name": "Multi-Practice User - Manage Patient",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "Architecture",
    "fv": null,
    "ted": null,
    "who": "Unassigned",
@@ -1415,7 +1393,7 @@
    "name": "CSP - Request a Refund",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "Architecture",
    "fv": null,
    "ted": null,
    "who": "Michael McNulty",
@@ -2608,18 +2586,18 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-20773",
-   "name": "Member Portal \\ Auto renew toggle configured as off turns on after upgrading a plan",
+   "key": "PLANS-20776",
+   "name": "Autorenewal is not Prechecked for SGDP plans though it is Set up to be Preselected in CSP Plan Template",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
+   "reporter": "Vivienne Chawande"
   },
   {
-   "key": "PLANS-20766",
-   "name": "STAGE/ Preprod - Broken - Auto renew checkbox is not prechecked in Smile health",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
+   "key": "PLANS-20773",
+   "name": "Member Portal \\ Auto renew toggle configured as off turns on after upgrading a plan",
+   "status": "PR Created",
+   "who": "Hunter Redhead",
+   "reporter": "Luis Moreno Soberón"
   }
  ],
  "weeks": [
