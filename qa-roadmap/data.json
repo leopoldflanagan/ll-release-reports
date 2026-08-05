@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T16:30:29+00:00",
+ "generated_at": "2026-08-05T18:29:19+00:00",
  "today": "2026-08-05",
  "features": [
   {
@@ -1680,12 +1680,45 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": null,
    "sprint": "LL-Sprint 18-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
+   "prio": "3: Standard",
    "created": "2026-07-15",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20771",
+   "name": "Ancillary Benefit - Find a Provider - is pulling wrong details",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-05",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20768",
+   "name": "Migrated Plans - Exclusions - Inconsistent behavior",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-08-05",
    "labels": [
     "product_prioritized"
    ]
@@ -2220,6 +2253,22 @@
    ]
   },
   {
+   "key": "PLANS-20772",
+   "name": "PMP - Summary displays incorrect duplicated promo in a renewal process",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-05",
+   "labels": [
+    "LLplans"
+   ]
+  },
+  {
    "key": "PLANS-20507",
    "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
    "pod": "LL",
@@ -2263,22 +2312,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2025-08-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20713",
-   "name": "Preprod - CSP - Legal text feature - Dynamic footer is not showing in preprod.",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-04",
    "labels": [
     "product_prioritized"
    ]
@@ -2338,7 +2371,7 @@
    "status": "In QA",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "LL-Sprint 19-26",
    "who": "Petro Yarish",
    "reporter": "Petro Yarish",
    "prio": "1: Urgent",
@@ -2573,7 +2606,22 @@
    ]
   }
  ],
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-20773",
+   "name": "Member Portal \\ Auto renew toggle configured as off turns on after upgrading a plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
+   "key": "PLANS-20766",
+   "name": "STAGE/ Preprod - Broken - Auto renew checkbox is not prechecked in Smile health",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 3–9",
