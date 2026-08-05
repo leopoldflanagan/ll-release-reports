@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T14:46:10+00:00",
+ "generated_at": "2026-08-05T15:46:55+00:00",
  "today": "2026-08-05",
  "features": [
   {
@@ -1611,20 +1611,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-20759",
-   "name": "Smile Health - Zip code search is not fucntioning - 400 error (Missing / in the url)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-05",
-   "labels": []
-  },
-  {
    "key": "PLANS-20346",
    "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
    "pod": "LL",
@@ -1662,7 +1648,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Vivienne Chawande",
    "reporter": "Vivienne Chawande",
@@ -2537,22 +2523,6 @@
    ]
   },
   {
-   "key": "PLANS-20594",
-   "name": "CSP Marketing Settings - coverage level marketing content becomes unreachable (SubGroup keyed on a name string)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20272",
    "name": "PLANS-20272: Wellfit Pay Portal: Plan Details: PDF: Needed minor UI enhancements",
    "pod": "LL",
@@ -2601,7 +2571,15 @@
    ]
   }
  ],
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-20760",
+   "name": "preprod - feature flags not showing up",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 3–9",
