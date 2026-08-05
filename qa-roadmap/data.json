@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-05T15:46:55+00:00",
+ "generated_at": "2026-08-05T16:30:29+00:00",
  "today": "2026-08-05",
  "features": [
   {
@@ -1627,6 +1627,22 @@
    ]
   },
   {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-20061",
    "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
    "pod": "LL",
@@ -1684,9 +1700,11 @@
    "sprint": null,
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-04",
-   "labels": []
+   "labels": [
+    "product_prioritized"
+   ]
   },
   {
    "key": "PLANS-20701",
@@ -2459,22 +2477,6 @@
    ]
   },
   {
-   "key": "PLANS-19636",
-   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-14",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -2539,22 +2541,6 @@
    ]
   },
   {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-19868",
    "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
    "pod": "LL",
@@ -2569,17 +2555,25 @@
    "labels": [
     "product_prioritized"
    ]
-  }
- ],
- "nopod": [
+  },
   {
-   "key": "PLANS-20760",
-   "name": "preprod - feature flags not showing up",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
+   "key": "PLANS-19636",
+   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-14",
+   "labels": [
+    "product_prioritized"
+   ]
   }
  ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 3–9",
