@@ -1,16 +1,7 @@
 {
- "generated_at": "2026-08-05T20:28:58+00:00",
+ "generated_at": "2026-08-05T22:21:32+00:00",
  "today": "2026-08-05",
  "features": [
-  {
-   "key": "PLANS-18019",
-   "name": "Migrate Plans - Phase 1 & 2",
-   "status": "In Testing",
-   "ted": null,
-   "fv": "R9.6",
-   "who": "Clint Tredway",
-   "tshirt": "Moderate"
-  },
   {
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
@@ -243,17 +234,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "DYN-708",
-   "name": "Launch loyalty New Email Journeys",
-   "status": "In Testing",
-   "ted": "2026-08-14",
-   "fv": "R9.7",
-   "who": "Rojesh Thapa",
-   "tshirt": "Moderate",
-   "pod": "DYN",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "DYN-763",
    "name": "Dynamic Admin Fees in Email Journeys",
    "status": "In Testing",
@@ -460,17 +440,6 @@
    "who": "Unassigned",
    "tshirt": "X-Large",
    "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-18019",
-   "name": "Migrate Plans - Phase 1 & 2",
-   "status": "In Testing",
-   "ted": null,
-   "fv": "R9.6",
-   "who": "Clint Tredway",
-   "tshirt": "Moderate",
-   "pod": "LL",
    "theme": "LL-MVP"
   },
   {
@@ -685,7 +654,7 @@
   {
    "key": "PLANS-18018",
    "name": "Define Refund Window Timeframes",
-   "status": "Idea",
+   "status": "Architecture",
    "ted": null,
    "fv": null,
    "who": "Michael McNulty",
@@ -751,7 +720,7 @@
   {
    "key": "PLAT-5587",
    "name": "Multi Org Hierarchy",
-   "status": "Idea",
+   "status": "Requirements",
    "ted": null,
    "fv": null,
    "who": "Vic Du Plessis",
@@ -927,17 +896,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "DYN-708",
-   "name": "Launch loyalty New Email Journeys",
-   "pod": "DYN",
-   "proj": "DYN",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-14",
-   "who": "Rojesh Thapa",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "DYN-763",
    "name": "Dynamic Admin Fees in Email Journeys",
    "pod": "DYN",
@@ -1144,17 +1102,6 @@
    "fv": "R9.7",
    "ted": null,
    "who": "Unassigned",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-18019",
-   "name": "Migrate Plans - Phase 1 & 2",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.6",
-   "ted": null,
-   "who": "Clint Tredway",
    "theme": "LL-MVP"
   },
   {
@@ -1371,7 +1318,7 @@
    "name": "Define Refund Window Timeframes",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "Architecture",
    "fv": null,
    "ted": null,
    "who": "Michael McNulty",
@@ -1437,7 +1384,7 @@
    "name": "Multi Org Hierarchy",
    "pod": "PLAT",
    "proj": "PLAT",
-   "status": "Idea",
+   "status": "Requirements",
    "fv": null,
    "ted": null,
    "who": "Vic Du Plessis",
@@ -2585,6 +2532,20 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20781",
+   "name": "SGDP TN Plan \\ Missing latest fixes from stg in preprod env",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
+   "key": "PLANS-20779",
+   "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-20776",
    "name": "Autorenewal is not Prechecked for SGDP plans though it is Set up to be Preselected in CSP Plan Template",
