@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06T05:01:02+00:00",
+ "generated_at": "2026-08-06T06:51:18+00:00",
  "today": "2026-08-06",
  "features": [
   {
@@ -2532,6 +2532,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20828",
+   "name": "Plan Details PDF resolves the default brand logo instead of the plan's own brand",
+   "status": "WAITING REVIEW",
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel"
+  },
   {
    "key": "PLANS-20779",
    "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
