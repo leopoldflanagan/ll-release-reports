@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06T14:45:37+00:00",
+ "generated_at": "2026-08-06T23:59:18+00:00",
  "today": "2026-08-06",
  "features": [
   {
@@ -178,7 +178,7 @@
    "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Vic Du Plessis",
    "tshirt": null
   },
@@ -189,6 +189,51 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Vic Du Plessis",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-20836",
+   "name": "Legal Language Intake for ACH",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-20613",
+   "name": "Write All Plans member communications to WFP Comms Service",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-19644",
+   "name": "PMP: Tying multiple Patient ID's to one WF ID",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-18881",
+   "name": "Marketin Details - Driving Smile Health",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-18673",
+   "name": "Purchase Widget to Payment Widget Integration",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
    "tshirt": null
   },
   {
@@ -403,7 +448,7 @@
    "name": "Auto-Renewal Re-Try Process",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Michael McNulty",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -469,7 +514,7 @@
    "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Vic Du Plessis",
    "tshirt": null,
    "pod": "LL",
@@ -819,7 +864,7 @@
   {
    "key": "WEL-5777",
    "name": "ACH Core Support",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": "2026-09-02",
    "fv": "R9.7",
    "who": "Daniel Marineni",
@@ -870,6 +915,61 @@
    "tshirt": "Large",
    "pod": "WEL",
    "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-18673",
+   "name": "Purchase Widget to Payment Widget Integration",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-18881",
+   "name": "Marketin Details - Driving Smile Health",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-19644",
+   "name": "PMP: Tying multiple Patient ID's to one WF ID",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-20613",
+   "name": "Write All Plans member communications to WFP Comms Service",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-20836",
+   "name": "Legal Language Intake for ACH",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
   }
  ],
  "all": [
@@ -1066,7 +1166,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Architecture",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": null,
    "who": "Michael McNulty",
    "theme": "LL-MVP"
@@ -1132,7 +1232,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Ready for Development",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": null,
    "who": "Vic Du Plessis",
    "theme": "LL-MVP"
@@ -1483,7 +1583,7 @@
    "name": "ACH Core Support",
    "pod": "WEL",
    "proj": "WEL",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.7",
    "ted": "2026-09-02",
    "who": "Daniel Marineni",
@@ -1532,6 +1632,61 @@
    "ted": "2026-09-09",
    "who": "Daniel Marineni",
    "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-18673",
+   "name": "Purchase Widget to Payment Widget Integration",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-18881",
+   "name": "Marketin Details - Driving Smile Health",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-19644",
+   "name": "PMP: Tying multiple Patient ID's to one WF ID",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Epics & Stories",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-20613",
+   "name": "Write All Plans member communications to WFP Comms Service",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-20836",
+   "name": "Legal Language Intake for ACH",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
   }
  ],
  "bugs": [
@@ -1541,7 +1696,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Valentyna Tenus",
    "reporter": "Vinita Thankur",
@@ -1614,6 +1769,20 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-20842",
+   "name": "CSP - Minor UI enhancement - The Restriction Dates does not follow the default system date format",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-06",
+   "labels": []
   },
   {
    "key": "PLANS-20771",
@@ -2178,6 +2347,20 @@
    ]
   },
   {
+   "key": "PLANS-20838",
+   "name": "CSP - Renewal Restriction Banner Not Visible and Restriction Value Lost When Configured from Group Management",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-06",
+   "labels": []
+  },
+  {
    "key": "PLANS-20772",
    "name": "PMP - Summary displays incorrect duplicated promo in a renewal process",
    "pod": "LL",
@@ -2205,6 +2388,22 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-07-29",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20272",
+   "name": "PLANS-20272: Wellfit Pay Portal: Plan Details: PDF: Needed minor UI enhancements",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-24",
    "labels": [
     "product_prioritized"
    ]
@@ -2247,7 +2446,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2274,183 +2473,6 @@
    ]
   },
   {
-   "key": "PLANS-20706",
-   "name": "Denticon eligibility file processing aborts the entire file on a single malformed CSV row",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "1: Urgent",
-   "created": "2026-08-04",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20626",
-   "name": "Member Portal<Stage<ACH<Only ACH payment option<while enabling auto-renew<Add Payment Method option showing 2 times",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20539",
-   "name": "PMP-[WAIVEFAM] Add plan button is not displayed for once max number of members is reached for the Plan (tiered plans )",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20491",
-   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20239",
-   "name": "DCA- wellfit copyright missing for DCA (need to confirm with PM)",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-23",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20040",
-   "name": "PLANS-20040: One Smile Portal: Purchase: Duplicate plans are displayed on \"Choose Plan\" page",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20000",
-   "name": "PLANS-20000: Smile Health Portal: Purchase: Plans are duplicated after select office and same happening after selecting any plan",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Nazarii Polinyk",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19864",
-   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-19680",
-   "name": "Smile Health/Ancilliary Benefits/Error is displayed at the Careington Provider Search Page",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-15",
-   "labels": [
-    "DCA",
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-18564",
-   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-26",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-18461",
-   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-24",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20614",
    "name": "CSP - Blocker - Restriction Banner Not Displayed on Member Profile After Plan Cancellation (All portals)",
    "pod": "LL",
@@ -2467,17 +2489,49 @@
    ]
   },
   {
-   "key": "PLANS-20272",
-   "name": "PLANS-20272: Wellfit Pay Portal: Plan Details: PDF: Needed minor UI enhancements",
+   "key": "PLANS-20706",
+   "name": "Denticon eligibility file processing aborts the entire file on a single malformed CSV row",
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
-   "fv": "R9.6",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "1: Urgent",
+   "created": "2026-08-04",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20491",
+   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-24",
+   "prio": "1: Urgent",
+   "created": "2026-07-29",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-20040",
+   "name": "PLANS-20040: One Smile Portal: Purchase: Duplicate plans are displayed on \"Choose Plan\" page",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
    "labels": [
     "product_prioritized"
    ]
@@ -2499,6 +2553,39 @@
    ]
   },
   {
+   "key": "PLANS-19864",
+   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-19680",
+   "name": "Smile Health/Ancilliary Benefits/Error is displayed at the Careington Provider Search Page",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-07-15",
+   "labels": [
+    "DCA",
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19636",
    "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
    "pod": "LL",
@@ -2513,9 +2600,69 @@
    "labels": [
     "product_prioritized"
    ]
+  },
+  {
+   "key": "PLANS-18564",
+   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-26",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
+   "key": "PLANS-18461",
+   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-24",
+   "labels": [
+    "product_prioritized"
+   ]
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20856",
+   "name": "DCA/KOS – Updated \"No Results\" message is not displayed in Practice Search pop-up",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
+  {
+   "key": "PLANS-20855",
+   "name": "DCA – Support link is missing from the footer",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
+  {
+   "key": "PLANS-20854",
+   "name": "Smile Health | Comfort Dental Studio – Logo does not navigate to the home page when clicked",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
+  {
+   "key": "PLANS-20851",
+   "name": "Issue with Service bus subscription- subscription has no filters and there are no consumers",
+   "status": "Ready for Development",
+   "who": "Leopoldo Flanagan",
+   "reporter": "Sushma Bankar"
+  },
   {
    "key": "PLANS-20828",
    "name": "Plan Details PDF resolves the default brand logo instead of the plan's own brand",
@@ -2533,7 +2680,7 @@
   {
    "key": "PLANS-20773",
    "name": "Member Portal \\ Auto renew toggle configured as off turns on after upgrading a plan",
-   "status": "PR Merged",
+   "status": "In Stage",
    "who": "Hunter Redhead",
    "reporter": "Luis Moreno Soberón"
   }
