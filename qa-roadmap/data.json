@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-05T22:21:32+00:00",
- "today": "2026-08-05",
+ "generated_at": "2026-08-06T00:19:00+00:00",
+ "today": "2026-08-06",
  "features": [
   {
    "key": "PLANS-16409",
@@ -2274,22 +2274,6 @@
    ]
   },
   {
-   "key": "PLANS-20047",
-   "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
    "key": "PLANS-20706",
    "name": "Denticon eligibility file processing aborts the entire file on a single malformed CSV row",
    "pod": "LL",
@@ -2499,6 +2483,22 @@
    ]
   },
   {
+   "key": "PLANS-20047",
+   "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.6",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-21",
+   "labels": [
+    "product_prioritized"
+   ]
+  },
+  {
    "key": "PLANS-19868",
    "name": "Purchase Portal / ADHA portal - Plan restrictions not applicable ; plan can be purchased",
    "pod": "LL",
@@ -2547,16 +2547,9 @@
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
-   "key": "PLANS-20776",
-   "name": "Autorenewal is not Prechecked for SGDP plans though it is Set up to be Preselected in CSP Plan Template",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
    "key": "PLANS-20773",
    "name": "Member Portal \\ Auto renew toggle configured as off turns on after upgrading a plan",
-   "status": "PR Created",
+   "status": "PR Merged",
    "who": "Hunter Redhead",
    "reporter": "Luis Moreno Soberón"
   }
