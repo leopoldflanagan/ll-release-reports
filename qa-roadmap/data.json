@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06T06:51:18+00:00",
+ "generated_at": "2026-08-06T08:53:38+00:00",
  "today": "2026-08-06",
  "features": [
   {
@@ -2478,22 +2478,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-24",
-   "labels": [
-    "product_prioritized"
-   ]
-  },
-  {
-   "key": "PLANS-20047",
-   "name": "plan details -Legacy Fallback- showing sgdp logo (in legacy template) for non sgdp plans",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21",
    "labels": [
     "product_prioritized"
    ]
