@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T16:10:05+00:00",
+ "generated_at": "2026-08-07T16:15:30+00:00",
  "today": "2026-08-07",
  "features": [
   {
@@ -2357,6 +2357,24 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20851",
+   "name": "Issue with Service bus subscription- subscription has no filters and there are no consumers",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Sushma Bankar",
+   "prio": "1: Urgent",
+   "created": "2026-08-06",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20838",
    "name": "CSP - Renewal Restriction Banner Not Visible and Restriction Value Lost When Configured from Group Management",
    "pod": "LL",
@@ -2663,51 +2681,27 @@
     "product_prioritized"
    ],
    "linkedLP": false
-  }
- ],
- "nopod": [
-  {
-   "key": "PLANS-20856",
-   "name": "DCA/KOS – Updated \"No Results\" message is not displayed in Practice Search pop-up",
-   "status": "Ready for Development",
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez"
-  },
-  {
-   "key": "PLANS-20855",
-   "name": "DCA – Support link is missing from the footer",
-   "status": "In Development",
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez"
-  },
-  {
-   "key": "PLANS-20854",
-   "name": "Smile Health | Comfort Dental Studio – Logo does not navigate to the home page when clicked",
-   "status": "Backlog",
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez"
-  },
-  {
-   "key": "PLANS-20851",
-   "name": "Issue with Service bus subscription- subscription has no filters and there are no consumers",
-   "status": "Ready for Development",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Sushma Bankar"
   },
   {
    "key": "PLANS-20828",
    "name": "Plan Details PDF resolves the default brand logo instead of the plan's own brand",
+   "pod": "LL",
    "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
    "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel"
-  },
-  {
-   "key": "PLANS-20779",
-   "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-05",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  }
+ ],
+ "nopod": [
   {
    "key": "PLANS-20773",
    "name": "Member Portal \\ Auto renew toggle configured as off turns on after upgrading a plan",
