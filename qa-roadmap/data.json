@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T02:59:01+00:00",
+ "generated_at": "2026-08-07T04:13:47+00:00",
  "today": "2026-08-07",
  "features": [
   {
@@ -1704,7 +1704,8 @@
    "created": "2026-07-27",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20067",
@@ -1720,7 +1721,8 @@
    "created": "2026-07-22",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20061",
@@ -1736,7 +1738,8 @@
    "created": "2026-07-22",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-19946",
@@ -1752,7 +1755,8 @@
    "created": "2026-07-20",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-19648",
@@ -1768,7 +1772,8 @@
    "created": "2026-07-15",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20842",
@@ -1782,7 +1787,8 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-06",
-   "labels": []
+   "labels": [],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20771",
@@ -1799,7 +1805,8 @@
    "labels": [
     "group1_migration",
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20768",
@@ -1815,7 +1822,8 @@
    "created": "2026-08-05",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20745",
@@ -1831,7 +1839,8 @@
    "created": "2026-08-04",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20701",
@@ -1847,7 +1856,8 @@
    "created": "2026-08-03",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20648",
@@ -1863,7 +1873,8 @@
    "created": "2026-07-31",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-20551",
@@ -1879,7 +1890,8 @@
    "created": "2026-07-29",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20547",
@@ -1895,7 +1907,8 @@
    "created": "2026-07-29",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-20518",
@@ -1911,7 +1924,8 @@
    "created": "2026-07-29",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20499",
@@ -1927,7 +1941,8 @@
    "created": "2026-07-29",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-20496",
@@ -1943,7 +1958,8 @@
    "created": "2026-07-29",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-20495",
@@ -1959,7 +1975,8 @@
    "created": "2026-07-29",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-20387",
@@ -1975,7 +1992,8 @@
    "created": "2026-07-28",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-20369",
@@ -1991,7 +2009,8 @@
    "created": "2026-07-23",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-20327",
@@ -2007,7 +2026,8 @@
    "created": "2026-07-27",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-20268",
@@ -2023,7 +2043,8 @@
    "created": "2026-07-24",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-20265",
@@ -2039,7 +2060,8 @@
    "created": "2026-07-24",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-20232",
@@ -2055,7 +2077,8 @@
    "created": "2026-07-23",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20207",
@@ -2071,7 +2094,8 @@
    "created": "2026-07-23",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-19874",
@@ -2087,7 +2111,8 @@
    "created": "2026-07-17",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-18790",
@@ -2103,7 +2128,8 @@
    "created": "2026-07-01",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-18787",
@@ -2119,7 +2145,8 @@
    "created": "2026-07-01",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-18784",
@@ -2135,7 +2162,8 @@
    "created": "2026-07-01",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-16901",
@@ -2151,7 +2179,8 @@
    "created": "2026-05-27",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-16858",
@@ -2167,7 +2196,8 @@
    "created": "2026-05-27",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-16403",
@@ -2183,7 +2213,8 @@
    "created": "2026-05-20",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-16298",
@@ -2199,7 +2230,8 @@
    "created": "2026-05-19",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-15657",
@@ -2215,7 +2247,8 @@
    "created": "2026-04-29",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-15283",
@@ -2231,7 +2264,8 @@
    "created": "2026-04-22",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-15280",
@@ -2247,7 +2281,8 @@
    "created": "2026-04-22",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-15258",
@@ -2263,7 +2298,8 @@
    "created": "2026-04-22",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-15078",
@@ -2279,7 +2315,8 @@
    "created": "2026-04-14",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-15036",
@@ -2295,7 +2332,8 @@
    "created": "2026-04-09",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-15033",
@@ -2311,7 +2349,8 @@
    "created": "2026-04-09",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-14923",
@@ -2327,7 +2366,8 @@
    "created": "2026-03-13",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-14884",
@@ -2344,7 +2384,8 @@
    "labels": [
     "Reenbit",
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20838",
@@ -2358,7 +2399,8 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-06",
-   "labels": []
+   "labels": [],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20772",
@@ -2374,7 +2416,8 @@
    "created": "2026-08-05",
    "labels": [
     "LLplans"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20507",
@@ -2390,7 +2433,8 @@
    "created": "2026-07-29",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": true
   },
   {
    "key": "PLANS-18882",
@@ -2406,7 +2450,8 @@
    "created": "2026-07-01",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-8578",
@@ -2422,7 +2467,8 @@
    "created": "2025-08-22",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20240",
@@ -2438,7 +2484,8 @@
    "created": "2026-07-23",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-16717",
@@ -2454,7 +2501,8 @@
    "created": "2026-05-22",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20614",
@@ -2470,7 +2518,8 @@
    "created": "2026-07-30",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20706",
@@ -2486,7 +2535,8 @@
    "created": "2026-08-04",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20491",
@@ -2502,7 +2552,8 @@
    "created": "2026-07-29",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-20040",
@@ -2518,7 +2569,8 @@
    "created": "2026-07-21",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-19864",
@@ -2534,7 +2586,8 @@
    "created": "2026-07-17",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-19680",
@@ -2551,7 +2604,8 @@
    "labels": [
     "DCA",
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-19636",
@@ -2567,7 +2621,8 @@
    "created": "2026-07-14",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-18564",
@@ -2583,7 +2638,8 @@
    "created": "2026-06-26",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   },
   {
    "key": "PLANS-18461",
@@ -2599,7 +2655,8 @@
    "created": "2026-06-24",
    "labels": [
     "product_prioritized"
-   ]
+   ],
+   "linkedLP": false
   }
  ],
  "nopod": [
