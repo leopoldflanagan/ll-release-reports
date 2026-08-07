@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T06:21:39+00:00",
+ "generated_at": "2026-08-07T08:22:20+00:00",
  "today": "2026-08-07",
  "features": [
   {
@@ -2685,7 +2685,7 @@
    "key": "PLANS-20851",
    "name": "Issue with Service bus subscription- subscription has no filters and there are no consumers",
    "status": "Ready for Development",
-   "who": "Leopoldo Flanagan",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Sushma Bankar"
   },
   {
