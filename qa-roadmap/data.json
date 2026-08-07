@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T16:15:30+00:00",
+ "generated_at": "2026-08-07T18:14:24+00:00",
  "today": "2026-08-07",
  "features": [
   {
@@ -214,7 +214,7 @@
    "name": "PMP: Tying multiple Patient ID's to one WF ID",
    "status": "Epics & Stories",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": null
   },
@@ -223,7 +223,7 @@
    "name": "Marketin Details - Driving Smile Health",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": null
   },
@@ -646,7 +646,7 @@
    "name": "CSP ADD Plans Settings FOR Individual Plus",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": null,
    "pod": "PLANS",
@@ -932,7 +932,7 @@
    "name": "Marketin Details - Driving Smile Health",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": null,
    "pod": "LL",
@@ -943,7 +943,7 @@
    "name": "PMP: Tying multiple Patient ID's to one WF ID",
    "status": "Epics & Stories",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": null,
    "pod": "LL",
@@ -1364,7 +1364,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Ready for Development",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": null,
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
@@ -1650,7 +1650,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Architecture",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": null,
    "who": "Unassigned",
    "theme": ""
@@ -1661,7 +1661,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Epics & Stories",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": null,
    "who": "Unassigned",
    "theme": ""
@@ -1690,6 +1690,23 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-20346",
+   "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-07-27",
+   "labels": [
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20067",
    "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
@@ -1765,7 +1782,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
@@ -1774,7 +1791,7 @@
     "group3_migration",
     "product_prioritized"
    ],
-   "linkedLP": false
+   "linkedLP": true
   },
   {
    "key": "PLANS-20771",
@@ -1782,8 +1799,8 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
@@ -1801,7 +1818,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Camille Knight",
    "prio": "3: Standard",
@@ -1809,7 +1826,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "linkedLP": false
+   "linkedLP": true
   },
   {
    "key": "PLANS-20745",
@@ -1834,7 +1851,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Mykyta Moroz",
    "reporter": "Vivienne Chawande",
@@ -2380,8 +2397,8 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2390,7 +2407,7 @@
     "group3_migration",
     "product_prioritized"
    ],
-   "linkedLP": false
+   "linkedLP": true
   },
   {
    "key": "PLANS-20772",
@@ -2399,15 +2416,15 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 19-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "3: Standard",
    "created": "2026-08-05",
    "labels": [
-    "LLplans"
+    "product_prioritized"
    ],
-   "linkedLP": false
+   "linkedLP": true
   },
   {
    "key": "PLANS-20507",
@@ -2432,7 +2449,7 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
    "who": "Valentyna Tenus",
    "reporter": "Vic Du Plessis",
@@ -2512,23 +2529,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20614",
-   "name": "CSP - Blocker - Restriction Banner Not Displayed on Member Profile After Plan Cancellation (All portals)",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL-Sprint 18-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-30",
-   "labels": [
-    "product_prioritized"
-   ],
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20706",
    "name": "Denticon eligibility file processing aborts the entire file on a single malformed CSV row",
    "pod": "LL",
@@ -2557,23 +2557,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ],
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20346",
-   "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-07-27",
    "labels": [
     "product_prioritized"
    ],
@@ -2689,7 +2672,7 @@
    "status": "WAITING REVIEW",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "LL-Sprint 19-26",
    "who": "Dima Shtympel",
    "reporter": "Dima Shtympel",
    "prio": "2: Important",
@@ -2703,11 +2686,18 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-20773",
-   "name": "Member Portal \\ Auto renew toggle configured as off turns on after upgrading a plan",
-   "status": "In Stage",
-   "who": "Hunter Redhead",
-   "reporter": "Luis Moreno Soberón"
+   "key": "PLANS-20869",
+   "name": "Stage - Member Portal - 48-hour data-freshness disclaimer is not displayed on the Benefit Summaries page",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo"
+  },
+  {
+   "key": "PLANS-20866",
+   "name": "Stage - Member Portal - The member-context-banner is not rendered on the Benefit Summaries page",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo"
   }
  ],
  "weeks": [
