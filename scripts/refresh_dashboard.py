@@ -36,9 +36,14 @@ CLOUD_FIELDS = {
 }
 FIELDS = ["summary", "status", "fixVersions", "assignee", "reporter",
           "project", "customfield_11626", "customfield_10023",
-          "customfield_10044", "customfield_10020", "priority", "created", "labels"]  # 10020 = Sprint
+          "customfield_10044", "customfield_10020", "priority", "created", "labels",
+          "parent", "customfield_10014", "issuelinks"]  # 10020 = Sprint, 10014 = Epic Link
 
 THEMES = ["LL-MVP", "LL-Fast Follows", "ACH", "ACH-Fast Follows"]
+
+# Camille: P3/P4 bugs should hang under this epic ("LL - Low Prior Bugs").
+# We flag bugs NOT linked to it so they can be actioned.
+LOWPRIO_EPIC = "PLANS-20751"
 
 # ---------------------------------------------------------------------------
 
@@ -100,6 +105,18 @@ def parse_issue(i, theme=None):
     sprint_name = None
     if isinstance(sprint, list) and sprint:
         sprint_name = sprint[-1].get("name") if isinstance(sprint[-1], dict) else None
+    # Is this issue linked to the LL - Low Prior Bugs epic? (parent / Epic Link / issue link)
+    parent = f.get("parent") or {}
+    epic_link = f.get("customfield_10014")
+    link_keys = set()
+    for l in (f.get("issuelinks") or []):
+        for side in ("inwardIssue", "outwardIssue"):
+            o = l.get(side) or {}
+            if o.get("key"):
+                link_keys.add(o["key"])
+    linked_lowprio = (parent.get("key") == LOWPRIO_EPIC
+                      or epic_link == LOWPRIO_EPIC
+                      or LOWPRIO_EPIC in link_keys)
     return {
         "key": i["key"],
         "name": clean(f.get("summary")),
@@ -115,6 +132,7 @@ def parse_issue(i, theme=None):
         "prio": (prio.get("name") if prio else None) or "3: Standard",
         "created": (f.get("created") or "")[:10],
         "labels": f.get("labels") or [],
+        "linked_lowprio": linked_lowprio,
         "theme": theme or "",
     }
 
@@ -191,7 +209,8 @@ def pull_bugs():
                     "status": r["status"], "cat": cat, "fv": r.get("fv"),
                     "sprint": r.get("sprint"), "who": r.get("who") or "Unassigned",
                     "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard",
-                    "created": r.get("created") or "", "labels": r.get("labels") or []})
+                    "created": r.get("created") or "", "labels": r.get("labels") or [],
+                    "linkedLP": bool(r.get("linked_lowprio"))})
     return out
 
 

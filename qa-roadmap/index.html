@@ -175,6 +175,16 @@
   .prio.p3{background:#e7f0fb;color:var(--blue)}
   .prio.p4{background:#eef2f7;color:var(--muted)}
   .prio.p5,.prio.px{background:#eef2f7;color:var(--muted)}
+  /* migration-group label pill + P3/P4 review flag icons */
+  .gtag{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;background:#eaf7ee;color:#2f7d1c;margin-left:6px;white-space:nowrap}
+  .flagico{display:inline-block;margin-left:6px;cursor:help;font-size:12.5px;vertical-align:middle;line-height:1}
+  .flagico.nolabel{filter:saturate(1.1)}
+  #buggroupfilter .tbtn.active{background:var(--green);border-color:var(--green);color:#fff;box-shadow:0 1px 4px rgba(76,175,46,.3)}
+  #buggroupfilter .tbtn:hover{border-color:var(--green);color:var(--green)}
+  #buggroupfilter .tbtn.active:hover{color:#fff}
+  #bugflagfilter .tbtn.active{background:var(--amber);border-color:var(--amber);color:#fff;box-shadow:0 1px 4px rgba(232,163,23,.3)}
+  #bugflagfilter .tbtn:hover{border-color:var(--amber);color:#9a6a06}
+  #bugflagfilter .tbtn.active:hover{color:#fff}
   /* priority-group cards: breakdown row of the two levels inside */
   .priobreak{display:flex;gap:8px;margin-top:10px;padding-top:9px;border-top:1px solid var(--line)}
   .priobreak .pb{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;color:var(--ink)}
@@ -351,7 +361,7 @@
   </div>
 
   <div class="panel" id="panel-bugs">
-    <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status or priority chips to filter (multi-select), and export the filtered list to Excel.</p>
+    <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status, priority, or migration-group chips to filter (multi-select), and export the filtered list to Excel. P3/P4 bugs show a 🏷️ if they are missing a migration-group label and a 🔗 if they are not linked to the <b>LL - Low Prior Bugs</b> epic (PLANS-20751).</p>
     <div class="cards" id="bugcards"></div>
     <div class="toolbar">
       <div class="searchbar" id="bugsearchbox">
@@ -369,6 +379,10 @@
         <div class="themebtns" id="bugnewfilter"></div></div>
         <div class="filterrow"><span class="flabel">Prioritized</span>
         <div class="themebtns" id="buglabelfilter"></div></div>
+        <div class="filterrow"><span class="flabel">Group</span>
+        <div class="themebtns" id="buggroupfilter"></div></div>
+        <div class="filterrow"><span class="flabel">Review</span>
+        <div class="themebtns" id="bugflagfilter"></div></div>
       </div>
       <div class="filterfoot">
         <span class="fcount" id="bugfcount"></span>
@@ -850,9 +864,19 @@ let bugStatuses=new Set();   // multi-select status chips; empty = all
 let bugPrios=new Set();      // multi-select priority chips; empty = all
 let bugNewOnly=false;        // when true, show only bugs created within NEW_DAYS
 let bugLabelFilter="all";    // all | prioritized | unprioritized
+let bugGroups=new Set();     // multi-select migration-group label chips; empty = all
+let bugFlags=new Set();      // multi-select P3/P4 review flags: "nolabel" | "nolink"
 const NEW_DAYS=2;            // a bug is "NEW" if created within this many days
 const PRIO_LABEL="product_prioritized";
 function hasLabel(b){ return Array.isArray(b.labels) && b.labels.includes(PRIO_LABEL); }
+// Camille's migration groups + LL - Low Prior Bugs epic linkage (P3/P4 focus)
+const GROUP_LABELS=["group1_migration","group2_migration","group3_migration"];
+const LOWPRIO_EPIC="PLANS-20751";
+function isP34(b){ return prioNum(b.prio)>=3; }               // P3 + P4
+function bugGroupLabels(b){ return (Array.isArray(b.labels)?b.labels:[]).filter(l=>GROUP_LABELS.includes(l)); }
+function hasGroupLabel(b){ return bugGroupLabels(b).length>0; }
+function missingGroup(b){ return isP34(b) && !hasGroupLabel(b); }      // P3/P4 with no group label
+function notLinkedLP(b){ return isP34(b) && !b.linkedLP; }             // P3/P4 not parented to the epic
 function prioNum(p){ const m=/^(\d+)/.exec(p||""); return m?parseInt(m[1],10):99; }
 function prioShort(p){ const m=/^(\d+)/.exec(p||""); return m?("P"+m[1]):"—"; }
 // a bug is NEW if its created date is within NEW_DAYS of the snapshot date (TODAY)
@@ -881,6 +905,8 @@ function bugRows(){
   if(bugNewOnly) r=r.filter(isNew);
   if(bugLabelFilter==="prioritized") r=r.filter(hasLabel);
   else if(bugLabelFilter==="unprioritized") r=r.filter(b=>!hasLabel(b));
+  if(bugGroups.size) r=r.filter(b=>bugGroupLabels(b).some(l=>bugGroups.has(l)));
+  if(bugFlags.size) r=r.filter(b=> (bugFlags.has("nolabel")&&missingGroup(b)) || (bugFlags.has("nolink")&&notLinkedLP(b)) );
   if(bugSearchTerm) r=r.filter(b=>matchSearch(b, bugSearchTerm));
   return r;
 }
@@ -943,8 +969,12 @@ function renderBugs(){
     list.sort((a,b)=>prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key)).forEach(b=>{
       const pn=prioNum(b.prio);
       const newTag = isNew(b) ? ` <span class="newtag" title="Created within the last ${NEW_DAYS} days">NEW</span>` : '';
+      const gl = bugGroupLabels(b).map(l=>`<span class="gtag" title="Migration group label">${l.replace('_migration',' migration')}</span>`).join("");
+      const flags =
+        (missingGroup(b)?`<span class="flagico nolabel" title="P3/P4 missing a migration-group label (group1/2/3_migration) — assign the migration group">🏷️</span>`:"")+
+        (notLinkedLP(b)?`<span class="flagico nolink" title="P3/P4 not linked to the LL - Low Prior Bugs epic (PLANS-20751) — link it as parent">🔗</span>`:"");
       const tr=document.createElement("tr");
-      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}<br><span style="color:var(--ink)">${b.name}</span></td>`+
+      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}${flags}<br><span style="color:var(--ink)">${b.name}${gl}</span></td>`+
         `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
         `<td>${b.fv||'<span class="muted-date">—</span>'}</td>`+
         `<td>${b.sprint?`<span class="sprint">${b.sprint}</span>`:'<span class="muted-date">—</span>'}</td>`+
@@ -957,7 +987,7 @@ function renderBugs(){
   updateBugFoot(rows.length);
 }
 function bugActiveCount(){
-  return bugStatuses.size+bugPrios.size+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0)+(bugNewOnly?1:0)+(bugLabelFilter!=="all"?1:0);
+  return bugStatuses.size+bugPrios.size+bugGroups.size+bugFlags.size+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0)+(bugNewOnly?1:0)+(bugLabelFilter!=="all"?1:0);
 }
 function updateBugFoot(shown){
   const n=bugActiveCount();
@@ -1063,11 +1093,11 @@ function syncLabelChips(lf){
 function exportBugsToExcel(){
   const rows=bugRows().slice().sort((a,b)=>
     flowRank(b.status)-flowRank(a.status)||prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key));
-  const cols=["Key","Summary","Status","Priority","Fix Version","Sprint","Assignee","Reporter"];
+  const cols=["Key","Summary","Status","Priority","Fix Version","Sprint","Assignee","Reporter","Migration Group","In LL-LowPrio Epic"];
   const esc=s=>String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
   const cell=v=>`<Cell><Data ss:Type="String">${esc(v)}</Data></Cell>`;
   const headRow=`<Row>${cols.map(c=>`<Cell><Data ss:Type="String">${esc(c)}</Data></Cell>`).join("")}</Row>`;
-  const bodyRows=rows.map(b=>`<Row>${[b.key,b.name,b.status,b.prio,b.fv,b.sprint,b.who,b.reporter].map(cell).join("")}</Row>`).join("");
+  const bodyRows=rows.map(b=>`<Row>${[b.key,b.name,b.status,b.prio,b.fv,b.sprint,b.who,b.reporter,bugGroupLabels(b).join(" | "),(b.linkedLP?"Yes":"No")].map(cell).join("")}</Row>`).join("");
   const xml=`<?xml version="1.0"?>
 <?mso-application progid="Excel.Sheet"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
@@ -1112,11 +1142,46 @@ function noPodList(){
   const nt=document.getElementById("nopodtitle");
   if(nt) nt.innerHTML=`PLANS bugs with no Pod — needs triage &amp; assignment — ${NOPOD.length} item${NOPOD.length!==1?'s':''}`;
 }
+// Migration-group label filter chips (multi-select OR)
+function bugGroupFilters(){
+  const gf=document.getElementById("buggroupfilter"); if(!gf) return;
+  gf.innerHTML="";
+  const allBtn=document.createElement("button");
+  allBtn.className="tbtn active"; allBtn.dataset.grp="__all__"; allBtn.textContent="All";
+  allBtn.addEventListener("click",()=>{ bugGroups.clear(); syncGroupChips(gf); renderBugs(); });
+  gf.appendChild(allBtn);
+  GROUP_LABELS.forEach(l=>{
+    const c=BUGS.filter(b=>bugGroupLabels(b).includes(l)).length;
+    const btn=document.createElement("button"); btn.className="tbtn"; btn.dataset.grp=l;
+    btn.textContent=`${l.replace('_migration',' migration')} · ${c}`;
+    btn.addEventListener("click",()=>{ if(bugGroups.has(l)) bugGroups.delete(l); else bugGroups.add(l); syncGroupChips(gf); renderBugs(); });
+    gf.appendChild(btn);
+  });
+}
+function syncGroupChips(gf){ gf.querySelectorAll(".tbtn").forEach(b=>{ const v=b.dataset.grp; if(v==="__all__") b.classList.toggle("active",bugGroups.size===0); else b.classList.toggle("active",bugGroups.has(v)); }); }
+// P3/P4 review flags: missing group label / not linked to the LL - Low Prior Bugs epic (multi-select OR)
+function bugFlagFilters(){
+  const ff=document.getElementById("bugflagfilter"); if(!ff) return;
+  ff.innerHTML="";
+  const noLabel=BUGS.filter(missingGroup).length, noLink=BUGS.filter(notLinkedLP).length;
+  const allBtn=document.createElement("button");
+  allBtn.className="tbtn active"; allBtn.dataset.flag="__all__"; allBtn.textContent="All";
+  allBtn.addEventListener("click",()=>{ bugFlags.clear(); syncFlagChips(ff); renderBugs(); });
+  ff.appendChild(allBtn);
+  [["nolabel",`🏷️ No group (P3/P4) · ${noLabel}`],["nolink",`🔗 No epic (P3/P4) · ${noLink}`]].forEach(([v,label])=>{
+    const btn=document.createElement("button"); btn.className="tbtn"; btn.dataset.flag=v; btn.innerHTML=label;
+    btn.addEventListener("click",()=>{ if(bugFlags.has(v)) bugFlags.delete(v); else bugFlags.add(v); syncFlagChips(ff); renderBugs(); });
+    ff.appendChild(btn);
+  });
+}
+function syncFlagChips(ff){ ff.querySelectorAll(".tbtn").forEach(b=>{ const v=b.dataset.flag; if(v==="__all__") b.classList.toggle("active",bugFlags.size===0); else b.classList.toggle("active",bugFlags.has(v)); }); }
 function initBugs(){
   bugStatusFilters();
   bugPrioFilters();
   bugNewFilter();
   bugLabelFilters();
+  bugGroupFilters();
+  bugFlagFilters();
   noPodList();
   renderBugs();
   wireSearch("bugsearchbox","bugsearch","bugsearchclear","bugsearchcount",
@@ -1130,6 +1195,10 @@ function initBugs(){
     if(nAll) nAll.click();
     const lAll=document.querySelector('#buglabelfilter .tbtn[data-labelf="all"]');
     if(lAll) lAll.click();
+    const gAll=document.querySelector('#buggroupfilter .tbtn[data-grp="__all__"]');
+    if(gAll) gAll.click();
+    const flAll=document.querySelector('#bugflagfilter .tbtn[data-flag="__all__"]');
+    if(flAll) flAll.click();
     bugCard="all";
     const si=document.getElementById("bugsearch");
     if(si){ si.value=""; bugSearchTerm=""; document.getElementById("bugsearchbox").classList.remove("has-text"); }
