@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T15:20:44+00:00",
+ "generated_at": "2026-08-07T16:10:05+00:00",
  "today": "2026-08-07",
  "features": [
   {
@@ -140,7 +140,7 @@
   {
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-03",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
@@ -842,7 +842,7 @@
   {
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-03",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
@@ -1561,7 +1561,7 @@
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-03",
    "who": "Valentyna Tenus",
@@ -1768,9 +1768,12 @@
    "sprint": "Plans-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "4: Low",
    "created": "2026-08-06",
-   "labels": [],
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
    "linkedLP": false
   },
   {
@@ -2365,7 +2368,10 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-06",
-   "labels": [],
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
    "linkedLP": false
   },
   {
