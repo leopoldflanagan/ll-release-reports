@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T10:17:18+00:00",
+ "generated_at": "2026-08-07T12:13:40+00:00",
  "today": "2026-08-07",
  "features": [
   {
@@ -1877,23 +1877,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20551",
-   "name": "Ancillary Benefit Pull Down Option on Site",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ],
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20547",
    "name": "Stage - Member Portal - The member-context-banner is not rendered on the Treatment Summaries page",
    "pod": "LL",
@@ -2465,6 +2448,23 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2025-08-22",
+   "labels": [
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20551",
+   "name": "Ancillary Benefit Pull Down Option on Site",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-07-29",
    "labels": [
     "product_prioritized"
    ],
