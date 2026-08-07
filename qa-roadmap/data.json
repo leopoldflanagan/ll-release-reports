@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-07T14:20:32+00:00",
+ "generated_at": "2026-08-07T15:20:44+00:00",
  "today": "2026-08-07",
  "features": [
   {
@@ -160,7 +160,7 @@
    "name": "Marketing Details",
    "status": "In Development",
    "ted": "2026-08-14",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate"
   },
@@ -492,7 +492,7 @@
    "name": "Marketing Details",
    "status": "In Development",
    "ted": "2026-08-14",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate",
    "pod": "LL",
@@ -1210,7 +1210,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Development",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": "2026-08-14",
    "who": "Vasyl Skochko",
    "theme": "LL-MVP"
@@ -2663,14 +2663,14 @@
   {
    "key": "PLANS-20856",
    "name": "DCA/KOS – Updated \"No Results\" message is not displayed in Practice Search pop-up",
-   "status": "In Development",
+   "status": "Ready for Development",
    "who": "Mariano Hernández",
    "reporter": "Mireya Alvarez"
   },
   {
    "key": "PLANS-20855",
    "name": "DCA – Support link is missing from the footer",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "Mariano Hernández",
    "reporter": "Mireya Alvarez"
   },
