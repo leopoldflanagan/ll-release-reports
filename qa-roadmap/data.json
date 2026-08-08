@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-07T22:10:10+00:00",
- "today": "2026-08-07",
+ "generated_at": "2026-08-08T00:09:50+00:00",
+ "today": "2026-08-08",
  "features": [
   {
    "key": "PLANS-16409",
@@ -2621,6 +2621,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20878",
+   "name": "Stage - Member Portal - Benefit Summary is displayed when hasBenefitSummary is false",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo"
+  },
   {
    "key": "PLANS-20874",
    "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
