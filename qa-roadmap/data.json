@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T08:29:35+00:00",
+ "generated_at": "2026-08-10T10:26:43+00:00",
  "today": "2026-08-10",
  "features": [
   {
@@ -1660,6 +1660,24 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-20771",
+   "name": "Ancillary Benefit - Find a Provider - is pulling wrong details",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-05",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20491",
    "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
    "pod": "LL",
@@ -1684,7 +1702,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
+   "who": "Denys Kernychnyi",
    "reporter": "Vinita Thankur",
    "prio": "1: Urgent",
    "created": "2026-07-27",
@@ -1728,6 +1746,40 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-18564",
+   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-26",
+   "labels": [
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18461",
+   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-24",
+   "labels": [
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20866",
    "name": "Stage - Member Portal - The member-context-banner is not rendered on the Benefit Summaries page",
    "pod": "LL",
@@ -1762,24 +1814,6 @@
     "product_prioritized"
    ],
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20771",
-   "name": "Ancillary Benefit - Find a Provider - is pulling wrong details",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-05",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "linkedLP": false
   },
   {
    "key": "PLANS-20768",
@@ -2431,24 +2465,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20828",
-   "name": "Plan Details PDF resolves the default brand logo instead of the plan's own brand",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "2: Important",
-   "created": "2026-08-05",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20551",
    "name": "Ancillary Benefit Pull Down Option on Site",
    "pod": "LL",
@@ -2512,6 +2528,24 @@
    "prio": "2: Important",
    "created": "2026-05-22",
    "labels": [
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20828",
+   "name": "Plan Details PDF resolves the default brand logo instead of the plan's own brand",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-05",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "linkedLP": false
@@ -2584,43 +2618,16 @@
     "product_prioritized"
    ],
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-18564",
-   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-26",
-   "labels": [
-    "product_prioritized"
-   ],
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18461",
-   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-24",
-   "labels": [
-    "product_prioritized"
-   ],
-   "linkedLP": false
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-20881",
+   "name": "PMP - When plan is cancelled or deleted , members are NOT showing in search",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-20878",
    "name": "Stage - Member Portal - Benefit Summary is displayed when hasBenefitSummary is false",
