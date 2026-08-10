@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T18:14:52+00:00",
+ "generated_at": "2026-08-10T20:00:20+00:00",
  "today": "2026-08-10",
  "features": [
   {
@@ -43,7 +43,7 @@
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
    "ted": "2026-07-31",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
   },
@@ -52,7 +52,7 @@
    "name": "New Bill To Office Option",
    "status": "In Testing",
    "ted": "2026-07-31",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
   },
@@ -70,7 +70,7 @@
    "name": "WAIVEFAM Promo Code",
    "status": "In Testing",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Small"
   },
@@ -97,7 +97,7 @@
    "name": "Handle Integration within The Member Portal",
    "status": "In Testing",
    "ted": "2026-07-29",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Petro Yarish",
    "tshirt": "Moderate"
   },
@@ -296,7 +296,7 @@
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
    "ted": "2026-07-31",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
    "pod": "LL",
@@ -307,7 +307,7 @@
    "name": "WAIVEFAM Promo Code",
    "status": "In Testing",
    "ted": null,
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Small",
    "pod": "LL",
@@ -373,7 +373,7 @@
    "name": "Handle Integration within The Member Portal",
    "status": "In Testing",
    "ted": "2026-07-29",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Petro Yarish",
    "tshirt": "Moderate",
    "pod": "LL",
@@ -395,7 +395,7 @@
    "name": "New Bill To Office Option",
    "status": "In Testing",
    "ted": "2026-07-31",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate",
    "pod": "LL",
@@ -1003,7 +1003,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Testing",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": "2026-07-31",
    "who": "Ivan Yarymovych",
    "theme": "LL-MVP"
@@ -1014,7 +1014,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Testing",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": null,
    "who": "Mykyta Moroz",
    "theme": "LL-MVP"
@@ -1080,7 +1080,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Testing",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": "2026-07-29",
    "who": "Petro Yarish",
    "theme": "LL-MVP"
@@ -1102,7 +1102,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Testing",
-   "fv": "R9.6",
+   "fv": "R9.7",
    "ted": "2026-07-31",
    "who": "Mykyta Moroz",
    "theme": "LL-MVP"
@@ -1660,6 +1660,23 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-20905",
+   "name": "Preprod/Smile Health/Plan purchase is failing",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-08-10",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20779",
    "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
    "pod": "PLANS",
@@ -1747,25 +1764,6 @@
    "sprint": "LL-Sprint 18-26",
    "who": "Mykyta Moroz",
    "reporter": "Gabriel Perez Cardozo",
-   "prio": "1: Urgent",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20112",
-   "name": "Patient renewed online, but the plan changed to the kids plan",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Clint Tredway",
-   "reporter": "Vera King",
    "prio": "1: Urgent",
    "created": "2026-07-22",
    "labels": [
@@ -1947,8 +1945,8 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "David Jones",
    "reporter": "Carmen West",
    "prio": "3: Standard",
    "created": "2026-08-10",
@@ -5369,6 +5367,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20908",
+   "name": "[WIAVEFAM] - PMP - Promo code should apply when adding a minor as a second member",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
+   "labels": [
+    "LLplans"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20851",
    "name": "Issue with Service bus subscription- subscription has no filters and there are no consumers",
    "pod": "LL",
@@ -6171,26 +6188,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20856",
-   "name": "DCA/KOS – Updated \"No Results\" message is not displayed in Practice Search pop-up",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-06",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20778",
    "name": "Stage - Member Portal - ADD PLAN - Dental Savings Plans popup appears without plan cards",
    "pod": "PLANS",
@@ -6278,6 +6275,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20856",
+   "name": "DCA/KOS – Updated \"No Results\" message is not displayed in Practice Search pop-up",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Mariano Hernández",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-06",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20240",
    "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
    "pod": "LL",
@@ -6289,6 +6306,25 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20112",
+   "name": "Patient renewed online, but the plan changed to the kids plan",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Clint Tredway",
+   "reporter": "Vera King",
+   "prio": "1: Urgent",
+   "created": "2026-07-22",
    "labels": [
     "product_prioritized"
    ],
@@ -6435,43 +6471,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20828",
-   "name": "Plan Details PDF resolves the default brand logo instead of the plan's own brand",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "2: Important",
-   "created": "2026-08-05",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20741",
-   "name": "Stage - PMP - Manage Patients - Unable to use a Benefit for minor",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-04",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20740",
    "name": "One Smile – Enrollment email is not received after successful enrollment",
    "pod": "PLANS",
@@ -6482,25 +6481,6 @@
    "who": "David Jones",
    "reporter": "Mireya Alvarez",
    "prio": "3: Standard",
-   "created": "2026-08-04",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20706",
-   "name": "Denticon eligibility file processing aborts the entire file on a single malformed CSV row",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "1: Urgent",
    "created": "2026-08-04",
    "labels": [
     "product_prioritized"
@@ -6569,8 +6549,8 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-20905",
-   "name": "Preprod/Smile Health/Plan purchase is failing",
+   "key": "PLANS-20910",
+   "name": "Preprod/Smile Health / Check all checkbox shows incorrect status for partially selected elements",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
@@ -6578,7 +6558,7 @@
   {
    "key": "PLANS-20895",
    "name": "Accounting pointed out to us that the WF share for auto-renewals have gone to $0 since mid May. Was there a change to the Other3Amount in wellfit stat or a reason it should be $0?",
-   "status": "In Development",
+   "status": "PR Created",
    "who": "David Jones",
    "reporter": "Michael McNulty"
   },
