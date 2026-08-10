@@ -103,8 +103,12 @@ def parse_issue(i, theme=None):
     prio = f.get("priority") or {}
     sprint = f.get("customfield_10020") or []
     sprint_name = None
+    sprint_names = []
     if isinstance(sprint, list) and sprint:
-        sprint_name = sprint[-1].get("name") if isinstance(sprint[-1], dict) else None
+        sprint_names = [x.get("name") for x in sprint if isinstance(x, dict)]
+        sprint_name = sprint_names[-1] if sprint_names else None
+    # Camille: a bug is "in LL - Low Prior Bugs" only if it has BOTH the sprint AND the epic.
+    lp_sprint = any("low prior bugs" in (n or "").lower() for n in sprint_names)
     # Is this issue linked to the LL - Low Prior Bugs epic? (parent / Epic Link / issue link)
     parent = f.get("parent") or {}
     epic_link = f.get("customfield_10014")
@@ -133,6 +137,7 @@ def parse_issue(i, theme=None):
         "created": (f.get("created") or "")[:10],
         "labels": f.get("labels") or [],
         "linked_lowprio": linked_lowprio,
+        "lp_sprint": lp_sprint,
         "theme": theme or "",
     }
 
@@ -210,7 +215,9 @@ def pull_bugs():
                     "sprint": r.get("sprint"), "who": r.get("who") or "Unassigned",
                     "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard",
                     "created": r.get("created") or "", "labels": r.get("labels") or [],
-                    "linkedLP": bool(r.get("linked_lowprio"))})
+                    "lpEpic": bool(r.get("linked_lowprio")),
+                    "lpSprint": bool(r.get("lp_sprint")),
+                    "linkedLP": bool(r.get("linked_lowprio") and r.get("lp_sprint"))})
     return out
 
 

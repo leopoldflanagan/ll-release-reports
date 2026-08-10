@@ -361,7 +361,7 @@
   </div>
 
   <div class="panel" id="panel-bugs">
-    <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status, priority, or migration-group chips to filter (multi-select), and export the filtered list to Excel. P3/P4 bugs show a 🏷️ if they are missing a migration-group label and a 🔗 if they are not linked to the <b>LL - Low Prior Bugs</b> epic (PLANS-20751).</p>
+    <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status, priority, or migration-group chips to filter (multi-select), and export the filtered list to Excel. P3/P4 bugs show a 🏷️ if they are missing a migration-group label and a 🔗 if they are not fully in <b>LL - Low Prior Bugs</b> (missing the sprint and/or the epic PLANS-20751).</p>
     <div class="cards" id="bugcards"></div>
     <div class="toolbar">
       <div class="searchbar" id="bugsearchbox">
@@ -876,7 +876,8 @@ function isP34(b){ return prioNum(b.prio)>=3; }               // P3 + P4
 function bugGroupLabels(b){ return (Array.isArray(b.labels)?b.labels:[]).filter(l=>GROUP_LABELS.includes(l)); }
 function hasGroupLabel(b){ return bugGroupLabels(b).length>0; }
 function missingGroup(b){ return isP34(b) && !hasGroupLabel(b); }      // P3/P4 with no group label
-function notLinkedLP(b){ return isP34(b) && !b.linkedLP; }             // P3/P4 not parented to the epic
+function lpMissing(b){ const m=[]; if(!b.lpEpic) m.push("epic"); if(!b.lpSprint) m.push("sprint"); return m; }
+function notLinkedLP(b){ return isP34(b) && lpMissing(b).length>0; }   // P3/P4 missing the epic and/or the LP sprint
 function prioNum(p){ const m=/^(\d+)/.exec(p||""); return m?parseInt(m[1],10):99; }
 function prioShort(p){ const m=/^(\d+)/.exec(p||""); return m?("P"+m[1]):"—"; }
 // a bug is NEW if its created date is within NEW_DAYS of the snapshot date (TODAY)
@@ -972,7 +973,7 @@ function renderBugs(){
       const gl = bugGroupLabels(b).map(l=>`<span class="gtag" title="Migration group label">${l.replace('_migration',' migration')}</span>`).join("");
       const flags =
         (missingGroup(b)?`<span class="flagico nolabel" title="P3/P4 missing a migration-group label (group1/2/3_migration) — assign the migration group">🏷️</span>`:"")+
-        (notLinkedLP(b)?`<span class="flagico nolink" title="P3/P4 not linked to the LL - Low Prior Bugs epic (PLANS-20751) — link it as parent">🔗</span>`:"");
+        (notLinkedLP(b)?`<span class="flagico nolink" title="P3/P4 not fully in LL - Low Prior Bugs — missing ${lpMissing(b).join(' & ')}. Add it to the 'LL - Low Prior Bugs' sprint and link it under epic PLANS-20751.">🔗</span>`:"");
       const tr=document.createElement("tr");
       tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}${flags}<br><span style="color:var(--ink)">${b.name}${gl}</span></td>`+
         `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
@@ -1093,11 +1094,11 @@ function syncLabelChips(lf){
 function exportBugsToExcel(){
   const rows=bugRows().slice().sort((a,b)=>
     flowRank(b.status)-flowRank(a.status)||prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key));
-  const cols=["Key","Summary","Status","Priority","Fix Version","Sprint","Assignee","Reporter","Migration Group","In LL-LowPrio Epic"];
+  const cols=["Key","Summary","Status","Priority","Fix Version","Sprint","Assignee","Reporter","Migration Group","In LP Sprint","In LP Epic"];
   const esc=s=>String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
   const cell=v=>`<Cell><Data ss:Type="String">${esc(v)}</Data></Cell>`;
   const headRow=`<Row>${cols.map(c=>`<Cell><Data ss:Type="String">${esc(c)}</Data></Cell>`).join("")}</Row>`;
-  const bodyRows=rows.map(b=>`<Row>${[b.key,b.name,b.status,b.prio,b.fv,b.sprint,b.who,b.reporter,bugGroupLabels(b).join(" | "),(b.linkedLP?"Yes":"No")].map(cell).join("")}</Row>`).join("");
+  const bodyRows=rows.map(b=>`<Row>${[b.key,b.name,b.status,b.prio,b.fv,b.sprint,b.who,b.reporter,bugGroupLabels(b).join(" | "),(b.lpSprint?"Yes":"No"),(b.lpEpic?"Yes":"No")].map(cell).join("")}</Row>`).join("");
   const xml=`<?xml version="1.0"?>
 <?mso-application progid="Excel.Sheet"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
@@ -1168,7 +1169,7 @@ function bugFlagFilters(){
   allBtn.className="tbtn active"; allBtn.dataset.flag="__all__"; allBtn.textContent="All";
   allBtn.addEventListener("click",()=>{ bugFlags.clear(); syncFlagChips(ff); renderBugs(); });
   ff.appendChild(allBtn);
-  [["nolabel",`🏷️ No group (P3/P4) · ${noLabel}`],["nolink",`🔗 No epic (P3/P4) · ${noLink}`]].forEach(([v,label])=>{
+  [["nolabel",`🏷️ No group (P3/P4) · ${noLabel}`],["nolink",`🔗 Not in Low-Prior (P3/P4) · ${noLink}`]].forEach(([v,label])=>{
     const btn=document.createElement("button"); btn.className="tbtn"; btn.dataset.flag=v; btn.innerHTML=label;
     btn.addEventListener("click",()=>{ if(bugFlags.has(v)) bugFlags.delete(v); else bugFlags.add(v); syncFlagChips(ff); renderBugs(); });
     ff.appendChild(btn);
