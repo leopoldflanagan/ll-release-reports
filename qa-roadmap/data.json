@@ -1,7 +1,16 @@
 {
- "generated_at": "2026-08-10T06:24:15+00:00",
+ "generated_at": "2026-08-10T08:29:35+00:00",
  "today": "2026-08-10",
  "features": [
+  {
+   "key": "PLANS-20836",
+   "name": "Legal Language Intake for ACH",
+   "status": "Blocked",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Denys Kernychnyi",
+   "tshirt": null
+  },
   {
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
@@ -84,6 +93,15 @@
    "tshirt": "Moderate"
   },
   {
+   "key": "PLANS-20613",
+   "name": "Write All Plans member communications to WFP Comms Service",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Rostyslav Masniuk",
+   "tshirt": null
+  },
+  {
    "key": "PLANS-17586",
    "name": "Member Portal Support for Subscription Payments",
    "status": "In Development",
@@ -127,6 +145,15 @@
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-18673",
+   "name": "Purchase Widget to Payment Widget Integration",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Valentyna Tenus",
+   "tshirt": null
   },
   {
    "key": "PLANS-17687",
@@ -183,24 +210,6 @@
    "tshirt": null
   },
   {
-   "key": "PLANS-20836",
-   "name": "Legal Language Intake for ACH",
-   "status": "Blocked",
-   "ted": null,
-   "fv": "R9.7",
-   "who": "Unassigned",
-   "tshirt": null
-  },
-  {
-   "key": "PLANS-20613",
-   "name": "Write All Plans member communications to WFP Comms Service",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.7",
-   "who": "Unassigned",
-   "tshirt": null
-  },
-  {
    "key": "PLANS-19644",
    "name": "PMP: Tying multiple Patient ID's to one WF ID",
    "status": "Epics & Stories",
@@ -215,15 +224,6 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null
-  },
-  {
-   "key": "PLANS-18673",
-   "name": "Purchase Widget to Payment Widget Integration",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.7",
    "who": "Unassigned",
    "tshirt": null
   },
@@ -902,7 +902,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.7",
-   "who": "Unassigned",
+   "who": "Valentyna Tenus",
    "tshirt": null,
    "pod": "LL",
    "theme": ""
@@ -935,7 +935,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.7",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "tshirt": null,
    "pod": "LL",
    "theme": ""
@@ -946,7 +946,7 @@
    "status": "Blocked",
    "ted": null,
    "fv": "R9.7",
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "tshirt": null,
    "pod": "LL",
    "theme": ""
@@ -1610,7 +1610,7 @@
    "status": "Architecture",
    "fv": "R9.7",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Valentyna Tenus",
    "theme": ""
   },
   {
@@ -1643,7 +1643,7 @@
    "status": "Architecture",
    "fv": "R9.7",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "theme": ""
   },
   {
@@ -1654,7 +1654,7 @@
    "status": "Blocked",
    "fv": "R9.7",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "theme": ""
   }
  ],
@@ -1688,23 +1688,6 @@
    "reporter": "Vinita Thankur",
    "prio": "1: Urgent",
    "created": "2026-07-27",
-   "labels": [
-    "product_prioritized"
-   ],
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
    "labels": [
     "product_prioritized"
    ],
@@ -1788,7 +1771,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Nazarii Polinyk",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-08-05",
@@ -2448,6 +2431,24 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20828",
+   "name": "Plan Details PDF resolves the default brand logo instead of the plan's own brand",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-05",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20551",
    "name": "Ancillary Benefit Pull Down Option on Site",
    "pod": "LL",
@@ -2476,6 +2477,23 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
    "labels": [
     "product_prioritized"
    ],
@@ -2597,24 +2615,6 @@
    "prio": "3: Standard",
    "created": "2026-06-24",
    "labels": [
-    "product_prioritized"
-   ],
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20828",
-   "name": "Plan Details PDF resolves the default brand logo instead of the plan's own brand",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "2: Important",
-   "created": "2026-08-05",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "linkedLP": false
