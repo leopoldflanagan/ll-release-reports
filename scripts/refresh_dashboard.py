@@ -200,7 +200,7 @@ def build_all(features_all):
 
 
 def pull_bugs():
-    jql = ('issuetype = Bug AND cf[11626] = "LL" '
+    jql = ('issuetype = Bug AND cf[11626] IN ("LL", "PLANS") '
            'AND statusCategory != Done ORDER BY status ASC')
     rows = [parse_issue(i) for i in jira_search(jql)]
     NEAR = {"In Stage", "In QA", "Dev Verification", "PR Merged"}
@@ -210,7 +210,7 @@ def pull_bugs():
     for r in rows:
         cat = "In Progress" if (r["status"] in WIP or r["status"] in NEAR
                                 or "hold" in r["status"].lower()) else "To Do"
-        out.append({"key": r["key"], "name": r["name"], "pod": "LL",
+        out.append({"key": r["key"], "name": r["name"], "pod": (r.get("pod") or ""),
                     "status": r["status"], "cat": cat, "fv": r.get("fv"),
                     "sprint": r.get("sprint"), "who": r.get("who") or "Unassigned",
                     "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard",

@@ -361,7 +361,9 @@
   </div>
 
   <div class="panel" id="panel-bugs">
-    <p class="sub" style="margin-top:16px">Active bugs (not closed) in <b>Pod = LL</b>. Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Select one or more status, priority, or migration-group chips to filter (multi-select), and export the filtered list to Excel. P3/P4 bugs show a 🏷️ if they are missing a migration-group label and a 🔗 if they are not fully in <b>LL - Low Prior Bugs</b> (missing the sprint and/or the epic PLANS-20751).</p>
+    <p class="sub" style="margin-top:16px">Active bugs (not closed), scoped by the <b>Pod</b> selector below (LL · PLANS · All). Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Filter by status, priority, or (LL only) migration-group; export the filtered list to Excel. In the <b>LL</b> pod, P3/P4 bugs show a 🏷️ if missing a migration-group label and a 🔗 if not fully in <b>LL - Low Prior Bugs</b> (missing the sprint and/or the epic PLANS-20751).</p>
+    <div class="filterrow" style="margin:14px 0 4px"><span class="flabel">Pod</span>
+    <div class="themebtns" id="bugpodfilter"></div></div>
     <div class="cards" id="bugcards"></div>
     <div class="toolbar">
       <div class="searchbar" id="bugsearchbox">
@@ -379,9 +381,9 @@
         <div class="themebtns" id="bugnewfilter"></div></div>
         <div class="filterrow"><span class="flabel">Prioritized</span>
         <div class="themebtns" id="buglabelfilter"></div></div>
-        <div class="filterrow"><span class="flabel">Group</span>
+        <div class="filterrow" id="row-group"><span class="flabel">Group</span>
         <div class="themebtns" id="buggroupfilter"></div></div>
-        <div class="filterrow"><span class="flabel">Review</span>
+        <div class="filterrow" id="row-review"><span class="flabel">Review</span>
         <div class="themebtns" id="bugflagfilter"></div></div>
       </div>
       <div class="filterfoot">
@@ -866,9 +868,11 @@ let bugNewOnly=false;        // when true, show only bugs created within NEW_DAY
 let bugLabelFilter="all";    // all | prioritized | unprioritized
 let bugGroups=new Set();     // multi-select migration-group label chips; empty = all
 let bugFlags=new Set();      // multi-select P3/P4 review flags: "nolabel" | "nolink"
+let bugPod="LL";             // Pod scope for the whole tab: LL | PLANS | ALL
 const NEW_DAYS=2;            // a bug is "NEW" if created within this many days
 const PRIO_LABEL="product_prioritized";
 function hasLabel(b){ return Array.isArray(b.labels) && b.labels.includes(PRIO_LABEL); }
+function scopedBugs(){ return bugPod==="ALL" ? BUGS : BUGS.filter(b=>(b.pod||"")===bugPod); }
 // Camille's migration groups + LL - Low Prior Bugs epic linkage (P3/P4 focus)
 const GROUP_LABELS=["group1_migration","group2_migration","group3_migration"];
 const LOWPRIO_EPIC="PLANS-20751";
@@ -899,7 +903,7 @@ const CARD_PRED = {
   routine: b=>prioNum(b.prio)>=3    // P3 + P4
 };
 function bugRows(){
-  let r=BUGS.slice();
+  let r=scopedBugs().slice();
   if(bugCard!=="all") r=r.filter(CARD_PRED[bugCard]);
   if(bugStatuses.size) r=r.filter(b=>bugStatuses.has(b.status));
   if(bugPrios.size) r=r.filter(b=>bugPrios.has(b.prio||""));
@@ -913,17 +917,18 @@ function bugRows(){
 }
 function renderBugCards(){
   const box=document.getElementById("bugcards");
-  const total=BUGS.length;
-  const near=BUGS.filter(CARD_PRED.near).length;
-  const backlog=BUGS.filter(CARD_PRED.backlog).length;
-  const wip=BUGS.filter(CARD_PRED.wip).length;
-  const unassigned=BUGS.filter(CARD_PRED.unassigned).length;
-  const onhold=BUGS.filter(CARD_PRED.onhold).length;
+  const B=scopedBugs();
+  const total=B.length;
+  const near=B.filter(CARD_PRED.near).length;
+  const backlog=B.filter(CARD_PRED.backlog).length;
+  const wip=B.filter(CARD_PRED.wip).length;
+  const unassigned=B.filter(CARD_PRED.unassigned).length;
+  const onhold=B.filter(CARD_PRED.onhold).length;
   // priority groups
-  const p1=BUGS.filter(b=>prioNum(b.prio)===1).length;
-  const p2=BUGS.filter(b=>prioNum(b.prio)===2).length;
-  const p3=BUGS.filter(b=>prioNum(b.prio)===3).length;
-  const p4=BUGS.filter(b=>prioNum(b.prio)>=4).length;
+  const p1=B.filter(b=>prioNum(b.prio)===1).length;
+  const p2=B.filter(b=>prioNum(b.prio)===2).length;
+  const p3=B.filter(b=>prioNum(b.prio)===3).length;
+  const p4=B.filter(b=>prioNum(b.prio)>=4).length;
   const urgent=p1+p2, routine=p3+p4;
   const pct=n=>total?Math.round(n/total*100):0;
   const bar=n=>`<div class="pctbar"><span style="width:${pct(n)}%"></span></div>`;
@@ -931,7 +936,7 @@ function renderBugCards(){
   // priority-group card: big count + % + breakdown of the two levels inside
   const priocard=(id,title,val,color,breakdown)=>`<button class="card sc bugcardbtn priocard${bugCard===id?' sel':''}" data-card="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div><div class="pctrow"><span class="pctnum">${pct(val)}%</span> of active</div>${bar(val)}<div class="priobreak">${breakdown}</div></button>`;
   box.innerHTML=
-    card("all","Active bugs",total,"var(--blue)","not closed · Pod LL")+
+    card("all","Active bugs",total,"var(--blue)",`not closed · Pod ${bugPod==="ALL"?"All":bugPod}`)+
     priocard("urgent","Urgent · P1 + P2",urgent,"var(--red)",
       `<span class="pb"><span class="prio p1">P1</span> ${p1}</span><span class="pb"><span class="prio p2">P2</span> ${p2}</span>`)+
     priocard("routine","Routine · P3 + P4",routine,"var(--blue)",
@@ -971,7 +976,7 @@ function renderBugs(){
       const pn=prioNum(b.prio);
       const newTag = isNew(b) ? ` <span class="newtag" title="Created within the last ${NEW_DAYS} days">NEW</span>` : '';
       const gl = bugGroupLabels(b).map(l=>`<span class="gtag" title="Migration group label">${l.replace('_migration',' migration')}</span>`).join("");
-      const flags =
+      const flags = (bugPod!=="LL") ? "" :
         (missingGroup(b)?`<span class="flagico nolabel" title="P3/P4 missing a migration-group label (group1/2/3_migration) — assign the migration group">🏷️</span>`:"")+
         (notLinkedLP(b)?`<span class="flagico nolink" title="P3/P4 not fully in LL - Low Prior Bugs — missing ${lpMissing(b).join(' & ')}. Add it to the 'LL - Low Prior Bugs' sprint and link it under epic PLANS-20751.">🔗</span>`:"");
       const tr=document.createElement("tr");
@@ -984,7 +989,7 @@ function renderBugs(){
     });
     tbl.appendChild(tb); sec.appendChild(tbl); wrap.appendChild(sec);
   });
-  document.getElementById("bugnote").textContent=`Showing ${rows.length} of ${BUGS.length} active bugs. Columns ordered by workflow — On Hold pinned first, then closest to closing, backlog last. Within each column, highest priority first. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
+  document.getElementById("bugnote").textContent=`Showing ${rows.length} of ${scopedBugs().length} active bugs. Columns ordered by workflow — On Hold pinned first, then closest to closing, backlog last. Within each column, highest priority first. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
   updateBugFoot(rows.length);
 }
 function bugActiveCount(){
@@ -998,7 +1003,8 @@ function updateBugFoot(shown){
 }
 // status filter chips — multi-select (checkbox behavior). "All" clears; "On Hold" pinned right after All.
 function bugStatusFilters(){
-  const present = FLOW.filter(s=>BUGS.some(b=>b.status===s));
+  const sfc=document.getElementById("bugstatusfilter"); if(sfc) sfc.innerHTML="";
+  const present = FLOW.filter(s=>scopedBugs().some(b=>b.status===s));
   const onhold = present.filter(s=>/hold/i.test(s));
   const rest = present.filter(s=>!/hold/i.test(s)).sort((a,b)=>flowRank(b)-flowRank(a));
   const sts=["all",...onhold,...rest];
@@ -1021,7 +1027,8 @@ function bugStatusFilters(){
 }
 // priority filter chips — multi-select, same behavior as status
 function bugPrioFilters(){
-  const prios=Array.from(new Set(BUGS.map(b=>b.prio).filter(Boolean)))
+  const pfc=document.getElementById("bugpriofilter"); if(pfc) pfc.innerHTML="";
+  const prios=Array.from(new Set(scopedBugs().map(b=>b.prio).filter(Boolean)))
     .sort((a,b)=>prioNum(a)-prioNum(b));
   const pf=document.getElementById("bugpriofilter");
   const allBtn=document.createElement("button");
@@ -1051,7 +1058,8 @@ function syncPrioChips(pf){
 function bugNewFilter(){
   const nf=document.getElementById("bugnewfilter");
   if(!nf) return;
-  const newCount=BUGS.filter(isNew).length;
+  nf.innerHTML="";
+  const newCount=scopedBugs().filter(isNew).length;
   const allBtn=document.createElement("button");
   allBtn.className="tbtn active"; allBtn.dataset.newf="all"; allBtn.textContent="All";
   const newBtn=document.createElement("button");
@@ -1070,8 +1078,9 @@ function syncNewChips(nf){
 function bugLabelFilters(){
   const lf=document.getElementById("buglabelfilter");
   if(!lf) return;
-  const withLabel=BUGS.filter(hasLabel).length;
-  const without=BUGS.length-withLabel;
+  lf.innerHTML="";
+  const withLabel=scopedBugs().filter(hasLabel).length;
+  const without=scopedBugs().length-withLabel;
   const opts=[
     ["all","All"],
     ["prioritized",`✅ Prioritized · ${withLabel}`],
@@ -1094,11 +1103,11 @@ function syncLabelChips(lf){
 function exportBugsToExcel(){
   const rows=bugRows().slice().sort((a,b)=>
     flowRank(b.status)-flowRank(a.status)||prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key));
-  const cols=["Key","Summary","Status","Priority","Fix Version","Sprint","Assignee","Reporter","Migration Group","In LP Sprint","In LP Epic"];
+  const cols=["Key","Summary","Status","Priority","Fix Version","Sprint","Assignee","Reporter","Pod","Migration Group","In LP Sprint","In LP Epic"];
   const esc=s=>String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
   const cell=v=>`<Cell><Data ss:Type="String">${esc(v)}</Data></Cell>`;
   const headRow=`<Row>${cols.map(c=>`<Cell><Data ss:Type="String">${esc(c)}</Data></Cell>`).join("")}</Row>`;
-  const bodyRows=rows.map(b=>`<Row>${[b.key,b.name,b.status,b.prio,b.fv,b.sprint,b.who,b.reporter,bugGroupLabels(b).join(" | "),(b.lpSprint?"Yes":"No"),(b.lpEpic?"Yes":"No")].map(cell).join("")}</Row>`).join("");
+  const bodyRows=rows.map(b=>`<Row>${[b.key,b.name,b.status,b.prio,b.fv,b.sprint,b.who,b.reporter,b.pod,bugGroupLabels(b).join(" | "),(b.lpSprint?"Yes":"No"),(b.lpEpic?"Yes":"No")].map(cell).join("")}</Row>`).join("");
   const xml=`<?xml version="1.0"?>
 <?mso-application progid="Excel.Sheet"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
@@ -1108,7 +1117,7 @@ function exportBugsToExcel(){
   const url=URL.createObjectURL(blob);
   const a=document.createElement("a");
   const stamp=new Date().toISOString().slice(0,10);
-  a.href=url; a.download=`LL-active-bugs-${stamp}.xls`;
+  a.href=url; a.download=`${bugPod}-active-bugs-${stamp}.xls`;
   document.body.appendChild(a); a.click(); document.body.removeChild(a);
   setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
@@ -1152,7 +1161,7 @@ function bugGroupFilters(){
   allBtn.addEventListener("click",()=>{ bugGroups.clear(); syncGroupChips(gf); renderBugs(); });
   gf.appendChild(allBtn);
   GROUP_LABELS.forEach(l=>{
-    const c=BUGS.filter(b=>bugGroupLabels(b).includes(l)).length;
+    const c=scopedBugs().filter(b=>bugGroupLabels(b).includes(l)).length;
     const btn=document.createElement("button"); btn.className="tbtn"; btn.dataset.grp=l;
     btn.textContent=`${l.replace('_migration',' migration')} · ${c}`;
     btn.addEventListener("click",()=>{ if(bugGroups.has(l)) bugGroups.delete(l); else bugGroups.add(l); syncGroupChips(gf); renderBugs(); });
@@ -1164,7 +1173,7 @@ function syncGroupChips(gf){ gf.querySelectorAll(".tbtn").forEach(b=>{ const v=b
 function bugFlagFilters(){
   const ff=document.getElementById("bugflagfilter"); if(!ff) return;
   ff.innerHTML="";
-  const noLabel=BUGS.filter(missingGroup).length, noLink=BUGS.filter(notLinkedLP).length;
+  const noLabel=scopedBugs().filter(missingGroup).length, noLink=scopedBugs().filter(notLinkedLP).length;
   const allBtn=document.createElement("button");
   allBtn.className="tbtn active"; allBtn.dataset.flag="__all__"; allBtn.textContent="All";
   allBtn.addEventListener("click",()=>{ bugFlags.clear(); syncFlagChips(ff); renderBugs(); });
@@ -1176,13 +1185,42 @@ function bugFlagFilters(){
   });
 }
 function syncFlagChips(ff){ ff.querySelectorAll(".tbtn").forEach(b=>{ const v=b.dataset.flag; if(v==="__all__") b.classList.toggle("active",bugFlags.size===0); else b.classList.toggle("active",bugFlags.has(v)); }); }
+function bugPodFilters(){
+  const pf=document.getElementById("bugpodfilter"); if(!pf) return;
+  pf.innerHTML="";
+  [["LL","LL"],["PLANS","PLANS"],["ALL","All"]].forEach(([v,label])=>{
+    const c=(v==="ALL"?BUGS.length:BUGS.filter(b=>(b.pod||"")===v).length);
+    const btn=document.createElement("button");
+    btn.className="segbtn"+(bugPod===v?" active":""); btn.dataset.pod=v;
+    btn.textContent=`${label} · ${c}`;
+    btn.addEventListener("click",()=>{ if(bugPod!==v){ bugPod=v; onPodChange(); } });
+    pf.appendChild(btn);
+  });
+}
+function toggleLLRows(){
+  const showLL=(bugPod==="LL");
+  const rg=document.getElementById("row-group"), rr=document.getElementById("row-review");
+  if(rg) rg.style.display=showLL?"":"none";
+  if(rr) rr.style.display=showLL?"":"none";
+}
+function onPodChange(){
+  // reset all filters, rebuild pod-dependent chips, toggle LL-only rows, re-render
+  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugNewOnly=false;
+  bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear();
+  const si=document.getElementById("bugsearch");
+  if(si){ si.value=""; bugSearchTerm=""; const sb=document.getElementById("bugsearchbox"); if(sb) sb.classList.remove("has-text"); }
+  bugPodFilters(); bugStatusFilters(); bugPrioFilters(); bugNewFilter(); bugLabelFilters(); bugGroupFilters(); bugFlagFilters();
+  toggleLLRows(); renderBugs();
+}
 function initBugs(){
+  bugPodFilters();
   bugStatusFilters();
   bugPrioFilters();
   bugNewFilter();
   bugLabelFilters();
   bugGroupFilters();
   bugFlagFilters();
+  toggleLLRows();
   noPodList();
   renderBugs();
   wireSearch("bugsearchbox","bugsearch","bugsearchclear","bugsearchcount",
