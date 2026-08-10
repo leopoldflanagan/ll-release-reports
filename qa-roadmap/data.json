@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T15:24:04+00:00",
+ "generated_at": "2026-08-10T16:15:33+00:00",
  "today": "2026-08-10",
  "features": [
   {
@@ -158,7 +158,7 @@
   {
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Testing",
+   "status": "In Development",
    "ted": "2026-08-03",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
@@ -822,7 +822,7 @@
   {
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Testing",
+   "status": "In Development",
    "ted": "2026-08-03",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
@@ -1530,7 +1530,7 @@
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "In Development",
    "fv": "R9.7",
    "ted": "2026-08-03",
    "who": "Valentyna Tenus",
@@ -1675,6 +1675,8 @@
     "group1_migration",
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -1692,6 +1694,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -1709,6 +1713,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -1726,6 +1732,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -1743,6 +1751,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -1760,6 +1770,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -1777,6 +1789,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -1794,6 +1808,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -1803,13 +1819,18 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
    "created": "2026-08-07",
-   "labels": [],
-   "linkedLP": false
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20866",
@@ -1827,6 +1848,8 @@
     "group1_migration",
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -1845,6 +1868,8 @@
     "group3_migration",
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -1862,24 +1887,9 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20745",
-   "name": "QA retest - PLANS-20720 - One Smile - Headers are displayed in the center of the screen & missing logos",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-04",
-   "labels": [
-    "product_prioritized"
-   ],
-   "linkedLP": false
   },
   {
    "key": "PLANS-20701",
@@ -1896,6 +1906,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -1913,6 +1925,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -1930,6 +1944,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -1947,6 +1963,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -1965,6 +1983,8 @@
     "group2_migration",
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -1982,6 +2002,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2000,6 +2022,8 @@
     "group2_migration",
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2017,6 +2041,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2034,6 +2060,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2051,6 +2079,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2068,6 +2098,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2085,6 +2117,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2102,6 +2136,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2119,6 +2155,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2136,6 +2174,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2153,6 +2193,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2170,6 +2212,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2187,6 +2231,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2204,6 +2250,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2221,6 +2269,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2238,6 +2288,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2255,6 +2307,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2272,6 +2326,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2289,6 +2345,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2306,6 +2364,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2323,6 +2383,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2340,6 +2402,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2357,6 +2421,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2374,6 +2440,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2391,6 +2459,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2408,6 +2478,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2426,6 +2498,8 @@
     "Reenbit",
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2444,6 +2518,8 @@
     "group1_migration",
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2462,6 +2538,8 @@
     "group3_migration",
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2479,6 +2557,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2496,6 +2576,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": true,
+   "lpSprint": true,
    "linkedLP": true
   },
   {
@@ -2513,6 +2595,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2530,6 +2614,8 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2547,23 +2633,8 @@
    "labels": [
     "product_prioritized"
    ],
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2582,6 +2653,27 @@
     "group1_migration",
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20745",
+   "name": "QA retest - PLANS-20720 - One Smile - Headers are displayed in the center of the screen & missing logos",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Mireya Alvarez",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-04",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2599,6 +2691,27 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2616,24 +2729,8 @@
    "labels": [
     "product_prioritized"
    ],
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19680",
-   "name": "Smile Health/Ancilliary Benefits/Error is displayed at the Careington Provider Search Page",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-15",
-   "labels": [
-    "DCA",
-    "product_prioritized"
-   ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   },
   {
@@ -2651,16 +2748,25 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
    "linkedLP": false
   }
  ],
  "nopod": [
   {
-   "key": "PLANS-20874",
-   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
+   "key": "PLANS-20888",
+   "name": "WF Share wrong for AutoRenewal's",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
+   "reporter": "Michael McNulty"
+  },
+  {
+   "key": "PLANS-20887",
+   "name": "delete",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
