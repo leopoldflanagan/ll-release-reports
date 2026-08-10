@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T12:13:16+00:00",
+ "generated_at": "2026-08-10T14:24:46+00:00",
  "today": "2026-08-10",
  "features": [
   {
@@ -1780,6 +1780,23 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-16717",
+   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "2: Important",
+   "created": "2026-05-22",
+   "labels": [
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20866",
    "name": "Stage - Member Portal - The member-context-banner is not rendered on the Benefit Summaries page",
    "pod": "LL",
@@ -2493,23 +2510,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-23",
-   "labels": [
-    "product_prioritized"
-   ],
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-16717",
-   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "2: Important",
-   "created": "2026-05-22",
    "labels": [
     "product_prioritized"
    ],
