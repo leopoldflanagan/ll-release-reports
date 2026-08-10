@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T14:24:46+00:00",
+ "generated_at": "2026-08-10T15:24:04+00:00",
  "today": "2026-08-10",
  "features": [
   {
@@ -196,7 +196,7 @@
    "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.7",
    "who": "Vic Du Plessis",
    "tshirt": null
   },
@@ -505,7 +505,7 @@
    "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.7",
    "who": "Vic Du Plessis",
    "tshirt": null,
    "pod": "LL",
@@ -1212,7 +1212,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Ready for Development",
-   "fv": "R9.8",
+   "fv": "R9.7",
    "ted": null,
    "who": "Vic Du Plessis",
    "theme": "LL-MVP"
@@ -1797,6 +1797,21 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20878",
+   "name": "Stage - Member Portal - Benefit Summary is displayed when hasBenefitSummary is false",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-07",
+   "labels": [],
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20866",
    "name": "Stage - Member Portal - The member-context-banner is not rendered on the Benefit Summaries page",
    "pod": "LL",
@@ -1901,6 +1916,23 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20560",
+   "name": "CSP \\ Plan activation is allowed when the Membership Agreement logo dynamic field is missing",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Leopoldo Flanagan",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
+   "labels": [
+    "product_prioritized"
+   ],
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-20547",
    "name": "Stage - Member Portal - The member-context-banner is not rendered on the Treatment Summaries page",
    "pod": "LL",
@@ -1930,6 +1962,7 @@
    "prio": "4: Low",
    "created": "2026-07-29",
    "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "linkedLP": false
@@ -1964,6 +1997,7 @@
    "prio": "4: Low",
    "created": "2026-07-29",
    "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "linkedLP": true
@@ -2621,20 +2655,6 @@
   }
  ],
  "nopod": [
-  {
-   "key": "PLANS-20881",
-   "name": "PMP - When plan is cancelled or deleted , members are NOT showing in search",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-20878",
-   "name": "Stage - Member Portal - Benefit Summary is displayed when hasBenefitSummary is false",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo"
-  },
   {
    "key": "PLANS-20874",
    "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
