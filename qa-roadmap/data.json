@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T20:11:59+00:00",
+ "generated_at": "2026-08-10T22:11:21+00:00",
  "today": "2026-08-10",
  "features": [
   {
@@ -1715,7 +1715,29 @@
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-08-10",
-   "labels": [],
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20865",
+   "name": "Solomon Dentistry-Plans Payment Acceptance Error",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Conor Kamperman",
+   "reporter": "Brianna Hill",
+   "prio": "2: Important",
+   "created": "2026-08-07",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1949,23 +1971,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-12276",
-   "name": "Stage - Member Portal - Overview - “Details” Link appears in Add Plan popup but is not in Figma",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mariano Hernández",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-02-17",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "EDW-2210",
    "name": "New Plans purchased showing as due for renewal",
    "pod": "PLANS",
@@ -1983,6 +1988,23 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20916",
+   "name": "Stage - Member Portal - Total Discounts & Costs values are overlapping",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20904",
    "name": "PDS plan sold by a NON PDS office",
    "pod": "PLANS",
@@ -1990,7 +2012,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "Plans-Sprint 19-26",
-   "who": "David Jones",
+   "who": "Clint Tredway",
    "reporter": "Carmen West",
    "prio": "3: Standard",
    "created": "2026-08-10",
@@ -2009,6 +2031,23 @@
    "sprint": null,
    "who": "Petro Yarish",
    "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20888",
+   "name": "WF Share wrong for AutoRenewal's",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Michael McNulty",
    "prio": "3: Standard",
    "created": "2026-08-10",
    "labels": [],
@@ -2095,23 +2134,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20865",
-   "name": "Solomon Dentistry-Plans Payment Acceptance Error",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Conor Kamperman",
-   "reporter": "Brianna Hill",
-   "prio": "3: Standard",
-   "created": "2026-08-07",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-20842",
@@ -2964,23 +2986,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
    "created": "2026-06-09",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-17430",
-   "name": "WellfitPay | Stage | PBO sending a 400 when trying to add a new card|",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-06-03",
    "labels": [],
    "lpEpic": false,
    "lpSprint": false,
@@ -4891,23 +4896,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-6832",
-   "name": "CRM Emails \\ Plan Auto Renewal Receipt \\ Card Icon is broken",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2025-06-06",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-6829",
    "name": "CRM Emails \\ Resend Welcome Kit Card (via email ) \\ Not Received",
    "pod": "PLANS",
@@ -6319,6 +6307,40 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-12276",
+   "name": "Stage - Member Portal - Overview - “Details” Link appears in Add Plan popup but is not in Figma",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Mariano Hernández",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-02-17",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20895",
+   "name": "Accounting pointed out to us that the WF share for auto-renewals have gone to $0 since mid May. Was there a change to the Other3Amount in wellfit stat or a reason it should be $0?",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "David Jones",
+   "reporter": "Michael McNulty",
+   "prio": "2: Important",
+   "created": "2026-08-10",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20856",
    "name": "DCA/KOS – Updated \"No Results\" message is not displayed in Practice Search pop-up",
    "pod": "PLANS",
@@ -6572,6 +6594,40 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-17430",
+   "name": "WellfitPay | Stage | PBO sending a 400 when trying to add a new card|",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-06-03",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-6832",
+   "name": "CRM Emails \\ Plan Auto Renewal Receipt \\ Card Icon is broken",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Luis Moreno",
+   "prio": "3: Standard",
+   "created": "2025-06-06",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-5204",
    "name": "Provider Portal - Adding Primary Contact Instead of Selected Dependent",
    "pod": "PLANS",
@@ -6593,6 +6649,27 @@
  ],
  "nopod": [
   {
+   "key": "PLANS-20929",
+   "name": "Member Portal - Apple and Google Wallet QR codes redirect to login and wallet flow fails after authentication",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
+  {
+   "key": "PLANS-20925",
+   "name": "Stage - Member Portal - Treatment history is not displayed for any member in Treatment Summaries",
+   "status": "Backlog",
+   "who": "Petro Yarish",
+   "reporter": "Gabriel Perez Cardozo"
+  },
+  {
+   "key": "PLANS-20919",
+   "name": "CSP - History of accounts - Plan cancelation reasons are not audited",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-20913",
    "name": "Stage - Member Portal - Provider's name is not displayed on Treatment Details page",
    "status": "Backlog",
@@ -6605,20 +6682,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-20895",
-   "name": "Accounting pointed out to us that the WF share for auto-renewals have gone to $0 since mid May. Was there a change to the Other3Amount in wellfit stat or a reason it should be $0?",
-   "status": "PR Created",
-   "who": "David Jones",
-   "reporter": "Michael McNulty"
-  },
-  {
-   "key": "PLANS-20888",
-   "name": "WF Share wrong for AutoRenewal's",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Michael McNulty"
   }
  ],
  "weeks": [
