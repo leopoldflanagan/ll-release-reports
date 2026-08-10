@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T10:26:43+00:00",
+ "generated_at": "2026-08-10T12:13:16+00:00",
  "today": "2026-08-10",
  "features": [
   {
@@ -75,6 +75,15 @@
    "tshirt": "Small"
   },
   {
+   "key": "PLANS-20613",
+   "name": "Write All Plans member communications to WFP Comms Service",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Nazarii Polinyk",
+   "tshirt": null
+  },
+  {
    "key": "PLANS-17686",
    "name": "Updates to Transaction History",
    "status": "Blocked",
@@ -91,15 +100,6 @@
    "fv": "R9.6",
    "who": "Petro Yarish",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "PLANS-20613",
-   "name": "Write All Plans member communications to WFP Comms Service",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.7",
-   "who": "Rostyslav Masniuk",
-   "tshirt": null
   },
   {
    "key": "PLANS-17586",
@@ -935,7 +935,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.7",
-   "who": "Rostyslav Masniuk",
+   "who": "Nazarii Polinyk",
    "tshirt": null,
    "pod": "LL",
    "theme": ""
@@ -1643,7 +1643,7 @@
    "status": "Architecture",
    "fv": "R9.7",
    "ted": null,
-   "who": "Rostyslav Masniuk",
+   "who": "Nazarii Polinyk",
    "theme": ""
   },
   {
@@ -2499,23 +2499,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ],
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-16717",
    "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
    "pod": "LL",
@@ -2527,6 +2510,23 @@
    "reporter": "Valentyna Tenus",
    "prio": "2: Important",
    "created": "2026-05-22",
+   "labels": [
+    "product_prioritized"
+   ],
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
    "labels": [
     "product_prioritized"
    ],
