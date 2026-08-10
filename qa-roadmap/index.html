@@ -30,7 +30,7 @@
   .freshsub{font-size:11px;font-weight:500;opacity:.75;margin-left:2px}
   .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:700}
   h1{font-size:26px;color:var(--navy);margin:4px 0 6px;font-weight:800;letter-spacing:-.01em}
-  .sub{color:var(--muted);font-size:14px;max-width:70ch}
+  .sub{color:var(--muted);font-size:14px;max-width:none}
   .legend{display:flex;flex-wrap:wrap;gap:16px;margin:20px 0 8px;align-items:center;font-size:12.5px;color:var(--muted)}
   .legend b{color:var(--ink);font-weight:600}
   .chip{display:inline-flex;align-items:center;gap:6px}
@@ -41,12 +41,18 @@
   .scalerow{display:grid;grid-template-columns:320px 1fr;border-bottom:2px solid var(--navy)}
   .scalerow .corner{padding:10px 14px;font-size:12px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.06em;border-right:1px solid var(--line)}
   .weeks{display:grid}
-  .weekhead{display:flex;flex-direction:column;justify-content:center;align-items:center;font-size:11px;color:var(--muted);padding:6px 2px;border-left:1px solid var(--line);text-align:center}
-  .weekhead b{color:var(--navy);font-size:11.5px;font-weight:700;display:block}
+  .weekhead{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:3px;font-size:11px;color:var(--muted);padding:8px 4px;border-left:1px solid var(--line);text-align:center;min-height:54px}
+  .weekhead b{color:var(--navy);font-size:11px;font-weight:800;display:block;white-space:normal;letter-spacing:.01em;line-height:1.15}
+  .weekhead .frz{color:var(--red);font-size:8.5px;font-weight:700;line-height:1.1;background:rgba(214,69,69,.1);padding:2px 5px;border-radius:9px;white-space:normal;max-width:100%}
   .weekhead.freeze{background:rgba(214,69,69,.06)}
   .group{border-bottom:1px solid var(--line)}
   .grouphead{background:var(--navy);color:#fff;padding:7px 14px;font-size:12.5px;font-weight:700;letter-spacing:.02em;display:flex;justify-content:space-between}
   .grouphead .rng{opacity:.7;font-weight:500}
+  .grouphead{cursor:pointer;user-select:none}
+  .grouphead .ghl{display:inline-flex;align-items:center}
+  .group .gchev{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:4px;background:rgba(255,255,255,.2);color:#fff;font-size:11px;font-weight:900;margin-right:9px;transition:transform .15s}
+  .group.open .gchev{transform:rotate(90deg)}
+  .group:not(.open) .row{display:none}
   .row{display:grid;grid-template-columns:320px 1fr;border-top:1px solid var(--line);min-height:44px}
   .row:hover{background:#fafcff}
   .cellL{padding:8px 14px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;gap:2px}
@@ -85,7 +91,7 @@
   .seemore::after{content:"▾";font-size:11px}
   .seemore.open::after{content:"▴"}
   .plist{list-style:none;font-size:12.5px}
-  .plist li{padding:5px 0;border-bottom:1px dashed var(--line);display:flex;justify-content:space-between;gap:10px}
+  .plist li{padding:6px 0;border-bottom:1px dashed var(--line);display:flex;align-items:center;justify-content:space-between;gap:10px}
   .plist li:last-child{border-bottom:0}
   .plist .k{color:var(--blue);font-weight:700;flex:none}
   .plist .who{color:var(--muted);font-size:11.5px}
@@ -143,7 +149,7 @@
   .filterpanel{background:transparent;border:0;border-radius:0;padding:2px 18px 6px;margin-top:0;box-shadow:none}
   .filterrow{display:flex;align-items:center;gap:12px;padding:10px 0;flex-wrap:wrap;border-top:1px solid var(--line)}
   .filterrow:first-child{border-top:0}
-  .flabel{font-size:10.5px;font-weight:800;color:var(--navy);text-transform:uppercase;letter-spacing:.07em;min-width:62px;flex:none}
+  .flabel{font-size:10.5px;font-weight:800;color:var(--navy);text-transform:uppercase;letter-spacing:.07em;width:96px;flex:none}
   .filterfoot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 18px;border-top:1px solid var(--line);background:#fafcff;min-height:40px}
   .filterfoot .fcount{font-size:12px;color:var(--muted);font-weight:500}
   .filterfoot .fcount b{color:var(--navy);font-weight:700}
@@ -208,6 +214,49 @@
   .bugcolhead.back{border-bottom-color:#cbd5e1}
   .bugcount{font-size:12px;font-weight:700;color:var(--navy);background:#eef2f7;border-radius:10px;padding:1px 9px}
   .bugtbl{margin-top:0}
+  /* collapsible status sections */
+  .bugcolhead{cursor:pointer;user-select:none;border-radius:6px;transition:background .12s}
+  .bugcolhead:hover{background:#eef4fb}
+  .bugcol .chev{display:inline-flex;align-items:center;justify-content:center;transition:transform .15s;color:var(--navy);font-size:13px;font-weight:900;width:20px;height:20px;border:1px solid var(--line);border-radius:5px;background:#fff}
+  .bugcol.open .chev{transform:rotate(90deg);background:#eef4fb;border-color:var(--blue);color:var(--blue)}
+  .bugcolhead:hover .chev{border-color:var(--blue)}
+  .bugcol:not(.open) .bugtbl{display:none}
+  .boardctl{display:flex;gap:8px;margin:12px 0 2px;align-items:center}
+  .boardctl .minilbl{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-right:2px}
+  .minibtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:3px 11px;border-radius:6px;font-size:11.5px;font-weight:600;cursor:pointer;font-family:inherit}
+  .minibtn:hover{border-color:var(--blue);color:var(--blue)}
+  /* Drive-style dropdown filter bar */
+  .toolbar{overflow:visible}            /* let dropdown menus escape the card */
+  .filterfoot{border-bottom-left-radius:14px;border-bottom-right-radius:14px}
+  .dropbar{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+  .dropwrap{position:relative}
+  .dropbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--ink);padding:6px 12px;border-radius:20px;font-size:12.5px;font-weight:600;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:6px}
+  .dropbtn:hover{border-color:var(--blue)}
+  .dropbtn.active{border-color:var(--blue);color:var(--blue);background:#f4f8fc}
+  .dropbtn.opened{box-shadow:0 0 0 2px rgba(27,95,168,.15)}
+  .dropbtn.alert{border-color:var(--amber);background:#fff8ec;color:#9a6a06}
+  .dropbtn.alert:hover{border-color:var(--amber)}
+  .dropbtn .dalert{font-size:12.5px;line-height:1}
+  .dropbtn .dcount{background:var(--blue);color:#fff;border-radius:20px;font-size:10.5px;font-weight:800;padding:0 6px;min-width:16px;text-align:center}
+  .dropbtn .dcount.amber{background:var(--amber)}
+  .dropbtn .dcar{color:var(--muted);font-size:10px}
+  .dropmenu{display:none;position:absolute;top:calc(100% + 6px);left:0;z-index:40;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(18,62,107,.16);padding:6px;min-width:250px;max-height:340px;overflow:auto}
+  .dropmenu.open{display:block}
+  .dropitem{width:100%;appearance:none;border:0;background:none;display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:7px;cursor:pointer;font-family:inherit;font-size:12.5px;color:var(--ink);text-align:left}
+  .dropitem:hover{background:#f4f8fc}
+  .dropitem.on{background:#eef5fc}
+  .dropitem.act .ditxt{color:#9a6a06;font-weight:700}
+  .dropitem .dchk{width:14px;color:var(--blue);font-weight:800;flex:none}
+  .dropitem .ditxt{flex:1;white-space:nowrap}
+  .dropitem .dnum{color:var(--muted);font-weight:700;font-size:11.5px}
+  .dropitem.act .dnum{color:var(--amber)}
+  .chipsel{display:none;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .selchip{display:inline-flex;align-items:center;gap:5px;background:#eef2f7;border:1px solid var(--line);border-radius:20px;padding:3px 4px 3px 10px;font-size:11.5px;color:var(--ink)}
+  .selchip.alert{background:#fff8ec;border-color:var(--amber);color:#9a6a06}
+  .selchip .scname{color:var(--muted);font-weight:700}
+  .selchip.alert .scname{color:#9a6a06}
+  .selchip .scx{cursor:pointer;color:var(--muted);font-weight:800;padding:1px 6px;border-radius:50%;line-height:1}
+  .selchip .scx:hover{background:var(--red);color:#fff}
   .sprint{display:inline-block;padding:1px 7px;border-radius:4px;background:#f3e8ff;color:#6b21a8;font-size:11px;font-weight:600}
   /* NEW tag for recently-created bugs */
   .newtag{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.05em;padding:1px 6px;border-radius:20px;background:var(--green);color:#fff;vertical-align:middle;margin-left:2px}
@@ -230,6 +279,8 @@
   .pctbar span{display:block;height:100%;background:var(--blue);border-radius:4px}
   /* center all content inside Active Bugs summary cards */
   #bugcards .sc{text-align:center}
+  #allcards .sc{text-align:center}
+  .card.sc{display:flex;flex-direction:column;justify-content:center}
   #bugcards .sc .pctbar{width:70%;margin-left:auto;margin-right:auto}
   #bugcards .priobreak{justify-content:center}
   /* visible status header in bug board */
@@ -298,14 +349,8 @@
         <button class="clearsearch" id="allsearchclear" type="button" aria-label="Clear">×</button>
       </div>
       <div class="filterpanel">
-        <div class="filterrow"><span class="flabel">Theme</span>
-        <div class="themebtns" id="themefilter"></div></div>
-        <div class="filterrow"><span class="flabel">Pod</span>
-        <div class="themebtns" id="podfilter"></div></div>
-        <div class="filterrow"><span class="flabel">Release</span>
-        <div class="themebtns" id="relfilter"></div></div>
-        <div class="filterrow"><span class="flabel">Status</span>
-        <div class="themebtns" id="allstatusfilter"></div></div>
+        <div class="dropbar" id="featdropbar"></div>
+        <div class="chipsel" id="featchips"></div>
       </div>
       <div class="filterfoot">
         <span class="fcount" id="allfcount"></span>
@@ -331,15 +376,8 @@
         <button class="clearsearch" id="rmsearchclear" type="button" aria-label="Clear">×</button>
       </div>
       <div class="filterpanel">
-        <div class="filterrow"><span class="flabel">Segment</span>
-        <div class="themebtns" id="segfilter">
-          <button class="segbtn active" data-seg="all">All Pods</button>
-          <button class="segbtn" data-seg="LL">LL QA Roadmap</button>
-          <button class="segbtn" data-seg="PLANS">Plans QA Roadmap</button>
-          <button class="segbtn" data-seg="cross">Cross Pod QA Roadmap</button>
-        </div></div>
-        <div class="filterrow"><span class="flabel">Theme</span>
-        <div class="themebtns" id="rmthemefilter"></div></div>
+        <div class="dropbar" id="rmdropbar"></div>
+        <div class="chipsel" id="rmchips"></div>
       </div>
     </div>
     <div class="legend" style="margin-top:14px">
@@ -350,6 +388,7 @@
       <span class="chip"><span class="sw" style="background:var(--red);width:3px;height:14px;border-radius:1px"></span><b>Release freeze</b> — shaded column in the timeline</span>
     </div>
     <p class="sub" style="font-size:12px;margin-top:8px">Bar length is proportional to the feature's <b>T-shirt size</b> (Small → Huge), the same way bar color reflects status.</p>
+    <div class="boardctl"><span class="minilbl">Roadmap groups</span><button class="minibtn" id="rmexpandall" type="button">Expand all</button><button class="minibtn" id="rmcollapseall" type="button">Collapse all</button></div>
     <div class="board" id="board"></div>
     <div class="card pending" style="margin-top:18px">
       <h3 id="backlogtitle">No placeable date — follow-up queue</h3>
@@ -361,7 +400,7 @@
   </div>
 
   <div class="panel" id="panel-bugs">
-    <p class="sub" style="margin-top:16px">Active bugs (not closed), scoped by the <b>Pod</b> selector below (LL · PLANS · All). Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Filter by status, priority, or (LL only) migration-group; export the filtered list to Excel. In the <b>LL</b> pod, P3/P4 bugs show a 🏷️ if missing a migration-group label and a 🔗 if not fully in <b>LL - Low Prior Bugs</b> (missing the sprint and/or the epic PLANS-20751).</p>
+    <p class="sub" style="margin-top:16px">Active bugs (not closed), scoped by the <b>Pod</b> selector below (LL · PLANS · All). Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Filter by status, priority, migration-group, or review flags; export the filtered list to Excel. P3/P4 bugs show a 🏷️ if missing a migration-group label and a 🔗 if not fully in <b>Low Prior Bugs</b> (missing the sprint and/or the low-priority epic). This triage now covers both <b>LL</b> and <b>PLANS</b>.</p>
     <div class="filterrow" style="margin:14px 0 4px"><span class="flabel">Pod</span>
     <div class="themebtns" id="bugpodfilter"></div></div>
     <div class="cards" id="bugcards"></div>
@@ -373,18 +412,8 @@
         <button class="clearsearch" id="bugsearchclear" type="button" aria-label="Clear">×</button>
       </div>
       <div class="filterpanel">
-        <div class="filterrow"><span class="flabel">Status</span>
-        <div class="themebtns" id="bugstatusfilter"></div></div>
-        <div class="filterrow"><span class="flabel">Priority</span>
-        <div class="themebtns" id="bugpriofilter"></div></div>
-        <div class="filterrow"><span class="flabel">Recent</span>
-        <div class="themebtns" id="bugnewfilter"></div></div>
-        <div class="filterrow"><span class="flabel">Prioritized</span>
-        <div class="themebtns" id="buglabelfilter"></div></div>
-        <div class="filterrow" id="row-group"><span class="flabel">Group</span>
-        <div class="themebtns" id="buggroupfilter"></div></div>
-        <div class="filterrow" id="row-review"><span class="flabel">Review</span>
-        <div class="themebtns" id="bugflagfilter"></div></div>
+        <div class="dropbar" id="bugdropbar"></div>
+        <div class="chipsel" id="bugchips"></div>
       </div>
       <div class="filterfoot">
         <span class="fcount" id="bugfcount"></span>
@@ -394,6 +423,7 @@
         </div>
       </div>
     </div>
+    <div class="boardctl"><span class="minilbl">Status columns</span><button class="minibtn" id="bugexpandall" type="button">Expand all</button><button class="minibtn" id="bugcollapseall" type="button">Collapse all</button></div>
     <div id="bugboard"></div>
     <p class="xnote" id="bugnote"></p>
 
@@ -406,9 +436,9 @@
   </div>
 
   <footer class="datasrc">
-    <span class="dslabel">Fuente de datos</span>
+    <span class="dslabel">Data source</span>
     <a href="https://wellfitteams-my.sharepoint.com/:x:/g/personal/shikha_atal_wellfit_com/IQAOhNA8nXULR7EWfYBM2BPmAS-KfxYOB_pqopyXdRtuO3Q?e=hKHRyg" target="_blank" rel="noopener">LaunchLoyalty Timelines.xlsx</a>
-    <span class="dsnote">— planilla en SharePoint. Los datos de features y bugs también se reconcilian contra Jira (Pod = LL). Este HTML es un snapshot y no se actualiza solo.</span>
+    <span class="dsnote">— spreadsheet on SharePoint. Feature and bug data is reconciled against Jira (Pod = LL). This HTML is a snapshot and does not auto-refresh.</span>
   </footer>
 </div><!-- /wrap -->
 
@@ -479,7 +509,7 @@ function weekCenter(wi){ const s=pct(WEEKS[wi].start), e=pct(WEEKS[wi].end); ret
 // PLANS / cross segments derive from the master ALL set, placed by Target End date.
 // Theme lookup by key (from the cross-pod theme dataset) so roadmap items can be theme-filtered.
 const THEME_BY_KEY = {};
-FEATURES_ALL.forEach(f=>{ if(f.theme) THEME_BY_KEY[f.key]=f.theme; });
+function rebuildThemeIndex(){ for(const k in THEME_BY_KEY) delete THEME_BY_KEY[k]; FEATURES_ALL.forEach(f=>{ if(f.theme) THEME_BY_KEY[f.key]=f.theme; }); }
 let rmSeg="all", rmThemes=new Set();   // rmThemes: empty = All; multi-select OR
 function segData(seg){
   let items;
@@ -504,8 +534,8 @@ function renderRoadmap(seg){
   if(rmThemes.size) items = items.filter(f=>rmThemes.has(f.theme||""));
   if(rmSearchTerm) items = items.filter(f=>matchSearch(f, rmSearchTerm));
   // scale header
-  let scale=`<div class="scalerow"><div class="corner">Feature</div><div class="weeks" style="grid-template-columns:repeat(${NW},1fr)">`;
-  WEEKS.forEach(w=>{ scale+=`<div class="weekhead ${w.freeze?'freeze':''}"><b>${w.label}</b>${w.freeze?`<span style="color:var(--red)">${w.freeze}</span>`:''}</div>`; });
+  let scale=`<div class="scalerow"><div class="corner">Feature</div><div class="weeks" style="grid-template-columns:repeat(${NW},minmax(0,1fr))">`;
+  WEEKS.forEach(w=>{ scale+=`<div class="weekhead ${w.freeze?'freeze':''}"><b>${w.label}</b>${w.freeze?`<span class="frz">${w.freeze}</span>`:''}</div>`; });
   scale+=`</div></div>`;
   board.innerHTML=scale;
 
@@ -533,7 +563,7 @@ function renderRoadmap(seg){
     const warnIcon = over ? `<span class="warnico" title="Target End date is in the past and the feature is not yet In Testing — please update the date.">⚠</span>` : '';
     const szMeta = f.tshirt ? ` · ${f.tshirt}` : '';
     const row=document.createElement("div"); row.className="row";
-    const lane=`<div class="lane" style="grid-template-columns:repeat(${NW},1fr)">`+
+    const lane=`<div class="lane" style="grid-template-columns:repeat(${NW},minmax(0,1fr))">`+
       WEEKS.map(x=>`<div class="gridcell ${x.freeze?'freeze':''}"></div>`).join("")+
       `<a class="bar ${c}" href="${url}" target="_blank" rel="noopener" style="left:calc(${leftPct}% - 2px);width:${w}px;${leftPct>60?'transform:translate(-100%,-50%)':''}"><span class="dot"></span>${barLabel(f)}${tip}</a>`+
       `</div>`;
@@ -543,9 +573,10 @@ function renderRoadmap(seg){
 
   // 1) QA Ready / In Progress lane (In Testing+) — separated, date-independent
   if(qaReadyList.length){
-    const g=document.createElement("div"); g.className="group";
-    g.innerHTML=`<div class="grouphead" style="background:var(--green)">✅ QA Ready / In Progress<span class="rng">${qaReadyList.length} — already in QA's hands</span></div>`;
+    const g=document.createElement("div"); g.className="group open";
+    g.innerHTML=`<div class="grouphead" style="background:var(--green)"><span class="ghl"><span class="gchev">▸</span>✅ QA Ready / In Progress</span><span class="rng">${qaReadyList.length} — already in QA's hands</span></div>`;
     qaReadyList.sort((a,b)=>a.key.localeCompare(b.key)).forEach(f=>{ g.appendChild(barRow(f, 6)); });
+    g.querySelector(".grouphead").addEventListener("click",()=>g.classList.toggle("open"));
     board.appendChild(g);
   }
   // 2) Weekly lanes by Target End date
@@ -554,12 +585,13 @@ function renderRoadmap(seg){
   WEEKS.forEach((w,wi)=>{
     const list=(byWeek[wi]||[]).sort((a,b)=>new Date(a.ted||WEEKS[wi].start)-new Date(b.ted||WEEKS[wi].start));
     if(!list.length) return;
-    const g=document.createElement("div"); g.className="group";
-    g.innerHTML=`<div class="grouphead">QA Week — ${w.label}<span class="rng">${list.length} item${list.length>1?'s':''}</span></div>`;
+    const g=document.createElement("div"); g.className="group open";
+    g.innerHTML=`<div class="grouphead"><span class="ghl"><span class="gchev">▸</span>QA Week — ${w.label}</span><span class="rng">${list.length} item${list.length>1?'s':''}</span></div>`;
     list.forEach(f=>{
       const left = (new Date(f.ted) < T0) ? weekCenter(0) : pct(f.ted);
       g.appendChild(barRow(f, left));
     });
+    g.querySelector(".grouphead").addEventListener("click",()=>g.classList.toggle("open"));
     board.appendChild(g);
   });
   // backlog / no-date (only real Features)
@@ -575,26 +607,70 @@ function renderRoadmap(seg){
   setupPeek("nodate","nodate-toggle",5);
   document.getElementById("stamp").textContent="Snapshot built "+TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})+" from Jira. Roadmap is a snapshot — it does not auto-refresh.";
 }
-function buildRoadmapThemeChips(){
+let rmOpenMenu=null;   // "pod" | "theme" | null
+const RM_SEG_LABEL={all:"All Pods", LL:"LL QA Roadmap", PLANS:"Plans QA Roadmap", cross:"Cross Pod QA Roadmap"};
+function rmSegCount(v){ const d=(v==="all"?segAll():segData(v)); return d.items.length; }
+function rmThemeOptions(){
   const data = rmSeg==="all" ? segAll() : segData(rmSeg);
   const order=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
   let found=Array.from(new Set(data.items.map(f=>f.theme).filter(Boolean)));
   found.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
-  // drop any selected themes no longer present in this segment
   [...rmThemes].forEach(t=>{ if(!found.includes(t)) rmThemes.delete(t); });
-  const box=document.getElementById("rmthemefilter"); box.innerHTML="";
-  // All chip (clears the Set)
-  const allBtn=document.createElement("button");
-  allBtn.className="podbtn"+(rmThemes.size===0?" active":""); allBtn.textContent="All";
-  allBtn.addEventListener("click",()=>{ rmThemes.clear(); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
-  box.appendChild(allBtn);
-  found.forEach(t=>{
-    const b=document.createElement("button");
-    b.className="podbtn"+(rmThemes.has(t)?" active":""); b.textContent=t;
-    b.addEventListener("click",()=>{ if(rmThemes.has(t)) rmThemes.delete(t); else rmThemes.add(t); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
-    box.appendChild(b);
-  });
+  return found.map(t=>({v:t,label:t,count:data.items.filter(f=>f.theme===t).length}));
 }
+function buildRoadmapThemeChips(){   // Drive-style Pod + Theme dropdowns for the roadmap
+  const bar=document.getElementById("rmdropbar"); if(!bar) return;
+  bar.innerHTML="";
+  // ---- Pod dropdown (single-select) ----
+  (function(){
+    const active=(rmSeg!=="all");
+    const wrap=document.createElement("div"); wrap.className="dropwrap"; wrap.dataset.fid="rmpod";
+    const btn=document.createElement("button"); btn.type="button";
+    btn.className="dropbtn"+(active?" active":"")+(rmOpenMenu==="pod"?" opened":"");
+    btn.innerHTML=`Pod: ${RM_SEG_LABEL[rmSeg]} <span class="dcar">▾</span>`;
+    btn.addEventListener("click",ev=>{ ev.stopPropagation(); rmOpenMenu=(rmOpenMenu==="pod"?null:"pod"); buildRoadmapThemeChips(); });
+    const menu=document.createElement("div"); menu.className="dropmenu"+(rmOpenMenu==="pod"?" open":"");
+    ["all","LL","PLANS","cross"].forEach(v=>{
+      const on=(rmSeg===v);
+      const it=document.createElement("button"); it.type="button"; it.className="dropitem"+(on?" on":"");
+      it.innerHTML=`<span class="dchk">${on?"✓":""}</span><span class="ditxt">${RM_SEG_LABEL[v]}</span><span class="dnum">${rmSegCount(v)}</span>`;
+      it.addEventListener("click",ev=>{ ev.stopPropagation(); if(rmSeg!==v){ rmSeg=v; rmThemes.clear(); } rmOpenMenu="pod"; buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
+      menu.appendChild(it);
+    });
+    wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
+  })();
+  // ---- Theme dropdown (multi-select) ----
+  (function(){
+    const opts=rmThemeOptions(); const sel=[...rmThemes];
+    const wrap=document.createElement("div"); wrap.className="dropwrap"; wrap.dataset.fid="rmtheme";
+    const btn=document.createElement("button"); btn.type="button";
+    btn.className="dropbtn"+(sel.length?" active":"")+(rmOpenMenu==="theme"?" opened":"");
+    btn.innerHTML=`Theme${sel.length?` <span class="dcount">${sel.length}</span>`:""} <span class="dcar">▾</span>`;
+    btn.addEventListener("click",ev=>{ ev.stopPropagation(); rmOpenMenu=(rmOpenMenu==="theme"?null:"theme"); buildRoadmapThemeChips(); });
+    const menu=document.createElement("div"); menu.className="dropmenu"+(rmOpenMenu==="theme"?" open":"");
+    if(!opts.length){ const e=document.createElement("div"); e.className="dropitem"; e.style.opacity=".6"; e.style.cursor="default"; e.textContent="No themes in this view"; menu.appendChild(e); }
+    opts.forEach(o=>{
+      const on=rmThemes.has(o.v);
+      const it=document.createElement("button"); it.type="button"; it.className="dropitem"+(on?" on":"");
+      it.innerHTML=`<span class="dchk">${on?"✓":""}</span><span class="ditxt">${o.label}</span><span class="dnum">${o.count}</span>`;
+      it.addEventListener("click",ev=>{ ev.stopPropagation(); if(rmThemes.has(o.v)) rmThemes.delete(o.v); else rmThemes.add(o.v); rmOpenMenu="theme"; buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
+      menu.appendChild(it);
+    });
+    wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
+  })();
+  // ---- Theme chips (Pod value shows in its own button) ----
+  const box=document.getElementById("rmchips");
+  if(box){ box.innerHTML=""; const sel=[...rmThemes];
+    sel.forEach(v=>{
+      const chip=document.createElement("span"); chip.className="selchip";
+      chip.innerHTML=`<span class="scname">Theme:</span> ${v} <span class="scx" title="Remove">✕</span>`;
+      chip.querySelector(".scx").addEventListener("click",()=>{ rmThemes.delete(v); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
+      box.appendChild(chip);
+    });
+    box.style.display=sel.length?"flex":"none";
+  }
+}
+document.addEventListener("click",e=>{ if(rmOpenMenu && !(e.target.closest && e.target.closest(".dropwrap"))){ rmOpenMenu=null; buildRoadmapThemeChips(); } });
 document.querySelectorAll("#segfilter .segbtn").forEach(b=>{
   b.addEventListener("click",()=>{
     document.querySelectorAll("#segfilter .segbtn").forEach(x=>x.classList.remove("active"));
@@ -810,23 +886,81 @@ document.querySelectorAll("#panel-all th.sortable").forEach(th=>{
     renderAll();
   });
 });
+// ===== Drive-style dropdown filter bar — Active Features =====
+let featOpenMenu=null;
+function featFilterDefs(){
+  const A=FEATURES_ALL;
+  const order=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
+  const defs=[];
+  let themes=Array.from(new Set(A.map(f=>f.theme).filter(Boolean)));
+  themes.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
+  const th=themes.map(t=>({v:t,label:t,count:A.filter(f=>f.theme===t).length}));
+  if(A.some(f=>!f.theme)) th.push({v:"",label:"(none)",count:A.filter(f=>!f.theme).length});
+  defs.push({id:"theme",label:"Theme",options:th,selected:()=>[...fThemes],toggle:v=>{ fThemes.has(v)?fThemes.delete(v):fThemes.add(v); }});
+  let pods=Array.from(new Set(A.map(f=>f.pod).filter(Boolean))).sort();
+  const po=pods.map(p=>({v:p,label:p,count:A.filter(f=>f.pod===p).length}));
+  if(A.some(f=>!f.pod)) po.push({v:"",label:"(none)",count:A.filter(f=>!f.pod).length});
+  defs.push({id:"pod",label:"Pod",options:po,selected:()=>[...fPods],toggle:v=>{ fPods.has(v)?fPods.delete(v):fPods.add(v); }});
+  let rels=Array.from(new Set(A.map(f=>f.fv||"—"))).sort();
+  defs.push({id:"rel",label:"Release",options:rels.map(r=>({v:r,label:r,count:A.filter(f=>(f.fv||"—")===r).length})),selected:()=>[...fReleases],toggle:v=>{ fReleases.has(v)?fReleases.delete(v):fReleases.add(v); }});
+  let sts=Array.from(new Set(A.map(f=>f.status))).sort((a,b)=>fRank(b)-fRank(a));
+  defs.push({id:"status",label:"Status",options:sts.map(s=>({v:s,label:s,count:A.filter(f=>f.status===s).length})),selected:()=>[...fStatuses],toggle:v=>{ fStatuses.has(v)?fStatuses.delete(v):fStatuses.add(v); }});
+  return defs;
+}
+function renderFeatBar(){
+  const bar=document.getElementById("featdropbar"); if(!bar) return;
+  bar.innerHTML="";
+  featFilterDefs().forEach(def=>{
+    const sel=def.selected();
+    const wrap=document.createElement("div"); wrap.className="dropwrap"; wrap.dataset.fid=def.id;
+    const btn=document.createElement("button"); btn.type="button";
+    btn.className="dropbtn"+(sel.length?" active":"")+(featOpenMenu===def.id?" opened":"");
+    btn.innerHTML=`${def.label}${sel.length?` <span class="dcount">${sel.length}</span>`:""} <span class="dcar">▾</span>`;
+    btn.addEventListener("click",ev=>{ ev.stopPropagation(); featOpenMenu=(featOpenMenu===def.id?null:def.id); renderFeatBar(); });
+    const menu=document.createElement("div"); menu.className="dropmenu"+(featOpenMenu===def.id?" open":"");
+    def.options.forEach(o=>{
+      const on=sel.includes(o.v);
+      const it=document.createElement("button"); it.type="button"; it.className="dropitem"+(on?" on":"");
+      it.innerHTML=`<span class="dchk">${on?"✓":""}</span><span class="ditxt">${o.label}</span><span class="dnum">${o.count}</span>`;
+      it.addEventListener("click",ev=>{ ev.stopPropagation(); def.toggle(o.v); fCard="all"; featOpenMenu=def.id; refreshFeatUI(); });
+      menu.appendChild(it);
+    });
+    wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
+  });
+}
+function renderFeatChips(){
+  const box=document.getElementById("featchips"); if(!box) return;
+  box.innerHTML=""; let any=false;
+  featFilterDefs().forEach(def=>{
+    def.selected().forEach(v=>{
+      any=true;
+      const o=(def.options.find(x=>x.v===v)||{label:(v||"(none)")});
+      const chip=document.createElement("span"); chip.className="selchip";
+      chip.innerHTML=`<span class="scname">${def.label}:</span> ${o.label} <span class="scx" title="Remove">✕</span>`;
+      chip.querySelector(".scx").addEventListener("click",()=>{ def.toggle(v); fCard="all"; refreshFeatUI(); });
+      box.appendChild(chip);
+    });
+  });
+  box.style.display=any?"flex":"none";
+}
+function refreshFeatUI(){ renderFeatBar(); renderFeatChips(); renderAll(); }
+document.addEventListener("click",e=>{ if(featOpenMenu && !(e.target.closest && e.target.closest(".dropwrap"))){ featOpenMenu=null; renderFeatBar(); } });
 function initFeaturesAndRoadmap(){
-  featureFilters();
+  renderFeatBar(); renderFeatChips();
   renderAll();
   wireSearch("allsearchbox","allsearch","allsearchclear","allsearchcount",
-    v=>{ allSearchTerm=v; }, renderAll, ()=>featureBase().filter(f=>fCard==="all"||FCARD_PRED[fCard](f)).length);
+    v=>{ allSearchTerm=v; }, refreshFeatUI, ()=>featureBase().filter(f=>fCard==="all"||FCARD_PRED[fCard](f)).length);
   document.getElementById("allclearall").addEventListener("click", ()=>{
-    ["themefilter","podfilter","relfilter","allstatusfilter"].forEach(id=>{
-      const allChip=document.querySelector('#'+id+' button[data-val="__all__"]');
-      if(allChip) allChip.click();
-    });
-    fCard="all";
+    fThemes.clear(); fPods.clear(); fReleases.clear(); fStatuses.clear(); fCard="all"; featOpenMenu=null;
     const si=document.getElementById("allsearch");
     if(si){ si.value=""; allSearchTerm=""; document.getElementById("allsearchbox").classList.remove("has-text"); }
-    renderAll();
+    refreshFeatUI();
   });
   buildRoadmapThemeChips();
   renderRoadmap("all");
+  const _re=document.getElementById("rmexpandall"), _rc=document.getElementById("rmcollapseall");
+  if(_re)_re.addEventListener("click",()=>document.querySelectorAll("#board .group").forEach(g=>g.classList.add("open")));
+  if(_rc)_rc.addEventListener("click",()=>document.querySelectorAll("#board .group").forEach(g=>g.classList.remove("open")));
   wireSearch("rmsearchbox","rmsearch","rmsearchclear","rmsearchcount",
     v=>{ rmSearchTerm=v; }, ()=>renderRoadmap(rmSeg),
     ()=>{ const d=rmSeg==="all"?segAll():segData(rmSeg); let it=d.items;
@@ -961,14 +1095,15 @@ function renderBugs(){
     if(ah!==bh) return ah?-1:1;            // On Hold always on top
     return flowRank(b)-flowRank(a);
   });
+  const openByDefault = bugActiveCount()>0;   // collapsed by default; auto-expand when a filter/search is active
   const wrap=document.getElementById("bugboard"); wrap.innerHTML="";
   ordered.forEach(st=>{
     const list=groups[st];
     const near=NEAR_CLOSE.includes(st);
     const isBack=st==="Backlog";
     const hold=/hold/i.test(st);
-    const sec=document.createElement("div"); sec.className="bugcol";
-    sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''}"><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
+    const sec=document.createElement("div"); sec.className="bugcol"+(openByDefault?" open":"");
+    sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''}"><span class="chev">▸</span><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
     const tbl=document.createElement("table"); tbl.className="xref bugtbl";
     tbl.innerHTML=`<thead><tr><th>Bug</th><th>Priority</th><th>Fix Version</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
     const tb=document.createElement("tbody");
@@ -976,9 +1111,9 @@ function renderBugs(){
       const pn=prioNum(b.prio);
       const newTag = isNew(b) ? ` <span class="newtag" title="Created within the last ${NEW_DAYS} days">NEW</span>` : '';
       const gl = bugGroupLabels(b).map(l=>`<span class="gtag" title="Migration group label">${l.replace('_migration',' migration')}</span>`).join("");
-      const flags = (bugPod!=="LL") ? "" :
+      const flags =
         (missingGroup(b)?`<span class="flagico nolabel" title="P3/P4 missing a migration-group label (group1/2/3_migration) — assign the migration group">🏷️</span>`:"")+
-        (notLinkedLP(b)?`<span class="flagico nolink" title="P3/P4 not fully in LL - Low Prior Bugs — missing ${lpMissing(b).join(' & ')}. Add it to the 'LL - Low Prior Bugs' sprint and link it under epic PLANS-20751.">🔗</span>`:"");
+        (notLinkedLP(b)?`<span class="flagico nolink" title="P3/P4 not fully in Low Prior Bugs — missing ${lpMissing(b).join(' & ')}. Add it to the 'Low Prior Bugs' sprint and link it under the low-priority epic (PLANS-20751).">🔗</span>`:"");
       const tr=document.createElement("tr");
       tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}${flags}<br><span style="color:var(--ink)">${b.name}${gl}</span></td>`+
         `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
@@ -987,7 +1122,9 @@ function renderBugs(){
         `<td>${b.who}</td><td>${b.reporter}</td>`;
       tb.appendChild(tr);
     });
-    tbl.appendChild(tb); sec.appendChild(tbl); wrap.appendChild(sec);
+    tbl.appendChild(tb); sec.appendChild(tbl);
+    sec.querySelector(".bugcolhead").addEventListener("click",()=>sec.classList.toggle("open"));
+    wrap.appendChild(sec);
   });
   document.getElementById("bugnote").textContent=`Showing ${rows.length} of ${scopedBugs().length} active bugs. Columns ordered by workflow — On Hold pinned first, then closest to closing, backlog last. Within each column, highest priority first. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
   updateBugFoot(rows.length);
@@ -1185,6 +1322,80 @@ function bugFlagFilters(){
   });
 }
 function syncFlagChips(ff){ ff.querySelectorAll(".tbtn").forEach(b=>{ const v=b.dataset.flag; if(v==="__all__") b.classList.toggle("active",bugFlags.size===0); else b.classList.toggle("active",bugFlags.has(v)); }); }
+// ===== Drive-style dropdown filter bar (preview) =====
+// Actionable options: these signal work to do -> button/chip highlighted amber with an icon.
+const ACTION_VALS={recent:["new"], prioritized:["unprioritized"], review:["nolabel","nolink"]};
+let bugOpenMenu=null;
+function filterDefs(){
+  const B=scopedBugs();
+  const defs=[];
+  defs.push({id:"status",label:"Status",
+    options: FLOW.filter(s=>B.some(b=>b.status===s)).sort((a,b)=>flowRank(b)-flowRank(a)).map(s=>({v:s,label:s,count:B.filter(b=>b.status===s).length})),
+    selected:()=>[...bugStatuses], toggle:v=>{ bugStatuses.has(v)?bugStatuses.delete(v):bugStatuses.add(v); }});
+  defs.push({id:"prio",label:"Priority",
+    options: Array.from(new Set(B.map(b=>b.prio).filter(Boolean))).sort((a,b)=>prioNum(a)-prioNum(b)).map(p=>({v:p,label:(/^\d+:\s*/.test(p)?prioShort(p)+" · "+p.replace(/^\d+:\s*/,""):p),count:B.filter(b=>b.prio===p).length})),
+    selected:()=>[...bugPrios], toggle:v=>{ bugPrios.has(v)?bugPrios.delete(v):bugPrios.add(v); }});
+  defs.push({id:"recent",label:"Recent", aicon:"🆕",
+    options:[{v:"new",label:"🆕 New (last "+NEW_DAYS+"d)",count:B.filter(isNew).length}],
+    selected:()=>bugNewOnly?["new"]:[], toggle:v=>{ bugNewOnly=!bugNewOnly; }, alert:()=>B.filter(isNew).length});
+  defs.push({id:"prioritized",label:"Prioritized", aicon:"⚠️",
+    options:[{v:"prioritized",label:"✅ Prioritized",count:B.filter(hasLabel).length},{v:"unprioritized",label:"⚠️ Not prioritized",count:B.length-B.filter(hasLabel).length}],
+    selected:()=>bugLabelFilter==="all"?[]:[bugLabelFilter], toggle:v=>{ bugLabelFilter=(bugLabelFilter===v?"all":v); }, alert:()=>B.length-B.filter(hasLabel).length});
+  // Migration-group + Low-Prior triage now applies to LL and PLANS (and the combined All view)
+  defs.push({id:"group",label:"Group",
+    options: GROUP_LABELS.map(l=>({v:l,label:l.replace("_migration"," migration"),count:B.filter(b=>bugGroupLabels(b).includes(l)).length})),
+    selected:()=>[...bugGroups], toggle:v=>{ bugGroups.has(v)?bugGroups.delete(v):bugGroups.add(v); }});
+  defs.push({id:"review",label:"Review", aicon:"⚠️",
+    options:[{v:"nolabel",label:"🏷️ No group (P3/P4)",count:B.filter(missingGroup).length},{v:"nolink",label:"🔗 Not in Low-Prior (P3/P4)",count:B.filter(notLinkedLP).length}],
+    selected:()=>[...bugFlags], toggle:v=>{ bugFlags.has(v)?bugFlags.delete(v):bugFlags.add(v); }, alert:()=>B.filter(b=>missingGroup(b)||notLinkedLP(b)).length});
+  return defs;
+}
+function isActionVal(id,v){ return (ACTION_VALS[id]||[]).includes(v); }
+function closeBugMenus(){ bugOpenMenu=null; renderFilterBar(); }
+function renderFilterBar(){
+  const bar=document.getElementById("bugdropbar"); if(!bar) return;
+  bar.innerHTML="";
+  filterDefs().forEach(def=>{
+    const sel=def.selected();
+    const al=def.alert?def.alert():0;
+    const wrap=document.createElement("div"); wrap.className="dropwrap"; wrap.dataset.fid=def.id;
+    const btn=document.createElement("button"); btn.type="button";
+    btn.className="dropbtn"+(sel.length?" active":"")+(al>0?" alert":"")+(bugOpenMenu===def.id?" opened":"");
+    btn.innerHTML=`${al>0?`<span class="dalert">${def.aicon||"⚠️"}</span>`:""}${def.label}`+
+      `${sel.length?` <span class="dcount">${sel.length}</span>`:""}`+
+      `${al>0?` <span class="dcount amber" title="Needs action">${al}</span>`:""}`+
+      ` <span class="dcar">▾</span>`;
+    btn.addEventListener("click",ev=>{ ev.stopPropagation(); bugOpenMenu=(bugOpenMenu===def.id?null:def.id); renderFilterBar(); });
+    const menu=document.createElement("div"); menu.className="dropmenu"+(bugOpenMenu===def.id?" open":"");
+    def.options.forEach(o=>{
+      const on=sel.includes(o.v);
+      const it=document.createElement("button"); it.type="button";
+      it.className="dropitem"+(on?" on":"")+(isActionVal(def.id,o.v)&&o.count>0?" act":"");
+      it.innerHTML=`<span class="dchk">${on?"✓":""}</span><span class="ditxt">${o.label}</span><span class="dnum">${o.count}</span>`;
+      it.addEventListener("click",ev=>{ ev.stopPropagation(); def.toggle(o.v); bugOpenMenu=def.id; refreshBugUI(); });
+      menu.appendChild(it);
+    });
+    wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
+  });
+}
+function renderChips(){
+  const box=document.getElementById("bugchips"); if(!box) return;
+  box.innerHTML=""; let any=false;
+  filterDefs().forEach(def=>{
+    def.selected().forEach(v=>{
+      any=true;
+      const o=(def.options.find(x=>x.v===v)||{label:v});
+      const act=isActionVal(def.id,v);
+      const chip=document.createElement("span"); chip.className="selchip"+(act?" alert":"");
+      chip.innerHTML=`<span class="scname">${def.label}:</span> ${o.label} <span class="scx" title="Remove">✕</span>`;
+      chip.querySelector(".scx").addEventListener("click",()=>{ def.toggle(v); refreshBugUI(); });
+      box.appendChild(chip);
+    });
+  });
+  box.style.display=any?"flex":"none";
+}
+function refreshBugUI(){ renderFilterBar(); renderChips(); renderBugs(); }
+document.addEventListener("click",e=>{ if(bugOpenMenu && !(e.target.closest && e.target.closest(".dropwrap"))) closeBugMenus(); });
 function bugPodFilters(){
   const pf=document.getElementById("bugpodfilter"); if(!pf) return;
   pf.innerHTML="";
@@ -1198,10 +1409,11 @@ function bugPodFilters(){
   });
 }
 function toggleLLRows(){
-  const showLL=(bugPod==="LL");
+  // Group + Review (migration-group + Low-Prior triage) now apply to LL and PLANS
+  const show=(bugPod==="LL"||bugPod==="PLANS"||bugPod==="ALL");
   const rg=document.getElementById("row-group"), rr=document.getElementById("row-review");
-  if(rg) rg.style.display=showLL?"":"none";
-  if(rr) rr.style.display=showLL?"":"none";
+  if(rg) rg.style.display=show?"":"none";
+  if(rr) rr.style.display=show?"":"none";
 }
 function onPodChange(){
   // reset all filters, rebuild pod-dependent chips, toggle LL-only rows, re-render
@@ -1209,39 +1421,22 @@ function onPodChange(){
   bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear();
   const si=document.getElementById("bugsearch");
   if(si){ si.value=""; bugSearchTerm=""; const sb=document.getElementById("bugsearchbox"); if(sb) sb.classList.remove("has-text"); }
-  bugPodFilters(); bugStatusFilters(); bugPrioFilters(); bugNewFilter(); bugLabelFilters(); bugGroupFilters(); bugFlagFilters();
-  toggleLLRows(); renderBugs();
+  bugPodFilters(); refreshBugUI();
 }
 function initBugs(){
   bugPodFilters();
-  bugStatusFilters();
-  bugPrioFilters();
-  bugNewFilter();
-  bugLabelFilters();
-  bugGroupFilters();
-  bugFlagFilters();
-  toggleLLRows();
   noPodList();
-  renderBugs();
+  refreshBugUI();
   wireSearch("bugsearchbox","bugsearch","bugsearchclear","bugsearchcount",
-    v=>{ bugSearchTerm=v; }, renderBugs, ()=>bugRows().length);
+    v=>{ bugSearchTerm=v; }, refreshBugUI, ()=>bugRows().length);
+  const _ea=document.getElementById("bugexpandall"), _ca=document.getElementById("bugcollapseall");
+  if(_ea) _ea.addEventListener("click",()=>document.querySelectorAll("#bugboard .bugcol").forEach(s=>s.classList.add("open")));
+  if(_ca) _ca.addEventListener("click",()=>document.querySelectorAll("#bugboard .bugcol").forEach(s=>s.classList.remove("open")));
   document.getElementById("bugclearall").addEventListener("click", ()=>{
-    const sAll=document.querySelector('#bugstatusfilter .tbtn[data-status="all"]');
-    if(sAll) sAll.click();
-    const pAll=document.querySelector('#bugpriofilter .tbtn[data-prio="__all__"]');
-    if(pAll) pAll.click();
-    const nAll=document.querySelector('#bugnewfilter .tbtn[data-newf="all"]');
-    if(nAll) nAll.click();
-    const lAll=document.querySelector('#buglabelfilter .tbtn[data-labelf="all"]');
-    if(lAll) lAll.click();
-    const gAll=document.querySelector('#buggroupfilter .tbtn[data-grp="__all__"]');
-    if(gAll) gAll.click();
-    const flAll=document.querySelector('#bugflagfilter .tbtn[data-flag="__all__"]');
-    if(flAll) flAll.click();
-    bugCard="all";
+    bugStatuses.clear(); bugPrios.clear(); bugNewOnly=false; bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugCard="all"; bugOpenMenu=null;
     const si=document.getElementById("bugsearch");
     if(si){ si.value=""; bugSearchTerm=""; document.getElementById("bugsearchbox").classList.remove("has-text"); }
-    renderBugs();
+    refreshBugUI();
   });
 }
 
@@ -1251,6 +1446,7 @@ function initBugs(){
 function applyData(d){
   FEATURES = d.features || [];
   FEATURES_ALL = d.features_all || [];
+  rebuildThemeIndex();
   ALL = d.all || [];
   BUGS = d.bugs || [];
   NOPOD = d.nopod || [];
