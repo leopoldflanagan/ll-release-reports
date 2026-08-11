@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T18:15:41+00:00",
+ "generated_at": "2026-08-11T20:12:49+00:00",
  "today": "2026-08-11",
  "features": [
   {
@@ -42,7 +42,7 @@
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
@@ -51,7 +51,7 @@
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-11",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
@@ -69,7 +69,7 @@
    "key": "PLANS-15226",
    "name": "WAIVEFAM Promo Code",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-12",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Small"
@@ -96,7 +96,7 @@
    "key": "PLANS-17004",
    "name": "Handle Integration within The Member Portal",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Petro Yarish",
    "tshirt": "Moderate"
@@ -295,7 +295,7 @@
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
@@ -306,7 +306,7 @@
    "key": "PLANS-15226",
    "name": "WAIVEFAM Promo Code",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-12",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Small",
@@ -372,7 +372,7 @@
    "key": "PLANS-17004",
    "name": "Handle Integration within The Member Portal",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Petro Yarish",
    "tshirt": "Moderate",
@@ -394,7 +394,7 @@
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-11",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate",
@@ -484,7 +484,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": null,
-   "who": "Michael McNulty",
+   "who": "Chris Rubio",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-MVP"
@@ -1048,7 +1048,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-14",
    "who": "Ivan Yarymovych",
    "theme": "LL-MVP"
   },
@@ -1059,7 +1059,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-12",
    "who": "Mykyta Moroz",
    "theme": "LL-MVP"
   },
@@ -1125,7 +1125,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-14",
    "who": "Petro Yarish",
    "theme": "LL-MVP"
   },
@@ -1147,7 +1147,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-11",
    "who": "Mykyta Moroz",
    "theme": "LL-MVP"
   },
@@ -1236,7 +1236,7 @@
    "status": "Architecture",
    "fv": null,
    "ted": null,
-   "who": "Michael McNulty",
+   "who": "Chris Rubio",
    "theme": "LL-MVP"
   },
   {
@@ -1769,13 +1769,13 @@
   },
   {
    "key": "PLANS-20905",
-   "name": "Preprod/Smile Health/Plan purchase is failing",
+   "name": "PLANS-20905: Preprod: Smile Health: Plan purchase is failed",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.6.1",
    "sprint": "LL-Sprint 19-26",
-   "who": "Valentyna Tenus",
+   "who": "Ivan Yarymovych",
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-08-10",
@@ -1838,25 +1838,6 @@
    "created": "2026-08-05",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20133",
-   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-07-22",
-   "labels": [
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -2014,12 +1995,12 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20973",
-   "name": "Stage/PMP/Blocked to Purchase plan in PMP",
+   "key": "PLANS-21015",
+   "name": "Member Portal/Benefit Status for used benefits is not displayed in Benefit Summaries",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
@@ -2176,26 +2157,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20919",
-   "name": "CSP - History of accounts - Plan cancelation reasons are not audited",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-10",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20916",
    "name": "Stage - Member Portal - Total Discounts & Costs values are overlapping",
    "pod": "LL",
@@ -2282,8 +2243,8 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Clint Tredway",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-08-07",
@@ -6736,6 +6697,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20133",
+   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20112",
    "name": "Patient renewed online, but the plan changed to the kids plan",
    "pod": "PLANS",
@@ -6846,6 +6826,20 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-21018",
+   "name": "Member Portal/Duplicate Benefit codes are displayed",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
+  {
+   "key": "PLANS-21013",
+   "name": "One Smile – Unable to Complete Plan Purchase",
+   "status": "On Hold",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
   {
    "key": "PLANS-20955",
    "name": "Duplicate Plan Charge",
