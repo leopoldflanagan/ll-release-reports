@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T12:13:59+00:00",
+ "generated_at": "2026-08-11T14:24:53+00:00",
  "today": "2026-08-11",
  "features": [
   {
@@ -1704,6 +1704,26 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-20910",
+   "name": "Preprod/Smile Health / Check all checkbox shows incorrect status for partially selected elements",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Hunter Redhead",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20905",
    "name": "Preprod/Smile Health/Plan purchase is failing",
    "pod": "LL",
@@ -1716,8 +1736,26 @@
    "prio": "1: Urgent",
    "created": "2026-08-10",
    "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20904",
+   "name": "PDS plan sold by a NON PDS office",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Clint Tredway",
+   "reporter": "Carmen West",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
+   "labels": [],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1752,26 +1790,6 @@
    "sprint": "Plans-Sprint 19-26",
    "who": "Petro Yarish",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-05",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20771",
-   "name": "Ancillary Benefit - Find a Provider - is pulling wrong details",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-08-05",
    "labels": [
@@ -1857,6 +1875,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20061",
    "name": "DCA: Core Plan purchase restriction from CSP Portal is incorrectly applied to Deluxe Plan",
    "pod": "LL",
@@ -1888,6 +1925,26 @@
    "prio": "1: Urgent",
    "created": "2026-07-20",
    "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-19874",
+   "name": "One smile/ Essential smile - Portal restrictions not applied",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -1988,18 +2045,81 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20956",
+   "name": "Smile Health - AD PMP - Plans in infinite loading state when \"Is Administered By\" is set to \"Careington CA\"",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-08-11",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20929",
+   "name": "Member Portal - Apple and Google Wallet QR codes redirect to login and wallet flow fails after authentication",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Nazarii Polinyk",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20925",
    "name": "Stage - Member Portal - Treatment history is not displayed for any member in Treatment Summaries",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Petro Yarish",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
    "created": "2026-08-10",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-20919",
+   "name": "CSP - History of accounts - Plan cancelation reasons are not audited",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2011,32 +2131,38 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Petro Yarish",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
    "created": "2026-08-10",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
-   "key": "PLANS-20904",
-   "name": "PDS plan sold by a NON PDS office",
-   "pod": "PLANS",
+   "key": "PLANS-20913",
+   "name": "Stage - Member Portal - Provider's name is not displayed on Treatment Details page",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Clint Tredway",
-   "reporter": "Carmen West",
-   "prio": "3: Standard",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "4: Low",
    "created": "2026-08-10",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20901",
@@ -2044,13 +2170,16 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
    "who": "Petro Yarish",
    "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-10",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2435,6 +2564,7 @@
    "prio": "3: Standard",
    "created": "2026-07-29",
    "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "lpEpic": true,
@@ -2480,26 +2610,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20387",
-   "name": "ACH<Member Portal<Not displaying message if Only ACH Payment option is available for purchasing plan for secondary member in Member Portal",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-20369",
@@ -2612,6 +2722,7 @@
    "prio": "2: Important",
    "created": "2026-07-23",
    "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -2701,26 +2812,6 @@
    "prio": "3: Standard",
    "created": "2026-07-21",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19874",
-   "name": "One smile/ Essential smile - Portal restrictions not applied",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3036,9 +3127,10 @@
    "sprint": "Plans-Sprint 19-26",
    "who": "Michael McNulty",
    "reporter": "Michael McNulty",
-   "prio": "2: Important",
+   "prio": "3: Standard",
    "created": "2026-05-27",
    "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -5414,45 +5506,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20908",
-   "name": "[WIAVEFAM] - PMP - Promo code should apply when adding a minor as a second member",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 19-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-10",
-   "labels": [
-    "LLplans"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20851",
-   "name": "Issue with Service bus subscription- subscription has no filters and there are no consumers",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Sushma Bankar",
-   "prio": "1: Urgent",
-   "created": "2026-08-06",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20838",
    "name": "CSP - Renewal Restriction Banner Not Visible and Restriction Value Lost When Configured from Group Management",
    "pod": "LL",
@@ -6307,6 +6360,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20387",
+   "name": "ACH<Member Portal<Not displaying message if Only ACH Payment option is available for purchasing plan for secondary member in Member Portal",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-07-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19701",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
    "pod": "PLANS",
@@ -6590,25 +6663,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-17430",
    "name": "WellfitPay | Stage | PBO sending a 400 when trying to add a new card|",
    "pod": "PLANS",
@@ -6664,32 +6718,11 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-20929",
-   "name": "Member Portal - Apple and Google Wallet QR codes redirect to login and wallet flow fails after authentication",
-   "status": "Backlog",
-   "who": "Nazarii Polinyk",
-   "reporter": "Mireya Alvarez"
-  },
-  {
-   "key": "PLANS-20919",
-   "name": "CSP - History of accounts - Plan cancelation reasons are not audited",
+   "key": "PLANS-20955",
+   "name": "Duplicate Plan Charge",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-20913",
-   "name": "Stage - Member Portal - Provider's name is not displayed on Treatment Details page",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo"
-  },
-  {
-   "key": "PLANS-20910",
-   "name": "Preprod/Smile Health / Check all checkbox shows incorrect status for partially selected elements",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
+   "reporter": "Jasmin Martin"
   }
  ],
  "weeks": [
