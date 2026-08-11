@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T06:15:40+00:00",
+ "generated_at": "2026-08-11T08:18:36+00:00",
  "today": "2026-08-11",
  "features": [
   {
@@ -158,7 +158,7 @@
   {
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-03",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
@@ -822,7 +822,7 @@
   {
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-03",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
@@ -1552,7 +1552,7 @@
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-03",
    "who": "Valentyna Tenus",
@@ -2508,7 +2508,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-07-28",
@@ -6307,25 +6307,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20240",
-   "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-23",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19701",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
    "pod": "PLANS",
@@ -6407,6 +6388,25 @@
    "created": "2026-08-06",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20240",
+   "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-23",
+   "labels": [
     "product_prioritized"
    ],
    "lpEpic": false,
