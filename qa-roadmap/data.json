@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T20:12:49+00:00",
+ "generated_at": "2026-08-11T22:13:51+00:00",
  "today": "2026-08-11",
  "features": [
   {
@@ -404,10 +404,10 @@
   {
    "key": "PLANS-17468",
    "name": "Open Network Dashboard Upgrades",
-   "status": "Ready for Development",
+   "status": "In Development",
    "ted": "2026-08-14",
    "fv": "R9.7",
-   "who": "Unassigned",
+   "who": "Harisha Pallacheruvu",
    "tshirt": "Large",
    "pod": "EDW",
    "theme": "LL-MVP"
@@ -1156,10 +1156,10 @@
    "name": "Open Network Dashboard Upgrades",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R9.7",
    "ted": "2026-08-14",
-   "who": "Unassigned",
+   "who": "Harisha Pallacheruvu",
    "theme": "LL-MVP"
   },
   {
@@ -1768,26 +1768,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20905",
-   "name": "PLANS-20905: Preprod: Smile Health: Plan purchase is failed",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6.1",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-08-10",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20904",
    "name": "PDS plan linked to a NON PDS office",
    "pod": "PLANS",
@@ -1995,6 +1975,46 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21027",
+   "name": "PMP/Autorenew check box and related text is missing though Autorenew is setup to be preselected in CSP",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21018",
+   "name": "Member Portal/Duplicate Benefit codes are displayed",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21015",
    "name": "Member Portal/Benefit Status for used benefits is not displayed in Benefit Summaries",
    "pod": "LL",
@@ -2023,7 +2043,10 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
-   "labels": [],
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2040,7 +2063,10 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
-   "labels": [],
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2051,9 +2077,9 @@
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Clint Tredway",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
@@ -2074,7 +2100,10 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
-   "labels": [],
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2091,7 +2120,10 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
-   "labels": [],
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5578,6 +5610,25 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20133",
+   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-22",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19672",
    "name": "[Membership Fee Promo] - Calculation of discount is not accurate",
    "pod": "PLANS",
@@ -6518,6 +6569,23 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-12276",
+   "name": "Stage - Member Portal - Overview - “Details” Link appears in Add Plan popup but is not in Figma",
+   "pod": "PLANS",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Mariano Hernández",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-02-17",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-11816",
    "name": "PMP/Plan Fee Adjustment Status is displayed as \"Annually\" for selection of One Time Increase in the Plan Fee Pricing History",
    "pod": "PLANS",
@@ -6639,19 +6707,19 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20856",
-   "name": "DCA/KOS – Updated \"No Results\" message is not displayed in Practice Search pop-up",
-   "pod": "PLANS",
+   "key": "PLANS-20905",
+   "name": "PLANS-20905: Preprod: Smile Health: Plan purchase is failed",
+   "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-06",
+   "fv": "R9.6.1",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-08-10",
    "labels": [
-    "group1_migration",
+    "group2_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -6689,25 +6757,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20133",
-   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-07-22",
    "labels": [
     "product_prioritized"
    ],
@@ -6755,40 +6804,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-17430",
-   "name": "WellfitPay | Stage | PBO sending a 400 when trying to add a new card|",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-06-03",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-12276",
-   "name": "Stage - Member Portal - Overview - “Details” Link appears in Add Plan popup but is not in Figma",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mariano Hernández",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-02-17",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-6832",
    "name": "CRM Emails \\ Plan Auto Renewal Receipt \\ Card Icon is broken",
    "pod": "PLANS",
@@ -6827,11 +6842,11 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-21018",
-   "name": "Member Portal/Duplicate Benefit codes are displayed",
+   "key": "PLANS-21024",
+   "name": "Member Portal - broken- ADD PLAN button is not visible",
    "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
+   "who": "Clint Tredway",
+   "reporter": "Anuradhi Wickramasinghe"
   },
   {
    "key": "PLANS-21013",
@@ -6843,8 +6858,8 @@
   {
    "key": "PLANS-20955",
    "name": "Duplicate Plan Charge",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "Conor Kamperman",
    "reporter": "Jasmin Martin"
   }
  ],
