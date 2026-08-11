@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-10T22:11:21+00:00",
- "today": "2026-08-10",
+ "generated_at": "2026-08-11T00:09:51+00:00",
+ "today": "2026-08-11",
  "features": [
   {
    "key": "PLANS-20836",
@@ -1821,6 +1821,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20240",
+   "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20133",
    "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
    "pod": "PLANS",
@@ -1982,6 +2001,23 @@
    "reporter": "Michael McNulty",
    "prio": "3: Standard",
    "created": "2026-07-09",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20925",
+   "name": "Stage - Member Portal - Treatment history is not displayed for any member in Treatment Summaries",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
    "labels": [],
    "lpEpic": false,
    "lpSprint": false,
@@ -5399,6 +5435,23 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20930",
+   "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20908",
    "name": "[WIAVEFAM] - PMP - Promo code should apply when adding a minor as a second member",
    "pod": "LL",
@@ -6361,25 +6414,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20240",
-   "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-23",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20112",
    "name": "Patient renewed online, but the plan changed to the kids plan",
    "pod": "PLANS",
@@ -6575,25 +6609,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19636",
-   "name": "DCA/D365/There is no provision to add members to the same plan for Individual Plus",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-14",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-17430",
    "name": "WellfitPay | Stage | PBO sending a 400 when trying to add a new card|",
    "pod": "PLANS",
@@ -6654,13 +6669,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Mireya Alvarez"
-  },
-  {
-   "key": "PLANS-20925",
-   "name": "Stage - Member Portal - Treatment history is not displayed for any member in Treatment Summaries",
-   "status": "Backlog",
-   "who": "Petro Yarish",
-   "reporter": "Gabriel Perez Cardozo"
   },
   {
    "key": "PLANS-20919",
