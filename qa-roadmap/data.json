@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-11T08:18:36+00:00",
+ "generated_at": "2026-08-11T10:16:39+00:00",
  "today": "2026-08-11",
  "features": [
   {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
@@ -877,7 +877,7 @@
   {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
@@ -1607,7 +1607,7 @@
    "name": "Legal Language Intake for ACH",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.7",
    "ted": null,
    "who": "Denys Kernychnyi",
@@ -1776,6 +1776,25 @@
    "created": "2026-08-05",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20701",
+   "name": "Member Portal : Membership Card: Incorrect Page is opened on selecting Provider Link and Member Agreement/Fee schedule links",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-03",
+   "labels": [
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -2204,25 +2223,6 @@
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-08-05",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20701",
-   "name": "Member Portal : Membership Card: Incorrect Page is opened on selecting Provider Link and Member Agreement/Fee schedule links",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-03",
    "labels": [
     "product_prioritized"
    ],
@@ -5440,7 +5440,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Mykyta Moroz",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "3: Standard",
    "created": "2026-08-10",
