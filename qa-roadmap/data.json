@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T16:15:55+00:00",
+ "generated_at": "2026-08-11T18:15:41+00:00",
  "today": "2026-08-11",
  "features": [
   {
@@ -15,7 +15,7 @@
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
    "status": "In Development",
-   "ted": "2026-08-07",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Dima Shtympel",
    "tshirt": "Huge"
@@ -158,8 +158,8 @@
   {
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Testing",
-   "ted": "2026-08-03",
+   "status": "In Development",
+   "ted": "2026-08-12",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
    "tshirt": "Large"
@@ -168,7 +168,7 @@
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "status": "In Development",
-   "ted": "2026-08-11",
+   "ted": "2026-08-12",
    "fv": "R9.7",
    "who": "Vasyl Skochko",
    "tshirt": null
@@ -350,7 +350,7 @@
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
    "status": "In Development",
-   "ted": "2026-08-07",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Dima Shtympel",
    "tshirt": "Huge",
@@ -405,7 +405,7 @@
    "key": "PLANS-17468",
    "name": "Open Network Dashboard Upgrades",
    "status": "Ready for Development",
-   "ted": null,
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Unassigned",
    "tshirt": "Large",
@@ -479,6 +479,17 @@
    "theme": "LL-MVP"
   },
   {
+   "key": "PLANS-18074",
+   "name": "CSP - Request a Refund",
+   "status": "Architecture",
+   "ted": null,
+   "fv": null,
+   "who": "Michael McNulty",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
    "key": "PLANS-18413",
    "name": "Marketing Details",
    "status": "In Development",
@@ -495,7 +506,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.7",
-   "who": "Daryl Myrick",
+   "who": "Conor Kamperman",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-MVP"
@@ -520,6 +531,17 @@
    "who": "Vic Du Plessis",
    "tshirt": null,
    "pod": "LL",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-20688",
+   "name": "Assign members to a practice",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
    "theme": "LL-MVP"
   },
   {
@@ -721,17 +743,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-18074",
-   "name": "CSP - Request a Refund",
-   "status": "Architecture",
-   "ted": null,
-   "fv": null,
-   "who": "Michael McNulty",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-18481",
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
@@ -833,8 +844,8 @@
   {
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Testing",
-   "ted": "2026-08-03",
+   "status": "In Development",
+   "ted": "2026-08-12",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
    "tshirt": "Large",
@@ -867,7 +878,7 @@
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "status": "In Development",
-   "ted": "2026-08-11",
+   "ted": "2026-08-12",
    "fv": "R9.7",
    "who": "Vasyl Skochko",
    "tshirt": null,
@@ -1092,7 +1103,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-07",
+   "ted": "2026-08-14",
    "who": "Dima Shtympel",
    "theme": "LL-MVP"
   },
@@ -1147,7 +1158,7 @@
    "proj": "PLANS",
    "status": "Ready for Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-14",
    "who": "Unassigned",
    "theme": "LL-MVP"
   },
@@ -1218,6 +1229,17 @@
    "theme": "LL-MVP"
   },
   {
+   "key": "PLANS-18074",
+   "name": "CSP - Request a Refund",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": null,
+   "ted": null,
+   "who": "Michael McNulty",
+   "theme": "LL-MVP"
+  },
+  {
    "key": "PLANS-18413",
    "name": "Marketing Details",
    "pod": "LL",
@@ -1236,7 +1258,7 @@
    "status": "Architecture",
    "fv": "R9.7",
    "ted": null,
-   "who": "Daryl Myrick",
+   "who": "Conor Kamperman",
    "theme": "LL-MVP"
   },
   {
@@ -1259,6 +1281,17 @@
    "fv": "R9.7",
    "ted": null,
    "who": "Vic Du Plessis",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-20688",
+   "name": "Assign members to a practice",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Unassigned",
    "theme": "LL-MVP"
   },
   {
@@ -1460,17 +1493,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-18074",
-   "name": "CSP - Request a Refund",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": null,
-   "ted": null,
-   "who": "Michael McNulty",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-18481",
    "name": "Unify Purchase Into NPM Package",
    "pod": "LL",
@@ -1574,9 +1596,9 @@
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-03",
+   "ted": "2026-08-12",
    "who": "Valentyna Tenus",
    "theme": "ACH"
   },
@@ -1609,7 +1631,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-11",
+   "ted": "2026-08-12",
    "who": "Vasyl Skochko",
    "theme": "ACH"
   },
@@ -1735,7 +1757,7 @@
    "sprint": "LL-Sprint 19-26",
    "who": "Nazarii Polinyk",
    "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
+   "prio": "3: Standard",
    "created": "2026-08-11",
    "labels": [
     "group1_migration",
@@ -1751,7 +1773,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.6.1",
    "sprint": "LL-Sprint 19-26",
    "who": "Valentyna Tenus",
    "reporter": "Vivienne Chawande",
@@ -1816,25 +1838,6 @@
    "created": "2026-08-05",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20346",
-   "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-07-27",
-   "labels": [
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -1935,19 +1938,18 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19874",
-   "name": "One smile/ Essential smile - Portal restrictions not applied",
+   "key": "PLANS-19721",
+   "name": "Member / WFP portal -Plan Details PDF - All bugs",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.6",
    "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
+   "who": "Nazarii Polinyk",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
+   "prio": "1: Urgent",
+   "created": "2026-07-16",
    "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -2007,6 +2009,57 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20973",
+   "name": "Stage/PMP/Blocked to Purchase plan in PMP",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-11",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20970",
+   "name": "Member portal - Restricion reason is not visible in Resriction dialog box",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20969",
+   "name": "Member Portal - Office Phone Number Missing in Restriction Dialog When Member Has Only One Deleted Plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11",
+   "labels": [],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3269,8 +3322,8 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Luis Moreno",
    "prio": "2: Important",
@@ -6451,6 +6504,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20346",
+   "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-07-27",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19701",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
    "pod": "PLANS",
@@ -6664,25 +6736,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20240",
-   "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-23",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20112",
    "name": "Patient renewed online, but the plan changed to the kids plan",
    "pod": "PLANS",
@@ -6695,6 +6748,26 @@
    "prio": "1: Urgent",
    "created": "2026-07-22",
    "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-19874",
+   "name": "One smile/ Essential smile - Portal restrictions not applied",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
