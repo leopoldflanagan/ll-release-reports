@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T10:21:36+00:00",
+ "generated_at": "2026-08-12T14:24:51+00:00",
  "today": "2026-08-12",
  "features": [
   {
@@ -48,6 +48,15 @@
    "tshirt": "Large"
   },
   {
+   "key": "PLANS-20613",
+   "name": "Write All Plans member communications to WFP Comms Service",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Mykyta Moroz",
+   "tshirt": null
+  },
+  {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
    "status": "In Testing",
@@ -73,15 +82,6 @@
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Small"
-  },
-  {
-   "key": "PLANS-20613",
-   "name": "Write All Plans member communications to WFP Comms Service",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.7",
-   "who": "Nazarii Polinyk",
-   "tshirt": null
   },
   {
    "key": "PLANS-17686",
@@ -167,7 +167,7 @@
   {
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-12",
    "fv": "R9.7",
    "who": "Vasyl Skochko",
@@ -877,7 +877,7 @@
   {
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-12",
    "fv": "R9.7",
    "who": "Vasyl Skochko",
@@ -891,7 +891,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.7",
-   "who": "Nazarii Polinyk",
+   "who": "Mykyta Moroz",
    "tshirt": null,
    "pod": "LL",
    "theme": "ACH"
@@ -1629,7 +1629,7 @@
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-12",
    "who": "Vasyl Skochko",
@@ -1643,7 +1643,7 @@
    "status": "Architecture",
    "fv": "R9.7",
    "ted": null,
-   "who": "Nazarii Polinyk",
+   "who": "Mykyta Moroz",
    "theme": "ACH"
   },
   {
@@ -1748,19 +1748,18 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-20962",
-   "name": "PMP/Plan Details/Ancilliary Benefits/Typo in the Text \"estimated\"",
-   "pod": "LL",
+   "key": "PLANS-20955",
+   "name": "Duplicate Plan Charge",
+   "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Conor Kamperman",
+   "reporter": "Jasmin Martin",
    "prio": "3: Standard",
    "created": "2026-08-11",
    "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -1780,26 +1779,6 @@
    "prio": "3: Standard",
    "created": "2026-08-10",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20901",
-   "name": "Stage - Member Portal API - Unauthorized access to adult member treatment and benefit details",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-08-10",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1907,7 +1886,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
-   "who": "Vivienne Chawande",
+   "who": "Vasyl Skochko",
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-07-20",
@@ -1982,7 +1961,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 19-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1991,9 +1970,9 @@
     "group3_migration",
     "product_prioritized"
    ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21041",
@@ -2007,7 +1986,30 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21024",
+   "name": "Member Portal - broken- ADD PLAN button is not visible",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Clint Tredway",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2044,7 +2046,10 @@
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-08-11",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2056,7 +2061,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 19-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2065,9 +2070,9 @@
     "group3_migration",
     "product_prioritized"
    ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20969",
@@ -2076,7 +2081,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 19-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2085,9 +2090,9 @@
     "group3_migration",
     "product_prioritized"
    ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20967",
@@ -2113,13 +2118,33 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 19-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
    "labels": [
     "group3_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-20962",
+   "name": "PMP/Plan Details/Ancilliary Benefits/Typo in the Text \"estimated\"",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-11",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -2133,7 +2158,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 19-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2142,9 +2167,9 @@
     "group3_migration",
     "product_prioritized"
    ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20956",
@@ -3299,26 +3324,6 @@
    "reporter": "Luis Moreno",
    "prio": "3: Standard",
    "created": "2026-04-29",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-15283",
-   "name": "Member Portal \\ Failed to display expected values in Procedures section of Treatment Summaries",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Luis Moreno",
-   "prio": "2: Important",
-   "created": "2026-04-22",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5531,23 +5536,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20930",
-   "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-08-10",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20838",
    "name": "CSP - Renewal Restriction Banner Not Visible and Restriction Value Lost When Configured from Group Management",
    "pod": "LL",
@@ -6369,18 +6357,21 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20778",
-   "name": "Stage - Member Portal - ADD PLAN - Dental Savings Plans popup appears without plan cards",
-   "pod": "PLANS",
+   "key": "PLANS-20901",
+   "name": "Stage - Member Portal API - Unauthorized access to adult member treatment and benefit details",
+   "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Mykyta Moroz",
    "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-05",
-   "labels": [],
+   "prio": "2: Important",
+   "created": "2026-08-10",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6422,26 +6413,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20387",
-   "name": "ACH<Member Portal<Not displaying message if Only ACH Payment option is available for purchasing plan for secondary member in Member Portal",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19864",
    "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
    "pod": "LL",
@@ -6472,6 +6443,80 @@
    "reporter": "Clint Tredway",
    "prio": "3: Standard",
    "created": "2026-07-06",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21046",
+   "name": "Denticon batch: suppress claims-style Slack alert (keep App Insights events)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-08-12",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20778",
+   "name": "Stage - Member Portal - ADD PLAN - Dental Savings Plans popup appears without plan cards",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Hunter Redhead",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-05",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-15283",
+   "name": "Member Portal \\ Failed to display expected values in Procedures section of Treatment Summaries",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Luis Moreno",
+   "prio": "2: Important",
+   "created": "2026-04-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20930",
+   "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
    "labels": [],
    "lpEpic": false,
    "lpSprint": false,
@@ -6764,41 +6809,22 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20346",
-   "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
+   "key": "PLANS-20387",
+   "name": "ACH<Member Portal<Not displaying message if Only ACH Payment option is available for purchasing plan for secondary member in Member Portal",
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Denys Kernychnyi",
+   "sprint": null,
+   "who": "Vasyl Skochko",
    "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-07-27",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19874",
-   "name": "One smile/ Essential smile - Portal restrictions not applied",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
-   "created": "2026-07-17",
+   "created": "2026-07-28",
    "labels": [
-    "group2_migration",
+    "group1_migration",
     "product_prioritized"
    ],
-   "lpEpic": false,
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -6824,32 +6850,11 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-21046",
-   "name": "Denticon batch: suppress claims-style Slack alert (keep App Insights events)",
-   "status": "Backlog",
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish"
-  },
-  {
-   "key": "PLANS-21024",
-   "name": "Member Portal - broken- ADD PLAN button is not visible",
-   "status": "Backlog",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
    "key": "PLANS-21013",
    "name": "One Smile – Unable to Complete Plan Purchase",
    "status": "On Hold",
    "who": "Unassigned",
    "reporter": "Mireya Alvarez"
-  },
-  {
-   "key": "PLANS-20955",
-   "name": "Duplicate Plan Charge",
-   "status": "In Development",
-   "who": "Conor Kamperman",
-   "reporter": "Jasmin Martin"
   }
  ],
  "weeks": [
