@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T14:24:51+00:00",
+ "generated_at": "2026-08-12T15:23:12+00:00",
  "today": "2026-08-12",
  "features": [
   {
@@ -120,15 +120,6 @@
    "tshirt": null
   },
   {
-   "key": "PLANS-17587",
-   "name": "Restrictions on Renewals",
-   "status": "In Testing",
-   "ted": "2026-08-12",
-   "fv": "R9.7",
-   "who": "Shchekochykhin Vladyslav",
-   "tshirt": "Large"
-  },
-  {
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
    "status": "Blocked",
@@ -193,8 +184,8 @@
   },
   {
    "key": "PLANS-18909",
-   "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
-   "status": "Ready for Development",
+   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.7",
    "who": "Vic Du Plessis",
@@ -446,17 +437,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-17587",
-   "name": "Restrictions on Renewals",
-   "status": "In Testing",
-   "ted": "2026-08-12",
-   "fv": "R9.7",
-   "who": "Shchekochykhin Vladyslav",
-   "tshirt": "Large",
-   "pod": "LL",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-17588",
    "name": "DSO Dashboard",
    "status": "Ready for Development",
@@ -524,8 +504,8 @@
   },
   {
    "key": "PLANS-18909",
-   "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
-   "status": "Ready for Development",
+   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.7",
    "who": "Vic Du Plessis",
@@ -1196,17 +1176,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-17587",
-   "name": "Restrictions on Renewals",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-12",
-   "who": "Shchekochykhin Vladyslav",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-17588",
    "name": "DSO Dashboard",
    "pod": "EDW",
@@ -1274,10 +1243,10 @@
   },
   {
    "key": "PLANS-18909",
-   "name": "FEE SCHEDULE: Replace the Common Dental Plans Saving section with the Fee Schedule for D365",
+   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Ready for Development",
+   "status": "Epics & Stories",
    "fv": "R9.7",
    "ted": null,
    "who": "Vic Du Plessis",
@@ -1776,9 +1745,11 @@
    "sprint": "Plans-Sprint 19-26",
    "who": "Clint Tredway",
    "reporter": "Carmen West",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-08-10",
-   "labels": [],
+   "labels": [
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2106,7 +2077,10 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5530,7 +5504,10 @@
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "2: Important",
    "created": "2026-08-11",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6449,43 +6426,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21046",
-   "name": "Denticon batch: suppress claims-style Slack alert (keep App Insights events)",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-08-12",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20778",
-   "name": "Stage - Member Portal - ADD PLAN - Dental Savings Plans popup appears without plan cards",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-05",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-15283",
    "name": "Member Portal \\ Failed to display expected values in Procedures section of Treatment Summaries",
    "pod": "LL",
@@ -6695,6 +6635,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21046",
+   "name": "Denticon batch: suppress claims-style Slack alert (keep App Insights events)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-08-12",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21027",
    "name": "PMP/Autorenew check box and related text is missing though Autorenew is setup to be preselected in CSP",
    "pod": "LL",
@@ -6746,6 +6706,25 @@
    "reporter": "Michael McNulty",
    "prio": "2: Important",
    "created": "2026-08-10",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20778",
+   "name": "Stage - Member Portal - ADD PLAN - Dental Savings Plans popup appears without plan cards",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Hunter Redhead",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-05",
    "labels": [],
    "lpEpic": false,
    "lpSprint": false,
@@ -6815,16 +6794,16 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "LL-Sprint 19-26",
    "who": "Vasyl Skochko",
    "reporter": "Vinita Thankur",
-   "prio": "2: Important",
+   "prio": "3: Standard",
    "created": "2026-07-28",
    "labels": [
     "group1_migration",
     "product_prioritized"
    ],
-   "lpEpic": true,
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -6849,6 +6828,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-21071",
+   "name": "Smile Health - Crosby – Plan Purchase Fails in Smile Health Stage",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
   {
    "key": "PLANS-21013",
    "name": "One Smile – Unable to Complete Plan Purchase",
