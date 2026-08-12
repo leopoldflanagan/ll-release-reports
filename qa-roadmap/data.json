@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T04:32:23+00:00",
+ "generated_at": "2026-08-12T06:26:10+00:00",
  "today": "2026-08-12",
  "features": [
   {
@@ -1899,25 +1899,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19721",
-   "name": "Member / WFP portal -Plan Details PDF - All bugs",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-16",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -2007,26 +1988,6 @@
    "prio": "3: Standard",
    "created": "2026-08-11",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21027",
-   "name": "PMP/Autorenew check box and related text is missing though Autorenew is setup to be preselected in CSP",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-11",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6683,6 +6644,26 @@
    "created": "2025-02-06",
    "labels": [
     "JSM"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21027",
+   "name": "PMP/Autorenew check box and related text is missing though Autorenew is setup to be preselected in CSP",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
    ],
    "lpEpic": false,
    "lpSprint": false,
