@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T00:13:30+00:00",
+ "generated_at": "2026-08-12T02:49:58+00:00",
  "today": "2026-08-12",
  "features": [
   {
@@ -503,7 +503,7 @@
   {
    "key": "PLANS-18766",
    "name": "Individual Plus",
-   "status": "Architecture",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.7",
    "who": "Conor Kamperman",
@@ -1255,7 +1255,7 @@
    "name": "Individual Plus",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "In Development",
    "fv": "R9.7",
    "ted": null,
    "who": "Conor Kamperman",
@@ -6817,23 +6817,6 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-6832",
-   "name": "CRM Emails \\ Plan Auto Renewal Receipt \\ Card Icon is broken",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2025-06-06",
-   "labels": [],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
