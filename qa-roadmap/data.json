@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T06:26:10+00:00",
+ "generated_at": "2026-08-12T08:27:06+00:00",
  "today": "2026-08-12",
  "features": [
   {
@@ -1785,6 +1785,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20901",
+   "name": "Stage - Member Portal API - Unauthorized access to adult member treatment and benefit details",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "2: Important",
+   "created": "2026-08-10",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20865",
    "name": "Solomon Dentistry-Plans Payment Acceptance Error",
    "pod": "LL",
@@ -2225,26 +2245,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20901",
-   "name": "Stage - Member Portal API - Unauthorized access to adult member treatment and benefit details",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-08-10",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-20878",
@@ -3315,7 +3315,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Luis Moreno",
    "prio": "2: Important",
    "created": "2026-04-22",
