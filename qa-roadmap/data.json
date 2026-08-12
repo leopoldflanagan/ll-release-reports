@@ -1,12 +1,21 @@
 {
- "generated_at": "2026-08-12T16:16:15+00:00",
+ "generated_at": "2026-08-12T18:16:09+00:00",
  "today": "2026-08-12",
  "features": [
+  {
+   "key": "PLANS-20613",
+   "name": "Write All Plans member communications to WFP Comms Service",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Chris Rubio",
+   "tshirt": null
+  },
   {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-08-19",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null
@@ -48,18 +57,9 @@
    "tshirt": "Large"
   },
   {
-   "key": "PLANS-20613",
-   "name": "Write All Plans member communications to WFP Comms Service",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.7",
-   "who": "Mykyta Moroz",
-   "tshirt": null
-  },
-  {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
-   "status": "In Testing",
+   "status": "Blocked",
    "ted": "2026-08-11",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
@@ -384,7 +384,7 @@
   {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
-   "status": "In Testing",
+   "status": "Blocked",
    "ted": "2026-08-11",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
@@ -406,7 +406,7 @@
   {
    "key": "PLANS-17577",
    "name": "Link Tokens for C/C & ACH to Members",
-   "status": "Ready for Development",
+   "status": "Blocked",
    "ted": null,
    "fv": "R9.7",
    "who": "Lloyd Tokerud",
@@ -461,10 +461,10 @@
   {
    "key": "PLANS-18074",
    "name": "CSP - Request a Refund",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": null,
-   "who": "Chris Rubio",
+   "who": "Unassigned",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-MVP"
@@ -484,7 +484,7 @@
    "key": "PLANS-18766",
    "name": "Individual Plus",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Conor Kamperman",
    "tshirt": null,
@@ -516,12 +516,12 @@
   {
    "key": "PLANS-20688",
    "name": "Assign members to a practice",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "ted": null,
    "fv": "R9.7",
-   "who": "Unassigned",
+   "who": "Lloyd Tokerud",
    "tshirt": null,
-   "pod": "PLANS",
+   "pod": "EDW",
    "theme": "LL-MVP"
   },
   {
@@ -868,10 +868,10 @@
   {
    "key": "PLANS-20613",
    "name": "Write All Plans member communications to WFP Comms Service",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "ted": null,
    "fv": "R9.7",
-   "who": "Mykyta Moroz",
+   "who": "Chris Rubio",
    "tshirt": null,
    "pod": "LL",
    "theme": "ACH"
@@ -880,7 +880,7 @@
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-08-19",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null,
@@ -1125,7 +1125,7 @@
    "name": "New Bill To Office Option",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "Blocked",
    "fv": "R9.7",
    "ted": "2026-08-11",
    "who": "Mykyta Moroz",
@@ -1147,7 +1147,7 @@
    "name": "Link Tokens for C/C & ACH to Members",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "Ready for Development",
+   "status": "Blocked",
    "fv": "R9.7",
    "ted": null,
    "who": "Lloyd Tokerud",
@@ -1202,10 +1202,10 @@
    "name": "CSP - Request a Refund",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "fv": null,
    "ted": null,
-   "who": "Chris Rubio",
+   "who": "Unassigned",
    "theme": "LL-MVP"
   },
   {
@@ -1226,7 +1226,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-17",
    "who": "Conor Kamperman",
    "theme": "LL-MVP"
   },
@@ -1255,12 +1255,12 @@
   {
    "key": "PLANS-20688",
    "name": "Assign members to a practice",
-   "pod": "PLANS",
+   "pod": "EDW",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "fv": "R9.7",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Lloyd Tokerud",
    "theme": "LL-MVP"
   },
   {
@@ -1609,10 +1609,10 @@
    "name": "Write All Plans member communications to WFP Comms Service",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "fv": "R9.7",
    "ted": null,
-   "who": "Mykyta Moroz",
+   "who": "Chris Rubio",
    "theme": "ACH"
   },
   {
@@ -1622,7 +1622,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-19",
    "who": "Denys Kernychnyi",
    "theme": "ACH"
   },
@@ -1781,7 +1781,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "LL-Sprint 19-26",
    "who": "Petro Yarish",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
@@ -1806,6 +1806,25 @@
    "reporter": "Mireya Alvarez",
    "prio": "3: Standard",
    "created": "2026-08-04",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20551",
+   "name": "Ancillary Benefit Pull Down Option on Site",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-07-29",
    "labels": [
     "product_prioritized"
    ],
@@ -1940,6 +1959,23 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21103",
+   "name": "PMP - broken - bill to office option is not visible when purchasing a plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-12",
+   "labels": [],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2186,7 +2222,7 @@
   },
   {
    "key": "PLANS-20929",
-   "name": "Member Portal - Apple and Google Wallet QR codes redirect to login and wallet flow fails after authentication",
+   "name": "Member Portal - Apple and Google Wallet QR codes redirect to login and wallet flow fails after authentication scan from Desktop app",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -3394,26 +3430,6 @@
    "created": "2026-04-20",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-15078",
-   "name": "Retest - Member Portal - Overview - The “SAVE” button is enabled even without entering any data",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 18-26",
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-04-14",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -5919,23 +5935,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-8102",
-   "name": "Restest-Add Plan | Unable to select existing member without a plan when adding a plan",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2025-08-01",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-7300",
    "name": "Bitly URL Shortening Fails Across All Environments Due To DEPRECATED_ENDPOINT",
    "pod": "PLANS",
@@ -6453,6 +6452,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20491",
+   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-29",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19701",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
    "pod": "PLANS",
@@ -6549,6 +6567,23 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2025-10-21",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-8102",
+   "name": "Restest-Add Plan | Unable to select existing member without a plan when adding a plan",
+   "pod": "PLANS",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Clint Tredway",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2025-08-01",
    "labels": [],
    "lpEpic": false,
    "lpSprint": false,
@@ -6667,61 +6702,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20778",
-   "name": "Stage - Member Portal - ADD PLAN - Dental Savings Plans popup appears without plan cards",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-05",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20551",
-   "name": "Ancillary Benefit Pull Down Option on Site",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20491",
-   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-15283",
    "name": "Member Portal \\ Failed to display expected values in Procedures section of Treatment Summaries",
    "pod": "LL",
@@ -6764,7 +6744,7 @@
  "nopod": [
   {
    "key": "PLANS-21099",
-   "name": "Member portal - unable to add card / existing cards not visible when ADD PLAN for a new member",
+   "name": "Member portal - broken - unable to add card / existing cards not visible when ADD PLAN for a new member",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
