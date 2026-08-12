@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T08:27:06+00:00",
+ "generated_at": "2026-08-12T10:21:36+00:00",
  "today": "2026-08-12",
  "features": [
   {
@@ -6823,6 +6823,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-21046",
+   "name": "Denticon batch: suppress claims-style Slack alert (keep App Insights events)",
+   "status": "Backlog",
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish"
+  },
   {
    "key": "PLANS-21024",
    "name": "Member Portal - broken- ADD PLAN button is not visible",
