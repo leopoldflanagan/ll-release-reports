@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T15:23:12+00:00",
+ "generated_at": "2026-08-12T16:16:15+00:00",
  "today": "2026-08-12",
  "features": [
   {
@@ -77,8 +77,8 @@
   {
    "key": "PLANS-15226",
    "name": "WAIVEFAM Promo Code",
-   "status": "In Testing",
-   "ted": "2026-08-12",
+   "status": "Blocked",
+   "ted": null,
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Small"
@@ -296,8 +296,8 @@
   {
    "key": "PLANS-15226",
    "name": "WAIVEFAM Promo Code",
-   "status": "In Testing",
-   "ted": "2026-08-12",
+   "status": "Blocked",
+   "ted": null,
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Small",
@@ -495,7 +495,7 @@
    "key": "PLANS-18777",
    "name": "Ability to Hide UCR Code Admin Screen, and Explore Savings.",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-13",
    "fv": "R9.7",
    "who": "Daryl Myrick",
    "tshirt": null,
@@ -1037,9 +1037,9 @@
    "name": "WAIVEFAM Promo Code",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "Blocked",
    "fv": "R9.7",
-   "ted": "2026-08-12",
+   "ted": null,
    "who": "Mykyta Moroz",
    "theme": "LL-MVP"
   },
@@ -1237,7 +1237,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-13",
    "who": "Daryl Myrick",
    "theme": "LL-MVP"
   },
@@ -1788,6 +1788,25 @@
    "created": "2026-08-05",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20740",
+   "name": "One Smile – Enrollment email is not received after successful enrollment",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "David Jones",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-04",
+   "labels": [
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -2754,25 +2773,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20178",
-   "name": "500 Error in CSP updating a Benefit Plan Template",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 18-26",
-   "who": "Unassigned",
-   "reporter": "Michael McNulty",
-   "prio": "1: Urgent",
-   "created": "2026-07-23",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20111",
    "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
    "pod": "PLANS",
@@ -2869,7 +2869,10 @@
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-07-16",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3031,7 +3034,9 @@
    "reporter": "Charles Rosenbaum",
    "prio": "2: Important",
    "created": "2026-06-22",
-   "labels": [],
+   "labels": [
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3065,7 +3070,10 @@
    "reporter": "Clint Tredway",
    "prio": "2: Important",
    "created": "2026-06-15",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3073,16 +3081,19 @@
   {
    "key": "PLANS-17978",
    "name": "WFP - Blocker - Plan purchase/ Manual Renew failed (takes few minutes)- forever loading page",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-06-12",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3241,13 +3252,16 @@
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Luis Moreno",
-   "prio": "2: Important",
+   "prio": "3: Standard",
    "created": "2026-05-14",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3255,16 +3269,19 @@
   {
    "key": "PLANS-16106",
    "name": "Smile Health - Pre-Prod Purchase - reCAPTCHA Displays \"Invalid Domain for Site Key\"",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Mireya Alvarez",
    "prio": "2: Important",
    "created": "2026-05-13",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3365,34 +3382,20 @@
   },
   {
    "key": "PLANS-15219",
-   "name": "Stage - PMP - Purchase - Payment Method is empty",
-   "pod": "PLANS",
+   "name": "QA retest -Stage - PMP - Purchase - Payment Method is empty",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "2: Important",
    "created": "2026-04-20",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-15104",
-   "name": "WFP \\ Users unable to select a plan due to CAPTCHA issue",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno",
-   "prio": "2: Important",
-   "created": "2026-04-20",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3759,13 +3762,16 @@
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-02-13",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5573,6 +5579,25 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20178",
+   "name": "500 Error in CSP updating a Benefit Plan Template",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 18-26",
+   "who": "Petro Yarish",
+   "reporter": "Michael McNulty",
+   "prio": "1: Urgent",
+   "created": "2026-07-23",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20133",
    "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
    "pod": "PLANS",
@@ -5688,11 +5713,13 @@
    "sprint": "Plans-Sprint 7-26",
    "who": "Clint Tredway",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "3: Standard",
    "created": "2026-02-16",
    "labels": [
     "Pre-Existing_Bug",
-    "Reenbit"
+    "Reenbit",
+    "group1_migration",
+    "product_prioritized"
    ],
    "lpEpic": false,
    "lpSprint": false,
@@ -5893,7 +5920,7 @@
   },
   {
    "key": "PLANS-8102",
-   "name": "Add Plan | Unable to select existing member without a plan when adding a plan",
+   "name": "Restest-Add Plan | Unable to select existing member without a plan when adding a plan",
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
@@ -6334,62 +6361,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20901",
-   "name": "Stage - Member Portal API - Unauthorized access to adult member treatment and benefit details",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-08-10",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20766",
-   "name": "STAGE/ Preprod - Broken - Autorenew checkbox is not prechecked in Smile health",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-05",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20701",
-   "name": "Member Portal : Membership Card: Incorrect Page is opened on selecting Provider Link and Member Agreement/Fee schedule links",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-03",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19864",
    "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
    "pod": "LL",
@@ -6426,19 +6397,38 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-15283",
-   "name": "Member Portal \\ Failed to display expected values in Procedures section of Treatment Summaries",
+   "key": "PLANS-20901",
+   "name": "Stage - Member Portal API - Unauthorized access to adult member treatment and benefit details",
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Luis Moreno",
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
    "prio": "2: Important",
-   "created": "2026-04-22",
+   "created": "2026-08-10",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20701",
+   "name": "Member Portal : Membership Card: Incorrect Page is opened on selecting Provider Link and Member Agreement/Fee schedule links",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-03",
+   "labels": [
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -6491,23 +6481,6 @@
    "reporter": "Mercedes Hung",
    "prio": "3: Standard",
    "created": "2026-02-25",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-12276",
-   "name": "Stage - Member Portal - Overview - “Details” Link appears in Add Plan popup but is not in Figma",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mariano Hernández",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-02-17",
    "labels": [],
    "lpEpic": false,
    "lpSprint": false,
@@ -6675,26 +6648,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20905",
-   "name": "PLANS-20905: Preprod: Smile Health: Plan purchase is failed",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.6.1",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-08-10",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20888",
    "name": "WF Share wrong for AutoRenewal's",
    "pod": "PLANS",
@@ -6726,25 +6679,6 @@
    "prio": "3: Standard",
    "created": "2026-08-05",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20740",
-   "name": "One Smile – Enrollment email is not received after successful enrollment",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "David Jones",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-04",
-   "labels": [
-    "product_prioritized"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6788,17 +6722,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20387",
-   "name": "ACH<Member Portal<Not displaying message if Only ACH Payment option is available for purchasing plan for secondary member in Member Portal",
+   "key": "PLANS-15283",
+   "name": "Member Portal \\ Failed to display expected values in Procedures section of Treatment Summaries",
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-07-28",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Luis Moreno",
+   "prio": "2: Important",
+   "created": "2026-04-22",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6828,6 +6762,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-21099",
+   "name": "Member portal - unable to add card / existing cards not visible when ADD PLAN for a new member",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-21071",
    "name": "Smile Health - Crosby – Plan Purchase Fails in Smile Health Stage",
