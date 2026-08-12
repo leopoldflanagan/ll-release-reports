@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-11T22:13:51+00:00",
- "today": "2026-08-11",
+ "generated_at": "2026-08-12T00:13:30+00:00",
+ "today": "2026-08-12",
  "features": [
   {
    "key": "PLANS-20836",
@@ -1975,12 +1975,49 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21044",
+   "name": "PMP -Restriction affecting the remaining Smile WA plan even though the restriction was configured only for Smile NV.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21041",
+   "name": "PMP - One smile - membership card not loaded in member account information",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21027",
    "name": "PMP/Autorenew check box and related text is missing though Autorenew is setup to be preselected in CSP",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
@@ -2039,7 +2076,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
@@ -2059,7 +2096,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
@@ -2096,7 +2133,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
@@ -2116,7 +2153,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-11",
@@ -6480,61 +6517,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20888",
-   "name": "WF Share wrong for AutoRenewal's",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "David Jones",
-   "reporter": "Michael McNulty",
-   "prio": "2: Important",
-   "created": "2026-08-10",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20551",
-   "name": "Ancillary Benefit Pull Down Option on Site",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20346",
-   "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-07-27",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19701",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
    "pod": "PLANS",
@@ -6727,6 +6709,23 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20888",
+   "name": "WF Share wrong for AutoRenewal's",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "David Jones",
+   "reporter": "Michael McNulty",
+   "prio": "2: Important",
+   "created": "2026-08-10",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20740",
    "name": "One Smile – Enrollment email is not received after successful enrollment",
    "pod": "PLANS",
@@ -6738,6 +6737,25 @@
    "reporter": "Mireya Alvarez",
    "prio": "3: Standard",
    "created": "2026-08-04",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20551",
+   "name": "Ancillary Benefit Pull Down Option on Site",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-07-29",
    "labels": [
     "product_prioritized"
    ],
@@ -6765,17 +6783,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20112",
-   "name": "Patient renewed online, but the plan changed to the kids plan",
-   "pod": "PLANS",
+   "key": "PLANS-20346",
+   "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
+   "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Clint Tredway",
-   "reporter": "Vera King",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vinita Thankur",
    "prio": "1: Urgent",
-   "created": "2026-07-22",
+   "created": "2026-07-27",
    "labels": [
     "product_prioritized"
    ],
