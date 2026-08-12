@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T20:12:23+00:00",
+ "generated_at": "2026-08-12T22:13:24+00:00",
  "today": "2026-08-12",
  "features": [
   {
@@ -397,7 +397,7 @@
   {
    "key": "PLANS-17577",
    "name": "Link Tokens for C/C & ACH to Members",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.7",
    "who": "Lloyd Tokerud",
@@ -1127,7 +1127,7 @@
    "name": "Link Tokens for C/C & ACH to Members",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.7",
    "ted": null,
    "who": "Lloyd Tokerud",
@@ -1686,6 +1686,26 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21027",
+   "name": "PMP/Autorenew check box and related text is missing though Autorenew is setup to be preselected in CSP",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21024",
    "name": "Member Portal - broken- ADD PLAN button is not visible",
    "pod": "PLANS",
@@ -1706,25 +1726,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20955",
-   "name": "Duplicate Plan Charge",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Conor Kamperman",
-   "reporter": "Jasmin Martin",
-   "prio": "3: Standard",
-   "created": "2026-08-11",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20904",
    "name": "PDS plan linked to a NON PDS office",
    "pod": "PLANS",
@@ -1737,26 +1738,6 @@
    "prio": "1: Urgent",
    "created": "2026-08-10",
    "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20865",
-   "name": "Solomon Dentistry-Plans Payment Acceptance Error",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Conor Kamperman",
-   "reporter": "Brianna Hill",
-   "prio": "2: Important",
-   "created": "2026-08-07",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -1934,25 +1915,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-16717",
-   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "2: Important",
-   "created": "2026-05-22",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21111",
    "name": "Stage - Member Portal - Overview - Other adult's savings contribution is not displayed",
    "pod": "LL",
@@ -1992,7 +1954,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
+   "fv": null,
    "sprint": null,
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2224,6 +2186,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20955",
+   "name": "Duplicate Plan Charge",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Conor Kamperman",
+   "reporter": "Jasmin Martin",
+   "prio": "3: Standard",
+   "created": "2026-08-11",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20929",
    "name": "Member Portal - Apple and Google Wallet QR codes redirect to login and wallet flow fails after authentication scan from Desktop app",
    "pod": "LL",
@@ -2382,6 +2363,26 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-20865",
+   "name": "Solomon Dentistry-Plans Payment Acceptance Error",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Conor Kamperman",
+   "reporter": "Brianna Hill",
+   "prio": "2: Important",
+   "created": "2026-08-07",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-20768",
@@ -6510,6 +6511,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-16717",
+   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "2: Important",
+   "created": "2026-05-22",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-12464",
    "name": "WFP Plans Fee Pricing > New Effective Date Plan Price not reflected > still charging old plan price",
    "pod": "PLANS",
@@ -6676,26 +6696,6 @@
    "reporter": "Petro Yarish",
    "prio": "2: Important",
    "created": "2026-08-12",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21027",
-   "name": "PMP/Autorenew check box and related text is missing though Autorenew is setup to be preselected in CSP",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-11",
    "labels": [
     "group1_migration",
     "product_prioritized"
