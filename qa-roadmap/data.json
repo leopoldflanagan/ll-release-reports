@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T10:22:34+00:00",
+ "generated_at": "2026-08-13T12:14:06+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -96,7 +96,7 @@
    "key": "PLANS-17004",
    "name": "Handle Integration within The Member Portal",
    "status": "In Testing",
-   "ted": "2026-08-14",
+   "ted": "2026-08-13",
    "fv": "R9.7",
    "who": "Petro Yarish",
    "tshirt": "Moderate"
@@ -149,7 +149,7 @@
   {
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-12",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
@@ -354,7 +354,7 @@
    "key": "PLANS-17004",
    "name": "Handle Integration within The Member Portal",
    "status": "In Testing",
-   "ted": "2026-08-14",
+   "ted": "2026-08-13",
    "fv": "R9.7",
    "who": "Petro Yarish",
    "tshirt": "Moderate",
@@ -430,8 +430,8 @@
   {
    "key": "PLANS-17588",
    "name": "DSO Dashboard",
-   "status": "Ready for Development",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Unassigned",
    "tshirt": "Large",
@@ -815,7 +815,7 @@
   {
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-12",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
@@ -1085,7 +1085,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-14",
+   "ted": "2026-08-13",
    "who": "Petro Yarish",
    "theme": "LL-MVP"
   },
@@ -1160,9 +1160,9 @@
    "name": "DSO Dashboard",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-14",
    "who": "Unassigned",
    "theme": "LL-MVP"
   },
@@ -1545,7 +1545,7 @@
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-12",
    "who": "Valentyna Tenus",
@@ -1803,6 +1803,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20178",
+   "name": "500 Error in CSP updating a Benefit Plan Template",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Michael McNulty",
+   "prio": "1: Urgent",
+   "created": "2026-07-23",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20079",
    "name": "OneSmile , DCA & Comfort Dental - Wallet (Apple) - Custom logos/theme are not properly aligned on Apple Wallet pass",
    "pod": "PLANS",
@@ -1858,25 +1878,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19946",
-   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-20",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -1910,6 +1911,74 @@
    "labels": [
     "product_prioritized"
    ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21166",
+   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21160",
+   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21157",
+   "name": "Plan Details PDF - Incorrect Plan Name Displayed in Heading Section",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21154",
+   "name": "All Portals - Plan Details - Custom Logo Not Visible in Plan Detail Document (legacy and New )",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13",
+   "labels": [],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5359,26 +5428,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20178",
-   "name": "500 Error in CSP updating a Benefit Plan Template",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Michael McNulty",
-   "prio": "1: Urgent",
-   "created": "2026-07-23",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20111",
    "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
    "pod": "PLANS",
@@ -6313,6 +6362,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-19946",
+   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-20",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19007",
    "name": "Regression: disabled plans surface on member portal (GetMemberPortalPlansByStatus filter dropped)",
    "pod": "PLANS",
@@ -6773,8 +6841,8 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-21154",
-   "name": "All portals - Plan Details - Custom logos not visible in plan detail document (Ex : one smile)",
+   "key": "PLANS-21163",
+   "name": "Plan Deails - legacy - Improvment UI",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
