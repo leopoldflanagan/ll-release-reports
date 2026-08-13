@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T21:16:32+00:00",
+ "generated_at": "2026-08-13T21:45:53+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -389,7 +389,7 @@
    "key": "PLANS-17577",
    "name": "Link Tokens for C/C & ACH to Members",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Unassigned",
    "tshirt": "Moderate",
@@ -1098,7 +1098,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-14",
    "who": "Unassigned",
    "theme": "LL-MVP"
   },
@@ -6081,6 +6081,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-21234",
+   "name": "X-Portal-Code duplicate header add throws ArgumentException on GET npm/get-main-page-detail",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel"
+  },
   {
    "key": "PLANS-21206",
    "name": "ACH<PMP<Add Payment Method<ADD button is disabled while adding ACH bank account",
