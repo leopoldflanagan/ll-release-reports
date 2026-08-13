@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T02:51:18+00:00",
+ "generated_at": "2026-08-13T04:33:41+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -2570,9 +2570,9 @@
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Santiago Kirk Cabrera",
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
    "created": "2026-04-10",
@@ -5189,7 +5189,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Mariano Hernández",
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-07-29",
@@ -6349,26 +6349,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20901",
-   "name": "Stage - Member Portal API - Unauthorized access to adult member treatment and benefit details",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-08-10",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21013",
    "name": "One Smile – Unable to Complete Plan Purchase",
    "pod": "LL",
@@ -6646,6 +6626,26 @@
    "reporter": "Petro Yarish",
    "prio": "2: Important",
    "created": "2026-08-12",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20901",
+   "name": "Stage - Member Portal API - Unauthorized access to adult member treatment and benefit details",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "2: Important",
+   "created": "2026-08-10",
    "labels": [
     "group1_migration",
     "product_prioritized"
