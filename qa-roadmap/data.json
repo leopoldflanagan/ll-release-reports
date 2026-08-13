@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T18:47:43+00:00",
+ "generated_at": "2026-08-13T19:23:40+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -133,7 +133,7 @@
    "name": "Purchase Widget to Payment Widget Integration",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": null
   },
@@ -169,7 +169,7 @@
    "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
    "status": "Epics & Stories",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Vic Du Plessis",
    "tshirt": null
   },
@@ -478,7 +478,7 @@
    "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
    "status": "Epics & Stories",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Vic Du Plessis",
    "tshirt": null,
    "pod": "LL",
@@ -488,7 +488,7 @@
    "key": "PLANS-20688",
    "name": "Assign members to a practice",
    "status": "Ready for Development",
-   "ted": null,
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Lloyd Tokerud",
    "tshirt": null,
@@ -698,7 +698,7 @@
    "name": "Purchase Widget to Payment Widget Integration",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": null,
    "pod": "LL",
@@ -1185,7 +1185,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Epics & Stories",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": null,
    "who": "Vic Du Plessis",
    "theme": "LL-MVP"
@@ -1197,7 +1197,7 @@
    "proj": "PLANS",
    "status": "Ready for Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-21",
    "who": "Lloyd Tokerud",
    "theme": "LL-MVP"
   },
@@ -1405,7 +1405,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Architecture",
-   "fv": "R9.7",
+   "fv": "R9.9",
    "ted": null,
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
@@ -1907,7 +1907,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
