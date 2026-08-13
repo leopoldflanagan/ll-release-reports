@@ -260,6 +260,9 @@
   .sprint{display:inline-block;padding:1px 7px;border-radius:4px;background:#f3e8ff;color:#6b21a8;font-size:11px;font-weight:600}
   /* NEW tag for recently-created bugs */
   .newtag{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.05em;padding:1px 6px;border-radius:20px;background:var(--green);color:#fff;vertical-align:middle;margin-left:2px}
+  /* "Reviewed" stamp — bugs carrying the product_prioritized label */
+  .stamp-reviewed{display:inline-flex;align-items:center;gap:3px;font-size:9px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#2f7d1c;background:rgba(76,175,46,.12);border:1.5px solid rgba(76,175,46,.55);padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:middle;transform:rotate(-2.5deg);white-space:nowrap}
+  .stamp-reviewed .stx{font-size:10px;line-height:1}
   /* NEW filter toggle chip (green accent, standalone) */
   #bugnewfilter .tbtn.active{background:var(--green);border-color:var(--green);color:#fff;box-shadow:0 1px 4px rgba(76,175,46,.3)}
   #bugnewfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
@@ -1110,12 +1113,13 @@ function renderBugs(){
     list.sort((a,b)=>prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key)).forEach(b=>{
       const pn=prioNum(b.prio);
       const newTag = isNew(b) ? ` <span class="newtag" title="Created within the last ${NEW_DAYS} days">NEW</span>` : '';
+      const reviewed = hasLabel(b) ? ` <span class="stamp-reviewed" title="Has the product_prioritized label — already reviewed / updated"><span class="stx">✓</span> Reviewed</span>` : '';
       const gl = bugGroupLabels(b).map(l=>`<span class="gtag" title="Migration group label">${l.replace('_migration',' migration')}</span>`).join("");
       const flags =
         (missingGroup(b)?`<span class="flagico nolabel" title="P3/P4 missing a migration-group label (group1/2/3_migration) — assign the migration group">🏷️</span>`:"")+
         (notLinkedLP(b)?`<span class="flagico nolink" title="P3/P4 not fully in Low Prior Bugs — missing ${lpMissing(b).join(' & ')}. Add it to the 'Low Prior Bugs' sprint and link it under the low-priority epic (PLANS-20751).">🔗</span>`:"");
       const tr=document.createElement("tr");
-      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}${flags}<br><span style="color:var(--ink)">${b.name}${gl}</span></td>`+
+      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}${reviewed}${flags}<br><span style="color:var(--ink)">${b.name}${gl}</span></td>`+
         `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
         `<td>${b.fv||'<span class="muted-date">—</span>'}</td>`+
         `<td>${b.sprint?`<span class="sprint">${b.sprint}</span>`:'<span class="muted-date">—</span>'}</td>`+
