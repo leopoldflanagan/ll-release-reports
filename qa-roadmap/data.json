@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T18:18:40+00:00",
+ "generated_at": "2026-08-13T18:47:43+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -1895,6 +1895,23 @@
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
    "created": "2026-04-10",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21221",
+   "name": "CSP - blocker - multi org portal restrictions",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13",
    "labels": [],
    "lpEpic": false,
    "lpSprint": false,
@@ -6849,7 +6866,7 @@
   {
    "key": "PLANS-21191",
    "name": "Denticon: job re-ingests its own output reports; blank-name rows fail with exception instead of clean no-match",
-   "status": "PR Merged",
+   "status": "In QA",
    "who": "Petro Yarish",
    "reporter": "Petro Yarish"
   },
