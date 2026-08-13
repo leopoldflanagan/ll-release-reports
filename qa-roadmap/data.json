@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T16:15:58+00:00",
+ "generated_at": "2026-08-13T17:20:01+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -34,7 +34,7 @@
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
    "ted": "2026-08-14",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
   },
@@ -77,8 +77,8 @@
   {
    "key": "PLANS-17686",
    "name": "Updates to Transaction History",
-   "status": "Blocked",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Nazarii Polinyk",
    "tshirt": "Small"
@@ -113,8 +113,8 @@
   {
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
-   "status": "Blocked",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large"
@@ -122,8 +122,8 @@
   {
    "key": "PLANS-14180",
    "name": "Wallet Enhancements for ACH",
-   "status": "Blocked",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large"
@@ -294,7 +294,7 @@
    "fv": "R9.7",
    "who": "David Jones",
    "tshirt": "Moderate",
-   "pod": "PLANS",
+   "pod": "EDW",
    "theme": "LL-MVP"
   },
   {
@@ -446,7 +446,7 @@
    "status": "Epics & Stories",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-MVP"
@@ -687,7 +687,7 @@
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
    "ted": "2026-08-14",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
    "pod": "LL",
@@ -740,7 +740,7 @@
   {
    "key": "DYN-668",
    "name": "Plans Journey - ACH Email Updates",
-   "status": "Blocked",
+   "status": "In Testing",
    "ted": "2026-07-31",
    "fv": "R9.7",
    "who": "Unassigned",
@@ -762,8 +762,8 @@
   {
    "key": "PLANS-14180",
    "name": "Wallet Enhancements for ACH",
-   "status": "Blocked",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large",
@@ -773,8 +773,8 @@
   {
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
-   "status": "Blocked",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large",
@@ -784,8 +784,8 @@
   {
    "key": "PLANS-17686",
    "name": "Updates to Transaction History",
-   "status": "Blocked",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Nazarii Polinyk",
    "tshirt": "Small",
@@ -995,7 +995,7 @@
   {
    "key": "PLANS-15298",
    "name": "Additional Benefit Eligibility SFTP Feed",
-   "pod": "PLANS",
+   "pod": "EDW",
    "proj": "PLANS",
    "status": "Blocked",
    "fv": "R9.7",
@@ -1154,7 +1154,7 @@
    "status": "Epics & Stories",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "theme": "LL-MVP"
   },
   {
@@ -1394,7 +1394,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "On Hold",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": "2026-08-14",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
@@ -1448,7 +1448,7 @@
    "name": "Plans Journey - ACH Email Updates",
    "pod": "DYN",
    "proj": "DYN",
-   "status": "Blocked",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-07-31",
    "who": "Unassigned",
@@ -1470,9 +1470,9 @@
    "name": "Wallet Enhancements for ACH",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-14",
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
   },
@@ -1481,9 +1481,9 @@
    "name": "Handling ACH Declines",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-14",
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
   },
@@ -1492,9 +1492,9 @@
    "name": "Updates to Transaction History",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-14",
    "who": "Nazarii Polinyk",
    "theme": "ACH"
   },
@@ -1732,27 +1732,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20874",
-   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-07",
-   "labels": [
-    "PDS",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20779",
    "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
    "pod": "PLANS",
@@ -1897,25 +1876,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-06-26",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18461",
-   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-24",
    "labels": [
     "product_prioritized"
    ],
@@ -6362,6 +6322,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20874",
+   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Hunter Redhead",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-07",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19946",
    "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
    "pod": "LL",
@@ -6417,19 +6398,18 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20910",
-   "name": "Preprod/Smile Health / Check all checkbox shows incorrect status for partially selected elements",
-   "pod": "PLANS",
-   "status": "PR Merged",
+   "key": "PLANS-18461",
+   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
+   "pod": "LL",
+   "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Vivienne Chawande",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-08-10",
+   "created": "2026-06-24",
    "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -6703,6 +6683,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20910",
+   "name": "Preprod/Smile Health / Check all checkbox shows incorrect status for partially selected elements",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Hunter Redhead",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20901",
    "name": "Stage - Member Portal API - Unauthorized access to adult member treatment and benefit details",
    "pod": "LL",
@@ -6841,9 +6841,16 @@
  ],
  "nopod": [
   {
+   "key": "PLANS-21206",
+   "name": "ACH<PMP<Add Payment Method<ADD button is disabled while adding ACH bank account",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
+  {
    "key": "PLANS-21191",
    "name": "Denticon: job re-ingests its own output reports; blank-name rows fail with exception instead of clean no-match",
-   "status": "In Development",
+   "status": "PR Merged",
    "who": "Petro Yarish",
    "reporter": "Petro Yarish"
   },
