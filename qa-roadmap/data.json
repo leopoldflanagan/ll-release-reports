@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T20:12:00+00:00",
+ "generated_at": "2026-08-13T20:45:43+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -2969,40 +2969,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-10640",
-   "name": "Current 2024 Plan deleted when Patient Renewed for the Upcoming Year in Member Portal",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Chantaya Brown",
-   "prio": "3: Standard",
-   "created": "2025-11-18",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-10639",
-   "name": "Primary member added ywice",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Michael Joe",
-   "prio": "3: Standard",
-   "created": "2025-11-18",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-9963",
    "name": "ADHA | Member Portal | BROKEN | click on RENEW button redirects to a forever loading page",
    "pod": "PLANS",
@@ -4386,7 +4352,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Mireya Alvarez",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "1: Urgent",
    "created": "2026-08-13",
@@ -5540,63 +5506,6 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-8950",
-   "name": "Member Portal | QA & STAGE | ADHA & SGDP & KIDS PLANS| dependant Treatment summaries are not showing in T/S page",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "R8.26 S1",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2025-09-08",
-   "labels": [
-    "Pre-Existing_Bug",
-    "Reenbit"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-8578",
-   "name": "MPV3 | Minor benefit summaries are not shown for RP",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 15-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2025-08-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-8333",
-   "name": "ADD PLAN | DISCOUNT plans | Add a new plan and Upgrade new plan ; plan is not upgrading.",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2025-08-07",
-   "labels": [],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
