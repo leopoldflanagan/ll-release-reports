@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T14:26:02+00:00",
+ "generated_at": "2026-08-13T16:15:58+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -25,15 +25,6 @@
    "name": "Electronic Consent Form Updates",
    "status": "In Development",
    "ted": "2026-08-14",
-   "fv": "R9.7",
-   "who": "Dima Shtympel",
-   "tshirt": "Huge"
-  },
-  {
-   "key": "PLANS-15451",
-   "name": "Plan Design",
-   "status": "On Hold",
-   "ted": "2026-09-30",
    "fv": "R9.7",
    "who": "Dima Shtympel",
    "tshirt": "Huge"
@@ -400,7 +391,7 @@
    "status": "In Development",
    "ted": null,
    "fv": "R9.7",
-   "who": "Lloyd Tokerud",
+   "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "EDW",
    "theme": "LL-MVP"
@@ -483,17 +474,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-18777",
-   "name": "Ability to Hide UCR Code Admin Screen, and Explore Savings.",
-   "status": "In Testing",
-   "ted": "2026-08-13",
-   "fv": "R9.7",
-   "who": "Daryl Myrick",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-18909",
    "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
    "status": "Epics & Stories",
@@ -534,17 +514,6 @@
    "fv": "R9.8",
    "who": "Vic Du Plessis",
    "tshirt": null,
-   "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-15451",
-   "name": "Plan Design",
-   "status": "On Hold",
-   "ted": "2026-09-30",
-   "fv": "R9.7",
-   "who": "Dima Shtympel",
-   "tshirt": "Huge",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -708,7 +677,7 @@
    "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.7",
-   "who": "Vic Du Plessis",
+   "who": "Lloyd Tokerud",
    "tshirt": "Moderate",
    "pod": "EDW",
    "theme": "LL-Fast Follows"
@@ -1130,7 +1099,7 @@
    "status": "In Development",
    "fv": "R9.7",
    "ted": null,
-   "who": "Lloyd Tokerud",
+   "who": "Unassigned",
    "theme": "LL-MVP"
   },
   {
@@ -1211,17 +1180,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-18777",
-   "name": "Ability to Hide UCR Code Admin Screen, and Explore Savings.",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-13",
-   "who": "Daryl Myrick",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-18909",
    "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
    "pod": "LL",
@@ -1263,17 +1221,6 @@
    "fv": "R9.8",
    "ted": null,
    "who": "Vic Du Plessis",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-15451",
-   "name": "Plan Design",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "On Hold",
-   "fv": "R9.7",
-   "ted": "2026-09-30",
-   "who": "Dima Shtympel",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1438,7 +1385,7 @@
    "status": "Epics & Stories",
    "fv": "R9.7",
    "ted": null,
-   "who": "Vic Du Plessis",
+   "who": "Lloyd Tokerud",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1977,8 +1924,8 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21177",
-   "name": "PMP - ACH - Email is missing in Email Receipt dialog box for ACH payments",
+   "key": "PLANS-21183",
+   "name": "CSP - ACH Transaction displays 'Status Unavailable' instead of 'Not Refunded' in Plan Transactions",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -1994,38 +1941,18 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21173",
-   "name": "Plan details - duplicate text - 'This is NOT insurance and is not intended to replace health insurance'",
+   "key": "PLANS-21181",
+   "name": "CSP - BLOCKER - unable to ACH Refund",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-08-13",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20956",
-   "name": "Smile Health - AD PMP - Plans in infinite loading state when \"Is Administered By\" is set to \"Careington CA\"",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-08-11",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2872,26 +2799,6 @@
    "prio": "3: Standard",
    "created": "2026-02-13",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-12134",
-   "name": "WFP - Incorrect amounts appear in CSP Plan Transactions when two plans are purchased together with an additional plan discount.",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-02-13",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4602,12 +4509,52 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21177",
+   "name": "PMP - ACH - Email is missing in Email Receipt dialog box for ACH payments",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21173",
+   "name": "Plan details - duplicate text - 'This is NOT insurance and is not intended to replace health insurance'",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21166",
    "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -4651,7 +4598,7 @@
    "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-08-13",
    "labels": [
     "group1_migration",
@@ -5001,6 +4948,26 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20956",
+   "name": "Smile Health - AD PMP - Plans in infinite loading state when \"Is Administered By\" is set to \"Careington CA\"",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-08-11",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20955",
    "name": "Duplicate Plan Charge",
    "pod": "PLANS",
@@ -5010,7 +4977,7 @@
    "sprint": "Plans-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Jasmin Martin",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-08-11",
    "labels": [
     "product_prioritized"
@@ -5466,9 +5433,10 @@
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-07-23",
    "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -5487,7 +5455,10 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5630,7 +5601,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Sailaja Yanamandra",
    "reporter": "Charles Rosenbaum",
    "prio": "2: Important",
    "created": "2026-06-22",
@@ -5652,7 +5623,7 @@
    "sprint": "Plans-Sprint 16-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-06-17",
    "labels": [
     "product_prioritized"
@@ -5669,7 +5640,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Daryl Myrick",
    "reporter": "Clint Tredway",
    "prio": "2: Important",
    "created": "2026-06-15",
@@ -5695,26 +5666,6 @@
    "created": "2026-06-12",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-16106",
-   "name": "Smile Health - Pre-Prod Purchase - reCAPTCHA Displays \"Invalid Domain for Site Key\"",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-05-13",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -5768,6 +5719,26 @@
    "prio": "3: Standard",
    "created": "2026-02-23",
    "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-12134",
+   "name": "WFP - Incorrect amounts appear in CSP Plan Transactions when two plans are purchased together with an additional plan discount.",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-02-13",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6174,7 +6145,7 @@
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Mercedes Hung",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2025-02-27",
    "labels": [
     "group1_migration",
@@ -6391,26 +6362,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20910",
-   "name": "Preprod/Smile Health / Check all checkbox shows incorrect status for partially selected elements",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-08-10",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19946",
    "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
    "pod": "LL",
@@ -6461,6 +6412,26 @@
    "prio": "3: Standard",
    "created": "2026-07-06",
    "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20910",
+   "name": "Preprod/Smile Health / Check all checkbox shows incorrect status for partially selected elements",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Hunter Redhead",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-10",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6599,11 +6570,11 @@
    "pod": "LL",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "sprint": "LL-Sprint 18-26",
    "who": "Valentyna Tenus",
    "reporter": "Valentyna Tenus",
-   "prio": "2: Important",
+   "prio": "3: Standard",
    "created": "2026-05-22",
    "labels": [
     "product_prioritized"
@@ -6869,6 +6840,13 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-21191",
+   "name": "Denticon: job re-ingests its own output reports; blank-name rows fail with exception instead of clean no-match",
+   "status": "In Development",
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish"
+  },
   {
    "key": "PLANS-21178",
    "name": "Smile Health - Responsive menu displays behind hero image",
