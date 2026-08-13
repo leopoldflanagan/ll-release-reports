@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T19:23:40+00:00",
+ "generated_at": "2026-08-13T19:48:35+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -1752,25 +1752,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20740",
-   "name": "One Smile – Enrollment email is not received after successful enrollment",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "David Jones",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-04",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20551",
    "name": "Ancillary Benefit Pull Down Option on Site",
    "pod": "LL",
@@ -1877,6 +1858,26 @@
    "prio": "3: Standard",
    "created": "2026-06-26",
    "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18038",
+   "name": "Smile Health portal embeds the SGDP plan-widget in dev and prod (WIDGET_URL) — should use the purchase-widget",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Daryl Myrick",
+   "reporter": "Clint Tredway",
+   "prio": "2: Important",
+   "created": "2026-06-15",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -3858,23 +3859,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-7183",
-   "name": "CLONE - MPV3> unable to update email address >Verify new email address 409 error",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Sailaja Yanamandra",
-   "reporter": "DoRaun Murray",
-   "prio": "4: Low",
-   "created": "2025-06-24",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-7176",
    "name": "Reported issue with claim process - Practice Management API (eligibility)",
    "pod": "PLANS",
@@ -4029,25 +4013,6 @@
    "prio": "3: Standard",
    "created": "2025-05-23",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-6266",
-   "name": "Code D2991 Duplicate",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Jasmin Martin",
-   "prio": "4: Low",
-   "created": "2025-05-15",
-   "labels": [
-    "JSM"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4464,23 +4429,6 @@
    "labels": [
     "JSM"
    ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-4806",
-   "name": "CSP Portal | Refunds not captured in Member > History of account",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-02-13",
-   "labels": [],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5629,26 +5577,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-18038",
-   "name": "Smile Health portal embeds the SGDP plan-widget in dev and prod (WIDGET_URL) — should use the purchase-widget",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Daryl Myrick",
-   "reporter": "Clint Tredway",
-   "prio": "2: Important",
-   "created": "2026-06-15",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-17978",
    "name": "WFP - Blocker - Plan purchase/ Manual Renew failed (takes few minutes)- forever loading page",
    "pod": "LL",
@@ -5774,40 +5702,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-9992",
-   "name": "Member Portal: Test Automation Regression: Downloaded HIPAA form has incorrect file name (‘HIPPA’ instead of ‘HIPAA’)",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Himanshu Puri",
-   "prio": "4: Low",
-   "created": "2025-10-16",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-9950",
-   "name": "All Plans |Member Portal | BROKEN | membership card | filter by member is not functioning.",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-10-20",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-8950",
    "name": "Member Portal | QA & STAGE | ADHA & SGDP & KIDS PLANS| dependant Treatment summaries are not showing in T/S page",
    "pod": "PLANS",
@@ -5899,23 +5793,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-8198",
-   "name": "ADD PLAN| Intermittent issue | Select Plan popup shows empty after adding a plan",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-08-05",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-8190",
    "name": "ADD PLAN | primary cards are not showing for primary in payments page after primary add a new plan fore new member",
    "pod": "PLANS",
@@ -5928,80 +5805,6 @@
    "prio": "3: Standard",
    "created": "2025-08-05",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-7300",
-   "name": "Bitly URL Shortening Fails Across All Environments Due To DEPRECATED_ENDPOINT",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Sailaja Yanamandra",
-   "reporter": "Mike McGlumphy",
-   "prio": "4: Low",
-   "created": "2025-06-30",
-   "labels": [
-    "JSM"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-7084",
-   "name": "PRD > Apple Wallet > The spouse dependent member can't add her card to her Wallet",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Sailaja Yanamandra",
-   "reporter": "Mercedes Hung",
-   "prio": "4: Low",
-   "created": "2025-06-18",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-6335",
-   "name": "Mime Type Javascipt Console Error in Providor Portal for PowerBi Script file",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Mike McGlumphy",
-   "prio": "4: Low",
-   "created": "2025-05-20",
-   "labels": [
-    "JSM"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-6334",
-   "name": "Error message: zE is not defined in Provider Portal",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Mike McGlumphy",
-   "prio": "4: Low",
-   "created": "2025-05-20",
-   "labels": [
-    "JSM"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6079,25 +5882,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-5206",
-   "name": "PRD > Duplicate Account Created",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Jasmin Martin",
-   "prio": "4: Low",
-   "created": "2025-03-11",
-   "labels": [
-    "JSM"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-5078",
    "name": "Member V3 | CRM email Activate Button| Already activated member message not showing and redirecting to set password page (When member created from SGDP/Dynamic portals )",
    "pod": "PLANS",
@@ -6132,26 +5916,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-5059",
-   "name": "MPv3> OTP> retrieving someone else membership information",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Mercedes Hung",
-   "prio": "1: Urgent",
-   "created": "2025-02-27",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-4969",
    "name": "Member V3 | When there is a future plan existing member can add dependants to the existing plan",
    "pod": "PLANS",
@@ -6163,142 +5927,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2025-02-21",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-4968",
-   "name": "Member V3 | Alignment issue[minor]",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-02-21",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-4957",
-   "name": "Member V3 | broken| Ad-Hoc Plan : RENEW PLAN button disabled in Dashboard (Plan has a practice and Plan is in renewal period)",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-02-20",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-4947",
-   "name": "V3 Member | font styles related UI issues [Minor]",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-02-20",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-4925",
-   "name": "V3 Member | Export button not functioning in Treatment Summary page",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-02-19",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-4915",
-   "name": "V3 Member | Purchase Page match with figma font/ alignment UI issues",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-02-19",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-4909",
-   "name": "V3 Member| Disabled Auto renewal email logo doesn't load (says the file is deleted /renamed)",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Sailaja Yanamandra",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-02-19",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-4885",
-   "name": "V3 Member | Buttons- UI issues",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-02-18",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-4870",
-   "name": "V3 UI Issues (Match with figma) - 4 UI issues",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-02-18",
    "labels": [],
    "lpEpic": false,
    "lpSprint": false,
@@ -6750,6 +6378,25 @@
    "reporter": "Michael McNulty",
    "prio": "2: Important",
    "created": "2026-08-10",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20740",
+   "name": "One Smile – Enrollment email is not received after successful enrollment",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "David Jones",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-04",
    "labels": [
     "product_prioritized"
    ],
