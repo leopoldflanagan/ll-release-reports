@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T12:14:06+00:00",
+ "generated_at": "2026-08-13T14:26:02+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -15,7 +15,7 @@
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Development",
-   "ted": "2026-08-19",
+   "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null
@@ -59,8 +59,8 @@
   {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
-   "status": "Blocked",
-   "ted": "2026-08-11",
+   "status": "In Development",
+   "ted": "2026-08-13",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
@@ -77,7 +77,7 @@
   {
    "key": "PLANS-15226",
    "name": "WAIVEFAM Promo Code",
-   "status": "Blocked",
+   "status": "In Testing",
    "ted": null,
    "fv": "R9.7",
    "who": "Mykyta Moroz",
@@ -96,7 +96,7 @@
    "key": "PLANS-17004",
    "name": "Handle Integration within The Member Portal",
    "status": "In Testing",
-   "ted": "2026-08-13",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Petro Yarish",
    "tshirt": "Moderate"
@@ -287,7 +287,7 @@
   {
    "key": "PLANS-15226",
    "name": "WAIVEFAM Promo Code",
-   "status": "Blocked",
+   "status": "In Testing",
    "ted": null,
    "fv": "R9.7",
    "who": "Mykyta Moroz",
@@ -354,7 +354,7 @@
    "key": "PLANS-17004",
    "name": "Handle Integration within The Member Portal",
    "status": "In Testing",
-   "ted": "2026-08-13",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Petro Yarish",
    "tshirt": "Moderate",
@@ -375,8 +375,8 @@
   {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
-   "status": "Blocked",
-   "ted": "2026-08-11",
+   "status": "In Development",
+   "ted": "2026-08-13",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate",
@@ -725,6 +725,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-18673",
+   "name": "Purchase Widget to Payment Widget Integration",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Valentyna Tenus",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLAT-5586",
    "name": "Product Selection PER Practice",
    "status": "Architecture",
@@ -824,17 +835,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-18673",
-   "name": "Purchase Widget to Payment Widget Integration",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.7",
-   "who": "Valentyna Tenus",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-20237",
    "name": "Auto-Renewal handles ACH",
    "status": "Blocked",
@@ -871,7 +871,7 @@
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Development",
-   "ted": "2026-08-19",
+   "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null,
@@ -1017,7 +1017,7 @@
    "name": "WAIVEFAM Promo Code",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": null,
    "who": "Mykyta Moroz",
@@ -1085,7 +1085,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-13",
+   "ted": "2026-08-14",
    "who": "Petro Yarish",
    "theme": "LL-MVP"
   },
@@ -1105,9 +1105,9 @@
    "name": "New Bill To Office Option",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-11",
+   "ted": "2026-08-13",
    "who": "Mykyta Moroz",
    "theme": "LL-MVP"
   },
@@ -1453,6 +1453,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-18673",
+   "name": "Purchase Widget to Payment Widget Integration",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Valentyna Tenus",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLAT-5586",
    "name": "Product Selection PER Practice",
    "pod": "PLAT",
@@ -1552,17 +1563,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-18673",
-   "name": "Purchase Widget to Payment Widget Integration",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": "R9.7",
-   "ted": null,
-   "who": "Valentyna Tenus",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-20237",
    "name": "Auto-Renewal handles ACH",
    "pod": "PLANS",
@@ -1602,7 +1602,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-19",
+   "ted": "2026-08-17",
    "who": "Denys Kernychnyi",
    "theme": "ACH"
   },
@@ -1686,6 +1686,46 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21103",
+   "name": "PMP - broken - bill to office option is not visible when purchasing a plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-12",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21099",
+   "name": "Member portal - broken - unable to add card / existing cards not visible when ADD PLAN for a new member",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-12",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21027",
    "name": "PMP/Autorenew check box and related text is missing though Autorenew is setup to be preselected in CSP",
    "pod": "LL",
@@ -1738,6 +1778,27 @@
    "prio": "1: Urgent",
    "created": "2026-08-10",
    "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20874",
+   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Hunter Redhead",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-07",
+   "labels": [
+    "PDS",
+    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -1916,8 +1977,8 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21166",
-   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
+   "key": "PLANS-21177",
+   "name": "PMP - ACH - Email is missing in Email Receipt dialog box for ACH payments",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -1933,8 +1994,8 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21160",
-   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices.",
+   "key": "PLANS-21173",
+   "name": "Plan details - duplicate text - 'This is NOT insurance and is not intended to replace health insurance'",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -1945,79 +2006,6 @@
    "prio": "3: Standard",
    "created": "2026-08-13",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21157",
-   "name": "Plan Details PDF - Incorrect Plan Name Displayed in Heading Section",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-13",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21154",
-   "name": "All Portals - Plan Details - Custom Logo Not Visible in Plan Detail Document (legacy and New )",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-13",
-   "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21099",
-   "name": "Member portal - broken - unable to add card / existing cards not visible when ADD PLAN for a new member",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-12",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21071",
-   "name": "Smile Health - Crosby – Plan Purchase Fails in Smile Health Stage",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-12",
-   "labels": [
-    "product_prioritized"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4614,6 +4602,106 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21166",
+   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21163",
+   "name": "Plan Deails - legacy - Minor Improvement UI - full page taken for footer",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21160",
+   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices.",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21157",
+   "name": "Plan Details PDF - Incorrect Plan Name Displayed in Heading Section",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21154",
+   "name": "All Portals - Plan Details - Custom Logo Not Visible in Plan Detail Document (legacy and New )",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21114",
    "name": "[PMP]-Cannot close the \"Add payment method\" modal",
    "pod": "LL",
@@ -4674,19 +4762,18 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21103",
-   "name": "PMP - broken - bill to office option is not visible when purchasing a plan",
-   "pod": "LL",
+   "key": "PLANS-21071",
+   "name": "Smile Health - Crosby – Plan Purchase Fails in Smile Health Stage",
+   "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": "R9.8",
+   "fv": "R9.7",
    "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
    "created": "2026-08-12",
    "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -4819,7 +4906,7 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "Plans-Sprint 19-26",
    "who": "Clint Tredway",
    "reporter": "Juan Rodrigo Mejia Rivera",
@@ -5013,26 +5100,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20874",
-   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-07",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20869",
    "name": "Stage - Member Portal - 48-hour data-freshness disclaimer is not displayed on the Benefit Summaries page",
    "pod": "PLANS",
@@ -5197,13 +5264,14 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-07-30",
    "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -5408,26 +5476,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20232",
-   "name": "Plan Details PDF -Does not reflect dynamic footer settings when dynamic footer is Enabled",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-23",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20111",
    "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
    "pod": "PLANS",
@@ -5580,13 +5628,14 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "Plans-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Charles Rosenbaum",
    "prio": "2: Important",
    "created": "2026-06-22",
    "labels": [
+    "PDS",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -6381,6 +6430,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-19864",
+   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19007",
    "name": "Regression: disabled plans surface on member portal (GetMemberPortalPlansByStatus filter dropped)",
    "pod": "PLANS",
@@ -6398,31 +6466,12 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19864",
-   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21013",
    "name": "One Smile – Unable to Complete Plan Purchase",
    "pod": "LL",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Mireya Alvarez",
@@ -6637,7 +6686,7 @@
    "pod": "PLANS",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": null,
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
@@ -6678,26 +6727,6 @@
    "prio": "3: Standard",
    "created": "2025-02-20",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21046",
-   "name": "Denticon batch: suppress claims-style Slack alert (keep App Insights events)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-08-12",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6841,11 +6870,11 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-21163",
-   "name": "Plan Deails - legacy - Improvment UI",
+   "key": "PLANS-21178",
+   "name": "Smile Health - Responsive menu displays behind hero image",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
+   "reporter": "Mireya Alvarez"
   }
  ],
  "weeks": [
