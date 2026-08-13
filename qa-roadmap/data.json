@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T17:48:12+00:00",
+ "generated_at": "2026-08-13T18:18:40+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -1884,6 +1884,23 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-14103",
+   "name": "CRM Emails | KIDS PLANS | Primary contact is not receiving \"remove from auto renewal\" mail for minor member",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-04-10",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21183",
    "name": "CSP - ACH Transaction displays 'Status Unavailable' instead of 'Not Refunded' in Plan Transactions",
    "pod": "LL",
@@ -2504,23 +2521,6 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-14103",
-   "name": "CRM Emails | KIDS PLANS | Primary contact is not receiving \"remove from auto renewal\" mail for minor member",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-04-10",
-   "labels": [],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4469,6 +4469,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21218",
+   "name": "[DCA, One Smile, Essential Smile, Smilehealth] - There are no plans for dental offices",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-08-13",
+   "labels": [
+    "LLplans"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21177",
    "name": "PMP - ACH - Email is missing in Email Receipt dialog box for ACH payments",
    "pod": "LL",
@@ -6322,27 +6341,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20874",
-   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-07",
-   "labels": [
-    "PDS",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19946",
    "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
    "pod": "LL",
@@ -6398,10 +6396,31 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20874",
+   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Hunter Redhead",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-07",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-18461",
    "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
