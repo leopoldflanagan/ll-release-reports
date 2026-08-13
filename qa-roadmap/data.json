@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T21:45:53+00:00",
+ "generated_at": "2026-08-13T22:15:09+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -5619,46 +5619,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20874",
-   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-07",
-   "labels": [
-    "PDS",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18461",
-   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-24",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21013",
    "name": "One Smile – Unable to Complete Plan Purchase",
    "pod": "LL",
@@ -5964,6 +5924,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20874",
+   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Hunter Redhead",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-07",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20740",
    "name": "One Smile – Enrollment email is not received after successful enrollment",
    "pod": "PLANS",
@@ -5994,6 +5975,25 @@
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-08-03",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18461",
+   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-24",
    "labels": [
     "product_prioritized"
    ],
@@ -6098,7 +6098,7 @@
   {
    "key": "PLANS-21191",
    "name": "Denticon: job re-ingests its own output reports; blank-name rows fail with exception instead of clean no-match",
-   "status": "In QA",
+   "status": "In Stage",
    "who": "Petro Yarish",
    "reporter": "Petro Yarish"
   },
