@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-12T22:13:24+00:00",
- "today": "2026-08-12",
+ "generated_at": "2026-08-13T00:14:09+00:00",
+ "today": "2026-08-13",
  "features": [
   {
    "key": "PLANS-20613",
@@ -3416,26 +3416,6 @@
    "prio": "3: Standard",
    "created": "2026-04-21",
    "labels": [],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-15219",
-   "name": "QA retest -Stage - PMP - Purchase - Payment Method is empty",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-04-20",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
