@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T06:26:59+00:00",
+ "generated_at": "2026-08-13T08:28:18+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -1865,7 +1865,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
-   "who": "Vasyl Skochko",
+   "who": "Mykyta Moroz",
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-07-20",
@@ -5366,7 +5366,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
-   "who": "Petro Yarish",
+   "who": "Unassigned",
    "reporter": "Michael McNulty",
    "prio": "1: Urgent",
    "created": "2026-07-23",
