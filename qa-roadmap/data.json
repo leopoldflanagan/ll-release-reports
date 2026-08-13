@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T08:28:18+00:00",
+ "generated_at": "2026-08-13T10:22:34+00:00",
  "today": "2026-08-13",
  "features": [
   {
@@ -5366,7 +5366,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
-   "who": "Unassigned",
+   "who": "Nazarii Polinyk",
    "reporter": "Michael McNulty",
    "prio": "1: Urgent",
    "created": "2026-07-23",
@@ -5611,7 +5611,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez",
    "prio": "2: Important",
    "created": "2026-05-13",
@@ -6313,25 +6313,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19864",
-   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19007",
    "name": "Regression: disabled plans surface on member portal (GetMemberPortalPlansByStatus filter dropped)",
    "pod": "PLANS",
@@ -6344,6 +6325,25 @@
    "prio": "3: Standard",
    "created": "2026-07-06",
    "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-19864",
+   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17",
+   "labels": [
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6771,7 +6771,15 @@
    "linkedLP": false
   }
  ],
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21154",
+   "name": "All portals - Plan Details - Custom logos not visible in plan detail document (Ex : one smile)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 10–16",
