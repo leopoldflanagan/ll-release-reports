@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T18:18:31+00:00",
+ "generated_at": "2026-08-14T18:46:32+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -3529,25 +3529,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20263",
-   "name": "One Smile | Essential Smile - Security Code field accepts invalid CVV length",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-07-24",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20238",
    "name": "DCA plans visible on smile health",
    "pod": "PLANS",
@@ -4245,6 +4226,25 @@
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-08-03",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20263",
+   "name": "One Smile | Essential Smile - Security Code field accepts invalid CVV length",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Mariano Hernández",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-07-24",
    "labels": [
     "product_prioritized"
    ],
