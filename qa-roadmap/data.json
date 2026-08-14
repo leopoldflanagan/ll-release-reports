@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T14:46:58+00:00",
+ "generated_at": "2026-08-14T15:16:55+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -41,7 +41,7 @@
   {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-13",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
@@ -280,7 +280,7 @@
   {
    "key": "PLANS-15298",
    "name": "Additional Benefit Eligibility SFTP Feed",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.7",
    "who": "David Jones",
@@ -357,7 +357,7 @@
   {
    "key": "PLANS-17463",
    "name": "New Bill To Office Option",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-13",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
@@ -988,7 +988,7 @@
    "name": "Additional Benefit Eligibility SFTP Feed",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.7",
    "ted": null,
    "who": "David Jones",
@@ -1065,7 +1065,7 @@
    "name": "New Bill To Office Option",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-13",
    "who": "Mykyta Moroz",
@@ -1669,7 +1669,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "Plans-Sprint 19-26",
    "who": "Mariano Hernández",
    "reporter": "Camille Knight",
    "prio": "3: Standard",
@@ -2228,9 +2228,9 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
+   "fv": null,
    "sprint": "Plans-Sprint 19-26",
-   "who": "Michael McNulty",
+   "who": "Daniel Marineni",
    "reporter": "Michael McNulty",
    "prio": "3: Standard",
    "created": "2026-05-27",
@@ -2824,7 +2824,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
@@ -4292,25 +4292,6 @@
    "created": "2026-08-10",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20888",
-   "name": "WF Share wrong for AutoRenewal's",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "David Jones",
-   "reporter": "Michael McNulty",
-   "prio": "2: Important",
-   "created": "2026-08-10",
-   "labels": [
     "product_prioritized"
    ],
    "lpEpic": false,
