@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T10:47:56+00:00",
+ "generated_at": "2026-08-14T11:15:51+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -1624,26 +1624,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-21103",
-   "name": "PMP - broken - bill to office option is not visible when purchasing a plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-12",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21024",
    "name": "Member Portal - broken- ADD PLAN button is not visible",
    "pod": "PLANS",
@@ -1676,26 +1656,6 @@
    "prio": "1: Urgent",
    "created": "2026-08-10",
    "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20779",
-   "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-05",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -3921,6 +3881,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20779",
+   "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-05",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19864",
    "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
    "pod": "LL",
@@ -4255,6 +4235,26 @@
    "created": "2026-08-13",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21103",
+   "name": "PMP - broken - bill to office option is not visible when purchasing a plan",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-12",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
