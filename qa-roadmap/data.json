@@ -1,16 +1,7 @@
 {
- "generated_at": "2026-08-14T01:32:19+00:00",
+ "generated_at": "2026-08-14T02:53:33+00:00",
  "today": "2026-08-14",
  "features": [
-  {
-   "key": "PLANS-20613",
-   "name": "Write All Plans member communications to WFP Comms Service",
-   "status": "Blocked",
-   "ted": null,
-   "fv": null,
-   "who": "Chris Rubio",
-   "tshirt": null
-  },
   {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
@@ -833,7 +824,7 @@
    "fv": null,
    "who": "Chris Rubio",
    "tshirt": null,
-   "pod": "LL",
+   "pod": "DYN",
    "theme": "ACH"
   },
   {
@@ -1534,7 +1525,7 @@
   {
    "key": "PLANS-20613",
    "name": "Write All Plans member communications to WFP Comms Service",
-   "pod": "LL",
+   "pod": "DYN",
    "proj": "PLANS",
    "status": "Blocked",
    "fv": null,
@@ -1928,9 +1919,12 @@
    "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-13",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1947,7 +1941,10 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-13",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1962,9 +1959,29 @@
    "sprint": "LL-Sprint 19-26",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
+   "prio": "2: Important",
    "created": "2026-08-13",
    "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21178",
+   "name": "Smile Health - Responsive menu displays behind hero image",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-13",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2667,19 +2684,40 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21234",
+   "name": "X-Portal-Code duplicate header add throws ArgumentException on GET npm/get-main-page-detail",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21218",
    "name": "[DCA, One Smile, Essential Smile, Smilehealth] - There are no plans for dental offices",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
    "who": "Mireya Alvarez",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "1: Urgent",
    "created": "2026-08-13",
    "labels": [
-    "LLplans"
+    "group1_migration",
+    "product_prioritized"
    ],
    "lpEpic": false,
    "lpSprint": false,
@@ -4207,6 +4245,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21191",
+   "name": "Denticon: job re-ingests its own output reports; blank-name rows fail with exception instead of clean no-match",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-08-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20910",
    "name": "Preprod/Smile Health / Check all checkbox shows incorrect status for partially selected elements",
    "pod": "PLANS",
@@ -4402,29 +4460,7 @@
    "linkedLP": false
   }
  ],
- "nopod": [
-  {
-   "key": "PLANS-21234",
-   "name": "X-Portal-Code duplicate header add throws ArgumentException on GET npm/get-main-page-detail",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Dima Shtympel"
-  },
-  {
-   "key": "PLANS-21191",
-   "name": "Denticon: job re-ingests its own output reports; blank-name rows fail with exception instead of clean no-match",
-   "status": "In Stage",
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish"
-  },
-  {
-   "key": "PLANS-21178",
-   "name": "Smile Health - Responsive menu displays behind hero image",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Mireya Alvarez"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 10–16",
