@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T20:41:34+00:00",
+ "generated_at": "2026-08-14T21:06:29+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -2654,26 +2654,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21218",
-   "name": "[DCA, One Smile, Essential Smile, Smilehealth] - There are no plans for dental offices",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-08-13",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21177",
    "name": "PMP - ACH - Email is missing in Email Receipt dialog box for ACH payments",
    "pod": "LL",
@@ -4311,7 +4291,29 @@
    "linkedLP": false
   }
  ],
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21324",
+   "name": "One Smile - Unable to complete plan purchase",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
+  {
+   "key": "PLANS-21321",
+   "name": "Essential Smiles - Unable to complete plan purchase",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
+  {
+   "key": "PLANS-21318",
+   "name": "[DCA] - Unable to complete plan purchase",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 10–16",
