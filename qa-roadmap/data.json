@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T15:16:55+00:00",
+ "generated_at": "2026-08-14T15:46:33+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -15,7 +15,7 @@
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
    "status": "In Development",
-   "ted": "2026-08-14",
+   "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Dima Shtympel",
    "tshirt": "Huge"
@@ -37,15 +37,6 @@
    "fv": "R9.7",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
-  },
-  {
-   "key": "PLANS-17463",
-   "name": "New Bill To Office Option",
-   "status": "In Testing",
-   "ted": "2026-08-13",
-   "fv": "R9.7",
-   "who": "Mykyta Moroz",
-   "tshirt": "Moderate"
   },
   {
    "key": "PLANS-15748",
@@ -314,7 +305,7 @@
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
    "status": "In Development",
-   "ted": "2026-08-14",
+   "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Dima Shtympel",
    "tshirt": "Huge",
@@ -352,17 +343,6 @@
    "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17463",
-   "name": "New Bill To Office Option",
-   "status": "In Testing",
-   "ted": "2026-08-13",
-   "fv": "R9.7",
-   "who": "Mykyta Moroz",
-   "tshirt": "Moderate",
-   "pod": "LL",
    "theme": "LL-MVP"
   },
   {
@@ -1023,7 +1003,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-14",
+   "ted": "2026-08-17",
    "who": "Dima Shtympel",
    "theme": "LL-MVP"
   },
@@ -1058,17 +1038,6 @@
    "fv": "R9.7",
    "ted": null,
    "who": "Chris Rubio",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17463",
-   "name": "New Bill To Office Option",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-13",
-   "who": "Mykyta Moroz",
    "theme": "LL-MVP"
   },
   {
@@ -1805,6 +1774,46 @@
    "prio": "3: Standard",
    "created": "2026-08-14",
    "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21251",
+   "name": "PMP - Payment Widget - Required Validation Messages Missing for Expiration Date, CVV, and Billing ZIP Code in Manage Patient > Add Payment Methods",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-14",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21248",
+   "name": "PMP - Broken - Minor Bug: Duplicate Credit Card Not Added, but Success Message Is Displayed",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-14",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2624,10 +2633,10 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Dima Shtympel",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-08-13",
    "labels": [
     "group1_migration",
@@ -2645,7 +2654,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Mireya Alvarez",
+   "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "1: Urgent",
    "created": "2026-08-13",
@@ -2663,7 +2672,7 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": "R9.8",
+   "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
    "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2745,7 +2754,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-08-13",
@@ -2763,7 +2772,7 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2824,7 +2833,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 19-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
@@ -2833,9 +2842,9 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21110",
@@ -2864,7 +2873,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Mireya Alvarez",
    "prio": "2: Important",
@@ -3163,7 +3172,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Petro Yarish",
+   "who": "Unassigned",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
    "created": "2026-08-10",
@@ -3875,46 +3884,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21099",
-   "name": "Member portal - broken - unable to add card / existing cards not visible when ADD PLAN for a new member",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-12",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20779",
-   "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-05",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19946",
    "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
    "pod": "LL",
@@ -3997,25 +3966,6 @@
    "sprint": "LL-Sprint 19-26",
    "who": "Rostyslav Masniuk",
    "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20491",
-   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-29",
    "labels": [
@@ -4239,19 +4189,19 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21103",
-   "name": "PMP - broken - bill to office option is not visible when purchasing a plan",
+   "key": "PLANS-21099",
+   "name": "Member portal - broken - unable to add card / existing cards not visible when ADD PLAN for a new member",
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Valentyna Tenus",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-12",
    "labels": [
-    "group2_migration",
+    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
@@ -4312,6 +4262,26 @@
    "created": "2026-08-07",
    "labels": [
     "PDS",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20779",
+   "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-05",
+   "labels": [
     "group1_migration",
     "product_prioritized"
    ],
@@ -4416,22 +4386,7 @@
    "linkedLP": false
   }
  ],
- "nopod": [
-  {
-   "key": "PLANS-21251",
-   "name": "PMP - Payment Widget - Required Validation Messages Missing for Expiration Date, CVV, and Billing ZIP Code in Manage Patient > Add Payment Methods",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-21248",
-   "name": "PMP - Broken - Minor Bug: Duplicate Credit Card Not Added, but Success Message Is Displayed",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 10–16",
