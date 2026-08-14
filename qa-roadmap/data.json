@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T15:46:33+00:00",
+ "generated_at": "2026-08-14T16:17:24+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -59,20 +59,11 @@
   {
    "key": "PLANS-17686",
    "name": "Updates to Transaction History",
-   "status": "In Development",
-   "ted": "2026-08-14",
+   "status": "In Testing",
+   "ted": null,
    "fv": "R9.7",
    "who": "Nazarii Polinyk",
    "tshirt": "Small"
-  },
-  {
-   "key": "PLANS-17004",
-   "name": "Handle Integration within The Member Portal",
-   "status": "In Testing",
-   "ted": "2026-08-14",
-   "fv": "R9.7",
-   "who": "Petro Yarish",
-   "tshirt": "Moderate"
   },
   {
    "key": "PLANS-17586",
@@ -321,17 +312,6 @@
    "who": "Chris Rubio",
    "tshirt": "Large",
    "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17004",
-   "name": "Handle Integration within The Member Portal",
-   "status": "In Testing",
-   "ted": "2026-08-14",
-   "fv": "R9.7",
-   "who": "Petro Yarish",
-   "tshirt": "Moderate",
-   "pod": "LL",
    "theme": "LL-MVP"
   },
   {
@@ -755,8 +735,8 @@
   {
    "key": "PLANS-17686",
    "name": "Updates to Transaction History",
-   "status": "In Development",
-   "ted": "2026-08-14",
+   "status": "In Testing",
+   "ted": null,
    "fv": "R9.7",
    "who": "Nazarii Polinyk",
    "tshirt": "Small",
@@ -1016,17 +996,6 @@
    "fv": "R9.7",
    "ted": null,
    "who": "Chris Rubio",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17004",
-   "name": "Handle Integration within The Member Portal",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-14",
-   "who": "Petro Yarish",
    "theme": "LL-MVP"
   },
   {
@@ -1452,9 +1421,9 @@
    "name": "Updates to Transaction History",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-14",
+   "ted": null,
    "who": "Nazarii Polinyk",
    "theme": "ACH"
   },
@@ -3884,25 +3853,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19946",
-   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-20",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21013",
    "name": "One Smile – Unable to Complete Plan Purchase",
    "pod": "LL",
@@ -4320,6 +4270,25 @@
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-08-03",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-19946",
+   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-20",
    "labels": [
     "product_prioritized"
    ],
