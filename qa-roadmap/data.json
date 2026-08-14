@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T14:42:45+00:00",
+ "generated_at": "2026-08-14T14:46:58+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -797,8 +797,8 @@
   {
    "key": "PLANS-20237",
    "name": "Auto-Renewal handles ACH",
-   "status": "Blocked",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "David Jones",
    "tshirt": null,
@@ -1505,9 +1505,9 @@
    "name": "Auto-Renewal handles ACH",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-17",
    "who": "David Jones",
    "theme": "ACH"
   },
