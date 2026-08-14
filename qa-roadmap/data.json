@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T16:17:24+00:00",
+ "generated_at": "2026-08-14T16:48:32+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -2596,6 +2596,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21277",
+   "name": "[ACH] - Getting an error while trying to add ACH as payment method",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-14",
+   "labels": [
+    "LLplans"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21234",
    "name": "X-Portal-Code duplicate header add throws ArgumentException on GET npm/get-main-page-detail",
    "pod": "LL",
@@ -2843,7 +2862,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez",
    "prio": "2: Important",
    "created": "2026-08-12",
@@ -3860,7 +3879,7 @@
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez",
    "prio": "2: Important",
    "created": "2026-08-11",
@@ -4199,27 +4218,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20874",
-   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-07",
-   "labels": [
-    "PDS",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20779",
    "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
    "pod": "PLANS",
@@ -4227,7 +4225,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-08-05",
