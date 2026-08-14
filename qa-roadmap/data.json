@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T20:10:14+00:00",
+ "generated_at": "2026-08-14T20:41:34+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -1709,23 +1709,6 @@
    "labels": [
     "product_prioritized"
    ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-14103",
-   "name": "CRM Emails | KIDS PLANS | Primary contact is not receiving \"remove from auto renewal\" mail for minor member",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-04-10",
-   "labels": [],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3824,6 +3807,23 @@
    "reporter": "Clint Tredway",
    "prio": "3: Standard",
    "created": "2026-07-06",
+   "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-14103",
+   "name": "CRM Emails | KIDS PLANS | Primary contact is not receiving \"remove from auto renewal\" mail for minor member",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-04-10",
    "labels": [],
    "lpEpic": false,
    "lpSprint": false,
