@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T10:21:26+00:00",
+ "generated_at": "2026-08-14T10:47:56+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -3921,25 +3921,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19946",
-   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-20",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19864",
    "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
    "pod": "LL",
@@ -3971,6 +3952,25 @@
    "prio": "3: Standard",
    "created": "2026-07-06",
    "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-19946",
+   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-20",
+   "labels": [
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
