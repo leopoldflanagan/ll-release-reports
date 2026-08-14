@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T17:18:47+00:00",
+ "generated_at": "2026-08-14T17:46:54+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -2596,6 +2596,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21278",
+   "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-14",
+   "labels": [
+    "LLplans"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21277",
    "name": "[ACH] - Getting an error while trying to add ACH as payment method",
    "pod": "LL",
@@ -2848,25 +2867,6 @@
    "created": "2026-08-12",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21071",
-   "name": "Smile Health - Crosby – Plan Purchase Fails in Smile Health Stage",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-12",
-   "labels": [
     "product_prioritized"
    ],
    "lpEpic": false,
