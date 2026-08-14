@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T22:38:57+00:00",
+ "generated_at": "2026-08-14T23:05:00+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -2615,33 +2615,14 @@
   {
    "key": "PLANS-21278",
    "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 19-26",
+   "sprint": "Plans-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "3: Standard",
-   "created": "2026-08-14",
-   "labels": [
-    "LLplans"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21277",
-   "name": "[ACH] - Getting an error while trying to add ACH as payment method",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
    "created": "2026-08-14",
    "labels": [
     "LLplans"
