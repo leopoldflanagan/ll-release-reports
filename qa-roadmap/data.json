@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T18:46:32+00:00",
+ "generated_at": "2026-08-14T19:20:07+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -3727,7 +3727,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
