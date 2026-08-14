@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T06:29:13+00:00",
+ "generated_at": "2026-08-14T06:59:17+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -1917,7 +1917,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-08-13",
