@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T05:31:56+00:00",
+ "generated_at": "2026-08-14T06:29:13+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -3223,7 +3223,7 @@
   },
   {
    "key": "PLANS-20925",
-   "name": "Stage - Member Portal - Treatment history is not displayed for any member in Treatment Summaries",
+   "name": "Stage - Member Portal - Treatments are not displayed for members",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
