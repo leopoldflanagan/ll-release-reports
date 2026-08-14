@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T14:27:34+00:00",
+ "generated_at": "2026-08-14T14:34:46+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -1655,6 +1655,25 @@
    "reporter": "Carmen West",
    "prio": "1: Urgent",
    "created": "2026-08-10",
+   "labels": [
+    "product_prioritized"
+   ],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20553",
+   "name": "Landing page for Smile Health",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Mariano Hernández",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-07-29",
    "labels": [
     "product_prioritized"
    ],
@@ -3434,25 +3453,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20553",
-   "name": "Landing page for Smile Health",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Mariano Hernández",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-07-29",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-20547",
