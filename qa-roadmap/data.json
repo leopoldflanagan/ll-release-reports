@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T11:45:10+00:00",
+ "generated_at": "2026-08-14T12:16:39+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -2848,7 +2848,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 19-26",
-   "who": "Unassigned",
+   "who": "Nazarii Polinyk",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-08-12",
@@ -4460,7 +4460,7 @@
  "nopod": [
   {
    "key": "PLANS-21251",
-   "name": "PMP",
+   "name": "PMP - Payment Widget - Required Validation Messages Missing for Expiration Date, CVV, and Billing ZIP Code in Manage Patient > Add Payment Methods",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
