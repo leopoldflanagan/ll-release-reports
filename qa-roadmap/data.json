@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T13:28:44+00:00",
+ "generated_at": "2026-08-14T14:00:39+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -1655,25 +1655,6 @@
    "reporter": "Carmen West",
    "prio": "1: Urgent",
    "created": "2026-08-10",
-   "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20551",
-   "name": "Ancillary Benefit Pull Down Option on Site",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-07-29",
    "labels": [
     "product_prioritized"
    ],
@@ -3861,26 +3842,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21099",
-   "name": "Member portal - broken - unable to add card / existing cards not visible when ADD PLAN for a new member",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-12",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20779",
    "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
    "pod": "PLANS",
@@ -3932,6 +3893,26 @@
    "prio": "3: Standard",
    "created": "2026-07-06",
    "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21099",
+   "name": "Member portal - broken - unable to add card / existing cards not visible when ADD PLAN for a new member",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-12",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4005,6 +3986,25 @@
    "prio": "3: Standard",
    "created": "2026-07-30",
    "labels": [],
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20551",
+   "name": "Ancillary Benefit Pull Down Option on Site",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-07-29",
+   "labels": [
+    "product_prioritized"
+   ],
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4432,25 +4432,6 @@
     "Reenbit",
     "group1_migration",
     "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-5204",
-   "name": "Provider Portal - Adding Primary Contact Instead of Selected Dependent",
-   "pod": "PLANS",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Jasmin Martin",
-   "prio": "4: Low",
-   "created": "2025-03-10",
-   "labels": [
-    "JSM"
    ],
    "lpEpic": false,
    "lpSprint": false,
