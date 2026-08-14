@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T12:16:39+00:00",
+ "generated_at": "2026-08-14T12:47:10+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -105,7 +105,7 @@
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
    "status": "In Development",
-   "ted": "2026-08-14",
+   "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large"
@@ -114,7 +114,7 @@
    "key": "PLANS-14180",
    "name": "Wallet Enhancements for ACH",
    "status": "In Development",
-   "ted": "2026-08-14",
+   "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large"
@@ -132,7 +132,7 @@
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "status": "In Testing",
-   "ted": "2026-08-12",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
    "tshirt": "Large"
@@ -754,7 +754,7 @@
    "key": "PLANS-14180",
    "name": "Wallet Enhancements for ACH",
    "status": "In Development",
-   "ted": "2026-08-14",
+   "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "Large",
@@ -765,7 +765,7 @@
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
    "status": "In Development",
-   "ted": "2026-08-14",
+   "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large",
@@ -787,7 +787,7 @@
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "status": "In Testing",
-   "ted": "2026-08-12",
+   "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
    "tshirt": "Large",
@@ -1463,7 +1463,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-14",
+   "ted": "2026-08-17",
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
   },
@@ -1474,7 +1474,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-14",
+   "ted": "2026-08-17",
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
   },
@@ -1496,7 +1496,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-12",
+   "ted": "2026-08-14",
    "who": "Valentyna Tenus",
    "theme": "ACH"
   },
