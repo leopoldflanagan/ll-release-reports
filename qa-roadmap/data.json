@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T14:34:46+00:00",
+ "generated_at": "2026-08-14T14:42:45+00:00",
  "today": "2026-08-14",
  "features": [
   {
@@ -1769,26 +1769,6 @@
    "prio": "3: Standard",
    "created": "2026-06-26",
    "labels": [
-    "product_prioritized"
-   ],
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18038",
-   "name": "Smile Health portal embeds the SGDP plan-widget in dev and prod (WIDGET_URL) — should use the purchase-widget",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Daryl Myrick",
-   "reporter": "Clint Tredway",
-   "prio": "2: Important",
-   "created": "2026-06-15",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "lpEpic": false,
