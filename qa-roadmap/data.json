@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-15T10:38:52+00:00",
+ "generated_at": "2026-08-15T11:04:04+00:00",
  "today": "2026-08-15",
  "features": [
   {
@@ -397,8 +397,8 @@
    "status": "Epics & Stories",
    "ted": null,
    "fv": null,
-   "who": "Chris Rubio",
-   "tshirt": null,
+   "who": "Daryl Myrick",
+   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-MVP"
   },
@@ -1083,7 +1083,7 @@
    "status": "Epics & Stories",
    "fv": null,
    "ted": null,
-   "who": "Chris Rubio",
+   "who": "Daryl Myrick",
    "theme": "LL-MVP"
   },
   {
