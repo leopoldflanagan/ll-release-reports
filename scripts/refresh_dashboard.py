@@ -37,7 +37,9 @@ CLOUD_FIELDS = {
 FIELDS = ["summary", "status", "fixVersions", "assignee", "reporter",
           "project", "customfield_11626", "customfield_10023",
           "customfield_10044", "customfield_10020", "priority", "created", "labels",
-          "parent", "customfield_10014", "issuelinks"]  # 10020 = Sprint, 10014 = Epic Link
+          "parent", "customfield_10014", "issuelinks",
+          "customfield_12146", "customfield_10071"]
+# 10020 = Sprint, 10014 = Epic Link, 12146 = Theme, 10071 = Triage
 
 THEMES = ["LL-MVP", "LL-Fast Follows", "ACH", "ACH-Fast Follows"]
 
@@ -121,6 +123,8 @@ def parse_issue(i, theme=None):
     linked_lowprio = (parent.get("key") == LOWPRIO_EPIC
                       or epic_link == LOWPRIO_EPIC
                       or LOWPRIO_EPIC in link_keys)
+    theme_field = f.get("customfield_12146") or {}   # Theme (select) — populated for Features; being rolled out to Bugs
+    triage_field = f.get("customfield_10071") or {}  # Triage (select)
     return {
         "key": i["key"],
         "name": clean(f.get("summary")),
@@ -134,11 +138,12 @@ def parse_issue(i, theme=None):
         "tshirt": (ts.get("value") if ts else None),
         "sprint": sprint_name,
         "prio": (prio.get("name") if prio else None) or "3: Standard",
-        "created": (f.get("created") or "")[:10],
+        "created": (f.get("created") or ""),   # full ISO timestamp (enables last-hour / last-24h windows)
         "labels": f.get("labels") or [],
         "linked_lowprio": linked_lowprio,
         "lp_sprint": lp_sprint,
-        "theme": theme or "",
+        "theme": theme or (theme_field.get("value") if isinstance(theme_field, dict) else "") or "",
+        "triage": (triage_field.get("value") if isinstance(triage_field, dict) else "") or "",
     }
 
 
@@ -215,6 +220,7 @@ def pull_bugs():
                     "sprint": r.get("sprint"), "who": r.get("who") or "Unassigned",
                     "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard",
                     "created": r.get("created") or "", "labels": r.get("labels") or [],
+                    "theme": r.get("theme") or "", "triage": r.get("triage") or "",
                     "lpEpic": bool(r.get("linked_lowprio")),
                     "lpSprint": bool(r.get("lp_sprint")),
                     "linkedLP": bool(r.get("linked_lowprio") and r.get("lp_sprint"))})

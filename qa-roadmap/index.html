@@ -161,7 +161,12 @@
   .podbtn:hover,.tbtn:hover,.segbtn:hover{border-color:var(--blue);color:var(--blue);background:#f4f8fc}
   .podbtn.active{background:var(--blue);border-color:var(--blue);color:#fff;box-shadow:0 1px 4px rgba(27,95,168,.28)}
   .tbtn.active{background:var(--blue);border-color:var(--blue);color:#fff;box-shadow:0 1px 4px rgba(27,95,168,.28)}
-  .segbtn.active{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:0 1px 4px rgba(18,62,107,.3)}
+  /* scope chips (Pod/Theme): specific selection = GREEN; the "All" reset chip = BLUE */
+  .segbtn.active{background:#2f7d1c;border-color:#2f7d1c;color:#fff;box-shadow:0 1px 4px rgba(47,125,28,.3)}
+  .segbtn.allbtn.active{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:0 1px 4px rgba(18,62,107,.3)}
+  /* option with 0 results in the current cross-filter: shown but disabled (never hidden) */
+  .segbtn.disabled{opacity:.38;cursor:default;background:#fff;color:var(--muted);border-color:var(--line);box-shadow:none}
+  .segbtn.disabled:hover{border-color:var(--line);color:var(--muted);background:#fff}
   /* per-group active accents so each row reads at a glance */
   #themefilter .podbtn.active{background:var(--purple);border-color:var(--purple);box-shadow:0 1px 4px rgba(122,95,176,.3)}
   #themefilter .podbtn:hover{border-color:var(--purple);color:var(--purple);background:#f7f4fc}
@@ -232,37 +237,61 @@
   .dropwrap{position:relative}
   .dropbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--ink);padding:6px 12px;border-radius:20px;font-size:12.5px;font-weight:600;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:6px}
   .dropbtn:hover{border-color:var(--blue)}
-  .dropbtn.active{border-color:var(--blue);color:var(--blue);background:#f4f8fc}
-  .dropbtn.opened{box-shadow:0 0 0 2px rgba(27,95,168,.15)}
+  /* a specific selection = GREEN (blue stays for neutral/default states) */
+  .dropbtn.active{border-color:#2f7d1c;color:#2f7d1c;background:#eef7ea}
+  .dropbtn.opened{box-shadow:0 0 0 2px rgba(47,125,28,.15)}
   .dropbtn.alert{border-color:var(--amber);background:#fff8ec;color:#9a6a06}
   .dropbtn.alert:hover{border-color:var(--amber)}
   .dropbtn .dalert{font-size:12.5px;line-height:1}
-  .dropbtn .dcount{background:var(--blue);color:#fff;border-radius:20px;font-size:10.5px;font-weight:800;padding:0 6px;min-width:16px;text-align:center}
+  .dropbtn .dcount{background:#2f7d1c;color:#fff;border-radius:20px;font-size:10.5px;font-weight:800;padding:0 6px;min-width:16px;text-align:center}
   .dropbtn .dcount.amber{background:var(--amber)}
   .dropbtn .dcar{color:var(--muted);font-size:10px}
   .dropmenu{display:none;position:absolute;top:calc(100% + 6px);left:0;z-index:40;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(18,62,107,.16);padding:6px;min-width:250px;max-height:340px;overflow:auto}
   .dropmenu.open{display:block}
   .dropitem{width:100%;appearance:none;border:0;background:none;display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:7px;cursor:pointer;font-family:inherit;font-size:12.5px;color:var(--ink);text-align:left}
   .dropitem:hover{background:#f4f8fc}
-  .dropitem.on{background:#eef5fc}
+  .dropitem.disabled{opacity:.4;cursor:default}
+  .dropitem.disabled:hover{background:none}
+  .dropitem.on{background:#eef7ea}
   .dropitem.act .ditxt{color:#9a6a06;font-weight:700}
-  .dropitem .dchk{width:14px;color:var(--blue);font-weight:800;flex:none}
+  .dropitem .dchk{width:14px;color:#2f7d1c;font-weight:800;flex:none}
   .dropitem .ditxt{flex:1;white-space:nowrap}
   .dropitem .dnum{color:var(--muted);font-weight:700;font-size:11.5px}
   .dropitem.act .dnum{color:var(--amber)}
   .chipsel{display:none;flex-wrap:wrap;gap:6px;margin-top:10px}
-  .selchip{display:inline-flex;align-items:center;gap:5px;background:#eef2f7;border:1px solid var(--line);border-radius:20px;padding:3px 4px 3px 10px;font-size:11.5px;color:var(--ink)}
+  .selchip{display:inline-flex;align-items:center;gap:5px;background:#eef7ea;border:1px solid #bfe0b3;border-radius:20px;padding:3px 4px 3px 10px;font-size:11.5px;color:#2f7d1c}
   .selchip.alert{background:#fff8ec;border-color:var(--amber);color:#9a6a06}
-  .selchip .scname{color:var(--muted);font-weight:700}
+  .selchip .scname{color:#3c8f28;font-weight:700}
   .selchip.alert .scname{color:#9a6a06}
   .selchip .scx{cursor:pointer;color:var(--muted);font-weight:800;padding:1px 6px;border-radius:50%;line-height:1}
   .selchip .scx:hover{background:var(--red);color:#fff}
+  /* Prominent top scope filters (Pod + Theme) */
+  .scopebar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px;background:linear-gradient(180deg,#f4f8fd,#eaf1fa);border:1px solid #cfddee;border-radius:12px;padding:12px 18px;margin:16px 0 8px;box-shadow:0 1px 3px rgba(18,62,107,.06)}
+  .scoperow{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .scopelbl{font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--navy)}
+  .scopesep{width:1px;align-self:stretch;background:#cfddee;margin:2px 0}
+  .segscope .segbtn{font-size:12.5px;padding:6px 15px;font-weight:700}
+  .boardctl .spacer{flex:1}
+  .minisel{appearance:none;border:1px solid var(--line);background:#fff;color:var(--navy);padding:3px 26px 3px 10px;border-radius:6px;font-size:11.5px;font-weight:600;cursor:pointer;font-family:inherit;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%236b7a8d' stroke-width='3'><path d='M6 9l6 6 6-6'/></svg>");background-repeat:no-repeat;background-position:right 8px center}
+  .minisel:hover{border-color:var(--blue)}
   .sprint{display:inline-block;padding:1px 7px;border-radius:4px;background:#f3e8ff;color:#6b21a8;font-size:11px;font-weight:600}
   /* NEW tag for recently-created bugs */
   .newtag{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.05em;padding:1px 6px;border-radius:20px;background:var(--green);color:#fff;vertical-align:middle;margin-left:2px}
+  /* recency badge — color by age: red = last hour, amber = last 24h, green = last 7 days */
+  .rtag{display:inline-block;font-size:9px;font-weight:800;letter-spacing:.05em;padding:1px 7px;border-radius:20px;color:#fff;vertical-align:middle;margin-left:2px;cursor:default}
+  .rtag.hot{background:var(--red)}
+  .rtag.new{background:var(--amber);color:#5a3d00}
+  .rtag.recent{background:var(--green)}
   /* "Reviewed" stamp — bugs carrying the product_prioritized label */
   .stamp-reviewed{display:inline-flex;align-items:center;gap:3px;font-size:9px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#2f7d1c;background:rgba(76,175,46,.12);border:1.5px solid rgba(76,175,46,.55);padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:middle;white-space:nowrap}
   .stamp-reviewed .stx{font-size:10px;line-height:1}
+  /* "Triaged" stamp — bugs whose Triage field = Yes */
+  .stamp-triaged{display:inline-flex;align-items:center;gap:3px;font-size:9px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#1b5fa8;background:rgba(27,95,168,.12);border:1.5px solid rgba(27,95,168,.5);padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:middle;white-space:nowrap}
+  .stamp-triaged .stx{font-size:10px;line-height:1}
+  /* Custom hover tooltip for row tags/stamps (native title was unreliable) */
+  .tip{cursor:help;position:relative}
+  .tip:hover::after{content:attr(data-tip);position:absolute;left:0;top:calc(100% + 6px);background:#1f2d3d;color:#fff;font-size:11px;font-weight:600;line-height:1.4;letter-spacing:0;text-transform:none;padding:7px 10px;border-radius:7px;white-space:normal;width:max-content;max-width:280px;z-index:80;box-shadow:0 8px 24px rgba(0,0,0,.24);pointer-events:none}
+  .tip:hover::before{content:"";position:absolute;left:14px;top:calc(100% + 1px);border:5px solid transparent;border-bottom-color:#1f2d3d;z-index:80;pointer-events:none}
   /* NEW filter toggle chip (green accent, standalone) */
   #bugnewfilter .tbtn.active{background:var(--green);border-color:var(--green);color:#fff;box-shadow:0 1px 4px rgba(76,175,46,.3)}
   #bugnewfilter .tbtn:hover{border-color:var(--green);color:var(--green);background:#f3faef}
@@ -336,9 +365,9 @@
   </header>
 
   <div class="tabs">
-    <button class="tab active" data-tab="allroadmap">All PODs QA Roadmap</button>
+    <button class="tab active" data-tab="bugs">Active Bugs</button>
     <button class="tab" data-tab="all">Active Features</button>
-    <button class="tab" data-tab="bugs">Active Bugs</button>
+    <button class="tab" data-tab="allroadmap">All PODs QA Roadmap</button>
   </div>
 
   <div class="panel" id="panel-all">
@@ -369,7 +398,7 @@
     <p class="xnote" id="allnote"></p>
   </div>
 
-  <div class="panel active" id="panel-allroadmap">
+  <div class="panel" id="panel-allroadmap">
     <p class="sub" style="margin-top:16px">Consolidated QA delivery roadmap. Work still in build is placed by Dev-estimated <b>Target End date</b> through the R9.7 freeze — read left to right, soonest first. Anything already <b>In Testing</b> is pulled out into a separate <b>QA Ready / In Progress</b> lane at the top (it's already with QA, so its date no longer matters). Bar length reflects the feature's T-shirt size; blocked/on-hold shows red with a Spotlight note on hover; a ⚠ marks a date that has passed without reaching Testing.</p>
     <div class="toolbar">
       <div class="searchbar" id="rmsearchbox">
@@ -402,10 +431,11 @@
     <p class="note" id="stamp" style="margin-top:12px"></p>
   </div>
 
-  <div class="panel" id="panel-bugs">
+  <div class="panel active" id="panel-bugs">
     <p class="sub" style="margin-top:16px">Active bugs (not closed), scoped by the <b>Pod</b> selector below (LL · PLANS · All). Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Filter by status, priority, migration-group, or review flags; export the filtered list to Excel. P3/P4 bugs show a 🏷️ if missing a migration-group label and a 🔗 if not fully in <b>Low Prior Bugs</b> (missing the sprint and/or the low-priority epic). This triage now covers both <b>LL</b> and <b>PLANS</b>.</p>
-    <div class="filterrow" style="margin:14px 0 4px"><span class="flabel">Pod</span>
-    <div class="themebtns" id="bugpodfilter"></div></div>
+    <div class="scopebar">
+      <div class="scoperow"><span class="scopelbl">Theme</span><div class="themebtns segscope" id="bugthemefilter"></div></div>
+    </div>
     <div class="cards" id="bugcards"></div>
     <div class="toolbar">
       <div class="searchbar" id="bugsearchbox">
@@ -426,7 +456,7 @@
         </div>
       </div>
     </div>
-    <div class="boardctl"><span class="minilbl">Status columns</span><button class="minibtn" id="bugexpandall" type="button">Expand all</button><button class="minibtn" id="bugcollapseall" type="button">Collapse all</button></div>
+    <div class="boardctl"><span class="minilbl">Status columns</span><button class="minibtn" id="bugexpandall" type="button">Expand all</button><button class="minibtn" id="bugcollapseall" type="button">Collapse all</button><span class="spacer"></span><span class="minilbl">Order by</span><select class="minisel" id="bugsort"><option value="prio">Priority</option><option value="new">Newest</option><option value="old">Oldest</option><option value="key">Key</option><option value="who">Assignee</option><option value="pod">Pod</option></select></div>
     <div id="bugboard"></div>
     <p class="xnote" id="bugnote"></p>
 
@@ -435,6 +465,13 @@
       <p class="sub" style="font-size:12.5px;margin:10px 0">Active bugs in the PLANS project with no Pod value set. Review and assign a Pod. <a id="nopodjira" href="#" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">Open this list in Jira ↗</a></p>
       <ul class="plist peek" id="nopodlist"></ul>
       <button class="seemore" id="nopod-toggle" type="button"></button>
+    </div>
+
+    <div class="card pending" style="margin-top:18px">
+      <h3 id="nothemetitle">PLANS bugs with no Theme — needs triage &amp; assignment</h3>
+      <p class="sub" style="font-size:12.5px;margin:10px 0">Active bugs with no Theme value set. Assign a Theme so they group under the right roadmap theme. <a id="nothemejira" href="#" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">Open this list in Jira ↗</a></p>
+      <ul class="plist peek" id="nothemelist"></ul>
+      <button class="seemore" id="notheme-toggle" type="button"></button>
     </div>
   </div>
 
@@ -1001,15 +1038,21 @@ let NOPOD = [];
 let bugCard="all";           // all | near | backlog | wip | unassigned
 let bugStatuses=new Set();   // multi-select status chips; empty = all
 let bugPrios=new Set();      // multi-select priority chips; empty = all
-let bugNewOnly=false;        // when true, show only bugs created within NEW_DAYS
+let bugNewOnly=false;        // (legacy) kept for back-compat; superseded by bugRecentHours
+let bugRecentHours=null;     // Recent window filter: null=all | 1 | 24 | 48 | 168 (hours)
+let bugTriage=new Set();     // multi-select Triage-field value chips; empty = all
+let bugSort="prio";          // order-by: prio | new | old | key | who | pod
 let bugLabelFilter="all";    // all | prioritized | unprioritized
 let bugGroups=new Set();     // multi-select migration-group label chips; empty = all
 let bugFlags=new Set();      // multi-select P3/P4 review flags: "nolabel" | "nolink"
-let bugPod="LL";             // Pod scope for the whole tab: LL | PLANS | ALL
+let bugPods=new Set(["LL"]); // Pod scope (multi-select); empty = All
+let bugThemes=new Set();     // Theme scope (multi-select); empty = All
 const NEW_DAYS=2;            // a bug is "NEW" if created within this many days
 const PRIO_LABEL="product_prioritized";
 function hasLabel(b){ return Array.isArray(b.labels) && b.labels.includes(PRIO_LABEL); }
-function scopedBugs(){ return bugPod==="ALL" ? BUGS : BUGS.filter(b=>(b.pod||"")===bugPod); }
+// Theme is the top-level scope; Pod is now a second-level chip filter.
+function scopedBugs(){ return bugThemes.size ? BUGS.filter(b=>bugThemes.has(b.theme||"None")) : BUGS.slice(); }
+function podSlug(){ return bugPods.size ? [...bugPods].join("+") : "ALL"; }
 // Camille's migration groups + LL - Low Prior Bugs epic linkage (P3/P4 focus)
 const GROUP_LABELS=["group1_migration","group2_migration","group3_migration"];
 const LOWPRIO_EPIC="PLANS-20751";
@@ -1021,13 +1064,19 @@ function lpMissing(b){ const m=[]; if(!b.lpEpic) m.push("epic"); if(!b.lpSprint)
 function notLinkedLP(b){ return isP34(b) && lpMissing(b).length>0; }   // P3/P4 missing the epic and/or the LP sprint
 function prioNum(p){ const m=/^(\d+)/.exec(p||""); return m?parseInt(m[1],10):99; }
 function prioShort(p){ const m=/^(\d+)/.exec(p||""); return m?("P"+m[1]):"—"; }
-// a bug is NEW if its created date is within NEW_DAYS of the snapshot date (TODAY)
-function isNew(b){
-  if(!b.created) return false;
-  const c=new Date(b.created+"T00:00:00");
-  if(isNaN(c)) return false;
-  const diff=(TODAY - c)/(1000*60*60*24);
-  return diff>=0 && diff<=NEW_DAYS;
+// Time-window helpers — relative to the snapshot time (generated_at), so "last hour"
+// means created within 1h before the data was pulled (stable regardless of viewing time).
+function snapshotMs(){ const g=Date.parse(GENERATED_AT); return isNaN(g)?Date.now():g; }
+function createdMs(b){ if(!b.created) return NaN; let s=b.created; if(!/[T ]/.test(s)) s=s+"T00:00:00"; return Date.parse(s); }
+function withinHours(b,h){ const t=createdMs(b); if(isNaN(t)) return false; const age=snapshotMs()-t; return age <= h*3600*1000 && age >= -3600*1000; }
+// a bug is NEW if created within the last 24h of the snapshot
+function isNew(b){ return withinHours(b,24); }
+// recency badge tier by age: HOT (≤1h, red) · NEW (≤24h, amber) · RECENT (≤7d, green) · none older
+function recencyBadge(b){
+  if(withinHours(b,1))   return ` <span class="rtag hot tip" data-tip="HOT — reported in the last hour. Triage right away.">HOT</span>`;
+  if(withinHours(b,24))  return ` <span class="rtag new tip" data-tip="NEW — reported in the last 24 hours.">NEW</span>`;
+  if(withinHours(b,168)) return ` <span class="rtag recent tip" data-tip="RECENT — reported in the last 7 days.">RECENT</span>`;
+  return '';
 }
 const CARD_PRED = {
   all: ()=>true,
@@ -1039,18 +1088,32 @@ const CARD_PRED = {
   urgent: b=>prioNum(b.prio)<=2,   // P1 + P2
   routine: b=>prioNum(b.prio)>=3    // P3 + P4
 };
-function bugRows(){
-  let r=scopedBugs().slice();
+// Faceted base: bugs matching the Theme scope + every active filter EXCEPT the one named in `exclude`.
+// Used both for the visible list (exclude="") and for each filter's own option counts (facet counts).
+function facetBase(exclude){
+  let r = (exclude!=="theme" && bugThemes.size) ? BUGS.filter(b=>bugThemes.has(b.theme||"None")) : BUGS.slice();
   if(bugCard!=="all") r=r.filter(CARD_PRED[bugCard]);
-  if(bugStatuses.size) r=r.filter(b=>bugStatuses.has(b.status));
-  if(bugPrios.size) r=r.filter(b=>bugPrios.has(b.prio||""));
-  if(bugNewOnly) r=r.filter(isNew);
-  if(bugLabelFilter==="prioritized") r=r.filter(hasLabel);
-  else if(bugLabelFilter==="unprioritized") r=r.filter(b=>!hasLabel(b));
-  if(bugGroups.size) r=r.filter(b=>bugGroupLabels(b).some(l=>bugGroups.has(l)));
-  if(bugFlags.size) r=r.filter(b=> (bugFlags.has("nolabel")&&missingGroup(b)) || (bugFlags.has("nolink")&&notLinkedLP(b)) );
+  if(exclude!=="pod" && bugPods.size) r=r.filter(b=>bugPods.has(b.pod||""));
+  if(exclude!=="status" && bugStatuses.size) r=r.filter(b=>bugStatuses.has(b.status));
+  if(exclude!=="prio" && bugPrios.size) r=r.filter(b=>bugPrios.has(b.prio||""));
+  if(exclude!=="recent" && bugRecentHours) r=r.filter(b=>withinHours(b,bugRecentHours));
+  if(exclude!=="triage" && bugTriage.size) r=r.filter(b=>bugTriage.has(b.triage||""));
+  if(exclude!=="prioritized"){ if(bugLabelFilter==="prioritized") r=r.filter(hasLabel); else if(bugLabelFilter==="unprioritized") r=r.filter(b=>!hasLabel(b)); }
+  if(exclude!=="group" && bugGroups.size) r=r.filter(b=>bugGroupLabels(b).some(l=>bugGroups.has(l)));
+  if(exclude!=="review" && bugFlags.size) r=r.filter(b=> (bugFlags.has("nolabel")&&missingGroup(b)) || (bugFlags.has("nolink")&&notLinkedLP(b)) );
   if(bugSearchTerm) r=r.filter(b=>matchSearch(b, bugSearchTerm));
   return r;
+}
+function bugRows(){ return facetBase(""); }
+function bugCmp(a,b){
+  switch(bugSort){
+    case "new": return (createdMs(b)||0)-(createdMs(a)||0) || a.key.localeCompare(b.key);
+    case "old": return (createdMs(a)||0)-(createdMs(b)||0) || a.key.localeCompare(b.key);
+    case "key": return a.key.localeCompare(b.key, undefined, {numeric:true});
+    case "who": return (a.who||"").localeCompare(b.who||"") || prioNum(a.prio)-prioNum(b.prio);
+    case "pod": return (a.pod||"").localeCompare(b.pod||"") || prioNum(a.prio)-prioNum(b.prio);
+    default:    return prioNum(a.prio)-prioNum(b.prio) || a.key.localeCompare(b.key);  // prio
+  }
 }
 function renderBugCards(){
   const box=document.getElementById("bugcards");
@@ -1073,7 +1136,7 @@ function renderBugCards(){
   // priority-group card: big count + % + breakdown of the two levels inside
   const priocard=(id,title,val,color,breakdown)=>`<button class="card sc bugcardbtn priocard${bugCard===id?' sel':''}" data-card="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div><div class="pctrow"><span class="pctnum">${pct(val)}%</span> of active</div>${bar(val)}<div class="priobreak">${breakdown}</div></button>`;
   box.innerHTML=
-    card("all","Active bugs",total,"var(--blue)",`not closed · Pod ${bugPod==="ALL"?"All":bugPod}`)+
+    card("all","Active bugs",total,"var(--blue)",`not closed${bugThemes.size?` · ${[...bugThemes].join(", ")}`:""}`)+
     priocard("urgent","Urgent · P1 + P2",urgent,"var(--red)",
       `<span class="pb"><span class="prio p1">P1</span> ${p1}</span><span class="pb"><span class="prio p2">P2</span> ${p2}</span>`)+
     priocard("routine","Routine · P3 + P4",routine,"var(--blue)",
@@ -1099,27 +1162,34 @@ function renderBugs(){
     return flowRank(b)-flowRank(a);
   });
   const openByDefault = bugActiveCount()>0;   // collapsed by default; auto-expand when a filter/search is active
-  const wrap=document.getElementById("bugboard"); wrap.innerHTML="";
+  const wrap=document.getElementById("bugboard");
+  // preserve which status columns are expanded across re-renders (sorting/filtering shouldn't collapse them)
+  const prevOpen = new Set([...wrap.querySelectorAll(".bugcol.open .colstatus")].map(e=>e.textContent));
+  const hadRender = wrap.children.length>0;
+  wrap.innerHTML="";
   ordered.forEach(st=>{
     const list=groups[st];
     const near=NEAR_CLOSE.includes(st);
     const isBack=st==="Backlog";
     const hold=/hold/i.test(st);
-    const sec=document.createElement("div"); sec.className="bugcol"+(openByDefault?" open":"");
+    const isOpen = hadRender ? (prevOpen.has(st) || openByDefault) : openByDefault;
+    const sec=document.createElement("div"); sec.className="bugcol"+(isOpen?" open":"");
     sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''}"><span class="chev">▸</span><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
     const tbl=document.createElement("table"); tbl.className="xref bugtbl";
-    tbl.innerHTML=`<thead><tr><th>Bug</th><th>Priority</th><th>Fix Version</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
+    tbl.innerHTML=`<thead><tr><th>Bug</th><th>Pod</th><th>Priority</th><th>Fix Version</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
     const tb=document.createElement("tbody");
-    list.sort((a,b)=>prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key)).forEach(b=>{
+    list.sort(bugCmp).forEach(b=>{
       const pn=prioNum(b.prio);
-      const newTag = isNew(b) ? ` <span class="newtag" title="Created within the last ${NEW_DAYS} days">NEW</span>` : '';
-      const reviewed = hasLabel(b) ? ` <span class="stamp-reviewed" title="Has the product_prioritized label — already reviewed / updated"><span class="stx">✓</span> Reviewed</span>` : '';
-      const gl = bugGroupLabels(b).map(l=>`<span class="gtag" title="Migration group label">${l.replace('_migration',' migration')}</span>`).join("");
+      const newTag = recencyBadge(b);
+      const reviewed = hasLabel(b) ? ` <span class="stamp-reviewed tip" data-tip="Prioritized — carries the product_prioritized label. Product has reviewed and prioritized this bug."><span class="stx">✓</span> Prioritized</span>` : '';
+      const triaged = (b.triage==="Yes") ? ` <span class="stamp-triaged tip" data-tip="Triaged — the Triage field is set to Yes in Jira."><span class="stx">✓</span> Triaged</span>` : '';
+      const gl = bugGroupLabels(b).map(l=>`<span class="gtag tip" data-tip="Migration group — this bug is bucketed in ${l.replace('_migration',' migration')}.">${l.replace('_migration',' migration')}</span>`).join("");
       const flags =
-        (missingGroup(b)?`<span class="flagico nolabel" title="P3/P4 missing a migration-group label (group1/2/3_migration) — assign the migration group">🏷️</span>`:"")+
-        (notLinkedLP(b)?`<span class="flagico nolink" title="P3/P4 not fully in Low Prior Bugs — missing ${lpMissing(b).join(' & ')}. Add it to the 'Low Prior Bugs' sprint and link it under the low-priority epic (PLANS-20751).">🔗</span>`:"");
+        (missingGroup(b)?`<span class="flagico nolabel tip" data-tip="Missing migration group — this P3/P4 bug has no group1/2/3_migration label. Assign a migration group.">🏷️</span>`:"")+
+        (notLinkedLP(b)?`<span class="flagico nolink tip" data-tip="Not in Low Prior Bugs — this P3/P4 bug is missing ${lpMissing(b).join(' & ')}. Add it to the 'Low Prior Bugs' sprint and link it under the low-priority epic (PLANS-20751).">🔗</span>`:"");
       const tr=document.createElement("tr");
-      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}${reviewed}${flags}<br><span style="color:var(--ink)">${b.name}${gl}</span></td>`+
+      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}${reviewed}${triaged}${flags}<br><span style="color:var(--ink)">${b.name}${gl}</span></td>`+
+        `<td>${podPill(b.pod)}</td>`+
         `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
         `<td>${b.fv||'<span class="muted-date">—</span>'}</td>`+
         `<td>${b.sprint?`<span class="sprint">${b.sprint}</span>`:'<span class="muted-date">—</span>'}</td>`+
@@ -1134,7 +1204,7 @@ function renderBugs(){
   updateBugFoot(rows.length);
 }
 function bugActiveCount(){
-  return bugStatuses.size+bugPrios.size+bugGroups.size+bugFlags.size+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0)+(bugNewOnly?1:0)+(bugLabelFilter!=="all"?1:0);
+  return bugStatuses.size+bugPrios.size+bugGroups.size+bugFlags.size+bugTriage.size+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0)+(bugRecentHours?1:0)+(bugLabelFilter!=="all"?1:0);
 }
 function updateBugFoot(shown){
   const n=bugActiveCount();
@@ -1258,7 +1328,7 @@ function exportBugsToExcel(){
   const url=URL.createObjectURL(blob);
   const a=document.createElement("a");
   const stamp=new Date().toISOString().slice(0,10);
-  a.href=url; a.download=`${bugPod}-active-bugs-${stamp}.xls`;
+  a.href=url; a.download=`${podSlug()}-active-bugs-${stamp}.xls`;
   document.body.appendChild(a); a.click(); document.body.removeChild(a);
   setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
@@ -1293,6 +1363,21 @@ function noPodList(){
   const nt=document.getElementById("nopodtitle");
   if(nt) nt.innerHTML=`PLANS bugs with no Pod — needs triage &amp; assignment — ${NOPOD.length} item${NOPOD.length!==1?'s':''}`;
 }
+// PLANS bugs with no Theme (needs a Theme assigned) — computed from the active bug set
+function noThemeList(){
+  const jql='project = PLANS AND issuetype = Bug AND cf[12146] IS EMPTY AND statusCategory != Done ORDER BY created DESC';
+  const jl=document.getElementById("nothemejira"); if(jl) jl.href="https://wellfit.atlassian.net/issues/?jql="+encodeURIComponent(jql);
+  const ul=document.getElementById("nothemelist"); if(!ul) return; ul.innerHTML="";
+  const list=BUGS.filter(b=>!b.theme);
+  list.forEach(b=>{
+    const li=document.createElement("li");
+    li.innerHTML=`<a class="k" href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a><span style="flex:1">${b.name}<br><span class="who">${b.pod||'No pod'} · ${b.who}</span></span>${statusPill(b.status)}`;
+    ul.appendChild(li);
+  });
+  setupPeek("nothemelist","notheme-toggle",5);
+  const nt=document.getElementById("nothemetitle");
+  if(nt) nt.innerHTML=`PLANS bugs with no Theme — needs triage &amp; assignment — ${list.length} item${list.length!==1?'s':''}`;
+}
 // Migration-group label filter chips (multi-select OR)
 function bugGroupFilters(){
   const gf=document.getElementById("buggroupfilter"); if(!gf) return;
@@ -1326,32 +1411,68 @@ function bugFlagFilters(){
   });
 }
 function syncFlagChips(ff){ ff.querySelectorAll(".tbtn").forEach(b=>{ const v=b.dataset.flag; if(v==="__all__") b.classList.toggle("active",bugFlags.size===0); else b.classList.toggle("active",bugFlags.has(v)); }); }
+// shared: a multi-select segmented chip control with an "All" reset chip.
+// sel = Set of selected values; empty Set = All. Clicking "All" clears; clicking a value toggles it.
+function renderScopeChips(container, sel, opts){
+  container.innerHTML="";
+  const mk=(label,count,active,onClick,extra)=>{
+    const dis = count===0 && !active && extra!=="allbtn";   // grey out empty cross-filter options (keep selected/All clickable)
+    const btn=document.createElement("button");
+    btn.className="segbtn"+(extra?" "+extra:"")+(active?" active":"")+(dis?" disabled":"");
+    btn.textContent=`${label} · ${count}`;
+    if(dis){ btn.disabled=true; btn.title="No bugs for this combination"; } else { btn.addEventListener("click",onClick); }
+    container.appendChild(btn);
+  };
+  mk("All", opts.allCount, sel.size===0, ()=>{ if(sel.size){ sel.clear(); onPodChange(); } }, "allbtn");
+  opts.items.forEach(([v,label,count])=>{
+    mk(label, count, sel.has(v), ()=>{ sel.has(v)?sel.delete(v):sel.add(v); onPodChange(); });
+  });
+}
+function bugPodOptions(){
+  const order=["LL","PLANS"];
+  let pods=Array.from(new Set(BUGS.map(b=>b.pod).filter(Boolean)));
+  pods.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
+  return pods;
+}
 // ===== Drive-style dropdown filter bar (preview) =====
 // Actionable options: these signal work to do -> button/chip highlighted amber with an icon.
-const ACTION_VALS={recent:["new"], prioritized:["unprioritized"], review:["nolabel","nolink"]};
+const ACTION_VALS={prioritized:["unprioritized"], review:["nolabel","nolink"]};
 let bugOpenMenu=null;
 function filterDefs(){
-  const B=scopedBugs();
+  const S=scopedBugs();                                   // Theme scope -> stable option lists
+  const cnt=(id,pred)=>facetBase(id).filter(pred).length; // faceted count (all other filters applied)
   const defs=[];
+  defs.push({id:"pod",label:"Pod",
+    options: bugPodOptions().map(v=>({v:v,label:v,count:cnt("pod",b=>(b.pod||"")===v)})),
+    selected:()=>[...bugPods], toggle:v=>{ bugPods.has(v)?bugPods.delete(v):bugPods.add(v); }});
   defs.push({id:"status",label:"Status",
-    options: FLOW.filter(s=>B.some(b=>b.status===s)).sort((a,b)=>flowRank(b)-flowRank(a)).map(s=>({v:s,label:s,count:B.filter(b=>b.status===s).length})),
+    options: FLOW.filter(s=>S.some(b=>b.status===s)).sort((a,b)=>flowRank(b)-flowRank(a)).map(s=>({v:s,label:s,count:cnt("status",b=>b.status===s)})),
     selected:()=>[...bugStatuses], toggle:v=>{ bugStatuses.has(v)?bugStatuses.delete(v):bugStatuses.add(v); }});
   defs.push({id:"prio",label:"Priority",
-    options: Array.from(new Set(B.map(b=>b.prio).filter(Boolean))).sort((a,b)=>prioNum(a)-prioNum(b)).map(p=>({v:p,label:(/^\d+:\s*/.test(p)?prioShort(p)+" · "+p.replace(/^\d+:\s*/,""):p),count:B.filter(b=>b.prio===p).length})),
+    options: Array.from(new Set(S.map(b=>b.prio).filter(Boolean))).sort((a,b)=>prioNum(a)-prioNum(b)).map(p=>({v:p,label:(/^\d+:\s*/.test(p)?prioShort(p)+" · "+p.replace(/^\d+:\s*/,""):p),count:cnt("prio",b=>b.prio===p)})),
     selected:()=>[...bugPrios], toggle:v=>{ bugPrios.has(v)?bugPrios.delete(v):bugPrios.add(v); }});
-  defs.push({id:"recent",label:"Recent", aicon:"🆕",
-    options:[{v:"new",label:"🆕 New (last "+NEW_DAYS+"d)",count:B.filter(isNew).length}],
-    selected:()=>bugNewOnly?["new"]:[], toggle:v=>{ bugNewOnly=!bugNewOnly; }, alert:()=>B.filter(isNew).length});
+  defs.push({id:"recent",label:"Recent",
+    options:[
+      {v:1,label:"🆕 Last 1 hour",count:cnt("recent",b=>withinHours(b,1))},
+      {v:24,label:"Last 24 hours",count:cnt("recent",b=>withinHours(b,24))},
+      {v:48,label:"Last 2 days",count:cnt("recent",b=>withinHours(b,48))}],
+    selected:()=>bugRecentHours?[bugRecentHours]:[], toggle:v=>{ bugRecentHours=(bugRecentHours===v?null:v); }});
   defs.push({id:"prioritized",label:"Prioritized", aicon:"⚠️",
-    options:[{v:"prioritized",label:"✅ Prioritized",count:B.filter(hasLabel).length},{v:"unprioritized",label:"⚠️ Not prioritized",count:B.length-B.filter(hasLabel).length}],
-    selected:()=>bugLabelFilter==="all"?[]:[bugLabelFilter], toggle:v=>{ bugLabelFilter=(bugLabelFilter===v?"all":v); }, alert:()=>B.length-B.filter(hasLabel).length});
-  // Migration-group + Low-Prior triage now applies to LL and PLANS (and the combined All view)
+    options:[{v:"prioritized",label:"✅ Prioritized",count:cnt("prioritized",hasLabel)},{v:"unprioritized",label:"⚠️ Not prioritized",count:cnt("prioritized",b=>!hasLabel(b))}],
+    selected:()=>bugLabelFilter==="all"?[]:[bugLabelFilter], toggle:v=>{ bugLabelFilter=(bugLabelFilter===v?"all":v); }, alert:()=>cnt("prioritized",b=>!hasLabel(b))});
+  // Migration-group + Low-Prior triage applies across pods
   defs.push({id:"group",label:"Group",
-    options: GROUP_LABELS.map(l=>({v:l,label:l.replace("_migration"," migration"),count:B.filter(b=>bugGroupLabels(b).includes(l)).length})),
+    options: GROUP_LABELS.map(l=>({v:l,label:l.replace("_migration"," migration"),count:cnt("group",b=>bugGroupLabels(b).includes(l))})),
     selected:()=>[...bugGroups], toggle:v=>{ bugGroups.has(v)?bugGroups.delete(v):bugGroups.add(v); }});
   defs.push({id:"review",label:"Review", aicon:"⚠️",
-    options:[{v:"nolabel",label:"🏷️ No group (P3/P4)",count:B.filter(missingGroup).length},{v:"nolink",label:"🔗 Not in Low-Prior (P3/P4)",count:B.filter(notLinkedLP).length}],
-    selected:()=>[...bugFlags], toggle:v=>{ bugFlags.has(v)?bugFlags.delete(v):bugFlags.add(v); }, alert:()=>B.filter(b=>missingGroup(b)||notLinkedLP(b)).length});
+    options:[{v:"nolabel",label:"🏷️ No group (P3/P4)",count:cnt("review",missingGroup)},{v:"nolink",label:"🔗 Not in Low-Prior (P3/P4)",count:cnt("review",notLinkedLP)}],
+    selected:()=>[...bugFlags], toggle:v=>{ bugFlags.has(v)?bugFlags.delete(v):bugFlags.add(v); }, alert:()=>facetBase("review").filter(b=>missingGroup(b)||notLinkedLP(b)).length});
+  const _tv=Array.from(new Set(S.map(b=>b.triage).filter(Boolean))).sort();
+  defs.push({id:"triage",label:"Triage",
+    options:_tv.map(v=>({v:v,label:v,count:cnt("triage",b=>b.triage===v)})),
+    selected:()=>[...bugTriage], toggle:v=>{ bugTriage.has(v)?bugTriage.delete(v):bugTriage.add(v); }});
+  const ORDER=["pod","triage","recent","prio","status","group","prioritized","review"];
+  defs.sort((a,b)=>ORDER.indexOf(a.id)-ORDER.indexOf(b.id));
   return defs;
 }
 function isActionVal(id,v){ return (ACTION_VALS[id]||[]).includes(v); }
@@ -1373,10 +1494,11 @@ function renderFilterBar(){
     const menu=document.createElement("div"); menu.className="dropmenu"+(bugOpenMenu===def.id?" open":"");
     def.options.forEach(o=>{
       const on=sel.includes(o.v);
+      const dis = o.count===0 && !on;   // 0 for the current combination -> greyed, not hidden
       const it=document.createElement("button"); it.type="button";
-      it.className="dropitem"+(on?" on":"")+(isActionVal(def.id,o.v)&&o.count>0?" act":"");
+      it.className="dropitem"+(on?" on":"")+(dis?" disabled":"")+(isActionVal(def.id,o.v)&&o.count>0?" act":"");
       it.innerHTML=`<span class="dchk">${on?"✓":""}</span><span class="ditxt">${o.label}</span><span class="dnum">${o.count}</span>`;
-      it.addEventListener("click",ev=>{ ev.stopPropagation(); def.toggle(o.v); bugOpenMenu=def.id; refreshBugUI(); });
+      if(dis){ it.disabled=true; } else { it.addEventListener("click",ev=>{ ev.stopPropagation(); def.toggle(o.v); bugOpenMenu=def.id; refreshBugUI(); }); }
       menu.appendChild(it);
     });
     wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
@@ -1398,46 +1520,59 @@ function renderChips(){
   });
   box.style.display=any?"flex":"none";
 }
-function refreshBugUI(){ renderFilterBar(); renderChips(); renderBugs(); }
+function refreshBugUI(){ renderFilterBar(); renderChips(); bugThemeFilters(); renderBugs(); }
 document.addEventListener("click",e=>{ if(bugOpenMenu && !(e.target.closest && e.target.closest(".dropwrap"))) closeBugMenus(); });
 function bugPodFilters(){
   const pf=document.getElementById("bugpodfilter"); if(!pf) return;
-  pf.innerHTML="";
-  [["LL","LL"],["PLANS","PLANS"],["ALL","All"]].forEach(([v,label])=>{
-    const c=(v==="ALL"?BUGS.length:BUGS.filter(b=>(b.pod||"")===v).length);
-    const btn=document.createElement("button");
-    btn.className="segbtn"+(bugPod===v?" active":""); btn.dataset.pod=v;
-    btn.textContent=`${label} · ${c}`;
-    btn.addEventListener("click",()=>{ if(bugPod!==v){ bugPod=v; onPodChange(); } });
-    pf.appendChild(btn);
+  // options derived dynamically from the data (LL, PLANS, EDW, PAY, …); counts cross-filtered by the current Theme
+  const base = bugThemes.size ? BUGS.filter(b=>bugThemes.has(b.theme||"None")) : BUGS;
+  renderScopeChips(pf, bugPods, {
+    allCount: base.length,
+    items: bugPodOptions().map(v=>[v,v,base.filter(b=>(b.pod||"")===v).length])
   });
 }
+function bugThemeOptions(){
+  const order=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
+  let themes=Array.from(new Set([...(typeof FEATURES_ALL!=="undefined"?FEATURES_ALL:[]).map(f=>f.theme), ...BUGS.map(b=>b.theme)].filter(Boolean)));
+  themes.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
+  return themes;
+}
+function bugThemeFilters(){
+  const tf=document.getElementById("bugthemefilter"); if(!tf) return;
+  const base = facetBase("theme");   // counts reflect Pod + every chip selection (faceted)
+  const items = bugThemeOptions().map(t=>[t,t,base.filter(b=>(b.theme||"None")===t).length]);
+  items.push(["None","None",base.filter(b=>!(b.theme)).length]);
+  renderScopeChips(tf, bugThemes, { allCount: base.length, items });
+}
 function toggleLLRows(){
-  // Group + Review (migration-group + Low-Prior triage) now apply to LL and PLANS
-  const show=(bugPod==="LL"||bugPod==="PLANS"||bugPod==="ALL");
+  // Group + Review (migration-group + Low-Prior triage) apply across pods now
+  const show=true;
   const rg=document.getElementById("row-group"), rr=document.getElementById("row-review");
   if(rg) rg.style.display=show?"":"none";
   if(rr) rr.style.display=show?"":"none";
 }
 function onPodChange(){
   // reset all filters, rebuild pod-dependent chips, toggle LL-only rows, re-render
-  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugNewOnly=false;
+  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugNewOnly=false; bugRecentHours=null; bugTriage.clear();
   bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear();
   const si=document.getElementById("bugsearch");
   if(si){ si.value=""; bugSearchTerm=""; const sb=document.getElementById("bugsearchbox"); if(sb) sb.classList.remove("has-text"); }
-  bugPodFilters(); refreshBugUI();
+  bugThemeFilters(); refreshBugUI();
 }
 function initBugs(){
-  bugPodFilters();
+  bugThemeFilters();
   noPodList();
+  noThemeList();
   refreshBugUI();
   wireSearch("bugsearchbox","bugsearch","bugsearchclear","bugsearchcount",
     v=>{ bugSearchTerm=v; }, refreshBugUI, ()=>bugRows().length);
   const _ea=document.getElementById("bugexpandall"), _ca=document.getElementById("bugcollapseall");
   if(_ea) _ea.addEventListener("click",()=>document.querySelectorAll("#bugboard .bugcol").forEach(s=>s.classList.add("open")));
   if(_ca) _ca.addEventListener("click",()=>document.querySelectorAll("#bugboard .bugcol").forEach(s=>s.classList.remove("open")));
+  const _bs=document.getElementById("bugsort");
+  if(_bs) _bs.addEventListener("change",()=>{ bugSort=_bs.value; renderBugs(); });
   document.getElementById("bugclearall").addEventListener("click", ()=>{
-    bugStatuses.clear(); bugPrios.clear(); bugNewOnly=false; bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugCard="all"; bugOpenMenu=null;
+    bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugThemes.clear(); bugNewOnly=false; bugRecentHours=null; bugTriage.clear(); bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugCard="all"; bugOpenMenu=null;
     const si=document.getElementById("bugsearch");
     if(si){ si.value=""; bugSearchTerm=""; document.getElementById("bugsearchbox").classList.remove("has-text"); }
     refreshBugUI();
