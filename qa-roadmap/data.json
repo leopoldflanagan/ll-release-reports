@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T19:11:28+00:00",
+ "generated_at": "2026-08-17T19:39:35+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -3987,6 +3987,25 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-8102",
+   "name": "Restest-Add Plan | Unable to select existing member without a plan when adding a plan",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2025-08-01T06:46:55.908-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-3385",
    "name": "SPIKE TASK - Unable to renewal a plan with less dependent after expiration via the renewal plan button",
    "pod": "PLANS",
@@ -4380,25 +4399,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2025-11-07T08:13:22.180-0800",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-8102",
-   "name": "Restest-Add Plan | Unable to select existing member without a plan when adding a plan",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2025-08-01T06:46:55.908-0700",
    "labels": [],
    "theme": "",
    "triage": "",
