@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T17:08:19+00:00",
+ "generated_at": "2026-08-17T17:41:15+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -87,7 +87,7 @@
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
    "status": "In Testing",
-   "ted": "2026-08-17",
+   "ted": null,
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large"
@@ -725,7 +725,7 @@
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
    "status": "In Testing",
-   "ted": "2026-08-17",
+   "ted": null,
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large",
@@ -1412,7 +1412,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-17",
+   "ted": null,
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
   },
@@ -1743,6 +1743,47 @@
    "prio": "3: Standard",
    "created": "2026-06-26T06:54:54.209-0700",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21407",
+   "name": "ACH<PMP<Add Payment Method<without refreshing the page<Payment Type section still shows with Feature Flag-achInAddPaymentMethodEnabled OFF",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-17T10:14:42.391-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21389",
+   "name": "PMP \\ Purchase widget is throwing a 500 error at Checkout screen",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T09:03:14.356-0700",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4052,28 +4093,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20178",
-   "name": "500 Error in CSP updating a Benefit Plan Template",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Michael McNulty",
-   "prio": "1: Urgent",
-   "created": "2026-07-23T06:44:43.628-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19864",
    "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
    "pod": "LL",
@@ -4114,50 +4133,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21324",
-   "name": "PLANS-21324: KOS: Unable to complete plan purchase",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-14T14:00:20.937-0700",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21318",
-   "name": "PLANS-21318: DCA: Unable to complete plan purchase",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "1: Urgent",
-   "created": "2026-08-14T13:51:40.497-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21110",
    "name": "PMP <Stage<ACH<Payment Receipt PDF is showing CC instead of Banking Account",
    "pod": "LL",
@@ -4169,6 +4144,28 @@
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-08-12T11:51:59.706-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20178",
+   "name": "500 Error in CSP updating a Benefit Plan Template",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Michael McNulty",
+   "prio": "1: Urgent",
+   "created": "2026-07-23T06:44:43.628-0700",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4473,6 +4470,50 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21324",
+   "name": "PLANS-21324: KOS: Unable to complete plan purchase",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-14T14:00:20.937-0700",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21318",
+   "name": "PLANS-21318: DCA: Unable to complete plan purchase",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Mireya Alvarez",
+   "prio": "1: Urgent",
+   "created": "2026-08-14T13:51:40.497-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21181",
    "name": "CSP - BLOCKER - unable to ACH Refund",
    "pod": "LL",
@@ -4598,15 +4639,7 @@
    "linkedLP": false
   }
  ],
- "nopod": [
-  {
-   "key": "PLANS-21389",
-   "name": "PMP \\ Purchase widget is throwing a 500 error at Checkout screen",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 17–23",
