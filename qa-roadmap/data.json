@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T22:05:19+00:00",
+ "generated_at": "2026-08-17T22:39:11+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -4700,7 +4700,22 @@
    "linkedLP": false
   }
  ],
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21435",
+   "name": "PMP| ACH| Entered Data is not preserved When Switching Between Payment Tiles",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  },
+  {
+   "key": "PLANS-21434",
+   "name": "ACH|Purchase button is not disabled after first click",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 17–23",
