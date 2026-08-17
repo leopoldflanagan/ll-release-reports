@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T04:15:13+00:00",
+ "generated_at": "2026-08-17T04:46:01+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -1723,6 +1723,25 @@
    "labels": [
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21362",
+   "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 19-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-16T21:38:16.446-0700",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4371,27 +4390,6 @@
    "reporter": "Mireya Alvarez",
    "prio": "3: Standard",
    "created": "2026-08-04T12:01:40.223-0700",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20701",
-   "name": "Member Portal : Membership Card: Incorrect Page is opened on selecting Provider Link and Member Agreement/Fee schedule links",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-03T19:27:06.534-0700",
    "labels": [
     "product_prioritized"
    ],
