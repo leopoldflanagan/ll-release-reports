@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T18:08:45+00:00",
+ "generated_at": "2026-08-17T18:45:02+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -263,7 +263,7 @@
    "key": "PLANS-15298",
    "name": "Additional Benefit Eligibility SFTP Feed",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "David Jones",
    "tshirt": "Moderate",
@@ -285,7 +285,7 @@
    "key": "PLANS-16267",
    "name": "Update Auto-Renewal w/Panda Doc Signature",
    "status": "Blocked",
-   "ted": "2026-08-07",
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "David Jones",
    "tshirt": "Small",
@@ -328,7 +328,7 @@
   {
    "key": "PLANS-17468",
    "name": "Open Network Dashboard Upgrades",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Harisha Pallacheruvu",
@@ -344,7 +344,7 @@
    "fv": "R9.7",
    "who": "Unassigned",
    "tshirt": "Moderate",
-   "pod": "EDW",
+   "pod": "DS",
    "theme": "LL-MVP"
   },
   {
@@ -372,10 +372,10 @@
   {
    "key": "PLANS-17588",
    "name": "DSO Dashboard",
-   "status": "In Development",
-   "ted": "2026-08-14",
+   "status": "In Testing",
+   "ted": null,
    "fv": "R9.7",
-   "who": "Unassigned",
+   "who": "Harisha Pallacheruvu",
    "tshirt": "Large",
    "pod": "EDW",
    "theme": "LL-MVP"
@@ -950,7 +950,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-21",
    "who": "David Jones",
    "theme": "LL-MVP"
   },
@@ -972,7 +972,7 @@
    "proj": "PLANS",
    "status": "Blocked",
    "fv": "R9.7",
-   "ted": "2026-08-07",
+   "ted": "2026-08-21",
    "who": "David Jones",
    "theme": "LL-MVP"
   },
@@ -1014,7 +1014,7 @@
    "name": "Open Network Dashboard Upgrades",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-14",
    "who": "Harisha Pallacheruvu",
@@ -1023,7 +1023,7 @@
   {
    "key": "PLANS-17577",
    "name": "Link Tokens for C/C & ACH to Members",
-   "pod": "EDW",
+   "pod": "DS",
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
@@ -1058,10 +1058,10 @@
    "name": "DSO Dashboard",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-14",
-   "who": "Unassigned",
+   "ted": null,
+   "who": "Harisha Pallacheruvu",
    "theme": "LL-MVP"
   },
   {
@@ -1612,7 +1612,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Hunter Redhead",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1771,28 +1771,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21389",
-   "name": "PMP \\ Purchase widget is throwing a 500 error at Checkout screen",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T09:03:14.356-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21385",
    "name": "Rules not working for all plans",
    "pod": "LL",
@@ -1826,28 +1804,6 @@
    "reporter": "Denys Kernychnyi",
    "prio": "2: Important",
    "created": "2026-08-17T04:51:11.687-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21363",
-   "name": "PMP/manage payments/ ACH is displayed in the ADD payment dropdown though achOnPmpEnabled flag is OFF",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-16T22:16:42.072-0700",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4658,7 +4614,15 @@
    "linkedLP": false
   }
  ],
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21413",
+   "name": "ACH<PMP<Stage<No Email confirmation sent upon ACH account addition",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 17–23",
