@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-17T20:40:17+00:00",
+ "generated_at": "2026-08-17T21:07:05+00:00",
  "today": "2026-08-17",
  "features": [
   {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Development",
-   "ted": "2026-08-17",
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null
@@ -747,7 +747,7 @@
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Development",
-   "ted": "2026-08-17",
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null,
@@ -1401,7 +1401,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-17",
+   "ted": "2026-08-21",
    "who": "Denys Kernychnyi",
    "theme": "ACH"
   },
@@ -3549,28 +3549,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20644",
-   "name": "CSP \\ Disabling the OpenClosedNetwork feature flag does not restore the Legacy Membership Agreement across purchase and Member Portal flows",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-07-30T16:15:19.997-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20564",
    "name": "Benefit Summary",
    "pod": "LL",
@@ -4470,6 +4448,28 @@
    "prio": "3: Standard",
    "created": "2026-08-04T12:01:40.223-0700",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20644",
+   "name": "CSP \\ Disabling the OpenClosedNetwork feature flag does not restore the Legacy Membership Agreement across purchase and Member Portal flows",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-07-30T16:15:19.997-0700",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
