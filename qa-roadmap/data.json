@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T20:05:52+00:00",
+ "generated_at": "2026-08-17T20:40:17+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -30,11 +30,20 @@
    "tshirt": null
   },
   {
+   "key": "PLANS-14180",
+   "name": "Wallet Enhancements for ACH",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": null,
+   "who": "Dmytro Tymofiienko",
+   "tshirt": "Large"
+  },
+  {
    "key": "PLANS-18481",
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
    "ted": "2026-08-14",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
   },
@@ -181,15 +190,6 @@
    "fv": null,
    "who": "Unassigned",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-14180",
-   "name": "Wallet Enhancements for ACH",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": "Large"
   }
  ],
  "features_all": [
@@ -546,17 +546,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-17728",
-   "name": "CSP ADD Plans Settings FOR Individual Plus",
-   "status": "Ready for Development",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-17731",
    "name": "DSO Plan Payment Feature",
    "status": "Idea",
@@ -627,7 +616,7 @@
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
    "ted": "2026-08-14",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
    "pod": "LL",
@@ -697,17 +686,6 @@
    "who": "Lloyd Tokerud",
    "tshirt": "X-Large",
    "pod": "EDW",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLANS-14180",
-   "name": "Wallet Enhancements for ACH",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": "Large",
-   "pod": "LL",
    "theme": "ACH"
   },
   {
@@ -818,6 +796,17 @@
    "who": "Satva Tech",
    "tshirt": "Small",
    "pod": "DYN",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-14180",
+   "name": "Wallet Enhancements for ACH",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": null,
+   "who": "Dmytro Tymofiienko",
+   "tshirt": "Large",
+   "pod": "LL",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -1208,17 +1197,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-17728",
-   "name": "CSP ADD Plans Settings FOR Individual Plus",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Ready for Development",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Unassigned",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-17731",
    "name": "DSO Plan Payment Feature",
    "pod": "PLANS",
@@ -1290,7 +1268,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "On Hold",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": "2026-08-14",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
@@ -1359,17 +1337,6 @@
    "fv": "R9.7",
    "ted": "2026-08-14",
    "who": "Lloyd Tokerud",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLANS-14180",
-   "name": "Wallet Enhancements for ACH",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Epics & Stories",
-   "fv": null,
-   "ted": null,
-   "who": "Unassigned",
    "theme": "ACH"
   },
   {
@@ -1480,6 +1447,17 @@
    "fv": null,
    "ted": null,
    "who": "Satva Tech",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-14180",
+   "name": "Wallet Enhancements for ACH",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Epics & Stories",
+   "fv": null,
+   "ted": null,
+   "who": "Dmytro Tymofiienko",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -1665,6 +1643,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-19457",
+   "name": "Member Portal - unable to add payment cards",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-10T09:32:36.484-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -1731,7 +1731,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Dmytro Tymofiienko",
+   "who": "Chris Rubio",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-08-17T08:43:57.488-0700",
@@ -2758,6 +2758,25 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-04-06T13:08:11.394-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21429",
+   "name": "ACH - [PMP] - Error is displayed for valid data while adding a second ACH account",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-17T13:10:33.796-0700",
    "labels": [],
    "theme": "",
    "triage": "",
@@ -3832,28 +3851,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19457",
-   "name": "Member Portal - unable to add payment cards",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-10T09:32:36.484-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19236",
    "name": "CSP - update user role failed with a 500 error",
    "pod": "PLANS",
@@ -4413,50 +4410,6 @@
    "prio": "3: Standard",
    "created": "2025-02-20T08:33:05.372-0800",
    "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21324",
-   "name": "PLANS-21324: KOS: Unable to complete plan purchase",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-14T14:00:20.937-0700",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21318",
-   "name": "PLANS-21318: DCA: Unable to complete plan purchase",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "1: Urgent",
-   "created": "2026-08-14T13:51:40.497-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
