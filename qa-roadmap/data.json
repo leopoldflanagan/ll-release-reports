@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T13:16:58+00:00",
+ "generated_at": "2026-08-17T13:44:33+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -1575,28 +1575,6 @@
    "created": "2026-08-12T11:51:59.706-0700",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21013",
-   "name": "One Smile – Unable to Complete Plan Purchase",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-11T11:48:04.296-0700",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4083,6 +4061,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21013",
+   "name": "PLANS-21013: KOS: Unable to complete plan purchase",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-11T11:48:04.296-0700",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20930",
    "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
    "pod": "LL",
@@ -4521,22 +4521,22 @@
   },
   {
    "key": "PLANS-21324",
-   "name": "One Smile - Unable to complete plan purchase",
+   "name": "PLANS-21324: KOS: Unable to complete plan purchase",
    "status": "In Development",
    "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez"
   },
   {
    "key": "PLANS-21321",
-   "name": "Essential Smiles - Unable to complete plan purchase",
+   "name": "PLANS-21321: Essential Smiles: Unable to complete plan purchase",
    "status": "In Development",
    "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez"
   },
   {
    "key": "PLANS-21318",
-   "name": "[DCA] - Unable to complete plan purchase",
-   "status": "In Development",
+   "name": "PLANS-21318: DCA: Unable to complete plan purchase",
+   "status": "PR Merged",
    "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez"
   }
