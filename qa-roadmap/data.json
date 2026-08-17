@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T11:38:59+00:00",
+ "generated_at": "2026-08-17T12:06:38+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -4505,6 +4505,20 @@
   }
  ],
  "nopod": [
+  {
+   "key": "PLANS-21372",
+   "name": "PMP - Auto Renew check box visible when select ACH as the payment option",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-21367",
+   "name": "member-ms GetMembers ignores OrganizationId when MemberId is supplied, so the ACH authorization ownership check authorizes nothing",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Denys Kernychnyi"
+  },
   {
    "key": "PLANS-21324",
    "name": "One Smile - Unable to complete plan purchase",
