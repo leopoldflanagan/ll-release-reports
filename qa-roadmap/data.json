@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T10:10:31+00:00",
+ "generated_at": "2026-08-17T10:42:43+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -4508,22 +4508,22 @@
   {
    "key": "PLANS-21324",
    "name": "One Smile - Unable to complete plan purchase",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez"
   },
   {
    "key": "PLANS-21321",
    "name": "Essential Smiles - Unable to complete plan purchase",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez"
   },
   {
    "key": "PLANS-21318",
    "name": "[DCA] - Unable to complete plan purchase",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez"
   }
  ],
