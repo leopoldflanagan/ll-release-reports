@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T13:44:33+00:00",
+ "generated_at": "2026-08-17T14:07:31+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -93,15 +93,6 @@
    "tshirt": "X-Large"
   },
   {
-   "key": "PLANS-14180",
-   "name": "Wallet Enhancements for ACH",
-   "status": "In Development",
-   "ted": "2026-08-17",
-   "fv": "R9.7",
-   "who": "Shchekochykhin Vladyslav",
-   "tshirt": "Large"
-  },
-  {
    "key": "PLANS-18673",
    "name": "Purchase Widget to Payment Widget Integration",
    "status": "Architecture",
@@ -190,6 +181,15 @@
    "fv": null,
    "who": "Unassigned",
    "tshirt": null
+  },
+  {
+   "key": "PLANS-14180",
+   "name": "Wallet Enhancements for ACH",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": "Large"
   }
  ],
  "features_all": [
@@ -713,10 +713,10 @@
   {
    "key": "PLANS-14180",
    "name": "Wallet Enhancements for ACH",
-   "status": "In Development",
-   "ted": "2026-08-17",
-   "fv": "R9.7",
-   "who": "Shchekochykhin Vladyslav",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
    "tshirt": "Large",
    "pod": "LL",
    "theme": "ACH"
@@ -1399,10 +1399,10 @@
    "name": "Wallet Enhancements for ACH",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
-   "fv": "R9.7",
-   "ted": "2026-08-17",
-   "who": "Shchekochykhin Vladyslav",
+   "status": "Epics & Stories",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
    "theme": "ACH"
   },
   {
@@ -1575,6 +1575,28 @@
    "created": "2026-08-12T11:51:59.706-0700",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21013",
+   "name": "PLANS-21013: One Smile: Unable to complete plan purchase",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-11T11:48:04.296-0700",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4061,28 +4083,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21013",
-   "name": "PLANS-21013: KOS: Unable to complete plan purchase",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-11T11:48:04.296-0700",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20930",
    "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
    "pod": "LL",
@@ -4522,7 +4522,7 @@
   {
    "key": "PLANS-21324",
    "name": "PLANS-21324: KOS: Unable to complete plan purchase",
-   "status": "In Development",
+   "status": "PR Merged",
    "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez"
   },
