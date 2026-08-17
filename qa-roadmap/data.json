@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T11:06:31+00:00",
+ "generated_at": "2026-08-17T11:38:59+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -1562,6 +1562,28 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21110",
+   "name": "PMP <Stage<ACH<Payment Receipt PDF is showing CC instead of Banking Account",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-12T11:51:59.706-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20967",
    "name": "Member Portal - Renew Button Remains Visible on Old Plan After Successful Renewal",
    "pod": "PLANS",
@@ -1944,25 +1966,6 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21181",
-   "name": "CSP - BLOCKER - unable to ACH Refund",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T07:30:09.350-0700",
-   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3002,28 +3005,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21110",
-   "name": "PMP <Stage<ACH<Payment Receipt PDF is showing CC instead of Banking Account",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-12T11:51:59.706-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21044",
@@ -4391,6 +4372,25 @@
     "group1_migration",
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21181",
+   "name": "CSP - BLOCKER - unable to ACH Refund",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T07:30:09.350-0700",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
