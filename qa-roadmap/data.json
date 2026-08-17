@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T21:39:09+00:00",
+ "generated_at": "2026-08-17T22:05:19+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -97,7 +97,7 @@
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "On Hold",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": null
   },
@@ -162,6 +162,42 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Vic Du Plessis",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-20621",
+   "name": "Wellfit Admin - Practice Assignment Picker",
+   "status": "Requirements",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-20221",
+   "name": "CSP Integration Setting at Org level",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-19455",
+   "name": "Payment Term: ID on overview",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-19316",
+   "name": "Manage Preferences - CSP & WF Pay",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
    "tshirt": null
   },
   {
@@ -482,7 +518,7 @@
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "On Hold",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": null,
    "pod": "LL",
@@ -537,7 +573,7 @@
    "name": "Goals Dashboard",
    "status": "Idea",
    "ted": null,
-   "fv": null,
+   "fv": "R9.9",
    "who": "Unassigned",
    "tshirt": null,
    "pod": "PLANS",
@@ -861,6 +897,50 @@
    "tshirt": null,
    "pod": "LL",
    "theme": ""
+  },
+  {
+   "key": "PLANS-19316",
+   "name": "Manage Preferences - CSP & WF Pay",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-19455",
+   "name": "Payment Term: ID on overview",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-20221",
+   "name": "CSP Integration Setting at Org level",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-20621",
+   "name": "Wellfit Admin - Practice Assignment Picker",
+   "status": "Requirements",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
   }
  ],
  "all": [
@@ -1145,7 +1225,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "On Hold",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": null,
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
@@ -1200,7 +1280,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Idea",
-   "fv": null,
+   "fv": "R9.9",
    "ted": null,
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
@@ -1519,6 +1599,50 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-19316",
+   "name": "Manage Preferences - CSP & WF Pay",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-19455",
+   "name": "Payment Term: ID on overview",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-20221",
+   "name": "CSP Integration Setting at Org level",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-20621",
+   "name": "Wellfit Admin - Practice Assignment Picker",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Requirements",
    "fv": "R9.8",
    "ted": null,
    "who": "Unassigned",
