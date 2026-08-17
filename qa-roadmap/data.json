@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T15:38:29+00:00",
+ "generated_at": "2026-08-17T16:05:23+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -1590,7 +1590,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
+   "sprint": "LL-Sprint 20-26",
    "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez",
    "prio": "2: Important",
@@ -1640,28 +1640,6 @@
    "prio": "1: Urgent",
    "created": "2026-08-10T11:00:37.040-0700",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20178",
-   "name": "500 Error in CSP updating a Benefit Plan Template",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Michael McNulty",
-   "prio": "1: Urgent",
-   "created": "2026-07-23T06:44:43.628-0700",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -1732,6 +1710,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-19946",
+   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-20T14:37:47.028-0700",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -1753,17 +1752,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21372",
-   "name": "QA test - PMP - Auto Renew check box visible when select ACH as the payment option",
+   "key": "PLANS-21385",
+   "name": "Rules not working for all plans",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-17T04:52:55.026-0700",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Chris Rubio",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T08:43:57.488-0700",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -1780,9 +1779,9 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
    "reporter": "Denys Kernychnyi",
    "prio": "2: Important",
    "created": "2026-08-17T04:51:11.687-0700",
@@ -2953,7 +2952,7 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -4053,17 +4052,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21110",
-   "name": "PMP <Stage<ACH<Payment Receipt PDF is showing CC instead of Banking Account",
+   "key": "PLANS-20178",
+   "name": "500 Error in CSP updating a Benefit Plan Template",
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL-Sprint 18-26",
    "who": "Nazarii Polinyk",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-12T11:51:59.706-0700",
+   "reporter": "Michael McNulty",
+   "prio": "1: Urgent",
+   "created": "2026-07-23T06:44:43.628-0700",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4148,6 +4147,28 @@
    "reporter": "Mireya Alvarez",
    "prio": "1: Urgent",
    "created": "2026-08-14T13:51:40.497-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21110",
+   "name": "PMP <Stage<ACH<Payment Receipt PDF is showing CC instead of Banking Account",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-12T11:51:59.706-0700",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4535,27 +4556,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19946",
-   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-20T14:37:47.028-0700",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-18461",
    "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
    "pod": "LL",
@@ -4620,7 +4620,15 @@
    "linkedLP": false
   }
  ],
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21389",
+   "name": "PMP \\ Purchase widget is throwing a 500 error at Checkout screen",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 17–23",
