@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T09:45:27+00:00",
+ "generated_at": "2026-08-17T10:10:31+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -4505,13 +4505,6 @@
   }
  ],
  "nopod": [
-  {
-   "key": "PLANS-21366",
-   "name": "PMP - Broken - ACH not visible in purchase flow",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-21324",
    "name": "One Smile - Unable to complete plan purchase",
