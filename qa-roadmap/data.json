@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T23:05:14+00:00",
+ "generated_at": "2026-08-17T23:37:31+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -3002,28 +3002,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21177",
-   "name": "PMP - ACH - Email is missing in Email Receipt dialog box for ACH payments",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T07:08:18.595-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21173",
    "name": "Plan details - duplicate text - 'This is NOT insurance and is not intended to replace health insurance'",
    "pod": "LL",
@@ -4232,69 +4210,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21110",
-   "name": "PMP <Stage<ACH<Payment Receipt PDF is showing CC instead of Banking Account",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-12T11:51:59.706-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20178",
-   "name": "500 Error in CSP updating a Benefit Plan Template",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Michael McNulty",
-   "prio": "1: Urgent",
-   "created": "2026-07-23T06:44:43.628-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-14103",
-   "name": "CRM Emails | KIDS PLANS | Primary contact is not receiving \"remove from auto renewal\" mail for minor member",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-04-10T08:33:17.673-0700",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20930",
    "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
    "pod": "LL",
@@ -4550,6 +4465,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21110",
+   "name": "PMP <Stage<ACH<Payment Receipt PDF is showing CC instead of Banking Account",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-12T11:51:59.706-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20779",
    "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
    "pod": "PLANS",
@@ -4636,6 +4573,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20178",
+   "name": "500 Error in CSP updating a Benefit Plan Template",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Michael McNulty",
+   "prio": "1: Urgent",
+   "created": "2026-07-23T06:44:43.628-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-18461",
    "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
    "pod": "LL",
@@ -4650,6 +4609,25 @@
    "labels": [
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-14103",
+   "name": "CRM Emails | KIDS PLANS | Primary contact is not receiving \"remove from auto renewal\" mail for minor member",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 19-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-04-10T08:33:17.673-0700",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
