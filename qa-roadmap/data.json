@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T16:41:33+00:00",
+ "generated_at": "2026-08-17T17:08:19+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -86,7 +86,7 @@
   {
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
@@ -724,7 +724,7 @@
   {
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-17",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
@@ -1410,7 +1410,7 @@
    "name": "Handling ACH Declines",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-17",
    "who": "Shchekochykhin Vladyslav",
@@ -4466,28 +4466,6 @@
    "prio": "3: Standard",
    "created": "2025-02-20T08:33:05.372-0800",
    "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21191",
-   "name": "Denticon: job re-ingests its own output reports; blank-name rows fail with exception instead of clean no-match",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-08-13T08:21:12.169-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
