@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T15:06:29+00:00",
+ "generated_at": "2026-08-17T15:38:29+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -1562,13 +1562,35 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21321",
+   "name": "PLANS-21321: Essential Smiles: Unable to complete plan purchase",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-14T13:59:53.065-0700",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21013",
    "name": "PLANS-21013: One Smile: Unable to complete plan purchase",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 20-26",
    "who": "Ivan Yarymovych",
    "reporter": "Mireya Alvarez",
    "prio": "2: Important",
@@ -1731,6 +1753,50 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21372",
+   "name": "QA test - PMP - Auto Renew check box visible when select ACH as the payment option",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-17T04:52:55.026-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21367",
+   "name": "member-ms GetMembers ignores OrganizationId when MemberId is supplied, so the ACH authorization ownership check authorizes nothing",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Denys Kernychnyi",
+   "prio": "2: Important",
+   "created": "2026-08-17T04:51:11.687-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21363",
    "name": "PMP/manage payments/ ACH is displayed in the ADD payment dropdown though achOnPmpEnabled flag is OFF",
    "pod": "LL",
@@ -1740,9 +1806,12 @@
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-16T22:16:42.072-0700",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -1759,9 +1828,12 @@
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-16T21:38:16.446-0700",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3496,7 +3568,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
@@ -3672,7 +3744,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
@@ -3694,7 +3766,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -3735,7 +3807,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
@@ -3776,7 +3848,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
@@ -3798,7 +3870,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -4043,10 +4115,54 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21324",
+   "name": "PLANS-21324: KOS: Unable to complete plan purchase",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-14T14:00:20.937-0700",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21318",
+   "name": "PLANS-21318: DCA: Unable to complete plan purchase",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Mireya Alvarez",
+   "prio": "1: Urgent",
+   "created": "2026-08-14T13:51:40.497-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-14103",
    "name": "CRM Emails | KIDS PLANS | Primary contact is not receiving \"remove from auto renewal\" mail for minor member",
    "pod": "PLANS",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 19-26",
@@ -4285,7 +4401,7 @@
    "status": "On Hold",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 20-26",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -4342,7 +4458,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "LL-Sprint 20-26",
    "who": "Petro Yarish",
    "reporter": "Petro Yarish",
    "prio": "2: Important",
@@ -4504,43 +4620,7 @@
    "linkedLP": false
   }
  ],
- "nopod": [
-  {
-   "key": "PLANS-21372",
-   "name": "QA test - PMP - Auto Renew check box visible when select ACH as the payment option",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-21367",
-   "name": "member-ms GetMembers ignores OrganizationId when MemberId is supplied, so the ACH authorization ownership check authorizes nothing",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Denys Kernychnyi"
-  },
-  {
-   "key": "PLANS-21324",
-   "name": "PLANS-21324: KOS: Unable to complete plan purchase",
-   "status": "PR Merged",
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez"
-  },
-  {
-   "key": "PLANS-21321",
-   "name": "PLANS-21321: Essential Smiles: Unable to complete plan purchase",
-   "status": "In Development",
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez"
-  },
-  {
-   "key": "PLANS-21318",
-   "name": "PLANS-21318: DCA: Unable to complete plan purchase",
-   "status": "PR Merged",
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 17–23",
