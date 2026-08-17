@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T12:06:38+00:00",
+ "generated_at": "2026-08-17T12:45:27+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -68,8 +68,8 @@
   {
    "key": "PLANS-17586",
    "name": "Member Portal Support for Subscription Payments",
-   "status": "In Development",
-   "ted": "2026-08-25",
+   "status": "On Hold",
+   "ted": null,
    "fv": "R9.8",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate"
@@ -515,8 +515,8 @@
   {
    "key": "PLANS-17586",
    "name": "Member Portal Support for Subscription Payments",
-   "status": "In Development",
-   "ted": "2026-08-25",
+   "status": "On Hold",
+   "ted": null,
    "fv": "R9.8",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate",
@@ -1201,9 +1201,9 @@
    "name": "Member Portal Support for Subscription Payments",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "On Hold",
    "fv": "R9.8",
-   "ted": "2026-08-25",
+   "ted": null,
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
@@ -1584,6 +1584,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21013",
+   "name": "One Smile – Unable to Complete Plan Purchase",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-11T11:48:04.296-0700",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20967",
    "name": "Member Portal - Renew Button Remains Visible on Old Plan After Successful Renewal",
    "pod": "PLANS",
@@ -1696,7 +1718,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22T01:45:52.005-0700",
@@ -4061,28 +4083,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21013",
-   "name": "One Smile – Unable to Complete Plan Purchase",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-11T11:48:04.296-0700",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20930",
    "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
    "pod": "LL",
@@ -4507,9 +4507,9 @@
  "nopod": [
   {
    "key": "PLANS-21372",
-   "name": "PMP - Auto Renew check box visible when select ACH as the payment option",
+   "name": "QA test - PMP - Auto Renew check box visible when select ACH as the payment option",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
