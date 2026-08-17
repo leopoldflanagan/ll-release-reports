@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T19:39:35+00:00",
+ "generated_at": "2026-08-17T20:05:52+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -19,6 +19,15 @@
    "fv": "R9.7",
    "who": "Dima Shtympel",
    "tshirt": "Huge"
+  },
+  {
+   "key": "PLANS-18909",
+   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
+   "tshirt": null
   },
   {
    "key": "PLANS-18481",
@@ -127,15 +136,6 @@
    "fv": "R9.8",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "PLANS-18909",
-   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Vic Du Plessis",
-   "tshirt": null
   },
   {
    "key": "PLANS-14421",
@@ -282,17 +282,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-16267",
-   "name": "Update Auto-Renewal w/Panda Doc Signature",
-   "status": "Blocked",
-   "ted": "2026-08-21",
-   "fv": "R9.7",
-   "who": "David Jones",
-   "tshirt": "Small",
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
    "status": "In Development",
@@ -352,7 +341,7 @@
    "name": "Disbursement Splits & Admin Fee Splits",
    "status": "In Testing",
    "ted": "2026-07-17",
-   "fv": "R9.8",
+   "fv": "R9.7",
    "who": "David Jones",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -430,7 +419,7 @@
    "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.8",
-   "who": "Vic Du Plessis",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-MVP"
@@ -627,7 +616,7 @@
    "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard",
    "status": "Epics & Stories",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.9",
    "who": "Lloyd Tokerud",
    "tshirt": "Moderate",
    "pod": "EDW",
@@ -752,17 +741,6 @@
    "who": "Valentyna Tenus",
    "tshirt": "Large",
    "pod": "LL",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLANS-20237",
-   "name": "Auto-Renewal handles ACH",
-   "status": "In Testing",
-   "ted": "2026-08-17",
-   "fv": "R9.7",
-   "who": "David Jones",
-   "tshirt": null,
-   "pod": "PLANS",
    "theme": "ACH"
   },
   {
@@ -966,17 +944,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-16267",
-   "name": "Update Auto-Renewal w/Panda Doc Signature",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Blocked",
-   "fv": "R9.7",
-   "ted": "2026-08-21",
-   "who": "David Jones",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
    "pod": "LL",
@@ -1037,7 +1004,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "In Testing",
-   "fv": "R9.8",
+   "fv": "R9.7",
    "ted": "2026-07-17",
    "who": "David Jones",
    "theme": "LL-MVP"
@@ -1116,7 +1083,7 @@
    "status": "Epics & Stories",
    "fv": "R9.8",
    "ted": null,
-   "who": "Vic Du Plessis",
+   "who": "Dmytro Tymofiienko",
    "theme": "LL-MVP"
   },
   {
@@ -1312,7 +1279,7 @@
    "pod": "EDW",
    "proj": "PLANS",
    "status": "Epics & Stories",
-   "fv": "R9.7",
+   "fv": "R9.9",
    "ted": null,
    "who": "Lloyd Tokerud",
    "theme": "LL-Fast Follows"
@@ -1436,17 +1403,6 @@
    "fv": "R9.7",
    "ted": "2026-08-14",
    "who": "Valentyna Tenus",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLANS-20237",
-   "name": "Auto-Renewal handles ACH",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-17",
-   "who": "David Jones",
    "theme": "ACH"
   },
   {
@@ -1723,6 +1679,25 @@
    "labels": [
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21413",
+   "name": "ACH<PMP<Stage<No Email confirmation sent upon ACH account addition",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-17T11:27:28.804-0700",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4508,6 +4483,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20779",
+   "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-05T14:23:32.981-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20740",
    "name": "One Smile – Enrollment email is not received after successful enrollment",
    "pod": "PLANS",
@@ -4614,15 +4611,7 @@
    "linkedLP": false
   }
  ],
- "nopod": [
-  {
-   "key": "PLANS-21413",
-   "name": "ACH<PMP<Stage<No Email confirmation sent upon ACH account addition",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 17–23",
