@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T17:41:15+00:00",
+ "generated_at": "2026-08-17T18:08:45+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -317,7 +317,7 @@
   {
    "key": "PLANS-17058",
    "name": "Renewal Transaction Handling for Migrated Members",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.7",
    "who": "Chris Rubio",
@@ -1003,7 +1003,7 @@
    "name": "Renewal Transaction Handling for Migrated Members",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.7",
    "ted": null,
    "who": "Chris Rubio",
@@ -2849,6 +2849,25 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-04-06T13:08:11.394-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21410",
+   "name": "PMP/ACH/Inline agreement is not displayed under payment methods on using a saved ACH for purchase",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-17T10:49:35.018-0700",
    "labels": [],
    "theme": "",
    "triage": "",
