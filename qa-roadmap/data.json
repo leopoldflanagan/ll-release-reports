@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T18:45:02+00:00",
+ "generated_at": "2026-08-17T19:11:28+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -265,7 +265,7 @@
    "status": "In Development",
    "ted": "2026-08-21",
    "fv": "R9.7",
-   "who": "David Jones",
+   "who": "Tharika Bairi",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-MVP"
@@ -329,7 +329,7 @@
    "key": "PLANS-17468",
    "name": "Open Network Dashboard Upgrades",
    "status": "In Testing",
-   "ted": "2026-08-14",
+   "ted": null,
    "fv": "R9.7",
    "who": "Harisha Pallacheruvu",
    "tshirt": "Large",
@@ -951,7 +951,7 @@
    "status": "In Development",
    "fv": "R9.7",
    "ted": "2026-08-21",
-   "who": "David Jones",
+   "who": "Tharika Bairi",
    "theme": "LL-MVP"
   },
   {
@@ -1016,7 +1016,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-14",
+   "ted": null,
    "who": "Harisha Pallacheruvu",
    "theme": "LL-MVP"
   },
@@ -1597,28 +1597,6 @@
    "created": "2026-08-11T11:48:04.296-0700",
    "labels": [
     "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20967",
-   "name": "Member Portal - Renew Button Remains Visible on Old Plan After Successful Renewal",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-11T08:58:19.200-0700",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4061,6 +4039,28 @@
    "prio": "3: Standard",
    "created": "2026-04-16T08:03:50.116-0700",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20967",
+   "name": "Member Portal - Renew Button Remains Visible on Old Plan After Successful Renewal",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11T08:58:19.200-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
