@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-17T21:07:05+00:00",
+ "generated_at": "2026-08-17T21:39:09+00:00",
  "today": "2026-08-17",
  "features": [
   {
@@ -88,7 +88,7 @@
    "name": "Member Portal Support for Subscription Payments",
    "status": "On Hold",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate"
   },
@@ -147,6 +147,15 @@
    "tshirt": "Moderate"
   },
   {
+   "key": "PLANS-18428",
+   "name": "PMP - Primary Contact Update for Minor Migrated Members",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Vic Du Plessis",
+   "tshirt": null
+  },
+  {
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "status": "Epics & Stories",
@@ -156,17 +165,17 @@
    "tshirt": null
   },
   {
-   "key": "PLANS-19644",
-   "name": "PMP: Tying multiple Patient ID's to one WF ID",
-   "status": "Epics & Stories",
+   "key": "PLANS-18881",
+   "name": "Marketin Details - Driving Smile Health",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": null
   },
   {
-   "key": "PLANS-18881",
-   "name": "Marketin Details - Driving Smile Health",
+   "key": "PLANS-18684",
+   "name": "Add Missing Data Icon to PMP",
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
@@ -487,7 +496,7 @@
    "fv": "R9.8",
    "who": "Michael McNulty",
    "tshirt": null,
-   "pod": "",
+   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -506,7 +515,7 @@
    "name": "Member Portal Support for Subscription Payments",
    "status": "On Hold",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate",
    "pod": "LL",
@@ -561,7 +570,7 @@
    "name": "Implement web analytics platform to support DSO analytics requirements",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Unassigned",
    "tshirt": null,
    "pod": "PLANS",
@@ -821,8 +830,19 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "PLANS-18881",
-   "name": "Marketin Details - Driving Smile Health",
+   "key": "PLANS-18428",
+   "name": "PMP - Primary Contact Update for Minor Migrated Members",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Vic Du Plessis",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-18684",
+   "name": "Add Missing Data Icon to PMP",
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
@@ -832,9 +852,9 @@
    "theme": ""
   },
   {
-   "key": "PLANS-19644",
-   "name": "PMP: Tying multiple Patient ID's to one WF ID",
-   "status": "Epics & Stories",
+   "key": "PLANS-18881",
+   "name": "Marketin Details - Driving Smile Health",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
@@ -1133,7 +1153,7 @@
   {
    "key": "PLANS-16750",
    "name": "Plan Office Payment Enhancement",
-   "pod": "",
+   "pod": "PLANS",
    "proj": "PLANS",
    "status": "Requirements",
    "fv": "R9.8",
@@ -1158,7 +1178,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "On Hold",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": null,
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
@@ -1213,7 +1233,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Requirements",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": null,
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
@@ -1472,8 +1492,19 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "PLANS-18881",
-   "name": "Marketin Details - Driving Smile Health",
+   "key": "PLANS-18428",
+   "name": "PMP - Primary Contact Update for Minor Migrated Members",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Vic Du Plessis",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-18684",
+   "name": "Add Missing Data Icon to PMP",
    "pod": "LL",
    "proj": "PLANS",
    "status": "Architecture",
@@ -1483,11 +1514,11 @@
    "theme": ""
   },
   {
-   "key": "PLANS-19644",
-   "name": "PMP: Tying multiple Patient ID's to one WF ID",
+   "key": "PLANS-18881",
+   "name": "Marketin Details - Driving Smile Health",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Epics & Stories",
+   "status": "Architecture",
    "fv": "R9.8",
    "ted": null,
    "who": "Unassigned",
@@ -1697,25 +1728,6 @@
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-08-17T11:27:28.804-0700",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21407",
-   "name": "ACH<PMP<Add Payment Method<without refreshing the page<Payment Type section still shows with Feature Flag-achInAddPaymentMethodEnabled OFF",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-17T10:14:42.391-0700",
    "labels": [],
    "theme": "",
    "triage": "",
