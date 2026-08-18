@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T22:04:48+00:00",
+ "generated_at": "2026-08-18T22:39:36+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -18721,6 +18721,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21531",
+   "name": "Member Portal \\ Upgrading plan makes the membership agreement link button to disappear",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-21528",
    "name": "ACH - Refunded plans not visible in CSP plan transactions",
