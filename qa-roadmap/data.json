@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T18:44:58+00:00",
+ "generated_at": "2026-08-18T19:11:58+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -4685,29 +4685,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20779",
-   "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-05T14:23:32.981-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20740",
    "name": "One Smile – Enrollment email is not received after successful enrollment",
    "pod": "PLANS",
@@ -4908,6 +4885,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-20779",
+   "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 19-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-05T14:23:32.981-0700",
+   "resolved": "2026-08-18T11:53:18.476-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-7588",
    "name": "Unable to add dependent after change primary",
@@ -18221,6 +18221,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21505",
+   "name": "QA investigate - when a member buys the same discounted plan themselves through the member portal's Add a Plan flow, the system still records the standard Wellfit Share - not the reduced one.",
+   "status": "Backlog",
+   "who": "Mireya Alvarez",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-21504",
    "name": "wf-consent-ui never attaches X-Parent-Domain — bundle-embedded consumers get 403'd by plans-widget-api",
