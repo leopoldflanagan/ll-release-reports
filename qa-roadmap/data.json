@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-18T14:25:17+00:00",
+ "generated_at": "2026-08-18T14:38:20+00:00",
  "today": "2026-08-18",
  "features": [
   {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Development",
-   "ted": "2026-08-21",
+   "ted": "2026-08-24",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null
@@ -78,7 +78,7 @@
    "key": "PLANS-17686",
    "name": "Updates to Transaction History",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Nazarii Polinyk",
    "tshirt": "Small"
@@ -451,7 +451,7 @@
    "key": "PLANS-18766",
    "name": "Individual Plus",
    "status": "In Development",
-   "ted": "2026-08-17",
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Conor Kamperman",
    "tshirt": null,
@@ -748,7 +748,7 @@
    "key": "PLANS-17686",
    "name": "Updates to Transaction History",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Nazarii Polinyk",
    "tshirt": "Small",
@@ -792,7 +792,7 @@
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Development",
-   "ted": "2026-08-21",
+   "ted": "2026-08-24",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null,
@@ -1160,7 +1160,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-17",
+   "ted": "2026-08-21",
    "who": "Conor Kamperman",
    "theme": "LL-MVP"
   },
@@ -1457,7 +1457,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-21",
    "who": "Nazarii Polinyk",
    "theme": "ACH"
   },
@@ -1501,7 +1501,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-21",
+   "ted": "2026-08-24",
    "who": "Denys Kernychnyi",
    "theme": "ACH"
   },
@@ -1766,7 +1766,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Sailaja Yanamandra",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -3978,7 +3978,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Sailaja Yanamandra",
    "reporter": "Charles Rosenbaum",
    "prio": "2: Important",
@@ -4567,7 +4567,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Mariano Hernández",
    "reporter": "Camille Knight",
    "prio": "3: Standard",
@@ -4673,7 +4673,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Santiago Kirk Cabrera",
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
@@ -4729,7 +4729,15 @@
    "linkedLP": false
   }
  ],
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21456",
+   "name": "Member Portal \\ Consent details are currently unavailable at checkout screen during a manual renewal",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 17–23",
