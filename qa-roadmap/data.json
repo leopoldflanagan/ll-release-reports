@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T09:10:22+00:00",
+ "generated_at": "2026-08-18T09:42:46+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1827,7 +1827,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-08-17T22:22:01.617-0700",
@@ -1903,7 +1903,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
    "created": "2026-08-17T15:08:22.182-0700",
