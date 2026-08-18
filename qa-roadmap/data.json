@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T16:07:15+00:00",
+ "generated_at": "2026-08-18T16:43:12+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -351,7 +351,7 @@
   {
    "key": "PLANS-17058",
    "name": "Renewal Transaction Handling for Migrated Members",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": null,
    "fv": "R9.7",
    "who": "Chris Rubio",
@@ -725,7 +725,7 @@
   {
    "key": "PAY-3751",
    "name": "ACH Reporting",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Lloyd Tokerud",
@@ -1059,7 +1059,7 @@
    "name": "Renewal Transaction Handling for Migrated Members",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": null,
    "who": "Chris Rubio",
@@ -1433,7 +1433,7 @@
    "name": "ACH Reporting",
    "pod": "EDW",
    "proj": "PAY",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-14",
    "who": "Lloyd Tokerud",
@@ -1852,17 +1852,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19457",
-   "name": "Member Portal - unable to add payment cards",
+   "key": "PLANS-19758",
+   "name": "Plan Confirmation Receipt \\ Plan Confirmation Receipt indicates Future Plan is active before its effective date",
    "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 20-26",
    "who": "Hunter Redhead",
-   "reporter": "Anuradhi Wickramasinghe",
+   "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
-   "created": "2026-07-10T09:32:36.484-0700",
+   "created": "2026-07-16T13:16:26.099-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -1886,6 +1886,28 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-06-26T06:54:54.209-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18089",
+   "name": "Provider Portal - paid by office - charging the wrong amount in Prod ; Paid by office payments are not visible under office transactions in STAGE",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 16-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-06-17T02:33:57.616-0700",
    "resolved": "",
    "labels": [
     "product_prioritized"
@@ -1947,7 +1969,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-08-18T07:35:59.798-0700",
@@ -2062,7 +2084,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Chris Rubio",
+   "who": "Dima Shtympel",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-08-17T08:43:57.488-0700",
@@ -3132,7 +3154,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-08-17T10:49:35.018-0700",
@@ -4086,29 +4108,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19758",
-   "name": "Plan Confirmation Receipt \\ Plan Confirmation Receipt indicates Future Plan is active before its effective date",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-07-16T13:16:26.099-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19236",
    "name": "CSP - update user role failed with a 500 error",
    "pod": "PLANS",
@@ -4145,28 +4144,6 @@
    "resolved": "",
    "labels": [
     "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18089",
-   "name": "Provider Portal - paid by office - charging the wrong amount in Prod ; Paid by office payments are not visible under office transactions in STAGE",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-06-17T02:33:57.616-0700",
-   "resolved": "",
-   "labels": [
     "product_prioritized"
    ],
    "theme": "",
@@ -4263,23 +4240,22 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21434",
-   "name": "ACH|Purchase button is not disabled after first click",
+   "key": "PLANS-21181",
+   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Hazel Loya",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T15:08:22.182-0700",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T07:30:09.350-0700",
    "resolved": "",
    "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
-   "theme": "LL-MVP",
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4306,22 +4282,23 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21181",
-   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
+   "key": "PLANS-21434",
+   "name": "ACH|Purchase button is not disabled after first click",
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T07:30:09.350-0700",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Hazel Loya",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T15:08:22.182-0700",
    "resolved": "",
    "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4836,6 +4813,29 @@
    "created": "2026-07-17T10:11:50.459-0700",
    "resolved": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-19457",
+   "name": "Member Portal - unable to add payment cards",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-10T09:32:36.484-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
