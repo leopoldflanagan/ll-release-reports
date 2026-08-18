@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T02:03:56+00:00",
+ "generated_at": "2026-08-18T02:47:54+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -123,7 +123,7 @@
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "status": "In Testing",
-   "ted": "2026-08-14",
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
    "tshirt": "Large"
@@ -759,7 +759,7 @@
    "key": "PLANS-17687",
    "name": "Incorporate Payment Widget into Plan Purchase Widget",
    "status": "In Testing",
-   "ted": "2026-08-14",
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Valentyna Tenus",
    "tshirt": "Large",
@@ -1468,7 +1468,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-14",
+   "ted": "2026-08-21",
    "who": "Valentyna Tenus",
    "theme": "ACH"
   },
@@ -1846,7 +1846,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
