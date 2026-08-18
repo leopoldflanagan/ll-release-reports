@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T10:07:10+00:00",
+ "generated_at": "2026-08-18T10:41:48+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1673,6 +1673,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21166",
+   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T04:44:52.361-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21013",
    "name": "PLANS-21013: One Smile: Unable to complete plan purchase",
    "pod": "LL",
@@ -2991,28 +3013,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21234",
-   "name": "X-Portal-Code duplicate header add throws ArgumentException on GET npm/get-main-page-detail",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Dima Shtympel",
-   "prio": "1: Urgent",
-   "created": "2026-08-13T14:17:45.673-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21173",
    "name": "Plan details - duplicate text - 'This is NOT insurance and is not intended to replace health insurance'",
    "pod": "LL",
@@ -3024,28 +3024,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-13T06:27:11.360-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21166",
-   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T04:44:52.361-0700",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -3090,28 +3068,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-08-13T04:05:47.307-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21157",
-   "name": "Plan Details PDF - Incorrect Plan Name Displayed in Heading Section",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T03:36:39.503-0700",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4193,6 +4149,28 @@
    "prio": "2: Important",
    "created": "2026-08-13T07:30:09.350-0700",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21157",
+   "name": "Plan Details PDF - Incorrect Plan Name Displayed in Heading Section",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T03:36:39.503-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
