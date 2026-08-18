@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T20:04:37+00:00",
+ "generated_at": "2026-08-18T20:39:32+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -373,7 +373,7 @@
   {
    "key": "PLANS-17577",
    "name": "Link Tokens for C/C & ACH to Members",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-14",
    "fv": "R9.7",
    "who": "Unassigned",
@@ -388,17 +388,6 @@
    "ted": "2026-07-17",
    "fv": "R9.7",
    "who": "David Jones",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17585",
-   "name": "Auto-Renewal Re-Try Process",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Michael McNulty",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-MVP"
@@ -437,17 +426,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-18413",
-   "name": "Marketing Details",
-   "status": "In Development",
-   "ted": "2026-08-24",
-   "fv": "R9.8",
-   "who": "Vasyl Skochko",
-   "tshirt": "Moderate",
-   "pod": "LL",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-18766",
    "name": "Individual Plus",
    "status": "In Testing",
@@ -456,17 +434,6 @@
    "who": "Conor Kamperman",
    "tshirt": null,
    "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-18909",
-   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
-   "tshirt": null,
-   "pod": "LL",
    "theme": "LL-MVP"
   },
   {
@@ -544,6 +511,17 @@
    "who": "Unassigned",
    "tshirt": "Large",
    "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17585",
+   "name": "Auto-Renewal Re-Try Process",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Michael McNulty",
+   "tshirt": "Moderate",
+   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -635,17 +613,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-18018",
-   "name": "Define Refund Window Timeframes",
-   "status": "Architecture",
-   "ted": null,
-   "fv": null,
-   "who": "Michael McNulty",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-18049",
    "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard",
    "status": "Epics & Stories",
@@ -654,6 +621,39 @@
    "who": "Lloyd Tokerud",
    "tshirt": "Moderate",
    "pod": "EDW",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18240",
+   "name": "TN/CA Capabilities for Care Pay + Clients",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18413",
+   "name": "Marketing Details",
+   "status": "In Development",
+   "ted": "2026-08-24",
+   "fv": "R9.8",
+   "who": "Vasyl Skochko",
+   "tshirt": "Moderate",
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18428",
+   "name": "PMP - Primary Contact Update for Minor Migrated Members",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Vic Du Plessis",
+   "tshirt": null,
+   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -668,6 +668,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-18656",
+   "name": "PMP: Wellfit Member ID & Office Assignment",
+   "status": "Blocked",
+   "ted": "2026-07-17",
+   "fv": "R9.7",
+   "who": "Daryl Myrick",
+   "tshirt": "Moderate",
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-18673",
    "name": "Purchase Widget to Payment Widget Integration",
    "status": "Architecture",
@@ -676,6 +687,182 @@
    "who": "Valentyna Tenus",
    "tshirt": null,
    "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18684",
+   "name": "Add Missing Data Icon to PMP",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18881",
+   "name": "Marketin Details - Driving Smile Health",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18909",
+   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-19306",
+   "name": "Member Search Improvements",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-19316",
+   "name": "Manage Preferences - CSP & WF Pay",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-19455",
+   "name": "Payment Term: ID on overview",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-19644",
+   "name": "PMP: Tying multiple Patient ID's to one WF ID",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20215",
+   "name": "Subscription - Consolidated Feature",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "David Jones",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20221",
+   "name": "CSP Integration Setting at Org level",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20554",
+   "name": "Plan Prioritization",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20563",
+   "name": "UI Improvement for Smile Health",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Mariano Hernández",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20621",
+   "name": "Wellfit Admin - Practice Assignment Picker",
+   "status": "Requirements",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21011",
+   "name": "Log Cancellation/Opt Out Reason in Account History",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21136",
+   "name": "Careington Refund report/extract",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21143",
+   "name": "WFShare reporting for new Individual Plus Plan",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21454",
+   "name": "Joint Legal Language - Add Member/Auto-Renewal",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -731,6 +918,17 @@
    "who": "Lloyd Tokerud",
    "tshirt": "X-Large",
    "pod": "EDW",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-15748",
+   "name": "Ach Refunds Inside of Csp",
+   "status": "In Testing",
+   "ted": "2026-08-10",
+   "fv": "R9.7",
+   "who": "Mykyta Moroz",
+   "tshirt": "Huge",
+   "pod": "LL",
    "theme": "ACH"
   },
   {
@@ -800,6 +998,17 @@
    "theme": "ACH"
   },
   {
+   "key": "PLANS-21414",
+   "name": "ACH Auto Renewal end-end testing",
+   "status": "Idea",
+   "ted": "2026-08-26",
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "ACH"
+  },
+  {
    "key": "WEL-5777",
    "name": "ACH Core Support",
    "status": "In Development",
@@ -813,7 +1022,7 @@
   {
    "key": "WEL-5833",
    "name": "ACH Transaction Details Modal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-09",
    "fv": "R9.7",
    "who": "Daniel Marineni",
@@ -855,92 +1064,15 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "PLANS-15748",
-   "name": "Ach Refunds Inside of Csp",
-   "status": "In Testing",
-   "ted": "2026-08-10",
-   "fv": "R9.7",
-   "who": "Mykyta Moroz",
-   "tshirt": "Huge",
-   "pod": "LL",
+   "key": "PLANS-18018",
+   "name": "Define Refund Window Timeframes",
+   "status": "Architecture",
+   "ted": null,
+   "fv": null,
+   "who": "Michael McNulty",
+   "tshirt": null,
+   "pod": "PLANS",
    "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "PLANS-18428",
-   "name": "PMP - Primary Contact Update for Minor Migrated Members",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Vic Du Plessis",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-18684",
-   "name": "Add Missing Data Icon to PMP",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-18881",
-   "name": "Marketin Details - Driving Smile Health",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-19316",
-   "name": "Manage Preferences - CSP & WF Pay",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-19455",
-   "name": "Payment Term: ID on overview",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-20221",
-   "name": "CSP Integration Setting at Org level",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-20621",
-   "name": "Wellfit Admin - Practice Assignment Picker",
-   "status": "Requirements",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
   }
  ],
  "all": [
@@ -1081,7 +1213,7 @@
    "name": "Link Tokens for C/C & ACH to Members",
    "pod": "DS",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-14",
    "who": "Unassigned",
@@ -1096,17 +1228,6 @@
    "fv": "R9.7",
    "ted": "2026-07-17",
    "who": "David Jones",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17585",
-   "name": "Auto-Renewal Re-Try Process",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Michael McNulty",
    "theme": "LL-MVP"
   },
   {
@@ -1143,17 +1264,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-18413",
-   "name": "Marketing Details",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Development",
-   "fv": "R9.8",
-   "ted": "2026-08-24",
-   "who": "Vasyl Skochko",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-18766",
    "name": "Individual Plus",
    "pod": "PLANS",
@@ -1162,17 +1272,6 @@
    "fv": "R9.7",
    "ted": "2026-08-21",
    "who": "Conor Kamperman",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-18909",
-   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Epics & Stories",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Dmytro Tymofiienko",
    "theme": "LL-MVP"
   },
   {
@@ -1250,6 +1349,17 @@
    "fv": null,
    "ted": null,
    "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17585",
+   "name": "Auto-Renewal Re-Try Process",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Michael McNulty",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1341,17 +1451,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-18018",
-   "name": "Define Refund Window Timeframes",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": null,
-   "ted": null,
-   "who": "Michael McNulty",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-18049",
    "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard",
    "pod": "EDW",
@@ -1360,6 +1459,39 @@
    "fv": "R9.9",
    "ted": null,
    "who": "Lloyd Tokerud",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18240",
+   "name": "TN/CA Capabilities for Care Pay + Clients",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18413",
+   "name": "Marketing Details",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.8",
+   "ted": "2026-08-24",
+   "who": "Vasyl Skochko",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18428",
+   "name": "PMP - Primary Contact Update for Minor Migrated Members",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Vic Du Plessis",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1374,6 +1506,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-18656",
+   "name": "PMP: Wellfit Member ID & Office Assignment",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Blocked",
+   "fv": "R9.7",
+   "ted": "2026-07-17",
+   "who": "Daryl Myrick",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-18673",
    "name": "Purchase Widget to Payment Widget Integration",
    "pod": "LL",
@@ -1382,6 +1525,182 @@
    "fv": "R9.9",
    "ted": null,
    "who": "Valentyna Tenus",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18684",
+   "name": "Add Missing Data Icon to PMP",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18881",
+   "name": "Marketin Details - Driving Smile Health",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-18909",
+   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Epics & Stories",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Dmytro Tymofiienko",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-19306",
+   "name": "Member Search Improvements",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-19316",
+   "name": "Manage Preferences - CSP & WF Pay",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-19455",
+   "name": "Payment Term: ID on overview",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-19644",
+   "name": "PMP: Tying multiple Patient ID's to one WF ID",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Epics & Stories",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20215",
+   "name": "Subscription - Consolidated Feature",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "David Jones",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20221",
+   "name": "CSP Integration Setting at Org level",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20554",
+   "name": "Plan Prioritization",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20563",
+   "name": "UI Improvement for Smile Health",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Mariano Hernández",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20621",
+   "name": "Wellfit Admin - Practice Assignment Picker",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Requirements",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21011",
+   "name": "Log Cancellation/Opt Out Reason in Account History",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21136",
+   "name": "Careington Refund report/extract",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21143",
+   "name": "WFShare reporting for new Individual Plus Plan",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21454",
+   "name": "Joint Legal Language - Add Member/Auto-Renewal",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1437,6 +1756,17 @@
    "fv": "R9.7",
    "ted": "2026-08-14",
    "who": "Lloyd Tokerud",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-15748",
+   "name": "Ach Refunds Inside of Csp",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.7",
+   "ted": "2026-08-10",
+   "who": "Mykyta Moroz",
    "theme": "ACH"
   },
   {
@@ -1506,6 +1836,17 @@
    "theme": "ACH"
   },
   {
+   "key": "PLANS-21414",
+   "name": "ACH Auto Renewal end-end testing",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": "2026-08-26",
+   "who": "Unassigned",
+   "theme": "ACH"
+  },
+  {
    "key": "WEL-5777",
    "name": "ACH Core Support",
    "pod": "WEL",
@@ -1521,7 +1862,7 @@
    "name": "ACH Transaction Details Modal",
    "pod": "WEL",
    "proj": "WEL",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-09-09",
    "who": "Daniel Marineni",
@@ -1561,92 +1902,15 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "PLANS-15748",
-   "name": "Ach Refunds Inside of Csp",
-   "pod": "LL",
+   "key": "PLANS-18018",
+   "name": "Define Refund Window Timeframes",
+   "pod": "PLANS",
    "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-10",
-   "who": "Mykyta Moroz",
+   "status": "Architecture",
+   "fv": null,
+   "ted": null,
+   "who": "Michael McNulty",
    "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "PLANS-18428",
-   "name": "PMP - Primary Contact Update for Minor Migrated Members",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Vic Du Plessis",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-18684",
-   "name": "Add Missing Data Icon to PMP",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-18881",
-   "name": "Marketin Details - Driving Smile Health",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-19316",
-   "name": "Manage Preferences - CSP & WF Pay",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-19455",
-   "name": "Payment Term: ID on overview",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": "R9.9",
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-20221",
-   "name": "CSP Integration Setting at Org level",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": "R9.9",
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-20621",
-   "name": "Wellfit Admin - Practice Assignment Picker",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Requirements",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
   }
  ],
  "bugs": [
@@ -1875,63 +2139,47 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21505",
-   "name": "QA investigate - when a member buys the same discounted plan themselves through the member portal's Add a Plan flow, the system still records the standard Wellfit Share - not the reduced one.",
+   "key": "PLANS-21504",
+   "name": "wf-consent-ui never attaches X-Parent-Domain — bundle-embedded consumers get 403'd by plans-widget-api",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mireya Alvarez",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-18T11:51:13.130-0700",
-   "resolved": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21481",
-   "name": "ACH<Member Portal<Stage<Validation message Required for already Primary Bank account, if try to make Primary account again",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-18T10:44:09.015-0700",
-   "resolved": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21480",
-   "name": "[ACH] - PMP manual renewal does not show DCA plans",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
    "sprint": null,
    "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-18T10:42:34.928-0700",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-18T11:44:19.616-0700",
    "resolved": "",
    "labels": [
-    "LLplans"
+    "group1_migration",
+    "product_prioritized"
    ],
    "theme": "",
-   "triage": "Yes",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21483",
+   "name": "Provider Portal consent widget has no CORS allow-list row in Plans.WidgetCorsSettings",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-18T11:04:55.877-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2967,26 +3215,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-14429",
-   "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-04-16T08:03:50.116-0700",
-   "resolved": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-14068",
    "name": "Member Portal \\ Multiple emails are missing SHDP Kids branding",
    "pod": "PLANS",
@@ -3003,26 +3231,6 @@
     "PDS",
     "product_prioritized"
    ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-11098",
-   "name": "PDS - Accounting process - assigning a practice to users is missing some do to a date criteria",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Daryl Myrick",
-   "reporter": "Michael McNulty",
-   "prio": "3: Standard",
-   "created": "2025-12-10T13:07:01.668-0800",
-   "resolved": "",
-   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3093,6 +3301,95 @@
    ],
    "theme": "",
    "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21505",
+   "name": "QA investigate - when a member buys the same discounted plan themselves through the member portal's Add a Plan flow, the system still records the standard Wellfit Share - not the reduced one.",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mireya Alvarez",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T11:51:13.130-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21482",
+   "name": "Manual renewal is incorrectly blocked for plans that were previously auto-renewed",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-18T10:57:17.813-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21481",
+   "name": "ACH<Member Portal<Stage<Validation message Required for already Primary Bank account, if try to make Primary account again",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-18T10:44:09.015-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21480",
+   "name": "[ACH] - PMP manual renewal does not show DCA plans",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-18T10:42:34.928-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4172,6 +4469,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-14429",
+   "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-04-16T08:03:50.116-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-12134",
    "name": "WFP - Incorrect amounts appear in CSP Plan Transactions when two plans are purchased together with an additional plan discount.",
    "pod": "PLANS",
@@ -4195,28 +4514,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-3385",
-   "name": "SPIKE TASK - Unable to renewal a plan with less dependent after expiration via the renewal plan button",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Camille Knight",
-   "reporter": "Jasmin Martin",
-   "prio": "4: Low",
-   "created": "2024-11-19T13:39:37.337-0800",
-   "resolved": "",
-   "labels": [
-    "JSM"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-2472",
    "name": "ProviderPortal>missing 'PAID' label for the paid plan",
    "pod": "PLANS",
@@ -4228,28 +4525,6 @@
    "reporter": "Mercedes Hung",
    "prio": "4: Low",
    "created": "2024-09-18T20:57:34.016-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21181",
-   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T07:30:09.350-0700",
    "resolved": "",
    "labels": [
     "product_prioritized"
@@ -4619,46 +4894,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-5372",
-   "name": "MPV3 | broken| Benefit summaries are not showing for Ad-Hoc Plans (Crosby & Mt Pleasant Discount Plan)",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2025-03-26T06:47:31.271-0700",
-   "resolved": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-4952",
-   "name": "Member V3 | broken| Ad-Hoc Plans : Renewing a plan removes existing members from OLD plan",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2025-02-20T08:33:05.372-0800",
-   "resolved": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21434",
    "name": "ACH|Purchase button is not disabled after first click",
    "pod": "LL",
@@ -4696,6 +4931,28 @@
    "resolved": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21181",
+   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T07:30:09.350-0700",
+   "resolved": "",
+   "labels": [
     "product_prioritized"
    ],
    "theme": "",
@@ -4942,6 +5199,88 @@
     "Reenbit",
     "group1_migration",
     "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-11098",
+   "name": "PDS - Accounting process - assigning a practice to users is missing some do to a date criteria",
+   "pod": "PLANS",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Daryl Myrick",
+   "reporter": "Michael McNulty",
+   "prio": "3: Standard",
+   "created": "2025-12-10T13:07:01.668-0800",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-5372",
+   "name": "MPV3 | broken| Benefit summaries are not showing for Ad-Hoc Plans (Crosby & Mt Pleasant Discount Plan)",
+   "pod": "PLANS",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2025-03-26T06:47:31.271-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-4952",
+   "name": "Member V3 | broken| Ad-Hoc Plans : Renewing a plan removes existing members from OLD plan",
+   "pod": "PLANS",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2025-02-20T08:33:05.372-0800",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-3385",
+   "name": "SPIKE TASK - Unable to renewal a plan with less dependent after expiration via the renewal plan button",
+   "pod": "PLANS",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Camille Knight",
+   "reporter": "Jasmin Martin",
+   "prio": "4: Low",
+   "created": "2024-11-19T13:39:37.337-0800",
+   "resolved": "",
+   "labels": [
+    "JSM"
    ],
    "theme": "",
    "triage": "",
@@ -18288,32 +18627,18 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-21517",
+   "name": "Member Portal auth interceptor strips Authorization header on consent legal-text calls, causing 401",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel"
+  },
+  {
    "key": "PLANS-21509",
-   "name": "bug",
+   "name": "bug - report inprogress",
    "status": "Backlog",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-21504",
-   "name": "wf-consent-ui never attaches X-Parent-Domain — bundle-embedded consumers get 403'd by plans-widget-api",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Dima Shtympel"
-  },
-  {
-   "key": "PLANS-21483",
-   "name": "Provider Portal consent widget has no CORS allow-list row in Plans.WidgetCorsSettings",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Dima Shtympel"
-  },
-  {
-   "key": "PLANS-21482",
-   "name": "Manual renewal is incorrectly blocked for plans that were previously auto-renewed",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
   }
  ],
  "weeks": [
