@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T13:45:29+00:00",
+ "generated_at": "2026-08-18T14:12:15+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -2145,7 +2145,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2156,9 +2156,9 @@
    ],
    "theme": "",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21178",
@@ -4115,28 +4115,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21362",
-   "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-16T21:38:16.446-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21181",
    "name": "CSP - BLOCKER - unable to ACH Refund",
    "pod": "LL",
@@ -4190,6 +4168,28 @@
    "prio": "3: Standard",
    "created": "2026-07-06T12:34:05.073-0700",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21362",
+   "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-16T21:38:16.446-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
