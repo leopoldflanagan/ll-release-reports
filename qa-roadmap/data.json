@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-18T20:39:32+00:00",
+ "generated_at": "2026-08-18T21:06:00+00:00",
  "today": "2026-08-18",
  "features": [
   {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-18",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
@@ -272,17 +272,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "DYN-820",
-   "name": "Non Annual Renewals",
-   "status": "In Testing",
-   "ted": "2026-08-14",
-   "fv": "R9.7",
-   "who": "Unassigned",
-   "tshirt": "Moderate",
-   "pod": "DYN",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
@@ -457,6 +446,17 @@
    "tshirt": "Moderate",
    "pod": "PLAT",
    "theme": "LL-MVP"
+  },
+  {
+   "key": "DYN-820",
+   "name": "Non Annual Renewals",
+   "status": "In Testing",
+   "ted": "2026-08-14",
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": "Moderate",
+   "pod": "DYN",
+   "theme": "LL-Fast Follows"
   },
   {
    "key": "PLANS-14421",
@@ -894,6 +894,17 @@
    "ted": null,
    "fv": null,
    "who": "Vic Du Plessis",
+   "tshirt": null,
+   "pod": "PLAT",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLAT-5631",
+   "name": "Scheduled Payments",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
    "tshirt": null,
    "pod": "PLAT",
    "theme": "LL-Fast Follows"
@@ -976,20 +987,9 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-20613",
-   "name": "Write All Plans member communications to WFP Comms Service",
-   "status": "Blocked",
-   "ted": null,
-   "fv": null,
-   "who": "Chris Rubio",
-   "tshirt": null,
-   "pod": "DYN",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-18",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
@@ -1013,17 +1013,6 @@
    "name": "ACH Core Support",
    "status": "In Development",
    "ted": "2026-09-02",
-   "fv": "R9.7",
-   "who": "Daniel Marineni",
-   "tshirt": "Large",
-   "pod": "WEL",
-   "theme": "ACH"
-  },
-  {
-   "key": "WEL-5833",
-   "name": "ACH Transaction Details Modal",
-   "status": "In Testing",
-   "ted": "2026-09-09",
    "fv": "R9.7",
    "who": "Daniel Marineni",
    "tshirt": "Large",
@@ -1073,6 +1062,50 @@
    "tshirt": null,
    "pod": "PLANS",
    "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-20613",
+   "name": "Write All Plans member communications to WFP Comms Service",
+   "status": "Blocked",
+   "ted": null,
+   "fv": null,
+   "who": "Chris Rubio",
+   "tshirt": null,
+   "pod": "DYN",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLAT-5705",
+   "name": "Communications Service Reporting and Hardening",
+   "status": "In Testing",
+   "ted": "2026-08-14",
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLAT",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLAT-5763",
+   "name": "ach-signed-authorization-lane",
+   "status": "In Development",
+   "ted": "2026-08-17",
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLAT",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "WEL-5833",
+   "name": "ACH Transaction Details Modal",
+   "status": "In Testing",
+   "ted": "2026-09-09",
+   "fv": "R9.7",
+   "who": "Daniel Marineni",
+   "tshirt": "Large",
+   "pod": "WEL",
+   "theme": "ACH-Fast Follows"
   }
  ],
  "all": [
@@ -1107,17 +1140,6 @@
    "fv": "R9.7",
    "ted": "2026-08-14",
    "who": "Satva Tech",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "DYN-820",
-   "name": "Non Annual Renewals",
-   "pod": "DYN",
-   "proj": "DYN",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-14",
-   "who": "Unassigned",
    "theme": "LL-MVP"
   },
   {
@@ -1295,6 +1317,17 @@
    "ted": null,
    "who": "Vic Du Plessis",
    "theme": "LL-MVP"
+  },
+  {
+   "key": "DYN-820",
+   "name": "Non Annual Renewals",
+   "pod": "DYN",
+   "proj": "DYN",
+   "status": "In Testing",
+   "fv": "R9.7",
+   "ted": "2026-08-14",
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
   },
   {
    "key": "PLANS-14421",
@@ -1734,6 +1767,17 @@
    "fv": null,
    "ted": null,
    "who": "Vic Du Plessis",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLAT-5631",
+   "name": "Scheduled Payments",
+   "pod": "PLAT",
+   "proj": "PLAT",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1814,22 +1858,11 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-20613",
-   "name": "Write All Plans member communications to WFP Comms Service",
-   "pod": "DYN",
-   "proj": "PLANS",
-   "status": "Blocked",
-   "fv": null,
-   "ted": null,
-   "who": "Chris Rubio",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-18",
    "who": "Denys Kernychnyi",
@@ -1854,17 +1887,6 @@
    "status": "In Development",
    "fv": "R9.7",
    "ted": "2026-09-02",
-   "who": "Daniel Marineni",
-   "theme": "ACH"
-  },
-  {
-   "key": "WEL-5833",
-   "name": "ACH Transaction Details Modal",
-   "pod": "WEL",
-   "proj": "WEL",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-09-09",
    "who": "Daniel Marineni",
    "theme": "ACH"
   },
@@ -1911,6 +1933,50 @@
    "ted": null,
    "who": "Michael McNulty",
    "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-20613",
+   "name": "Write All Plans member communications to WFP Comms Service",
+   "pod": "DYN",
+   "proj": "PLANS",
+   "status": "Blocked",
+   "fv": null,
+   "ted": null,
+   "who": "Chris Rubio",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLAT-5705",
+   "name": "Communications Service Reporting and Hardening",
+   "pod": "PLAT",
+   "proj": "PLAT",
+   "status": "In Testing",
+   "fv": "R9.7",
+   "ted": "2026-08-14",
+   "who": "Unassigned",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLAT-5763",
+   "name": "ach-signed-authorization-lane",
+   "pod": "PLAT",
+   "proj": "PLAT",
+   "status": "In Development",
+   "fv": null,
+   "ted": "2026-08-17",
+   "who": "Unassigned",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "WEL-5833",
+   "name": "ACH Transaction Details Modal",
+   "pod": "WEL",
+   "proj": "WEL",
+   "status": "In Testing",
+   "fv": "R9.7",
+   "ted": "2026-09-09",
+   "who": "Daniel Marineni",
+   "theme": "ACH-Fast Follows"
   }
  ],
  "bugs": [
@@ -1952,6 +2018,28 @@
    "resolved": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21181",
+   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T07:30:09.350-0700",
+   "resolved": "",
+   "labels": [
     "product_prioritized"
    ],
    "theme": "",
@@ -2191,7 +2279,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
@@ -2203,9 +2291,9 @@
    ],
    "theme": "",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21459",
@@ -3479,7 +3567,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4312,29 +4400,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20238",
-   "name": "DCA plans visible on smile health",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-23T17:08:43.528-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20111",
    "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
    "pod": "PLANS",
@@ -4940,28 +5005,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21181",
-   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T07:30:09.350-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21110",
    "name": "PMP <Stage<ACH<Payment Receipt PDF is showing CC instead of Banking Account",
    "pod": "LL",
@@ -5290,6 +5333,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-20238",
+   "name": "DCA plans visible on smile health",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-23T17:08:43.528-0700",
+   "resolved": "2026-08-18T14:04:31.332-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20779",
    "name": "STAGE/PreProd - Add Plan: Additional Member Discount Not Applied on Purchase Page & Admin Fee Displays as a minus",
