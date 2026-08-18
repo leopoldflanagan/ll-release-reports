@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T07:16:03+00:00",
+ "generated_at": "2026-08-18T07:44:44+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1651,6 +1651,28 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21362",
+   "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-16T21:38:16.446-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21321",
    "name": "PLANS-21321: Essential Smiles: Unable to complete plan purchase",
    "pod": "LL",
@@ -1988,28 +2010,6 @@
    "reporter": "Denys Kernychnyi",
    "prio": "2: Important",
    "created": "2026-08-17T04:51:11.687-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21362",
-   "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-16T21:38:16.446-0700",
    "labels": [
     "group1_migration",
     "product_prioritized"
