@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T08:09:33+00:00",
+ "generated_at": "2026-08-18T08:44:53+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1799,27 +1799,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19946",
-   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-20T14:37:47.028-0700",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19457",
    "name": "Member Portal - unable to add payment cards",
    "pod": "PLANS",
@@ -1889,7 +1868,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-08-17T22:06:16.544-0700",
@@ -4681,6 +4660,27 @@
    "created": "2026-07-23T06:44:43.628-0700",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-19946",
+   "name": "Migration/DCA/Plan sellability-acceptability is not honored for DCA offices as per shared file from Careington",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-07-20T14:37:47.028-0700",
+   "labels": [
     "product_prioritized"
    ],
    "theme": "",
