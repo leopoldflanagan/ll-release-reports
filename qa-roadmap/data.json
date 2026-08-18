@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T00:10:03+00:00",
+ "generated_at": "2026-08-18T00:47:01+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1666,25 +1666,6 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21181",
-   "name": "CSP - BLOCKER - unable to ACH Refund",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T07:30:09.350-0700",
-   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4140,6 +4121,25 @@
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
    "created": "2026-04-16T08:03:50.116-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21181",
+   "name": "CSP - BLOCKER - unable to ACH Refund",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T07:30:09.350-0700",
    "labels": [],
    "theme": "",
    "triage": "",
