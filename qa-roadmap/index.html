@@ -106,6 +106,36 @@
   .tab.active{color:var(--blue);border-bottom-color:var(--blue)}
   .panel{display:none}
   .panel.active{display:block}
+  /* ===== Statistics tab ===== */
+  .statfilters{display:flex;flex-wrap:wrap;gap:20px;margin:16px 0 2px;align-items:flex-start}
+  .sfrow{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .sflbl{font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+  .sfchips{display:flex;flex-wrap:wrap;gap:6px}
+  .sfchip{appearance:none;border:1.5px solid var(--line);background:#fff;color:var(--ink);font-family:inherit;font-size:12px;font-weight:700;padding:4px 12px;border-radius:20px;cursor:pointer}
+  .sfchip:hover{border-color:var(--blue)}
+  .sfchip.on{background:var(--green);border-color:var(--green);color:#fff}
+  .sfchip.allon{background:var(--navy);border-color:var(--navy);color:#fff}
+  .kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin:16px 0 22px}
+  @media(max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+  .kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:0 1px 3px rgba(16,42,67,.05)}
+  .kpi .kv{font-size:26px;font-weight:800;color:var(--navy);line-height:1.1}
+  .kpi .kl{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-top:5px}
+  .kpi .kd{font-size:11.5px;font-weight:600;margin-top:3px;color:var(--muted)}
+  .kpi .kd.up{color:#0ca30c}.kpi .kd.down{color:var(--red)}
+  .statgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:900px){.statgrid{grid-template-columns:1fr}}
+  .statcard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px 10px;box-shadow:0 1px 3px rgba(16,42,67,.05)}
+  .statcard.wide{grid-column:1 / -1}
+  .stath h3{margin:0;font-size:14.5px;color:var(--navy);font-weight:800}
+  .stath .stsub{display:block;font-size:11.5px;color:var(--muted);margin:3px 0 6px}
+  .chartbox{width:100%;overflow:visible}
+  .chartbox svg{display:block;width:100%;height:auto;font-family:inherit}
+  .chartbox svg text{font-family:inherit}
+  .chleg{display:flex;flex-wrap:wrap;gap:14px;margin:2px 0 8px;font-size:12px;color:var(--ink);font-weight:600}
+  .chleg span{display:inline-flex;align-items:center;gap:6px}
+  .chleg i{width:11px;height:11px;border-radius:3px;display:inline-block}
+  .chtip{position:fixed;pointer-events:none;z-index:90;background:#1f2d3d;color:#fff;font-size:11.5px;font-weight:600;line-height:1.4;padding:7px 10px;border-radius:7px;box-shadow:0 8px 24px rgba(0,0,0,.24);opacity:0;transition:opacity .08s;max-width:240px}
   /* data table */
   .xref{width:100%;border-collapse:collapse;margin-top:16px;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
   .xref thead th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
@@ -288,6 +318,9 @@
   /* "Triaged" stamp — bugs whose Triage field = Yes */
   .stamp-triaged{display:inline-flex;align-items:center;gap:3px;font-size:9px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#1b5fa8;background:rgba(27,95,168,.12);border:1.5px solid rgba(27,95,168,.5);padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:middle;white-space:nowrap}
   .stamp-triaged .stx{font-size:10px;line-height:1}
+  /* "Closed" stamp — resolved bugs (Closed / All scope) */
+  .stamp-closed{display:inline-flex;align-items:center;gap:3px;font-size:9px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#5b6675;background:rgba(91,102,117,.12);border:1.5px solid rgba(91,102,117,.4);padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:middle;white-space:nowrap}
+  .stamp-closed .stx{font-size:10px;line-height:1}
   /* Custom hover tooltip for row tags/stamps (native title was unreliable) */
   .tip{cursor:help;position:relative}
   .tip:hover::after{content:attr(data-tip);position:absolute;left:0;top:calc(100% + 6px);background:#1f2d3d;color:#fff;font-size:11px;font-weight:600;line-height:1.4;letter-spacing:0;text-transform:none;padding:7px 10px;border-radius:7px;white-space:normal;width:max-content;max-width:280px;z-index:80;box-shadow:0 8px 24px rgba(0,0,0,.24);pointer-events:none}
@@ -366,6 +399,7 @@
 
   <div class="tabs">
     <button class="tab active" data-tab="bugs">Active Bugs</button>
+    <button class="tab" data-tab="stats">Statistics</button>
     <button class="tab" data-tab="all">Active Features</button>
     <button class="tab" data-tab="allroadmap">All PODs QA Roadmap</button>
   </div>
@@ -434,6 +468,8 @@
   <div class="panel active" id="panel-bugs">
     <p class="sub" style="margin-top:16px">Active bugs (not closed), scoped by the <b>Pod</b> selector below (LL · PLANS · All). Grouped by workflow state, read <b>right to left</b>: closest to closing on the left, backlog on the right. Filter by status, priority, migration-group, or review flags; export the filtered list to Excel. P3/P4 bugs show a 🏷️ if missing a migration-group label and a 🔗 if not fully in <b>Low Prior Bugs</b> (missing the sprint and/or the low-priority epic). This triage now covers both <b>LL</b> and <b>PLANS</b>.</p>
     <div class="scopebar">
+      <div class="scoperow"><span class="scopelbl">Show</span><div class="themebtns segscope" id="bugscopefilter"></div></div>
+      <div class="scopesep"></div>
       <div class="scoperow"><span class="scopelbl">Theme</span><div class="themebtns segscope" id="bugthemefilter"></div></div>
     </div>
     <div class="cards" id="bugcards"></div>
@@ -472,6 +508,23 @@
       <p class="sub" style="font-size:12.5px;margin:10px 0">Active bugs with no Theme value set. Assign a Theme so they group under the right roadmap theme. <a id="nothemejira" href="#" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">Open this list in Jira ↗</a></p>
       <ul class="plist peek" id="nothemelist"></ul>
       <button class="seemore" id="notheme-toggle" type="button"></button>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-stats">
+    <p class="sub" style="margin-top:16px">Leadership view — throughput (incoming vs. resolved), open-backlog trend &amp; projection, and severity mix. Closed data covers the last <b id="st-window">90</b> days. Snapshot <span id="st-asof"></span>.</p>
+    <div class="statfilters">
+      <div class="sfrow"><span class="sflbl">Pod</span><div id="st-podfilter" class="sfchips"></div></div>
+      <div class="sfrow"><span class="sflbl">Theme</span><div id="st-themefilter" class="sfchips"></div></div>
+    </div>
+    <div class="kpis" id="st-kpis"></div>
+    <div class="statgrid">
+      <div class="statcard wide"><div class="stath"><h3>Weekly incoming vs. resolved</h3><span class="stsub">bugs created (incoming) vs. closed (resolved) each week — when green tops orange, the backlog shrank that week</span></div><div class="chartbox" id="st-flow"></div></div>
+      <div class="statcard wide"><div class="stath"><h3>Open backlog &amp; projection</h3><span class="stsub">open bug count at each week-end, with a trend projection</span></div><div class="chartbox" id="st-burn"></div></div>
+      <div class="statcard"><div class="stath"><h3>Bugs by priority</h3><span class="stsub">open vs. closed (last 90d)</span></div><div class="chartbox" id="st-prio"></div></div>
+      <div class="statcard"><div class="stath"><h3>Open bugs by status</h3><span class="stsub">where active bugs sit in the workflow</span></div><div class="chartbox" id="st-status"></div></div>
+      <div class="statcard"><div class="stath"><h3>Open bugs by pod</h3><span class="stsub">active bug load per pod</span></div><div class="chartbox" id="st-pod"></div></div>
+      <div class="statcard"><div class="stath"><h3>Open bug aging</h3><span class="stsub">how long active bugs have been open</span></div><div class="chartbox" id="st-age"></div></div>
     </div>
   </div>
 
@@ -1026,6 +1079,8 @@ function updateFreshpill(){
 
 // ==== ACTIVE BUGS (Pod = LL, not closed) ====
 let BUGS = [];
+let BUGS_CLOSED = [];        // bugs resolved within the last CLOSED_DAYS (for Closed filter + Stats)
+let CLOSED_DAYS = 90;
 // Workflow order: index 0 = backlog (furthest from done), high = closest to closing.
 // Board renders columns by rank DESC so closest-to-close sits first; On Hold is always pinned on top.
 const FLOW = ["Backlog","Ready for Development","On Hold","In Development","PR Created","WAITING REVIEW","PR Merged","Dev Verification","In Stage","In QA"];
@@ -1039,19 +1094,21 @@ let bugCard="all";           // all | near | backlog | wip | unassigned
 let bugStatuses=new Set();   // multi-select status chips; empty = all
 let bugPrios=new Set();      // multi-select priority chips; empty = all
 let bugNewOnly=false;        // (legacy) kept for back-compat; superseded by bugRecentHours
-let bugRecentHours=null;     // Recent window filter: null=all | 1 | 24 | 48 | 168 (hours)
+let bugRecentHours=null;     // Recent (created) window filter: null=all | 1 | 24 | 48 | 168 (hours)
+let bugClosedHours=null;     // Closed (resolved) window filter: null=all | 1 | 24 | 48 | 168 (hours)
+let bugScope="open";         // Open | Closed | All scope for the bug list
 let bugTriage=new Set();     // multi-select Triage-field value chips; empty = all
 let bugSort="prio";          // order-by: prio | new | old | key | who | pod
 let bugLabelFilter="all";    // all | prioritized | unprioritized
 let bugGroups=new Set();     // multi-select migration-group label chips; empty = all
 let bugFlags=new Set();      // multi-select P3/P4 review flags: "nolabel" | "nolink"
-let bugPods=new Set(["LL"]); // Pod scope (multi-select); empty = All
+let bugPods=new Set();       // Pod filter (multi-select chip); empty = All pods (default)
 let bugThemes=new Set();     // Theme scope (multi-select); empty = All
 const NEW_DAYS=2;            // a bug is "NEW" if created within this many days
 const PRIO_LABEL="product_prioritized";
 function hasLabel(b){ return Array.isArray(b.labels) && b.labels.includes(PRIO_LABEL); }
 // Theme is the top-level scope; Pod is now a second-level chip filter.
-function scopedBugs(){ return bugThemes.size ? BUGS.filter(b=>bugThemes.has(b.theme||"None")) : BUGS.slice(); }
+function scopedBugs(){ return bugThemes.size ? baseBugs().filter(b=>bugThemes.has(b.theme||"None")) : baseBugs(); }
 function podSlug(){ return bugPods.size ? [...bugPods].join("+") : "ALL"; }
 // Camille's migration groups + LL - Low Prior Bugs epic linkage (P3/P4 focus)
 const GROUP_LABELS=["group1_migration","group2_migration","group3_migration"];
@@ -1069,6 +1126,10 @@ function prioShort(p){ const m=/^(\d+)/.exec(p||""); return m?("P"+m[1]):"—"; 
 function snapshotMs(){ const g=Date.parse(GENERATED_AT); return isNaN(g)?Date.now():g; }
 function createdMs(b){ if(!b.created) return NaN; let s=b.created; if(!/[T ]/.test(s)) s=s+"T00:00:00"; return Date.parse(s); }
 function withinHours(b,h){ const t=createdMs(b); if(isNaN(t)) return false; const age=snapshotMs()-t; return age <= h*3600*1000 && age >= -3600*1000; }
+function resolvedMs(b){ if(!b.resolved) return NaN; let s=b.resolved; if(!/[T ]/.test(s)) s=s+"T00:00:00"; return Date.parse(s); }
+function withinHoursClosed(b,h){ const t=resolvedMs(b); if(isNaN(t)) return false; const age=snapshotMs()-t; return age <= h*3600*1000 && age >= -3600*1000; }
+// Open / Closed / All scope for the bug list. Open = active bugs (BUGS), Closed = resolved in the last CLOSED_DAYS (BUGS_CLOSED).
+function baseBugs(){ return bugScope==="closed" ? BUGS_CLOSED.slice() : (bugScope==="all" ? BUGS.concat(BUGS_CLOSED) : BUGS.slice()); }
 // a bug is NEW if created within the last 24h of the snapshot
 function isNew(b){ return withinHours(b,24); }
 // recency badge tier by age: HOT (≤1h, red) · NEW (≤24h, amber) · RECENT (≤7d, green) · none older
@@ -1091,12 +1152,13 @@ const CARD_PRED = {
 // Faceted base: bugs matching the Theme scope + every active filter EXCEPT the one named in `exclude`.
 // Used both for the visible list (exclude="") and for each filter's own option counts (facet counts).
 function facetBase(exclude){
-  let r = (exclude!=="theme" && bugThemes.size) ? BUGS.filter(b=>bugThemes.has(b.theme||"None")) : BUGS.slice();
+  let r = (exclude!=="theme" && bugThemes.size) ? baseBugs().filter(b=>bugThemes.has(b.theme||"None")) : baseBugs();
   if(bugCard!=="all") r=r.filter(CARD_PRED[bugCard]);
   if(exclude!=="pod" && bugPods.size) r=r.filter(b=>bugPods.has(b.pod||""));
   if(exclude!=="status" && bugStatuses.size) r=r.filter(b=>bugStatuses.has(b.status));
   if(exclude!=="prio" && bugPrios.size) r=r.filter(b=>bugPrios.has(b.prio||""));
   if(exclude!=="recent" && bugRecentHours) r=r.filter(b=>withinHours(b,bugRecentHours));
+  if(exclude!=="closed" && bugClosedHours) r=r.filter(b=>withinHoursClosed(b,bugClosedHours));
   if(exclude!=="triage" && bugTriage.size) r=r.filter(b=>bugTriage.has(b.triage||""));
   if(exclude!=="prioritized"){ if(bugLabelFilter==="prioritized") r=r.filter(hasLabel); else if(bugLabelFilter==="unprioritized") r=r.filter(b=>!hasLabel(b)); }
   if(exclude!=="group" && bugGroups.size) r=r.filter(b=>bugGroupLabels(b).some(l=>bugGroups.has(l)));
@@ -1136,7 +1198,7 @@ function renderBugCards(){
   // priority-group card: big count + % + breakdown of the two levels inside
   const priocard=(id,title,val,color,breakdown)=>`<button class="card sc bugcardbtn priocard${bugCard===id?' sel':''}" data-card="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div><div class="pctrow"><span class="pctnum">${pct(val)}%</span> of active</div>${bar(val)}<div class="priobreak">${breakdown}</div></button>`;
   box.innerHTML=
-    card("all","Active bugs",total,"var(--blue)",`not closed${bugThemes.size?` · ${[...bugThemes].join(", ")}`:""}`)+
+    card("all",(bugScope==="closed"?"Closed bugs":bugScope==="all"?"All bugs":"Active bugs"),total,"var(--blue)",`${bugScope==="closed"?`resolved · last ${CLOSED_DAYS}d`:bugScope==="all"?"open + closed":"not closed"}${bugThemes.size?` · ${[...bugThemes].join(", ")}`:""}`)+
     priocard("urgent","Urgent · P1 + P2",urgent,"var(--red)",
       `<span class="pb"><span class="prio p1">P1</span> ${p1}</span><span class="pb"><span class="prio p2">P2</span> ${p2}</span>`)+
     priocard("routine","Routine · P3 + P4",routine,"var(--blue)",
@@ -1183,12 +1245,13 @@ function renderBugs(){
       const newTag = recencyBadge(b);
       const reviewed = hasLabel(b) ? ` <span class="stamp-reviewed tip" data-tip="Prioritized — carries the product_prioritized label. Product has reviewed and prioritized this bug."><span class="stx">✓</span> Prioritized</span>` : '';
       const triaged = (b.triage==="Yes") ? ` <span class="stamp-triaged tip" data-tip="Triaged — the Triage field is set to Yes in Jira."><span class="stx">✓</span> Triaged</span>` : '';
+      const closedStamp = b.resolved ? ` <span class="stamp-closed tip" data-tip="Resolved on ${fmtDate(b.resolved)}"><span class="stx">✓</span> Closed · ${new Date(b.resolved).toLocaleDateString('en-US',{month:'short',day:'numeric'})}</span>` : '';
       const gl = bugGroupLabels(b).map(l=>`<span class="gtag tip" data-tip="Migration group — this bug is bucketed in ${l.replace('_migration',' migration')}.">${l.replace('_migration',' migration')}</span>`).join("");
       const flags =
         (missingGroup(b)?`<span class="flagico nolabel tip" data-tip="Missing migration group — this P3/P4 bug has no group1/2/3_migration label. Assign a migration group.">🏷️</span>`:"")+
         (notLinkedLP(b)?`<span class="flagico nolink tip" data-tip="Not in Low Prior Bugs — this P3/P4 bug is missing ${lpMissing(b).join(' & ')}. Add it to the 'Low Prior Bugs' sprint and link it under the low-priority epic (PLANS-20751).">🔗</span>`:"");
       const tr=document.createElement("tr");
-      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}${reviewed}${triaged}${flags}<br><span style="color:var(--ink)">${b.name}${gl}</span></td>`+
+      tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}${reviewed}${triaged}${closedStamp}${flags}<br><span style="color:var(--ink)">${b.name}${gl}</span></td>`+
         `<td>${podPill(b.pod)}</td>`+
         `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
         `<td>${b.fv||'<span class="muted-date">—</span>'}</td>`+
@@ -1428,9 +1491,23 @@ function renderScopeChips(container, sel, opts){
     mk(label, count, sel.has(v), ()=>{ sel.has(v)?sel.delete(v):sel.add(v); onPodChange(); });
   });
 }
+// Open / Closed / All scope selector (top of the Active Bugs tab)
+function bugScopeFilters(){
+  const el=document.getElementById("bugscopefilter"); if(!el) return;
+  el.innerHTML="";
+  const opts=[["open","Open",BUGS.length],["closed",`Closed · ${CLOSED_DAYS}d`,BUGS_CLOSED.length],["all","All",BUGS.length+BUGS_CLOSED.length]];
+  opts.forEach(([v,label,count])=>{
+    const btn=document.createElement("button");
+    btn.className="segbtn"+(bugScope===v?" active":"");
+    btn.textContent=`${label} · ${count}`;
+    btn.addEventListener("click",()=>{ if(bugScope!==v){ bugScope=v; onScopeChange(); } });
+    el.appendChild(btn);
+  });
+}
+function onScopeChange(){ bugClosedHours=null; bugScopeFilters(); onPodChange(); }
 function bugPodOptions(){
   const order=["LL","PLANS"];
-  let pods=Array.from(new Set(BUGS.map(b=>b.pod).filter(Boolean)));
+  let pods=Array.from(new Set(baseBugs().map(b=>b.pod).filter(Boolean)));
   pods.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
   return pods;
 }
@@ -1455,8 +1532,18 @@ function filterDefs(){
     options:[
       {v:1,label:"🆕 Last 1 hour",count:cnt("recent",b=>withinHours(b,1))},
       {v:24,label:"Last 24 hours",count:cnt("recent",b=>withinHours(b,24))},
-      {v:48,label:"Last 2 days",count:cnt("recent",b=>withinHours(b,48))}],
+      {v:48,label:"Last 2 days",count:cnt("recent",b=>withinHours(b,48))},
+      {v:168,label:"Last 7 days",count:cnt("recent",b=>withinHours(b,168))}],
     selected:()=>bugRecentHours?[bugRecentHours]:[], toggle:v=>{ bugRecentHours=(bugRecentHours===v?null:v); }});
+  if(bugScope!=="open"){   // Closed-date recency filter — only when closed bugs are in scope
+    defs.push({id:"closed",label:"Closed",
+      options:[
+        {v:1,label:"Last 1 hour",count:cnt("closed",b=>withinHoursClosed(b,1))},
+        {v:24,label:"Last 24 hours",count:cnt("closed",b=>withinHoursClosed(b,24))},
+        {v:48,label:"Last 2 days",count:cnt("closed",b=>withinHoursClosed(b,48))},
+        {v:168,label:"Last 7 days",count:cnt("closed",b=>withinHoursClosed(b,168))}],
+      selected:()=>bugClosedHours?[bugClosedHours]:[], toggle:v=>{ bugClosedHours=(bugClosedHours===v?null:v); }});
+  }
   defs.push({id:"prioritized",label:"Prioritized", aicon:"⚠️",
     options:[{v:"prioritized",label:"✅ Prioritized",count:cnt("prioritized",hasLabel)},{v:"unprioritized",label:"⚠️ Not prioritized",count:cnt("prioritized",b=>!hasLabel(b))}],
     selected:()=>bugLabelFilter==="all"?[]:[bugLabelFilter], toggle:v=>{ bugLabelFilter=(bugLabelFilter===v?"all":v); }, alert:()=>cnt("prioritized",b=>!hasLabel(b))});
@@ -1471,7 +1558,7 @@ function filterDefs(){
   defs.push({id:"triage",label:"Triage",
     options:_tv.map(v=>({v:v,label:v,count:cnt("triage",b=>b.triage===v)})),
     selected:()=>[...bugTriage], toggle:v=>{ bugTriage.has(v)?bugTriage.delete(v):bugTriage.add(v); }});
-  const ORDER=["pod","triage","recent","prio","status","group","prioritized","review"];
+  const ORDER=["pod","triage","recent","closed","prio","status","group","prioritized","review"];
   defs.sort((a,b)=>ORDER.indexOf(a.id)-ORDER.indexOf(b.id));
   return defs;
 }
@@ -1533,7 +1620,7 @@ function bugPodFilters(){
 }
 function bugThemeOptions(){
   const order=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
-  let themes=Array.from(new Set([...(typeof FEATURES_ALL!=="undefined"?FEATURES_ALL:[]).map(f=>f.theme), ...BUGS.map(b=>b.theme)].filter(Boolean)));
+  let themes=Array.from(new Set([...(typeof FEATURES_ALL!=="undefined"?FEATURES_ALL:[]).map(f=>f.theme), ...baseBugs().map(b=>b.theme)].filter(Boolean)));
   themes.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
   return themes;
 }
@@ -1553,13 +1640,14 @@ function toggleLLRows(){
 }
 function onPodChange(){
   // reset all filters, rebuild pod-dependent chips, toggle LL-only rows, re-render
-  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugNewOnly=false; bugRecentHours=null; bugTriage.clear();
+  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugTriage.clear();
   bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear();
   const si=document.getElementById("bugsearch");
   if(si){ si.value=""; bugSearchTerm=""; const sb=document.getElementById("bugsearchbox"); if(sb) sb.classList.remove("has-text"); }
   bugThemeFilters(); refreshBugUI();
 }
 function initBugs(){
+  bugScopeFilters();
   bugThemeFilters();
   noPodList();
   noThemeList();
@@ -1588,6 +1676,8 @@ function applyData(d){
   rebuildThemeIndex();
   ALL = d.all || [];
   BUGS = d.bugs || [];
+  BUGS_CLOSED = d.bugs_closed || [];
+  CLOSED_DAYS = d.closed_days || 90;
   NOPOD = d.nopod || [];
   WEEKS = d.weeks || [];
   TODAY = d.today ? new Date(d.today+"T00:00:00") : new Date();
@@ -1598,6 +1688,210 @@ function initDashboard(){
   initFeaturesAndRoadmap();
   initBugs();
   updateFreshpill();
+}
+
+// ============ STATISTICS TAB ============
+const VZ={blue:"#2a78d6",aqua:"#1baf7a",orange:"#eb6834",navy:"#123a5e",muted:"#8a94a6",
+  grid:"#e8ebf0",axis:"#c3c2b7",ink:"#0b0b0b",sub:"#52514e",good:"#0ca30c"};
+// Release calendar (deploy dates) — from Confluence "Release Schedule 2026" (space WR). Update here when the schedule changes.
+const RELEASES=[
+  {id:"R9.6",deploy:"2026-08-05"},{id:"R9.7",deploy:"2026-09-02"},
+  {id:"R9.8",deploy:"2026-10-07"},{id:"R9.9",deploy:"2026-11-04"},{id:"R9.10",deploy:"2026-12-02"}
+];
+const PRIO_COL={1:"#d03b3b",2:"#ec835a",3:"#2a78d6",4:"#8a94a6"};
+function vzTip(){ let t=document.getElementById("chtip"); if(!t){ t=document.createElement("div"); t.id="chtip"; t.className="chtip"; document.body.appendChild(t);} return t; }
+function bindTips(host){
+  const tip=vzTip();
+  host.querySelectorAll("[data-tip]").forEach(el=>{
+    el.style.cursor="default";
+    el.addEventListener("mousemove",e=>{ tip.innerHTML=el.getAttribute("data-tip"); tip.style.opacity="1"; tip.style.left=(e.clientX+12)+"px"; tip.style.top=(e.clientY-10)+"px"; });
+    el.addEventListener("mouseleave",()=>{ tip.style.opacity="0"; });
+  });
+}
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
+function niceMax(v){ if(v<=5) return 5; const p=Math.pow(10,Math.floor(Math.log10(v))); const s=v/p; const n=s<=1?1:s<=2?2:s<=5?5:10; return n*p; }
+function statWeeks(openSet,closedSet){
+  const snap=snapshotMs(), WK=7*864e5;
+  const n=Math.min(13, Math.max(4, Math.ceil((CLOSED_DAYS||90)/7)+1));
+  const arr=[];
+  for(let i=n-1;i>=0;i--){ const end=snap-i*WK, start=end-WK; arr.push({start,end,label:new Date(start).toLocaleDateString('en-US',{month:'short',day:'numeric'}),created:0,resolved:0,backlog:0}); }
+  const all=openSet.concat(closedSet);
+  arr.forEach(w=>{ w.created=all.filter(b=>{const t=createdMs(b);return t>=w.start&&t<w.end;}).length;
+                   w.resolved=closedSet.filter(b=>{const t=resolvedMs(b);return t>=w.start&&t<w.end;}).length; });
+  let cumC=0,cumR=0;
+  for(let i=arr.length-1;i>=0;i--){ arr[i].backlog=openSet.length+cumR-cumC; cumC+=arr[i].created; cumR+=arr[i].resolved; }
+  return arr;
+}
+// Stats-tab Pod/Theme filters (independent of the Active Bugs filters)
+let statPods=new Set(), statThemes=new Set();
+function statFilter(arr){
+  let r=arr;
+  if(statPods.size) r=r.filter(b=>statPods.has(b.pod||""));
+  if(statThemes.size) r=r.filter(b=>statThemes.has(b.theme||"None"));
+  return r;
+}
+function statChipRow(hostId,set,items){
+  const el=document.getElementById(hostId); if(!el) return; el.innerHTML="";
+  const mk=(label,on,cls,fn)=>{const b=document.createElement("button");b.type="button";b.className="sfchip"+(on?(" "+cls):"");b.textContent=label;b.addEventListener("click",fn);el.appendChild(b);};
+  mk("All",set.size===0,"allon",()=>{ if(set.size){set.clear(); renderStats(true);} });
+  items.forEach(v=>mk(v,set.has(v),"on",()=>{ set.has(v)?set.delete(v):set.add(v); renderStats(true); }));
+}
+function renderStatFilters(){
+  const podOrder=["LL","PLANS"]; let pods=Array.from(new Set(BUGS.concat(BUGS_CLOSED).map(b=>b.pod).filter(Boolean)));
+  pods.sort((a,b)=>{const ia=podOrder.indexOf(a),ib=podOrder.indexOf(b);return (ia<0?9:ia)-(ib<0?9:ib)||a.localeCompare(b);});
+  statChipRow("st-podfilter",statPods,pods);
+  const thOrder=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"]; let ths=Array.from(new Set(BUGS.concat(BUGS_CLOSED).map(b=>b.theme).filter(Boolean)));
+  ths.sort((a,b)=>{const ia=thOrder.indexOf(a),ib=thOrder.indexOf(b);return (ia<0?9:ia)-(ib<0?9:ib)||a.localeCompare(b);});
+  ths.push("None");
+  statChipRow("st-themefilter",statThemes,ths);
+}
+// ---- vertical grouped bars (1–2 series) + legend + hover ----
+function vzVBars(hostId,cats,series,opt){
+  opt=opt||{}; const host=document.getElementById(hostId); if(!host) return;
+  const W=opt.w||760,H=opt.h||280,padL=38,padR=12,padT=14,padB=34;
+  const plotW=W-padL-padR, plotH=H-padT-padB, n=cats.length;
+  let max=0; series.forEach(s=>s.vals.forEach(v=>{if(v>max)max=v;})); max=niceMax(max||1);
+  const slot=plotW/n, bw=Math.min(opt.bw||26,(slot*0.8)/series.length);
+  const y=v=>padT+plotH-(v/max)*plotH;
+  let g="";
+  // gridlines + y ticks
+  for(let t=0;t<=4;t++){ const val=max*t/4, yy=y(val); g+=`<line x1="${padL}" y1="${yy}" x2="${W-padR}" y2="${yy}" stroke="${VZ.grid}"/><text x="${padL-6}" y="${yy+3.5}" text-anchor="end" font-size="10" fill="${VZ.muted}">${Math.round(val)}</text>`; }
+  cats.forEach((c,i)=>{
+    const cx=padL+slot*i+slot/2;
+    const total=bw*series.length+ (series.length-1)*3;
+    series.forEach((s,si)=>{
+      const v=s.vals[i]||0, bx=cx-total/2+si*(bw+3), by=y(v), bh=padT+plotH-by;
+      g+=`<rect x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(0,bh).toFixed(1)}" rx="3" fill="${s.color}" data-tip="<b>${esc(c)}</b><br>${esc(s.name)}: ${v}"/>`;
+    });
+    g+=`<text x="${cx}" y="${H-padB+15}" text-anchor="middle" font-size="10" fill="${VZ.sub}">${esc(c)}</text>`;
+  });
+  g+=`<line x1="${padL}" y1="${padT+plotH}" x2="${W-padR}" y2="${padT+plotH}" stroke="${VZ.axis}"/>`;
+  const leg=series.length>1?`<div class="chleg">${series.map(s=>`<span><i style="background:${s.color}"></i>${esc(s.name)}</span>`).join("")}</div>`:"";
+  host.innerHTML=leg+`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img">${g}</svg>`;
+  bindTips(host);
+}
+// ---- horizontal bars (single hue) ----
+function vzHBars(hostId,items,opt){
+  opt=opt||{}; const host=document.getElementById(hostId); if(!host) return;
+  const rowH=opt.rowH||26, padL=opt.padL||120, padR=42, padT=6, W=opt.w||360;
+  const H=padT*2+items.length*rowH; const plotW=W-padL-padR;
+  let max=0; items.forEach(it=>{if(it.val>max)max=it.val;}); max=max||1;
+  let g="";
+  items.forEach((it,i)=>{
+    const yy=padT+i*rowH, bw=(it.val/max)*plotW, col=it.color||VZ.blue;
+    g+=`<text x="${padL-8}" y="${yy+rowH/2+3.5}" text-anchor="end" font-size="11" fill="${VZ.sub}">${esc(it.label)}</text>`;
+    g+=`<rect x="${padL}" y="${yy+3}" width="${Math.max(2,bw).toFixed(1)}" height="${rowH-10}" rx="3" fill="${col}" data-tip="<b>${esc(it.label)}</b>: ${it.val}"/>`;
+    g+=`<text x="${padL+Math.max(2,bw)+6}" y="${yy+rowH/2+3.5}" font-size="11" font-weight="700" fill="${VZ.ink}">${it.val}</text>`;
+  });
+  host.innerHTML=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img">${g}</svg>`;
+  bindTips(host);
+}
+// ---- line + optional dashed projection ----
+function vzLine(hostId,pts,proj,opt){
+  opt=opt||{}; const host=document.getElementById(hostId); if(!host) return;
+  const W=opt.w||760,H=opt.h||280,padL=38,padR=14,padT=14,padB=34;
+  const allpts=pts.concat(proj||[]); const n=allpts.length;
+  const plotW=W-padL-padR, plotH=H-padT-padB;
+  let max=0; allpts.forEach(p=>{if(p.y>max)max=p.y;}); max=niceMax(max||1);
+  const x=i=>padL+(n<=1?0:(plotW*i/(n-1))), y=v=>padT+plotH-(v/max)*plotH;
+  let g="";
+  for(let t=0;t<=4;t++){ const val=max*t/4, yy=y(val); g+=`<line x1="${padL}" y1="${yy}" x2="${W-padR}" y2="${yy}" stroke="${VZ.grid}"/><text x="${padL-6}" y="${yy+3.5}" text-anchor="end" font-size="10" fill="${VZ.muted}">${Math.round(val)}</text>`; }
+  // area + line for actual
+  const line=pts.map((p,i)=>`${x(i)},${y(p.y)}`).join(" ");
+  g+=`<polyline points="${line}" fill="none" stroke="${VZ.blue}" stroke-width="2.4"/>`;
+  g+=`<polygon points="${padL},${padT+plotH} ${line} ${x(pts.length-1)},${padT+plotH}" fill="${VZ.blue}" opacity="0.08"/>`;
+  // projection dashed (continues from last actual index)
+  if(proj&&proj.length){ const startI=pts.length-1; const pl=[[startI,pts[pts.length-1].y]].concat(proj.map((p,k)=>[startI+1+k,p.y])).map(a=>`${x(a[0])},${y(a[1])}`).join(" ");
+    g+=`<polyline points="${pl}" fill="none" stroke="${VZ.orange}" stroke-width="2.2" stroke-dasharray="5 4"/>`; }
+  // dots + x labels + hover
+  allpts.forEach((p,i)=>{ const projPt=i>=pts.length;
+    g+=`<circle cx="${x(i)}" cy="${y(p.y)}" r="3.4" fill="${projPt?VZ.orange:VZ.blue}" data-tip="<b>${esc(p.label)}</b><br>${projPt?'projected ':''}open: ${Math.round(p.y)}"/>`;
+    if(i%2===0||i===n-1) g+=`<text x="${x(i)}" y="${H-padB+15}" text-anchor="middle" font-size="9.5" fill="${VZ.sub}">${esc(p.label)}</text>`;
+  });
+  g+=`<line x1="${padL}" y1="${padT+plotH}" x2="${W-padR}" y2="${padT+plotH}" stroke="${VZ.axis}"/>`;
+  // release markers (vertical lines positioned by date)
+  (opt.markers||[]).forEach(m=>{
+    let xi=null;
+    for(let i=0;i<allpts.length-1;i++){ const a=allpts[i].t,c=allpts[i+1].t; if(a!=null&&c!=null&&a<=m.t&&m.t<=c){ const f=(m.t-a)/((c-a)||1); xi=x(i)+(x(i+1)-x(i))*f; break; } }
+    if(xi==null) return;
+    g+=`<line x1="${xi.toFixed(1)}" y1="${padT}" x2="${xi.toFixed(1)}" y2="${padT+plotH}" stroke="${VZ.navy}" stroke-width="1.3" stroke-dasharray="4 3" opacity="0.5"/>`;
+    g+=`<text x="${xi.toFixed(1)}" y="${padT+9}" text-anchor="middle" font-size="9.5" font-weight="800" fill="${VZ.navy}">${esc(m.label)}</text>`;
+  });
+  const leg=`<div class="chleg"><span><i style="background:${VZ.blue}"></i>open backlog</span>${proj&&proj.length?`<span><i style="background:${VZ.orange}"></i>projection</span>`:""}${(opt.markers||[]).length?`<span><i style="background:${VZ.navy}"></i>release</span>`:""}</div>`;
+  host.innerHTML=leg+`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img">${g}</svg>`;
+  bindTips(host);
+}
+function kpi(v,label,delta,cls){ return `<div class="kpi"><div class="kv">${v}</div><div class="kl">${label}</div>${delta?`<div class="kd ${cls||''}">${delta}</div>`:""}</div>`; }
+function renderStats(){
+  renderStatFilters();
+  const OPEN=statFilter(BUGS), CLOSED=statFilter(BUGS_CLOSED);
+  const snap=snapshotMs(), DAY=864e5;
+  const wk=statWeeks(OPEN,CLOSED);
+  // KPIs
+  const closed7=CLOSED.filter(b=>withinHoursClosed(b,168)).length;
+  const created7=OPEN.concat(CLOSED).filter(b=>withinHours(b,168)).length;
+  const net7=closed7-created7;
+  const ages=OPEN.map(b=>{const t=createdMs(b);return isNaN(t)?null:(snap-t)/DAY;}).filter(v=>v!=null);
+  const avgAge=ages.length?Math.round(ages.reduce((a,b)=>a+b,0)/ages.length):0;
+  const p12=OPEN.filter(b=>prioNum(b.prio)<=2).length;
+  const ttc=CLOSED.map(b=>{const c=createdMs(b),r=resolvedMs(b);return (isNaN(c)||isNaN(r))?null:(r-c)/DAY;}).filter(v=>v!=null).sort((a,b)=>a-b);
+  const medTtc=ttc.length?Math.round(ttc[Math.floor(ttc.length/2)]):0;
+  document.getElementById("st-window").textContent=CLOSED_DAYS;
+  document.getElementById("st-asof").textContent=GENERATED_AT?new Date(GENERATED_AT).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):"—";
+  document.getElementById("st-kpis").innerHTML=
+    kpi(OPEN.length,"Open bugs")+
+    kpi(CLOSED.length,`Closed · ${CLOSED_DAYS}d`)+
+    kpi((net7>0?"+":"")+net7,"Net last 7d",net7>0?"resolved &gt; incoming":net7<0?"incoming &gt; resolved":"flat",net7>0?"up":net7<0?"down":"")+
+    kpi(avgAge+"d","Avg open age")+
+    kpi(p12,"P1 + P2 open",p12?"needs focus":"clear",p12?"down":"up")+
+    kpi(medTtc+"d","Median time to close");
+  // flow: created vs resolved
+  vzVBars("st-flow", wk.map(w=>w.label),
+    [{name:"Created (incoming)",color:VZ.orange,vals:wk.map(w=>w.created)},
+     {name:"Resolved (closed)",color:VZ.aqua,vals:wk.map(w=>w.resolved)}], {w:760,h:280});
+  // backlog + projection
+  const pts=wk.map(w=>({label:w.label,y:w.backlog,t:w.end}));
+  const recent=wk.slice(-6); const avgNet=recent.reduce((s,w)=>s+(w.resolved-w.created),0)/recent.length;
+  const now=OPEN.length;
+  // horizon: cover the next release deploy date (from the calendar), min 6 / max 12 weeks
+  const nextRel=RELEASES.map(r=>Date.parse(r.deploy+"T00:00:00")).filter(t=>t>snap).sort((a,b)=>a-b)[0];
+  let horizon=6; if(nextRel) horizon=Math.max(horizon, Math.ceil((nextRel-snap)/(7*DAY))+1); horizon=Math.min(horizon,12);
+  let proj=[];
+  for(let k=1;k<=horizon;k++){ const t=snap+k*7*DAY; proj.push({label:new Date(t).toLocaleDateString('en-US',{month:'short',day:'numeric'}),y:Math.max(0,now-avgNet*k),t}); }
+  // release markers within the plotted span
+  const firstT=pts[0].t, lastT=proj.length?proj[proj.length-1].t:pts[pts.length-1].t;
+  const markers=RELEASES.map(r=>{const t=Date.parse(r.deploy+"T00:00:00");return {t,label:r.id+" · "+new Date(t).toLocaleDateString('en-US',{month:'short',day:'numeric'})};}).filter(m=>m.t>=firstT&&m.t<=lastT);
+  vzLine("st-burn", pts, proj, {w:760,h:280,markers});
+  // note: pace + projected backlog at the next release
+  let projNote="";
+  if(avgNet>0.3){ const clearWk=Math.ceil(now/avgNet); const clearDate=new Date(snap+clearWk*7*DAY);
+    projNote=`At the current pace (~${avgNet.toFixed(1)} net closed/wk) the open backlog trends toward zero around <b>${clearDate.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}</b>.`;
+  } else { projNote=`At the current pace the backlog is <b>${avgNet<-0.3?'growing':'roughly flat'}</b> (~${avgNet.toFixed(1)} net/wk) — incoming is matching or outpacing resolution.`; }
+  if(nextRel){ const relW=(nextRel-snap)/(7*DAY); const relN=Math.round(Math.max(0,now-avgNet*relW)); const rid=RELEASES.find(r=>Date.parse(r.deploy+"T00:00:00")===nextRel).id;
+    projNote+=` Projected open bugs by <b>${rid}</b> (${new Date(nextRel).toLocaleDateString('en-US',{month:'short',day:'numeric'})}): <b>~${relN}</b>.`; }
+  let bn=document.getElementById("st-burnnote"); if(!bn){ bn=document.createElement("p"); bn.id="st-burnnote"; bn.style.cssText="font-size:11.5px;color:var(--muted);margin:4px 2px 8px"; document.getElementById("st-burn").after(bn); }
+  bn.innerHTML=projNote+` <span style="opacity:.8">Projection is a linear trend from the last 6 weeks, not a committed date.</span>`;
+  // priority open vs closed
+  const pc=p=>({o:OPEN.filter(b=>prioNum(b.prio)===p).length,c:CLOSED.filter(b=>prioNum(b.prio)===p).length});
+  const P=[1,2,3,4].map(pc);
+  vzVBars("st-prio",["P1","P2","P3","P4"],
+    [{name:"Open",color:VZ.blue,vals:P.map(x=>x.o)},{name:`Closed · ${CLOSED_DAYS}d`,color:VZ.muted,vals:P.map(x=>x.c)}],{w:360,h:250,bw:22});
+  // open by status
+  const byStatus={}; OPEN.forEach(b=>{byStatus[b.status]=(byStatus[b.status]||0)+1;});
+  const stItems=Object.entries(byStatus).map(([k,v])=>({label:k,val:v})).sort((a,b)=>b.val-a.val).slice(0,10);
+  vzHBars("st-status",stItems,{w:360,padL:130});
+  // open by pod
+  const byPod={}; OPEN.forEach(b=>{const p=b.pod||"—";byPod[p]=(byPod[p]||0)+1;});
+  const podItems=Object.entries(byPod).map(([k,v])=>({label:k,val:v,color:VZ.blue})).sort((a,b)=>b.val-a.val);
+  vzHBars("st-pod",podItems,{w:360,padL:70});
+  // aging buckets
+  const buckets=[["< 1 week",0,7],["1–2 wks",7,14],["2–4 wks",14,30],["1–3 mo",30,90],["> 3 mo",90,1e9]];
+  const ageItems=buckets.map(([lab,lo,hi])=>({label:lab,val:ages.filter(a=>a>=lo&&a<hi).length,
+    color:hi<=14?VZ.aqua:hi<=30?VZ.blue:hi<=90?VZ.orange:PRIO_COL[1]}));
+  vzVBars("st-age",ageItems.map(x=>x.label),[{name:"Open bugs",color:VZ.blue,vals:ageItems.map(x=>x.val)}],{w:360,h:250,bw:34});
+  // recolor age bars individually (severity)
+  const ageSvg=document.querySelectorAll("#st-age svg rect");
+  ageSvg.forEach((r,i)=>{ if(ageItems[i]) r.setAttribute("fill",ageItems[i].color); });
 }
 (function bootstrap(){
   // cache-bust so a fresh snapshot shows without a hard reload
@@ -1623,6 +1917,7 @@ document.querySelectorAll(".tab").forEach(t=>{
     // peek heights can only be measured once the panel is visible
     if(t.dataset.tab==="allroadmap") setupPeek("nodate","nodate-toggle",5);
     if(t.dataset.tab==="bugs") setupPeek("nopodlist","nopod-toggle",5);
+    if(t.dataset.tab==="stats") renderStats();
   });
 });
 </script>

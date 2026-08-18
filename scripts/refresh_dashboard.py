@@ -38,7 +38,7 @@ FIELDS = ["summary", "status", "fixVersions", "assignee", "reporter",
           "project", "customfield_11626", "customfield_10023",
           "customfield_10044", "customfield_10020", "priority", "created", "labels",
           "parent", "customfield_10014", "issuelinks",
-          "customfield_12146", "customfield_10071"]
+          "customfield_12146", "customfield_10071", "resolutiondate"]
 # 10020 = Sprint, 10014 = Epic Link, 12146 = Theme, 10071 = Triage
 
 THEMES = ["LL-MVP", "LL-Fast Follows", "ACH", "ACH-Fast Follows"]
@@ -139,6 +139,7 @@ def parse_issue(i, theme=None):
         "sprint": sprint_name,
         "prio": (prio.get("name") if prio else None) or "3: Standard",
         "created": (f.get("created") or ""),   # full ISO timestamp (enables last-hour / last-24h windows)
+        "resolved": (f.get("resolutiondate") or ""),  # full ISO timestamp for closed bugs (empty while open)
         "labels": f.get("labels") or [],
         "linked_lowprio": linked_lowprio,
         "lp_sprint": lp_sprint,
@@ -219,12 +220,37 @@ def pull_bugs():
                     "status": r["status"], "cat": cat, "fv": r.get("fv"),
                     "sprint": r.get("sprint"), "who": r.get("who") or "Unassigned",
                     "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard",
-                    "created": r.get("created") or "", "labels": r.get("labels") or [],
+                    "created": r.get("created") or "", "resolved": "", "labels": r.get("labels") or [],
                     "theme": r.get("theme") or "", "triage": r.get("triage") or "",
                     "lpEpic": bool(r.get("linked_lowprio")),
                     "lpSprint": bool(r.get("lp_sprint")),
                     "linkedLP": bool(r.get("linked_lowprio") and r.get("lp_sprint"))})
     return out
+
+
+def pull_closed_bugs(days=90):
+    """Bugs closed (statusCategory = Done) within the last `days` days, for the
+    Closed filter + the Statistics tab (open-vs-closed rate, throughput, projection)."""
+    jql = ('issuetype = Bug AND cf[11626] IN ("LL", "PLANS") '
+           f'AND statusCategory = Done AND resolutiondate >= -{days}d '
+           'ORDER BY resolutiondate DESC')
+    rows = [parse_issue(i) for i in jira_search(jql, max_total=3000)]
+    out = []
+    for r in rows:
+        out.append({"key": r["key"], "name": r["name"], "pod": (r.get("pod") or ""),
+                    "status": r["status"], "cat": "Done", "fv": r.get("fv"),
+                    "sprint": r.get("sprint"), "who": r.get("who") or "Unassigned",
+                    "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard",
+                    "created": r.get("created") or "", "resolved": r.get("resolved") or "",
+                    "labels": r.get("labels") or [],
+                    "theme": r.get("theme") or "", "triage": r.get("triage") or "",
+                    "lpEpic": bool(r.get("linked_lowprio")),
+                    "lpSprint": bool(r.get("lp_sprint")),
+                    "linkedLP": bool(r.get("linked_lowprio") and r.get("lp_sprint"))})
+    return out
+
+
+CLOSED_DAYS = 90  # rolling window for closed bugs
 
 
 def pull_nopod():
@@ -294,7 +320,9 @@ def main():
     print(f"  FEATURES_ALL: {len(features_all)}")
     all_set = build_all(features_all)
     bugs = pull_bugs()
-    print(f"  bugs: {len(bugs)}")
+    print(f"  bugs (active): {len(bugs)}")
+    bugs_closed = pull_closed_bugs(CLOSED_DAYS)
+    print(f"  bugs (closed, last {CLOSED_DAYS}d): {len(bugs_closed)}")
     nopod = pull_nopod()
     print(f"  no-pod bugs: {len(nopod)}")
     weeks = build_weeks(today)
@@ -308,6 +336,8 @@ def main():
         "features_all": features_all,
         "all": all_set,
         "bugs": bugs,
+        "bugs_closed": bugs_closed,
+        "closed_days": CLOSED_DAYS,
         "nopod": nopod,
         "weeks": weeks,
     }
