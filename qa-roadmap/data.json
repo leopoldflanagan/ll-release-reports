@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T13:18:10+00:00",
+ "generated_at": "2026-08-18T13:45:29+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -4178,28 +4178,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20967",
-   "name": "Member Portal - Renew Button Remains Visible on Old Plan After Successful Renewal",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-11T08:58:19.200-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19007",
    "name": "Regression: disabled plans surface on member portal (GetMemberPortalPlansByStatus filter dropped)",
    "pod": "PLANS",
@@ -4212,6 +4190,28 @@
    "prio": "3: Standard",
    "created": "2026-07-06T12:34:05.073-0700",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20967",
+   "name": "Member Portal - Renew Button Remains Visible on Old Plan After Successful Renewal",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11T08:58:19.200-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
