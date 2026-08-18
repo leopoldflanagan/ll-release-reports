@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T05:09:03+00:00",
+ "generated_at": "2026-08-18T05:41:02+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1834,6 +1834,44 @@
    "labels": [
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21441",
+   "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-17T22:22:01.617-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21440",
+   "name": "Member portal/ACH is displayed as saved card in payment methods though achOnPmpEnabled flag is false",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-17T22:06:16.544-0700",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4735,15 +4773,7 @@
    "linkedLP": false
   }
  ],
- "nopod": [
-  {
-   "key": "PLANS-21440",
-   "name": "Member portal/ACH is displayed as saved card in payment methods though achOnPmpEnabled flag is false",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 17–23",
