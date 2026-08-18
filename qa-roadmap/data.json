@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T12:45:43+00:00",
+ "generated_at": "2026-08-18T13:18:10+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -14,7 +14,7 @@
   {
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Dima Shtympel",
@@ -329,7 +329,7 @@
   {
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Dima Shtympel",
@@ -1037,7 +1037,7 @@
    "name": "Electronic Consent Form Updates",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-21",
    "who": "Dima Shtympel",
