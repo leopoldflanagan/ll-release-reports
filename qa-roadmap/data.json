@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T04:43:53+00:00",
+ "generated_at": "2026-08-18T05:09:03+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1852,6 +1852,44 @@
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-08-17T19:01:14.899-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21435",
+   "name": "PMP| ACH| Entered Data is not preserved When Switching Between Payment Tiles",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-17T15:15:17.841-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21434",
+   "name": "ACH|Purchase button is not disabled after first click",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-17T15:08:22.182-0700",
    "labels": [],
    "theme": "",
    "triage": "",
@@ -4699,18 +4737,11 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-21435",
-   "name": "PMP| ACH| Entered Data is not preserved When Switching Between Payment Tiles",
+   "key": "PLANS-21440",
+   "name": "Member portal/ACH is displayed as saved card in payment methods though achOnPmpEnabled flag is false",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Hazel Loya"
-  },
-  {
-   "key": "PLANS-21434",
-   "name": "ACH|Purchase button is not disabled after first click",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Hazel Loya"
+   "reporter": "Vivienne Chawande"
   }
  ],
  "weeks": [
