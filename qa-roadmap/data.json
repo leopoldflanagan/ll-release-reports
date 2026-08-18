@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T14:38:20+00:00",
+ "generated_at": "2026-08-18T14:43:48+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1723,7 +1723,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Clint Tredway",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "2: Important",
@@ -1745,7 +1745,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Clint Tredway",
    "reporter": "Carmen West",
    "prio": "1: Urgent",
@@ -4162,7 +4162,7 @@
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Clint Tredway",
    "reporter": "Clint Tredway",
    "prio": "3: Standard",
@@ -4524,7 +4524,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "David Jones",
    "reporter": "Mireya Alvarez",
    "prio": "3: Standard",
