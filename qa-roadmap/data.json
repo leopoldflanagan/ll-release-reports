@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T15:41:57+00:00",
+ "generated_at": "2026-08-18T16:07:15+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -450,7 +450,7 @@
   {
    "key": "PLANS-18766",
    "name": "Individual Plus",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Conor Kamperman",
@@ -1158,7 +1158,7 @@
    "name": "Individual Plus",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-21",
    "who": "Conor Kamperman",
@@ -1920,6 +1920,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21459",
+   "name": "Member Portal consent widget can't reach legal-text/preflight/document-url — member-bff never implemented the routes",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel",
+   "prio": "3: Standard",
+   "created": "2026-08-18T08:06:23.138-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21456",
    "name": "Member Portal \\ Consent details are currently unavailable at checkout screen during a manual renewal",
    "pod": "LL",
@@ -1955,7 +1975,10 @@
    "prio": "2: Important",
    "created": "2026-08-17T22:22:01.617-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3047,7 +3070,9 @@
    "prio": "3: Standard",
    "created": "2026-04-06T13:08:11.394-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3079,17 +3104,20 @@
   {
    "key": "PLANS-21429",
    "name": "ACH - [PMP] - Error is displayed for valid data while adding a second ACH account",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-17T13:10:33.796-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3102,14 +3130,17 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-17T10:49:35.018-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3122,15 +3153,16 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 20-26",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "3: Standard",
    "created": "2026-08-14T10:39:35.143-0700",
    "resolved": "",
    "labels": [
-    "LLplans"
+    "group2_migration",
+    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
@@ -3994,13 +4026,16 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Sailaja Yanamandra",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-07-22T08:27:33.613-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4164,26 +4199,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-8102",
-   "name": "Restest-Add Plan | Unable to select existing member without a plan when adding a plan",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2025-08-01T06:46:55.908-0700",
-   "resolved": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-3385",
    "name": "SPIKE TASK - Unable to renewal a plan with less dependent after expiration via the renewal plan button",
    "pod": "PLANS",
@@ -4218,7 +4233,9 @@
    "prio": "4: Low",
    "created": "2024-09-18T20:57:34.016-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4301,7 +4318,9 @@
    "prio": "2: Important",
    "created": "2026-08-13T07:30:09.350-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4914,6 +4933,26 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-8102",
+   "name": "Restest-Add Plan | Unable to select existing member without a plan when adding a plan",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2025-08-01T06:46:55.908-0700",
+   "resolved": "2026-08-18T08:45:45.280-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21234",
    "name": "X-Portal-Code duplicate header add throws ArgumentException on GET npm/get-main-page-detail",
@@ -18084,13 +18123,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-21459",
-   "name": "Member Portal consent widget can't reach legal-text/preflight/document-url — member-bff never implemented the routes",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Dima Shtympel"
   }
  ],
  "weeks": [
