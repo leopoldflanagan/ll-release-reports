@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T08:44:53+00:00",
+ "generated_at": "2026-08-18T09:10:22+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1650,28 +1650,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-21362",
-   "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-16T21:38:16.446-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-21321",
    "name": "PLANS-21321: Essential Smiles: Unable to complete plan purchase",
@@ -4203,6 +4181,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21362",
+   "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-16T21:38:16.446-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21181",
    "name": "CSP - BLOCKER - unable to ACH Refund",
    "pod": "LL",
@@ -4235,27 +4235,6 @@
    "created": "2026-08-11T08:58:19.200-0700",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19864",
-   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17T10:11:50.459-0700",
-   "labels": [
     "product_prioritized"
    ],
    "theme": "",
@@ -4680,6 +4659,27 @@
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-07-20T14:37:47.028-0700",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-19864",
+   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17T10:11:50.459-0700",
    "labels": [
     "product_prioritized"
    ],
