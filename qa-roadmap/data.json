@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T19:39:30+00:00",
+ "generated_at": "2026-08-18T20:04:37+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1766,28 +1766,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20904",
-   "name": "PDS plan linked to a NON PDS office",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Clint Tredway",
-   "reporter": "Carmen West",
-   "prio": "1: Urgent",
-   "created": "2026-08-10T11:00:37.040-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20079",
    "name": "OneSmile , DCA & Comfort Dental - Wallet (Apple) - Custom logos/theme are not properly aligned on Apple Wallet pass",
    "pod": "PLANS",
@@ -3074,6 +3052,52 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21516",
+   "name": "IND. Plus plan - UI improvement",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-08-18T12:49:42.437-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21515",
+   "name": "Auto-Renewal not being shown for DCA Website",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-18T12:47:17.957-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21463",
    "name": "Crosby Dental - PBO Charging Incorrectly",
    "pod": "PLANS",
@@ -4226,6 +4250,28 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-13T07:30:09.350-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20904",
+   "name": "PDS plan linked to a NON PDS office",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Clint Tredway",
+   "reporter": "Carmen West",
+   "prio": "1: Urgent",
+   "created": "2026-08-10T11:00:37.040-0700",
    "resolved": "",
    "labels": [
     "product_prioritized"
