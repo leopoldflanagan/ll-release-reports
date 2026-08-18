@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T18:07:40+00:00",
+ "generated_at": "2026-08-18T18:44:58+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1897,28 +1897,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-18089",
-   "name": "Provider Portal - paid by office - charging the wrong amount in Prod ; Paid by office payments are not visible under office transactions in STAGE",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-06-17T02:33:57.616-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-17978",
    "name": "WFP - Blocker - Plan purchase/ Manual Renew failed (takes few minutes)- forever loading page",
    "pod": "LL",
@@ -1989,14 +1967,17 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
+   "fv": null,
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-08-18T10:29:20.259-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -2013,10 +1994,13 @@
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Dima Shtympel",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-18T08:06:23.138-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -2167,14 +2151,17 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-14T14:21:36.354-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -2187,14 +2174,17 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
+   "prio": "4: Low",
    "created": "2026-08-14T10:59:39.856-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": true,
@@ -2207,14 +2197,17 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-08-14T07:02:33.931-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -2273,34 +2266,17 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-14T02:34:50.968-0700",
    "resolved": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21221",
-   "name": "CSP - blocker - multi org portal restrictions",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-13T11:42:02.483-0700",
-   "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -2662,7 +2638,10 @@
    "prio": "4: Low",
    "created": "2026-06-09T09:38:04.445-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3013,6 +2992,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-14429",
+   "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-04-16T08:03:50.116-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-14068",
    "name": "Member Portal \\ Multiple emails are missing SHDP Kids branding",
    "pod": "PLANS",
@@ -3056,50 +3055,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-7588",
-   "name": "Unable to add dependent after change primary",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Jasmin Martin",
-   "prio": "3: Standard",
-   "created": "2025-07-10T15:07:45.109-0700",
-   "resolved": "",
-   "labels": [
-    "JSM"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-7582",
-   "name": "Plan member was not added to the plan during upgrade and an exception occurred when attempting to manually",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Jasmin Martin",
-   "prio": "3: Standard",
-   "created": "2025-07-10T12:51:54.338-0700",
-   "resolved": "",
-   "labels": [
-    "JSM"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "DYN-1472",
    "name": "CRM email buttons looks different for sgdp ADHA /KIDSplans",
    "pod": "PLANS",
@@ -3135,6 +3090,29 @@
    "created": "2026-08-18T08:18:46.311-0700",
    "resolved": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21460",
+   "name": "QA Test - unable to test declined payments and- authorization failure triggers (ACH payments currently always return a success response, regardless of the account information provided by the user.)",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T08:08:30.977-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -3197,9 +3175,9 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 21-26",
-   "who": "Unassigned",
+   "who": "Santiago Kirk Cabrera",
    "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-14T10:39:35.143-0700",
    "resolved": "",
    "labels": [
@@ -3588,7 +3566,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Clint Tredway",
    "reporter": "Jasmin Martin",
    "prio": "1: Urgent",
    "created": "2026-08-11T07:09:09.925-0700",
@@ -4240,26 +4218,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-14429",
-   "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
-   "pod": "PLANS",
-   "status": "Deferred",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-04-16T08:03:50.116-0700",
-   "resolved": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21181",
    "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
    "pod": "LL",
@@ -4318,6 +4276,48 @@
     "group1_migration",
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18089",
+   "name": "Provider Portal - paid by office - charging the wrong amount in Prod ; Paid by office payments are not visible under office transactions in STAGE",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 16-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-06-17T02:33:57.616-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21221",
+   "name": "CSP - blocker - multi org portal restrictions",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13T11:42:02.483-0700",
+   "resolved": "",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4908,6 +4908,50 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-7588",
+   "name": "Unable to add dependent after change primary",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Jasmin Martin",
+   "prio": "3: Standard",
+   "created": "2025-07-10T15:07:45.109-0700",
+   "resolved": "2026-08-18T11:12:59.642-0700",
+   "labels": [
+    "JSM"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-7582",
+   "name": "Plan member was not added to the plan during upgrade and an exception occurred when attempting to manually",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Jasmin Martin",
+   "prio": "3: Standard",
+   "created": "2025-07-10T12:51:54.338-0700",
+   "resolved": "2026-08-18T11:12:15.738-0700",
+   "labels": [
+    "JSM"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-15683",
    "name": "WFP- Clicking on Manage Patient again - showing empty search page",
@@ -18178,6 +18222,13 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-21504",
+   "name": "wf-consent-ui never attaches X-Parent-Domain — bundle-embedded consumers get 403'd by plans-widget-api",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel"
+  },
+  {
    "key": "PLANS-21483",
    "name": "Provider Portal consent widget has no CORS allow-list row in Plans.WidgetCorsSettings",
    "status": "Backlog",
@@ -18186,17 +18237,10 @@
   },
   {
    "key": "PLANS-21482",
-   "name": "User is unable to renew plan system detects plan has already been renewed",
+   "name": "Manual renewal is incorrectly blocked for plans that were previously auto-renewed",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-21460",
-   "name": "QA Test - unable to test declined payments and- authorization failure triggers (ACH payments currently always return a success response, regardless of the account information provided by the user.)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
