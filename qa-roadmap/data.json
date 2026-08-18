@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-18T21:06:00+00:00",
+ "generated_at": "2026-08-18T21:38:05+00:00",
  "today": "2026-08-18",
  "features": [
   {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Testing",
-   "ted": "2026-08-18",
+   "ted": "2026-08-24",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null
@@ -376,7 +376,7 @@
    "status": "In Testing",
    "ted": "2026-07-17",
    "fv": "R9.7",
-   "who": "David Jones",
+   "who": "Lloyd Tokerud",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-MVP"
@@ -990,7 +990,7 @@
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Testing",
-   "ted": "2026-08-18",
+   "ted": "2026-08-24",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null,
@@ -1249,7 +1249,7 @@
    "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-07-17",
-   "who": "David Jones",
+   "who": "Lloyd Tokerud",
    "theme": "LL-MVP"
   },
   {
@@ -1864,7 +1864,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-18",
+   "ted": "2026-08-24",
    "who": "Denys Kernychnyi",
    "theme": "ACH"
   },
@@ -1981,6 +1981,28 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21463",
+   "name": "Crosby Dental - PBO Charging Incorrectly",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Daryl Myrick",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-18T08:18:46.311-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21321",
    "name": "PLANS-21321: Essential Smiles: Unable to complete plan purchase",
    "pod": "LL",
@@ -1992,6 +2014,29 @@
    "reporter": "Mireya Alvarez",
    "prio": "2: Important",
    "created": "2026-08-14T13:59:53.065-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21278",
+   "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-14T10:39:35.143-0700",
    "resolved": "",
    "labels": [
     "group2_migration",
@@ -2218,6 +2263,32 @@
    "resolved": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21517",
+   "name": "Member Portal auth interceptor strips Authorization header on consent legal-text calls, causing 401",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel",
+   "prio": "3: Standard",
+   "created": "2026-08-18T13:31:50.057-0700",
+   "resolved": "",
+   "labels": [
+    "auth",
+    "consent",
+    "group1_migration",
+    "member-portal",
     "product_prioritized"
    ],
    "theme": "",
@@ -3446,13 +3517,16 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": null,
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-08-18T10:44:09.015-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3478,28 +3552,6 @@
    ],
    "theme": "",
    "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21463",
-   "name": "Crosby Dental - PBO Charging Incorrectly",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-18T08:18:46.311-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3568,29 +3620,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21278",
-   "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-14T10:39:35.143-0700",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -18692,13 +18721,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-21517",
-   "name": "Member Portal auth interceptor strips Authorization header on consent legal-text calls, causing 401",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Dima Shtympel"
-  },
   {
    "key": "PLANS-21509",
    "name": "bug - report inprogress",
