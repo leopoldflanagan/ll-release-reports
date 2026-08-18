@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T14:43:48+00:00",
+ "generated_at": "2026-08-18T15:08:38+00:00",
  "today": "2026-08-18",
  "features": [
   {
@@ -1673,6 +1673,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21206",
+   "name": "ACH<PMP<Add Payment Method<ADD button is disabled while adding ACH bank account",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-13T09:43:44.941-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21166",
    "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
    "pod": "LL",
@@ -1879,6 +1901,25 @@
     "group1_migration",
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21456",
+   "name": "Member Portal \\ Consent details are currently unavailable at checkout screen during a manual renewal",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-08-18T07:35:59.798-0700",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -2154,28 +2195,6 @@
    "prio": "3: Standard",
    "created": "2026-08-13T11:42:02.483-0700",
    "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21206",
-   "name": "ACH<PMP<Add Payment Method<ADD button is disabled while adding ACH bank account",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-13T09:43:44.941-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -2567,7 +2586,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Daniel Marineni",
    "reporter": "Michael McNulty",
    "prio": "3: Standard",
@@ -3042,7 +3061,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "3: Standard",
@@ -3415,7 +3434,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Jasmin Martin",
    "prio": "1: Urgent",
@@ -3546,7 +3565,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Brianna Hill",
    "prio": "2: Important",
@@ -4001,7 +4020,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 16-26",
-   "who": "Unassigned",
+   "who": "Daryl Myrick",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-06-17T02:33:57.616-0700",
@@ -4021,7 +4040,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -4175,50 +4194,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21362",
-   "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-16T21:38:16.446-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20967",
-   "name": "Member Portal - Renew Button Remains Visible on Old Plan After Successful Renewal",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-11T08:58:19.200-0700",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20930",
    "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
    "pod": "LL",
@@ -4305,7 +4280,7 @@
    "status": "On Hold",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
+   "sprint": "LL-Sprint 17-26",
    "who": "Hunter Redhead",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
@@ -4474,6 +4449,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21362",
+   "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-16T21:38:16.446-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21110",
    "name": "PMP <Stage<ACH<Payment Receipt PDF is showing CC instead of Banking Account",
    "pod": "LL",
@@ -4485,6 +4482,28 @@
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-08-12T11:51:59.706-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20967",
+   "name": "Member Portal - Renew Button Remains Visible on Old Plan After Successful Renewal",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11T08:58:19.200-0700",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4731,11 +4750,18 @@
  ],
  "nopod": [
   {
-   "key": "PLANS-21456",
-   "name": "Member Portal \\ Consent details are currently unavailable at checkout screen during a manual renewal",
+   "key": "PLANS-21460",
+   "name": "QA Test help- Declined payments and ) athorization manual trigger",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-21459",
+   "name": "Member Portal consent widget can't reach legal-text/preflight/document-url — member-bff never implemented the routes",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel"
   }
  ],
  "weeks": [
