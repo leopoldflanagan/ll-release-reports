@@ -1,7 +1,16 @@
 {
- "generated_at": "2026-08-19T11:06:24+00:00",
+ "generated_at": "2026-08-19T11:38:51+00:00",
  "today": "2026-08-19",
  "features": [
+  {
+   "key": "PLANS-20836",
+   "name": "Legal Language Intake for ACH",
+   "status": "In Testing",
+   "ted": "2026-08-24",
+   "fv": "R9.7",
+   "who": "Denys Kernychnyi",
+   "tshirt": null
+  },
   {
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
@@ -978,6 +987,17 @@
    "theme": "ACH"
   },
   {
+   "key": "PLANS-20836",
+   "name": "Legal Language Intake for ACH",
+   "status": "In Testing",
+   "ted": "2026-08-24",
+   "fv": "R9.7",
+   "who": "Denys Kernychnyi",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "ACH"
+  },
+  {
    "key": "PLANS-21414",
    "name": "ACH Auto Renewal end-end testing",
    "status": "Idea",
@@ -1835,6 +1855,17 @@
    "fv": "R9.7",
    "ted": "2026-08-21",
    "who": "Vasyl Skochko",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-20836",
+   "name": "Legal Language Intake for ACH",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.7",
+   "ted": "2026-08-24",
+   "who": "Denys Kernychnyi",
    "theme": "ACH"
   },
   {
