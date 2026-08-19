@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T16:42:28+00:00",
+ "generated_at": "2026-08-19T17:07:20+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -3376,7 +3376,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-08-18T15:01:20.958-0700",
@@ -19066,6 +19066,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21573",
+   "name": "Tie Plan Multi Practice View Upgrade Plan| Offices outside org are showing for the upgrade plan",
+   "status": "PR Created",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya"
+  },
   {
    "key": "PLANS-21570",
    "name": "PMP - UI - showing multiple decimals in plan fee when add new plan",
