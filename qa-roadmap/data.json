@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T18:06:33+00:00",
+ "generated_at": "2026-08-19T18:44:34+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -1989,33 +1989,10 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-19T07:06:26.416-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21549",
-   "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
-   "created": "2026-08-19T06:46:14.300-0700",
+   "created": "2026-08-19T07:06:26.416-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -2189,28 +2166,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20551",
-   "name": "Ancillary Benefit Pull Down Option on Site",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-07-29T17:05:42.601-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20079",
    "name": "OneSmile , DCA & Comfort Dental - Wallet (Apple) - Custom logos/theme are not properly aligned on Apple Wallet pass",
    "pod": "PLANS",
@@ -2292,6 +2247,50 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21582",
+   "name": "[DCA]-Cancel auto-renewal email does not get to the inbox",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-19T11:35:36.864-0700",
+   "resolved": "",
+   "labels": [
+    "plans"
+   ],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21581",
+   "name": "[DCA]-Welcome email does not get to the inbox",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-19T11:34:30.354-0700",
+   "resolved": "",
+   "labels": [
+    "plans"
+   ],
+   "theme": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3254,6 +3253,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21580",
+   "name": "[DCA]-Receipt email does not get to the inbox",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-19T11:33:13.287-0700",
+   "resolved": "",
+   "labels": [
+    "plans"
+   ],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21563",
    "name": "Plan Deleted when switching over the primary",
    "pod": "PLANS",
@@ -3305,7 +3326,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -3315,11 +3336,11 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21556",
@@ -3512,7 +3533,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
@@ -3525,8 +3546,8 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21480",
@@ -3627,7 +3648,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -3637,11 +3658,11 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "LL-MVP",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21163",
@@ -3650,7 +3671,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -3660,11 +3681,11 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21160",
@@ -3696,7 +3717,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -3706,11 +3727,11 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21114",
@@ -3719,7 +3740,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "3: Standard",
@@ -3731,9 +3752,9 @@
    ],
    "theme": "",
    "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21111",
@@ -3765,7 +3786,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -3778,8 +3799,8 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21041",
@@ -3788,7 +3809,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -3800,9 +3821,9 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21018",
@@ -3823,7 +3844,7 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": false,
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3834,7 +3855,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
@@ -3847,7 +3868,7 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
-   "lpSprint": false,
+   "lpSprint": true,
    "linkedLP": false
   },
   {
@@ -3926,7 +3947,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
    "prio": "4: Low",
@@ -3938,9 +3959,9 @@
    ],
    "theme": "",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20960",
@@ -4063,7 +4084,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
@@ -4076,8 +4097,8 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20869",
@@ -4628,6 +4649,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21549",
+   "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T06:46:14.300-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21546",
    "name": "PMP - LL - Incorrect {recurring_schedule} format on the Purchase Auth Form (Auto Renew checked )",
    "pod": "LL",
@@ -4668,29 +4712,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21439",
-   "name": "PMP/Plan Card/Incorrect website and support email in the PDF document",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T19:01:14.899-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4785,6 +4806,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21439",
+   "name": "PMP/Plan Card/Incorrect website and support email in the PDF document",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T19:01:14.899-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21166",
    "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
    "pod": "LL",
@@ -4808,24 +4852,46 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20551",
+   "name": "Ancillary Benefit Pull Down Option on Site",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-07-29T17:05:42.601-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21221",
    "name": "CSP - blocker - multi org portal restrictions",
    "pod": "LL",
    "status": "On Hold",
    "cat": "In Progress",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL-Sprint 19-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-13T11:42:02.483-0700",
    "resolved": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20930",
@@ -4834,7 +4900,7 @@
    "status": "On Hold",
    "cat": "In Progress",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
@@ -4843,9 +4909,9 @@
    "labels": [],
    "theme": "",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20615",
@@ -4934,7 +5000,7 @@
   {
    "key": "PLANS-16858",
    "name": "Two Primary Cards shown in Member Portal",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "On Hold",
    "cat": "In Progress",
    "fv": null,
@@ -5345,7 +5411,7 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": false,
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5819,7 +5885,7 @@
    "pod": "PLANS",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R8.11",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Jasmin Martin",
@@ -5841,7 +5907,7 @@
    "pod": "PLANS",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R8.11",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Jasmin Martin",
@@ -19046,7 +19112,7 @@
  "nopod": [
   {
    "key": "PLANS-21577",
-   "name": "PMP \\ DCA migrated member getting error setting up their auto renewal using ACH Payment method",
+   "name": "PMP \\ Membership status of DCA migrated member are getting updated from Active to Delinquent after setting up their auto renewal using ACH Payment method",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
