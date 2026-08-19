@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T14:11:58+00:00",
+ "generated_at": "2026-08-19T14:17:01+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2141,28 +2141,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21181",
-   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T07:30:09.350-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21166",
    "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
    "pod": "LL",
@@ -2318,6 +2296,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21556",
+   "name": "Ind Plus - Member Portal - Add Member Flow",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:14:16.984-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21555",
    "name": "IND Plus - Member Portal",
    "pod": "PLANS",
@@ -2342,7 +2343,7 @@
   },
   {
    "key": "PLANS-21551",
-   "name": "PMP - LL - Auto Renew Failed for ACH payments",
+   "name": "PMP - LL - Auto Renew Failed for ACH Payments",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -3708,7 +3709,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4804,6 +4805,28 @@
    "resolved": "",
    "labels": [],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21181",
+   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T07:30:09.350-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
