@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T13:45:51+00:00",
+ "generated_at": "2026-08-19T14:11:58+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2318,6 +2318,49 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21555",
+   "name": "IND Plus - Member Portal",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "4: Low",
+   "created": "2026-08-19T07:11:38.046-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21551",
+   "name": "PMP - LL - Auto Renew Failed for ACH payments",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T07:06:26.416-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21539",
    "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
    "pod": "LL",
@@ -2352,6 +2395,29 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-19T03:38:19.567-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21534",
+   "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-18T22:15:16.290-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -18840,11 +18906,18 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-21534",
-   "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
+   "key": "PLANS-21550",
+   "name": "PMP<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
    "status": "Backlog",
-   "who": "Vasyl Skochko",
+   "who": "Unassigned",
    "reporter": "Vinita Thankur"
+  },
+  {
+   "key": "PLANS-21549",
+   "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
