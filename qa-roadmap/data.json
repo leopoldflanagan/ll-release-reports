@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T16:07:23+00:00",
+ "generated_at": "2026-08-19T16:42:28+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -1009,17 +1009,6 @@
    "theme": "ACH"
   },
   {
-   "key": "WEL-5777",
-   "name": "ACH Core Support",
-   "status": "In Development",
-   "ted": "2026-09-02",
-   "fv": "R9.7",
-   "who": "Daniel Marineni",
-   "tshirt": "Large",
-   "pod": "WEL",
-   "theme": "ACH"
-  },
-  {
    "key": "WEL-6024",
    "name": "WellfitPay Payment Widget Enhancements",
    "status": "In Development",
@@ -1880,17 +1869,6 @@
    "theme": "ACH"
   },
   {
-   "key": "WEL-5777",
-   "name": "ACH Core Support",
-   "pod": "WEL",
-   "proj": "WEL",
-   "status": "In Development",
-   "fv": "R9.7",
-   "ted": "2026-09-02",
-   "who": "Daniel Marineni",
-   "theme": "ACH"
-  },
-  {
    "key": "WEL-6024",
    "name": "WellfitPay Payment Widget Enhancements",
    "pod": "WEL",
@@ -2034,7 +2012,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-08-19T06:46:14.300-0700",
@@ -2061,29 +2039,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-19T03:47:52.484-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21439",
-   "name": "PMP/Plan Card/Incorrect website and support email in the PDF document",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T19:01:14.899-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -2143,7 +2098,7 @@
   },
   {
    "key": "PLANS-21327",
-   "name": "PMP - UI - Additional Member Discount Displays as $0, Inaccurate cost breakdown display (not a functional issue , discount included in the annual plan Cost)",
+   "name": "PLANS-21327: Member Portal: Additional Member Discount Displays as $0 - Inaccurate cost breakdown display (not a functional issue , discount included in the annual plan Cost)",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -2343,17 +2298,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21563",
-   "name": "Plan Deleted when switching over the primary",
-   "pod": "PLANS",
+   "key": "PLANS-21564",
+   "name": "PMP - LL - Incorrect contact number [org_revocation_contact] Displayed in ACH Authorization Form",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
-   "reporter": "Chantaya Brown",
+   "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-08-19T09:01:34.348-0700",
+   "created": "2026-08-19T09:05:42.638-0700",
    "resolved": "",
    "labels": [],
    "theme": "",
@@ -3300,6 +3255,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21563",
+   "name": "Plan Deleted when switching over the primary",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Chantaya Brown",
+   "prio": "2: Important",
+   "created": "2026-08-19T09:01:34.348-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21560",
    "name": "Ind Plus - Member Portal - Capacity Showing",
    "pod": "PLANS",
@@ -3408,7 +3385,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3593,6 +3570,29 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21434",
+   "name": "ACH|Purchase button is not disabled after first click",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Hazel Loya",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T15:08:22.182-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4675,6 +4675,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21439",
+   "name": "PMP/Plan Card/Incorrect website and support email in the PDF document",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T19:01:14.899-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20904",
    "name": "PDS plan linked to a NON PDS office",
    "pod": "PLANS",
@@ -5090,29 +5113,6 @@
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-08-18T07:35:59.798-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21434",
-   "name": "ACH|Purchase button is not disabled after first click",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Hazel Loya",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T15:08:22.182-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -19067,8 +19067,8 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-21564",
-   "name": "PMP - LL - Auth form - phone number is not taken from Generic Phone nmber",
+   "key": "PLANS-21570",
+   "name": "PMP - UI - showing multiple decimals in plan fee when add new plan",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
