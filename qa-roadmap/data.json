@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T14:44:10+00:00",
+ "generated_at": "2026-08-19T15:09:08+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -1981,29 +1981,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-21546",
-   "name": "PMP - LL - Incorrect {recurring_schedule} format on the Purchase Auth Form (Auto Renew checked )",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-19T05:52:20.632-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21463",
    "name": "Crosby Dental - PBO Charging Incorrectly",
    "pod": "PLANS",
@@ -2312,27 +2289,30 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
   {
-   "key": "PLANS-21558",
-   "name": "PMP - LL - Primary Payment Method is ACH, but Credit Card option is Auto-Selected During Manual Renewal",
-   "pod": "LL",
+   "key": "PLANS-21559",
+   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
+   "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-19T07:17:59.452-0700",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:37:51.636-0700",
    "resolved": "",
-   "labels": [],
-   "theme": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2355,7 +2335,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2385,19 +2365,22 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21551",
-   "name": "PMP - LL - Auto Renew Failed for ACH Payments",
+   "key": "PLANS-21549",
+   "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-19T07:06:26.416-0700",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T06:46:14.300-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "ACH",
    "triage": "",
    "lpEpic": false,
@@ -2490,7 +2473,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2574,9 +2557,9 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
    "reporter": "Dima Shtympel",
    "prio": "2: Important",
    "created": "2026-08-18T11:44:19.616-0700",
@@ -2585,7 +2568,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2597,9 +2580,9 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
    "reporter": "Dima Shtympel",
    "prio": "2: Important",
    "created": "2026-08-18T11:04:55.877-0700",
@@ -2608,7 +2591,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2645,7 +2628,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Dima Shtympel",
    "prio": "2: Important",
    "created": "2026-08-18T08:06:23.138-0700",
@@ -2700,7 +2683,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3232,29 +3215,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-16858",
-   "name": "Two Primary Cards shown in Member Portal",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Daniel Marineni",
-   "reporter": "Michael McNulty",
-   "prio": "3: Standard",
-   "created": "2026-05-27T05:59:28.736-0700",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-16403",
    "name": "Member portal - missing logo and profile icon misalignment",
    "pod": "LL",
@@ -3575,6 +3535,75 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21558",
+   "name": "PMP - LL - Primary Payment Method is ACH, but Credit Card option is Auto-Selected During Manual Renewal",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T07:17:59.452-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21551",
+   "name": "PMP - LL - Auto Renew Failed for ACH Payments",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T07:06:26.416-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21550",
+   "name": "PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:03:24.897-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21516",
    "name": "IND. Plus plan - UI improvement",
    "pod": "PLANS",
@@ -3614,7 +3643,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3685,7 +3714,7 @@
    ],
    "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3696,7 +3725,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "2: Important",
@@ -3706,7 +3735,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
@@ -3959,7 +3988,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3982,7 +4011,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4188,7 +4217,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -4211,7 +4240,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": false,
@@ -4371,7 +4400,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4440,7 +4469,7 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -4564,11 +4593,11 @@
   {
    "key": "PLANS-20111",
    "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
+   "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -4610,11 +4639,11 @@
   {
    "key": "PLANS-20030",
    "name": "All carington plans - Member Portal - custom logos not showing in any of the pages and not on Membership Card",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
+   "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
@@ -4669,7 +4698,7 @@
     "PDS",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4743,17 +4772,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21441",
-   "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
+   "key": "PLANS-21546",
+   "name": "PMP - LL - Incorrect {recurring_schedule} format on the Purchase Auth Form (Auto Renew checked )",
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
    "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-17T22:22:01.617-0700",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T05:52:20.632-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -4827,7 +4856,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4854,44 +4883,23 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21181",
-   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
+   "key": "PLANS-21441",
+   "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
    "prio": "2: Important",
-   "created": "2026-08-13T07:30:09.350-0700",
+   "created": "2026-08-17T22:22:01.617-0700",
    "resolved": "",
    "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18089",
-   "name": "Provider Portal - paid by office - charging the wrong amount in Prod ; Paid by office payments are not visible under office transactions in STAGE",
-   "pod": "PLANS",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-06-17T02:33:57.616-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5044,6 +5052,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-16858",
+   "name": "Two Primary Cards shown in Member Portal",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Daniel Marineni",
+   "reporter": "Michael McNulty",
+   "prio": "3: Standard",
+   "created": "2026-05-27T05:59:28.736-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-16717",
    "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
    "pod": "LL",
@@ -5162,7 +5193,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5231,7 +5262,29 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21181",
+   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T07:30:09.350-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5300,7 +5353,7 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5312,7 +5365,7 @@
    "pod": "PLANS",
    "status": "In Stage",
    "cat": "In Progress",
-   "fv": "R9.8",
+   "fv": "R9.7",
    "sprint": "Plans-Sprint 20-26",
    "who": "Hunter Redhead",
    "reporter": "Anuradhi Wickramasinghe",
@@ -5368,7 +5421,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5390,7 +5443,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5453,6 +5506,28 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-06-24T05:26:17.589-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18089",
+   "name": "Provider Portal - paid by office - charging the wrong amount in Prod ; Paid by office payments are not visible under office transactions in STAGE",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 16-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-06-17T02:33:57.616-0700",
    "resolved": "",
    "labels": [
     "product_prioritized"
@@ -5613,6 +5688,26 @@
  ],
  "bugs_closed": [
   {
+   "key": "PLANS-21561",
+   "name": "PMP - LL - next plan stars on 19/08/27 however next recurring payment date is 18/08/27",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T07:50:51.956-0700",
+   "resolved": "2026-08-19T07:55:45.955-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19780",
    "name": "Member Portal \\ Renewal late renewal",
    "pod": "PLANS",
@@ -5626,7 +5721,7 @@
    "created": "2026-07-16T22:28:27.676-0700",
    "resolved": "2026-08-18T14:44:29.653-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5887,7 +5982,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5953,7 +6048,7 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5976,7 +6071,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -6226,7 +6321,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -6248,7 +6343,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -6271,7 +6366,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -6385,7 +6480,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -6408,7 +6503,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -8746,7 +8841,7 @@
    "created": "2026-07-02T08:49:11.530-0700",
    "resolved": "2026-08-13T12:53:47.830-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -9457,7 +9552,7 @@
    "labels": [
     "JSM"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -9697,7 +9792,7 @@
    "created": "2025-06-06T18:24:34.539-0700",
    "resolved": "2026-08-11T17:38:39.268-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -9739,7 +9834,7 @@
    "created": "2026-06-03T08:14:52.469-0700",
    "resolved": "2026-08-11T13:52:08.442-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -9762,7 +9857,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -10096,7 +10191,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -10612,7 +10707,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -10634,7 +10729,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -10656,7 +10751,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -10698,7 +10793,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -11078,7 +11173,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -11162,7 +11257,7 @@
    "created": "2026-08-04T07:57:33.801-0700",
    "resolved": "2026-08-04T12:27:23.565-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -11368,7 +11463,7 @@
    "created": "2025-07-22T09:00:11.457-0700",
    "resolved": "2026-08-03T13:17:20.452-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -11557,7 +11652,7 @@
    "labels": [
     "plans"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -11663,7 +11758,7 @@
    "created": "2026-07-29T13:11:43.709-0700",
    "resolved": "2026-07-30T14:36:27.834-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -11685,7 +11780,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -11728,7 +11823,7 @@
    "created": "2026-07-29T10:08:05.099-0700",
    "resolved": "2026-07-29T10:44:10.750-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -11964,7 +12059,7 @@
    "created": "2026-07-16T08:48:50.629-0700",
    "resolved": "2026-07-27T12:49:01.552-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -12158,7 +12253,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -12350,7 +12445,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -12435,7 +12530,7 @@
    "labels": [
     "0"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -12621,7 +12716,7 @@
    "created": "2026-07-23T10:17:06.300-0700",
    "resolved": "2026-07-23T10:34:07.722-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -12723,7 +12818,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -12745,7 +12840,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -13031,7 +13126,7 @@
    "created": "2026-07-14T08:34:43.981-0700",
    "resolved": "2026-07-21T15:08:29.013-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -13075,7 +13170,7 @@
    "created": "2026-07-21T05:23:33.490-0700",
    "resolved": "2026-07-21T14:12:56.406-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -13095,7 +13190,7 @@
    "created": "2026-07-21T05:23:12.554-0700",
    "resolved": "2026-07-21T14:03:37.578-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -13115,7 +13210,7 @@
    "created": "2026-07-21T05:23:20.294-0700",
    "resolved": "2026-07-21T14:02:59.085-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -13275,7 +13370,7 @@
    "created": "2026-07-15T15:20:28.741-0700",
    "resolved": "2026-07-21T11:19:53.365-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -13475,7 +13570,7 @@
    "created": "2026-06-19T11:06:41.248-0700",
    "resolved": "2026-07-20T12:33:18.403-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -13699,7 +13794,7 @@
    "labels": [
     "LLplans"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -13919,7 +14014,7 @@
    "created": "2026-07-16T14:48:45.624-0700",
    "resolved": "2026-07-17T10:40:12.492-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -14061,7 +14156,7 @@
    "created": "2026-07-16T09:53:46.879-0700",
    "resolved": "2026-07-16T14:39:23.157-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -14121,7 +14216,7 @@
    "created": "2026-07-16T12:18:39.411-0700",
    "resolved": "2026-07-16T12:47:56.323-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -14141,7 +14236,7 @@
    "created": "2026-07-16T12:12:25.992-0700",
    "resolved": "2026-07-16T12:45:27.525-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -14181,7 +14276,7 @@
    "created": "2026-07-16T09:16:42.607-0700",
    "resolved": "2026-07-16T10:17:56.098-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -14263,7 +14358,7 @@
    "created": "2026-07-08T07:14:42.606-0700",
    "resolved": "2026-07-15T21:48:09.228-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -14647,7 +14742,7 @@
    "created": "2026-06-30T07:26:49.537-0700",
    "resolved": "2026-07-13T20:33:44.231-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -15445,7 +15540,7 @@
    "labels": [
     "JSM"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -15772,7 +15867,7 @@
    "created": "2026-07-06T14:38:55.364-0700",
    "resolved": "2026-07-07T10:37:56.582-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -15792,7 +15887,7 @@
    "created": "2026-06-29T12:34:31.929-0700",
    "resolved": "2026-07-07T09:47:48.790-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -15852,7 +15947,7 @@
    "created": "2026-07-06T10:58:01.829-0700",
    "resolved": "2026-07-07T08:54:35.029-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -16012,7 +16107,7 @@
    "created": "2026-06-18T02:11:32.165-0700",
    "resolved": "2026-07-03T05:56:30.023-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -18970,29 +19065,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-21559",
-   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur"
-  },
-  {
-   "key": "PLANS-21550",
-   "name": "PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
-   "status": "Ready for Development",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vinita Thankur"
-  },
-  {
-   "key": "PLANS-21549",
-   "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 17–23",
