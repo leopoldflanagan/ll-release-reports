@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T23:06:12+00:00",
+ "generated_at": "2026-08-19T23:37:40+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -4772,52 +4772,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21441",
-   "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-17T22:22:01.617-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21278",
-   "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-14T10:39:35.143-0700",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20551",
    "name": "Ancillary Benefit Pull Down Option on Site",
    "pod": "LL",
@@ -5111,6 +5065,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21441",
+   "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-17T22:22:01.617-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21439",
    "name": "PMP/Plan Card/Incorrect website and support email in the PDF document",
    "pod": "LL",
@@ -5148,6 +5125,29 @@
    "resolved": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21278",
+   "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-14T10:39:35.143-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -19095,26 +19095,6 @@
    "prio": "3: Standard",
    "created": "2026-05-12T09:08:29.065-0700",
    "resolved": "2026-05-22T08:27:25.631-0700",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-16276",
-   "name": "Member Portal \\ Opt-Out Reasons from Un-enroll flow is not Single-Select",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "Plans-Sprint 13-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-05-18T16:29:09.077-0700",
-   "resolved": "2026-05-21T16:10:55.204-0700",
    "labels": [],
    "theme": "",
    "triage": "",
