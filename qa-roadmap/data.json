@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T22:39:28+00:00",
+ "generated_at": "2026-08-19T23:06:12+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -118,15 +118,6 @@
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-17687",
-   "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Testing",
-   "ted": "2026-08-21",
-   "fv": "R9.7",
-   "who": "Valentyna Tenus",
-   "tshirt": "Large"
   },
   {
    "key": "PLANS-20258",
@@ -373,7 +364,7 @@
   {
    "key": "PLANS-17581",
    "name": "Disbursement Splits & Admin Fee Splits",
-   "status": "In Testing",
+   "status": "Blocked",
    "ted": "2026-07-17",
    "fv": "R9.7",
    "who": "Lloyd Tokerud",
@@ -407,7 +398,7 @@
    "key": "PLANS-18074",
    "name": "CSP - Request a Refund",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-20",
    "fv": null,
    "who": "Daryl Myrick",
    "tshirt": "Moderate",
@@ -965,17 +956,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-17687",
-   "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "status": "In Testing",
-   "ted": "2026-08-21",
-   "fv": "R9.7",
-   "who": "Valentyna Tenus",
-   "tshirt": "Large",
-   "pod": "LL",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "status": "In Testing",
@@ -1235,7 +1215,7 @@
    "name": "Disbursement Splits & Admin Fee Splits",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "Blocked",
    "fv": "R9.7",
    "ted": "2026-07-17",
    "who": "Lloyd Tokerud",
@@ -1270,7 +1250,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": null,
-   "ted": null,
+   "ted": "2026-08-20",
    "who": "Daryl Myrick",
    "theme": "LL-MVP"
   },
@@ -1825,17 +1805,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-17687",
-   "name": "Incorporate Payment Widget into Plan Purchase Widget",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-21",
-   "who": "Valentyna Tenus",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-20258",
    "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
    "pod": "LL",
@@ -2022,29 +1991,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21539",
-   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-19T03:47:52.484-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4663,6 +4609,29 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21539",
+   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-19T03:47:52.484-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -19156,6 +19125,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21594",
+   "name": "CSP - Refund with \"Disable benefit plan\" cancels the wrong plan when two plans were purchased in one transaction",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Daryl Myrick"
+  },
   {
    "key": "PLANS-21593",
    "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
