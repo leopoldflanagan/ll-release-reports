@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T20:05:47+00:00",
+ "generated_at": "2026-08-19T20:41:27+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2143,6 +2143,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21181",
+   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T07:30:09.350-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20968",
    "name": "[Member Portal]-Header displays wrong portal logo",
    "pod": "PLANS",
@@ -3231,6 +3253,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21586",
+   "name": "[MP]-Transaction full receipt displays wrong office data",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-19T13:14:53.822-0700",
+   "resolved": "",
+   "labels": [
+    "plans"
+   ],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21582",
    "name": "[DCA]-Cancel auto-renewal email does not get to the inbox",
    "pod": "PLANS",
@@ -3405,29 +3449,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21528",
-   "name": "ACH - Refunded plans not visible in CSP plan transactions",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dmytro Tymofiienko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-18T15:01:20.958-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4805,6 +4826,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21528",
+   "name": "ACH - Refunded plans not visible in CSP plan transactions",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dmytro Tymofiienko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-18T15:01:20.958-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21441",
    "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
    "pod": "LL",
@@ -4839,29 +4883,6 @@
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-08-17T19:01:14.899-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21166",
-   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T04:44:52.361-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -5213,22 +5234,23 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21181",
-   "name": "CSP - BLOCKER - unable to ACH Refund (transaction in Settled status)",
+   "key": "PLANS-21166",
+   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
-   "created": "2026-08-13T07:30:09.350-0700",
+   "created": "2026-08-13T04:44:52.361-0700",
    "resolved": "",
    "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
-   "theme": "ACH",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
