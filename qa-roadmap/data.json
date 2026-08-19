@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T12:46:09+00:00",
+ "generated_at": "2026-08-19T13:19:04+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2295,6 +2295,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21546",
+   "name": "PMP - LL - Incorrect {recurring_schedule} format on the Purchase Auth Form (Auto Renew checked )",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T05:52:20.632-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21539",
    "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
    "pod": "LL",
@@ -2414,7 +2434,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 20-26",
-   "who": "Anuradhi Wickramasinghe",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-18T12:23:02.868-0700",
