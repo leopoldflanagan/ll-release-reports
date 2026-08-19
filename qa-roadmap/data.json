@@ -1,16 +1,7 @@
 {
- "generated_at": "2026-08-19T10:07:26+00:00",
+ "generated_at": "2026-08-19T10:41:56+00:00",
  "today": "2026-08-19",
  "features": [
-  {
-   "key": "PLANS-20836",
-   "name": "Legal Language Intake for ACH",
-   "status": "In Testing",
-   "ted": "2026-08-24",
-   "fv": "R9.7",
-   "who": "Denys Kernychnyi",
-   "tshirt": null
-  },
   {
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
@@ -987,17 +978,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-20836",
-   "name": "Legal Language Intake for ACH",
-   "status": "In Testing",
-   "ted": "2026-08-24",
-   "fv": "R9.7",
-   "who": "Denys Kernychnyi",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-21414",
    "name": "ACH Auto Renewal end-end testing",
    "status": "Idea",
@@ -1858,17 +1838,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-20836",
-   "name": "Legal Language Intake for ACH",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-24",
-   "who": "Denys Kernychnyi",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-21414",
    "name": "ACH Auto Renewal end-end testing",
    "pod": "PLANS",
@@ -2443,7 +2412,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
+   "who": "Denys Kernychnyi",
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-08-17T22:22:01.617-0700",
@@ -18747,6 +18716,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21536",
+   "name": "PMP - LL - Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-21534",
    "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
