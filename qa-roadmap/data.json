@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T15:41:49+00:00",
+ "generated_at": "2026-08-19T16:07:23+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -351,7 +351,7 @@
   {
    "key": "PLANS-17468",
    "name": "Open Network Dashboard Upgrades",
-   "status": "In Testing",
+   "status": "On Hold",
    "ted": null,
    "fv": "R9.7",
    "who": "Harisha Pallacheruvu",
@@ -1224,7 +1224,7 @@
    "name": "Open Network Dashboard Upgrades",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "On Hold",
    "fv": "R9.7",
    "ted": null,
    "who": "Harisha Pallacheruvu",
@@ -2004,6 +2004,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21551",
+   "name": "PMP - LL - Auto Renew Failed for ACH Payments",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T07:06:26.416-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21549",
    "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
    "pod": "LL",
@@ -2050,28 +2073,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21463",
-   "name": "Crosby Dental - PBO Charging Incorrectly",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-18T08:18:46.311-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21439",
    "name": "PMP/Plan Card/Incorrect website and support email in the PDF document",
    "pod": "LL",
@@ -2089,6 +2090,29 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21429",
+   "name": "ACH - [PMP] - Error is displayed for valid data while adding a second ACH account",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-17T13:10:33.796-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2319,23 +2343,20 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-17978",
-   "name": "WFP - Blocker - Plan purchase/ Manual Renew failed (takes few minutes)- forever loading page",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-06-12T03:23:02.476-0700",
+   "key": "PLANS-21563",
+   "name": "Plan Deleted when switching over the primary",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Chantaya Brown",
+   "prio": "3: Standard",
+   "created": "2026-08-19T09:01:34.348-0700",
    "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2405,32 +2426,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21517",
-   "name": "Member Portal auth interceptor strips Authorization header on consent legal-text calls, causing 401",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Dima Shtympel",
-   "prio": "3: Standard",
-   "created": "2026-08-18T13:31:50.057-0700",
-   "resolved": "",
-   "labels": [
-    "auth",
-    "consent",
-    "group1_migration",
-    "member-portal",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3312,7 +3307,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Santiago Kirk Cabrera",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-08-19T07:40:02.809-0700",
@@ -3374,52 +3369,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21551",
-   "name": "PMP - LL - Auto Renew Failed for ACH Payments",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-19T07:06:26.416-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21550",
-   "name": "PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:03:24.897-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21534",
    "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
    "pod": "LL",
@@ -3452,7 +3401,7 @@
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-08-18T15:01:20.958-0700",
    "resolved": "",
    "labels": [
@@ -3496,7 +3445,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-08-18T12:47:17.957-0700",
@@ -3638,29 +3587,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-18T08:08:30.977-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21429",
-   "name": "ACH - [PMP] - Error is displayed for valid data while adding a second ACH account",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-17T13:10:33.796-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -5108,6 +5034,51 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21550",
+   "name": "PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:03:24.897-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21463",
+   "name": "Crosby Dental - PBO Charging Incorrectly",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Daryl Myrick",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-18T08:18:46.311-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21456",
    "name": "Member Portal \\ Consent details are currently unavailable at checkout screen during a manual renewal",
    "pod": "LL",
@@ -5470,6 +5441,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-17978",
+   "name": "WFP - Blocker - Plan purchase/ Manual Renew failed (takes few minutes)- forever loading page",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-06-12T03:23:02.476-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-14103",
    "name": "CRM Emails | KIDS PLANS | Primary contact is not receiving \"remove from auto renewal\" mail for minor member",
    "pod": "PLANS",
@@ -5618,6 +5612,52 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21517",
+   "name": "Member Portal auth interceptor strips Authorization header on consent legal-text calls, causing 401",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel",
+   "prio": "3: Standard",
+   "created": "2026-08-18T13:31:50.057-0700",
+   "resolved": "2026-08-19T08:50:00.559-0700",
+   "labels": [
+    "auth",
+    "consent",
+    "group1_migration",
+    "member-portal",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21543",
+   "name": "Provider Portal: add electronic consent form to plan purchase checkout",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel",
+   "prio": "3: Standard",
+   "created": "2026-08-19T05:20:28.022-0700",
+   "resolved": "2026-08-19T08:49:57.486-0700",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21504",
    "name": "wf-consent-ui never attaches X-Parent-Domain — bundle-embedded consumers get 403'd by plans-widget-api",
@@ -19022,30 +19062,18 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-16036",
-   "name": "DCA - Bonus Savings navigation link is not loading",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "Plans-Sprint 13-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-05-11T14:51:20.743-0700",
-   "resolved": "2026-05-21T08:45:02.041-0700",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21564",
+   "name": "PMP - LL - Auth form - phone number is not taken from Generic Phone nmber",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 17–23",
