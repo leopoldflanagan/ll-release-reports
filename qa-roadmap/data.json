@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T08:44:49+00:00",
+ "generated_at": "2026-08-19T09:10:59+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2430,29 +2430,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21456",
-   "name": "Member Portal \\ Consent details are currently unavailable at checkout screen during a manual renewal",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-18T07:35:59.798-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4961,6 +4938,29 @@
    "created": "2025-11-07T08:13:22.180-0800",
    "resolved": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21456",
+   "name": "Member Portal \\ Consent details are currently unavailable at checkout screen during a manual renewal",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-18T07:35:59.798-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
