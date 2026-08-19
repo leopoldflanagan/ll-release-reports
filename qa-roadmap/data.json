@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T09:43:13+00:00",
+ "generated_at": "2026-08-19T10:07:26+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -18751,7 +18751,7 @@
    "key": "PLANS-21534",
    "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Vinita Thankur"
   },
   {
