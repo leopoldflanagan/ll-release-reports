@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T17:07:20+00:00",
+ "generated_at": "2026-08-19T17:39:01+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2166,29 +2166,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21166",
-   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T04:44:52.361-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20968",
    "name": "[Member Portal]-Header displays wrong portal logo",
    "pod": "PLANS",
@@ -3376,7 +3353,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
+   "who": "Dmytro Tymofiienko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-08-18T15:01:20.958-0700",
@@ -4786,6 +4763,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21166",
+   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T04:44:52.361-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21221",
    "name": "CSP - blocker - multi org portal restrictions",
    "pod": "LL",
@@ -5051,29 +5051,6 @@
    "resolved": "",
    "labels": [],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21550",
-   "name": "PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:03:24.897-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5612,6 +5589,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21550",
+   "name": "PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:03:24.897-0700",
+   "resolved": "2026-08-19T10:31:30.738-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21517",
    "name": "Member Portal auth interceptor strips Authorization header on consent legal-text calls, causing 401",
@@ -19035,28 +19035,6 @@
    "created": "2026-05-13T08:13:26.805-0700",
    "resolved": "2026-05-21T12:09:56.953-0700",
    "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-15996",
-   "name": "[Dental Dreams] - No plans loaded after selecting a dental office",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "Plans-Sprint 13-26",
-   "who": "Conor Kamperman",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-05-08T12:05:03.424-0700",
-   "resolved": "2026-05-21T10:16:28.881-0700",
-   "labels": [
-    "KOS"
-   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
