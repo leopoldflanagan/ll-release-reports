@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T08:10:21+00:00",
+ "generated_at": "2026-08-19T08:44:49+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2026,6 +2026,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21410",
+   "name": "PMP/ACH/Inline agreement is not displayed under payment methods on using a saved ACH for purchase",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-17T10:49:35.018-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21278",
    "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
    "pod": "PLANS",
@@ -3597,29 +3620,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21410",
-   "name": "PMP/ACH/Inline agreement is not displayed under payment methods on using a saved ACH for purchase",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-17T10:49:35.018-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
