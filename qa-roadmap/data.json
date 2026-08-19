@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T22:05:44+00:00",
+ "generated_at": "2026-08-19T22:39:28+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -1982,6 +1982,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21555",
+   "name": "IND Plus - Member Portal",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Camille Knight",
+   "prio": "4: Low",
+   "created": "2026-08-19T07:11:38.046-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21551",
    "name": "PMP - LL - Auto Renew Failed for ACH Payments",
    "pod": "PLANS",
@@ -2294,29 +2317,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21555",
-   "name": "IND Plus - Member Portal",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Camille Knight",
-   "prio": "4: Low",
-   "created": "2026-08-19T07:11:38.046-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21536",
    "name": "PMP - LL - E-doc Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
    "pod": "LL",
@@ -2341,7 +2341,7 @@
   },
   {
    "key": "PLANS-21531",
-   "name": "Member Portal \\ Upgrading plan makes the membership agreement link button to disappear",
+   "name": "Member Portal \\ Upgrading and Renewing plan makes the membership agreement link button to disappear",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -4692,29 +4692,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21278",
-   "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-14T10:39:35.143-0700",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20904",
    "name": "PDS plan linked to a NON PDS office",
    "pod": "PLANS",
@@ -4843,6 +4820,29 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21278",
+   "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-14T10:39:35.143-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5133,29 +5133,6 @@
    "created": "2026-08-18T08:18:46.311-0700",
    "resolved": "",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21456",
-   "name": "Member Portal \\ Consent details are currently unavailable at checkout screen during a manual renewal",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-18T07:35:59.798-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -5630,6 +5607,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21456",
+   "name": "Member Portal \\ Consent details are currently unavailable at checkout screen during a manual renewal",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-18T07:35:59.798-0700",
+   "resolved": "2026-08-19T15:08:24.216-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20644",
    "name": "CSP \\ Disabling the OpenClosedNetwork feature flag does not restore the Legacy Membership Agreement across purchase and Member Portal flows",
@@ -19156,6 +19156,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21593",
+   "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  },
   {
    "key": "PLANS-21590",
    "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
