@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T19:38:58+00:00",
+ "generated_at": "2026-08-19T20:05:47+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2248,6 +2248,28 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21585",
+   "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-19T12:47:49.177-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5282,28 +5304,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20740",
-   "name": "One Smile – Enrollment email is not received after successful enrollment",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-04T12:01:40.223-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20644",
    "name": "CSP \\ Disabling the OpenClosedNetwork feature flag does not restore the Legacy Membership Agreement across purchase and Member Portal flows",
    "pod": "PLANS",
@@ -5609,6 +5609,28 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-20740",
+   "name": "One Smile – Enrollment email is not received after successful enrollment",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-04T12:01:40.223-0700",
+   "resolved": "2026-08-19T12:48:13.603-0700",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21321",
    "name": "PLANS-21321: Essential Smiles: Unable to complete plan purchase",
