@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T14:25:15+00:00",
+ "generated_at": "2026-08-19T14:38:50+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -1997,7 +1997,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2296,6 +2296,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21558",
+   "name": "PMP - LL - Primary Payment Method is ACH, but Credit Card option is Auto-Selected During Manual Renewal",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T07:17:59.452-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21556",
    "name": "Ind Plus - Member Portal - Add Member Flow",
    "pod": "PLANS",
@@ -2391,7 +2411,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2401,7 +2421,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2519,7 +2539,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2588,7 +2608,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -3630,7 +3650,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
@@ -3640,7 +3660,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4833,29 +4853,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21157",
-   "name": "Plan Details PDF - Incorrect Plan Name Displayed in Heading Section",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T03:36:39.503-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-18089",
    "name": "Provider Portal - paid by office - charging the wrong amount in Prod ; Paid by office payments are not visible under office transactions in STAGE",
    "pod": "PLANS",
@@ -5212,6 +5209,29 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21157",
+   "name": "Plan Details PDF - Incorrect Plan Name Displayed in Heading Section",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T03:36:39.503-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -18929,17 +18949,17 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-21558",
-   "name": "PMP - LL - Primary method is ACH , however when Manually Renew , CC option auto selected",
+   "key": "PLANS-21559",
+   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
+   "reporter": "Vinita Thankur"
   },
   {
    "key": "PLANS-21550",
-   "name": "PMP<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
+   "name": "PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
    "status": "Ready for Development",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Vinita Thankur"
   },
   {
