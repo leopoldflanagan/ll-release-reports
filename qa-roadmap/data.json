@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T05:10:05+00:00",
+ "generated_at": "2026-08-19T05:41:39+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2003,29 +2003,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21321",
-   "name": "PLANS-21321: Essential Smiles: Unable to complete plan purchase",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-14T13:59:53.065-0700",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21278",
    "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
    "pod": "PLANS",
@@ -2108,29 +2085,6 @@
    "resolved": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21013",
-   "name": "PLANS-21013: One Smile: Unable to complete plan purchase",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-11T11:48:04.296-0700",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -3688,7 +3642,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3826,7 +3780,7 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": false,
@@ -4078,7 +4032,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -4445,7 +4399,7 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -4468,7 +4422,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -4927,7 +4881,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5060,6 +5014,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21321",
+   "name": "PLANS-21321: Essential Smiles: Unable to complete plan purchase",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-14T13:59:53.065-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21110",
    "name": "PMP <Stage<ACH<Payment Receipt PDF is showing CC instead of Banking Account",
    "pod": "LL",
@@ -5074,6 +5051,29 @@
    "resolved": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21013",
+   "name": "PLANS-21013: One Smile: Unable to complete plan purchase",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-11T11:48:04.296-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -6139,7 +6139,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -9807,7 +9807,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -11630,7 +11630,7 @@
    "labels": [
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": true,
@@ -12231,7 +12231,7 @@
    "created": "2026-07-23T15:02:41.571-0700",
    "resolved": "2026-07-24T01:34:54.849-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -12951,7 +12951,7 @@
    "created": "2026-07-10T03:31:36.560-0700",
    "resolved": "2026-07-21T13:24:25.376-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -13857,7 +13857,7 @@
    "created": "2026-05-27T11:02:07.369-0700",
    "resolved": "2026-07-16T14:36:23.345-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -13877,7 +13877,7 @@
    "created": "2026-05-11T11:53:52.354-0700",
    "resolved": "2026-07-16T14:10:43.907-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -14523,7 +14523,7 @@
    "created": "2026-07-10T16:01:59.778-0700",
    "resolved": "2026-07-13T09:26:38.721-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -14607,7 +14607,7 @@
    "created": "2026-07-10T11:10:00.840-0700",
    "resolved": "2026-07-13T08:45:34.416-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -16172,7 +16172,7 @@
    "created": "2026-06-25T08:28:52.798-0700",
    "resolved": "2026-07-01T13:33:03.280-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -16792,7 +16792,7 @@
    "created": "2026-05-20T14:03:17.356-0700",
    "resolved": "2026-06-23T11:31:26.646-0700",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -18747,6 +18747,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21534",
+   "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-21509",
    "name": "bug - report inprogress",
