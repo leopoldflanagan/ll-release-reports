@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T14:17:01+00:00",
+ "generated_at": "2026-08-19T14:25:15+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2355,7 +2355,7 @@
    "created": "2026-08-19T07:06:26.416-0700",
    "resolved": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2378,7 +2378,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -18929,9 +18929,16 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-21558",
+   "name": "PMP - LL - Primary method is ACH , however when Manually Renew , CC option auto selected",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-21550",
    "name": "PMP<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
-   "status": "Backlog",
+   "status": "Ready for Development",
    "who": "Unassigned",
    "reporter": "Vinita Thankur"
   },
