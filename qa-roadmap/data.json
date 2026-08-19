@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T21:07:34+00:00",
+ "generated_at": "2026-08-19T21:39:10+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -1959,29 +1959,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-21559",
-   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:37:51.636-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21551",
    "name": "PMP - LL - Auto Renew Failed for ACH Payments",
    "pod": "PLANS",
@@ -2277,7 +2254,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "Plans-Sprint 20-26",
    "who": "Mariano Hernández",
    "reporter": "Camille Knight",
    "prio": "4: Low",
@@ -3203,6 +3180,28 @@
    ],
    "theme": "",
    "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21591",
+   "name": "Marketing Consent / Member Portal - Decline mkt consent in CSP and is enabled in member portal",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-19T14:37:14.431-0700",
+   "resolved": "",
+   "labels": [
+    "LLplans"
+   ],
+   "theme": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4534,29 +4533,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-18575",
-   "name": "CSP - Stage - Practices (Monet)are not showing for SGDP CA Plan while purchasing",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-26T09:05:24.099-0700",
-   "resolved": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-18356",
    "name": "PDS: Mandatory Field Required - Patient MRN",
    "pod": "PLANS",
@@ -4804,6 +4780,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21559",
+   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:37:51.636-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21528",
    "name": "ACH - Refunded plans not visible in CSP plan transactions",
    "pod": "LL",
@@ -4844,29 +4843,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21439",
-   "name": "PMP/Plan Card/Incorrect website and support email in the PDF document",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T19:01:14.899-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5189,6 +5165,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21439",
+   "name": "PMP/Plan Card/Incorrect website and support email in the PDF document",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T19:01:14.899-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21362",
    "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
    "pod": "LL",
@@ -5407,6 +5406,29 @@
    "created": "2026-07-17T10:11:50.459-0700",
    "resolved": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18575",
+   "name": "CSP - Stage - Practices (Monet)are not showing for SGDP CA Plan while purchasing",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-06-26T09:05:24.099-0700",
+   "resolved": "",
+   "labels": [
+    "PDS",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -19134,6 +19156,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21590",
+   "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  },
   {
    "key": "PLANS-21577",
    "name": "PMP \\ Membership status of DCA migrated member are getting updated from Active to Delinquent after setting up their auto renewal using ACH Payment method",
