@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T15:33:53+00:00",
+ "generated_at": "2026-08-19T15:41:49+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -4345,7 +4345,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-07-29T18:55:58.592-0700",
