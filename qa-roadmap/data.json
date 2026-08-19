@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T15:09:08+00:00",
+ "generated_at": "2026-08-19T15:33:53+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -1981,6 +1981,75 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21559",
+   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:37:51.636-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21549",
+   "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T06:46:14.300-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21539",
+   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-19T03:47:52.484-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21463",
    "name": "Crosby Dental - PBO Charging Incorrectly",
    "pod": "PLANS",
@@ -2273,75 +2342,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21560",
-   "name": "Ind Plus - Member Portal - Capacity Showing",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:40:02.809-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21559",
-   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:37:51.636-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21556",
-   "name": "Ind Plus - Member Portal - Add Member Flow",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:14:16.984-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21555",
    "name": "IND Plus - Member Portal",
    "pod": "PLANS",
@@ -2365,52 +2365,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21549",
-   "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-19T06:46:14.300-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21539",
-   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-19T03:47:52.484-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21536",
    "name": "PMP - LL - E-doc Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
    "pod": "LL",
@@ -2418,7 +2372,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Oleksandr Terletskyy",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-19T03:38:19.567-0700",
@@ -2428,29 +2382,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21534",
-   "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-18T22:15:16.290-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2474,29 +2405,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21528",
-   "name": "ACH - Refunded plans not visible in CSP plan transactions",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T15:01:20.958-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2529,75 +2437,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21509",
-   "name": "PMP - LL - Authorization Form Visible When Adding a new ACH Payment Method Without Making a Payment",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T12:23:02.868-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21504",
-   "name": "wf-consent-ui never attaches X-Parent-Domain — bundle-embedded consumers get 403'd by plans-widget-api",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "2: Important",
-   "created": "2026-08-18T11:44:19.616-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21483",
-   "name": "Provider Portal consent widget has no CORS allow-list row in Plans.WidgetCorsSettings",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "2: Important",
-   "created": "2026-08-18T11:04:55.877-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21472",
    "name": "ACH<Member Portal<Stage<Change The Primary Payment Method dialog doesn't show All Bank Accounts in Member Portal",
    "pod": "LL",
@@ -2621,29 +2460,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21459",
-   "name": "Member Portal consent widget can't reach legal-text/preflight/document-url — member-bff never implemented the routes",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "2: Important",
-   "created": "2026-08-18T08:06:23.138-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21435",
    "name": "PMP| ACH| Entered Data is not preserved When Switching Between Payment Tiles",
    "pod": "LL",
@@ -2661,29 +2477,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21385",
-   "name": "Rules not working for all plans",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T08:43:57.488-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3101,29 +2894,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-18575",
-   "name": "CSP - Stage - Practices (Monet)are not showing for SGDP CA Plan while purchasing",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-26T09:05:24.099-0700",
-   "resolved": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-18083",
    "name": "Member portal - ADD PLAN - add member ; giving 500 error",
    "pod": "LL",
@@ -3535,6 +3305,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21560",
+   "name": "Ind Plus - Member Portal - Capacity Showing",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:40:02.809-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21558",
    "name": "PMP - LL - Primary Payment Method is ACH, but Credit Card option is Auto-Selected During Manual Renewal",
    "pod": "LL",
@@ -3552,6 +3345,29 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21556",
+   "name": "Ind Plus - Member Portal - Add Member Flow",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:14:16.984-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3604,6 +3420,52 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21534",
+   "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-18T22:15:16.290-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21528",
+   "name": "ACH - Refunded plans not visible in CSP plan transactions",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T15:01:20.958-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21516",
    "name": "IND. Plus plan - UI improvement",
    "pod": "PLANS",
@@ -3650,6 +3512,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21509",
+   "name": "PMP - LL - Authorization Form Visible When Adding a new ACH Payment Method Without Making a Payment",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T12:23:02.868-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21505",
    "name": "QA investigate - when a member buys the same discounted plan themselves through the member portal's Add a Plan flow, the system still records the standard Wellfit Share - not the reduced one.",
    "pod": "LL",
@@ -3678,8 +3563,8 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
@@ -3782,6 +3667,29 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21385",
+   "name": "Rules not working for all plans",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T08:43:57.488-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4673,6 +4581,29 @@
    "created": "2026-07-08T13:36:39.975-0700",
    "resolved": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18575",
+   "name": "CSP - Stage - Practices (Monet)are not showing for SGDP CA Plan while purchasing",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-06-26T09:05:24.099-0700",
+   "resolved": "",
+   "labels": [
+    "PDS",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -5687,6 +5618,75 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21504",
+   "name": "wf-consent-ui never attaches X-Parent-Domain — bundle-embedded consumers get 403'd by plans-widget-api",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-18T11:44:19.616-0700",
+   "resolved": "2026-08-19T08:21:20.918-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21483",
+   "name": "Provider Portal consent widget has no CORS allow-list row in Plans.WidgetCorsSettings",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-18T11:04:55.877-0700",
+   "resolved": "2026-08-19T08:21:17.621-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21459",
+   "name": "Member Portal consent widget can't reach legal-text/preflight/document-url — member-bff never implemented the routes",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-18T08:06:23.138-0700",
+   "resolved": "2026-08-19T08:21:14.689-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21561",
    "name": "PMP - LL - next plan stars on 19/08/27 however next recurring payment date is 18/08/27",
@@ -19036,26 +19036,6 @@
    "prio": "3: Standard",
    "created": "2026-05-11T14:51:20.743-0700",
    "resolved": "2026-05-21T08:45:02.041-0700",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-16125",
-   "name": "Account Information | Account History | The older information gets overwritten when buying a new plan",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "Plans-Sprint 13-26",
-   "who": "Daryl Myrick",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-05-13T16:09:53.078-0700",
-   "resolved": "2026-05-21T08:09:55.029-0700",
    "labels": [],
    "theme": "",
    "triage": "",
