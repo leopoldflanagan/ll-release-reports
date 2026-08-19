@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T12:07:21+00:00",
+ "generated_at": "2026-08-19T12:46:09+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2407,6 +2407,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21509",
+   "name": "PMP - LL - Authorization Form Visible When Adding a new ACH Payment Method Without Making a Payment",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-18T12:23:02.868-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21504",
    "name": "wf-consent-ui never attaches X-Parent-Domain — bundle-embedded consumers get 403'd by plans-widget-api",
    "pod": "LL",
@@ -2493,29 +2513,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21441",
-   "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-17T22:22:01.617-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4598,6 +4595,29 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21441",
+   "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-17T22:22:01.617-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -18789,7 +18809,7 @@
  "nopod": [
   {
    "key": "PLANS-21540",
-   "name": "Investigate: consent form reportedly not showing on Dev (config theory ruled out)",
+   "name": "RESOLVED: consent form not showing on Dev — LegalLanguageUpdates2026 flag was disabled",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Dima Shtympel"
@@ -18800,13 +18820,6 @@
    "status": "Backlog",
    "who": "Vasyl Skochko",
    "reporter": "Vinita Thankur"
-  },
-  {
-   "key": "PLANS-21509",
-   "name": "bug - report inprogress",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
