@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T10:41:56+00:00",
+ "generated_at": "2026-08-19T11:06:24+00:00",
  "today": "2026-08-19",
  "features": [
   {
@@ -2018,6 +2018,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21327",
+   "name": "PMP - UI - Additional Member Discount Displays as $0, Inaccurate cost breakdown display (not a functional issue , discount included in the annual plan Cost)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-14T14:21:36.354-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21278",
    "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
    "pod": "PLANS",
@@ -2241,6 +2264,46 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21539",
+   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T03:47:52.484-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21536",
+   "name": "PMP - LL - E-doc Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T03:38:19.567-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21531",
    "name": "Member Portal \\ Upgrading plan makes the membership agreement link button to disappear",
    "pod": "LL",
@@ -2428,29 +2491,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21440",
-   "name": "Member portal/ACH is displayed as saved card in payment methods though achOnPmpEnabled flag is false",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-17T22:06:16.544-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21435",
    "name": "PMP| ACH| Entered Data is not preserved When Switching Between Payment Tiles",
    "pod": "LL",
@@ -2485,29 +2525,6 @@
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-08-17T08:43:57.488-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21327",
-   "name": "PMP - UI - Additional Member Discount Displays as $0, Inaccurate cost breakdown display (not a functional issue , discount included in the annual plan Cost)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-14T14:21:36.354-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -4550,6 +4567,29 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21440",
+   "name": "Member portal/ACH is displayed as saved card in payment methods though achOnPmpEnabled flag is false",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-17T22:06:16.544-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -18717,11 +18757,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-21536",
-   "name": "PMP - LL - Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
+   "key": "PLANS-21540",
+   "name": "Investigate: consent form reportedly not showing on Dev (config theory ruled out)",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
+   "reporter": "Dima Shtympel"
   },
   {
    "key": "PLANS-21534",
