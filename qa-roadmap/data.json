@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T01:30:32+00:00",
+ "generated_at": "2026-08-20T02:25:18+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -391,17 +391,6 @@
    "fv": null,
    "who": "Unassigned",
    "tshirt": "X-Large",
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-18074",
-   "name": "CSP - Request a Refund",
-   "status": "In Testing",
-   "ted": "2026-08-20",
-   "fv": null,
-   "who": "Daryl Myrick",
-   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-MVP"
   },
@@ -1241,17 +1230,6 @@
    "fv": null,
    "ted": null,
    "who": "Unassigned",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-18074",
-   "name": "CSP - Request a Refund",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": null,
-   "ted": "2026-08-20",
-   "who": "Daryl Myrick",
    "theme": "LL-MVP"
   },
   {
@@ -19131,7 +19109,7 @@
  "nopod": [
   {
    "key": "PLANS-21605",
-   "name": "ACH/Transaction Receipt/Incorrect Bank number in transaction details and PDF receipt",
+   "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
