@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T00:09:48+00:00",
+ "generated_at": "2026-08-20T00:47:11+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -15,7 +15,7 @@
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
    "status": "In Testing",
-   "ted": "2026-08-21",
+   "ted": "2026-08-24",
    "fv": "R9.7",
    "who": "Dima Shtympel",
    "tshirt": "Huge"
@@ -310,7 +310,7 @@
    "key": "PLANS-16409",
    "name": "Electronic Consent Form Updates",
    "status": "In Testing",
-   "ted": "2026-08-21",
+   "ted": "2026-08-24",
    "fv": "R9.7",
    "who": "Dima Shtympel",
    "tshirt": "Huge",
@@ -375,7 +375,7 @@
   {
    "key": "PLANS-17588",
    "name": "DSO Dashboard",
-   "status": "In Testing",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.7",
    "who": "Harisha Pallacheruvu",
@@ -1162,7 +1162,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-21",
+   "ted": "2026-08-24",
    "who": "Dima Shtympel",
    "theme": "LL-MVP"
   },
@@ -1226,7 +1226,7 @@
    "name": "DSO Dashboard",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "In Development",
    "fv": "R9.7",
    "ted": null,
    "who": "Harisha Pallacheruvu",
@@ -2124,7 +2124,10 @@
    "prio": "3: Standard",
    "created": "2026-07-22T07:15:37.817-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
@@ -2237,6 +2240,29 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21570",
+   "name": "PMP - UI - showing multiple decimals in plan fee when add new plan",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T09:37:04.980-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3244,6 +3270,29 @@
    ],
    "theme": "",
    "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21577",
+   "name": "PMP \\ Membership status of DCA migrated member are getting updated from Active to Delinquent after setting up their auto renewal using ACH Payment method",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T10:59:26.595-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4680,7 +4729,10 @@
    "prio": "3: Standard",
    "created": "2026-07-06T12:34:05.073-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
@@ -4702,26 +4754,6 @@
    "resolved": "",
    "labels": [],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-20930",
-   "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-08-10T15:37:10.182-0700",
-   "resolved": "",
-   "labels": [],
-   "theme": "",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -4782,28 +4814,9 @@
    "prio": "2: Important",
    "created": "2026-07-16T07:34:57.058-0700",
    "resolved": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19672",
-   "name": "[Membership Fee Promo] - Calculation of discount is not accurate",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-15T11:30:26.863-0700",
-   "resolved": "",
    "labels": [
-    "LLplans"
+    "group1_migration",
+    "product_prioritized"
    ],
    "theme": "LL-MVP",
    "triage": "",
@@ -4866,7 +4879,7 @@
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Mercedes Hung",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-02-25T18:00:24.684-0800",
    "resolved": "",
    "labels": [],
@@ -5211,6 +5224,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20930",
+   "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-10T15:37:10.182-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-20553",
    "name": "Landing page for Smile Health",
    "pod": "PLANS",
@@ -5296,6 +5332,28 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-19672",
+   "name": "[Membership Fee Promo] - Calculation of discount is not accurate",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-07-15T11:30:26.863-0700",
+   "resolved": "",
+   "labels": [
+    "LLplans"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5402,7 +5460,10 @@
    "prio": "3: Standard",
    "created": "2026-04-10T08:33:17.673-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
@@ -19082,25 +19143,11 @@
    "reporter": "Hazel Loya"
   },
   {
-   "key": "PLANS-21577",
-   "name": "PMP \\ Membership status of DCA migrated member are getting updated from Active to Delinquent after setting up their auto renewal using ACH Payment method",
-   "status": "Ready for Development",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
    "key": "PLANS-21573",
    "name": "Tie Plan Multi Practice View Upgrade Plan| Offices outside org are showing for the upgrade plan",
    "status": "PR Created",
    "who": "Hunter Redhead",
    "reporter": "Hazel Loya"
-  },
-  {
-   "key": "PLANS-21570",
-   "name": "PMP - UI - showing multiple decimals in plan fee when add new plan",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
