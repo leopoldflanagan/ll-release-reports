@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T18:08:03+00:00",
+ "generated_at": "2026-08-20T18:45:14+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -19381,6 +19381,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21643",
+   "name": "Plans<Stage<SGDP PP<SGDP CA not displaying Medical-Insurance checkbox at checkout page.",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-21642",
    "name": "DCA - Configuration Error is displayed when proceeding to the Purchase step with multiple additional members",
