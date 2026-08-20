@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T12:08:26+00:00",
+ "generated_at": "2026-08-20T12:46:04+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -2044,29 +2044,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21410",
-   "name": "PMP/ACH/Inline agreement is not displayed under payment methods on using a saved ACH for purchase",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-17T10:49:35.018-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21327",
    "name": "PLANS-21327: Member Portal: Additional Member Discount Displays as $0 - Inaccurate cost breakdown display (not a functional issue , discount included in the annual plan Cost)",
    "pod": "LL",
@@ -2084,29 +2061,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21206",
-   "name": "ACH<PMP<Add Payment Method<ADD button is disabled while adding ACH bank account",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-13T09:43:44.941-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3394,7 +3348,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Dmytro Tymofiienko",
+   "who": "Denys Kernychnyi",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-08-18T12:47:17.957-0700",
@@ -4335,7 +4289,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Nazarii Polinyk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22T08:47:16.230-0700",
@@ -4532,29 +4486,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21539",
-   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-19T03:47:52.484-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21440",
    "name": "Member portal/ACH is displayed as saved card in payment methods though achOnPmpEnabled flag is false",
    "pod": "LL",
@@ -4738,6 +4669,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21539",
+   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-19T03:47:52.484-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21534",
    "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
    "pod": "LL",
@@ -4778,6 +4732,29 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21206",
+   "name": "ACH<PMP<Add Payment Method<ADD button is disabled while adding ACH bank account",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-13T09:43:44.941-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5040,6 +5017,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21410",
+   "name": "PMP/ACH/Inline agreement is not displayed under payment methods on using a saved ACH for purchase",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-17T10:49:35.018-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21362",
    "name": "Member Portal : Membership Card (Back): Incorrect text for \"Administered by \"",
    "pod": "LL",
@@ -5266,29 +5266,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-17978",
-   "name": "WFP - Blocker - Plan purchase/ Manual Renew failed (takes few minutes)- forever loading page",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-06-12T03:23:02.476-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-14103",
    "name": "CRM Emails | KIDS PLANS | Primary contact is not receiving \"remove from auto renewal\" mail for minor member",
    "pod": "PLANS",
@@ -5440,6 +5417,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-17978",
+   "name": "WFP - Blocker - Plan purchase/ Manual Renew failed (takes few minutes)- forever loading page",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-06-12T03:23:02.476-0700",
+   "resolved": "2026-08-20T05:35:13.404-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20178",
    "name": "500 Error in CSP updating a Benefit Plan Template",
