@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T12:46:04+00:00",
+ "generated_at": "2026-08-20T13:19:42+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -1952,29 +1952,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21551",
-   "name": "PMP - LL - Auto Renew Failed for ACH Payments",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-19T07:06:26.416-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21550",
    "name": "Provider Portal not display E-consent checkbox<PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
    "pod": "LL",
@@ -1998,17 +1975,40 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21481",
-   "name": "ACH<Member Portal<Stage<Validation message Required for already Primary Bank account, if try to make Primary account again",
+   "key": "PLANS-21515",
+   "name": "Auto-Renewal not being shown for DCA Website",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-18T12:47:17.957-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21509",
+   "name": "PMP - LL - Authorization Form Visible When Adding a new ACH Payment Method Without Making a Payment",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
    "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-18T10:44:09.015-0700",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T12:23:02.868-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -2016,9 +2016,9 @@
    ],
    "theme": "ACH",
    "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21480",
@@ -3341,52 +3341,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21515",
-   "name": "Auto-Renewal not being shown for DCA Website",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-18T12:47:17.957-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21509",
-   "name": "PMP - LL - Authorization Form Visible When Adding a new ACH Payment Method Without Making a Payment",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T12:23:02.868-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21505",
    "name": "QA investigate - when a member buys the same discounted plan themselves through the member portal's Add a Plan flow, the system still records the standard Wellfit Share - not the reduced one.",
    "pod": "LL",
@@ -3440,7 +3394,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-18T08:08:30.977-0700",
@@ -4128,7 +4082,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Dmytro Tymofiienko",
+   "who": "Mykyta Moroz",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-07-29T18:55:58.592-0700",
@@ -4289,7 +4243,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Nazarii Polinyk",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22T08:47:16.230-0700",
@@ -4484,6 +4438,29 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21481",
+   "name": "ACH<Member Portal<Stage<Validation message Required for already Primary Bank account, if try to make Primary account again",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-18T10:44:09.015-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21440",
@@ -4738,29 +4715,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21206",
-   "name": "ACH<PMP<Add Payment Method<ADD button is disabled while adding ACH bank account",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-13T09:43:44.941-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21221",
    "name": "CSP - blocker - multi org portal restrictions",
    "pod": "LL",
@@ -4994,6 +4948,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21551",
+   "name": "PMP - LL - Auto Renew Failed for ACH Payments",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T07:06:26.416-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21441",
    "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
    "pod": "LL",
@@ -5080,6 +5057,29 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21206",
+   "name": "ACH<PMP<Add Payment Method<ADD button is disabled while adding ACH bank account",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-13T09:43:44.941-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5212,29 +5212,6 @@
    "created": "2026-07-17T10:11:50.459-0700",
    "resolved": "",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18575",
-   "name": "CSP - Stage - Practices (Monet)are not showing for SGDP CA Plan while purchasing",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-26T09:05:24.099-0700",
-   "resolved": "",
-   "labels": [
-    "PDS",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -5417,6 +5394,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-18575",
+   "name": "CSP - Stage - Practices (Monet)are not showing for SGDP CA Plan while purchasing",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-06-26T09:05:24.099-0700",
+   "resolved": "2026-08-20T06:10:16.592-0700",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-17978",
    "name": "WFP - Blocker - Plan purchase/ Manual Renew failed (takes few minutes)- forever loading page",
@@ -19205,8 +19205,8 @@
   {
    "key": "PLANS-21590",
    "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "Hunter Redhead",
    "reporter": "Hazel Loya"
   },
   {
