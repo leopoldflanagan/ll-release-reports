@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T16:08:31+00:00",
+ "generated_at": "2026-08-20T16:43:51+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -376,7 +376,7 @@
    "key": "PLANS-17588",
    "name": "DSO Dashboard",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-08-21",
    "fv": "R9.7",
    "who": "Harisha Pallacheruvu",
    "tshirt": "Large",
@@ -1217,7 +1217,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-21",
    "who": "Harisha Pallacheruvu",
    "theme": "LL-MVP"
   },
@@ -1998,6 +1998,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21556",
+   "name": "Ind Plus - Member Portal - Add Member Flow",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Conor Kamperman",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:14:16.984-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21555",
    "name": "IND Plus - Member Portal",
    "pod": "PLANS",
@@ -2136,6 +2159,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20865",
+   "name": "Solomon Dentistry-Plans Payment Acceptance Error",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Conor Kamperman",
+   "reporter": "Brianna Hill",
+   "prio": "2: Important",
+   "created": "2026-08-07T10:36:51.209-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20079",
    "name": "OneSmile , DCA & Comfort Dental - Wallet (Apple) - Custom logos/theme are not properly aligned on Apple Wallet pass",
    "pod": "PLANS",
@@ -2150,28 +2196,6 @@
    "resolved": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22T01:45:52.005-0700",
-   "resolved": "",
-   "labels": [
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -2247,6 +2271,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21632",
+   "name": "Smile Health - Password error",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-08-20T09:12:24.837-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21627",
    "name": "ACH Partial refund - Unable to perform multiple refunds",
    "pod": "LL",
@@ -2254,7 +2301,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-20T08:04:54.075-0700",
@@ -3411,29 +3458,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21586",
-   "name": "[MP]-Transaction full receipt displays wrong office data",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-19T13:14:53.822-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21563",
    "name": "Plan Deleted when switching over the primary",
    "pod": "PLANS",
@@ -3477,29 +3501,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21556",
-   "name": "Ind Plus - Member Portal - Add Member Flow",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:14:16.984-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21516",
@@ -3555,7 +3556,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "David Jones",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-08-18T10:57:17.813-0700",
@@ -4122,29 +4123,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20865",
-   "name": "Solomon Dentistry-Plans Payment Acceptance Error",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Brianna Hill",
-   "prio": "2: Important",
-   "created": "2026-08-07T10:36:51.209-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20838",
    "name": "CSP - Renewal Restriction Banner Not Visible and Restriction Value Lost When Configured from Group Management",
    "pod": "LL",
@@ -4647,43 +4625,19 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21480",
-   "name": "[ACH] - PMP manual renewal does not show DCA plans",
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-18T10:42:34.928-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21160",
-   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices.",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-13T04:05:47.307-0700",
+   "prio": "2: Important",
+   "created": "2026-07-22T01:45:52.005-0700",
    "resolved": "",
    "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -4785,6 +4739,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21480",
+   "name": "[ACH] - PMP manual renewal does not show DCA plans",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-18T10:42:34.928-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21429",
    "name": "ACH - [PMP] - Error is displayed for valid data while adding a second ACH account",
    "pod": "LL",
@@ -4803,6 +4780,52 @@
    ],
    "theme": "ACH",
    "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21160",
+   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices.",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-13T04:05:47.307-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21586",
+   "name": "[MP]-Transaction full receipt displays wrong office data",
+   "pod": "PLANS",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-19T13:14:53.822-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5110,29 +5133,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-21481",
-   "name": "ACH<Member Portal<Stage<Validation message Required for already Primary Bank account, if try to make Primary account again",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-18T10:44:09.015-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-21441",
@@ -5582,6 +5582,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21481",
+   "name": "ACH<Member Portal<Stage<Validation message Required for already Primary Bank account, if try to make Primary account again",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-18T10:44:09.015-0700",
+   "resolved": "2026-08-20T09:25:25.369-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
   {
    "key": "PLANS-20930",
    "name": "Individual Plus/Admin fee is auto discounted on adding a member to an existing plan",
