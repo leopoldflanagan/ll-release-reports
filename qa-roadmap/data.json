@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T14:38:48+00:00",
+ "generated_at": "2026-08-20T14:44:32+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -2243,6 +2243,26 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21623",
+   "name": "ACH Refund - Refund not audited in History of accounts",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-20T07:37:22.516-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4741,29 +4761,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-12134",
-   "name": "WFP - Incorrect amounts appear in CSP Plan Transactions when two plans are purchased together with an additional plan discount.",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-02-13T06:20:57.953-0800",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21577",
    "name": "PMP \\ Membership status of DCA migrated member are getting updated from Active to Delinquent after setting up their auto renewal using ACH Payment method",
    "pod": "LL",
@@ -4895,6 +4892,29 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-12134",
+   "name": "WFP - Incorrect amounts appear in CSP Plan Transactions when two plans are purchased together with an additional plan discount.",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-02-13T06:20:57.953-0800",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -19331,13 +19351,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-21623",
-   "name": "ACH Refund - Refund ransactions not visible in Hisory of accounts",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-21618",
    "name": "delete",
