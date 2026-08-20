@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T14:44:32+00:00",
+ "generated_at": "2026-08-20T15:10:55+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -2113,6 +2113,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21160",
+   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices.",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-13T04:05:47.307-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20968",
    "name": "[Member Portal]-Header displays wrong portal logo",
    "pod": "PLANS",
@@ -2247,8 +2270,8 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21623",
-   "name": "ACH Refund - Refund not audited in History of accounts",
+   "key": "PLANS-21627",
+   "name": "ACH Partial refund - Unable to perform multiple refunds",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -2257,14 +2280,37 @@
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-08-20T07:37:22.516-0700",
+   "created": "2026-08-20T08:04:54.075-0700",
    "resolved": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21623",
+   "name": "ACH Refund - Refund not audited in History of accounts (ACH/CC )",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-20T07:37:22.516-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21619",
@@ -3639,29 +3685,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21160",
-   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices.",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-13T04:05:47.307-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21154",
    "name": "All Portals - Plan Details - Custom Logo Not Visible in Plan Detail Document (legacy and New )",
    "pod": "LL",
@@ -4669,6 +4692,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21439",
+   "name": "PMP/Plan Card/Incorrect website and support phone in the PDF document",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T19:01:14.899-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21434",
    "name": "ACH|Purchase button is not disabled after first click",
    "pod": "LL",
@@ -4847,29 +4893,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21439",
-   "name": "PMP/Plan Card/Incorrect website and support phone in the PDF document",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T19:01:14.899-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -19350,15 +19373,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-21618",
-   "name": "delete",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 17–23",
