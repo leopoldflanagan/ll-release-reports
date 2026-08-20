@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T13:45:57+00:00",
+ "generated_at": "2026-08-20T14:13:45+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -2247,6 +2247,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21619",
+   "name": "CSP - Renew restrictions are not being applied",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-20T06:35:11.624-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21615",
    "name": "ACH Refund -Refund Transaction Not Displayed in PMP Member Transactions When Refund Is Processed Through CSP UI (Showing a 'Approved' transaction without a purchase type)",
    "pod": "LL",
@@ -4485,29 +4505,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21440",
-   "name": "Member portal/ACH is displayed as saved card in payment methods though achOnPmpEnabled flag is false",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-17T22:06:16.544-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21434",
    "name": "ACH|Purchase button is not disabled after first click",
    "pod": "LL",
@@ -4548,28 +4545,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20904",
-   "name": "PDS plan linked to a NON PDS office",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Clint Tredway",
-   "reporter": "Carmen West",
-   "prio": "1: Urgent",
-   "created": "2026-08-10T11:00:37.040-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4714,6 +4689,29 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-21440",
+   "name": "Member portal/ACH is displayed as saved card in payment methods though achOnPmpEnabled flag is false",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-17T22:06:16.544-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21439",
    "name": "PMP/Plan Card/Incorrect website and support phone in the PDF document",
    "pod": "LL",
@@ -4728,6 +4726,28 @@
    "resolved": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20904",
+   "name": "PDS plan linked to a NON PDS office",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Clint Tredway",
+   "reporter": "Carmen West",
+   "prio": "1: Urgent",
+   "created": "2026-08-10T11:00:37.040-0700",
+   "resolved": "",
+   "labels": [
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -19168,13 +19188,6 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-21619",
-   "name": "CSP - Renew restrictions are not being applied",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
    "key": "PLANS-21618",
    "name": "ACH Refund - Settled transacions shows as a anoher Purchase and not showing a purchase type",
    "status": "Backlog",
@@ -19205,8 +19218,8 @@
   {
    "key": "PLANS-21593",
    "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "Hunter Redhead",
    "reporter": "Hazel Loya"
   },
   {
