@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T20:07:02+00:00",
+ "generated_at": "2026-08-20T20:41:17+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -1037,7 +1037,7 @@
    "name": "ach-signed-authorization-lane",
    "status": "In Development",
    "ted": "2026-08-17",
-   "fv": null,
+   "fv": "R9.6.5",
    "who": "Unassigned",
    "tshirt": null,
    "pod": "PLAT",
@@ -1865,7 +1865,7 @@
    "pod": "PLAT",
    "proj": "PLAT",
    "status": "In Development",
-   "fv": null,
+   "fv": "R9.6.5",
    "ted": "2026-08-17",
    "who": "Unassigned",
    "theme": "ACH-Fast Follows"
@@ -1901,29 +1901,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21590",
-   "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-19T14:34:21.910-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2062,6 +2039,29 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21482",
+   "name": "Manual renewal is incorrectly blocked for plans that were previously auto-renewed",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-18T10:57:17.813-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3481,29 +3481,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21482",
-   "name": "Manual renewal is incorrectly blocked for plans that were previously auto-renewed",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-18T10:57:17.813-0700",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21460",
    "name": "QA Test - unable to test declined payments and- authorization failure triggers (ACH payments currently always return a success response, regardless of the account information provided by the user.)",
    "pod": "LL",
@@ -3529,12 +3506,12 @@
   {
    "key": "PLANS-21385",
    "name": "Rules not working for all plans",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Daryl Myrick",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-08-17T08:43:57.488-0700",
@@ -4465,6 +4442,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21590",
+   "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-19T14:34:21.910-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21573",
    "name": "Tie Plan Multi Practice View Upgrade Plan| Offices outside org are showing for the upgrade plan",
    "pod": "PLANS",
@@ -4557,29 +4557,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21539",
-   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-19T03:47:52.484-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20067",
    "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
    "pod": "LL",
@@ -4636,6 +4613,29 @@
    "reporter": "Clint Tredway",
    "prio": "3: Standard",
    "created": "2026-07-06T12:34:05.073-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21539",
+   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-19T03:47:52.484-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -4843,28 +4843,6 @@
    "resolved": "",
    "labels": [],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20133",
-   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-07-22T12:00:08.259-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5352,6 +5330,28 @@
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-07-29T17:05:42.601-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20133",
+   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-22T12:00:08.259-0700",
    "resolved": "",
    "labels": [
     "product_prioritized"
