@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T17:41:22+00:00",
+ "generated_at": "2026-08-20T18:08:03+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -4169,29 +4169,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20564",
-   "name": "Benefit Summary",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-07-29T18:55:58.592-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20560",
    "name": "CSP \\ Plan activation is allowed when the Membership Agreement logo dynamic field is missing",
    "pod": "LL",
@@ -4580,52 +4557,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21539",
-   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-19T03:47:52.484-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21536",
-   "name": "PMP - LL - E-doc Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-19T03:38:19.567-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20067",
    "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
    "pod": "LL",
@@ -4682,6 +4613,52 @@
    "reporter": "Clint Tredway",
    "prio": "3: Standard",
    "created": "2026-07-06T12:34:05.073-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21539",
+   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-19T03:47:52.484-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21536",
+   "name": "PMP - LL - E-doc Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T03:38:19.567-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -4774,6 +4751,29 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-08-13T04:05:47.307-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20564",
+   "name": "Benefit Summary",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-07-29T18:55:58.592-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -19380,7 +19380,22 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21642",
+   "name": "DCA - Configuration Error is displayed when proceeding to the Purchase step with multiple additional members",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
+  {
+   "key": "PLANS-21639",
+   "name": "DCA - Additional member cost is not reflected in the purchase total for Core and Deluxe plans",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 17–23",
