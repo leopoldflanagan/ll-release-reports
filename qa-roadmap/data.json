@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T02:47:52+00:00",
+ "generated_at": "2026-08-20T03:18:23+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -19108,9 +19108,16 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-21608",
-   "name": "ACH/transaction receipts/Live Status is not seen in transaction details for member",
+   "key": "PLANS-21609",
+   "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
    "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
+  {
+   "key": "PLANS-21608",
+   "name": "ACH/transaction receipts/Live ACH Status is not seen in transaction details for member",
+   "status": "Ready for Development",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
   },
