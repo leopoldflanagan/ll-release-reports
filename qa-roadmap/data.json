@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T13:19:42+00:00",
+ "generated_at": "2026-08-20T13:45:57+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -1975,6 +1975,52 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21539",
+   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-19T03:47:52.484-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21536",
+   "name": "PMP - LL - E-doc Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T03:38:19.567-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21515",
    "name": "Auto-Renewal not being shown for DCA Website",
    "pod": "LL",
@@ -2179,6 +2225,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-18461",
+   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-24T05:26:17.589-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21615",
    "name": "ACH Refund -Refund Transaction Not Displayed in PMP Member Transactions When Refund Is Processed Through CSP UI (Showing a 'Approved' transaction without a purchase type)",
    "pod": "LL",
@@ -2261,29 +2329,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21536",
-   "name": "PMP - LL - E-doc Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-19T03:38:19.567-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4440,29 +4485,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21481",
-   "name": "ACH<Member Portal<Stage<Validation message Required for already Primary Bank account, if try to make Primary account again",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-18T10:44:09.015-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21440",
    "name": "Member portal/ACH is displayed as saved card in payment methods though achOnPmpEnabled flag is false",
    "pod": "LL",
@@ -4646,29 +4668,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21539",
-   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-19T03:47:52.484-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21534",
    "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
    "pod": "LL",
@@ -4690,6 +4689,29 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21481",
+   "name": "ACH<Member Portal<Stage<Validation message Required for already Primary Bank account, if try to make Primary account again",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-18T10:44:09.015-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21439",
@@ -5195,50 +5217,6 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19864",
-   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-17T10:11:50.459-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18461",
-   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-24T05:26:17.589-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -13196,6 +13174,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-19864",
+   "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-17T10:11:50.459-0700",
+   "resolved": "2026-07-22T03:10:24.045-0700",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19892",
    "name": "CSP- 'Discount fields' cannot be checked and saved for Quantity/Pay Mode",
    "pod": "LL",
@@ -19168,6 +19168,13 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-21619",
+   "name": "CSP - Renew restrictions are not being applied",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-21618",
    "name": "ACH Refund - Settled transacions shows as a anoher Purchase and not showing a purchase type",
    "status": "Backlog",
@@ -19178,21 +19185,21 @@
    "key": "PLANS-21609",
    "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Vivienne Chawande"
   },
   {
    "key": "PLANS-21608",
    "name": "ACH/transaction receipts/Live ACH Status is not seen in transaction details for member",
    "status": "Ready for Development",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Vivienne Chawande"
   },
   {
    "key": "PLANS-21605",
    "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Vivienne Chawande"
   },
   {
