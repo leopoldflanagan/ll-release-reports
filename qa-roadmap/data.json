@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T14:25:31+00:00",
+ "generated_at": "2026-08-20T14:38:48+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -4525,6 +4525,29 @@
    "created": "2024-09-18T20:57:34.016-0700",
    "resolved": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21573",
+   "name": "Tie Plan Multi Practice View Upgrade Plan| Offices outside org are showing for the upgrade plan",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-19T09:51:41.980-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -19309,18 +19332,18 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-21618",
-   "name": "delete",
+   "key": "PLANS-21623",
+   "name": "ACH Refund - Refund ransactions not visible in Hisory of accounts",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
-   "key": "PLANS-21573",
-   "name": "Tie Plan Multi Practice View Upgrade Plan| Offices outside org are showing for the upgrade plan",
-   "status": "PR Created",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya"
+   "key": "PLANS-21618",
+   "name": "delete",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
