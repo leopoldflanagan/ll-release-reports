@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T23:06:40+00:00",
+ "generated_at": "2026-08-20T23:39:13+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -4648,75 +4648,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21555",
-   "name": "IND Plus - Member Portal",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Camille Knight",
-   "prio": "4: Low",
-   "created": "2026-08-19T07:11:38.046-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21539",
-   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-19T03:47:52.484-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21536",
-   "name": "PMP - LL - E-doc Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-19T03:38:19.567-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21480",
    "name": "[ACH] - PMP manual renewal does not show DCA plans",
    "pod": "LL",
@@ -4735,29 +4666,6 @@
    ],
    "theme": "ACH",
    "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21434",
-   "name": "ACH|Purchase button is not disabled after first click",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Hazel Loya",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T15:08:22.182-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4797,29 +4705,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-08-13T04:05:47.307-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20564",
-   "name": "Benefit Summary",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-07-29T18:55:58.592-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -5071,6 +4956,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21555",
+   "name": "IND Plus - Member Portal",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Camille Knight",
+   "prio": "4: Low",
+   "created": "2026-08-19T07:11:38.046-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21551",
    "name": "PMP - LL - Auto Renew Failed for ACH Payments",
    "pod": "PLANS",
@@ -5105,6 +5013,52 @@
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-08-19T07:03:24.897-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21539",
+   "name": "PMP - LL - E doc Consent Text is Displayed Above the Checkbox Instead of After the Checkbox",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-19T03:47:52.484-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21536",
+   "name": "PMP - LL - E-doc Consent Checkbox Gets Unselected When Entering a Promo Code While Other Checkboxes Remain Selected",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T03:38:19.567-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -5157,6 +5111,29 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21434",
+   "name": "ACH|Purchase button is not disabled after first click",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Hazel Loya",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T15:08:22.182-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5314,6 +5291,29 @@
    "created": "2026-08-10T11:00:37.040-0700",
    "resolved": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20564",
+   "name": "Benefit Summary",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-07-29T18:55:58.592-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
