@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T16:43:51+00:00",
+ "generated_at": "2026-08-20T17:08:51+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -348,17 +348,6 @@
    "who": "Harisha Pallacheruvu",
    "tshirt": "Large",
    "pod": "EDW",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17577",
-   "name": "Link Tokens for C/C & ACH to Members",
-   "status": "In Testing",
-   "ted": "2026-08-21",
-   "fv": "R9.7",
-   "who": "Tharika Bairi",
-   "tshirt": "Moderate",
-   "pod": "DS",
    "theme": "LL-MVP"
   },
   {
@@ -1189,17 +1178,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-17577",
-   "name": "Link Tokens for C/C & ACH to Members",
-   "pod": "DS",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-21",
-   "who": "Tharika Bairi",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-17581",
    "name": "Disbursement Splits & Admin Fee Splits",
    "pod": "PLANS",
@@ -1905,29 +1883,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-21593",
-   "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-08-19T15:34:36.931-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-21590",
    "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
@@ -4556,6 +4511,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21593",
+   "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-08-19T15:34:36.931-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21573",
    "name": "Tie Plan Multi Practice View Upgrade Plan| Offices outside org are showing for the upgrade plan",
    "pod": "PLANS",
@@ -5112,29 +5090,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21534",
-   "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-18T22:15:16.290-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21441",
    "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
    "pod": "LL",
@@ -5582,6 +5537,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21534",
+   "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-18T22:15:16.290-0700",
+   "resolved": "2026-08-20T09:47:16.796-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21481",
    "name": "ACH<Member Portal<Stage<Validation message Required for already Primary Bank account, if try to make Primary account again",
