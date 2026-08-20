@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T11:40:03+00:00",
+ "generated_at": "2026-08-20T12:08:26+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -2021,47 +2021,24 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21434",
-   "name": "ACH|Purchase button is not disabled after first click",
+   "key": "PLANS-21480",
+   "name": "[ACH] - PMP manual renewal does not show DCA plans",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Hazel Loya",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T15:08:22.182-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21429",
-   "name": "ACH - [PMP] - Error is displayed for valid data while adding a second ACH account",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
+   "who": "Denys Kernychnyi",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "2: Important",
-   "created": "2026-08-17T13:10:33.796-0700",
+   "created": "2026-08-18T10:42:34.928-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3502,29 +3479,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21480",
-   "name": "[ACH] - PMP manual renewal does not show DCA plans",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-18T10:42:34.928-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21460",
    "name": "QA Test - unable to test declined payments and- authorization failure triggers (ACH payments currently always return a success response, regardless of the account information provided by the user.)",
    "pod": "LL",
@@ -4624,6 +4578,52 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21434",
+   "name": "ACH|Purchase button is not disabled after first click",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Hazel Loya",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T15:08:22.182-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21429",
+   "name": "ACH - [PMP] - Error is displayed for valid data while adding a second ACH account",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-17T13:10:33.796-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20904",
    "name": "PDS plan linked to a NON PDS office",
    "pod": "PLANS",
@@ -5017,28 +5017,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21463",
-   "name": "Crosby Dental - PBO Charging Incorrectly",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-18T08:18:46.311-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21441",
    "name": "Member portal/HSA and Flex savings are displayed in add payment dropdown",
    "pod": "LL",
@@ -5119,29 +5097,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-13T04:44:52.361-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21157",
-   "name": "Plan Details PDF - Incorrect Plan Name Displayed in Heading Section",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T03:36:39.503-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -5244,29 +5199,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20178",
-   "name": "500 Error in CSP updating a Benefit Plan Template",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Michael McNulty",
-   "prio": "1: Urgent",
-   "created": "2026-07-23T06:44:43.628-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-19864",
    "name": "WFP - Plans are visible for renewal despite Renewal Restriction enabled; renewal attempt returns \"Plan already renewed\" error",
    "pod": "LL",
@@ -5330,28 +5262,6 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18089",
-   "name": "Provider Portal - paid by office - charging the wrong amount in Prod ; Paid by office payments are not visible under office transactions in STAGE",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-06-17T02:33:57.616-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5530,6 +5440,96 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-20178",
+   "name": "500 Error in CSP updating a Benefit Plan Template",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 18-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Michael McNulty",
+   "prio": "1: Urgent",
+   "created": "2026-07-23T06:44:43.628-0700",
+   "resolved": "2026-08-20T05:04:14.071-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21157",
+   "name": "Plan Details PDF - Incorrect Plan Name Displayed in Heading Section",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T03:36:39.503-0700",
+   "resolved": "2026-08-20T05:01:19.835-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18089",
+   "name": "Provider Portal - paid by office - charging the wrong amount in Prod ; Paid by office payments are not visible under office transactions in STAGE",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 16-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-06-17T02:33:57.616-0700",
+   "resolved": "2026-08-20T04:52:06.487-0700",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21463",
+   "name": "Crosby Dental - PBO Charging Incorrectly",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Daryl Myrick",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-18T08:18:46.311-0700",
+   "resolved": "2026-08-20T04:51:52.525-0700",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21612",
    "name": "ACH Refund - Receipt Displays Incorrect Amount for Partial Refund (Refund Amount Excludes Admin Fee but Receipt Shows Full Amount)",
