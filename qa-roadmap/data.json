@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-19T23:37:40+00:00",
- "today": "2026-08-19",
+ "generated_at": "2026-08-20T00:09:48+00:00",
+ "today": "2026-08-20",
  "features": [
   {
    "key": "PLANS-20836",
@@ -332,7 +332,7 @@
    "key": "PLANS-17058",
    "name": "Renewal Transaction Handling for Migrated Members",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-08-24",
    "fv": "R9.7",
    "who": "Chris Rubio",
    "tshirt": "Moderate",
@@ -1184,7 +1184,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-24",
    "who": "Chris Rubio",
    "theme": "LL-MVP"
   },
@@ -2255,7 +2255,10 @@
    "prio": "3: Standard",
    "created": "2026-08-19T09:05:42.638-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3177,12 +3180,35 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21591",
-   "name": "Marketing Consent / Member Portal - Decline mkt consent in CSP and is enabled in member portal",
-   "pod": "LL",
+   "key": "PLANS-21594",
+   "name": "CSP - Refund with \"Disable benefit plan\" cancels the wrong plan when two plans were purchased in one transaction",
+   "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": "R9.7",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Daryl Myrick",
+   "prio": "2: Important",
+   "created": "2026-08-19T15:45:02.696-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21591",
+   "name": "Marketing Consent / Member Portal - Decline mkt consent in CSP and is enabled in member portal",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
@@ -3190,7 +3216,8 @@
    "created": "2026-08-19T14:37:14.431-0700",
    "resolved": "",
    "labels": [
-    "LLplans"
+    "group1_migration",
+    "product_prioritized"
    ],
    "theme": "",
    "triage": "Yes",
@@ -3208,77 +3235,12 @@
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-19T13:14:53.822-0700",
    "resolved": "",
    "labels": [
-    "plans"
-   ],
-   "theme": "",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21582",
-   "name": "[DCA]-Cancel auto-renewal email does not get to the inbox",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-19T11:35:36.864-0700",
-   "resolved": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21581",
-   "name": "[DCA]-Welcome email does not get to the inbox",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-19T11:34:30.354-0700",
-   "resolved": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21580",
-   "name": "[DCA]-Receipt email does not get to the inbox",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-19T11:33:13.287-0700",
-   "resolved": "",
-   "labels": [
-    "plans"
+    "group1_migration",
+    "product_prioritized"
    ],
    "theme": "",
    "triage": "Yes",
@@ -4726,74 +4688,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21559",
-   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:37:51.636-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21528",
-   "name": "ACH - Refunded plans not visible in CSP plan transactions",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dmytro Tymofiienko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-18T15:01:20.958-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20551",
-   "name": "Ancillary Benefit Pull Down Option on Site",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-07-29T17:05:42.601-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21221",
    "name": "CSP - blocker - multi org portal restrictions",
    "pod": "LL",
@@ -5043,6 +4937,52 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21559",
+   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:37:51.636-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21528",
+   "name": "ACH - Refunded plans not visible in CSP plan transactions",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dmytro Tymofiienko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-18T15:01:20.958-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21463",
    "name": "Crosby Dental - PBO Charging Incorrectly",
    "pod": "PLANS",
@@ -5166,7 +5106,7 @@
    "sprint": "LL-Sprint 20-26",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-08-13T07:30:09.350-0700",
    "resolved": "",
    "labels": [
@@ -5282,6 +5222,28 @@
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-07-29T17:10:54.958-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20551",
+   "name": "Ancillary Benefit Pull Down Option on Site",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-07-29T17:05:42.601-0700",
    "resolved": "",
    "labels": [
     "product_prioritized"
@@ -19106,13 +19068,6 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-21594",
-   "name": "CSP - Refund with \"Disable benefit plan\" cancels the wrong plan when two plans were purchased in one transaction",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Daryl Myrick"
-  },
-  {
    "key": "PLANS-21593",
    "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
    "status": "Backlog",
@@ -19129,7 +19084,7 @@
   {
    "key": "PLANS-21577",
    "name": "PMP \\ Membership status of DCA migrated member are getting updated from Active to Delinquent after setting up their auto renewal using ACH Payment method",
-   "status": "Backlog",
+   "status": "Ready for Development",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
   },
