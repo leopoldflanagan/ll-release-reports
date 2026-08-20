@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T03:18:23+00:00",
+ "generated_at": "2026-08-20T03:46:08+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -3282,7 +3282,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
    "prio": "1: Urgent",
@@ -3292,7 +3292,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
