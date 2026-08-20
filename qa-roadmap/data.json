@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T14:18:19+00:00",
+ "generated_at": "2026-08-20T14:25:31+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -1906,6 +1906,52 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21593",
+   "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-08-19T15:34:36.931-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21590",
+   "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-19T14:34:21.910-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21560",
    "name": "Ind Plus - Member Portal - Capacity Showing",
    "pod": "PLANS",
@@ -2213,10 +2259,59 @@
    "prio": "3: Standard",
    "created": "2026-08-20T06:35:11.624-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21609",
+   "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-19T20:03:36.639-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21605",
+   "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-19T18:10:18.244-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3192,8 +3287,34 @@
    "prio": "2: Important",
    "created": "2026-08-20T04:00:16.020-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21608",
+   "name": "ACH/transaction receipts/Live ACH Status is not seen in transaction details for member",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-19T19:38:42.541-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3275,7 +3396,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Chantaya Brown",
    "prio": "2: Important",
@@ -19189,45 +19310,10 @@
  "nopod": [
   {
    "key": "PLANS-21618",
-   "name": "ACH Refund - Settled transacions shows as a anoher Purchase and not showing a purchase type",
+   "name": "delete",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-21609",
-   "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
-   "status": "Backlog",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-21608",
-   "name": "ACH/transaction receipts/Live ACH Status is not seen in transaction details for member",
-   "status": "Ready for Development",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-21605",
-   "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
-   "status": "Backlog",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-21593",
-   "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
-   "status": "In Development",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya"
-  },
-  {
-   "key": "PLANS-21590",
-   "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
-   "status": "In Development",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya"
   },
   {
    "key": "PLANS-21573",
