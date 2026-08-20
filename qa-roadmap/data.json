@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T08:45:19+00:00",
+ "generated_at": "2026-08-20T09:11:47+00:00",
  "today": "2026-08-20",
  "features": [
   {
@@ -1998,6 +1998,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21534",
+   "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-18T22:15:16.290-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21481",
    "name": "ACH<Member Portal<Stage<Validation message Required for already Primary Bank account, if try to make Primary account again",
    "pod": "LL",
@@ -3390,29 +3413,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21534",
-   "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-18T22:15:16.290-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21516",
    "name": "IND. Plus plan - UI improvement",
    "pod": "PLANS",
@@ -4673,29 +4673,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21439",
-   "name": "PMP/Plan Card/Incorrect website and support phone in the PDF document",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T19:01:14.899-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20904",
    "name": "PDS plan linked to a NON PDS office",
    "pod": "PLANS",
@@ -4752,6 +4729,29 @@
    "reporter": "Clint Tredway",
    "prio": "3: Standard",
    "created": "2026-07-06T12:34:05.073-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21439",
+   "name": "PMP/Plan Card/Incorrect website and support phone in the PDF document",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-08-17T19:01:14.899-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
