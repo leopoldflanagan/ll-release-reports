@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T13:45:56+00:00",
+ "generated_at": "2026-08-21T14:12:42+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -1931,6 +1931,28 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21563",
+   "name": "Plan Deleted when switching over the primary",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Chantaya Brown",
+   "prio": "2: Important",
+   "created": "2026-08-19T09:01:34.348-0700",
+   "resolved": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21560",
    "name": "Ind Plus - Member Portal - Capacity Showing",
    "pod": "PLANS",
@@ -2017,29 +2039,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21482",
-   "name": "Manual renewal is incorrectly blocked for plans that were previously auto-renewed",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-18T10:57:17.813-0700",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2223,6 +2222,26 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21670",
+   "name": "ACH Refund Status Displays as \"Status Unavailable\" for Auto-Renewed PMP Plans Paid via ACH",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-21T06:51:16.648-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3386,28 +3405,6 @@
    ],
    "theme": "",
    "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21563",
-   "name": "Plan Deleted when switching over the primary",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Chantaya Brown",
-   "prio": "2: Important",
-   "created": "2026-08-19T09:01:34.348-0700",
-   "resolved": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4591,6 +4588,29 @@
    "resolved": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21482",
+   "name": "Manual renewal is incorrectly blocked for plans that were previously auto-renewed",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-18T10:57:17.813-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
