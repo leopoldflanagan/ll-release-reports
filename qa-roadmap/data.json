@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T10:08:47+00:00",
+ "generated_at": "2026-08-21T10:41:50+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -5049,7 +5049,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-19T03:47:52.484-0700",
@@ -5072,7 +5072,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-19T03:38:19.567-0700",
