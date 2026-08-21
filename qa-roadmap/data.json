@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T20:05:18+00:00",
+ "generated_at": "2026-08-21T20:39:24+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -60,7 +60,7 @@
    "key": "PLANS-15748",
    "name": "Ach Refunds Inside of Csp",
    "status": "In Testing",
-   "ted": "2026-08-10",
+   "ted": "2026-08-24",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Huge"
@@ -893,7 +893,7 @@
    "key": "PLANS-15748",
    "name": "Ach Refunds Inside of Csp",
    "status": "In Testing",
-   "ted": "2026-08-10",
+   "ted": "2026-08-24",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Huge",
@@ -1712,7 +1712,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-10",
+   "ted": "2026-08-24",
    "who": "Mykyta Moroz",
    "theme": "ACH"
   },
@@ -1910,30 +1910,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21632",
-   "name": "Smile Health - Password error",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-08-20T09:12:24.837-0700",
-   "resolved": "",
-   "due": "2026-08-21",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21594",
    "name": "CSP - Refund with \"Disable benefit plan\" cancels the wrong plan when two plans were purchased in one transaction",
    "pod": "PLANS",
@@ -2119,6 +2095,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21703",
+   "name": "ACH Refund - Cancellation reasons not logged in CSP history ; Click on Record Refund > Allowing user to select reasons again",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-21T13:06:25.301-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -2358,12 +2355,12 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Mariano Hernández",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-19T09:37:04.980-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4324,6 +4321,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21632",
+   "name": "Smile Health - Password error",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-08-20T09:12:24.837-0700",
+   "resolved": "",
+   "due": "2026-08-21",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -20606,7 +20627,7 @@
   {
    "key": "PLANS-21682",
    "name": "Tie Plan Multi Practice View Upgrade| Disabled offices shown on search",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "Hunter Redhead",
    "reporter": "Hazel Loya"
   }
