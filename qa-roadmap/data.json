@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T11:39:35+00:00",
+ "generated_at": "2026-08-21T12:08:18+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -4029,29 +4029,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20772",
-   "name": "PMP - Summary displays incorrect duplicated promo in a renewal process",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-05T10:56:53.216-0700",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-20768",
    "name": "Migrated Plans - Exclusions - Inconsistent behavior",
    "pod": "LL",
@@ -5361,6 +5338,29 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-20772",
+   "name": "PMP - Summary displays incorrect duplicated promo in a renewal process",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-05T10:56:53.216-0700",
+   "resolved": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20564",
