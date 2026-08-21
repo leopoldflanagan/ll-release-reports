@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T13:19:24+00:00",
+ "generated_at": "2026-08-21T13:45:56+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -1885,6 +1885,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21605",
+   "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-19T18:10:18.244-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21582",
    "name": "[DCA]-Cancel auto-renewal email does not get to the inbox",
    "pod": "PLANS",
@@ -2092,6 +2115,29 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20111",
+   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22T08:47:16.230-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20079",
    "name": "OneSmile , DCA & Comfort Dental - Wallet (Apple) - Custom logos/theme are not properly aligned on Apple Wallet pass",
    "pod": "PLANS",
@@ -2181,26 +2227,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21667",
-   "name": "Member Portal<Stage<E-Consent not displaying while ADD Member, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-20T21:59:48.328-0700",
-   "resolved": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21665",
    "name": "PDS Team Plan - Plan details missing",
    "pod": "PLANS",
@@ -2241,29 +2267,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21627",
-   "name": "ACH Partial refund - Unable to perform multiple refunds",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-20T08:04:54.075-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2337,29 +2340,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21605",
-   "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-08-19T18:10:18.244-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21585",
@@ -3296,6 +3276,52 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21667",
+   "name": "Member Portal<Stage<E-Consent not displaying while ADD Member, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-20T21:59:48.328-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21627",
+   "name": "ACH Partial refund - Unable to perform multiple refunds",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-20T08:04:54.075-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21615",
    "name": "ACH Refund -Refund Transaction Not Displayed in PMP Member Transactions When Refund Is Processed Through CSP UI (Showing a 'Approved' transaction without a purchase type)",
    "pod": "LL",
@@ -3450,29 +3476,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21460",
-   "name": "QA Test - unable to test declined payments and- authorization failure triggers (ACH payments currently always return a success response, regardless of the account information provided by the user.)",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T08:08:30.977-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4190,29 +4193,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20111",
-   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22T08:47:16.230-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20109",
    "name": "Comfort Dental<Stage<Plan confirmation Email doesn't contain custom Logo",
    "pod": "PLANS",
@@ -4243,7 +4223,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-07-21T12:45:30.750-0700",
@@ -4411,29 +4391,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21327",
-   "name": "PLANS-21327: Member Portal: Additional Member Discount Displays as $0 - Inaccurate cost breakdown display (not a functional issue , discount included in the annual plan Cost)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-14T14:21:36.354-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4637,6 +4594,29 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21327",
+   "name": "PLANS-21327: Member Portal: Additional Member Discount Displays as $0 - Inaccurate cost breakdown display (not a functional issue , discount included in the annual plan Cost)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-14T14:21:36.354-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4928,29 +4908,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21551",
-   "name": "PMP - LL - Auto Renew Failed for ACH Payments",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-19T07:06:26.416-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21546",
    "name": "PMP - LL - Incorrect {recurring_schedule} format on the Purchase Auth Form (Auto Renew checked )",
    "pod": "LL",
@@ -5038,6 +4995,29 @@
    ],
    "theme": "ACH",
    "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21460",
+   "name": "QA Test - unable to test declined payments and- authorization failure triggers (ACH payments currently always return a success response, regardless of the account information provided by the user.)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T08:08:30.977-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5198,29 +5178,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21206",
-   "name": "ACH<PMP<Add Payment Method<ADD button is disabled while adding ACH bank account",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-13T09:43:44.941-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5454,6 +5411,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21645",
+   "name": "ACH Refund / CC Refund - Transactions Not Visible in Member Portal > Transactions",
+   "pod": "LL",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-20T12:52:47.759-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-15250",
    "name": "Member Portal - Showing SGDP plans when Renew ADHA plans",
    "pod": "PLANS",
@@ -5582,6 +5562,52 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21551",
+   "name": "PMP - LL - Auto Renew Failed for ACH Payments",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T07:06:26.416-0700",
+   "resolved": "2026-08-21T06:29:01.815-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21206",
+   "name": "ACH<PMP<Add Payment Method<ADD button is disabled while adding ACH bank account",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-13T09:43:44.941-0700",
+   "resolved": "2026-08-21T06:21:44.662-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21439",
    "name": "PMP/Plan Card/Incorrect website and support phone in the PDF document",
@@ -19532,16 +19558,9 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-21645",
-   "name": "ACH Refund / CC Refund - Transactions Not Visible in Member Portal > Transactions",
-   "status": "WAITING REVIEW",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
    "key": "PLANS-21639",
    "name": "DCA - Additional member cost is not reflected in the purchase total for Core and Deluxe plans",
-   "status": "Backlog",
+   "status": "WAITING REVIEW",
    "who": "Unassigned",
    "reporter": "Mireya Alvarez"
   }
