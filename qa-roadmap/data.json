@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T22:39:36+00:00",
+ "generated_at": "2026-08-21T23:04:39+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -5044,30 +5044,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21590",
-   "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-19T14:34:21.910-0700",
-   "resolved": "",
-   "due": "2026-08-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21564",
    "name": "PMP - LL - Incorrect contact number [org_revocation_contact] Displayed in ACH Authorization Form",
    "pod": "LL",
@@ -5800,6 +5776,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21590",
+   "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-19T14:34:21.910-0700",
+   "resolved": "2026-08-21T16:02:57.249-0700",
+   "due": "2026-08-21",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21593",
    "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
