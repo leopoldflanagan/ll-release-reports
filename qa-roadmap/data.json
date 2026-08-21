@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T17:40:57+00:00",
+ "generated_at": "2026-08-21T18:07:47+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -3278,6 +3278,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21690",
+   "name": "DCA - Ancillary Benefits are incorrect",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T10:45:17.062-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -20474,6 +20498,13 @@
    "status": "Backlog",
    "who": "Hunter Redhead",
    "reporter": "Hazel Loya"
+  },
+  {
+   "key": "PLANS-21639",
+   "name": "DCA - Additional member cost is not reflected in the purchase total for Core and Deluxe plans",
+   "status": "Ready for Development",
+   "who": "Conor Kamperman",
+   "reporter": "Mireya Alvarez"
   }
  ],
  "weeks": [
