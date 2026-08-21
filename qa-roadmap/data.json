@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T12:45:51+00:00",
+ "generated_at": "2026-08-21T13:19:24+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -348,17 +348,6 @@
    "who": "Harisha Pallacheruvu",
    "tshirt": "Large",
    "pod": "EDW",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17581",
-   "name": "Disbursement Splits & Admin Fee Splits",
-   "status": "Blocked",
-   "ted": "2026-07-17",
-   "fv": "R9.7",
-   "who": "Lloyd Tokerud",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
    "theme": "LL-MVP"
   },
   {
@@ -1178,17 +1167,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-17581",
-   "name": "Disbursement Splits & Admin Fee Splits",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Blocked",
-   "fv": "R9.7",
-   "ted": "2026-07-17",
-   "who": "Lloyd Tokerud",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-17588",
    "name": "DSO Dashboard",
    "pod": "EDW",
@@ -1884,31 +1862,8 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-21658",
-   "name": "CC Refund - broken - showing duplicate transactions in CSP",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-20T14:45:48.764-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21642",
-   "name": "DCA - Configuration Error is displayed when proceeding to the Purchase step with multiple additional members",
+   "name": "PLANS-21642: DCA: Purchase: Configuration Error is displayed when proceeding to the purchase step with multiple additional members",
    "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
@@ -1987,6 +1942,29 @@
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-08-19T07:14:16.984-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21550",
+   "name": "Provider Portal not display E-consent checkbox<PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:03:24.897-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -4370,69 +4348,23 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21593",
-   "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
-   "pod": "PLANS",
+   "key": "PLANS-21658",
+   "name": "CC Refund - broken - showing duplicate transactions in CSP",
+   "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
-   "created": "2026-08-19T15:34:36.931-0700",
+   "created": "2026-08-20T14:45:48.764-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21590",
-   "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-19T14:34:21.910-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21573",
-   "name": "Tie Plan Multi Practice View Upgrade Plan| Offices outside org are showing for the upgrade plan",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-19T09:51:41.980-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4636,6 +4568,75 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21593",
+   "name": "tier options| User is not able to see the upgrade options when clicking on view plans",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-08-19T15:34:36.931-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21590",
+   "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-19T14:34:21.910-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21573",
+   "name": "Tie Plan Multi Practice View Upgrade Plan| Offices outside org are showing for the upgrade plan",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-19T09:51:41.980-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4944,29 +4945,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21550",
-   "name": "Provider Portal not display E-consent checkbox<PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:03:24.897-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
