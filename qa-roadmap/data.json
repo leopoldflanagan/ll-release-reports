@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T14:12:42+00:00",
+ "generated_at": "2026-08-21T14:17:33+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -2091,29 +2091,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20547",
-   "name": "Stage - Member Portal - The member-context-banner is not rendered on the Treatment Summaries page",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-07-29T15:28:00.596-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-20111",
    "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
    "pod": "LL",
@@ -2238,7 +2215,10 @@
    "prio": "3: Standard",
    "created": "2026-08-21T06:51:16.648-0700",
    "resolved": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4394,6 +4374,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20547",
+   "name": "Stage - Member Portal - The member-context-banner is not rendered on the Treatment Summaries page",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-29T15:28:00.596-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-20067",
    "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
    "pod": "LL",
@@ -5181,29 +5184,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21278",
-   "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-14T10:39:35.143-0700",
-   "resolved": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21166",
    "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
    "pod": "LL",
@@ -5582,6 +5562,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21278",
+   "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-14T10:39:35.143-0700",
+   "resolved": "2026-08-21T07:13:55.959-0700",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21551",
    "name": "PMP - LL - Auto Renew Failed for ACH Payments",
