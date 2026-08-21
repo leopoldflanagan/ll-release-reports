@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T00:47:40+00:00",
+ "generated_at": "2026-08-21T01:30:50+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -3344,29 +3344,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21652",
-   "name": "Plan Details PDF - Auto renew text should be Dynamic",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-20T14:18:14.024-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21615",
    "name": "ACH Refund -Refund Transaction Not Displayed in PMP Member Transactions When Refund Is Processed Through CSP UI (Showing a 'Approved' transaction without a purchase type)",
    "pod": "LL",
@@ -4459,6 +4436,29 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21652",
+   "name": "Plan Details PDF - Auto renew text should be Dynamic",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-20T14:18:14.024-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
