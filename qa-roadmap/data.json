@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T17:11:16+00:00",
+ "generated_at": "2026-08-21T17:40:57+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -2017,30 +2017,6 @@
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-08-17T08:43:57.488-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20968",
-   "name": "[Member Portal]-Header displays wrong portal logo",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Clint Tredway",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-11T09:08:01.867-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -4525,6 +4501,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-20968",
+   "name": "[Member Portal]-Header displays wrong portal logo",
+   "pod": "PLANS",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Clint Tredway",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-11T09:08:01.867-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-19701",
@@ -20474,13 +20474,6 @@
    "status": "Backlog",
    "who": "Hunter Redhead",
    "reporter": "Hazel Loya"
-  },
-  {
-   "key": "PLANS-21639",
-   "name": "DCA - Additional member cost is not reflected in the purchase total for Core and Deluxe plans",
-   "status": "WAITING REVIEW",
-   "who": "Unassigned",
-   "reporter": "Mireya Alvarez"
   }
  ],
  "weeks": [
