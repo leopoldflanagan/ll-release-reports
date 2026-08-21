@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T11:07:14+00:00",
+ "generated_at": "2026-08-21T11:39:35+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -2091,6 +2091,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20547",
+   "name": "Stage - Member Portal - The member-context-banner is not rendered on the Treatment Summaries page",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-29T15:28:00.596-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-20079",
    "name": "OneSmile , DCA & Comfort Dental - Wallet (Apple) - Custom logos/theme are not properly aligned on Apple Wallet pass",
    "pod": "PLANS",
@@ -4120,29 +4143,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20547",
-   "name": "Stage - Member Portal - The member-context-banner is not rendered on the Treatment Summaries page",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-07-29T15:28:00.596-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-20507",
    "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
    "pod": "LL",
@@ -4653,29 +4653,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-20T14:18:14.024-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21160",
-   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices.",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-13T04:05:47.307-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
@@ -5306,6 +5283,29 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-13T04:44:52.361-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21160",
+   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices.",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-13T04:05:47.307-0700",
    "resolved": "",
    "labels": [
     "group1_migration",
