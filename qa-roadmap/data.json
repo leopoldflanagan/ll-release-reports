@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T09:13:27+00:00",
+ "generated_at": "2026-08-21T09:44:43+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -1884,29 +1884,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-21608",
-   "name": "ACH/transaction receipts/Live ACH Status is not seen in transaction details for member",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-19T19:38:42.541-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21582",
    "name": "[DCA]-Cancel auto-renewal email does not get to the inbox",
    "pod": "PLANS",
@@ -2199,26 +2176,6 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21669",
-   "name": "E-Consent <Not Displaying for all Listed Plans- SGDP CA, SGDP TN,SGDP AZ, One Smile, KOS, Essential Smile",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-20T22:19:49.644-0700",
-   "resolved": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4482,6 +4439,26 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21669",
+   "name": "E-Consent <Not Displaying for all Listed Plans- SGDP CA, SGDP TN,SGDP AZ, One Smile, KOS, Essential Smile",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-20T22:19:49.644-0700",
+   "resolved": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21652",
    "name": "Plan Details PDF - Auto renew text should be Dynamic",
    "pod": "LL",
@@ -4499,6 +4476,29 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21608",
+   "name": "ACH/transaction receipts/Live ACH Status is not seen in transaction details for member",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-19T19:38:42.541-0700",
+   "resolved": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
