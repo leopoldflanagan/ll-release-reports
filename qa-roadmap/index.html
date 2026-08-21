@@ -248,7 +248,9 @@
   .bugcolhead.near{border-bottom-color:var(--green)}
   .bugcolhead.back{border-bottom-color:#cbd5e1}
   .bugcount{font-size:12px;font-weight:700;color:var(--navy);background:#eef2f7;border-radius:10px;padding:1px 9px}
-  .bugtbl{margin-top:0}
+  .bugtbl{margin-top:0;table-layout:fixed}
+  .bugtbl td{overflow-wrap:normal;word-break:normal}
+  .bugtbl td .pod,.bugtbl td .prio,.bugtbl td .due{white-space:nowrap}
   /* collapsible status sections */
   .bugcolhead{cursor:pointer;user-select:none;border-radius:6px;transition:background .12s}
   .bugcolhead:hover{background:#eef4fb}
@@ -321,6 +323,7 @@
   /* "Closed" stamp — resolved bugs (Closed / All scope) */
   .stamp-closed{display:inline-flex;align-items:center;gap:3px;font-size:9px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#5b6675;background:rgba(91,102,117,.12);border:1.5px solid rgba(91,102,117,.4);padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:middle;white-space:nowrap}
   .stamp-closed .stx{font-size:10px;line-height:1}
+  .due.overdue{color:var(--red);font-weight:700;white-space:nowrap}
   /* Custom hover tooltip for row tags/stamps (native title was unreliable) */
   .tip{cursor:help;position:relative}
   .tip:hover::after{content:attr(data-tip);position:absolute;left:0;top:calc(100% + 6px);background:#1f2d3d;color:#fff;font-size:11px;font-weight:600;line-height:1.4;letter-spacing:0;text-transform:none;padding:7px 10px;border-radius:7px;white-space:normal;width:max-content;max-width:280px;z-index:80;box-shadow:0 8px 24px rgba(0,0,0,.24);pointer-events:none}
@@ -492,7 +495,7 @@
         </div>
       </div>
     </div>
-    <div class="boardctl"><span class="minilbl">Status columns</span><button class="minibtn" id="bugexpandall" type="button">Expand all</button><button class="minibtn" id="bugcollapseall" type="button">Collapse all</button><span class="spacer"></span><span class="minilbl">Order by</span><select class="minisel" id="bugsort"><option value="prio">Priority</option><option value="new">Newest</option><option value="old">Oldest</option><option value="key">Key</option><option value="who">Assignee</option><option value="pod">Pod</option></select></div>
+    <div class="boardctl"><span class="minilbl">Status columns</span><button class="minibtn" id="bugexpandall" type="button">Expand all</button><button class="minibtn" id="bugcollapseall" type="button">Collapse all</button><span class="spacer"></span><span class="minilbl">Order by</span><select class="minisel" id="bugsort"><option value="prio">Priority</option><option value="new">Newest</option><option value="old">Oldest</option><option value="key">Key</option><option value="who">Assignee</option><option value="pod">Pod</option><option value="due">Due date</option></select></div>
     <div id="bugboard"></div>
     <p class="xnote" id="bugnote"></p>
 
@@ -1086,6 +1089,8 @@ let CLOSED_DAYS = 90;
 const FLOW = ["Backlog","Ready for Development","On Hold","In Development","PR Created","WAITING REVIEW","PR Merged","Dev Verification","In Stage","In QA"];
 function flowRank(s){ const i=FLOW.indexOf(s); return i<0?0:i; }
 const NEAR_CLOSE = ["In Stage","In QA","Dev Verification","PR Merged"];
+// Fixed column widths so every per-status table lines up (Bug col flexes, the rest are fixed).
+const BUGCOLS = `<colgroup><col><col style="width:74px"><col style="width:82px"><col style="width:90px"><col style="width:106px"><col style="width:126px"><col style="width:132px"><col style="width:132px"></colgroup>`;
 // PLANS bugs with no Pod (needs triage)
 let NOPOD = [];
 
@@ -1097,7 +1102,9 @@ let bugNewOnly=false;        // (legacy) kept for back-compat; superseded by bug
 let bugRecentHours=null;     // Recent (created) window filter: null=all | 1 | 24 | 48 | 168 (hours)
 let bugClosedHours=null;     // Closed (resolved) window filter: null=all | 1 | 24 | 48 | 168 (hours)
 let bugScope="open";         // Open | Closed | All scope for the bug list
+let bugDue=new Set();        // Due-date filter (multi-select): "none" | "overdue"
 let bugTriage=new Set();     // multi-select Triage-field value chips; empty = all
+let bugAssignees=new Set();  // multi-select Assignee filter; "Unassigned" is a value; empty = all
 let bugSort="prio";          // order-by: prio | new | old | key | who | pod
 let bugLabelFilter="all";    // all | prioritized | unprioritized
 let bugGroups=new Set();     // multi-select migration-group label chips; empty = all
@@ -1127,6 +1134,8 @@ function snapshotMs(){ const g=Date.parse(GENERATED_AT); return isNaN(g)?Date.no
 function createdMs(b){ if(!b.created) return NaN; let s=b.created; if(!/[T ]/.test(s)) s=s+"T00:00:00"; return Date.parse(s); }
 function withinHours(b,h){ const t=createdMs(b); if(isNaN(t)) return false; const age=snapshotMs()-t; return age <= h*3600*1000 && age >= -3600*1000; }
 function resolvedMs(b){ if(!b.resolved) return NaN; let s=b.resolved; if(!/[T ]/.test(s)) s=s+"T00:00:00"; return Date.parse(s); }
+function dueMs(b){ if(!b.due) return NaN; let s=b.due; if(!/[T ]/.test(s)) s=s+"T00:00:00"; return Date.parse(s); }
+function isOverdue(b){ const t=dueMs(b); if(isNaN(t)) return false; return t < snapshotMs() && b.cat!=="Done" && !b.resolved; }
 function withinHoursClosed(b,h){ const t=resolvedMs(b); if(isNaN(t)) return false; const age=snapshotMs()-t; return age <= h*3600*1000 && age >= -3600*1000; }
 // Open / Closed / All scope for the bug list. Open = active bugs (BUGS), Closed = resolved in the last CLOSED_DAYS (BUGS_CLOSED).
 function baseBugs(){ return bugScope==="closed" ? BUGS_CLOSED.slice() : (bugScope==="all" ? BUGS.concat(BUGS_CLOSED) : BUGS.slice()); }
@@ -1138,6 +1147,12 @@ function recencyBadge(b){
   if(withinHours(b,24))  return ` <span class="rtag new tip" data-tip="NEW — reported in the last 24 hours.">NEW</span>`;
   if(withinHours(b,168)) return ` <span class="rtag recent tip" data-tip="RECENT — reported in the last 7 days.">RECENT</span>`;
   return '';
+}
+function dueCell(b){
+  if(!b.due) return '<span class="muted-date">—</span>';
+  const od=isOverdue(b);
+  const s=new Date(dueMs(b)).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+  return `<span class="due${od?' overdue':''}"${od?' title="Overdue">⏰ ':'>'}${s}</span>`;
 }
 const CARD_PRED = {
   all: ()=>true,
@@ -1159,7 +1174,9 @@ function facetBase(exclude){
   if(exclude!=="prio" && bugPrios.size) r=r.filter(b=>bugPrios.has(b.prio||""));
   if(exclude!=="recent" && bugRecentHours) r=r.filter(b=>withinHours(b,bugRecentHours));
   if(exclude!=="closed" && bugClosedHours) r=r.filter(b=>withinHoursClosed(b,bugClosedHours));
+  if(exclude!=="due" && bugDue.size) r=r.filter(b=> (bugDue.has("none")&&!b.due) || (bugDue.has("overdue")&&isOverdue(b)) );
   if(exclude!=="triage" && bugTriage.size) r=r.filter(b=>bugTriage.has(b.triage||""));
+  if(exclude!=="assignee" && bugAssignees.size) r=r.filter(b=>bugAssignees.has(b.who||"Unassigned"));
   if(exclude!=="prioritized"){ if(bugLabelFilter==="prioritized") r=r.filter(hasLabel); else if(bugLabelFilter==="unprioritized") r=r.filter(b=>!hasLabel(b)); }
   if(exclude!=="group" && bugGroups.size) r=r.filter(b=>bugGroupLabels(b).some(l=>bugGroups.has(l)));
   if(exclude!=="review" && bugFlags.size) r=r.filter(b=> (bugFlags.has("nolabel")&&missingGroup(b)) || (bugFlags.has("nolink")&&notLinkedLP(b)) );
@@ -1174,6 +1191,7 @@ function bugCmp(a,b){
     case "key": return a.key.localeCompare(b.key, undefined, {numeric:true});
     case "who": return (a.who||"").localeCompare(b.who||"") || prioNum(a.prio)-prioNum(b.prio);
     case "pod": return (a.pod||"").localeCompare(b.pod||"") || prioNum(a.prio)-prioNum(b.prio);
+    case "due": { const da=dueMs(a), db=dueMs(b); return (isNaN(da)?Infinity:da)-(isNaN(db)?Infinity:db) || prioNum(a.prio)-prioNum(b.prio); }
     default:    return prioNum(a.prio)-prioNum(b.prio) || a.key.localeCompare(b.key);  // prio
   }
 }
@@ -1238,7 +1256,7 @@ function renderBugs(){
     const sec=document.createElement("div"); sec.className="bugcol"+(isOpen?" open":"");
     sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''}"><span class="chev">▸</span><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
     const tbl=document.createElement("table"); tbl.className="xref bugtbl";
-    tbl.innerHTML=`<thead><tr><th>Bug</th><th>Pod</th><th>Priority</th><th>Fix Version</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
+    tbl.innerHTML=BUGCOLS+`<thead><tr><th>Bug</th><th>Pod</th><th>Priority</th><th>Fix Version</th><th>Due</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
     const tb=document.createElement("tbody");
     list.sort(bugCmp).forEach(b=>{
       const pn=prioNum(b.prio);
@@ -1255,6 +1273,7 @@ function renderBugs(){
         `<td>${podPill(b.pod)}</td>`+
         `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
         `<td>${b.fv||'<span class="muted-date">—</span>'}</td>`+
+        `<td>${dueCell(b)}</td>`+
         `<td>${b.sprint?`<span class="sprint">${b.sprint}</span>`:'<span class="muted-date">—</span>'}</td>`+
         `<td>${b.who}</td><td>${b.reporter}</td>`;
       tb.appendChild(tr);
@@ -1513,7 +1532,7 @@ function bugPodOptions(){
 }
 // ===== Drive-style dropdown filter bar (preview) =====
 // Actionable options: these signal work to do -> button/chip highlighted amber with an icon.
-const ACTION_VALS={prioritized:["unprioritized"], review:["nolabel","nolink"]};
+const ACTION_VALS={prioritized:["unprioritized"], review:["nolabel","nolink"], due:["none","overdue"]};
 let bugOpenMenu=null;
 function filterDefs(){
   const S=scopedBugs();                                   // Theme scope -> stable option lists
@@ -1544,6 +1563,11 @@ function filterDefs(){
         {v:168,label:"Last 7 days",count:cnt("closed",b=>withinHoursClosed(b,168))}],
       selected:()=>bugClosedHours?[bugClosedHours]:[], toggle:v=>{ bugClosedHours=(bugClosedHours===v?null:v); }});
   }
+  defs.push({id:"due",label:"Due", aicon:"⏰",
+    options:[
+      {v:"none",label:"⚠️ No due date",count:cnt("due",b=>!b.due)},
+      {v:"overdue",label:"⏰ Overdue",count:cnt("due",b=>isOverdue(b))}],
+    selected:()=>[...bugDue], toggle:v=>{ bugDue.has(v)?bugDue.delete(v):bugDue.add(v); }, alert:()=>cnt("due",b=>isOverdue(b))});
   defs.push({id:"prioritized",label:"Prioritized", aicon:"⚠️",
     options:[{v:"prioritized",label:"✅ Prioritized",count:cnt("prioritized",hasLabel)},{v:"unprioritized",label:"⚠️ Not prioritized",count:cnt("prioritized",b=>!hasLabel(b))}],
     selected:()=>bugLabelFilter==="all"?[]:[bugLabelFilter], toggle:v=>{ bugLabelFilter=(bugLabelFilter===v?"all":v); }, alert:()=>cnt("prioritized",b=>!hasLabel(b))});
@@ -1558,7 +1582,12 @@ function filterDefs(){
   defs.push({id:"triage",label:"Triage",
     options:_tv.map(v=>({v:v,label:v,count:cnt("triage",b=>b.triage===v)})),
     selected:()=>[...bugTriage], toggle:v=>{ bugTriage.has(v)?bugTriage.delete(v):bugTriage.add(v); }});
-  const ORDER=["pod","triage","recent","closed","prio","status","group","prioritized","review"];
+  let _who=Array.from(new Set(S.map(b=>b.who||"Unassigned")));
+  _who.sort((a,b)=> a==="Unassigned"?-1 : b==="Unassigned"?1 : a.localeCompare(b));   // Unassigned pinned first
+  defs.push({id:"assignee",label:"Assignee",
+    options:_who.map(v=>({v:v,label:v,count:cnt("assignee",b=>(b.who||"Unassigned")===v)})),
+    selected:()=>[...bugAssignees], toggle:v=>{ bugAssignees.has(v)?bugAssignees.delete(v):bugAssignees.add(v); }});
+  const ORDER=["pod","triage","recent","closed","due","prio","status","assignee","group","prioritized","review"];
   defs.sort((a,b)=>ORDER.indexOf(a.id)-ORDER.indexOf(b.id));
   return defs;
 }
@@ -1640,7 +1669,7 @@ function toggleLLRows(){
 }
 function onPodChange(){
   // reset all filters, rebuild pod-dependent chips, toggle LL-only rows, re-render
-  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugTriage.clear();
+  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear();
   bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear();
   const si=document.getElementById("bugsearch");
   if(si){ si.value=""; bugSearchTerm=""; const sb=document.getElementById("bugsearchbox"); if(sb) sb.classList.remove("has-text"); }
@@ -1660,7 +1689,7 @@ function initBugs(){
   const _bs=document.getElementById("bugsort");
   if(_bs) _bs.addEventListener("change",()=>{ bugSort=_bs.value; renderBugs(); });
   document.getElementById("bugclearall").addEventListener("click", ()=>{
-    bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugThemes.clear(); bugNewOnly=false; bugRecentHours=null; bugTriage.clear(); bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugCard="all"; bugOpenMenu=null;
+    bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugThemes.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear(); bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugCard="all"; bugOpenMenu=null;
     const si=document.getElementById("bugsearch");
     if(si){ si.value=""; bugSearchTerm=""; document.getElementById("bugsearchbox").classList.remove("has-text"); }
     refreshBugUI();

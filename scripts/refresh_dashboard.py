@@ -38,7 +38,7 @@ FIELDS = ["summary", "status", "fixVersions", "assignee", "reporter",
           "project", "customfield_11626", "customfield_10023",
           "customfield_10044", "customfield_10020", "priority", "created", "labels",
           "parent", "customfield_10014", "issuelinks",
-          "customfield_12146", "customfield_10071", "resolutiondate"]
+          "customfield_12146", "customfield_10071", "resolutiondate", "duedate"]
 # 10020 = Sprint, 10014 = Epic Link, 12146 = Theme, 10071 = Triage
 
 THEMES = ["LL-MVP", "LL-Fast Follows", "ACH", "ACH-Fast Follows"]
@@ -140,6 +140,7 @@ def parse_issue(i, theme=None):
         "prio": (prio.get("name") if prio else None) or "3: Standard",
         "created": (f.get("created") or ""),   # full ISO timestamp (enables last-hour / last-24h windows)
         "resolved": (f.get("resolutiondate") or ""),  # full ISO timestamp for closed bugs (empty while open)
+        "due": (f.get("duedate") or ""),              # standard Jira Due date (YYYY-MM-DD)
         "labels": f.get("labels") or [],
         "linked_lowprio": linked_lowprio,
         "lp_sprint": lp_sprint,
@@ -220,7 +221,7 @@ def pull_bugs():
                     "status": r["status"], "cat": cat, "fv": r.get("fv"),
                     "sprint": r.get("sprint"), "who": r.get("who") or "Unassigned",
                     "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard",
-                    "created": r.get("created") or "", "resolved": "", "labels": r.get("labels") or [],
+                    "created": r.get("created") or "", "resolved": "", "due": r.get("due") or "", "labels": r.get("labels") or [],
                     "theme": r.get("theme") or "", "triage": r.get("triage") or "",
                     "lpEpic": bool(r.get("linked_lowprio")),
                     "lpSprint": bool(r.get("lp_sprint")),
@@ -242,7 +243,7 @@ def pull_closed_bugs(days=90):
                     "sprint": r.get("sprint"), "who": r.get("who") or "Unassigned",
                     "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard",
                     "created": r.get("created") or "", "resolved": r.get("resolved") or "",
-                    "labels": r.get("labels") or [],
+                    "due": r.get("due") or "", "labels": r.get("labels") or [],
                     "theme": r.get("theme") or "", "triage": r.get("triage") or "",
                     "lpEpic": bool(r.get("linked_lowprio")),
                     "lpSprint": bool(r.get("lp_sprint")),
