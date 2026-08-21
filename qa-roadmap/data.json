@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T04:44:45+00:00",
+ "generated_at": "2026-08-21T05:10:45+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -19513,6 +19513,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21667",
+   "name": "Member Portal<Stage<E-Consent not displaying while ADD Member, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-21645",
    "name": "ACH Refund / CC Refund - Transactions Not Visible in Member Portal > Transactions",
