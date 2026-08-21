@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T14:17:33+00:00",
+ "generated_at": "2026-08-21T14:25:10+00:00",
  "today": "2026-08-21",
  "features": [
   {
@@ -5115,29 +5115,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21429",
-   "name": "ACH - [PMP] - Error is displayed for valid data while adding a second ACH account",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-17T13:10:33.796-0700",
-   "resolved": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21410",
    "name": "PMP/ACH/Inline agreement is not displayed under payment methods on using a saved ACH for purchase",
    "pod": "LL",
@@ -5562,6 +5539,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21429",
+   "name": "ACH - [PMP] - Error is displayed for valid data while adding a second ACH account",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-17T13:10:33.796-0700",
+   "resolved": "2026-08-21T07:22:24.330-0700",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21278",
    "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
