@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T17:10:51+00:00",
+ "generated_at": "2026-08-24T17:41:48+00:00",
  "today": "2026-08-24",
  "features": [
   {
@@ -894,17 +894,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-21414",
-   "name": "ACH Auto Renewal end-end testing",
-   "status": "Idea",
-   "ted": "2026-08-26",
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "ACH"
-  },
-  {
    "key": "DYN-1030",
    "name": "Ach Emails WFP Non Plans",
    "status": "Blocked",
@@ -1674,17 +1663,6 @@
    "fv": "R9.7",
    "ted": "2026-08-24",
    "who": "Denys Kernychnyi",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLANS-21414",
-   "name": "ACH Auto Renewal end-end testing",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Idea",
-   "fv": null,
-   "ted": "2026-08-26",
-   "who": "Unassigned",
    "theme": "ACH"
   },
   {
@@ -3925,30 +3903,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21690",
-   "name": "DCA - Ancillary Benefits are incorrect",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T10:45:17.062-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21681",
    "name": "DCA - Core Plan Bug",
    "pod": "LL",
@@ -4881,6 +4835,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21690",
+   "name": "DCA - Ancillary Benefits are incorrect",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Chris Rubio",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T10:45:17.062-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21549",
    "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
    "pod": "LL",
@@ -4977,102 +4955,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21582",
-   "name": "[DCA]-Cancel auto-renewal email does not get to the inbox",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Daryl Myrick",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-08-19T11:35:36.864-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21563",
-   "name": "Plan Deleted when switching over the primary",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Chantaya Brown",
-   "prio": "2: Important",
-   "created": "2026-08-19T09:01:34.348-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21560",
-   "name": "Ind Plus - Member Portal - Capacity Showing",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:40:02.809-0700",
-   "resolved": "",
-   "due": "2026-08-24",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21556",
-   "name": "Ind Plus - Member Portal - Add Member Flow",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Conor Kamperman",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:14:16.984-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21515",
    "name": "Auto-Renewal not being shown for DCA Website",
    "pod": "LL",
@@ -5088,29 +4970,6 @@
    "due": "2026-08-21",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20067",
-   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22T01:45:52.005-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -5355,12 +5214,84 @@
    "sprint": "LL-Sprint 20-26",
    "who": "Rojesh Thapa",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-08-24T08:40:21.416-0700",
    "resolved": "",
    "due": "2026-08-24",
    "labels": [],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21582",
+   "name": "[DCA]-Cancel auto-renewal email does not get to the inbox",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Daryl Myrick",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T11:35:36.864-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21563",
+   "name": "Plan Deleted when switching over the primary",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Chantaya Brown",
+   "prio": "2: Important",
+   "created": "2026-08-19T09:01:34.348-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21560",
+   "name": "Ind Plus - Member Portal - Capacity Showing",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:40:02.809-0700",
+   "resolved": "",
+   "due": "2026-08-24",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5380,6 +5311,30 @@
    "created": "2026-08-19T07:37:51.636-0700",
    "resolved": "",
    "due": "2026-08-19",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21556",
+   "name": "Ind Plus - Member Portal - Add Member Flow",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Conor Kamperman",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:14:16.984-0700",
+   "resolved": "",
+   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5604,6 +5559,29 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-20067",
+   "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22T01:45:52.005-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-19758",
@@ -20953,7 +20931,22 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21776",
+   "name": "ACH - When Turn on auto renewal and selecting ACH as primary card getting an 500 error - Authorization couldnt be obtained",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-21775",
+   "name": "ACH<Member Portal<Deleting Primary Card< Selecting Bank account as replacement- Getting error \"could not retrieve Bank auth\" and Card is not deleting",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
