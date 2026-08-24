@@ -95,6 +95,30 @@ def clean(s):
     return " ".join((s or "").split())
 
 
+def pick_sprint(sprint_objs):
+    """Choose the sprint to display from Jira's sprint array (which lists every
+    sprint the issue was ever in, in arbitrary order). Priority: active > future
+    > most-recently-closed. Returns the sprint name or None."""
+    if not sprint_objs:
+        return None
+    def recency(s):  # sort key for "most recent" among a state group
+        return s.get("startDate") or s.get("completeDate") or s.get("endDate") or ""
+    active = [s for s in sprint_objs if s.get("state") == "active"]
+    future = [s for s in sprint_objs if s.get("state") == "future"]
+    closed = [s for s in sprint_objs if s.get("state") == "closed"]
+    if active:
+        active.sort(key=recency)
+        return active[-1].get("name")
+    if future:
+        # nearest upcoming first (by start date, then id)
+        future.sort(key=lambda s: (s.get("startDate") or "", s.get("id") or 0))
+        return future[0].get("name")
+    if closed:
+        closed.sort(key=recency)
+        return closed[-1].get("name")
+    return sprint_objs[-1].get("name")
+
+
 def parse_issue(i, theme=None):
     f = i["fields"]
     pod = f.get(CLOUD_FIELDS["pod"]) or {}
@@ -104,11 +128,11 @@ def parse_issue(i, theme=None):
     reporter = f.get("reporter") or {}
     prio = f.get("priority") or {}
     sprint = f.get("customfield_10020") or []
-    sprint_name = None
-    sprint_names = []
-    if isinstance(sprint, list) and sprint:
-        sprint_names = [x.get("name") for x in sprint if isinstance(x, dict)]
-        sprint_name = sprint_names[-1] if sprint_names else None
+    sprint_objs = [x for x in sprint if isinstance(x, dict)] if isinstance(sprint, list) else []
+    sprint_names = [x.get("name") for x in sprint_objs]
+    # Jira returns ALL sprints an issue has ever been in, NOT in chronological order,
+    # so we pick by state (active > future > most-recent closed) instead of taking the last.
+    sprint_name = pick_sprint(sprint_objs)
     # Camille: a bug is "in LL - Low Prior Bugs" only if it has BOTH the sprint AND the epic.
     lp_sprint = any("low prior bugs" in (n or "").lower() for n in sprint_names)
     # Is this issue linked to the LL - Low Prior Bugs epic? (parent / Epic Link / issue link)
