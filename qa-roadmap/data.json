@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T15:44:51+00:00",
+ "generated_at": "2026-08-24T16:00:51+00:00",
  "today": "2026-08-24",
  "features": [
   {
@@ -905,17 +905,6 @@
    "theme": "ACH"
   },
   {
-   "key": "WEL-6024",
-   "name": "WellfitPay Payment Widget Enhancements",
-   "status": "In Development",
-   "ted": "2026-09-02",
-   "fv": "R9.7",
-   "who": "Daniel Marineni",
-   "tshirt": null,
-   "pod": "WEL",
-   "theme": "ACH"
-  },
-  {
    "key": "DYN-1030",
    "name": "Ach Emails WFP Non Plans",
    "status": "Blocked",
@@ -989,6 +978,17 @@
    "fv": "R9.7",
    "who": "Daniel Marineni",
    "tshirt": "Large",
+   "pod": "WEL",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "WEL-6024",
+   "name": "WellfitPay Payment Widget Enhancements",
+   "status": "In Development",
+   "ted": "2026-09-02",
+   "fv": "R9.7",
+   "who": "Daniel Marineni",
+   "tshirt": null,
    "pod": "WEL",
    "theme": "ACH-Fast Follows"
   }
@@ -1688,17 +1688,6 @@
    "theme": "ACH"
   },
   {
-   "key": "WEL-6024",
-   "name": "WellfitPay Payment Widget Enhancements",
-   "pod": "WEL",
-   "proj": "WEL",
-   "status": "In Development",
-   "fv": "R9.7",
-   "ted": "2026-09-02",
-   "who": "Daniel Marineni",
-   "theme": "ACH"
-  },
-  {
    "key": "DYN-1030",
    "name": "Ach Emails WFP Non Plans",
    "pod": "DYN",
@@ -1772,6 +1761,17 @@
    "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-09-09",
+   "who": "Daniel Marineni",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "WEL-6024",
+   "name": "WellfitPay Payment Widget Enhancements",
+   "pod": "WEL",
+   "proj": "WEL",
+   "status": "In Development",
+   "fv": "R9.7",
+   "ted": "2026-09-02",
    "who": "Daniel Marineni",
    "theme": "ACH-Fast Follows"
   }
@@ -2213,13 +2213,16 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-24T08:40:21.416-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -2227,17 +2230,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21760",
-   "name": "ACH - Manage patient page not loading for default office manager role",
-   "pod": "PLANS",
+   "key": "PLANS-21749",
+   "name": "Auth form - Recurring Payment Date Displayed Incorrectly Compared to Plan Start Date(message says payment will debit beginning of 23rd however plan starts on 24th and payment process at 12.15 UTC 24th)",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-24T07:22:10.931-0700",
+   "prio": "3: Standard",
+   "created": "2026-08-24T05:51:08.046-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -2246,9 +2249,9 @@
    ],
    "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21748",
@@ -2371,30 +2374,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21727",
-   "name": "DCA - Plan Sellability",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T19:58:02.103-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21725",
    "name": "DCA - Plan expired out in PMP before expired",
    "pod": "PLANS",
@@ -2413,30 +2392,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21723",
-   "name": "Member Portal/Phone number and website is Plan Card PDF is incorrect",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-21T18:57:13.926-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2467,17 +2422,41 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21707",
-   "name": "DCA - Assignment of the Office",
+   "key": "PLANS-21709",
+   "name": "DCA - Receipt for Purchase Not sent",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T14:35:21.443-0700",
+   "prio": "3: Standard",
+   "created": "2026-08-21T14:48:47.882-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21708",
+   "name": "DCA - Account History not showing",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-08-21T14:39:26.642-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -2539,30 +2518,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21681",
-   "name": "DCA - Core Plan Bug",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dmytro Tymofiienko",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T07:52:28.551-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21670",
    "name": "ACH Refund Status Displays as \"Status Unavailable\" for Auto-Renewed PMP Plans Paid via ACH",
    "pod": "LL",
@@ -2581,6 +2536,30 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-21667",
+   "name": "Member Portal<Stage<E-Consent not displaying while ADD Member for Adult, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-20T21:59:48.328-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -2683,6 +2662,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-21591",
+   "name": "Marketing Consent / Member Portal - Decline mkt consent in CSP and is enabled in member portal",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-19T14:37:14.431-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21585",
    "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
    "pod": "PLANS",
@@ -2707,6 +2710,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21558",
+   "name": "PMP - LL - Primary Payment Method is ACH, but Credit Card option is Auto-Selected During Manual Renewal",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T07:17:59.452-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-21531",
    "name": "Member Portal \\ Upgrading and Renewing plan makes the membership agreement link button to disappear",
    "pod": "LL",
@@ -2725,6 +2752,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21516",
+   "name": "IND. Plus plan - UI improvement",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-08-18T12:49:42.437-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3661,6 +3712,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21760",
+   "name": "ACH - Manage patient page not loading for default office manager role",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-24T07:22:10.931-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21757",
    "name": "CSP Purchase for DCA- MA Office - Allows Purchase of Deluxe Plan",
    "pod": "LL",
@@ -3757,41 +3832,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21749",
-   "name": "Auth form - Recurring Payment Date Displayed Incorrectly Compared to Plan Start Date(message says payment will debit beginning of 23rd however plan starts on 24th and payment process at 12.15 UTC 24th)",
+   "key": "PLANS-21727",
+   "name": "DCA - Plan Sellability",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-24T05:51:08.046-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-21709",
-   "name": "DCA - Receipt for Purchase Not sent",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
+   "fv": "R9.7",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-08-21T14:48:47.882-0700",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T19:58:02.103-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -3805,17 +3856,41 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21708",
-   "name": "DCA - Account History not showing",
+   "key": "PLANS-21723",
+   "name": "Member Portal/Phone number and website is Plan Card PDF is incorrect",
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-21T18:57:13.926-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21707",
+   "name": "DCA - Assignment of the Office",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-08-21T14:39:26.642-0700",
+   "prio": "2: Important",
+   "created": "2026-08-21T14:35:21.443-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -3901,17 +3976,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21667",
-   "name": "Member Portal<Stage<E-Consent not displaying while ADD Member for Adult, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
+   "key": "PLANS-21681",
+   "name": "DCA - Core Plan Bug",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-20T21:59:48.328-0700",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dmytro Tymofiienko",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T07:52:28.551-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -3920,9 +3995,9 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21627",
@@ -3967,78 +4042,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21591",
-   "name": "Marketing Consent / Member Portal - Decline mkt consent in CSP and is enabled in member portal",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-19T14:37:14.431-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21558",
-   "name": "PMP - LL - Primary Payment Method is ACH, but Credit Card option is Auto-Selected During Manual Renewal",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-19T07:17:59.452-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-21516",
-   "name": "IND. Plus plan - UI improvement",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-08-18T12:49:42.437-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -6000,7 +6003,7 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": false,
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
