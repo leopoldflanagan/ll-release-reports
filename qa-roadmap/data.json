@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T14:45:21+00:00",
+ "generated_at": "2026-08-24T15:14:39+00:00",
  "today": "2026-08-24",
  "features": [
   {
@@ -42,7 +42,7 @@
    "key": "PLANS-18481",
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
-   "ted": "2026-08-14",
+   "ted": null,
    "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
@@ -390,7 +390,7 @@
    "name": "SaaS Fee Per Practice",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Vic Du Plessis",
    "tshirt": "Moderate",
    "pod": "PLAT",
@@ -609,7 +609,7 @@
    "key": "PLANS-18481",
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
-   "ted": "2026-08-14",
+   "ted": null,
    "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
@@ -744,17 +744,6 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-20563",
-   "name": "UI Improvement for Smile Health",
-   "status": "In Development",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Mariano Hernández",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -995,7 +984,7 @@
    "name": "Communications Service Reporting and Hardening",
    "status": "In Testing",
    "ted": "2026-08-14",
-   "fv": "R9.7",
+   "fv": "R9.6.6",
    "who": "Unassigned",
    "tshirt": null,
    "pod": "PLAT",
@@ -1196,7 +1185,7 @@
    "pod": "PLAT",
    "proj": "PLAT",
    "status": "Architecture",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": null,
    "who": "Vic Du Plessis",
    "theme": "LL-MVP"
@@ -1417,7 +1406,7 @@
    "proj": "PLANS",
    "status": "On Hold",
    "fv": "R9.9",
-   "ted": "2026-08-14",
+   "ted": null,
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -1551,17 +1540,6 @@
    "fv": "R9.8",
    "ted": null,
    "who": "Unassigned",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-20563",
-   "name": "UI Improvement for Smile Health",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "In Development",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Mariano Hernández",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1801,7 +1779,7 @@
    "pod": "PLAT",
    "proj": "PLAT",
    "status": "In Testing",
-   "fv": "R9.7",
+   "fv": "R9.6.6",
    "ted": "2026-08-14",
    "who": "Unassigned",
    "theme": "ACH-Fast Follows"
@@ -1830,6 +1808,30 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-21705",
+   "name": "Ancillary Benefit Card - Needs the WFIT Group Code",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T14:07:21.589-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21693",
    "name": "Ind- Plans - Pricing for Add Member - Give Message",
@@ -2237,7 +2239,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -2246,7 +2248,7 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2301,7 +2303,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2309,11 +2311,11 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21739",
@@ -2322,7 +2324,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2330,11 +2332,11 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21736",
@@ -2343,7 +2345,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2351,11 +2353,11 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21733",
@@ -2364,7 +2366,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2372,11 +2374,11 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21727",
@@ -2423,6 +2425,27 @@
    "theme": "",
    "triage": "",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21723",
+   "name": "Member Portal/Phone number and website is Plan Card PDF is incorrect",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-21T18:57:13.926-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -2481,7 +2504,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2491,9 +2514,9 @@
    "labels": [],
    "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21686",
@@ -3615,6 +3638,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21764",
+   "name": "PMP Purchase - DCA - Brandon OM - no option for Payment Type for Purchase",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-24T08:07:47.705-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21757",
    "name": "CSP Purchase for DCA- MA Office - Allows Purchase of Deluxe Plan",
    "pod": "LL",
@@ -3698,30 +3745,6 @@
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-08-21T14:39:26.642-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21705",
-   "name": "Ancillary Benefit Card - Needs the WFIT Group Code",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T14:07:21.589-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -5149,7 +5172,7 @@
    "status": "On Hold",
    "cat": "In Progress",
    "fv": null,
-   "sprint": "Plans-Sprint 20-26",
+   "sprint": null,
    "who": "Daniel Marineni",
    "reporter": "Michael McNulty",
    "prio": "3: Standard",
@@ -20877,27 +20900,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-12598",
-   "name": "Downgraded plan and it didn't automatically refund",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "Plans-Sprint 13-26",
-   "who": "Conor Kamperman",
-   "reporter": "Chantaya Brown",
-   "prio": "2: Important",
-   "created": "2026-03-09T09:55:53.136-0700",
-   "resolved": "2026-05-26T07:46:22.184-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
@@ -20905,13 +20907,6 @@
   {
    "key": "PLANS-21748",
    "name": "ACH refunds receipt -Discrepancy in Account Information in receipt",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-21723",
-   "name": "Member Portal/Phone number and website is Plan Card PDF is incorrect",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
