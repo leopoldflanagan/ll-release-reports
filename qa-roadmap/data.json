@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T21:07:56+00:00",
+ "generated_at": "2026-08-24T21:41:07+00:00",
  "today": "2026-08-24",
  "features": [
   {
@@ -1780,30 +1780,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21705",
-   "name": "Ancillary Benefit Card - Needs the WFIT Group Code",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T14:07:21.589-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21693",
    "name": "Ind- Plans - Pricing for Add Member - Give Message",
    "pod": "PLANS",
@@ -1942,30 +1918,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21482",
-   "name": "Manual renewal is incorrectly blocked for plans that were previously auto-renewed",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-18T10:57:17.813-0700",
-   "resolved": "",
-   "due": "2026-08-21",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4880,6 +4832,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21705",
+   "name": "Ancillary Benefit Card - Needs the WFIT Group Code",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T14:07:21.589-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21698",
    "name": "Stage - Member Portal - Price on Add Plan card is incorrect",
    "pod": "PLANS",
@@ -4917,30 +4893,6 @@
    "created": "2026-08-21T08:08:24.886-0700",
    "resolved": "",
    "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21570",
-   "name": "PMP - UI - showing multiple decimals in plan fee when add new plan",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-19T09:37:04.980-0700",
-   "resolved": "",
-   "due": "2026-08-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4994,6 +4946,30 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21570",
+   "name": "PMP - UI - showing multiple decimals in plan fee when add new plan",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T09:37:04.980-0700",
+   "resolved": "",
+   "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5460,6 +5436,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21482",
+   "name": "Manual renewal is incorrectly blocked for plans that were previously auto-renewed",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-18T10:57:17.813-0700",
+   "resolved": "",
+   "due": "2026-08-21",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
