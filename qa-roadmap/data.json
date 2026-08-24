@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T15:14:39+00:00",
+ "generated_at": "2026-08-24T15:44:51+00:00",
  "today": "2026-08-24",
  "features": [
   {
@@ -108,15 +108,6 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Valentyna Tenus",
-   "tshirt": null
-  },
-  {
-   "key": "PLANS-20258",
-   "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
-   "status": "In Testing",
-   "ted": "2026-08-21",
-   "fv": "R9.7",
-   "who": "Vasyl Skochko",
    "tshirt": null
   },
   {
@@ -888,17 +879,6 @@
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large",
-   "pod": "LL",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLANS-20258",
-   "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
-   "status": "In Testing",
-   "ted": "2026-08-21",
-   "fv": "R9.7",
-   "who": "Vasyl Skochko",
-   "tshirt": null,
    "pod": "LL",
    "theme": "ACH"
   },
@@ -1686,17 +1666,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-20258",
-   "name": "ACH to WFP/PMP + ACH auto-renewal for Member Portal",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-21",
-   "who": "Vasyl Skochko",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "pod": "LL",
@@ -1846,6 +1815,30 @@
    "created": "2026-08-21T11:47:50.158-0700",
    "resolved": "",
    "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21682",
+   "name": "Tie Plan Multi Practice View Upgrade| Disabled offices shown on search",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-21T08:08:24.886-0700",
+   "resolved": "",
+   "due": "2026-08-26",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -2061,7 +2054,7 @@
    "prio": "1: Urgent",
    "created": "2026-08-13T04:05:47.307-0700",
    "resolved": "",
-   "due": "2026-08-21",
+   "due": "2026-08-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -2213,8 +2206,8 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21760",
-   "name": "ACH - Manage patient page not loading for default office manager role",
+   "key": "PLANS-21765",
+   "name": "ACH- Welcome email not recieved for ACH paid plans",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -2223,7 +2216,7 @@
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-08-24T07:22:10.931-0700",
+   "created": "2026-08-24T08:40:21.416-0700",
    "resolved": "",
    "due": "",
    "labels": [],
@@ -2234,20 +2227,23 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21756",
-   "name": "ACH - Payment options not visible for default Office Manager user role (403 error )",
-   "pod": "LL",
+   "key": "PLANS-21760",
+   "name": "ACH - Manage patient page not loading for default office manager role",
+   "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-24T07:05:56.359-0700",
+   "prio": "1: Urgent",
+   "created": "2026-08-24T07:22:10.931-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "ACH",
    "triage": "",
    "lpEpic": false,
@@ -2255,42 +2251,24 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21753",
-   "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
+   "key": "PLANS-21748",
+   "name": "ACH refunds receipt -Discrepancy in Account Information in receipt",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
+   "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
-   "created": "2026-08-24T06:36:46.592-0700",
+   "created": "2026-08-23T22:35:52.185-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21749",
-   "name": "Auth form - Recurring Payment Date Displayed Incorrectly Compared to Plan Start Date(message says payment will debit beginning of 23rd however plan starts on 24th and payment process at 12.15 UTC 24th)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-24T05:51:08.046-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -2306,11 +2284,14 @@
    "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "4: Low",
    "created": "2026-08-22T16:58:18.539-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
@@ -2331,7 +2312,10 @@
    "created": "2026-08-22T16:53:20.420-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
@@ -2352,7 +2336,10 @@
    "created": "2026-08-22T16:39:23.599-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
@@ -2373,7 +2360,10 @@
    "created": "2026-08-22T16:21:52.563-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
@@ -2431,21 +2421,24 @@
   {
    "key": "PLANS-21723",
    "name": "Member Portal/Phone number and website is Plan Card PDF is incorrect",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "fv": "R9.7",
+   "sprint": null,
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-21T18:57:13.926-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": true,
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -2500,23 +2493,26 @@
   {
    "key": "PLANS-21703",
    "name": "ACH Refund - Cancellation reasons not logged in CSP history ; Click on Record Refund > Allowing user to select reasons again",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-21T13:06:25.301-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21686",
@@ -2524,8 +2520,8 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Vinita Thankur",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
@@ -2536,11 +2532,11 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "LL-MVP",
+   "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21681",
@@ -2700,7 +2696,10 @@
    "created": "2026-08-19T12:47:49.177-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
@@ -3686,6 +3685,54 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21756",
+   "name": "ACH - Payment options not visible for default Office Manager user role (403 error )",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-24T07:05:56.359-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21753",
+   "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-24T06:36:46.592-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21752",
    "name": "Ability to Search for Member Outside Practice",
    "pod": "PLANS",
@@ -3708,6 +3755,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21749",
+   "name": "Auth form - Recurring Payment Date Displayed Incorrectly Compared to Plan Start Date(message says payment will debit beginning of 23rd however plan starts on 24th and payment process at 12.15 UTC 24th)",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-24T05:51:08.046-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21709",
@@ -5744,6 +5815,27 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21712",
+   "name": "Member Portal/ ACH is not displayed as a payment method",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-21T17:32:59.415-0700",
+   "resolved": "2026-08-24T08:27:32.516-0700",
+   "due": "",
+   "labels": [],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
   {
    "key": "PLANS-21546",
    "name": "PMP - LL - Incorrect {recurring_schedule} format on the Purchase Auth Form (Auto Renew checked )",
@@ -20879,53 +20971,10 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-15031",
-   "name": "Plan Details PDF/ Hyperlinks in the PDF are not selectable",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "LL-Sprint 13 - 26",
-   "who": "Vivienne Chawande",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-04-06T13:57:10.832-0700",
-   "resolved": "2026-05-26T08:27:13.285-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-21748",
-   "name": "ACH refunds receipt -Discrepancy in Account Information in receipt",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-21712",
-   "name": "Member Portal/ ACH is not displayed as a payment method",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-21682",
-   "name": "Tie Plan Multi Practice View Upgrade| Disabled offices shown on search",
-   "status": "In Development",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 24–30",
