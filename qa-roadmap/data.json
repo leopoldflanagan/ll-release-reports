@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T18:45:08+00:00",
+ "generated_at": "2026-08-24T19:12:53+00:00",
  "today": "2026-08-24",
  "features": [
   {
@@ -1804,30 +1804,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21682",
-   "name": "Tie Plan Multi Practice View Upgrade| Disabled offices shown on search",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-21T08:08:24.886-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21669",
    "name": "E-Consent <Not Displaying for all Listed Plans- SGDP CA, SGDP TN,SGDP AZ, One Smile, KOS, Essential Smile",
    "pod": "LL",
@@ -2185,7 +2161,7 @@
   },
   {
    "key": "PLANS-21779",
-   "name": "ACH<Member Portal<Change primary payment Method dialog doesn't display other Payment option to select",
+   "name": "ACH<Member Portal<Change primary payment Method dialog doesn't display Bank accounts Payment as option to select",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -4868,6 +4844,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21682",
+   "name": "Tie Plan Multi Practice View Upgrade| Disabled offices shown on search",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-21T08:08:24.886-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -20980,6 +20980,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21782",
+   "name": "Plan Confirmation Receipt / Missing email for DCA members who purchased a plan using ACH payment method",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-21780",
    "name": "plans-core: DenticonIntegrationId constant is stale (...011 is now Epic, Denticon moved to ...012)",
