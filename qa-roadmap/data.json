@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-24T22:41:01+00:00",
+ "generated_at": "2026-08-24T23:05:02+00:00",
  "today": "2026-08-24",
  "features": [
   {
@@ -3663,30 +3663,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21780",
-   "name": "plans-core: DenticonIntegrationId constant is stale (...011 is now Epic, Denticon moved to ...012)",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Sailaja Yanamandra",
-   "prio": "2: Important",
-   "created": "2026-08-24T11:27:43.832-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21779",
    "name": "ACH<Member Portal<Change primary payment Method dialog doesn't display Bank accounts Payment as option to select",
    "pod": "LL",
@@ -4946,6 +4922,30 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21780",
+   "name": "plans-core: DenticonIntegrationId constant is stale (...011 is now Epic, Denticon moved to ...012)",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Sailaja Yanamandra",
+   "prio": "2: Important",
+   "created": "2026-08-24T11:27:43.832-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -21105,7 +21105,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21802",
+   "name": "ACH - bug report inprogress",
+   "status": "Backlog",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
