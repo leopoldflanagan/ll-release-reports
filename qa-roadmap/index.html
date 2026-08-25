@@ -342,6 +342,11 @@
   .bugresult .brdiv{width:1px;height:15px;background:rgba(47,125,28,.3)}
   .bugresult .brgreen{color:#2f7d1c}
   .bugresult .bramber{color:#9a6a06}
+  /* No-Theme collapsible accordion */
+  .ntacc{display:flex;align-items:center;gap:9px;width:100%;background:none;border:0;padding:0;cursor:pointer;font-family:inherit;text-align:left}
+  .ntacc h3{font-size:15px;color:var(--navy)}
+  .ntcard .chev{display:inline-block;transition:transform .15s;color:var(--muted);font-size:14px}
+  .ntcard.open .chev{transform:rotate(90deg)}
   /* Custom hover tooltip for row tags/stamps (native title was unreliable) */
   .tip{cursor:help;position:relative}
   .tip:hover::after{content:attr(data-tip);position:absolute;left:0;top:calc(100% + 6px);background:#1f2d3d;color:#fff;font-size:11px;font-weight:600;line-height:1.4;letter-spacing:0;text-transform:none;padding:7px 10px;border-radius:7px;white-space:normal;width:max-content;max-width:280px;z-index:80;box-shadow:0 8px 24px rgba(0,0,0,.24);pointer-events:none}
@@ -510,6 +515,7 @@
         <span class="fcount" id="bugfcount"></span>
         <div style="display:flex;align-items:center;gap:10px">
           <button class="clearall" id="bugdefault" type="button">★ Default view</button>
+          <button class="clearall" id="bugsetdefault" type="button" title="Save the current filters as your personal default">☆ Set as default</button>
           <button class="clearall" id="bugclearall" type="button">✕ Clear all filters</button>
           <button class="exportbtn" id="bugexport" type="button">⬇ Export to Excel</button>
         </div>
@@ -524,6 +530,18 @@
       <p class="sub" style="font-size:12.5px;margin:10px 0">Active bugs in the PLANS project with no Pod value set. Review and assign a Pod. <a id="nopodjira" href="#" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">Open this list in Jira ↗</a></p>
       <ul class="plist peek" id="nopodlist"></ul>
       <button class="seemore" id="nopod-toggle" type="button"></button>
+    </div>
+
+    <div class="card pending ntcard" id="nothemecard" style="margin-top:18px">
+      <button class="ntacc" id="notheme-acc" type="button" aria-expanded="false">
+        <span class="chev">▸</span>
+        <h3 id="nothemetitle" style="margin:0">PLANS bugs with no Theme — needs triage &amp; assignment</h3>
+      </button>
+      <div class="ntbody" id="nothemebody" hidden>
+        <p class="sub" style="font-size:12.5px;margin:10px 0">Active bugs with no Theme value set. Assign a Theme so they group under the right roadmap theme. <a id="nothemejira" href="#" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">Open this list in Jira ↗</a></p>
+        <ul class="plist peek" id="nothemelist"></ul>
+        <button class="seemore" id="notheme-toggle" type="button"></button>
+      </div>
     </div>
 
   </div>
@@ -1489,7 +1507,31 @@ function noPodList(){
   const nt=document.getElementById("nopodtitle");
   if(nt) nt.innerHTML=`PLANS bugs with no Pod — needs triage &amp; assignment — ${NOPOD.length} item${NOPOD.length!==1?'s':''}`;
 }
-// PLANS bugs with no Theme (needs a Theme assigned) — computed from the active bug set
+// Bugs with no Theme (needs a Theme assigned) — collapsed accordion, computed from the active bug set
+function noThemeList(){
+  const jql='cf[11626] IN ("LL","PLANS") AND issuetype = Bug AND cf[12146] IS EMPTY AND statusCategory != Done ORDER BY created DESC';
+  const jl=document.getElementById("nothemejira"); if(jl) jl.href="https://wellfit.atlassian.net/issues/?jql="+encodeURIComponent(jql);
+  const ul=document.getElementById("nothemelist"); if(!ul) return; ul.innerHTML="";
+  const list=BUGS.filter(b=>!b.theme);
+  list.forEach(b=>{
+    const li=document.createElement("li");
+    li.innerHTML=`<a class="k" href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a><span style="flex:1">${b.name}<br><span class="who">${b.pod||'No pod'} · ${b.who}</span></span>${statusPill(b.status)}`;
+    ul.appendChild(li);
+  });
+  const nt=document.getElementById("nothemetitle");
+  if(nt) nt.textContent=`PLANS bugs with no Theme — needs triage & assignment — ${list.length} item${list.length!==1?'s':''}`;
+  // accordion: collapsed by default; wire the header toggle once
+  const acc=document.getElementById("notheme-acc"), body=document.getElementById("nothemebody"), card=document.getElementById("nothemecard");
+  if(acc && !acc.dataset.wired){
+    acc.dataset.wired="1";
+    acc.addEventListener("click",()=>{
+      const open=card.classList.toggle("open");
+      acc.setAttribute("aria-expanded", open?"true":"false");
+      body.hidden=!open;
+      if(open) setupPeek("nothemelist","notheme-toggle",5);   // measure once visible
+    });
+  }
+}
 // Migration-group label filter chips (multi-select OR)
 function bugGroupFilters(){
   const gf=document.getElementById("buggroupfilter"); if(!gf) return;
@@ -1733,8 +1775,13 @@ function applyFilters(s){
   bugLabelFilter=s.label||"all"; bugGroups=new Set(s.groups||[]); bugFlags=new Set(s.flags||[]);
   bugNegated=new Set(s.neg||[]); bugCard=s.card||"all"; bugSort=s.sort||"prio"; bugSearchTerm=s.search||"";
 }
+const LS_DEFAULT="llqa.bugdefault.v1";
+function savePersonalDefault(){ try{ localStorage.setItem(LS_DEFAULT, JSON.stringify(serializeFilters())); }catch(e){} }
+function loadPersonalDefault(){ try{ const raw=localStorage.getItem(LS_DEFAULT); return raw?JSON.parse(raw):null; }catch(e){ return null; } }
 function applyDefaultFilters(){
-  // reset everything, then the curated default preset (P1+P2)
+  // Prefer the user's saved personal default; otherwise the built-in preset (P1+P2).
+  const pd=loadPersonalDefault();
+  if(pd){ applyFilters(pd); return; }
   bugScope="open"; bugThemes.clear(); bugPods.clear(); bugStatuses.clear(); bugPrios.clear();
   bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear();
   bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugNegated.clear(); bugCard="all"; bugSearchTerm="";
@@ -1752,6 +1799,7 @@ function initBugs(){
   bugScopeFilters();
   bugThemeFilters();
   noPodList();
+  noThemeList();
   refreshBugUI();
   wireSearch("bugsearchbox","bugsearch","bugsearchclear","bugsearchcount",
     v=>{ bugSearchTerm=v; }, refreshBugUI, ()=>bugRows().length);
@@ -1762,8 +1810,10 @@ function initBugs(){
   if(_bs) _bs.addEventListener("change",()=>{ bugSort=_bs.value; renderBugs(); });
   const _bd=document.getElementById("bugdefault");
   if(_bd) _bd.addEventListener("click",()=>{ applyDefaultFilters(); syncFilterDom(); bugScopeFilters(); bugThemeFilters(); if(typeof refreshBugUI==="function") refreshBugUI(); else renderBugs(); });
+  const _sd=document.getElementById("bugsetdefault");
+  if(_sd) _sd.addEventListener("click",()=>{ savePersonalDefault(); const t=_sd.textContent; _sd.textContent="✓ Saved as default"; setTimeout(()=>{ _sd.textContent=t; },1600); });
   document.getElementById("bugclearall").addEventListener("click", ()=>{
-    bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugThemes.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear(); bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugCard="all"; bugOpenMenu=null;
+    bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugThemes.clear(); bugNegated.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear(); bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugCard="all"; bugOpenMenu=null;
     const si=document.getElementById("bugsearch");
     if(si){ si.value=""; bugSearchTerm=""; document.getElementById("bugsearchbox").classList.remove("has-text"); }
     refreshBugUI();
