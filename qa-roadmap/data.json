@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T19:12:29+00:00",
+ "generated_at": "2026-08-25T19:41:32+00:00",
  "today": "2026-08-25",
  "features": [
   {
@@ -135,7 +135,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null
+   "tshirt": "Small"
   },
   {
    "key": "PLANS-20221",
@@ -704,7 +704,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -715,7 +715,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -1766,30 +1766,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21705",
-   "name": "Ancillary Benefit Card - Needs the WFIT Group Code",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T14:07:21.589-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3536,7 +3512,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "David Jones",
    "reporter": "Vera King",
    "prio": "1: Urgent",
    "created": "2026-08-25T08:51:04.487-0700",
@@ -4533,6 +4509,54 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21705",
+   "name": "Ancillary Benefit Card - Needs the WFIT Group Code",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T14:07:21.589-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21681",
+   "name": "DCA - Core Plan Bug",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T07:52:28.551-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21667",
    "name": "Member Portal<Stage<E-Consent not displaying while ADD Member for Adult, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
    "pod": "LL",
@@ -4647,30 +4671,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21681",
-   "name": "DCA - Core Plan Bug",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T07:52:28.551-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
