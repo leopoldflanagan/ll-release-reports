@@ -1145,6 +1145,7 @@ let bugNegated=new Set();     // facet ids in "is none of" (exclude) mode: pod|s
 const DEFAULT_PRIO_LEVELS=[1,2];  // Priority values pre-applied on first load (P1+P2). [] = no default.
 let bugTriage=new Set();     // multi-select Triage-field value chips; empty = all
 let bugAssignees=new Set();  // multi-select Assignee filter; "Unassigned" is a value; empty = all
+let bugReleases=new Set();   // multi-select Release (Fix Version) filter; "None" = no release; empty = all
 let bugSort="prio";          // order-by: prio | new | old | key | who | pod
 let bugLabelFilter="all";    // all | prioritized | unprioritized
 let bugGroups=new Set();     // multi-select migration-group label chips; empty = all
@@ -1219,6 +1220,7 @@ function facetBase(exclude){
   if(exclude!=="due" && bugDue.size) r=r.filter(b=> (bugDue.has("none")&&!b.due) || (bugDue.has("overdue")&&isOverdue(b)) );
   if(exclude!=="triage" && bugTriage.size) r=r.filter(neg("triage", b=>bugTriage.has(b.triage||"")));
   if(exclude!=="assignee" && bugAssignees.size) r=r.filter(neg("assignee", b=>bugAssignees.has(b.who||"Unassigned")));
+  if(exclude!=="release" && bugReleases.size) r=r.filter(neg("release", b=>bugReleases.has(b.fv||"None")));
   if(exclude!=="prioritized"){ if(bugLabelFilter==="prioritized") r=r.filter(hasLabel); else if(bugLabelFilter==="unprioritized") r=r.filter(b=>!hasLabel(b)); }
   if(exclude!=="group" && bugGroups.size) r=r.filter(neg("group", b=>bugGroupLabels(b).some(l=>bugGroups.has(l))));
   if(exclude!=="review" && bugFlags.size) r=r.filter(b=> (bugFlags.has("nolabel")&&missingGroup(b)) || (bugFlags.has("nolink")&&notLinkedLP(b)) );
@@ -1331,7 +1333,7 @@ function renderBugs(){
   saveFilters();   // persist current filters (per browser) so the next load restores them
 }
 function bugActiveCount(){
-  return bugStatuses.size+bugPrios.size+bugGroups.size+bugFlags.size+bugTriage.size+bugPods.size+bugDue.size+bugAssignees.size+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0)+(bugRecentHours?1:0)+(bugClosedHours?1:0)+(bugLabelFilter!=="all"?1:0);
+  return bugStatuses.size+bugPrios.size+bugGroups.size+bugFlags.size+bugTriage.size+bugPods.size+bugDue.size+bugAssignees.size+bugReleases.size+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0)+(bugRecentHours?1:0)+(bugClosedHours?1:0)+(bugLabelFilter!=="all"?1:0);
 }
 // Live "filtered results" summary — reflects the FULL current selection (all sub-filters +
 // search + card), unlike the big metric cards which stay pinned to the Show/Theme scope.
@@ -1666,7 +1668,13 @@ function filterDefs(){
   defs.push({id:"assignee",label:"Assignee",
     options:_who.map(v=>({v:v,label:v,count:cnt("assignee",b=>(b.who||"Unassigned")===v)})),
     selected:()=>[...bugAssignees], toggle:v=>{ bugAssignees.has(v)?bugAssignees.delete(v):bugAssignees.add(v); }, neg:true});
-  const ORDER=["pod","triage","recent","closed","due","prio","status","assignee","group","prioritized","review"];
+  let _rel=Array.from(new Set(S.map(b=>b.fv).filter(Boolean))).sort((a,b)=>b.localeCompare(a,undefined,{numeric:true}));  // newest release first
+  const _relOpts=_rel.map(v=>({v:v,label:v,count:cnt("release",b=>b.fv===v)}));
+  if(S.some(b=>!b.fv)) _relOpts.push({v:"None",label:"No release",count:cnt("release",b=>!b.fv)});
+  defs.push({id:"release",label:"Release",
+    options:_relOpts,
+    selected:()=>[...bugReleases], toggle:v=>{ bugReleases.has(v)?bugReleases.delete(v):bugReleases.add(v); }, neg:true});
+  const ORDER=["pod","triage","recent","closed","due","prio","status","release","assignee","group","prioritized","review"];
   defs.sort((a,b)=>ORDER.indexOf(a.id)-ORDER.indexOf(b.id));
   return defs;
 }
@@ -1758,7 +1766,7 @@ function toggleLLRows(){
 }
 function onPodChange(){
   // reset all filters, rebuild pod-dependent chips, toggle LL-only rows, re-render
-  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear(); bugNegated.clear();
+  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear(); bugReleases.clear(); bugNegated.clear();
   bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear();
   const si=document.getElementById("bugsearch");
   if(si){ si.value=""; bugSearchTerm=""; const sb=document.getElementById("bugsearchbox"); if(sb) sb.classList.remove("has-text"); }
@@ -1769,7 +1777,7 @@ const LS_KEY="llqa.bugfilters.v1";
 function serializeFilters(){
   return {scope:bugScope, themes:[...bugThemes], pods:[...bugPods], statuses:[...bugStatuses],
     prios:[...bugPrios], recent:bugRecentHours, closed:bugClosedHours, due:[...bugDue],
-    triage:[...bugTriage], assignees:[...bugAssignees], label:bugLabelFilter, groups:[...bugGroups],
+    triage:[...bugTriage], assignees:[...bugAssignees], releases:[...bugReleases], label:bugLabelFilter, groups:[...bugGroups],
     flags:[...bugFlags], neg:[...bugNegated], card:bugCard, sort:bugSort, search:bugSearchTerm};
 }
 function saveFilters(){ try{ localStorage.setItem(LS_KEY, JSON.stringify(serializeFilters())); }catch(e){} }
@@ -1778,7 +1786,7 @@ function applyFilters(s){
   bugScope=s.scope||"open";
   bugThemes=new Set(s.themes||[]); bugPods=new Set(s.pods||[]); bugStatuses=new Set(s.statuses||[]);
   bugPrios=new Set(s.prios||[]); bugRecentHours=s.recent||null; bugClosedHours=s.closed||null;
-  bugDue=new Set(s.due||[]); bugTriage=new Set(s.triage||[]); bugAssignees=new Set(s.assignees||[]);
+  bugDue=new Set(s.due||[]); bugTriage=new Set(s.triage||[]); bugAssignees=new Set(s.assignees||[]); bugReleases=new Set(s.releases||[]);
   bugLabelFilter=s.label||"all"; bugGroups=new Set(s.groups||[]); bugFlags=new Set(s.flags||[]);
   bugNegated=new Set(s.neg||[]); bugCard=s.card||"all"; bugSort=s.sort||"prio"; bugSearchTerm=s.search||"";
 }
@@ -1791,19 +1799,19 @@ function applyDefaultFilters(){
   if(pd){ applyFilters(pd); return; }
   bugScope="open"; bugThemes.clear(); bugPods.clear(); bugStatuses.clear(); bugPrios.clear();
   bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear();
-  bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugNegated.clear(); bugCard="all"; bugSearchTerm="";
+  bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugNegated.clear(); bugReleases.clear(); bugCard="all"; bugSearchTerm="";
   if(DEFAULT_PRIO_LEVELS.length) baseBugs().forEach(b=>{ if(DEFAULT_PRIO_LEVELS.includes(prioNum(b.prio))) bugPrios.add(b.prio); });
 }
 // The default filter set as an object (personal default if saved, else built-in P1+P2) — for comparison.
 function defaultFiltersObject(){
   const pd=loadPersonalDefault(); if(pd) return pd;
   const prios=[]; if(DEFAULT_PRIO_LEVELS.length) baseBugs().forEach(b=>{ if(DEFAULT_PRIO_LEVELS.includes(prioNum(b.prio))) prios.push(b.prio); });
-  return {scope:"open",themes:[],pods:[],statuses:[],prios:[...new Set(prios)],recent:null,closed:null,due:[],triage:[],assignees:[],label:"all",groups:[],flags:[],neg:[],card:"all"};
+  return {scope:"open",themes:[],pods:[],statuses:[],prios:[...new Set(prios)],recent:null,closed:null,due:[],triage:[],assignees:[],releases:[],label:"all",groups:[],flags:[],neg:[],card:"all"};
 }
 // canonical compare string — FILTERS only (ignore sort & search, which aren't filters)
 function normFilters(o){
   const a=k=>[...(o[k]||[])].sort();
-  return JSON.stringify({scope:o.scope||"open",themes:a("themes"),pods:a("pods"),statuses:a("statuses"),prios:a("prios"),recent:o.recent||null,closed:o.closed||null,due:a("due"),triage:a("triage"),assignees:a("assignees"),label:o.label||"all",groups:a("groups"),flags:a("flags"),neg:a("neg"),card:o.card||"all"});
+  return JSON.stringify({scope:o.scope||"open",themes:a("themes"),pods:a("pods"),statuses:a("statuses"),prios:a("prios"),recent:o.recent||null,closed:o.closed||null,due:a("due"),triage:a("triage"),assignees:a("assignees"),releases:a("releases"),label:o.label||"all",groups:a("groups"),flags:a("flags"),neg:a("neg"),card:o.card||"all"});
 }
 function isOnDefault(){ return normFilters(serializeFilters())===normFilters(defaultFiltersObject()); }
 // One stateful control: disabled when you're on your default; enabled ("Return to default") when you've drifted.
@@ -1849,7 +1857,7 @@ function initBugs(){
     setTimeout(renderDefaultBtn,1400);
   });
   document.getElementById("bugclearall").addEventListener("click", ()=>{
-    bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugThemes.clear(); bugNegated.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear(); bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugCard="all"; bugOpenMenu=null;
+    bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugThemes.clear(); bugNegated.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear(); bugReleases.clear(); bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugCard="all"; bugOpenMenu=null;
     const si=document.getElementById("bugsearch");
     if(si){ si.value=""; bugSearchTerm=""; document.getElementById("bugsearchbox").classList.remove("has-text"); }
     refreshBugUI();
