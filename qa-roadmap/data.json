@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T21:07:27+00:00",
+ "generated_at": "2026-08-25T21:40:21+00:00",
  "today": "2026-08-25",
  "features": [
   {
@@ -1779,7 +1779,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
    "who": "Oleksandr Terletskyy",
    "reporter": "Vinita Thankur",
@@ -1945,7 +1945,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "sprint": "LL-Sprint 20-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -1968,7 +1968,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "sprint": "LL-Sprint 20-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
@@ -1991,7 +1991,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
+   "fv": null,
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
@@ -2000,9 +2000,9 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -2631,7 +2631,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "4: Low",
@@ -2642,11 +2642,11 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21254",
@@ -2810,7 +2810,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -2892,7 +2892,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
@@ -2903,11 +2903,11 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20496",
@@ -2927,7 +2927,7 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -3060,7 +3060,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -3073,9 +3073,9 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-17713",
@@ -3179,7 +3179,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Mireya Alvarez",
    "prio": "3: Standard",
@@ -3190,11 +3190,11 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-16289",
@@ -3273,7 +3273,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Luis Moreno",
    "prio": "3: Standard",
@@ -3284,11 +3284,11 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-15280",
@@ -3478,6 +3478,29 @@
    ],
    "theme": "",
    "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21831",
+   "name": "PMP - error 400 after purchasing additional member plan with ACH",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-25T14:39:16.064-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "LLplans"
+   ],
+   "theme": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
