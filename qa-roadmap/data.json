@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T01:14:17+00:00",
+ "generated_at": "2026-08-25T01:41:11+00:00",
  "today": "2026-08-25",
  "features": [
   {
@@ -5202,37 +5202,13 @@
    "linkedLP": false
   },
   {
-   "key": "DYN-1531",
-   "name": "ACH- Welcome email not recieved for ACH paid plans",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rojesh Thapa",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-24T08:40:21.416-0700",
-   "resolved": "",
-   "due": "2026-08-24",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21764",
    "name": "PMP Purchase - DCA - Brandon OM - no option for Payment Type for Purchase",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Conor Kamperman",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
