@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T01:41:11+00:00",
+ "generated_at": "2026-08-25T03:03:38+00:00",
  "today": "2026-08-25",
  "features": [
   {
@@ -1864,7 +1864,7 @@
    "prio": "2: Important",
    "created": "2026-08-19T15:45:02.696-0700",
    "resolved": "",
-   "due": "2026-08-24",
+   "due": "2026-08-25",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -2108,6 +2108,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21803",
+   "name": "PMP \\ 400 error when purchasing a plan using ACH as the payment method",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-08-24T18:52:10.179-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5425,7 +5446,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Vivienne Chawande",
+   "who": "Ivan Yarymovych",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-14T14:21:36.354-0700",
