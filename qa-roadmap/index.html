@@ -186,6 +186,12 @@
   .clearall{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 13px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .12s;display:none;align-items:center;gap:6px}
   .clearall:hover{border-color:var(--red);color:var(--red);background:#fdf4f4}
   .clearall.show{display:inline-flex}
+  /* Default-view button states: off = you're on default (muted, disabled); on = drifted (accent, click to return) */
+  #bugdefault.ondefault{opacity:.55;cursor:default;border-style:dashed;color:var(--muted)}
+  #bugdefault.offdefault{border-color:var(--navy);color:var(--navy);font-weight:800}
+  .deflink{appearance:none;border:0;background:none;color:var(--blue);font-family:inherit;font-size:12px;font-weight:700;cursor:pointer;padding:5px 2px;display:none}
+  .deflink:hover{text-decoration:underline}
+  .deflink.show{display:inline-flex;align-items:center;gap:4px}
   .podbtn,.tbtn,.segbtn{appearance:none;border:1px solid var(--line);background:#fff;color:var(--muted);padding:5px 13px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .12s;line-height:1.5}
   /* default accent = blue (Pod) */
   .podbtn:hover,.tbtn:hover,.segbtn:hover{border-color:var(--blue);color:var(--blue);background:#f4f8fc}
@@ -514,8 +520,8 @@
       <div class="filterfoot">
         <span class="fcount" id="bugfcount"></span>
         <div style="display:flex;align-items:center;gap:10px">
-          <button class="clearall show" id="bugdefault" type="button">★ Default view</button>
-          <button class="clearall show" id="bugsetdefault" type="button" title="Save the current filters as your personal default">☆ Set as default</button>
+          <button class="clearall show" id="bugdefault" type="button">✓ Default view</button>
+          <button class="deflink" id="bugsetdefault" type="button" title="Save the current filters as your personal default">☆ Set as default</button>
           <button class="clearall" id="bugclearall" type="button">✕ Clear all filters</button>
           <button class="exportbtn" id="bugexport" type="button">⬇ Export to Excel</button>
         </div>
@@ -1321,6 +1327,7 @@ function renderBugs(){
   document.getElementById("bugnote").textContent=`Showing ${rows.length} of ${scopedBugs().length} active bugs. Columns ordered by workflow — On Hold pinned first, then closest to closing, backlog last. Within each column, highest priority first. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
   updateBugFoot(rows.length);
   renderBugResult();
+  renderDefaultBtn();
   saveFilters();   // persist current filters (per browser) so the next load restores them
 }
 function bugActiveCount(){
@@ -1787,6 +1794,28 @@ function applyDefaultFilters(){
   bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugNegated.clear(); bugCard="all"; bugSearchTerm="";
   if(DEFAULT_PRIO_LEVELS.length) baseBugs().forEach(b=>{ if(DEFAULT_PRIO_LEVELS.includes(prioNum(b.prio))) bugPrios.add(b.prio); });
 }
+// The default filter set as an object (personal default if saved, else built-in P1+P2) — for comparison.
+function defaultFiltersObject(){
+  const pd=loadPersonalDefault(); if(pd) return pd;
+  const prios=[]; if(DEFAULT_PRIO_LEVELS.length) baseBugs().forEach(b=>{ if(DEFAULT_PRIO_LEVELS.includes(prioNum(b.prio))) prios.push(b.prio); });
+  return {scope:"open",themes:[],pods:[],statuses:[],prios:[...new Set(prios)],recent:null,closed:null,due:[],triage:[],assignees:[],label:"all",groups:[],flags:[],neg:[],card:"all"};
+}
+// canonical compare string — FILTERS only (ignore sort & search, which aren't filters)
+function normFilters(o){
+  const a=k=>[...(o[k]||[])].sort();
+  return JSON.stringify({scope:o.scope||"open",themes:a("themes"),pods:a("pods"),statuses:a("statuses"),prios:a("prios"),recent:o.recent||null,closed:o.closed||null,due:a("due"),triage:a("triage"),assignees:a("assignees"),label:o.label||"all",groups:a("groups"),flags:a("flags"),neg:a("neg"),card:o.card||"all"});
+}
+function isOnDefault(){ return normFilters(serializeFilters())===normFilters(defaultFiltersObject()); }
+// One stateful control: disabled when you're on your default; enabled ("Return to default") when you've drifted.
+function renderDefaultBtn(){
+  const db=document.getElementById("bugdefault"), sd=document.getElementById("bugsetdefault"); if(!db) return;
+  const on=isOnDefault();
+  db.classList.toggle("ondefault", on); db.classList.toggle("offdefault", !on);
+  db.disabled=on;
+  db.innerHTML = on ? "✓ Default view" : "↺ Return to default";
+  db.title = on ? "You're viewing your default." : "Return to your default view.";
+  if(sd) sd.classList.toggle("show", !on);   // "Set as default" only when the view differs
+}
 function syncFilterDom(){
   const ss=document.getElementById('bugsort'); if(ss) ss.value=bugSort;
   const si=document.getElementById('bugsearch'); if(si){ si.value=bugSearchTerm||""; const sb=document.getElementById('bugsearchbox'); if(sb) sb.classList.toggle('has-text', !!bugSearchTerm); }
@@ -1809,9 +1838,16 @@ function initBugs(){
   const _bs=document.getElementById("bugsort");
   if(_bs) _bs.addEventListener("change",()=>{ bugSort=_bs.value; renderBugs(); });
   const _bd=document.getElementById("bugdefault");
-  if(_bd) _bd.addEventListener("click",()=>{ applyDefaultFilters(); syncFilterDom(); bugScopeFilters(); bugThemeFilters(); if(typeof refreshBugUI==="function") refreshBugUI(); else renderBugs(); });
+  if(_bd) _bd.addEventListener("click",()=>{ if(isOnDefault()) return; applyDefaultFilters(); syncFilterDom(); bugScopeFilters(); bugThemeFilters(); if(typeof refreshBugUI==="function") refreshBugUI(); else renderBugs(); });
   const _sd=document.getElementById("bugsetdefault");
-  if(_sd) _sd.addEventListener("click",()=>{ savePersonalDefault(); const t=_sd.textContent; _sd.textContent="✓ Saved as default"; setTimeout(()=>{ _sd.textContent=t; },1600); });
+  if(_sd) _sd.addEventListener("click",()=>{
+    savePersonalDefault();
+    // now current == default: flash confirmation, then re-render to the "on default" state
+    const db=document.getElementById("bugdefault");
+    if(db){ db.classList.remove("offdefault"); db.classList.add("ondefault"); db.disabled=true; db.innerHTML="✓ Saved as default"; }
+    _sd.classList.remove("show");
+    setTimeout(renderDefaultBtn,1400);
+  });
   document.getElementById("bugclearall").addEventListener("click", ()=>{
     bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugThemes.clear(); bugNegated.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear(); bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugCard="all"; bugOpenMenu=null;
     const si=document.getElementById("bugsearch");
