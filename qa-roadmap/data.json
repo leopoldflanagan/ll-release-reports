@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T17:41:37+00:00",
+ "generated_at": "2026-08-25T18:08:23+00:00",
  "today": "2026-08-25",
  "features": [
   {
@@ -21113,7 +21113,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21822",
+   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
