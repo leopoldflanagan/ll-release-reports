@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T14:46:07+00:00",
+ "generated_at": "2026-08-25T15:16:56+00:00",
  "today": "2026-08-25",
  "features": [
   {
@@ -1876,30 +1876,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21669",
-   "name": "E-Consent <Not Displaying for all Listed Plans- SGDP CA, SGDP TN,SGDP AZ, One Smile, KOS, Essential Smile",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-20T22:19:49.644-0700",
-   "resolved": "",
-   "due": "2026-08-23",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21667",
    "name": "Member Portal<Stage<E-Consent not displaying while ADD Member for Adult, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
    "pod": "LL",
@@ -1948,28 +1924,28 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21550",
-   "name": "Provider Portal not display E-consent checkbox<PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
+   "key": "PLANS-20495",
+   "name": "WFP - Practice Credit Card Not Removed from Office Payments When Organization Is Switched from \"Paid by Office\" to \"Bill to Office\"",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Vinita Thankur",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-08-19T07:03:24.897-0700",
+   "created": "2026-07-29T07:49:46.625-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-26",
    "labels": [
-    "group1_migration",
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20133",
@@ -2088,6 +2064,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21809",
+   "name": "ACH - Blocker - Declines not visible in DB",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-25T08:08:39.466-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21802",
    "name": "ACH - bug report inprogress",
    "pod": "LL",
@@ -2145,7 +2142,7 @@
    "prio": "3: Standard",
    "created": "2026-08-24T09:24:09.948-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-26",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -2380,12 +2377,12 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
-   "who": "Vinita Thankur",
+   "who": "Denys Kernychnyi",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-08-21T09:33:46.446-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -3550,7 +3547,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Clint Tredway",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-08-24T15:20:43.804-0700",
@@ -3670,7 +3667,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Clint Tredway",
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-08-21T18:57:13.926-0700",
@@ -3692,8 +3689,8 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
    "who": "Unassigned",
    "reporter": "Sushma Bankar",
    "prio": "3: Standard",
@@ -3766,7 +3763,7 @@
    "cat": "To Do",
    "fv": "R9.7",
    "sprint": "LL-Sprint 20-26",
-   "who": "Mireya Alvarez",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-18T11:51:13.130-0700",
@@ -4406,30 +4403,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20495",
-   "name": "WFP - Practice Credit Card Not Removed from Office Payments When Organization Is Switched from \"Paid by Office\" to \"Bill to Office\"",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-29T07:49:46.625-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-20268",
    "name": "Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
    "pod": "LL",
@@ -4531,7 +4504,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
+   "sprint": "Plans-Sprint 21-26",
    "who": "Sailaja Yanamandra",
    "reporter": "Charles Rosenbaum",
    "prio": "2: Important",
@@ -4590,30 +4563,6 @@
    ],
    "theme": "",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21791",
-   "name": "Purchase Portals (One smile, Essential Smile)- Zip code search is not working",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Conor Kamperman",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-08-24T13:50:35.517-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4955,30 +4904,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21780",
-   "name": "plans-core: DenticonIntegrationId constant is stale (...011 is now Epic, Denticon moved to ...012)",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Sailaja Yanamandra",
-   "prio": "2: Important",
-   "created": "2026-08-24T11:27:43.832-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21642",
    "name": "PLANS-21642: DCA: Purchase: Configuration Error is displayed when proceeding to the purchase step with multiple additional members",
    "pod": "LL",
@@ -5025,6 +4950,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21550",
+   "name": "Provider Portal not display E-consent checkbox<PMP and DCA Purchase Portal<DCA Practice<Electronic Consent checkbox not visible at checkout page while purchasing plan",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Dima Shtympel",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-19T07:03:24.897-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21221",
@@ -5229,6 +5178,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21791",
+   "name": "Retest-Purchase Portals (One smile, Essential Smile)- Zip code search is not working",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Juan Rodrigo Mejia Rivera",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-08-24T13:50:35.517-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21764",
    "name": "PMP Purchase - DCA - Brandon OM - no option for Payment Type for Purchase",
    "pod": "PLANS",
@@ -5275,6 +5248,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21669",
+   "name": "E-Consent <Not Displaying for all Listed Plans- SGDP CA, SGDP TN,SGDP AZ, One Smile, KOS, Essential Smile",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-20T22:19:49.644-0700",
+   "resolved": "",
+   "due": "2026-08-23",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21632",
@@ -5793,6 +5790,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21780",
+   "name": "plans-core: DenticonIntegrationId constant is stale (...011 is now Epic, Denticon moved to ...012)",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Sailaja Yanamandra",
+   "prio": "2: Important",
+   "created": "2026-08-24T11:27:43.832-0700",
+   "resolved": "2026-08-25T08:09:19.248-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21760",
    "name": "ACH - Manage patient page not loading for default office manager role",
@@ -21101,27 +21122,6 @@
    "prio": "3: Standard",
    "created": "2026-05-20T08:45:31.910-0700",
    "resolved": "2026-05-27T09:46:35.941-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-15980",
-   "name": "CSP - Protected Network Fields Are Updated During Re-import (Network fields should be protected during re-import )",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "LL-Sprint 14-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-05-08T03:36:24.297-0700",
-   "resolved": "2026-05-27T07:58:31.304-0700",
    "due": "",
    "labels": [],
    "theme": "",
