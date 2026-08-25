@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T19:41:32+00:00",
+ "generated_at": "2026-08-25T20:06:25+00:00",
  "today": "2026-08-25",
  "features": [
   {
@@ -18,7 +18,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
-   "tshirt": null
+   "tshirt": "Small"
   },
   {
    "key": "PLANS-14180",
@@ -81,7 +81,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
-   "tshirt": null
+   "tshirt": "Small"
   },
   {
    "key": "PLANS-17114",
@@ -99,7 +99,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Valentyna Tenus",
-   "tshirt": null
+   "tshirt": "Large"
   },
   {
    "key": "PLANS-18413",
@@ -117,7 +117,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Vic Du Plessis",
-   "tshirt": null
+   "tshirt": "Small"
   },
   {
    "key": "PLANS-14421",
@@ -126,7 +126,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Vic Du Plessis",
-   "tshirt": null
+   "tshirt": "Moderate"
   },
   {
    "key": "PLANS-20621",
@@ -144,7 +144,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Unassigned",
-   "tshirt": null
+   "tshirt": "Small"
   },
   {
    "key": "PLANS-19455",
@@ -153,7 +153,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Unassigned",
-   "tshirt": null
+   "tshirt": "Small"
   },
   {
    "key": "PLANS-19316",
@@ -171,7 +171,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null
+   "tshirt": "Small"
   },
   {
    "key": "PLANS-18684",
@@ -180,7 +180,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null
+   "tshirt": "Small"
   },
   {
    "key": "PLANS-17582",
@@ -385,7 +385,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Vic Du Plessis",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -407,7 +407,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -528,7 +528,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -550,7 +550,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -572,7 +572,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Vic Du Plessis",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -594,7 +594,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Valentyna Tenus",
-   "tshirt": null,
+   "tshirt": "Large",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -605,7 +605,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -616,7 +616,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -627,7 +627,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -638,7 +638,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -660,7 +660,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -671,7 +671,7 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -682,7 +682,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "David Jones",
-   "tshirt": null,
+   "tshirt": "Large",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -693,7 +693,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -907,21 +907,10 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "PLAT-5705",
-   "name": "Communications Service Reporting and Hardening",
-   "status": "In Testing",
-   "ted": "2026-08-14",
-   "fv": "R9.6.6",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "PLAT",
-   "theme": "ACH-Fast Follows"
-  },
-  {
    "key": "PLAT-5763",
    "name": "ach-signed-authorization-lane",
    "status": "In Development",
-   "ted": "2026-08-17",
+   "ted": "2026-09-24",
    "fv": "R9.6.6",
    "who": "Unassigned",
    "tshirt": null,
@@ -1657,24 +1646,13 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "PLAT-5705",
-   "name": "Communications Service Reporting and Hardening",
-   "pod": "PLAT",
-   "proj": "PLAT",
-   "status": "In Testing",
-   "fv": "R9.6.6",
-   "ted": "2026-08-14",
-   "who": "Unassigned",
-   "theme": "ACH-Fast Follows"
-  },
-  {
    "key": "PLAT-5763",
    "name": "ach-signed-authorization-lane",
    "pod": "PLAT",
    "proj": "PLAT",
    "status": "In Development",
    "fv": "R9.6.6",
-   "ted": "2026-08-17",
+   "ted": "2026-09-24",
    "who": "Unassigned",
    "theme": "ACH-Fast Follows"
   },
@@ -1718,30 +1696,6 @@
    "due": "",
    "labels": [],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21797",
-   "name": "PMP - Credit card-specific consent language is displayed when select ACH payment method while purchasing a plan.",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-24T14:57:20.058-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -1862,6 +1816,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21509",
+   "name": "PMP - LL - Authorization Form Visible When Adding a new ACH Payment Method Without Making a Payment",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T12:23:02.868-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4461,6 +4439,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21797",
+   "name": "PMP - Credit card-specific consent language is displayed when select ACH payment method while purchasing a plan.",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-24T14:57:20.058-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21779",
    "name": "ACH<Member Portal<Change primary payment Method dialog doesn't display Bank accounts Payment as option to select",
    "pod": "LL",
@@ -5311,30 +5313,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21509",
-   "name": "PMP - LL - Authorization Form Visible When Adding a new ACH Payment Method Without Making a Payment",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T12:23:02.868-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21385",
    "name": "Rules not working for all plans",
    "pod": "PLANS",
@@ -5731,6 +5709,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21826",
+   "name": "PMP - ACH authorization is not displayed in the Member Payment Types tab.",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-25T12:56:35.343-0700",
+   "resolved": "2026-08-25T13:04:18.116-0700",
+   "due": "",
+   "labels": [
+    "LLplans"
+   ],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21803",
    "name": "PMP \\ 400 error when purchasing a plan using ACH as the payment method",
