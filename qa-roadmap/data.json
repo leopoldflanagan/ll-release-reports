@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T15:45:35+00:00",
+ "generated_at": "2026-08-25T16:12:40+00:00",
  "today": "2026-08-25",
  "features": [
   {
@@ -605,17 +605,6 @@
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
    "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-18656",
-   "name": "PMP: Wellfit Member ID & Office Assignment",
-   "status": "Blocked",
-   "ted": "2026-07-17",
-   "fv": "R9.7",
-   "who": "Daryl Myrick",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1380,17 +1369,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-18656",
-   "name": "PMP: Wellfit Member ID & Office Assignment",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Blocked",
-   "fv": "R9.7",
-   "ted": "2026-07-17",
-   "who": "Daryl Myrick",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-18673",
    "name": "Purchase Widget to Payment Widget Integration",
    "pod": "LL",
@@ -2132,6 +2110,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21817",
+   "name": "Patient Charged Twice For Dental Plan, But only Shows Once in Wellfit",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vera King",
+   "prio": "3: Standard",
+   "created": "2026-08-25T08:51:04.487-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3862,7 +3861,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-08-11T12:57:47.373-0700",
@@ -4643,30 +4642,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21509",
-   "name": "PMP - LL - Authorization Form Visible When Adding a new ACH Payment Method Without Making a Payment",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T12:23:02.868-0700",
-   "resolved": "",
-   "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21166",
    "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
    "pod": "LL",
@@ -4751,7 +4726,7 @@
    "prio": "2: Important",
    "created": "2026-07-22T08:47:16.230-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-26",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4787,6 +4762,54 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21627",
+   "name": "ACH Partial refund - Unable to perform multiple refunds",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-20T08:04:54.075-0700",
+   "resolved": "",
+   "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21615",
+   "name": "ACH Refund -Refund Transaction Not Displayed in PMP Member Transactions When Refund Is Processed Through CSP UI (Showing a 'Approved' transaction without a purchase type)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-20T04:00:16.020-0700",
+   "resolved": "",
+   "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21570",
    "name": "PMP - UI - showing multiple decimals in plan fee when add new plan",
    "pod": "PLANS",
@@ -4805,6 +4828,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21509",
+   "name": "PMP - LL - Authorization Form Visible When Adding a new ACH Payment Method Without Making a Payment",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T12:23:02.868-0700",
+   "resolved": "",
+   "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5576,54 +5623,6 @@
    "created": "2026-08-20T12:52:47.759-0700",
    "resolved": "",
    "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21627",
-   "name": "ACH Partial refund - Unable to perform multiple refunds",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-20T08:04:54.075-0700",
-   "resolved": "",
-   "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21615",
-   "name": "ACH Refund -Refund Transaction Not Displayed in PMP Member Transactions When Refund Is Processed Through CSP UI (Showing a 'Approved' transaction without a purchase type)",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-20T04:00:16.020-0700",
-   "resolved": "",
-   "due": "2026-08-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
