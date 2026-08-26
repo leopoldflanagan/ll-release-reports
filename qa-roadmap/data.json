@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T16:28:09+00:00",
+ "generated_at": "2026-08-26T16:47:22+00:00",
  "today": "2026-08-26",
  "features": [
   {
@@ -21177,31 +21177,18 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-16113",
-   "name": "CSP - Discount check boxes are unchecked after save",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "LL-Sprint 14-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-05-13T12:28:42.752-0700",
-   "resolved": "2026-05-28T09:35:30.181-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21865",
+   "name": "ACH - Refund Declines not reflected under Member transactions",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
