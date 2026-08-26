@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T13:22:20+00:00",
+ "generated_at": "2026-08-26T13:47:21+00:00",
  "today": "2026-08-26",
  "features": [
   {
@@ -1718,6 +1718,30 @@
    "created": "2026-08-25T08:08:39.466-0700",
    "resolved": "",
    "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21753",
+   "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-24T06:36:46.592-0700",
+   "resolved": "",
+   "due": "2026-08-27",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -3502,30 +3526,6 @@
    ],
    "theme": "",
    "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21753",
-   "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-24T06:36:46.592-0700",
-   "resolved": "",
-   "due": "2026-08-27",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
