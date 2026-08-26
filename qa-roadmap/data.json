@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T12:46:32+00:00",
+ "generated_at": "2026-08-26T13:22:20+00:00",
  "today": "2026-08-26",
  "features": [
   {
@@ -1681,6 +1681,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21831",
+   "name": "PMP - error 400 after purchasing additional member plan with ACH",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-25T14:39:16.064-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21809",
    "name": "ACH - Blocker - Declines not visible in DB - transaction id comes same as payment transaction id",
    "pod": "LL",
@@ -1795,30 +1819,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-20648",
-   "name": "PMP - Overview - Plan support Details should not be visible.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-07-31T03:50:29.473-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -1987,30 +1987,6 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-15036",
-   "name": "Member portal - Responsible party's Expired plans are not showing in member portal",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-04-09T11:23:36.419-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-21845",
@@ -3459,30 +3435,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21831",
-   "name": "PMP - error 400 after purchasing additional member plan with ACH",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-25T14:39:16.064-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21822",
    "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
    "pod": "LL",
@@ -4655,6 +4607,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20648",
+   "name": "PMP - Overview - Plan support Details should not be visible.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-07-31T03:50:29.473-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-20111",
    "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
    "pod": "LL",
@@ -4797,6 +4773,30 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-15036",
+   "name": "Member portal - Responsible party's Expired plans are not showing in member portal",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-04-09T11:23:36.419-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21749",
