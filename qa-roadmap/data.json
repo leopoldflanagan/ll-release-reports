@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T21:55:16+00:00",
+ "generated_at": "2026-08-26T23:02:08+00:00",
  "today": "2026-08-26",
  "features": [
   {
@@ -2004,30 +2004,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21867",
-   "name": "ACH - Plan refund returns not visible in Plan sales report (Refunds are showing but showing as a 0$ not as a minus) / CC refund not visible in Plan sales as well",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-26T10:42:21.703-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5126,30 +5102,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21782",
-   "name": "Plan Confirmation Receipt / Missing email for DCA members who purchased a plan using ACH payment method",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-08-24T12:06:01.375-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21779",
    "name": "ACH<Member Portal<Change primary payment Method dialog doesn't display Bank accounts Payment as option to select",
    "pod": "LL",
@@ -5879,6 +5831,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21782",
+   "name": "Plan Confirmation Receipt / Missing email for DCA members who purchased a plan using ACH payment method",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-08-24T12:06:01.375-0700",
+   "resolved": "2026-08-26T15:56:23.607-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20079",
    "name": "OneSmile , DCA & Comfort Dental - Wallet (Apple) - Custom logos/theme are not properly aligned on Apple Wallet pass",
@@ -21300,7 +21276,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21884",
+   "name": "PMP \\ Manual renewal is not longer redirecting the user to current member overview page",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
