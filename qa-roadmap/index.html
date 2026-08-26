@@ -1271,7 +1271,18 @@ function renderBugCards(){
     card("unassigned","Unassigned",unassigned,unassigned?"var(--red)":"var(--green)")+
     card("onhold","On Hold",onhold,onhold?"var(--red)":"var(--green)");
   box.querySelectorAll(".bugcardbtn").forEach(btn=>{
-    btn.addEventListener("click",()=>{ bugCard = (bugCard===btn.dataset.card?"all":btn.dataset.card); renderBugs(); });
+    btn.addEventListener("click",()=>{
+      const c=btn.dataset.card, selecting=(bugCard!==c);
+      bugCard = selecting ? c : "all";
+      // A card IS a slice of one dimension — when selecting it, clear the same-dimension chip
+      // filter so they never contradict (e.g. clicking "Urgent P1+P2" while P3/P4 chips are on → 0).
+      if(selecting){
+        if(c==="urgent"||c==="routine") bugPrios.clear();
+        else if(c==="near"||c==="wip"||c==="backlog"||c==="onhold") bugStatuses.clear();
+        else if(c==="unassigned") bugAssignees.clear();
+      }
+      if(typeof refreshBugUI==="function") refreshBugUI(); else renderBugs();
+    });
   });
 }
 function renderBugs(){
