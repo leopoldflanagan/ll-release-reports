@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T16:49:39+00:00",
+ "generated_at": "2026-08-26T17:56:01+00:00",
  "today": "2026-08-26",
  "features": [
   {
@@ -2011,6 +2011,27 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21865",
+   "name": "ACH - ACH Refund returned Not Displayed in Member Transactions in PMP/Member portals",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-26T09:45:49.193-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21859",
@@ -4754,6 +4775,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20955",
+   "name": "Duplicate Plan Charge",
+   "pod": "PLANS",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Clint Tredway",
+   "reporter": "Jasmin Martin",
+   "prio": "1: Urgent",
+   "created": "2026-08-11T07:09:09.925-0700",
+   "resolved": "",
+   "due": "2026-08-24",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-19701",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
    "pod": "PLANS",
@@ -5610,8 +5654,8 @@
    "pod": "LL",
    "status": "WAITING REVIEW",
    "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -5624,9 +5668,9 @@
    ],
    "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-15250",
@@ -5769,7 +5813,7 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -5905,6 +5949,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21836",
+   "name": "Plan Auto-Renewal Receipt \\ Email is getting triggered after a manual renewal",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-08-25T16:54:51.189-0700",
+   "resolved": "2026-08-25T17:18:11.806-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21652",
    "name": "Plan Details PDF - Auto renew text should be Dynamic",
    "pod": "LL",
@@ -5969,7 +6034,7 @@
    "labels": [
     "LLplans"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
@@ -6897,29 +6962,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20955",
-   "name": "Duplicate Plan Charge",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Clint Tredway",
-   "reporter": "Jasmin Martin",
-   "prio": "1: Urgent",
-   "created": "2026-08-11T07:09:09.925-0700",
-   "resolved": "2026-08-21T08:44:03.887-0700",
-   "due": "2026-08-24",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -21156,31 +21198,18 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-12137",
-   "name": "WFP - Missing ‘Payment Type’ in WFP > Member Transactions for Minors Added via Member Portal",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "Plans-Sprint 14-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-02-13T06:35:20.570-0800",
-   "resolved": "2026-05-28T10:04:51.153-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21867",
+   "name": "ACH - Plan refund returns not visible in Plan sales report (Refunds are showing but showing as a 0$ not as a minus)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
