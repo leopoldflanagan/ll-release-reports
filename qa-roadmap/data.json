@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T18:36:18+00:00",
+ "generated_at": "2026-08-26T19:34:25+00:00",
  "today": "2026-08-26",
  "features": [
   {
@@ -2009,6 +2009,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21871",
+   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-26T12:12:27.183-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4591,7 +4612,7 @@
    "pod": "PLANS",
    "status": "PR Merged",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "sprint": "Plans-Sprint 20-26",
    "who": "Luis Moreno Soberón",
    "reporter": "Luis Moreno Soberón",
@@ -21177,34 +21198,13 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-16893",
-   "name": "Stage - CSP - Plan Overview - It's not possible to purchase an AC PMP plan via CSP",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": null,
-   "who": "Dima Shtympel",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-05-27T11:54:56.478-0700",
-   "resolved": "2026-05-28T12:07:51.512-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
  "nopod": [
   {
    "key": "PLANS-21867",
-   "name": "ACH - Plan refund returns not visible in Plan sales report (Refunds are showing but showing as a 0$ not as a minus)",
+   "name": "ACH - Plan refund returns not visible in Plan sales report (Refunds are showing but showing as a 0$ not as a minus) / CC refund not visible in Plan sales as well",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
