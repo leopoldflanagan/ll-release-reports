@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T19:34:25+00:00",
+ "generated_at": "2026-08-26T20:46:39+00:00",
  "today": "2026-08-26",
  "features": [
   {
@@ -1705,30 +1705,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21819",
-   "name": "SGDP Purchase Portal<Can not do refund for SGDP plan in CSP , getting error message-'Practice is required'",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-25T09:29:58.497-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21809",
    "name": "ACH - Blocker - Declines not visible in DB - transaction id comes same as payment transaction id",
    "pod": "LL",
@@ -2013,17 +1989,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21871",
-   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
-   "pod": "LL",
+   "key": "PLANS-21876",
+   "name": "SGDP Purchase Portal-Stage-Getting 2 Plan Receipt emails after purchase any plan from SGDP Purchase Portal",
+   "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 20-26",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
    "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
+   "reporter": "Vinita Thankur",
    "prio": "3: Standard",
-   "created": "2026-08-26T12:12:27.183-0700",
+   "created": "2026-08-26T13:23:46.260-0700",
    "resolved": "",
    "due": "",
    "labels": [],
@@ -2032,6 +2008,27 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21871",
+   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-26T12:12:27.183-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21865",
@@ -4295,6 +4292,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21819",
+   "name": "SGDP Purchase Portal<Can not do refund for SGDP plan in CSP , getting error message-'Practice is required'",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-25T09:29:58.497-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21767",
    "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
    "pod": "LL",
@@ -4511,54 +4532,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21667",
-   "name": "Member Portal<Stage<E-Consent not displaying while ADD Member for Adult, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-20T21:59:48.328-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21254",
-   "name": "ACH<PMP<Deleting Credit Card shows wrong message \"Bank account deleted\"",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-14T07:02:33.931-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21114",
    "name": "[PMP]-Cannot close the \"Add payment method\" modal",
    "pod": "LL",
@@ -4583,10 +4556,82 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21749",
+   "name": "Auth form - Recurring Payment Date Displayed Incorrectly Compared to Plan Start Date(message says payment will debit beginning of 23rd however plan starts on 24th and payment process at 12.15 UTC 24th)",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-24T05:51:08.046-0700",
+   "resolved": "",
+   "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21667",
+   "name": "Member Portal<Stage<E-Consent not displaying while ADD Member for Adult, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-20T21:59:48.328-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21254",
+   "name": "ACH<PMP<Deleting Credit Card shows wrong message \"Bank account deleted\"",
+   "pod": "LL",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-14T07:02:33.931-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-20648",
    "name": "PMP - Overview - Plan support Details should not be visible.",
    "pod": "LL",
-   "status": "PR Merged",
+   "status": "In QA",
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
@@ -4610,7 +4655,7 @@
    "key": "PLANS-19758",
    "name": "Plan Confirmation Receipt \\ Plan Confirmation Receipt indicates Future Plan is active before its effective date",
    "pod": "PLANS",
-   "status": "PR Merged",
+   "status": "In QA",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 20-26",
@@ -4634,7 +4679,7 @@
    "key": "PLANS-15036",
    "name": "Member portal - Responsible party's Expired plans are not showing in member portal",
    "pod": "LL",
-   "status": "PR Merged",
+   "status": "In QA",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
@@ -4653,30 +4698,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21749",
-   "name": "Auth form - Recurring Payment Date Displayed Incorrectly Compared to Plan Start Date(message says payment will debit beginning of 23rd however plan starts on 24th and payment process at 12.15 UTC 24th)",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-24T05:51:08.046-0700",
-   "resolved": "",
-   "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21594",
@@ -5575,30 +5596,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20079",
-   "name": "OneSmile , DCA & Comfort Dental - Wallet (Apple) - Custom logos/theme are not properly aligned on Apple Wallet pass",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-22T07:15:37.817-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20067",
    "name": "Smile Health Purchase Portal: Purchase restrictions not applied",
    "pod": "LL",
@@ -5804,6 +5801,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-20079",
+   "name": "OneSmile , DCA & Comfort Dental - Wallet (Apple) - Custom logos/theme are not properly aligned on Apple Wallet pass",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-22T07:15:37.817-0700",
+   "resolved": "2026-08-26T12:57:15.229-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21642",
    "name": "PLANS-21642: DCA: Purchase: Configuration Error is displayed when proceeding to the purchase step with multiple additional members",
@@ -21202,6 +21223,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-21878",
+   "name": "PMP \\ DCA member with ACH payment type is unable to manually renew their plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-21867",
    "name": "ACH - Plan refund returns not visible in Plan sales report (Refunds are showing but showing as a 0$ not as a minus) / CC refund not visible in Plan sales as well",
