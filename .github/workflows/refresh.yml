@@ -8,8 +8,7 @@ name: Refresh LL QA Roadmap
 #   - workflow_dispatch: manual "Run workflow" button in the Actions tab
 on:
   schedule:
-    - cron: "*/30 12-22 * * 1-5"
-    - cron: "0 23 * * 1-5"
+    - cron: "*/15 12-23 * * 1-5"   # cada 15 min, Lun–Vie, ~7am–6pm CT (cubre hasta el digest de las 6pm)
   workflow_dispatch:
 
 # Allow the job to push the regenerated index.html back to the repo
