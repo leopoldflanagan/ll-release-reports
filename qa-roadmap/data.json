@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-26T23:02:08+00:00",
- "today": "2026-08-26",
+ "generated_at": "2026-08-27T00:06:40+00:00",
+ "today": "2026-08-27",
  "features": [
   {
    "key": "PLANS-20836",
@@ -4301,30 +4301,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21767",
-   "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-24T09:24:09.948-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21739",
    "name": "Plan Transactions - '>>' and '>' pagination not clickable.",
    "pod": "LL",
@@ -4445,30 +4421,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21178",
-   "name": "Smile Health - Responsive menu displays behind hero image",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-13T07:11:52.332-0700",
-   "resolved": "",
-   "due": "2026-08-27",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20925",
    "name": "Stage - Member Portal - Treatments are not displayed for members",
    "pod": "LL",
@@ -4517,6 +4469,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21767",
+   "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-24T09:24:09.948-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-21723",
    "name": "Member Portal/Phone number and website is Plan Card PDF is incorrect",
    "pod": "PLANS",
@@ -4556,6 +4532,30 @@
    "due": "2026-08-26",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21178",
+   "name": "Smile Health - Responsive menu displays behind hero image",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-13T07:11:52.332-0700",
+   "resolved": "",
+   "due": "2026-08-27",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
