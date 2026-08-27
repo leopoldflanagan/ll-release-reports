@@ -1255,7 +1255,7 @@ function updateFreshpill(){
   if(isNaN(gen)){ el.className="freshpill stale"; el.textContent="Snapshot date unknown"; return; }
   var ageH=(Date.now()-gen.getTime())/36e5;              // hours since generated
   var when=gen.toLocaleString(undefined,{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
-  if(ageH < 3){                                          // cron runs every 2h → <3h is healthy
+  if(ageH < 1.5){                                        // healthy window (auto-refresh + frequent cron)
     el.className="freshpill fresh";
     el.innerHTML="Data up to date <span class='freshsub'>· "+when+"</span>";
   } else {
@@ -2318,6 +2318,7 @@ function renderStats(){ syncVZ();
   const ageSvg=document.querySelectorAll("#st-age svg rect");
   ageSvg.forEach((r,i)=>{ if(ageItems[i]) r.setAttribute("fill",ageItems[i].color); });
 }
+var _lastGen=null;   // last-seen data.json generated_at (skip re-render when unchanged)
 
 // ============ INSIGHTS TAB (live, computed from data.json) ============
 (function(){
@@ -2632,7 +2633,7 @@ window.renderInsights=renderInsights;
   // cache-bust so a fresh snapshot shows without a hard reload
   fetch("data.json?_="+Date.now())
     .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
-    .then(d=>{ applyData(d); initDashboard(); })
+    .then(d=>{ _lastGen=d.generated_at||null; applyData(d); initDashboard(); })
     .catch(err=>{
       console.error("Could not load data.json:", err);
       var el=document.getElementById("freshpill");
@@ -2641,6 +2642,27 @@ window.renderInsights=renderInsights;
       initDashboard();
     });
 })();
+
+// ---- Auto-refresh: re-fetch data.json every 5 min while the page is open, so an open
+// dashboard updates itself the moment the bot commits new data — no manual reload needed.
+// Skips the re-render when generated_at hasn't changed (no disruption to filters/scroll).
+function autoRefreshData(){
+  fetch("data.json?_="+Date.now())
+    .then(function(r){ return r.ok ? r.json() : Promise.reject(new Error("HTTP "+r.status)); })
+    .then(function(d){
+      if(!d || d.generated_at===_lastGen){ if(typeof updateFreshpill==="function") updateFreshpill(); return; }
+      _lastGen=d.generated_at||null;
+      applyData(d);   // updates globals + freshpill + Insights
+      var act=document.querySelector(".tab.active"), tab=act?act.dataset.tab:"";
+      if(tab==="bugs"){ if(typeof refreshBugUI==="function") refreshBugUI(); else if(typeof renderBugs==="function") renderBugs(); }
+      else if(tab==="stats" && typeof renderStats==="function") renderStats();
+      else if(tab==="insights" && typeof renderInsights==="function") renderInsights();
+    })
+    .catch(function(err){ console.warn("auto-refresh skipped:", err); });
+}
+setInterval(autoRefreshData, 5*60*1000);   // every 5 minutes
+// also refresh when the tab regains focus (someone comes back to it)
+document.addEventListener("visibilitychange", function(){ if(!document.hidden) autoRefreshData(); });
 
 // ---- Tab switching ----
 document.querySelectorAll(".tab").forEach(t=>{
