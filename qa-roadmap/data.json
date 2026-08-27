@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-27T15:40:11+00:00",
+ "generated_at": "2026-08-27T19:31:51+00:00",
  "today": "2026-08-27",
  "features": [
   {
@@ -86,8 +86,8 @@
   {
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
-   "status": "In Testing",
-   "ted": "2026-08-27",
+   "status": "In Development",
+   "ted": null,
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large"
@@ -315,8 +315,8 @@
   {
    "key": "PLANS-17588",
    "name": "DSO Dashboard",
-   "status": "In Development",
-   "ted": "2026-08-21",
+   "status": "In Testing",
+   "ted": "2026-08-28",
    "fv": "R9.7",
    "who": "Harisha Pallacheruvu",
    "tshirt": "Large",
@@ -832,8 +832,8 @@
   {
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
-   "status": "In Testing",
-   "ted": "2026-08-27",
+   "status": "In Development",
+   "ted": null,
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large",
@@ -1045,9 +1045,9 @@
    "name": "DSO Dashboard",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-21",
+   "ted": "2026-08-28",
    "who": "Harisha Pallacheruvu",
    "theme": "LL-MVP"
   },
@@ -1562,9 +1562,9 @@
    "name": "Handling ACH Declines",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Testing",
+   "status": "In Development",
    "fv": "R9.7",
-   "ted": "2026-08-27",
+   "ted": null,
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
   },
@@ -1659,6 +1659,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21907",
+   "name": "Member Portal \\ Missing admin fee discount field on renew flow for DCA members",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-26T22:45:07.916-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21884",
    "name": "PMP \\ Manual renewal is not longer redirecting the user to current member overview page",
    "pod": "PLANS",
@@ -1701,6 +1725,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21871",
+   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-26T12:12:27.183-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -1897,30 +1945,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20030",
-   "name": "PLANS-20030: Member Portal: All Carington plans: Custom logos are not shown in any of the pages and not on membership card",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-21T12:45:30.750-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -1967,6 +1991,48 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21950",
+   "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-27T09:22:14.476-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21945",
+   "name": "ACH - Refund Status showing as 'Approved' in PMP",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-27T08:43:30.135-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-21916",
    "name": "ACH & CC Refunds Not Visible in Member > Transactions in Member Portal",
    "pod": "LL",
@@ -1988,28 +2054,25 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21871",
-   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
+   "key": "PLANS-21914",
+   "name": "ACH - ACH returns (Declines) Not Visible in Plan Sales Report",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-26T12:12:27.183-0700",
+   "prio": "3: Standard",
+   "created": "2026-08-27T06:47:07.933-0700",
    "resolved": "",
    "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
+   "labels": [],
    "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21845",
@@ -3323,6 +3386,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21965",
+   "name": "Member Portal - Multiple plan cards are displayed in the PDF",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-27T10:59:57.260-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "plans"
+   ],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21919",
    "name": "Patient is unable to updated her email in the member portal",
    "pod": "PLANS",
@@ -3343,30 +3429,6 @@
    "theme": "",
    "triage": "",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21907",
-   "name": "Member Portal \\ Missing admin fee discount field on renew flow for DCA members",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-26T22:45:07.916-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3899,30 +3961,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20878",
-   "name": "Stage - Member Portal - Benefit Summary is displayed when hasBenefitSummary is false",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-07T16:38:16.131-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-20869",
    "name": "Stage - Member Portal - 48-hour data-freshness disclaimer is not displayed on the Benefit Summaries page",
    "pod": "PLANS",
@@ -4255,102 +4293,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21910",
-   "name": "PMP - Incorrect Recurring Fee Displayed in Authorization Form When Purchasing multiple plans",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-27T06:14:38.224-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21839",
-   "name": "CSP/ACH Refund Receipt/Last four digits of the Routing number are displayed in the receipt",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-25T20:35:22.853-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21817",
-   "name": "Patient Charged Twice For Dental Plan, But only Shows Once in Wellfit",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Vera King",
-   "prio": "1: Urgent",
-   "created": "2026-08-25T08:51:04.487-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21767",
-   "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-24T09:24:09.948-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21753",
    "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
    "pod": "LL",
@@ -4397,30 +4339,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21707",
-   "name": "DCA - Assignment of the Office",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T14:35:21.443-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21681",
@@ -4543,48 +4461,24 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21819",
-   "name": "SGDP Purchase Portal<Can not do refund for SGDP plan in CSP , getting error message-'Practice is required'",
-   "pod": "PLANS",
-   "status": "PR Merged",
+   "key": "PLANS-20030",
+   "name": "PLANS-20030: Member Portal: All Carington plans: Custom logos are not shown in any of the pages and not on membership card",
+   "pod": "LL",
+   "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Conor Kamperman",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Ivan Yarymovych",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
-   "created": "2026-08-25T09:29:58.497-0700",
+   "created": "2026-07-21T12:45:30.750-0700",
    "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21693",
-   "name": "Ind- Plans - Pricing for Add Member - Give Message",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Conor Kamperman",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T11:47:50.158-0700",
-   "resolved": "",
-   "due": "",
+   "due": "2026-08-28",
    "labels": [
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4805,30 +4699,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21791",
-   "name": "Purchase Portals (One smile, Essential Smile)- Zip code search is not working",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-08-24T13:50:35.517-0700",
-   "resolved": "",
-   "due": "2026-08-27",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21594",
@@ -5080,6 +4950,54 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21910",
+   "name": "PMP - Incorrect Recurring Fee Displayed in Authorization Form When Purchasing multiple plans",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-27T06:14:38.224-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21839",
+   "name": "CSP/ACH Refund Receipt/Last four digits of the Routing number are displayed in the receipt",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-25T20:35:22.853-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21834",
    "name": "ACH option not visible in PMP",
    "pod": "LL",
@@ -5098,6 +5016,54 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21819",
+   "name": "SGDP Purchase Portal<Can not do refund for SGDP plan in CSP , getting error message-'Practice is required'",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-25T09:29:58.497-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21817",
+   "name": "Patient Charged Twice For Dental Plan, But only Shows Once in Wellfit",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Vera King",
+   "prio": "1: Urgent",
+   "created": "2026-08-25T08:51:04.487-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5128,17 +5094,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21779",
-   "name": "ACH<Member Portal<Change primary payment Method dialog doesn't display Bank accounts Payment as option to select",
+   "key": "PLANS-21767",
+   "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-24T11:12:43.676-0700",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-24T09:24:09.948-0700",
    "resolved": "",
    "due": "2026-08-26",
    "labels": [
@@ -5147,9 +5113,9 @@
    ],
    "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21723",
@@ -5176,6 +5142,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21707",
+   "name": "DCA - Assignment of the Office",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T14:35:21.443-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21705",
    "name": "Ancillary Benefit Card - Needs the WFIT Group Code",
    "pod": "PLANS",
@@ -5189,6 +5179,30 @@
    "created": "2026-08-21T14:07:21.589-0700",
    "resolved": "",
    "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21693",
+   "name": "Ind- Plans - Pricing for Add Member - Give Message",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Conor Kamperman",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T11:47:50.158-0700",
+   "resolved": "",
+   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5290,30 +5304,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21560",
-   "name": "Ind Plus - Member Portal - Capacity Showing",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:40:02.809-0700",
-   "resolved": "",
-   "due": "2026-08-24",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5429,30 +5419,6 @@
    "created": "2026-08-13T04:05:47.307-0700",
    "resolved": "",
    "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20968",
-   "name": "Retest - [Member Portal]-Header displays wrong portal logo",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Clint Tredway",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-11T09:08:01.867-0700",
-   "resolved": "",
-   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5763,6 +5729,147 @@
  ],
  "bugs_closed": [
   {
+   "key": "PLANS-21560",
+   "name": "Ind Plus - Member Portal - Capacity Showing",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:40:02.809-0700",
+   "resolved": "2026-08-27T12:00:25.335-0700",
+   "due": "2026-08-24",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "QA-4603",
+   "name": "Member Portal - Multiple plan cards are displayed in the PDF",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-27T10:55:51.471-0700",
+   "resolved": "2026-08-27T10:58:48.220-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21779",
+   "name": "ACH<Member Portal<Change primary payment Method dialog doesn't display Bank accounts Payment as option to select",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-24T11:12:43.676-0700",
+   "resolved": "2026-08-27T10:30:16.773-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20878",
+   "name": "Stage - Member Portal - Benefit Summary is displayed when hasBenefitSummary is false",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-07T16:38:16.131-0700",
+   "resolved": "2026-08-27T08:59:41.779-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-20968",
+   "name": "Retest - [Member Portal]-Header displays wrong portal logo",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Clint Tredway",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-11T09:08:01.867-0700",
+   "resolved": "2026-08-27T08:44:49.241-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21791",
+   "name": "Purchase Portals (One smile, Essential Smile)- Zip code search is not working",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-08-24T13:50:35.517-0700",
+   "resolved": "2026-08-27T08:40:33.411-0700",
+   "due": "2026-08-27",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21627",
    "name": "ACH Partial refund - Unable to perform multiple refunds",
    "pod": "LL",
@@ -5833,27 +5940,6 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-21914",
-   "name": "ACH - Purchase Declines Not Visible in Plan Sales Report",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-27T06:47:07.933-0700",
-   "resolved": "2026-08-27T07:21:12.705-0700",
-   "due": "",
-   "labels": [],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-21757",
@@ -21419,31 +21505,25 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-16883",
-   "name": "Blocker - Member portal - Add plan - getting an 400 error when create member",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "Plans-Sprint 14-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-05-27T09:46:55.545-0700",
-   "resolved": "2026-05-29T12:21:03.331-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21964",
+   "name": "Delete",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
+  {
+   "key": "PLANS-21947",
+   "name": "ACH - Refunds visible in Plan Sales as 0$",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
