@@ -2329,12 +2329,12 @@ function iDF(d){return new Date(d.getFullYear(),d.getMonth(),d.getDate());}
 function iAgeDays(b){ if(!b.created) return null; return Math.floor((iDF(TODAY)-iDF(new Date(b.created)))/86400000); }
 function iLvl(p){ var m=/^(\d+)/.exec(p||""); return m?parseInt(m[1],10):5; }
 function iPL(p){ return ({1:"P1",2:"P2",3:"P3",4:"P4"})[iLvl(p)]||"P?"; }
-function iStage(b){ if(b.status==="Backlog") return "Backlog"; if(b.status==="Ready for Development") return "Ready"; return "Inprog"; }
-function iStageLabel(s){ return {Backlog:"Backlog",Ready:"Ready for Dev",Inprog:"In progress"}[s]; }
+function iStage(b){ if(b.status==="Backlog") return "Backlog"; if(b.status==="Ready for Development") return "Ready"; if(b.status==="In Stage"||b.status==="In QA") return "Testing"; return "Inprog"; }
+function iStageLabel(s){ return {Backlog:"Backlog",Ready:"Ready for Dev",Inprog:"In dev",Testing:"In testing"}[s]; }
 var ITEST={"In Stage":1,"In QA":1};  // reached Testing → Due date (dev handoff deadline) no longer applies
 function iDue(b){ if(ITEST[b.status]) return "ontime"; if(!b.due) return "nodue"; var d=iDF(new Date(b.due)), n=iDF(TODAY); var wk=new Date(n.getFullYear(),n.getMonth(),n.getDate()+7); if(d<n) return "overdue"; if(d<=wk) return "soon"; return "ontime"; }
 function iBucket(a){ if(a==null) return ""; if(a<=7)return "0–7"; if(a<=30)return "8–30"; if(a<=90)return "31–90"; if(a<=180)return "91–180"; return "180+"; }
-var STG_ST={Inprog:[],Ready:["Ready for Development"],Backlog:["Backlog"]};
+var STG_ST={Inprog:[],Ready:["Ready for Development"],Backlog:["Backlog"],Testing:["In Stage","In QA"],NotStarted:["Backlog","Ready for Development"]};
 var PSTR={P1:"1: Urgent",P2:"2: Important",P3:"3: Standard",P4:"4: Low"};
 function _ja(a){return "["+a.map(function(x){return "'"+String(x).replace(/'/g,"\\'")+"'";}).join(",")+"]";}
 function drill(o){var p=[]; if(o.statuses)p.push("statuses:"+_ja(o.statuses)); if(o.prios)p.push("prios:"+_ja(o.prios)); if(o.due)p.push("due:"+_ja(o.due)); if(o.age)p.push("age:'"+o.age+"'"); return "insDrill({"+p.join(",")+"})";}
@@ -2345,8 +2345,8 @@ function renderInsights(){
   bugs.forEach(function(b){ b._pl=iPL(b.prio); b._stage=iStage(b); b._committed=(b._stage!=="Backlog"); b._due=iDue(b); b._age=iAgeDays(b); b._over=(b._due==="overdue")?Math.floor((iDF(TODAY)-iDF(new Date(b.due)))/86400000):0; });
   var committed=bugs.filter(function(b){return b._committed;});
   var byPrio={P1:0,P2:0,P3:0,P4:0}; bugs.forEach(function(b){ if(byPrio[b._pl]!=null)byPrio[b._pl]++; });
-  var stageCt={Backlog:0,Ready:0,Inprog:0}; bugs.forEach(function(b){ stageCt[b._stage]++; });
-  var nCommitted=stageCt.Ready+stageCt.Inprog;
+  var stageCt={Backlog:0,Ready:0,Inprog:0,Testing:0}; bugs.forEach(function(b){ stageCt[b._stage]++; });
+  var nCommitted=stageCt.Ready+stageCt.Inprog+stageCt.Testing;
   var nOver=committed.filter(function(b){return b._due==="overdue";}).length;
   var nSoon=committed.filter(function(b){return b._due==="soon";}).length;
   var cHave=committed.filter(function(b){return !!b.due;}).length;
@@ -2493,7 +2493,7 @@ function renderInsights(){
 
   // ---------- tables ----------
   function pb(pl){ var c={P1:IRED,P2:IAMBER,P3:IBLUE,P4:IGREY}[pl]; return '<span class="pb" style="background:'+c+'">'+pl+'</span>'; }
-  function stag(s){ var c={Backlog:IGREY,Ready:IBLUE,Inprog:IGREEN}[s]; return '<span class="stag" style="color:'+c+';border-color:'+c+'">'+iStageLabel(s)+'</span>'; }
+  function stag(s){ var c={Backlog:IGREY,Ready:IBLUE,Inprog:IAMBER,Testing:IGREEN}[s]; return '<span class="stag" style="color:'+c+';border-color:'+c+'">'+iStageLabel(s)+'</span>'; }
   function overdueRows(){ var od=committed.filter(function(b){return b._due==="overdue";}).sort(function(a,b){return b._over-a._over;});
     return {n:od.length, html:od.map(function(b){ return '<tr><td>'+pb(b._pl)+'</td><td><a href="'+ijlink(b.key)+'" target="_blank">'+iesc(b.key)+'</a></td><td class="nm">'+iesc(b.name)+'</td><td>'+stag(b._stage)+'</td><td class="num">'+iesc(b.due)+'</td><td class="num over">+'+b._over+'d</td><td class="who">'+iesc(b.who||"Unassigned")+'</td></tr>'; }).join("")}; }
   function oldestRows(){ var old=bugs.slice().sort(function(a,b){return (b._age||0)-(a._age||0);}).slice(0,8);
@@ -2517,12 +2517,12 @@ function renderInsights(){
   var today=(GENERATED_AT||"").slice(0,10)|| (TODAY.toISOString().slice(0,10));
 
   // ---------- stage bars data ----------
-  var stageRows={P1:{},P2:{},P3:{},P4:{}}; bugs.forEach(function(b){ if(stageRows[b._pl]){ stageRows[b._pl][b._stage]=(stageRows[b._pl][b._stage]||0)+1; } });
+  var stageRows={P1:{},P2:{},P3:{},P4:{}}; bugs.forEach(function(b){ if(stageRows[b._pl]){ var g=(b._stage==="Backlog"||b._stage==="Ready")?"NotStarted":b._stage; stageRows[b._pl][g]=(stageRows[b._pl][g]||0)+1; } });
   var dueRows={P1:{},P2:{},P3:{},P4:{}}; committed.forEach(function(b){ if(dueRows[b._pl]){ dueRows[b._pl][b._due]=(dueRows[b._pl][b._due]||0)+1; } });
 
   var stageSVG=hbars(stageRows,["P1","P2","P3","P4"],
-    [{k:"Inprog",c:IGREEN},{k:"Ready",c:IBLUE},{k:"Backlog",c:IGREY,dark:true}],
-    {Inprog:"In progress",Ready:"Ready for Dev",Backlog:"Backlog"},
+    [{k:"Testing",c:IGREEN},{k:"Inprog",c:IAMBER},{k:"NotStarted",c:IRED}],
+    {Testing:"In testing",Inprog:"In dev",NotStarted:"Not started"},
     function(p,seg){ return drill({statuses:STG_ST[seg],prios:[PSTR[p]]}); });
   var dueSVG=hbars(dueRows,["P1","P2","P3","P4"],
     [{k:"overdue",c:IRED},{k:"soon",c:IAMBER},{k:"ontime",c:IGREEN},{k:"nodue",c:IGREY,dark:true}],
@@ -2537,16 +2537,16 @@ function renderInsights(){
   '<nav><a href="#i-stage">Release focus &amp; stage</a><a href="#i-due">Due-date health</a><a href="#i-overdue">Overdue bugs</a><a href="#i-trends">History &amp; projection</a><a href="#i-digest">Daily digest</a></nav>'+
 
   '<section id="i-stage"><h2><span class="n">1</span> Release focus &amp; workflow stage</h2>'+
-  '<p class="lead">Where each bug sits — Backlog (parked), Ready for Development (committed, not started), or In progress.</p>'+
+  '<p class="lead">Where each bug sits — <b>Not started</b> (Backlog or Ready for Development), <b>In dev</b>, or <b>In testing</b> (In Stage / In QA). Same three stages as the daily digest.</p>'+
   '<div class="kgrid g3">'+
-    '<div class="kpi"><div class="kv" style="color:'+IGREY+'">'+stageCt.Backlog+'</div><div class="kl">Backlog</div><div class="kd">parked · mostly P3/P4</div></div>'+
-    '<div class="kpi"><div class="kv" style="color:var(--blue)">'+stageCt.Ready+'</div><div class="kl">Ready for Dev</div><div class="kd">committed, not started</div></div>'+
-    '<div class="kpi"><div class="kv" style="color:var(--green)">'+stageCt.Inprog+'</div><div class="kl">In progress</div><div class="kd">actively being worked</div></div>'+
+    '<div class="kpi"><div class="kv" style="color:'+IRED+'">'+(stageCt.Backlog+stageCt.Ready)+'</div><div class="kl">Not started</div><div class="kd">Backlog + Ready for Dev</div></div>'+
+    '<div class="kpi"><div class="kv" style="color:'+IAMBER+'">'+stageCt.Inprog+'</div><div class="kl">In dev</div><div class="kd">actively being worked</div></div>'+
+    '<div class="kpi"><div class="kv" style="color:'+IGREEN+'">'+stageCt.Testing+'</div><div class="kl">In testing</div><div class="kd">In Stage / In QA</div></div>'+
   '</div>'+
   '<div class="card" style="margin-top:14px"><h3 style="font-size:13px;margin:0 0 6px;color:var(--navy)">Workflow stage by priority</h3>'+
-  '<div class="leg"><span><i style="background:'+IGREEN+'"></i>In progress</span><span><i style="background:'+IBLUE+'"></i>Ready for Dev</span><span><i style="background:'+IGREY+'"></i>Backlog</span></div>'+
+  '<div class="leg"><span><i style="background:'+IGREEN+'"></i>In testing</span><span><i style="background:'+IAMBER+'"></i>In dev</span><span><i style="background:'+IRED+'"></i>Not started</span></div>'+
   stageSVG+'<div class="hint">↑ click a segment → opens Active Bugs filtered to it</div>'+
-  '<div class="callout ok"><b>Read for R9.7:</b> of the '+(byPrio.P1+byPrio.P2)+' P1+P2 bugs, <b>'+p12c+' are committed</b> and only '+p12b+' sit in Backlog. <b>'+p34b+' P3/P4 bugs wait in Backlog</b> — the R9.8 queue.</div></div>'+
+  '<div class="callout ok"><b>Read for R9.7:</b> of the '+(byPrio.P1+byPrio.P2)+' P1+P2 bugs, only <b>'+p12ns+' haven\'t started</b> — the rest are in dev or testing. <b>'+p34b+' P3/P4 bugs sit in Backlog</b> — the R9.8 queue.</div></div>'+
   '</section>'+
 
   '<section id="i-due"><h2><span class="n">2</span> Due-date health — committed work</h2>'+
