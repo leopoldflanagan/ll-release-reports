@@ -1325,7 +1325,10 @@ function createdMs(b){ if(!b.created) return NaN; let s=b.created; if(!/[T ]/.te
 function withinHours(b,h){ const t=createdMs(b); if(isNaN(t)) return false; const age=snapshotMs()-t; return age <= h*3600*1000 && age >= -3600*1000; }
 function resolvedMs(b){ if(!b.resolved) return NaN; let s=b.resolved; if(!/[T ]/.test(s)) s=s+"T00:00:00"; return Date.parse(s); }
 function dueMs(b){ if(!b.due) return NaN; let s=b.due; if(!/[T ]/.test(s)) s=s+"T00:00:00"; return Date.parse(s); }
-function isOverdue(b){ const t=dueMs(b); if(isNaN(t)) return false; return t < snapshotMs() && b.cat!=="Done" && !b.resolved; }
+// A bug's Due date is the DEV deadline to hand it to Testing (reach "In Stage"). Once it's In Stage / In QA
+// the dev did the handoff, so it is NOT overdue anymore (Polo, Aug 26).
+function bugInTesting(b){ return b.status==="In Stage" || b.status==="In QA"; }
+function isOverdue(b){ const t=dueMs(b); if(isNaN(t)) return false; return t < snapshotMs() && b.cat!=="Done" && !b.resolved && !bugInTesting(b); }
 function withinHoursClosed(b,h){ const t=resolvedMs(b); if(isNaN(t)) return false; const age=snapshotMs()-t; return age <= h*3600*1000 && age >= -3600*1000; }
 // Open / Closed / All scope for the bug list. Open = active bugs (BUGS), Closed = resolved in the last CLOSED_DAYS (BUGS_CLOSED).
 function baseBugs(){ return bugScope==="closed" ? BUGS_CLOSED.slice() : (bugScope==="all" ? BUGS.concat(BUGS_CLOSED) : BUGS.slice()); }
@@ -1357,7 +1360,7 @@ const CARD_PRED = {
 // Faceted base: bugs matching the Theme scope + every active filter EXCEPT the one named in `exclude`.
 // Used both for the visible list (exclude="") and for each filter's own option counts (facet counts).
 function _dayFloor(d){ return new Date(d.getFullYear(),d.getMonth(),d.getDate()); }
-function bugDueSoon(b){ if(!b.due) return false; var d=_dayFloor(new Date(b.due)), n=_dayFloor(TODAY); var wk=new Date(n.getFullYear(),n.getMonth(),n.getDate()+7); return d>=n && d<=wk; }
+function bugDueSoon(b){ if(!b.due || bugInTesting(b)) return false; var d=_dayFloor(new Date(b.due)), n=_dayFloor(TODAY); var wk=new Date(n.getFullYear(),n.getMonth(),n.getDate()+7); return d>=n && d<=wk; }
 function bugAgeDays(b){ if(!b.created) return null; return Math.floor((_dayFloor(TODAY)-_dayFloor(new Date(b.created)))/86400000); }
 function bugAgeBucket(b){ var a=bugAgeDays(b); if(a==null) return ""; if(a<=7) return "0–7"; if(a<=30) return "8–30"; if(a<=90) return "31–90"; if(a<=180) return "91–180"; return "180+"; }
 // Deep-link from the Insights tab: apply a clean filter set and jump to Active Bugs.
@@ -2328,7 +2331,8 @@ function iLvl(p){ var m=/^(\d+)/.exec(p||""); return m?parseInt(m[1],10):5; }
 function iPL(p){ return ({1:"P1",2:"P2",3:"P3",4:"P4"})[iLvl(p)]||"P?"; }
 function iStage(b){ if(b.status==="Backlog") return "Backlog"; if(b.status==="Ready for Development") return "Ready"; return "Inprog"; }
 function iStageLabel(s){ return {Backlog:"Backlog",Ready:"Ready for Dev",Inprog:"In progress"}[s]; }
-function iDue(b){ if(!b.due) return "nodue"; var d=iDF(new Date(b.due)), n=iDF(TODAY); var wk=new Date(n.getFullYear(),n.getMonth(),n.getDate()+7); if(d<n) return "overdue"; if(d<=wk) return "soon"; return "ontime"; }
+var ITEST={"In Stage":1,"In QA":1};  // reached Testing → Due date (dev handoff deadline) no longer applies
+function iDue(b){ if(ITEST[b.status]) return "ontime"; if(!b.due) return "nodue"; var d=iDF(new Date(b.due)), n=iDF(TODAY); var wk=new Date(n.getFullYear(),n.getMonth(),n.getDate()+7); if(d<n) return "overdue"; if(d<=wk) return "soon"; return "ontime"; }
 function iBucket(a){ if(a==null) return ""; if(a<=7)return "0–7"; if(a<=30)return "8–30"; if(a<=90)return "31–90"; if(a<=180)return "91–180"; return "180+"; }
 var STG_ST={Inprog:[],Ready:["Ready for Development"],Backlog:["Backlog"]};
 var PSTR={P1:"1: Urgent",P2:"2: Important",P3:"3: Standard",P4:"4: Low"};
@@ -2370,7 +2374,7 @@ function renderInsights(){
   var HPTS=[84,70,56,42,28,14,7,0], histLabels={};
   var pts=HPTS.map(function(n){ var dt=asOf(n); var o=openAt(dt); var c={total:o.length,p1:0,p2:0,p34:0};
     o.forEach(function(b){ c[tierOf(b)]++; });
-    var mo=dt.toLocaleString("en-US",{month:"short"}); return {d:n,label:mo+" "+dt.getDate(),total:c.total,p1:c.p1,p2:c.p2,p34:c.p34}; });
+    var mm=("0"+(dt.getMonth()+1)).slice(-2), dd=("0"+dt.getDate()).slice(-2); return {d:n,label:mm+"/"+dd,total:c.total,p1:c.p1,p2:c.p2,p34:c.p34}; });
   // rates (trailing 28d) per tier
   function rate(tier){
     var res=0,cre=0, cut=asOf(28);
@@ -2380,13 +2384,32 @@ function renderInsights(){
     return {res:Math.round(res/4*10)/10,cre:Math.round(cre/4*10)/10,net:Math.round((res-cre)/4*10)/10,open:openNow};
   }
   var R={p1:rate("p1"),p2:rate("p2"),p34:rate("p34")};
+  // net burn display: +N/wk = shrinking (good), −N/wk = growing (bad). (net = resolved − created)
+  function bFmt(n){ return (n>0?"−":(n<0?"+":""))+Math.abs(n)+"/wk"; }
+  function bCol(n){ return n>0?IGREEN:(n<0?IRED:cMUT); }
   // milestones from RELEASES (deploy dates in the future)
   var upcoming=(typeof RELEASES!=="undefined"?RELEASES:[]).map(function(r){ return {id:r.id,dt:new Date(r.deploy+"T00:00:00")}; })
      .filter(function(r){ return r.dt>=iDF(TODAY); }).slice(0,3);
   if(!upcoming.length) upcoming=[{id:"+2wk",dt:asOf(-14)},{id:"+6wk",dt:asOf(-42)},{id:"+10wk",dt:asOf(-70)}];
   function wkOf(dt){ return Math.max(0,Math.round((iDF(dt)-iDF(TODAY))/(7*86400000))); }
   var MILE=upcoming.map(function(r,i){ return {label:r.id+" ("+r.dt.toLocaleString("en-US",{month:"short",day:"numeric"})+")",wk:wkOf(r.dt),focus:i===0?"P1 + P2 focus":(i===1?"P3 + P4 focus":"")}; });
-  function projAt(t,wk){ return Math.max(0,Math.round(R[t].open-R[t].net*wk)); }
+  // PROJECTION basis: close rate only (resolved/wk), NOT net. Assumes new P1/P2 creation
+  // falls to ~0 as feature testing wraps — an optimistic, best-case read (see the * note).
+  function projAt(t,wk){ return Math.max(0,Math.round(R[t].open-R[t].res*wk)); }
+  // "what it takes": close rate needed to clear each tier by R9.7, assuming no new bugs open
+  var W97=Math.max(MILE[0]?MILE[0].wk:1,1);
+  var needP1=Math.ceil(R.p1.open/W97), needP2=Math.ceil(R.p2.open/W97);
+  // Plain-language clear-date read per tier. rateKey="res" = best case (close rate);
+  // "net" = conservative (creation continues at today's pace).
+  function clearReadBy(t,rateKey){ var n=R[t][rateKey],o=R[t].open;
+    if(o<=0) return "cleared";
+    if(n<=0.2) return (rateKey==="net"?"not draining at this pace":"no closures at this pace");
+    var wks=o/n; if(wks>78) return "18+ months out";
+    var dd=new Date(iDF(TODAY).getTime()+Math.round(wks*7)*86400000);
+    return "~"+dd.toLocaleString("en-US",{month:"long",year:"numeric"}); }
+  function clearRead(t){ return clearReadBy(t,"res"); }
+  var CR={p1:clearRead("p1"),p2:clearRead("p2"),p34:clearRead("p34")};
+  var CRN={p1:clearReadBy("p1","net"),p2:clearReadBy("p2","net"),p34:clearReadBy("p34","net")};
   // freeze marker from WEEKS (if any)
   var freezeDays=null;
   (typeof WEEKS!=="undefined"?WEEKS:[]).forEach(function(w){ if(w.freeze){ var fs=new Date(w.start+"T00:00:00"); freezeDays=Math.round((iDF(TODAY)-iDF(fs))/86400000); } });
@@ -2438,16 +2461,27 @@ function renderInsights(){
     if(freezeDays!=null && freezeDays>=0 && freezeDays<=84){ var fx=X(84-freezeDays);
       o.push('<line x1="'+fx.toFixed(1)+'" y1="'+padT+'" x2="'+fx.toFixed(1)+'" y2="'+(padT+plotH)+'" stroke="'+IRED+'" stroke-dasharray="2 2" opacity="0.55"/>');
       o.push('<text x="'+fx.toFixed(1)+'" y="'+(padT+plotH+30)+'" font-size="9" font-weight="700" fill="'+IRED+'" text-anchor="middle">freeze</text>'); }
-    MILE.forEach(function(m){ var mx=X(84+7*m.wk); if(84+7*m.wk>xmax)return;
+    // row 1 (just below axis): history dates, thinned so they never collide
+    var lastLx=-999;
+    pts.forEach(function(p,i){ var x=X(hist[i]); var isLast=(i===pts.length-1);
+      if(!isLast && (x-lastLx)<32) return;   // skip crowded labels, always keep the last (=today)
+      lastLx=x;
+      o.push('<text x="'+x.toFixed(1)+'" y="'+(padT+plotH+15)+'" font-size="9" fill="'+cMUT+'" text-anchor="middle">'+iesc(p.label)+'</text>'); });
+    // row 2 (lower): release markers on their own line so they never sit on top of the dates
+    MILE.forEach(function(m,i){ var dx=84+7*m.wk, mx=X(dx); if(dx>xmax)return;
+      var anch=(dx>=xmax-3)?"end":"middle", ax=(anch==="end")?mx-3:mx;
       o.push('<line x1="'+mx.toFixed(1)+'" y1="'+padT+'" x2="'+mx.toFixed(1)+'" y2="'+(padT+plotH)+'" stroke="'+cNAVY+'" stroke-dasharray="3 3" opacity="0.4"/>');
-      o.push('<text x="'+mx.toFixed(1)+'" y="'+(padT+plotH+16)+'" font-size="10" font-weight="700" fill="'+cNAVY+'" text-anchor="middle">'+iesc(m.label.split(" ")[0])+'</text>'); });
-    pts.forEach(function(p,i){ o.push('<text x="'+X(hist[i]).toFixed(1)+'" y="'+(padT+plotH+16)+'" font-size="8.5" fill="'+cMUT+'" text-anchor="middle">'+iesc(p.label)+'</text>'); });
-    function poly(xs,ys,color,w,dash){ var pp=xs.map(function(x,i){return X(x).toFixed(1)+","+Y(ys[i]).toFixed(1);}).join(" ");
-      return '<polyline points="'+pp+'" fill="none" stroke="'+color+'" stroke-width="'+w+'"'+(dash?' stroke-dasharray="'+dash+'"':'')+'/>'; }
+      o.push('<text x="'+ax.toFixed(1)+'" y="'+(padT+plotH+31)+'" font-size="10" font-weight="700" fill="'+cNAVY+'" text-anchor="'+anch+'">'+iesc(m.label.split(" ")[0])+'</text>'); });
+    function poly(xs,ys,color,w,dash,op){ var pp=xs.map(function(x,i){return X(x).toFixed(1)+","+Y(ys[i]).toFixed(1);}).join(" ");
+      return '<polyline points="'+pp+'" fill="none" stroke="'+color+'" stroke-width="'+w+'"'+(dash?' stroke-dasharray="'+dash+'"':'')+(op!=null?' stroke-opacity="'+op+'"':'')+'/>'; }
     var endlab=[];
     TIERS.forEach(function(t){ var key=t[0],lbl=t[1],color=t[2];
-      var hs=pts.map(function(p){return p[key];}); var ps=fw.map(function(w){return Math.max(0,Math.round(R[key].open-R[key].net*w));});
-      o.push(poly(hist,hs,color,2.6,"")); o.push(poly(proj,ps,color,2,"6 3"));
+      var hs=pts.map(function(p){return p[key];});
+      var ps=fw.map(function(w){return Math.max(0,Math.round(R[key].open-R[key].res*w));});  // optimistic: close rate only
+      var psC=fw.map(function(w){return Math.max(0,Math.round(R[key].open-R[key].net*w));}); // conservative: net (creation continues)
+      o.push(poly(hist,hs,color,2.6,""));
+      o.push(poly(proj,psC,color,1.3,"1 3",0.5));  // faint dotted conservative (drawn under)
+      o.push(poly(proj,ps,color,2,"6 3"));          // bold dashed best-case (on top)
       hist.forEach(function(hd,i){ o.push('<circle cx="'+X(hd).toFixed(1)+'" cy="'+Y(hs[i]).toFixed(1)+'" r="2.5" fill="'+color+'"/>'); });
       endlab.push([Y(ps[10]),color,lbl]);
     });
@@ -2475,6 +2509,10 @@ function renderInsights(){
   var p1over=committed.filter(function(b){return b._due==="overdue"&&b._pl==="P1";}).map(function(b){return b.key;});
   var wow=pts[pts.length-1].total-pts[pts.length-2].total, wows=(wow>0?"+"+wow:""+wow);
   var r97=projAt("p1",MILE[0].wk)+projAt("p2",MILE[0].wk);
+  var _p12=bugs.filter(function(b){return b._pl==="P1"||b._pl==="P2";});
+  var p12ns=_p12.filter(function(b){return b._stage==="Backlog"||b._stage==="Ready";}).length;
+  var p12test=_p12.filter(function(b){return ITEST[b.status];}).length;
+  var p12dev=_p12.length-p12ns-p12test;
   var pct=function(a,b){return b?Math.round(100*a/b):0;};
   var today=(GENERATED_AT||"").slice(0,10)|| (TODAY.toISOString().slice(0,10));
 
@@ -2512,7 +2550,7 @@ function renderInsights(){
   '</section>'+
 
   '<section id="i-due"><h2><span class="n">2</span> Due-date health — committed work</h2>'+
-  '<p class="lead">Status by each bug\'s <b>Jira Due date</b> for the <b>'+nCommitted+' committed</b> bugs (Ready + In progress). Backlog is excluded on purpose.</p>'+
+  '<p class="lead">Status by each bug\'s <b>Jira Due date</b> for the <b>'+nCommitted+' committed</b> bugs (Ready + In progress). Backlog is excluded on purpose.<br><span style="font-size:11.5px">* <b>Overdue</b> = past due <b>and not yet handed to Testing</b>. Once a bug reaches <b>In Stage / In QA</b> it is no longer flagged — the Due date is the dev deadline to reach Testing, not to close.</span></p>'+
   '<div class="kgrid">'+
     '<div class="kpi"><div class="kv">'+nCommitted+'</div><div class="kl">Committed bugs</div><div class="kd">Ready + In progress</div></div>'+
     '<div class="kpi"><div class="kv" style="color:'+IRED+'">'+nOver+'</div><div class="kl">Overdue</div><div class="kd">Due date passed</div></div>'+
@@ -2520,29 +2558,50 @@ function renderInsights(){
     '<div class="kpi"><div class="kv">'+cHave+'</div><div class="kl">Have a due date</div><div class="kd">of '+nCommitted+' committed</div></div>'+
   '</div>'+
   '<div class="card" style="margin-top:14px"><h3 style="font-size:13px;margin:0 0 6px;color:var(--navy)">Due-date status by priority <span style="font-weight:500;color:var(--muted);font-size:11px">· committed work only</span></h3>'+
-  '<div class="leg"><span><i style="background:'+IRED+'"></i>Overdue</span><span><i style="background:'+IAMBER+'"></i>Due this week</span><span><i style="background:'+IGREEN+'"></i>On time</span><span><i style="background:'+IGREY+'"></i>No date yet</span></div>'+
+  '<div class="leg"><span><i style="background:'+IRED+'"></i>Overdue*</span><span><i style="background:'+IAMBER+'"></i>Due this week</span><span><i style="background:'+IGREEN+'"></i>On time / in testing</span><span><i style="background:'+IGREY+'"></i>No date yet</span></div>'+
   dueSVG+'<div class="hint">↑ click a segment → opens Active Bugs filtered to it</div></div>'+
   '<div class="card"><h3 style="font-size:13px;margin:0 0 2px">How old is the backlog?</h3><div class="note" style="margin:0 0 8px;border:0;padding:0">Age since creation across all open bugs — factual, no targets. '+buckets["180+"]+' bugs open more than six months.</div>'+
   agingSVG()+'<div class="hint">↑ click a bar → opens Active Bugs filtered to that age range</div></div>'+
   '</section>'+
 
   '<section id="i-overdue"><h2><span class="n">3</span> Overdue committed bugs</h2>'+
-  '<p class="lead">The '+odr.n+' committed bugs whose Due date has passed, most overdue first.</p>'+
+  '<p class="lead">The '+odr.n+' committed bugs that are <b>past due and not yet in Testing</b>*, most overdue first. Bugs already In Stage / In QA are excluded — they met the dev handoff.</p>'+
   '<div class="card" style="padding:6px 14px"><table><thead><tr><th></th><th>Bug</th><th>Summary</th><th>Stage</th><th>Due</th><th class="num">Over</th><th>Owner</th></tr></thead><tbody>'+(odr.html||'<tr><td colspan="7" class="note" style="border:0">Nothing overdue in committed work. 🎉</td></tr>')+'</tbody></table></div>'+
   '<div class="card" style="padding:6px 14px"><div style="font-size:12px;font-weight:700;color:var(--navy);padding:10px 8px 2px">Oldest open bugs — the long tail</div><table><thead><tr><th></th><th>Bug</th><th>Summary</th><th>Stage</th><th class="num">Age</th><th>Owner</th></tr></thead><tbody>'+oldestRows()+'</tbody></table></div>'+
   '</section>'+
 
   '<section id="i-trends"><h2><span class="n">4</span> History &amp; projection — by priority tier</h2>'+
   '<p class="lead">Standing backlog reconstructed from Jira over ~12 weeks (solid), continued at the team\'s real throughput (dashed). Split into <b>P1</b>, <b>P2</b> and <b>P3+P4</b>.</p>'+
-  '<div class="card"><div class="leg"><span><i style="background:'+IRED+'"></i>P1</span><span><i style="background:'+IAMBER+'"></i>P2</span><span><i style="background:'+IBLUE+'"></i>P3+P4</span><span style="color:var(--muted)"><i class="dash" style="border-color:'+cMUT+'"></i>solid = history · dashed = projected</span></div>'+
+  '<div class="card"><div class="leg"><span><i style="background:'+IRED+'"></i>P1</span><span><i style="background:'+IAMBER+'"></i>P2</span><span><i style="background:'+IBLUE+'"></i>P3+P4</span><span style="color:var(--muted)">— solid = history</span><span style="color:var(--muted)">– – dashed = best case (close rate)*</span><span style="color:var(--muted)">···· dotted = conservative (net)</span></div>'+
   timelineSVG()+
   '<div class="rategrid" style="margin-top:16px">'+
-    '<div class="rate"><div class="rv" style="color:'+IRED+'">−'+R.p1.net+'/wk</div><div class="rl">P1 net burn</div><div class="rd">'+R.p1.res+' resolved − '+R.p1.cre+' created · '+R.p1.open+' open</div></div>'+
-    '<div class="rate"><div class="rv" style="color:'+IAMBER+'">−'+R.p2.net+'/wk</div><div class="rl">P2 net burn</div><div class="rd">'+R.p2.res+' resolved − '+R.p2.cre+' created · '+R.p2.open+' open</div></div>'+
-    '<div class="rate"><div class="rv" style="color:'+IBLUE+'">−'+R.p34.net+'/wk</div><div class="rl">P3+P4 net burn</div><div class="rd">'+R.p34.res+' resolved − '+R.p34.cre+' created · '+R.p34.open+' open</div></div>'+
+    '<div class="rate" title="Close rate = bugs resolved per week, averaged over the last 4 weeks. This is what drives the projection. Subtext shows closed/wk vs new/wk (net) and how many P1 are open right now.">'+
+      '<div class="rv" style="color:'+IGREEN+'">'+R.p1.res+'/wk</div><div class="rl">P1 close rate <span style="opacity:.45;font-weight:400;cursor:help">ⓘ</span></div><div class="rd"><b>'+R.p1.res+'</b> closed/wk · <b>'+R.p1.cre+'</b> new/wk <span style="color:'+bCol(R.p1.net)+'">(net '+bFmt(R.p1.net)+')</span> · <b>'+R.p1.open+'</b> open</div></div>'+
+    '<div class="rate" title="Close rate = bugs resolved per week, averaged over the last 4 weeks. This is what drives the projection. Subtext shows closed/wk vs new/wk (net) and how many P2 are open right now.">'+
+      '<div class="rv" style="color:'+IGREEN+'">'+R.p2.res+'/wk</div><div class="rl">P2 close rate <span style="opacity:.45;font-weight:400;cursor:help">ⓘ</span></div><div class="rd"><b>'+R.p2.res+'</b> closed/wk · <b>'+R.p2.cre+'</b> new/wk <span style="color:'+bCol(R.p2.net)+'">(net '+bFmt(R.p2.net)+')</span> · <b>'+R.p2.open+'</b> open</div></div>'+
+    '<div class="rate" title="Close rate = bugs resolved per week, averaged over the last 4 weeks. This is what drives the projection. Subtext shows closed/wk vs new/wk (net) and how many P3+P4 are open right now.">'+
+      '<div class="rv" style="color:'+IGREEN+'">'+R.p34.res+'/wk</div><div class="rl">P3+P4 close rate <span style="opacity:.45;font-weight:400;cursor:help">ⓘ</span></div><div class="rd"><b>'+R.p34.res+'</b> closed/wk · <b>'+R.p34.cre+'</b> new/wk <span style="color:'+bCol(R.p34.net)+'">(net '+bFmt(R.p34.net)+')</span> · <b>'+R.p34.open+'</b> open</div></div>'+
   '</div>'+
+  '<div class="callout" style="border-left:4px solid '+IAMBER+';background:rgba(232,163,23,.08)"><div style="display:flex;gap:12px;align-items:flex-start"><div style="font-size:34px;line-height:1;color:'+IAMBER+';font-weight:800">*</div><div><b>The projection uses the close rate only — it does NOT subtract newly created bugs.</b><br>'+
+    'This is deliberate and <b>optimistic (best case)</b>: as feature testing wraps up, we expect few new P1/P2 bugs before the release, so counting new bugs against the burn-down would understate progress. The <b>bold dashed</b> lines, the milestone table, and the clear dates below all assume <b>new P1/P2 creation falls to roughly zero</b>. The <b>faint dotted</b> line on the chart is the <b>conservative</b> view — creation continuing at today\'s pace (the <b>net</b> figure in each card). Reality usually lands between the two.</div></div></div>'+
+  '<div class="callout" style="border-left:3px solid '+IRED+'"><b>What it takes to clear P1 &amp; P2 by '+iesc(MILE[0]?MILE[0].label:"R9.7")+':</b><br>'+
+    'With no new P1/P2 opened, the team needs to close about <b style="color:'+IRED+'">'+needP1+' P1/wk</b> and <b style="color:'+IAMBER+'">'+needP2+' P2/wk</b> for the ~'+W97+' week'+(W97===1?"":"s")+' left. Current close rate: <b>'+R.p1.res+' P1/wk</b> and <b>'+R.p2.res+' P2/wk</b>.'+
+    '<br><span style="font-size:11.5px;color:var(--muted)">'+((needP1>R.p1.res||needP2>R.p2.res)?'The needed rate is above the current close rate — the gap is where capacity has to move.':'The current close rate already meets what’s needed.')+'</span></div>'+
   '<table><thead><tr><th>Milestone</th><th class="num">P1</th><th class="num">P2</th><th class="num">P3+P4</th><th class="num">Total</th></tr></thead><tbody>'+MILE.map(mrow).join("")+'</tbody></table>'+
-  '<div class="method"><div class="note" style="margin:0;border:0;padding:0"><b>Method.</b> History: standing backlog at each date = bugs created on/before it and not resolved by then (from open + closed-90d data). Projection: linear from today at each tier\'s net burn (resolved − created, trailing 4 weeks). A trend line, not a commitment.</div></div>'+
+  '<div class="note" style="margin-top:8px"><b>Reading this table.</b> Bugs still open at each date <b>if the current close rate holds and few new bugs arrive*</b> — a best-case projection, not the plan. The plan is <b>0 P1/P2 by R9.7</b> and <b>0 P3/P4 by R9.8</b>. A <b>0</b> means that tier is projected to be cleared by that date; a number above 0 means even at the close rate, the volume won\'t be gone in time — that gap is where attention needs to go.</div>'+
+  '<div class="callout"><b>When the open backlog would clear — a range:</b>'+
+    '<table style="width:auto;margin:8px 0 4px;border:0"><tbody>'+
+    '<tr><td style="border:0;padding:2px 14px 2px 0;color:var(--muted);font-size:12px">Best case* <span style="font-size:10.5px">(close rate)</span></td>'+
+      '<td style="border:0;padding:2px 12px"><span style="color:'+IRED+';font-weight:700">P1 '+CR.p1+'</span></td>'+
+      '<td style="border:0;padding:2px 12px"><span style="color:'+IAMBER+';font-weight:700">P2 '+CR.p2+'</span></td>'+
+      '<td style="border:0;padding:2px 12px"><span style="color:'+IBLUE+';font-weight:700">P3+P4 '+CR.p34+'</span></td></tr>'+
+    '<tr><td style="border:0;padding:2px 14px 2px 0;color:var(--muted);font-size:12px">Conservative <span style="font-size:10.5px">(net, creation continues)</span></td>'+
+      '<td style="border:0;padding:2px 12px;opacity:.75">P1 '+CRN.p1+'</td>'+
+      '<td style="border:0;padding:2px 12px;opacity:.75">P2 '+CRN.p2+'</td>'+
+      '<td style="border:0;padding:2px 12px;opacity:.75">P3+P4 '+CRN.p34+'</td></tr>'+
+    '</tbody></table>'+
+    '<span style="font-size:11.5px;color:var(--muted)">*Best case = open ÷ close rate (resolved/wk, last 4 wks), assuming new P1/P2 drop to ~0. Conservative = open ÷ net (closed − new). Reality usually lands between the two.</span></div>'+
+  '<div class="method"><div class="note" style="margin:0;border:0;padding:0"><b>Method.</b> History: standing backlog at each date = bugs created on/before it and not resolved by then (from open + closed-90d data). Projection: linear from today at each tier\'s <b>close rate</b> (resolved/wk, trailing 4 weeks) — new bugs are <b>not</b> subtracted (the * best-case assumption). A trend line, not a commitment.</div></div>'+
   '</div></section>'+
 
   '<section id="i-digest"><h2><span class="n">5</span> Daily digest — Slack / Teams</h2>'+
@@ -2552,8 +2611,8 @@ function renderInsights(){
   '<div class="att"><h4>Bug backlog · '+iesc(today)+' · 8:00 AM CT</h4><div class="flds">'+
     '<div class="fld"><div class="fl">Open bugs</div><div class="fv2">'+total+' <span style="font-size:11px;color:'+net24c+'">('+net24s+')</span></div></div>'+
     '<div class="fld"><div class="fl">P1 / P2 open</div><div class="fv2">'+byPrio.P1+' / '+byPrio.P2+'</div></div>'+
-    '<div class="fld"><div class="fl">Committed · Backlog</div><div class="fv2">'+nCommitted+' · <span style="color:'+IGREY+'">'+stageCt.Backlog+'</span></div></div>'+
-    '<div class="fld"><div class="fl">Overdue · due this wk</div><div class="fv2" style="color:'+IRED+'">'+nOver+' <span style="color:'+IAMBER+'">· '+nSoon+'</span></div></div>'+
+    '<div class="fld"><div class="fl">P1+P2 pipeline</div><div class="fv2" style="font-size:12.5px">'+p12ns+' <span style="font-weight:400;font-size:10.5px;color:var(--muted)">not started</span> · '+p12dev+' <span style="font-weight:400;font-size:10.5px;color:var(--muted)">in dev</span> · <span style="color:'+IGREEN+'">'+p12test+'</span> <span style="font-weight:400;font-size:10.5px;color:var(--muted)">testing</span></div></div>'+
+    '<div class="fld"><div class="fl">Overdue* · due this wk</div><div class="fv2" style="color:'+IRED+'">'+nOver+' <span style="color:'+IAMBER+'">· '+nSoon+'</span></div></div>'+
     '<div class="fld"><div class="fl">Opened (24h)</div><div class="fv2">'+created24+' <span style="font-size:11px;color:var(--muted)">· '+newp1+' new P1</span></div></div>'+
     '<div class="fld"><div class="fl">Resolved (24h)</div><div class="fv2" style="color:'+IGREEN+'">'+resolved24+'</div></div>'+
   '</div>'+
@@ -2562,6 +2621,7 @@ function renderInsights(){
   '<div class="btnrow"><span class="slbtn pri">Open dashboard →</span><span class="slbtn">Overdue P1/P2 list</span></div>'+
   '</div></div></div>'+
   '<div class="schedrow"><span class="chip">⏰ 8:00 AM CT — morning</span><span class="chip">⏰ 4:00 PM CT — end of day</span><span class="chip">weekdays</span></div>'+
+  '<div class="note" style="margin-bottom:0"><b>* Overdue</b> counts bugs past their Due date that are still in development. The Due date is the dev deadline to hand a bug to Testing, so bugs already <b>In Stage / In QA</b> are not counted as overdue.</div>'+
   '<div class="note"><b>Not wired yet:</b> to turn this on we need a Slack/Teams incoming-webhook URL, then a scheduled job posts it twice a day.</div>'+
   '</div></section>';
 }
