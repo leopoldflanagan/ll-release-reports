@@ -2,8 +2,9 @@ name: LL QA Daily Digest
 
 on:
   schedule:
-    - cron: "30 12,13,14,15 * * 1-5"
-    - cron: "0 18,19,22,23 * * 1-5"
+    - cron: "30 13,14,15,16 * * 1-5"   # 8:30 & 10:30 CT (ambas estaciones)
+    - cron: "0 19,20,23 * * 1-5"       # 14:00 CT (ambas) + 18:00 CDT
+    - cron: "0 0 * * 2-6"              # 18:00 CST (medianoche UTC del día siguiente)
   workflow_dispatch:
 
 permissions:
