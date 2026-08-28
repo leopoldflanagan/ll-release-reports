@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T19:15:19+00:00",
+ "generated_at": "2026-08-28T19:30:27+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -2064,6 +2064,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22008",
+   "name": "PMP - DCA - Plan expiring today shows as Expired in Search Patient page, but remains Active in Plan Overview as expected",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T12:17:27.172-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-21999",
    "name": "Stage - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
    "pod": "PLANS",
@@ -4061,30 +4082,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21982",
-   "name": "The Print button for additional benefit PDF doesn’t include the group code - Related to PLANS-21705",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Sushma Bankar",
-   "prio": "3: Standard",
-   "created": "2026-08-28T07:23:48.127-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21686",
    "name": "Member Portal and PMP<Stage<Primary Member can not ADD Member(minor or Adult) if having only one Credit Card account, it is working if member have only ACH bank account",
    "pod": "LL",
@@ -4144,6 +4141,30 @@
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-08-28T07:50:47.776-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21982",
+   "name": "The Print button for additional benefit PDF doesn’t include the group code - Related to PLANS-21705",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Sushma Bankar",
+   "prio": "3: Standard",
+   "created": "2026-08-28T07:23:48.127-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -21731,6 +21752,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22011",
+   "name": "Dashboard - Incorrect 'Active Primary Members' count for ACH Refund",
+   "status": "Backlog",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-22007",
    "name": "Renewal Reminder emails are not sent.",
