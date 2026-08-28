@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T18:15:24+00:00",
+ "generated_at": "2026-08-28T18:30:23+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -100,15 +100,6 @@
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
-  },
-  {
-   "key": "PLANS-17114",
-   "name": "Handling ACH Declines",
-   "status": "In Testing",
-   "ted": "2026-08-28",
-   "fv": "R9.8",
-   "who": "Shchekochykhin Vladyslav",
-   "tshirt": "X-Large"
   },
   {
    "key": "PLANS-18673",
@@ -350,17 +341,6 @@
    "fv": null,
    "who": "Chris Rubio",
    "tshirt": "Large",
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17058",
-   "name": "Renewal Transaction Handling for Migrated Members",
-   "status": "In Testing",
-   "ted": "2026-09-01",
-   "fv": "R9.7",
-   "who": "Chris Rubio",
-   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-MVP"
   },
@@ -893,17 +873,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-17114",
-   "name": "Handling ACH Declines",
-   "status": "In Testing",
-   "ted": "2026-08-28",
-   "fv": "R9.8",
-   "who": "Shchekochykhin Vladyslav",
-   "tshirt": "X-Large",
-   "pod": "LL",
-   "theme": "ACH"
-  },
-  {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Testing",
@@ -1122,17 +1091,6 @@
    "status": "Epics & Stories",
    "fv": null,
    "ted": null,
-   "who": "Chris Rubio",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17058",
-   "name": "Renewal Transaction Handling for Migrated Members",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-09-01",
    "who": "Chris Rubio",
    "theme": "LL-MVP"
   },
@@ -1662,17 +1620,6 @@
    "fv": "R9.7",
    "ted": "2026-08-26",
    "who": "Mykyta Moroz",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLANS-17114",
-   "name": "Handling ACH Declines",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": "2026-08-28",
-   "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
   },
   {
