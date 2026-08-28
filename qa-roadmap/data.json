@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T19:30:27+00:00",
+ "generated_at": "2026-08-28T19:45:23+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -9,15 +9,6 @@
    "ted": "2026-08-27",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
-   "tshirt": null
-  },
-  {
-   "key": "PLANS-21837",
-   "name": "Age Restrictions on Sales",
-   "status": "Idea",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
    "tshirt": null
   },
   {
@@ -972,17 +963,6 @@
    "theme": ""
   },
   {
-   "key": "PLANS-21837",
-   "name": "Age Restrictions on Sales",
-   "status": "Idea",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
-  },
-  {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
    "status": "Idea",
@@ -1719,17 +1699,6 @@
    "fv": "R9.8",
    "ted": null,
    "who": "Unassigned",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-21837",
-   "name": "Age Restrictions on Sales",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Idea",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Dmytro Tymofiienko",
    "theme": ""
   },
   {
@@ -21754,17 +21723,10 @@
  "nopod": [
   {
    "key": "PLANS-22011",
-   "name": "Dashboard - Incorrect 'Active Primary Members' count for ACH Refund",
+   "name": "Dashboard - Incorrect",
    "status": "Backlog",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-22007",
-   "name": "Renewal Reminder emails are not sent.",
-   "status": "Ready for Development",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera"
   }
  ],
  "weeks": [
