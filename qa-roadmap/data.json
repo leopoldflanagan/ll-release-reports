@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T14:23:43+00:00",
+ "generated_at": "2026-08-28T14:30:20+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -2497,14 +2497,14 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-25T14:45:49.189-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-31",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -3473,6 +3473,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-20560",
+   "name": "CSP \\ Plan activation is allowed when the Membership Agreement logo dynamic field is missing",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-07-29T18:04:23.687-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-20558",
    "name": "Open/Closed Network - Membership Agreement",
    "pod": "PLANS",
@@ -3520,6 +3544,54 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20507",
+   "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29T10:11:02.632-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-20499",
+   "name": "CSP - Bill to Office purchases - Purchased fees are not showing under plan details",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29T08:59:11.328-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-20496",
    "name": "WFP - Incorrect Success Message Displayed for 'Bill to Office' Purchases",
    "pod": "LL",
@@ -3538,6 +3610,30 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-20268",
+   "name": "Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-24T10:08:46.751-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -3568,6 +3664,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20109",
+   "name": "Comfort Dental<Stage<Plan confirmation Email doesn't contain custom Logo",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-07-22T08:27:33.613-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20043",
    "name": "All Cariengton practices - Missing custom logos in the membership agreement",
    "pod": "PLANS",
@@ -3583,6 +3703,29 @@
    "due": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-19236",
+   "name": "CSP - update user role failed with a 500 error",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-08T13:36:39.975-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -3658,6 +3801,54 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-18356",
+   "name": "PDS: Mandatory Field Required - Patient MRN",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Charles Rosenbaum",
+   "prio": "2: Important",
+   "created": "2026-06-22T07:09:49.058-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18083",
+   "name": "Member portal - ADD PLAN - add member ; giving 500 error",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-06-16T13:54:54.335-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -3950,6 +4141,29 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-14429",
+   "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-04-16T08:03:50.116-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-14068",
    "name": "Member Portal \\ Multiple emails are missing SHDP Kids branding",
    "pod": "PLANS",
@@ -3965,6 +4179,29 @@
    "due": "",
    "labels": [
     "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-2472",
+   "name": "ProviderPortal>missing 'PAID' label for the paid plan",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Mercedes Hung",
+   "prio": "4: Low",
+   "created": "2024-09-18T20:57:34.016-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
     "product_prioritized"
    ],
    "theme": "",
@@ -4021,78 +4258,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20560",
-   "name": "CSP \\ Plan activation is allowed when the Membership Agreement logo dynamic field is missing",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-07-29T18:04:23.687-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-20507",
-   "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-29T10:11:02.632-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-20499",
-   "name": "CSP - Bill to Office purchases - Purchased fees are not showing under plan details",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-29T08:59:11.328-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-20495",
    "name": "WFP - Practice Credit Card Not Removed from Office Payments When Organization Is Switched from \"Paid by Office\" to \"Bill to Office\"",
    "pod": "LL",
@@ -4113,171 +4278,6 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20268",
-   "name": "Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-24T10:08:46.751-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-20109",
-   "name": "Comfort Dental<Stage<Plan confirmation Email doesn't contain custom Logo",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-07-22T08:27:33.613-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19236",
-   "name": "CSP - update user role failed with a 500 error",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-08T13:36:39.975-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18356",
-   "name": "PDS: Mandatory Field Required - Patient MRN",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Charles Rosenbaum",
-   "prio": "2: Important",
-   "created": "2026-06-22T07:09:49.058-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18083",
-   "name": "Member portal - ADD PLAN - add member ; giving 500 error",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-16T13:54:54.335-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-14429",
-   "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-04-16T08:03:50.116-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-2472",
-   "name": "ProviderPortal>missing 'PAID' label for the paid plan",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Mercedes Hung",
-   "prio": "4: Low",
-   "created": "2024-09-18T20:57:34.016-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -21711,7 +21711,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21982",
+   "name": "The Print button generates a PDF from a separate template that still doesn’t include the group code - Related to PLANS-21705",
+   "status": "Ready for Development",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Sushma Bankar"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
