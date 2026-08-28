@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T17:15:23+00:00",
+ "generated_at": "2026-08-28T17:30:24+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -1878,30 +1878,6 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21585",
-   "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-19T12:47:49.177-0700",
-   "resolved": "",
-   "due": "2026-08-30",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4330,6 +4306,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21822",
+   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-25T10:55:24.852-0700",
+   "resolved": "",
+   "due": "2026-09-01",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-21753",
    "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
    "pod": "LL",
@@ -4354,21 +4354,21 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21681",
-   "name": "DCA - Core Plan Bug",
-   "pod": "LL",
+   "key": "PLANS-21585",
+   "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
+   "pod": "PLANS",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T07:52:28.551-0700",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Hunter Redhead",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-19T12:47:49.177-0700",
    "resolved": "",
-   "due": "2026-08-28",
+   "due": "2026-08-30",
    "labels": [
-    "group1_migration",
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -4450,30 +4450,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21822",
-   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-25T10:55:24.852-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21739",
    "name": "Plan Transactions - '>>' and '>' pagination not clickable.",
    "pod": "LL",
@@ -4496,6 +4472,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21681",
+   "name": "DCA - Core Plan Bug",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T07:52:28.551-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21609",
