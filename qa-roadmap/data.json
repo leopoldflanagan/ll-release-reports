@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T17:00:28+00:00",
+ "generated_at": "2026-08-28T17:15:23+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -1810,30 +1810,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-21950",
-   "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-27T09:22:14.476-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21919",
    "name": "Patient is unable to updated her email in the member portal",
    "pod": "PLANS",
@@ -2202,7 +2178,10 @@
    "created": "2026-08-28T09:13:36.595-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4196,7 +4175,10 @@
    "created": "2026-08-28T07:23:48.127-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4372,6 +4354,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21681",
+   "name": "DCA - Core Plan Bug",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T07:52:28.551-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21041",
    "name": "PMP - One smile - membership card not loaded in member account information",
    "pod": "LL",
@@ -4394,6 +4400,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21950",
+   "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-27T09:22:14.476-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21871",
@@ -4466,30 +4496,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21681",
-   "name": "DCA - Core Plan Bug",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T07:52:28.551-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21609",
