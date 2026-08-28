@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T13:55:11+00:00",
+ "generated_at": "2026-08-28T14:15:25+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -1858,6 +1858,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21884",
+   "name": "PMP \\ Manual renewal is not longer redirecting the user to current member overview page",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-08-26T14:58:39.389-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21878",
    "name": "PMP \\ DCA member with ACH payment type is unable to manually renew their plan",
    "pod": "LL",
@@ -1877,30 +1901,6 @@
    ],
    "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21831",
-   "name": "PMP - error 400 after purchasing additional member plan with ACH",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-25T14:39:16.064-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2062,7 +2062,7 @@
    "prio": "3: Standard",
    "created": "2026-08-12T12:02:55.729-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-31",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -2261,8 +2261,8 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21968",
-   "name": "ACH - Purchase Declines not visible in CSP history of accounts",
+   "key": "PLANS-21981",
+   "name": "PMP - Inconsistent Behaviour Between ACH and Credit Card for Deleting the Only Primary Payment Method",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -2270,14 +2270,14 @@
    "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-27T13:43:29.121-0700",
+   "prio": "4: Low",
+   "created": "2026-08-28T07:07:32.743-0700",
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "ACH",
+   "theme": "",
    "triage": "",
-   "lpEpic": false,
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4330,6 +4330,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21831",
+   "name": "PMP - error 400 after purchasing additional member plan with ACH",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-25T14:39:16.064-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21822",
    "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
    "pod": "LL",
@@ -4786,6 +4810,27 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-21968",
+   "name": "ACH - Purchase Declines not visible in CSP history of accounts",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-27T13:43:29.121-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21916",
    "name": "ACH & CC Refunds Not Visible in Member > Transactions in Member Portal",
    "pod": "LL",
@@ -4803,30 +4848,6 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21884",
-   "name": "PMP \\ Manual renewal is not longer redirecting the user to current member overview page",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-08-26T14:58:39.389-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5153,30 +5174,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21842",
-   "name": "ACH - Deleting the only Primary ACH payment method does not allow the user to authorize and use a new ACH account as the replacement primary",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-26T04:21:46.488-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21839",
    "name": "CSP/ACH Refund Receipt/Last four digits of the Routing number are displayed in the receipt",
    "pod": "LL",
@@ -5363,30 +5360,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21615",
-   "name": "ACH Refund -Refund Transaction Not Displayed in PMP Member Transactions When Refund Is Processed Through CSP UI (Showing a 'Approved' transaction without a purchase type)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-20T04:00:16.020-0700",
-   "resolved": "",
-   "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5835,6 +5808,54 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21615",
+   "name": "ACH Refund -Refund Transaction Not Displayed in PMP Member Transactions When Refund Is Processed Through CSP UI (Showing a 'Approved' transaction without a purchase type)",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-20T04:00:16.020-0700",
+   "resolved": "2026-08-28T07:15:10.475-0700",
+   "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21842",
+   "name": "ACH - Deleting the only Primary ACH payment method does not allow the user to authorize and use a new ACH account as the replacement primary",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-26T04:21:46.488-0700",
+   "resolved": "2026-08-28T07:14:29.933-0700",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21865",
    "name": "ACH - ACH Refund returned Not Displayed in Member Transactions in PMP/Member portals",
