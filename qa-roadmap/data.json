@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T21:15:21+00:00",
+ "generated_at": "2026-08-28T21:30:23+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -2009,6 +2009,48 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22017",
+   "name": "Dashboard - When a plan purchase is declined, the Dashboard incorrectly updates the Plans Renewal metric",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T14:22:09.914-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22016",
+   "name": "Dashboard - Purchasing a new plan is incorrectly increasing the Plans Renewal count on the Dashboard.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T14:17:39.677-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22012",
    "name": "DSO Dashboard| Dashboard doesn't change when switching from multi practice view to single practice or selecting practice",
    "pod": "PLANS",
@@ -2020,6 +2062,27 @@
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
    "created": "2026-08-28T13:20:25.921-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22011",
+   "name": "Dashboard -After purchasing a single ACH plan, the Plans Sold (YTD) count increases by 5 instead of 1.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T12:25:36.625-0700",
    "resolved": "",
    "due": "",
    "labels": [],
@@ -21741,15 +21804,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-22011",
-   "name": "Dashboard -After purchasing a single ACH plan, the Plans Sold (YTD) count increases by 5 instead of 1.",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 24–30",
