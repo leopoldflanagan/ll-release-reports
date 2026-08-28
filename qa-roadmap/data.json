@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-27T19:31:51+00:00",
- "today": "2026-08-27",
+ "generated_at": "2026-08-28T01:17:35+00:00",
+ "today": "2026-08-28",
  "features": [
   {
    "key": "PLANS-20836",
@@ -9,6 +9,24 @@
    "ted": "2026-08-27",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-21837",
+   "name": "Age Restrictions on Sales",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-21454",
+   "name": "Joint Legal Language - Add Member/Auto-Renewal",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Dmytro Tymofiienko",
    "tshirt": null
   },
   {
@@ -129,11 +147,47 @@
    "tshirt": "Moderate"
   },
   {
+   "key": "PLANS-21975",
+   "name": "Logging ACH Refunds & Handling of ACH Receipts/Transactions",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-21974",
+   "name": "PDF Enhancements",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-21584",
+   "name": "Promo Codes - Unavailable to New Sales & Expired Plans Renewals",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-21011",
+   "name": "Log Cancellation/Opt Out Reason in Account History",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": null
+  },
+  {
    "key": "PLANS-20621",
    "name": "Wellfit Admin - Practice Assignment Picker",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Unassigned",
    "tshirt": "Small"
   },
@@ -160,7 +214,7 @@
    "name": "Manage Preferences - CSP & WF Pay",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Unassigned",
    "tshirt": null
   },
@@ -181,6 +235,15 @@
    "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": "Small"
+  },
+  {
+   "key": "PLANS-18018",
+   "name": "Define Refund Window Timeframes",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null
   },
   {
    "key": "PLANS-17582",
@@ -406,7 +469,7 @@
    "status": "Requirements",
    "ted": null,
    "fv": "R9.8",
-   "who": "Michael McNulty",
+   "who": "Unassigned",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -625,7 +688,7 @@
    "name": "Member Search Improvements",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -636,7 +699,7 @@
    "name": "Manage Preferences - CSP & WF Pay",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Unassigned",
    "tshirt": null,
    "pod": "LL",
@@ -702,7 +765,7 @@
    "name": "Wellfit Admin - Practice Assignment Picker",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Unassigned",
    "tshirt": "Small",
    "pod": "LL",
@@ -716,7 +779,7 @@
    "fv": "R9.9",
    "who": "Unassigned",
    "tshirt": null,
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -747,9 +810,9 @@
    "status": "Idea",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null,
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -878,10 +941,10 @@
    "name": "Define Refund Window Timeframes",
    "status": "Architecture",
    "ted": null,
-   "fv": null,
-   "who": "Michael McNulty",
+   "fv": "R9.8",
+   "who": "Unassigned",
    "tshirt": null,
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -927,6 +990,50 @@
    "tshirt": null,
    "pod": "WEL",
    "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-21584",
+   "name": "Promo Codes - Unavailable to New Sales & Expired Plans Renewals",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-21837",
+   "name": "Age Restrictions on Sales",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-21974",
+   "name": "PDF Enhancements",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-21975",
+   "name": "Logging ACH Refunds & Handling of ACH Receipts/Transactions",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
   }
  ],
  "all": [
@@ -1136,7 +1243,7 @@
    "status": "Requirements",
    "fv": "R9.8",
    "ted": null,
-   "who": "Michael McNulty",
+   "who": "Unassigned",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1354,7 +1461,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Architecture",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": null,
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
@@ -1365,7 +1472,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Architecture",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": null,
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
@@ -1431,7 +1538,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Requirements",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": null,
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
@@ -1439,7 +1546,7 @@
   {
    "key": "PLANS-21011",
    "name": "Log Cancellation/Opt Out Reason in Account History",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "PLANS",
    "status": "Idea",
    "fv": "R9.9",
@@ -1472,12 +1579,12 @@
   {
    "key": "PLANS-21454",
    "name": "Joint Legal Language - Add Member/Auto-Renewal",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "PLANS",
    "status": "Idea",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1604,12 +1711,12 @@
   {
    "key": "PLANS-18018",
    "name": "Define Refund Window Timeframes",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "PLANS",
    "status": "Architecture",
-   "fv": null,
+   "fv": "R9.8",
    "ted": null,
-   "who": "Michael McNulty",
+   "who": "Unassigned",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -1655,100 +1762,69 @@
    "ted": "2026-09-02",
    "who": "Daniel Marineni",
    "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-21584",
+   "name": "Promo Codes - Unavailable to New Sales & Expired Plans Renewals",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-21837",
+   "name": "Age Restrictions on Sales",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Dmytro Tymofiienko",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-21974",
+   "name": "PDF Enhancements",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-21975",
+   "name": "Logging ACH Refunds & Handling of ACH Receipts/Transactions",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": ""
   }
  ],
  "bugs": [
   {
-   "key": "PLANS-21907",
-   "name": "Member Portal \\ Missing admin fee discount field on renew flow for DCA members",
+   "key": "PLANS-21950",
+   "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
    "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-26T22:45:07.916-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21884",
-   "name": "PMP \\ Manual renewal is not longer redirecting the user to current member overview page",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-08-26T14:58:39.389-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21876",
-   "name": "SGDP Purchase Portal-Stage-Getting 2 Plan Receipt emails after purchase any plan from SGDP Purchase Portal",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Clint Tredway",
+   "who": "Conor Kamperman",
    "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-26T13:23:46.260-0700",
+   "prio": "3: Standard",
+   "created": "2026-08-27T09:22:14.476-0700",
    "resolved": "",
    "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
+   "labels": [],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21871",
-   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-26T12:12:27.183-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -1803,6 +1879,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21800",
+   "name": "MP Purchase - Membership Agreement Leads to SGDP Site",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Clint Tredway",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-24T15:20:43.804-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21605",
    "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
    "pod": "LL",
@@ -1839,7 +1939,7 @@
    "prio": "3: Standard",
    "created": "2026-08-19T12:47:49.177-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-30",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -1890,6 +1990,29 @@
    "due": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20955",
+   "name": "Duplicate Plan Charge",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Clint Tredway",
+   "reporter": "Jasmin Martin",
+   "prio": "3: Standard",
+   "created": "2026-08-11T07:09:09.925-0700",
+   "resolved": "",
+   "due": "2026-08-24",
+   "labels": [
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -1991,25 +2114,67 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21950",
-   "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
-   "pod": "PLANS",
+   "key": "PLANS-21968",
+   "name": "ACH - Purchase Declines not visible in CSP history of accounts",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
-   "reporter": "Vinita Thankur",
+   "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-08-27T09:22:14.476-0700",
+   "created": "2026-08-27T13:43:29.121-0700",
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21967",
+   "name": "Electronic consent renders with different typography from the consent controls around it",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Leopoldo Flanagan",
+   "prio": "4: Low",
+   "created": "2026-08-27T13:24:50.213-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-21966",
+   "name": "Payment widget - Card form controls lose alignment when a validation error appears",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Leopoldo Flanagan",
+   "prio": "4: Low",
+   "created": "2026-08-27T13:24:36.462-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21945",
@@ -2055,7 +2220,7 @@
   },
   {
    "key": "PLANS-21914",
-   "name": "ACH - ACH returns (Declines) Not Visible in Plan Sales Report",
+   "name": "ACH - ACH purchase returns (Declines) Not Visible in Plan Sales Report",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -4293,6 +4458,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21871",
+   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-26T12:12:27.183-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21753",
    "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
    "pod": "LL",
@@ -4701,6 +4890,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-21884",
+   "name": "PMP \\ Manual renewal is not longer redirecting the user to current member overview page",
+   "pod": "PLANS",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-08-26T14:58:39.389-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21594",
    "name": "CSP - Refund with \"Disable benefit plan\" cancels the wrong plan when two plans were purchased in one transaction",
    "pod": "PLANS",
@@ -4766,29 +4979,6 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20955",
-   "name": "Duplicate Plan Charge",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Clint Tredway",
-   "reporter": "Jasmin Martin",
-   "prio": "3: Standard",
-   "created": "2026-08-11T07:09:09.925-0700",
-   "resolved": "",
-   "due": "2026-08-24",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4974,6 +5164,54 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21907",
+   "name": "Member Portal \\ Missing admin fee discount field on renew flow for DCA members",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-26T22:45:07.916-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21876",
+   "name": "SGDP Purchase Portal-Stage-Getting 2 Plan Receipt emails after purchase any plan from SGDP Purchase Portal",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Clint Tredway",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-26T13:23:46.260-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21839",
    "name": "CSP/ACH Refund Receipt/Last four digits of the Routing number are displayed in the receipt",
    "pod": "LL",
@@ -5016,78 +5254,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21819",
-   "name": "SGDP Purchase Portal<Can not do refund for SGDP plan in CSP , getting error message-'Practice is required'",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-25T09:29:58.497-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21817",
-   "name": "Patient Charged Twice For Dental Plan, But only Shows Once in Wellfit",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Vera King",
-   "prio": "1: Urgent",
-   "created": "2026-08-25T08:51:04.487-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21800",
-   "name": "MP Purchase - Membership Agreement Leads to SGDP Site",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Clint Tredway",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-24T15:20:43.804-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5179,30 +5345,6 @@
    "created": "2026-08-21T14:07:21.589-0700",
    "resolved": "",
    "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21693",
-   "name": "Ind- Plans - Pricing for Add Member - Give Message",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Conor Kamperman",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T11:47:50.158-0700",
-   "resolved": "",
-   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5729,6 +5871,78 @@
  ],
  "bugs_closed": [
   {
+   "key": "PLANS-21693",
+   "name": "Ind- Plans - Pricing for Add Member - Give Message",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Conor Kamperman",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T11:47:50.158-0700",
+   "resolved": "2026-08-27T15:49:04.397-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21819",
+   "name": "SGDP Purchase Portal<Can not do refund for SGDP plan in CSP , getting error message-'Practice is required'",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-25T09:29:58.497-0700",
+   "resolved": "2026-08-27T14:04:10.977-0700",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21817",
+   "name": "Patient Charged Twice For Dental Plan, But only Shows Once in Wellfit",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Vera King",
+   "prio": "1: Urgent",
+   "created": "2026-08-25T08:51:04.487-0700",
+   "resolved": "2026-08-27T13:17:44.494-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21560",
    "name": "Ind Plus - Member Portal - Capacity Showing",
    "pod": "PLANS",
@@ -5899,7 +6113,7 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
@@ -21484,37 +21698,16 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-8633",
-   "name": "QA retest- When RP doesn't have a plan | RENEW PLAN button will not show for all new plan minors",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 14-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2025-08-27T08:43:44.793-0700",
-   "resolved": "2026-05-29T12:50:43.265-0700",
-   "due": "2025-10-07",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-21964",
-   "name": "Delete",
+   "key": "PLANS-21969",
+   "name": "ACH purchase Declines - no email",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Vinita Thankur"
+   "reporter": "Anuradhi Wickramasinghe"
   },
   {
    "key": "PLANS-21947",
