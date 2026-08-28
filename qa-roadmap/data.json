@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T15:15:22+00:00",
+ "generated_at": "2026-08-28T15:30:26+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -1810,6 +1810,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21984",
+   "name": "CLONE - MP Purchase - clicking Membership Agreement checkbox, Click All Item checkbox also get checked",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Clint Tredway",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-28T07:50:47.776-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21950",
    "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
    "pod": "PLANS",
@@ -1870,7 +1894,7 @@
    "prio": "2: Important",
    "created": "2026-08-26T13:34:29.357-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-28",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -2237,30 +2261,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21984",
-   "name": "CLONE - MP Purchase - clicking Membership Agreement checkbox, Click All Item checkbox also get checked",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Clint Tredway",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-28T07:50:47.776-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21981",
    "name": "PMP - Inconsistent Behaviour Between ACH and Credit Card for Deleting the Only Primary Payment Method",
    "pod": "LL",
@@ -2275,7 +2275,7 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": true,
    "lpSprint": false,
@@ -4330,30 +4330,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21822",
-   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-25T10:55:24.852-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21753",
    "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
    "pod": "LL",
@@ -4474,6 +4450,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20111",
+   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22T08:47:16.230-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21871",
    "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
    "pod": "LL",
@@ -4496,6 +4496,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21822",
+   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-25T10:55:24.852-0700",
+   "resolved": "",
+   "due": "2026-09-01",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21739",
@@ -4590,30 +4614,6 @@
    "theme": "LL-MVP",
    "triage": "Yes",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20111",
-   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22T08:47:16.230-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
