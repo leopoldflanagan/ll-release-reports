@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T18:45:22+00:00",
+ "generated_at": "2026-08-28T19:00:25+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -4301,30 +4301,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21950",
-   "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-27T09:22:14.476-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21871",
    "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
    "pod": "LL",
@@ -4395,30 +4371,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21681",
-   "name": "DCA - Core Plan Bug",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T07:52:28.551-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21609",
@@ -5073,6 +5025,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21950",
+   "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "David Jones",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-27T09:22:14.476-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21910",
    "name": "PMP - Incorrect Recurring Fee Displayed in Authorization Form When Purchasing multiple plans",
    "pod": "LL",
@@ -5302,6 +5278,30 @@
    "created": "2026-08-21T10:45:17.062-0700",
    "resolved": "",
    "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21681",
+   "name": "DCA - Core Plan Bug",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T07:52:28.551-0700",
+   "resolved": "",
+   "due": "2026-08-28",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -21730,7 +21730,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-22007",
+   "name": "Renewal Reminder emails are not sent.",
+   "status": "Ready for Development",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
