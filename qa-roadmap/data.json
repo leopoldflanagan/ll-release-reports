@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T16:30:24+00:00",
+ "generated_at": "2026-08-28T16:45:25+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -25,7 +25,7 @@
    "name": "Joint Legal Language - Add Member/Auto-Renewal",
    "status": "Idea",
    "ted": null,
-   "fv": null,
+   "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
    "tshirt": null
   },
@@ -809,7 +809,7 @@
    "name": "Joint Legal Language - Add Member/Auto-Renewal",
    "status": "Idea",
    "ted": null,
-   "fv": null,
+   "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
    "tshirt": null,
    "pod": "LL",
@@ -1582,7 +1582,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Idea",
-   "fv": null,
+   "fv": "R9.8",
    "ted": null,
    "who": "Dmytro Tymofiienko",
    "theme": "LL-Fast Follows"
