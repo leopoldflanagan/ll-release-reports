@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T15:00:25+00:00",
+ "generated_at": "2026-08-28T15:15:22+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -104,8 +104,8 @@
   {
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
-   "status": "In Development",
-   "ted": null,
+   "status": "In Testing",
+   "ted": "2026-08-28",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large"
@@ -895,8 +895,8 @@
   {
    "key": "PLANS-17114",
    "name": "Handling ACH Declines",
-   "status": "In Development",
-   "ted": null,
+   "status": "In Testing",
+   "ted": "2026-08-28",
    "fv": "R9.7",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large",
@@ -1669,9 +1669,9 @@
    "name": "Handling ACH Declines",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.7",
-   "ted": null,
+   "ted": "2026-08-28",
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
   },
@@ -2096,6 +2096,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-20956",
+   "name": "Smile Health - AD PMP - Plans in infinite loading state when \"Is Administered By\" is set to \"Careington CA\"",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-08-11T07:11:03.953-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-20955",
@@ -3210,30 +3234,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20956",
-   "name": "Smile Health - AD PMP - Plans in infinite loading state when \"Is Administered By\" is set to \"Careington CA\"",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-08-11T07:11:03.953-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-20929",
@@ -4378,30 +4378,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21739",
-   "name": "Plan Transactions - '>>' and '>' pagination not clickable.",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-22T16:53:20.420-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21609",
    "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
    "pod": "LL",
@@ -4498,78 +4474,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20111",
-   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22T08:47:16.230-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20030",
-   "name": "PLANS-20030: Member Portal: All Carington plans: Custom logos are not shown in any of the pages and not on membership card",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-21T12:45:30.750-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-15258",
-   "name": "Member portal - Treatment Summary page UI has changed / no back button/ Export button",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-04-22T07:03:17.051-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21871",
    "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
    "pod": "LL",
@@ -4592,6 +4496,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21739",
+   "name": "Plan Transactions - '>>' and '>' pagination not clickable.",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-22T16:53:20.420-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21681",
@@ -4664,6 +4592,78 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-20111",
+   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22T08:47:16.230-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20030",
+   "name": "PLANS-20030: Member Portal: All Carington plans: Custom logos are not shown in any of the pages and not on membership card",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-07-21T12:45:30.750-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-15258",
+   "name": "Member portal - Treatment Summary page UI has changed / no back button/ Export button",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-04-22T07:03:17.051-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21749",
@@ -5110,7 +5110,7 @@
    "pod": "PLANS",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
