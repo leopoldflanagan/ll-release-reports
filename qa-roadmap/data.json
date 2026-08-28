@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T16:00:23+00:00",
+ "generated_at": "2026-08-28T16:14:51+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -4256,7 +4256,7 @@
   },
   {
    "key": "PLANS-21984",
-   "name": "CLONE - MP Purchase - clicking Membership Agreement checkbox, Click All Item checkbox also get checked",
+   "name": "MP Purchase - clicking Membership Agreement checkbox, Click All Item checkbox also get checked",
    "pod": "PLANS",
    "status": "PR Created",
    "cat": "In Progress",
@@ -21756,7 +21756,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-21999",
+   "name": "Stage - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
