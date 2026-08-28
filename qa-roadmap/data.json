@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T18:00:29+00:00",
+ "generated_at": "2026-08-28T18:15:24+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -106,7 +106,7 @@
    "name": "Handling ACH Declines",
    "status": "In Testing",
    "ted": "2026-08-28",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large"
   },
@@ -897,7 +897,7 @@
    "name": "Handling ACH Declines",
    "status": "In Testing",
    "ted": "2026-08-28",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": "X-Large",
    "pod": "LL",
@@ -1670,7 +1670,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Testing",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": "2026-08-28",
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH"
@@ -1928,30 +1928,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21160",
-   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices. (Reproducible in CSP settings too)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-13T04:05:47.307-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21111",
@@ -4306,30 +4282,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21822",
-   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-25T10:55:24.852-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21753",
    "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
    "pod": "LL",
@@ -4448,6 +4400,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21822",
+   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-25T10:55:24.852-0700",
+   "resolved": "",
+   "due": "2026-09-01",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21739",
@@ -5499,6 +5475,30 @@
    "created": "2026-08-13T04:44:52.361-0700",
    "resolved": "",
    "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21160",
+   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices. (Reproducible in CSP settings too)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-13T04:05:47.307-0700",
+   "resolved": "",
+   "due": "2026-08-31",
    "labels": [
     "group1_migration",
     "product_prioritized"
