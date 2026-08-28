@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T21:45:20+00:00",
+ "generated_at": "2026-08-28T22:00:26+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -1846,30 +1846,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20956",
-   "name": "Smile Health - AD PMP - Plans in infinite loading state when \"Is Administered By\" is set to \"Careington CA\"",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-08-11T07:11:03.953-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20955",
    "name": "Duplicate Plan Charge",
    "pod": "PLANS",
@@ -1981,6 +1957,69 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22023",
+   "name": "Dashboard - 'Core plan' Count increased when Refund a plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T14:53:03.626-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22022",
+   "name": "Dashboard - When a plan purchase is refunded, the Dashboard incorrectly updates the Plans Renewal metric",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T14:48:03.311-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22019",
+   "name": "Stage - PMP - Dashboard - Plan Dashboard displays Plan Revenue with monetary values on first login",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-28T14:36:38.476-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4351,6 +4390,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21178",
+   "name": "Smile Health - Responsive menu displays behind hero image",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-13T07:11:52.332-0700",
+   "resolved": "",
+   "due": "2026-08-27",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21041",
    "name": "PMP - One smile - membership card not loaded in member account information",
    "pod": "LL",
@@ -4373,6 +4436,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-20956",
+   "name": "Smile Health - AD PMP - Plans in infinite loading state when \"Is Administered By\" is set to \"Careington CA\"",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-08-11T07:11:03.953-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21822",
@@ -4469,30 +4556,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21178",
-   "name": "Smile Health - Responsive menu displays behind hero image",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-13T07:11:52.332-0700",
-   "resolved": "",
-   "due": "2026-08-27",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21114",
@@ -21806,11 +21869,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-22019",
-   "name": "Stage - PMP - Dashboard - Plan Dashboard displays Plan Revenue with monetary values on first login",
+   "key": "PLANS-22024",
+   "name": "Dashboard - Goal Increased when refund",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo"
+   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
