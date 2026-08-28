@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T16:15:23+00:00",
+ "generated_at": "2026-08-28T16:30:24+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -2209,6 +2209,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21999",
+   "name": "Stage - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-28T09:13:36.595-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -21756,15 +21777,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-21999",
-   "name": "Stage - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 24–30",
