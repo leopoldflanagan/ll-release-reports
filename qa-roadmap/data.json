@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T21:30:23+00:00",
+ "generated_at": "2026-08-28T21:45:20+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -1725,30 +1725,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-21878",
-   "name": "PMP \\ DCA member with ACH payment type is unable to manually renew their plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-26T13:34:29.357-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-21605",
    "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
@@ -4249,6 +4225,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21878",
+   "name": "PMP \\ DCA member with ACH payment type is unable to manually renew their plan",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-26T13:34:29.357-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -21804,7 +21804,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-22019",
+   "name": "Stage - PMP - Dashboard - Plan Dashboard displays Plan Revenue with monetary values on first login",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 24–30",
