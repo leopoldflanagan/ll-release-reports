@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T20:17:45+00:00",
+ "generated_at": "2026-08-28T20:30:24+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -1726,30 +1726,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-21919",
-   "name": "Patient is unable to updated her email in the member portal",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Vera King",
-   "prio": "2: Important",
-   "created": "2026-08-27T08:18:14.641-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21878",
    "name": "PMP \\ DCA member with ACH payment type is unable to manually renew their plan",
    "pod": "LL",
@@ -2029,6 +2005,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22012",
+   "name": "DSO Dashboard| Dashboard doesn't change when switching from multi practice view to single practice or selecting practice",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 20-26",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-28T13:20:25.921-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4147,6 +4144,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21919",
+   "name": "Patient is unable to updated her email in the member portal",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Clint Tredway",
+   "reporter": "Vera King",
+   "prio": "2: Important",
+   "created": "2026-08-27T08:18:14.641-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21884",
    "name": "PMP \\ Manual renewal is not longer redirecting the user to current member overview page",
    "pod": "PLANS",
@@ -4248,7 +4269,7 @@
    "pod": "PLANS",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "sprint": "Plans-Sprint 20-26",
    "who": "Hunter Redhead",
    "reporter": "Mireya Alvarez",
@@ -5303,30 +5324,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21559",
-   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-19T07:37:51.636-0700",
-   "resolved": "",
-   "due": "2026-08-19",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21556",
    "name": "Ind Plus - Member Portal - Add Member Flow",
    "pod": "PLANS",
@@ -5769,6 +5766,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21559",
+   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Mariano Hernández",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-19T07:37:51.636-0700",
+   "resolved": "2026-08-28T13:26:43.475-0700",
+   "due": "2026-08-19",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21876",
    "name": "SGDP Purchase Portal-Stage-Getting 2 Plan Receipt emails after purchase any plan from SGDP Purchase Portal",
