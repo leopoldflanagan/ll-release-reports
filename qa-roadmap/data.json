@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T14:30:20+00:00",
+ "generated_at": "2026-08-28T14:45:24+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -2024,6 +2024,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21160",
+   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices. (Reproducible in CSP settings too)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-13T04:05:47.307-0700",
+   "resolved": "",
+   "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21111",
@@ -5473,30 +5497,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-13T04:44:52.361-0700",
-   "resolved": "",
-   "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21160",
-   "name": "Plan Details PDF- Ad hoc plans - Purchased Perio , Displays Prophy Plan Fees under prices. (Reproducible in CSP settings too)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-13T04:05:47.307-0700",
    "resolved": "",
    "due": "2026-08-25",
    "labels": [
