@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T19:45:23+00:00",
+ "generated_at": "2026-08-28T20:00:25+00:00",
  "today": "2026-08-28",
  "features": [
   {
@@ -4291,30 +4291,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21871",
-   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-26T12:12:27.183-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21822",
    "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
    "pod": "LL",
@@ -4409,30 +4385,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21549",
-   "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-19T06:46:14.300-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21178",
@@ -5087,6 +5039,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21871",
+   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-26T12:12:27.183-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21839",
    "name": "CSP/ACH Refund Receipt/Last four digits of the Routing number are displayed in the receipt",
    "pod": "LL",
@@ -5369,6 +5345,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21549",
+   "name": "PMP - LL - Blocker - getting an Invalid SMS code error when upgrade plan (CC, ACH )",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-19T06:46:14.300-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
