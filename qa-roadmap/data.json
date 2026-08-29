@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T13:00:25+00:00",
+ "generated_at": "2026-08-29T13:15:19+00:00",
  "today": "2026-08-29",
  "features": [
   {
@@ -4147,30 +4147,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21878",
-   "name": "PMP \\ DCA member with ACH payment type is unable to manually renew their plan",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-26T13:34:29.357-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -4193,30 +4169,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21831",
-   "name": "PMP - error 400 after purchasing additional member plan with ACH",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-25T14:39:16.064-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21822",
@@ -4358,6 +4310,54 @@
    ],
    "theme": "",
    "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21878",
+   "name": "PMP \\ DCA member with ACH payment type is unable to manually renew their plan",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-26T13:34:29.357-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21831",
+   "name": "PMP - error 400 after purchasing additional member plan with ACH",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-25T14:39:16.064-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
