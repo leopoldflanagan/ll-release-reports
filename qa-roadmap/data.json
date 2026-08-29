@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T00:15:24+00:00",
+ "generated_at": "2026-08-29T00:30:23+00:00",
  "today": "2026-08-29",
  "features": [
   {
@@ -4219,6 +4219,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21822",
+   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-25T10:55:24.852-0700",
+   "resolved": "",
+   "due": "2026-09-01",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-21753",
    "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
    "pod": "LL",
@@ -4337,30 +4361,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-21822",
-   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-25T10:55:24.852-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-21739",
