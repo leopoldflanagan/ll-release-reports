@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-30T10:30:22+00:00",
+ "generated_at": "2026-08-30T10:45:23+00:00",
  "today": "2026-08-30",
  "features": [
   {
@@ -21874,6 +21874,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22027",
+   "name": "DCA - ACH Auto Renew failed (RejectionReason :Could not convert string to integer: Approved. Path 'status', line 1, position 247.)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-22025",
    "name": "Single Practice| Members belonging to practices show on search",
