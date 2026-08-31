@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T11:45:23+00:00",
+ "generated_at": "2026-08-31T12:00:29+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -21874,6 +21874,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22097",
+   "name": "member-activity-log consumer dead-letters events when OperatorName exceeds 50 chars (MemberActivityLogs.OperatorName too narrow)",
+   "status": "Backlog",
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel"
+  },
   {
    "key": "PLANS-22025",
    "name": "Single Practice| Members belonging to practices show on search",
