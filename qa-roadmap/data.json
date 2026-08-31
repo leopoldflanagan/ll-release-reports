@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T16:49:29+00:00",
+ "generated_at": "2026-08-31T17:00:28+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -834,7 +834,7 @@
    "key": "DYN-668",
    "name": "Plans Journey - ACH Email Updates",
    "status": "In Testing",
-   "ted": "2026-09-04",
+   "ted": "2026-09-09",
    "fv": "R9.7",
    "who": "Unassigned",
    "tshirt": "Moderate",
@@ -1576,7 +1576,7 @@
    "proj": "DYN",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-09-04",
+   "ted": "2026-09-09",
    "who": "Unassigned",
    "theme": "ACH"
   },
