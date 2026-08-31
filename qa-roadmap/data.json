@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T20:45:24+00:00",
+ "generated_at": "2026-08-31T20:49:23+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -3927,30 +3927,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21999",
-   "name": "Stage - DCA - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Conor Kamperman",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-28T09:13:36.595-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -3997,6 +3973,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21999",
+   "name": "Stage - DCA - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Conor Kamperman",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-28T09:13:36.595-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21982",
