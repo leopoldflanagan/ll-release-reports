@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T17:15:26+00:00",
+ "generated_at": "2026-08-31T17:24:59+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -21997,8 +21997,8 @@
   {
    "key": "PLANS-22125",
    "name": "PMP - Migrated users - Plan is not auto renewed with ACH or CC",
-   "status": "Ready for Development",
-   "who": "Unassigned",
+   "status": "In Stage",
+   "who": "Juan Rodrigo Mejia Rivera",
    "reporter": "Juan Rodrigo Mejia Rivera"
   },
   {
