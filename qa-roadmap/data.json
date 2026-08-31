@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T17:30:33+00:00",
+ "generated_at": "2026-08-31T17:36:34+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -835,7 +835,7 @@
    "name": "Plans Journey - ACH Email Updates",
    "status": "In Testing",
    "ted": "2026-09-09",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -927,17 +927,6 @@
    "who": "Unassigned",
    "tshirt": null,
    "pod": "PLAT",
-   "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "WEL-5833",
-   "name": "ACH Transaction Details Modal",
-   "status": "In Testing",
-   "ted": "2026-09-09",
-   "fv": "R9.7",
-   "who": "Daniel Marineni",
-   "tshirt": "Large",
-   "pod": "WEL",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -1575,7 +1564,7 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Testing",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": "2026-09-09",
    "who": "Unassigned",
    "theme": "ACH"
@@ -1669,17 +1658,6 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "WEL-5833",
-   "name": "ACH Transaction Details Modal",
-   "pod": "WEL",
-   "proj": "WEL",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-09-09",
-   "who": "Daniel Marineni",
-   "theme": "ACH-Fast Follows"
-  },
-  {
    "key": "WEL-6024",
    "name": "WellfitPay Payment Widget Enhancements",
    "pod": "WEL",
@@ -1733,7 +1711,7 @@
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
+   "who": "Conor Kamperman",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
    "created": "2026-08-28T09:13:36.595-0700",
