@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T16:00:31+00:00",
+ "generated_at": "2026-08-31T16:15:25+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -1726,6 +1726,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-21999",
+   "name": "Stage - DCA - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-28T09:13:36.595-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21916",
    "name": "ACH & CC Refunds Not Visible in Member > Transactions in Member Portal",
    "pod": "LL",
@@ -1983,30 +2007,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21999",
-   "name": "Stage - DCA - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-28T09:13:36.595-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21981",
@@ -3996,7 +3996,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": null,
    "sprint": null,
    "who": "Dima Shtympel",
    "reporter": "Dima Shtympel",
@@ -21995,11 +21995,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-22117",
-   "name": "ACH - Refund Declined - Status not updated",
+   "key": "PLANS-22118",
+   "name": "Stage - PMP - Dashboard - Previously viewed report is displayed after switching Organization and Practice",
    "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo"
   },
   {
    "key": "PLANS-22114",
