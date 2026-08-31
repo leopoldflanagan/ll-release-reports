@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T20:15:09+00:00",
+ "generated_at": "2026-08-31T20:28:48+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -4956,30 +4956,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21878",
-   "name": "PMP \\ DCA member with ACH payment type is unable to manually renew their plan",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-26T13:34:29.357-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21871",
    "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
    "pod": "LL",
@@ -5118,30 +5094,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21692",
-   "name": "PMP \\ Membership status of DCA migrated members are getting updated from Active to Delinquent after updating their info",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-21T11:19:08.626-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5797,6 +5749,54 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21878",
+   "name": "PMP \\ DCA member with ACH payment type is unable to manually renew their plan",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-26T13:34:29.357-0700",
+   "resolved": "2026-08-31T13:25:30.000-0700",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21692",
+   "name": "PMP \\ Membership status of DCA migrated members are getting updated from Active to Delinquent after updating their info",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-21T11:19:08.626-0700",
+   "resolved": "2026-08-31T13:15:10.395-0700",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21173",
    "name": "Plan details - duplicate text - 'This is NOT insurance and is not intended to replace health insurance'",
