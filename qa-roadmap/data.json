@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T07:30:22+00:00",
+ "generated_at": "2026-08-31T07:45:22+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -28,15 +28,6 @@
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-18909",
-   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
-   "tshirt": "Small"
   },
   {
    "key": "PLANS-14180",
@@ -99,6 +90,15 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
+   "tshirt": "Small"
+  },
+  {
+   "key": "PLANS-18909",
+   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
+   "status": "Epics & Stories",
+   "ted": "2026-09-08",
+   "fv": "R9.8",
+   "who": "Valentyna Tenus",
    "tshirt": "Small"
   },
   {
@@ -647,9 +647,9 @@
    "key": "PLANS-18909",
    "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
    "status": "Epics & Stories",
-   "ted": null,
+   "ted": "2026-09-08",
    "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
+   "who": "Valentyna Tenus",
    "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1389,8 +1389,8 @@
    "proj": "PLANS",
    "status": "Epics & Stories",
    "fv": "R9.8",
-   "ted": null,
-   "who": "Dmytro Tymofiienko",
+   "ted": "2026-09-08",
+   "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
   {
