@@ -1,16 +1,7 @@
 {
- "generated_at": "2026-08-31T20:30:26+00:00",
+ "generated_at": "2026-08-31T20:39:38+00:00",
  "today": "2026-08-31",
  "features": [
-  {
-   "key": "PLANS-20836",
-   "name": "Legal Language Intake for ACH",
-   "status": "In Testing",
-   "ted": "2026-08-31",
-   "fv": "R9.7",
-   "who": "Denys Kernychnyi",
-   "tshirt": null
-  },
   {
    "key": "PLANS-22088",
    "name": "Promo codes enhancement (Unavailable to New Sales & Expired Plans Renewals)",
@@ -64,15 +55,6 @@
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "PLANS-15748",
-   "name": "Ach Refunds Inside of Csp",
-   "status": "In Testing",
-   "ted": "2026-08-31",
-   "fv": "R9.7",
-   "who": "Mykyta Moroz",
-   "tshirt": "Huge"
   },
   {
    "key": "PLANS-15226",
@@ -842,28 +824,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-15748",
-   "name": "Ach Refunds Inside of Csp",
-   "status": "In Testing",
-   "ted": "2026-08-31",
-   "fv": "R9.7",
-   "who": "Mykyta Moroz",
-   "tshirt": "Huge",
-   "pod": "LL",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLANS-20836",
-   "name": "Legal Language Intake for ACH",
-   "status": "In Testing",
-   "ted": "2026-08-31",
-   "fv": "R9.7",
-   "who": "Denys Kernychnyi",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": "ACH"
-  },
-  {
    "key": "DYN-1030",
    "name": "Ach Emails WFP Non Plans",
    "status": "Blocked",
@@ -1556,28 +1516,6 @@
    "fv": null,
    "ted": "2026-08-31",
    "who": "Lloyd Tokerud",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLANS-15748",
-   "name": "Ach Refunds Inside of Csp",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-31",
-   "who": "Mykyta Moroz",
-   "theme": "ACH"
-  },
-  {
-   "key": "PLANS-20836",
-   "name": "Legal Language Intake for ACH",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-31",
-   "who": "Denys Kernychnyi",
    "theme": "ACH"
   },
   {
