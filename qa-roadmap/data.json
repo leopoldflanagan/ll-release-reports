@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T14:39:03+00:00",
+ "generated_at": "2026-08-31T14:45:28+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -55,6 +55,15 @@
    "fv": "R9.7",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-14421",
+   "name": "Provider Search in Member Portal",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Ivan Yarymovych",
+   "tshirt": "Moderate"
   },
   {
    "key": "PLANS-15748",
@@ -126,15 +135,6 @@
    "ted": "2026-09-09",
    "fv": "R9.8",
    "who": "Vasyl Skochko",
-   "tshirt": "Moderate"
-  },
-  {
-   "key": "PLANS-14421",
-   "name": "Provider Search in Member Portal",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Vic Du Plessis",
    "tshirt": "Moderate"
   },
   {
@@ -407,7 +407,7 @@
    "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.8",
-   "who": "Vic Du Plessis",
+   "who": "Ivan Yarymovych",
    "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1148,7 +1148,7 @@
    "status": "Epics & Stories",
    "fv": "R9.8",
    "ted": null,
-   "who": "Vic Du Plessis",
+   "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
   {
@@ -4171,7 +4171,7 @@
    "prio": "3: Standard",
    "created": "2026-08-19T12:47:49.177-0700",
    "resolved": "",
-   "due": "2026-08-30",
+   "due": "2026-09-02",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -21954,7 +21954,7 @@
  "nopod": [
   {
    "key": "PLANS-22108",
-   "name": "Dashboard issue",
+   "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
