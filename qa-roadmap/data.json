@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T05:00:28+00:00",
+ "generated_at": "2026-08-31T05:15:24+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -4192,30 +4192,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21822",
-   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-25T10:55:24.852-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21753",
    "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
    "pod": "LL",
@@ -4288,30 +4264,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21041",
-   "name": "PMP - One smile - membership card not loaded in member account information",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-11T16:04:22.858-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-20956",
    "name": "Smile Health - AD PMP - Plans in infinite loading state when \"Is Administered By\" is set to \"Careington CA\"",
    "pod": "PLANS",
@@ -4382,6 +4334,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21822",
+   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-25T10:55:24.852-0700",
+   "resolved": "",
+   "due": "2026-09-01",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21739",
@@ -4478,6 +4454,30 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21041",
+   "name": "PMP - One smile - membership card not loaded in member account information",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11T16:04:22.858-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20925",
