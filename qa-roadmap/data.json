@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T21:15:20+00:00",
+ "generated_at": "2026-08-31T21:25:06+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -813,17 +813,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PAY-3751",
-   "name": "ACH Reporting",
-   "status": "In Testing",
-   "ted": "2026-08-31",
-   "fv": null,
-   "who": "Lloyd Tokerud",
-   "tshirt": "X-Large",
-   "pod": "EDW",
-   "theme": "ACH"
-  },
-  {
    "key": "DYN-1030",
    "name": "Ach Emails WFP Non Plans",
    "status": "Blocked",
@@ -1508,17 +1497,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PAY-3751",
-   "name": "ACH Reporting",
-   "pod": "EDW",
-   "proj": "PAY",
-   "status": "In Testing",
-   "fv": null,
-   "ted": "2026-08-31",
-   "who": "Lloyd Tokerud",
-   "theme": "ACH"
-  },
-  {
    "key": "DYN-1030",
    "name": "Ach Emails WFP Non Plans",
    "pod": "DYN",
@@ -1869,7 +1847,8 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "group2_migration"
+    "group2_migration",
+    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
