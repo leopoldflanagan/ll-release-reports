@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T18:15:23+00:00",
+ "generated_at": "2026-08-31T18:19:17+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -4864,30 +4864,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21945",
-   "name": "ACH - Refund Status showing as 'Approved' in PMP",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-27T08:43:30.135-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21919",
    "name": "Patient is unable to updated her email in the member portal",
    "pod": "PLANS",
@@ -5876,6 +5852,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21945",
+   "name": "ACH - Refund Status showing as 'Approved' in PMP",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-27T08:43:30.135-0700",
+   "resolved": "2026-08-31T11:17:56.890-0700",
+   "due": "2026-09-01",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
   {
    "key": "PLANS-21907",
    "name": "Member Portal \\ Missing admin fee discount field on renew flow for DCA members",
