@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T22:15:19+00:00",
+ "generated_at": "2026-08-31T22:26:32+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -315,17 +315,6 @@
    "who": "Chris Rubio",
    "tshirt": "Large",
    "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17468",
-   "name": "Open Network Dashboard Upgrades",
-   "status": "In Testing",
-   "ted": "2026-08-27",
-   "fv": "R9.7",
-   "who": "Harisha Pallacheruvu",
-   "tshirt": "Large",
-   "pod": "EDW",
    "theme": "LL-MVP"
   },
   {
@@ -999,17 +988,6 @@
    "fv": null,
    "ted": null,
    "who": "Chris Rubio",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17468",
-   "name": "Open Network Dashboard Upgrades",
-   "pod": "EDW",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-27",
-   "who": "Harisha Pallacheruvu",
    "theme": "LL-MVP"
   },
   {
