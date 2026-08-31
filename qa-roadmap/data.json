@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T17:24:59+00:00",
+ "generated_at": "2026-08-31T17:30:33+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -4841,30 +4841,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21984",
-   "name": "MP Purchase - clicking Membership Agreement checkbox, Click All Item checkbox also get checked",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-28T07:50:47.776-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21950",
    "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
    "pod": "PLANS",
@@ -5949,6 +5925,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21984",
+   "name": "MP Purchase - clicking Membership Agreement checkbox, Click All Item checkbox also get checked",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-28T07:50:47.776-0700",
+   "resolved": "2026-08-31T10:29:48.931-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21556",
    "name": "Ind Plus - Member Portal - Add Member Flow",
