@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T12:30:26+00:00",
+ "generated_at": "2026-08-31T12:45:24+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -1767,6 +1767,30 @@
    "theme": "",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21692",
+   "name": "PMP \\ Membership status of DCA migrated members are getting updated from Active to Delinquent after updating their info",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-08-21T11:19:08.626-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5062,7 +5086,7 @@
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
-   "fv": "R9.8",
+   "fv": "R9.7",
    "sprint": null,
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
@@ -5267,30 +5291,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21692",
-   "name": "PMP \\ Membership status of DCA migrated members are getting updated from Active to Delinquent after updating their info",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-21T11:19:08.626-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
