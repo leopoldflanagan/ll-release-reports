@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T16:36:58+00:00",
+ "generated_at": "2026-08-31T16:45:21+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -704,7 +704,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
-   "who": "David Jones",
+   "who": "Rostyslav Masniuk",
    "tshirt": "Large",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -1445,7 +1445,7 @@
    "status": "Architecture",
    "fv": "R9.9",
    "ted": null,
-   "who": "David Jones",
+   "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
   {
@@ -5081,30 +5081,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21831",
-   "name": "PMP - error 400 after purchasing additional member plan with ACH",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-25T14:39:16.064-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21767",
    "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
    "pod": "LL",
@@ -5997,6 +5973,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21831",
+   "name": "PMP - error 400 after purchasing additional member plan with ACH",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-25T14:39:16.064-0700",
+   "resolved": "2026-08-31T09:38:03.741-0700",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22025",
    "name": "Single Practice| Members belonging to practices show on search",
