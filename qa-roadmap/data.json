@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T17:49:30+00:00",
+ "generated_at": "2026-08-31T18:00:29+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -1963,27 +1963,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22127",
-   "name": "Dashboard - \"Last Updated\" Date/Time Not Updated After STAGE Refresh",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-31T10:45:33.399-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22008",
    "name": "PMP - DCA - Plan expiring today shows as Expired in Search Patient page, but remains Active in Plan Overview as expected",
    "pod": "PLANS",
@@ -3847,6 +3826,27 @@
    "linkedLP": false
   },
   {
+   "key": "EDW-2320",
+   "name": "Dashboard - \"Last Updated\" Date/Time Not Updated After STAGE Refresh",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-31T10:45:33.399-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "DYN-1472",
    "name": "CRM email buttons looks different for sgdp ADHA /KIDSplans",
    "pod": "PLANS",
@@ -3990,30 +3990,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21999",
-   "name": "Stage - DCA - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Conor Kamperman",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-28T09:13:36.595-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -4080,6 +4056,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21999",
+   "name": "Stage - DCA - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Conor Kamperman",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-28T09:13:36.595-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
