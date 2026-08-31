@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T10:45:24+00:00",
+ "generated_at": "2026-08-31T11:00:28+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -2148,12 +2148,12 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-27T08:43:30.135-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-01",
    "labels": [],
    "theme": "ACH",
    "triage": "",
