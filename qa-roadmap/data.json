@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T23:15:23+00:00",
+ "generated_at": "2026-08-31T23:24:37+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -4874,30 +4874,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21871",
-   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-26T12:12:27.183-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21767",
    "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
    "pod": "LL",
@@ -5643,6 +5619,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21871",
+   "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-26T12:12:27.183-0700",
+   "resolved": "2026-08-31T16:23:13.654-0700",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21839",
    "name": "CSP/ACH Refund Receipt/Last four digits of the Routing number are displayed in the receipt",
@@ -21955,6 +21955,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22148",
+   "name": "CSP - error in the Confirm plan updates modal",
+   "status": "Ready for Development",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera"
+  },
   {
    "key": "PLANS-22146",
    "name": "Provider Portal-CrosBy practice-Export Payment receipt is giving 500 sever error",
