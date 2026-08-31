@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T12:00:29+00:00",
+ "generated_at": "2026-08-31T12:15:23+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -2306,30 +2306,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21736",
-   "name": "QA RETEST - ACH Refund - Full/ Partial refunded ACH transaction that is more than 60 calendar days old continues to display \"Refunded\" instead of \"Past Refund Window\".",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-22T16:39:23.599-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21733",
    "name": "QA RETEST - ACH Refund - Transaction Older Than 60 Calendar Days Does Not Display \"Past Refund Window\" and Allows Refund from CSP",
    "pod": "LL",
@@ -4048,6 +4024,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22097",
+   "name": "member-activity-log consumer dead-letters events when OperatorName exceeds 50 chars (MemberActivityLogs.OperatorName too narrow)",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-31T04:46:38.889-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21984",
    "name": "MP Purchase - clicking Membership Agreement checkbox, Click All Item checkbox also get checked",
    "pod": "PLANS",
@@ -4190,6 +4187,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21736",
+   "name": "QA RETEST - ACH Refund - Full/ Partial refunded ACH transaction that is more than 60 calendar days old continues to display \"Refunded\" instead of \"Past Refund Window\".",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7.1",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-22T16:39:23.599-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21585",
@@ -21874,13 +21895,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22097",
-   "name": "member-activity-log consumer dead-letters events when OperatorName exceeds 50 chars (MemberActivityLogs.OperatorName too narrow)",
-   "status": "Backlog",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel"
-  },
   {
    "key": "PLANS-22025",
    "name": "Single Practice| Members belonging to practices show on search",
