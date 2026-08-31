@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T16:30:26+00:00",
+ "generated_at": "2026-08-31T16:36:58+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -1897,7 +1897,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "sprint": "LL-Sprint 21-26",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
@@ -4087,30 +4087,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21984",
-   "name": "MP Purchase - clicking Membership Agreement checkbox, Click All Item checkbox also get checked",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-28T07:50:47.776-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21982",
    "name": "The Print button for additional benefit PDF doesn’t include the group code - Related to PLANS-21705",
    "pod": "PLANS",
@@ -4865,6 +4841,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21984",
+   "name": "MP Purchase - clicking Membership Agreement checkbox, Click All Item checkbox also get checked",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-28T07:50:47.776-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21950",
    "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
    "pod": "PLANS",
@@ -5587,7 +5587,7 @@
    "status": "WAITING REVIEW",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -5595,11 +5595,11 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-22024",
