@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T19:00:32+00:00",
+ "generated_at": "2026-08-31T19:11:40+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -21992,6 +21992,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22138",
+   "name": "Member Portal-Stage- Custom logos are not shown in membership card print",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-22132",
    "name": "PMP - Migrated Members - Cancelled Plan Displays as \"Expired\" in Plan Overview",
