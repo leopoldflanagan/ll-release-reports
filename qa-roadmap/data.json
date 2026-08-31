@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T12:15:23+00:00",
+ "generated_at": "2026-08-31T12:24:44+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -4194,7 +4194,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.7.1",
+   "fv": null,
    "sprint": "LL - Low Prior Bugs",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
@@ -4379,6 +4379,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21681",
+   "name": "DCA - Core Plan Bug",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T07:52:28.551-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21609",
@@ -5017,7 +5041,7 @@
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
-   "fv": "R9.8",
+   "fv": null,
    "sprint": "LL - Low Prior Bugs",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
@@ -5286,30 +5310,6 @@
    "created": "2026-08-21T10:45:17.062-0700",
    "resolved": "",
    "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21681",
-   "name": "DCA - Core Plan Bug",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T07:52:28.551-0700",
-   "resolved": "",
-   "due": "2026-08-28",
    "labels": [
     "group1_migration",
     "product_prioritized"
