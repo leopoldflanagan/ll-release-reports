@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T15:15:54+00:00",
+ "generated_at": "2026-08-31T15:30:25+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -1880,7 +1880,7 @@
    "prio": "2: Important",
    "created": "2026-07-22T08:47:16.230-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-31",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -1961,6 +1961,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22112",
+   "name": "UI - User with permission to DSO granted is no seeing Organization Dashboard",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-31T08:22:31.138-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22108",
    "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
    "pod": "LL",
@@ -2007,7 +2028,7 @@
   },
   {
    "key": "PLANS-21999",
-   "name": "Stage - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
+   "name": "Stage - DCA - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
@@ -3946,8 +3967,8 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
    "reporter": "Luis Moreno Soberón",
    "prio": "1: Urgent",
    "created": "2026-08-26T22:32:49.719-0700",
