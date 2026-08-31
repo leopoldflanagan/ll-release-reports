@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T19:15:19+00:00",
+ "generated_at": "2026-08-31T19:21:45+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -1941,8 +1941,8 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22135",
-   "name": "Dashboard - ACH - Renewals Not Captured in Dashboard",
+   "key": "PLANS-22140",
+   "name": "Plan Details PDF in PMP and CSP - Showing only Prophy plan prices (Perio/ Child prices are not visible)",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -1951,7 +1951,7 @@
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-08-31T11:49:24.329-0700",
+   "created": "2026-08-31T12:13:06.814-0700",
    "resolved": "",
    "due": "",
    "labels": [],
@@ -5384,6 +5384,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22135",
+   "name": "Dashboard - ACH - Renewals Not Captured in Dashboard",
+   "pod": "LL",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-31T11:49:24.329-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -22016,13 +22037,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22140",
-   "name": "Plan Details PDF - Ad hoc - Showing only Prophy plan prices (Perio/ Child prices are not visible)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-22138",
    "name": "Member Portal-Stage- Custom logos are not shown in membership card print",
