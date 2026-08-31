@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T13:17:13+00:00",
+ "generated_at": "2026-08-31T13:30:25+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -75,6 +75,15 @@
    "tshirt": "Small"
   },
   {
+   "key": "PLANS-18428",
+   "name": "PMP - Primary Contact Update for Minor Migrated Members",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Petro Yarish",
+   "tshirt": "Small"
+  },
+  {
    "key": "PLANS-17586",
    "name": "Member Portal Support for Subscription Payments",
    "status": "On Hold",
@@ -118,15 +127,6 @@
    "fv": "R9.8",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "PLANS-18428",
-   "name": "PMP - Primary Contact Update for Minor Migrated Members",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Vic Du Plessis",
-   "tshirt": "Small"
   },
   {
    "key": "PLANS-14421",
@@ -591,10 +591,10 @@
   {
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.8",
-   "who": "Vic Du Plessis",
+   "who": "Petro Yarish",
    "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1332,10 +1332,10 @@
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "fv": "R9.8",
    "ted": null,
-   "who": "Vic Du Plessis",
+   "who": "Petro Yarish",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1786,7 +1786,7 @@
    "prio": "2: Important",
    "created": "2026-08-21T11:19:08.626-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-08-31",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -1883,6 +1883,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20111",
+   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22T08:47:16.230-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -2145,30 +2169,6 @@
    ],
    "theme": "",
    "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21904",
-   "name": "Member Portal \\ Broken plan cards on renew flow for DCA members (Showing SGDP plans for DCA members )",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-26T22:32:49.719-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3964,6 +3964,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21904",
+   "name": "Member Portal \\ Broken plan cards on renew flow for DCA members (Showing SGDP plans for DCA members )",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-08-26T22:32:49.719-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21686",
    "name": "Member Portal and PMP<Stage<Primary Member can not ADD Member(minor or Adult) if having only one Credit Card account, it is working if member have only ACH bank account",
    "pod": "LL",
@@ -4204,6 +4228,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-21681",
+   "name": "DCA - Core Plan Bug",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 20-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T07:52:28.551-0700",
+   "resolved": "",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21585",
    "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
    "pod": "PLANS",
@@ -4370,30 +4418,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21681",
-   "name": "DCA - Core Plan Bug",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T07:52:28.551-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21609",
@@ -5496,30 +5520,6 @@
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-07-29T17:05:42.601-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20111",
-   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22T08:47:16.230-0700",
    "resolved": "",
    "due": "",
    "labels": [
