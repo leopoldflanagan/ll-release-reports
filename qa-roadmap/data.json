@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T09:00:40+00:00",
+ "generated_at": "2026-08-31T09:15:23+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -114,7 +114,7 @@
    "key": "PLANS-18413",
    "name": "Marketing Details",
    "status": "In Development",
-   "ted": "2026-08-24",
+   "ted": "2026-09-09",
    "fv": "R9.8",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate"
@@ -581,7 +581,7 @@
    "key": "PLANS-18413",
    "name": "Marketing Details",
    "status": "In Development",
-   "ted": "2026-08-24",
+   "ted": "2026-09-09",
    "fv": "R9.8",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate",
@@ -1323,7 +1323,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": "2026-08-24",
+   "ted": "2026-09-09",
    "who": "Vasyl Skochko",
    "theme": "LL-Fast Follows"
   },
