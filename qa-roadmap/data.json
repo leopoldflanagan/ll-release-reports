@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T14:45:28+00:00",
+ "generated_at": "2026-08-31T14:49:27+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -1957,6 +1957,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22108",
+   "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-31T07:38:26.909-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4063,30 +4084,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21982",
-   "name": "The Print button for additional benefit PDF doesn’t include the group code - Related to PLANS-21705",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Sushma Bankar",
-   "prio": "3: Standard",
-   "created": "2026-08-28T07:23:48.127-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -4109,30 +4106,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21753",
-   "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-24T06:36:46.592-0700",
-   "resolved": "",
-   "due": "2026-09-04",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21736",
@@ -4177,6 +4150,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21982",
+   "name": "The Print button for additional benefit PDF doesn’t include the group code - Related to PLANS-21705",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 20-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Sushma Bankar",
+   "prio": "3: Standard",
+   "created": "2026-08-28T07:23:48.127-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4301,6 +4298,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21753",
+   "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-24T06:36:46.592-0700",
+   "resolved": "",
+   "due": "2026-09-04",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21739",
@@ -21951,15 +21972,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-22108",
-   "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Aug 31–Sep 6",
