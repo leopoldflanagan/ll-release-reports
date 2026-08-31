@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T23:24:37+00:00",
+ "generated_at": "2026-08-31T23:30:22+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -21957,7 +21957,7 @@
  "nopod": [
   {
    "key": "PLANS-22148",
-   "name": "CSP - error in the Confirm plan updates modal",
+   "name": "CSP - Preprod- Cannot update plan dates or add a member to a plan",
    "status": "Ready for Development",
    "who": "Unassigned",
    "reporter": "Juan Rodrigo Mejia Rivera"
