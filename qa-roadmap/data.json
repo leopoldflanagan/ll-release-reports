@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T18:45:24+00:00",
+ "generated_at": "2026-08-31T18:49:16+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -340,17 +340,6 @@
    "name": "Open Network Dashboard Upgrades",
    "status": "In Testing",
    "ted": "2026-08-27",
-   "fv": "R9.7",
-   "who": "Harisha Pallacheruvu",
-   "tshirt": "Large",
-   "pod": "EDW",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17588",
-   "name": "DSO Dashboard",
-   "status": "In Testing",
-   "ted": "2026-08-28",
    "fv": "R9.7",
    "who": "Harisha Pallacheruvu",
    "tshirt": "Large",
@@ -1071,17 +1060,6 @@
    "status": "In Testing",
    "fv": "R9.7",
    "ted": "2026-08-27",
-   "who": "Harisha Pallacheruvu",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17588",
-   "name": "DSO Dashboard",
-   "pod": "EDW",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-28",
    "who": "Harisha Pallacheruvu",
    "theme": "LL-MVP"
   },
