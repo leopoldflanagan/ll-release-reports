@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T08:45:21+00:00",
+ "generated_at": "2026-08-31T09:00:40+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -1750,54 +1750,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21435",
-   "name": "PMP| ACH| Entered Data is not preserved When Switching Between Payment Tiles",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-17T15:15:17.841-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-21247",
-   "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-14T02:34:50.968-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21015",
    "name": "Member Portal/Benefit Status for used benefits is not displayed in Benefit Summaries",
    "pod": "LL",
@@ -2738,6 +2690,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-21435",
+   "name": "PMP| ACH| Entered Data is not preserved When Switching Between Payment Tiles",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-17T15:15:17.841-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-21295",
    "name": "Stage - Member Portal - Treatment Summary dates are displayed without proper spacing",
    "pod": "LL",
@@ -2804,6 +2780,30 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-21247",
+   "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-14T02:34:50.968-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
