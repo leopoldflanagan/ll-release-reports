@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T08:00:29+00:00",
+ "generated_at": "2026-08-31T08:15:19+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -1792,30 +1792,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-21111",
-   "name": "Stage - Member Portal - Overview - Other adult's savings contribution is not displayed",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Petro Yarish",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-12T12:02:55.729-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -5779,6 +5755,30 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-21111",
+   "name": "Stage - Member Portal - Overview - Other adult's savings contribution is not displayed",
+   "pod": "LL",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Petro Yarish",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-12T12:02:55.729-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
