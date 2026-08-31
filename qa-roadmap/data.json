@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-31T18:00:29+00:00",
+ "generated_at": "2026-08-31T18:15:23+00:00",
  "today": "2026-08-31",
  "features": [
   {
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Testing",
-   "ted": "2026-08-27",
+   "ted": "2026-08-31",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null
@@ -69,7 +69,7 @@
    "key": "PLANS-15748",
    "name": "Ach Refunds Inside of Csp",
    "status": "In Testing",
-   "ted": "2026-08-26",
+   "ted": "2026-08-31",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Huge"
@@ -846,7 +846,7 @@
    "name": "ACH Reporting",
    "status": "In Testing",
    "ted": "2026-08-31",
-   "fv": "R9.7",
+   "fv": null,
    "who": "Lloyd Tokerud",
    "tshirt": "X-Large",
    "pod": "EDW",
@@ -856,7 +856,7 @@
    "key": "PLANS-15748",
    "name": "Ach Refunds Inside of Csp",
    "status": "In Testing",
-   "ted": "2026-08-26",
+   "ted": "2026-08-31",
    "fv": "R9.7",
    "who": "Mykyta Moroz",
    "tshirt": "Huge",
@@ -867,7 +867,7 @@
    "key": "PLANS-20836",
    "name": "Legal Language Intake for ACH",
    "status": "In Testing",
-   "ted": "2026-08-27",
+   "ted": "2026-08-31",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
    "tshirt": null,
@@ -1575,7 +1575,7 @@
    "pod": "EDW",
    "proj": "PAY",
    "status": "In Testing",
-   "fv": "R9.7",
+   "fv": null,
    "ted": "2026-08-31",
    "who": "Lloyd Tokerud",
    "theme": "ACH"
@@ -1587,7 +1587,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-26",
+   "ted": "2026-08-31",
    "who": "Mykyta Moroz",
    "theme": "ACH"
   },
@@ -1598,7 +1598,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.7",
-   "ted": "2026-08-27",
+   "ted": "2026-08-31",
    "who": "Denys Kernychnyi",
    "theme": "ACH"
   },
