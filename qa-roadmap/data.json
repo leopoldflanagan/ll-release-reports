@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T20:49:23+00:00",
+ "generated_at": "2026-08-31T21:00:30+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -1664,30 +1664,6 @@
    "theme": "",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21710",
-   "name": "Member portal - Downloading the card to wallet is not working",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Sushma Bankar",
-   "prio": "3: Standard",
-   "created": "2026-08-21T15:10:43.634-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3973,6 +3949,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21710",
+   "name": "Member portal - Downloading the card to wallet is not working",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Sushma Bankar",
+   "prio": "3: Standard",
+   "created": "2026-08-21T15:10:43.634-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21999",
