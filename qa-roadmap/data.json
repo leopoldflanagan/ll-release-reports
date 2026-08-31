@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T04:30:23+00:00",
+ "generated_at": "2026-08-31T04:45:19+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -9,6 +9,15 @@
    "ted": "2026-08-27",
    "fv": "R9.7",
    "who": "Denys Kernychnyi",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-22088",
+   "name": "Promo codes enhancement (Unavailable to New Sales & Expired Plans Renewals)",
+   "status": "Requirements",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null
   },
   {
@@ -140,15 +149,6 @@
   {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
-   "status": "Idea",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null
-  },
-  {
-   "key": "PLANS-21584",
-   "name": "Promo Codes - Unavailable to New Sales & Expired Plans Renewals",
    "status": "Idea",
    "ted": null,
    "fv": "R9.8",
@@ -952,17 +952,6 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "PLANS-21584",
-   "name": "Promo Codes - Unavailable to New Sales & Expired Plans Renewals",
-   "status": "Idea",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
-  },
-  {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
    "status": "Idea",
@@ -980,6 +969,17 @@
    "ted": null,
    "fv": "R9.8",
    "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-22088",
+   "name": "Promo codes enhancement (Unavailable to New Sales & Expired Plans Renewals)",
+   "status": "Requirements",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null,
    "pod": "LL",
    "theme": ""
@@ -1691,17 +1691,6 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "PLANS-21584",
-   "name": "Promo Codes - Unavailable to New Sales & Expired Plans Renewals",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Idea",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
-  },
-  {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
    "pod": "LL",
@@ -1721,6 +1710,17 @@
    "fv": "R9.8",
    "ted": null,
    "who": "Unassigned",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-22088",
+   "name": "Promo codes enhancement (Unavailable to New Sales & Expired Plans Renewals)",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Requirements",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Dmytro Tymofiienko",
    "theme": ""
   }
  ],
