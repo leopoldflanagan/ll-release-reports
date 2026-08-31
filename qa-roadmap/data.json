@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T17:00:28+00:00",
+ "generated_at": "2026-08-31T17:13:28+00:00",
  "today": "2026-08-31",
  "features": [
   {
@@ -4894,7 +4894,7 @@
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
@@ -6003,7 +6003,7 @@
    "pod": "PLANS",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Hazel Loya",
@@ -6024,7 +6024,7 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -21994,6 +21994,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22125",
+   "name": "PMP - Migrated users - Plan is not auto renewed with ACH or CC",
+   "status": "Ready for Development",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera"
+  },
   {
    "key": "PLANS-22118",
    "name": "Stage - PMP - Dashboard - Previously viewed report is displayed after switching Organization and Practice",
