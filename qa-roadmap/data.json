@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T18:50:16+00:00",
+ "generated_at": "2026-09-01T19:00:26+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -4141,7 +4141,7 @@
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": null,
    "who": "Dima Shtympel",
    "reporter": "Dima Shtympel",
@@ -4986,30 +4986,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22132",
-   "name": "PMP - Cancelled Plan Displays as \"Expired\" in Plan Overview",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-31T11:23:16.091-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21919",
    "name": "Patient is unable to updated her email in the member portal",
    "pod": "PLANS",
@@ -5711,6 +5687,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22132",
+   "name": "PMP - Cancelled Plan Displays as \"Expired\" in Plan Overview",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-31T11:23:16.091-0700",
+   "resolved": "2026-09-01T11:55:15.187-0700",
+   "due": "2026-09-01",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20904",
    "name": "PDS plan linked to a NON PDS office",
@@ -22213,7 +22213,7 @@
  "nopod": [
   {
    "key": "PLANS-22181",
-   "name": "Preprod Issue- ACH Add member - getting an error for office manager",
+   "name": "Preprod Issue- ACH Add member - getting an config error for office manager",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
