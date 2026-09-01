@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T14:16:15+00:00",
+ "generated_at": "2026-09-01T14:30:29+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -274,17 +274,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-15226",
-   "name": "WAIVEFAM Promo Code",
-   "status": "In Testing",
-   "ted": null,
-   "fv": "R9.7",
-   "who": "Mykyta Moroz",
-   "tshirt": "Small",
-   "pod": "LL",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-15298",
    "name": "Additional Benefit Eligibility SFTP Feed",
    "status": "In Development",
@@ -358,6 +347,17 @@
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate",
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-15226",
+   "name": "WAIVEFAM Promo Code",
+   "status": "In Testing",
+   "ted": null,
+   "fv": "R9.7",
+   "who": "Mykyta Moroz",
+   "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -936,17 +936,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-15226",
-   "name": "WAIVEFAM Promo Code",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": null,
-   "who": "Mykyta Moroz",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-15298",
    "name": "Additional Benefit Eligibility SFTP Feed",
    "pod": "PLANS",
@@ -1021,6 +1010,17 @@
    "fv": "R9.8",
    "ted": null,
    "who": "Ivan Yarymovych",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-15226",
+   "name": "WAIVEFAM Promo Code",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.7",
+   "ted": null,
+   "who": "Mykyta Moroz",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1553,6 +1553,30 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-22149",
+   "name": "PMP- Broken - Unable to Purchase Multiple Ad Hoc Plans via Add Member Flow - First Member Details Replaced by Second Member",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-31T16:58:59.073-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22027",
    "name": "DCA - ACH Auto Renew failed (RejectionReason :Could not convert string to integer: Approved. Path 'status', line 1, position 247.)",
@@ -3855,30 +3879,6 @@
    "due": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22149",
-   "name": "PMP- Broken - Unable to Purchase Multiple Ad Hoc Plans via Add Member Flow - First Member Details Replaced by Second Member",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-31T16:58:59.073-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
