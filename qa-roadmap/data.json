@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T14:45:28+00:00",
+ "generated_at": "2026-09-01T14:52:10+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -3869,9 +3869,9 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Conor Kamperman",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "2: Important",
    "created": "2026-08-31T17:10:31.448-0700",
@@ -4882,27 +4882,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22125",
-   "name": "PMP - Migrated users - Plan is not auto renewed with ACH or CC",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Juan Rodrigo Mejia Rivera",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-31T10:11:55.749-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21919",
    "name": "Patient is unable to updated her email in the member portal",
    "pod": "PLANS",
@@ -5624,6 +5603,27 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22125",
+   "name": "PMP - Migrated users - Plan is not auto renewed with ACH or CC",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Juan Rodrigo Mejia Rivera",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-31T10:11:55.749-0700",
+   "resolved": "2026-09-01T07:51:05.626-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-18356",
    "name": "PDS: Mandatory Field Required - Patient MRN",
