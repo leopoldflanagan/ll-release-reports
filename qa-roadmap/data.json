@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T17:36:52+00:00",
+ "generated_at": "2026-09-01T17:45:23+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -2028,6 +2028,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22177",
+   "name": "Stage - PMP - Manage Patients - Expired Primary CC incorrectly displays “Expiring Soon” tag",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-09-01T10:40:00.554-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
