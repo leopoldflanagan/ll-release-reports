@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T19:45:21+00:00",
+ "generated_at": "2026-09-01T19:49:46+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1970,7 +1970,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "Plans-Sprint 21-26",
    "who": "Santiago Kirk Cabrera",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
