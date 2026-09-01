@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T13:45:23+00:00",
+ "generated_at": "2026-09-01T13:49:38+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1841,7 +1841,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 21-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1851,9 +1851,9 @@
    "labels": [],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-22146",
