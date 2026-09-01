@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T13:37:41+00:00",
+ "generated_at": "2026-09-01T13:45:23+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1849,7 +1849,7 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
