@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T14:38:56+00:00",
+ "generated_at": "2026-09-01T14:45:28+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -263,17 +263,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-14501",
-   "name": "Use Custom URL on Smile Health",
-   "status": "In Testing",
-   "ted": "2026-08-14",
-   "fv": "R9.7",
-   "who": "Ivan Yarymovych",
-   "tshirt": "Large",
-   "pod": "LL",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-15298",
    "name": "Additional Benefit Eligibility SFTP Feed",
    "status": "In Development",
@@ -347,6 +336,17 @@
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate",
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-14501",
+   "name": "Use Custom URL on Smile Health",
+   "status": "In Testing",
+   "ted": "2026-08-14",
+   "fv": "R9.7",
+   "who": "Ivan Yarymovych",
+   "tshirt": "Large",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -925,17 +925,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-14501",
-   "name": "Use Custom URL on Smile Health",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.7",
-   "ted": "2026-08-14",
-   "who": "Ivan Yarymovych",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-15298",
    "name": "Additional Benefit Eligibility SFTP Feed",
    "pod": "PLANS",
@@ -1009,6 +998,17 @@
    "status": "Epics & Stories",
    "fv": "R9.8",
    "ted": null,
+   "who": "Ivan Yarymovych",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-14501",
+   "name": "Use Custom URL on Smile Health",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.7",
+   "ted": "2026-08-14",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -1955,7 +1955,7 @@
   },
   {
    "key": "PLANS-22132",
-   "name": "PMP - Migrated Members - Cancelled Plan Displays as \"Expired\" in Plan Overview",
+   "name": "PMP - Cancelled Plan Displays as \"Expired\" in Plan Overview",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
@@ -3295,7 +3295,7 @@
   },
   {
    "key": "PLANS-20109",
-   "name": "Comfort Dental<Stage<Plan confirmation Email doesn't contain custom Logo",
+   "name": "Retest- Comfort Dental<Stage<Plan confirmation Email doesn't contain custom Logo",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
@@ -3956,30 +3956,6 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18356",
-   "name": "PDS: Mandatory Field Required - Patient MRN",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Charles Rosenbaum",
-   "prio": "2: Important",
-   "created": "2026-06-22T07:09:49.058-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5648,6 +5624,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-18356",
+   "name": "PDS: Mandatory Field Required - Patient MRN",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Charles Rosenbaum",
+   "prio": "2: Important",
+   "created": "2026-06-22T07:09:49.058-0700",
+   "resolved": "2026-09-01T07:40:56.292-0700",
+   "due": "2026-08-28",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21950",
    "name": "CSP-Stage-SGDP CA plan-Autorenewal Failed, not received Autorenewal Email",
