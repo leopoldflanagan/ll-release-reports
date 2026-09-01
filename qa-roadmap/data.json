@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T21:45:22+00:00",
+ "generated_at": "2026-09-01T21:49:47+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -2020,14 +2020,17 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans-Sprint 21-26",
+   "sprint": null,
    "who": "Santiago Kirk Cabrera",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
    "created": "2026-09-01T10:40:00.554-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
