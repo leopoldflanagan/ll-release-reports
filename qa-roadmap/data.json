@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T18:15:27+00:00",
+ "generated_at": "2026-09-01T18:19:23+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1766,6 +1766,30 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22150",
+   "name": "Stage - PMP - Manage Patients - Unable to add a member using a DSO admin user",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Mariano Hernández",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "2: Important",
+   "created": "2026-08-31T17:10:31.448-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4026,30 +4050,6 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22150",
-   "name": "Stage - PMP - Manage Patients - Unable to add a member using a DSO admin user",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Mariano Hernández",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-08-31T17:10:31.448-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
