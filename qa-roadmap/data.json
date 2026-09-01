@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T21:49:47+00:00",
+ "generated_at": "2026-09-01T22:00:29+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1686,6 +1686,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-22177",
+   "name": "Stage - PMP - Manage Patients - Expired Primary CC incorrectly displays “Expiring Soon” tag",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-09-01T10:40:00.554-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22150",
    "name": "Stage - PMP - Manage Patients - Unable to add a member using a DSO admin user",
    "pod": "PLANS",
@@ -2014,17 +2038,41 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22177",
-   "name": "Stage - PMP - Manage Patients - Expired Primary CC incorrectly displays “Expiring Soon” tag",
+   "key": "PLANS-22181",
+   "name": "Preprod Issue- ACH Add member - getting an config error for office manager",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-01T11:46:49.243-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22171",
+   "name": "CSP \\ DCA plan outside of renew window defaults to \"Late Renewal\" instead of \"Late Renewal 60 Plus\" during renewal",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-09-01T10:40:00.554-0700",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-01T09:52:17.997-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -22217,20 +22265,6 @@
   {
    "key": "PLANS-22190",
    "name": "Preprod issue \\ PMP 400 error code is thrown when trying to purchase a DCA plan",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-22181",
-   "name": "Preprod Issue- ACH Add member - getting an config error for office manager",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-22171",
-   "name": "CSP \\ DCA plan outside of renew window defaults to \"Late Renewal\" instead of \"Late Renewal 60 Plus\" during renewal",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
