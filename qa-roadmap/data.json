@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T21:37:29+00:00",
+ "generated_at": "2026-09-01T21:45:22+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -22211,6 +22211,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22190",
+   "name": "Preprod issue \\ PMP 400 error code is thrown when trying to purchase a DCA plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-22181",
    "name": "Preprod Issue- ACH Add member - getting an config error for office manager",
