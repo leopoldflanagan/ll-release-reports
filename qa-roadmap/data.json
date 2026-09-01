@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T18:00:26+00:00",
+ "generated_at": "2026-09-01T18:15:27+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1915,29 +1915,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20955",
-   "name": "Duplicate Plan Charge",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Jasmin Martin",
-   "prio": "3: Standard",
-   "created": "2026-08-11T07:09:09.925-0700",
-   "resolved": "",
-   "due": "2026-08-24",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-20133",
@@ -4065,7 +4042,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 21-26",
-   "who": "Conor Kamperman",
+   "who": "Mariano Hernández",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "2: Important",
    "created": "2026-08-31T17:10:31.448-0700",
@@ -4200,6 +4177,29 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-20955",
+   "name": "Duplicate Plan Charge",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Jasmin Martin",
+   "prio": "3: Standard",
+   "created": "2026-08-11T07:09:09.925-0700",
+   "resolved": "",
+   "due": "2026-08-24",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-22132",
