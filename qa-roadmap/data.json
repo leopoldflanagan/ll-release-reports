@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T00:30:26+00:00",
+ "generated_at": "2026-09-01T00:45:22+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1622,6 +1622,30 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21767",
+   "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-24T09:24:09.948-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21605",
@@ -4871,30 +4895,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21767",
-   "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-24T09:24:09.948-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21723",
    "name": "Member Portal/Phone number and website is Plan Card PDF is incorrect",
    "pod": "PLANS",
@@ -5004,30 +5004,6 @@
    "created": "2026-08-21T07:52:28.551-0700",
    "resolved": "",
    "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21166",
-   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-13T04:44:52.361-0700",
-   "resolved": "",
-   "due": "2026-08-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5616,6 +5592,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21166",
+   "name": "Plan Details - Footer Discount Percentage Value Not Displayed",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-13T04:44:52.361-0700",
+   "resolved": "2026-08-31T17:35:07.480-0700",
+   "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21910",
    "name": "PMP - Incorrect Recurring Fee Displayed in Authorization Form When Purchasing multiple plans",
