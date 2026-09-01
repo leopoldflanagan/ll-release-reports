@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T00:00:25+00:00",
+ "generated_at": "2026-09-01T00:15:22+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1807,6 +1807,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22149",
+   "name": "PMP- Broken - Unable to Purchase Multiple Ad Hoc Plans via Add Member Flow - First Member Details Replaced by Second Member",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-31T16:58:59.073-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4850,30 +4871,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21910",
-   "name": "PMP - Incorrect Recurring Fee Displayed in Authorization Form When Purchasing multiple plans",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-27T06:14:38.224-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21767",
    "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
    "pod": "LL",
@@ -5619,6 +5616,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21910",
+   "name": "PMP - Incorrect Recurring Fee Displayed in Authorization Form When Purchasing multiple plans",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-27T06:14:38.224-0700",
+   "resolved": "2026-08-31T17:10:15.364-0700",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21871",
    "name": "ACH - One-time plan purchases are not displayed in CSP Plan Transactions, preventing refund",
@@ -21956,11 +21977,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-22149",
-   "name": "PMP- when purchasing mltiple plans , 2nd plan replaces the firsty add member plan",
+   "key": "PLANS-22150",
+   "name": "Stage - PMP - Manage Patients - Unable to add a member using a DSO admin user",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
+   "reporter": "Gabriel Perez Cardozo"
   },
   {
    "key": "PLANS-22148",
