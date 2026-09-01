@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T00:45:22+00:00",
+ "generated_at": "2026-09-01T01:00:26+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1575,6 +1575,30 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-22027",
+   "name": "DCA - ACH Auto Renew failed (RejectionReason :Could not convert string to integer: Approved. Path 'status', line 1, position 247.)",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-30T03:41:04.080-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21916",
    "name": "ACH & CC Refunds Not Visible in Member > Transactions in Member Portal",
@@ -4818,30 +4842,6 @@
    "labels": [],
    "theme": "",
    "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22027",
-   "name": "DCA - ACH Auto Renew failed (RejectionReason :Could not convert string to integer: Approved. Path 'status', line 1, position 247.)",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-30T03:41:04.080-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
