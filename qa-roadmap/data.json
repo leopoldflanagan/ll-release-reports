@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T17:15:25+00:00",
+ "generated_at": "2026-09-01T17:25:29+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -241,17 +241,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "DYN-1080",
-   "name": "LL - Expired Plans Winback Journey",
-   "status": "Blocked",
-   "ted": "2026-07-30",
-   "fv": "R9.7",
-   "who": "Unassigned",
-   "tshirt": "Small",
-   "pod": "DYN",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "DYN-763",
    "name": "Dynamic Admin Fees in Email Journeys",
    "status": "In Testing",
@@ -318,15 +307,15 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLAT-5573",
-   "name": "SaaS Fee Per Practice",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Vic Du Plessis",
-   "tshirt": "Moderate",
-   "pod": "PLAT",
-   "theme": "LL-MVP"
+   "key": "DYN-1080",
+   "name": "LL - Expired Plans Winback Journey",
+   "status": "Blocked",
+   "ted": "2026-07-30",
+   "fv": "R9.7",
+   "who": "Unassigned",
+   "tshirt": "Small",
+   "pod": "DYN",
+   "theme": "LL-Fast Follows"
   },
   {
    "key": "DYN-820",
@@ -637,6 +626,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-19329",
+   "name": "consolidate smile health portal to access plans widget api",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": "Moderate",
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-19455",
    "name": "Payment Term: ID on overview",
    "status": "Architecture",
@@ -655,6 +655,17 @@
    "fv": "R9.8",
    "who": "Clint Tredway",
    "tshirt": "Small",
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20053",
+   "name": "Edge Cases - for Member Portal - Multi Plans",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -758,6 +769,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-21634",
+   "name": "Add Locations to Smile Health",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-21824",
    "name": "Validate configured WA plans and update additional benefits (membership card)",
    "status": "Idea",
@@ -791,6 +813,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-21977",
+   "name": "Payment wallet and plans enhacement - PMP",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Conor Kamperman",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-22088",
    "name": "Promo codes enhancement (Unavailable to New Sales & Expired Plans Renewals)",
    "status": "Requirements",
@@ -810,6 +843,17 @@
    "who": "Lloyd Tokerud",
    "tshirt": null,
    "pod": "EDW",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLAT-5573",
+   "name": "SaaS Fee Per Practice",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Vic Du Plessis",
+   "tshirt": "Moderate",
+   "pod": "PLAT",
    "theme": "LL-Fast Follows"
   },
   {
@@ -958,17 +1002,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "DYN-1080",
-   "name": "LL - Expired Plans Winback Journey",
-   "pod": "DYN",
-   "proj": "DYN",
-   "status": "Blocked",
-   "fv": "R9.7",
-   "ted": "2026-07-30",
-   "who": "Unassigned",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "DYN-763",
    "name": "Dynamic Admin Fees in Email Journeys",
    "pod": "DYN",
@@ -1035,15 +1068,15 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLAT-5573",
-   "name": "SaaS Fee Per Practice",
-   "pod": "PLAT",
-   "proj": "PLAT",
-   "status": "Architecture",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Vic Du Plessis",
-   "theme": "LL-MVP"
+   "key": "DYN-1080",
+   "name": "LL - Expired Plans Winback Journey",
+   "pod": "DYN",
+   "proj": "DYN",
+   "status": "Blocked",
+   "fv": "R9.7",
+   "ted": "2026-07-30",
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
   },
   {
    "key": "DYN-820",
@@ -1354,6 +1387,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-19329",
+   "name": "consolidate smile health portal to access plans widget api",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-19455",
    "name": "Payment Term: ID on overview",
    "pod": "LL",
@@ -1373,6 +1417,17 @@
    "fv": "R9.8",
    "ted": null,
    "who": "Clint Tredway",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-20053",
+   "name": "Edge Cases - for Member Portal - Multi Plans",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "Unassigned",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1475,6 +1530,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-21634",
+   "name": "Add Locations to Smile Health",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-21824",
    "name": "Validate configured WA plans and update additional benefits (membership card)",
    "pod": "PLANS",
@@ -1508,6 +1574,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-21977",
+   "name": "Payment wallet and plans enhacement - PMP",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Conor Kamperman",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-22088",
    "name": "Promo codes enhancement (Unavailable to New Sales & Expired Plans Renewals)",
    "pod": "LL",
@@ -1527,6 +1604,17 @@
    "fv": "R9.8",
    "ted": null,
    "who": "Lloyd Tokerud",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLAT-5573",
+   "name": "SaaS Fee Per Practice",
+   "pod": "PLAT",
+   "proj": "PLAT",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Vic Du Plessis",
    "theme": "LL-Fast Follows"
   },
   {
@@ -22157,27 +22245,6 @@
    "prio": "3: Standard",
    "created": "2026-06-02T09:28:15.493-0700",
    "resolved": "2026-06-03T14:03:07.003-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-17216",
-   "name": "Smile Health - pratice was configured to not show up on smile health but still coming back in the zipcode search",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "LL-Sprint 14-26",
-   "who": "Conor Kamperman",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-02T13:50:51.580-0700",
-   "resolved": "2026-06-03T10:22:01.731-0700",
    "due": "",
    "labels": [],
    "theme": "",
