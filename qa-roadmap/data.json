@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T18:40:32+00:00",
+ "generated_at": "2026-09-01T18:45:20+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -263,39 +263,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-15892",
-   "name": "Subscription Recurring Charge Processing",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": null,
-   "who": "Chris Rubio",
-   "tshirt": "Large",
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-16563",
-   "name": "Subscription Renewal Extension",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": null,
-   "who": "Chris Rubio",
-   "tshirt": "Large",
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17729",
-   "name": "Subscription Purchases inside of Plans",
-   "status": "Ready for Development",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": "X-Large",
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-21648",
    "name": "EDW Reporting for Admin Fee Splits",
    "status": "In Development",
@@ -956,6 +923,17 @@
    "theme": "ACH-Fast Follows"
   },
   {
+   "key": "PLANS-21975",
+   "name": "Logging ACH Refunds & Handling of ACH Receipts/Transactions",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "ACH-Fast Follows"
+  },
+  {
    "key": "PLAT-5763",
    "name": "ach-signed-authorization-lane",
    "status": "In Development",
@@ -976,17 +954,6 @@
    "tshirt": null,
    "pod": "WEL",
    "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "PLANS-21975",
-   "name": "Logging ACH Refunds & Handling of ACH Receipts/Transactions",
-   "status": "Idea",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "LL",
-   "theme": ""
   }
  ],
  "all": [
@@ -1024,39 +991,6 @@
    "theme": "LL-MVP"
   },
   {
-   "key": "PLANS-15892",
-   "name": "Subscription Recurring Charge Processing",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Epics & Stories",
-   "fv": null,
-   "ted": null,
-   "who": "Chris Rubio",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-16563",
-   "name": "Subscription Renewal Extension",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Epics & Stories",
-   "fv": null,
-   "ted": null,
-   "who": "Chris Rubio",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-17729",
-   "name": "Subscription Purchases inside of Plans",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Ready for Development",
-   "fv": null,
-   "ted": null,
-   "who": "Unassigned",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "PLANS-21648",
    "name": "EDW Reporting for Admin Fee Splits",
    "pod": "PLANS",
@@ -1717,6 +1651,17 @@
    "theme": "ACH-Fast Follows"
   },
   {
+   "key": "PLANS-21975",
+   "name": "Logging ACH Refunds & Handling of ACH Receipts/Transactions",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "ACH-Fast Follows"
+  },
+  {
    "key": "PLAT-5763",
    "name": "ach-signed-authorization-lane",
    "pod": "PLAT",
@@ -1737,17 +1682,6 @@
    "ted": "2026-09-02",
    "who": "Daniel Marineni",
    "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "PLANS-21975",
-   "name": "Logging ACH Refunds & Handling of ACH Receipts/Transactions",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Idea",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
   }
  ],
  "bugs": [
