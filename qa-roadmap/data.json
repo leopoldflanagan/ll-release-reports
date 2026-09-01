@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T17:00:27+00:00",
+ "generated_at": "2026-09-01T17:13:27+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -769,6 +769,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-21837",
+   "name": "Age Restrictions on Sales",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Daniel Marineni",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-22168",
    "name": "REVENUE SHARE REPORT: Add Effective Date to the revenue share report for Wellfit Pay customers",
    "status": "In Development",
@@ -1472,6 +1483,17 @@
    "fv": "R9.8",
    "ted": null,
    "who": "David Jones",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21837",
+   "name": "Age Restrictions on Sales",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
   {
