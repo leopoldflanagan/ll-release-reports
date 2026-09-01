@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T18:30:25+00:00",
+ "generated_at": "2026-09-01T18:40:32+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1759,7 +1759,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 21-26",
-   "who": "Conor Kamperman",
+   "who": "Daryl Myrick",
    "reporter": "Mireya Alvarez",
    "prio": "1: Urgent",
    "created": "2026-09-01T08:27:20.013-0700",
@@ -22278,10 +22278,17 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-22180",
+   "name": "Preprod- DCA - DCA offices not visible in CSP > Practices and in Practice/ Region",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-22172",
    "name": "Preprod- DCA - ACH not visible while purchasing plans",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
