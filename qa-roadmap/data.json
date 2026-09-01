@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T17:30:31+00:00",
+ "generated_at": "2026-09-01T17:36:52+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -22265,7 +22265,7 @@
   },
   {
    "key": "PLANS-22171",
-   "name": "CSP \\ DCA plan on renew flow is not applying Admin Fee when plan is outside of renew window",
+   "name": "CSP \\ DCA plan outside of renew window defaults to \"Late Renewal\" instead of \"Late Renewal 60 Plus\" during renewal",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
