@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T18:45:20+00:00",
+ "generated_at": "2026-09-01T18:50:16+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -5154,29 +5154,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20904",
-   "name": "PDS plan linked to a NON PDS office",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Carmen West",
-   "prio": "1: Urgent",
-   "created": "2026-08-10T11:00:37.040-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20865",
    "name": "Solomon Dentistry-Plans Payment Acceptance Error",
    "pod": "PLANS",
@@ -5735,6 +5712,29 @@
  ],
  "bugs_closed": [
   {
+   "key": "PLANS-20904",
+   "name": "PDS plan linked to a NON PDS office",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Carmen West",
+   "prio": "1: Urgent",
+   "created": "2026-08-10T11:00:37.040-0700",
+   "resolved": "2026-09-01T11:48:14.148-0700",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22027",
    "name": "DCA - ACH Auto Renew failed (RejectionReason :Could not convert string to integer: Approved. Path 'status', line 1, position 247.)",
    "pod": "PLANS",
@@ -5764,7 +5764,7 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.7",
    "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -22212,17 +22212,17 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-22180",
-   "name": "Preprod- DCA - DCA offices not visible in CSP > Practices and in Practice/ Region",
+   "key": "PLANS-22181",
+   "name": "Preprod Issue- ACH Add member - getting an error for office manager",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
-   "key": "PLANS-22172",
-   "name": "Preprod- DCA - ACH not visible while purchasing plans",
+   "key": "PLANS-22180",
+   "name": "Preprod- DCA - DCA offices not visible in CSP > Practices and in Practice/ Region",
    "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
