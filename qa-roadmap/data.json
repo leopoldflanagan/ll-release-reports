@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T17:49:43+00:00",
+ "generated_at": "2026-09-01T18:00:26+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -2039,7 +2039,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Santiago Kirk Cabrera",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
    "created": "2026-09-01T10:40:00.554-0700",
