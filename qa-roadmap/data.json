@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T22:15:21+00:00",
+ "generated_at": "2026-09-01T22:25:36+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1685,30 +1685,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-22177",
-   "name": "Stage - PMP - Manage Patients - Expired Primary CC incorrectly displays “Expiring Soon” tag",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-09-01T10:40:00.554-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-22150",
    "name": "Stage - PMP - Manage Patients - Unable to add a member using a DSO admin user",
@@ -4088,6 +4064,30 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22177",
+   "name": "Stage - PMP - Manage Patients - Expired Primary CC incorrectly displays “Expiring Soon” tag",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-09-01T10:40:00.554-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
