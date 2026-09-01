@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T17:25:29+00:00",
+ "generated_at": "2026-09-01T17:30:31+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -4133,30 +4133,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22132",
-   "name": "PMP - Cancelled Plan Displays as \"Expired\" in Plan Overview",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-31T11:23:16.091-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -4205,28 +4181,28 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21041",
-   "name": "PMP - One smile - membership card not loaded in member account information",
+   "key": "PLANS-22132",
+   "name": "PMP - Cancelled Plan Displays as \"Expired\" in Plan Overview",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-11T16:04:22.858-0700",
+   "prio": "1: Urgent",
+   "created": "2026-08-31T11:23:16.091-0700",
    "resolved": "",
-   "due": "2026-08-31",
+   "due": "2026-09-01",
    "labels": [
     "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-22097",
@@ -4563,6 +4539,30 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21041",
+   "name": "PMP - One smile - membership card not loaded in member account information",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11T16:04:22.858-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20956",
