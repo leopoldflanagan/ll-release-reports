@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T16:15:24+00:00",
+ "generated_at": "2026-09-01T16:30:26+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -303,6 +303,17 @@
    "fv": null,
    "who": "Unassigned",
    "tshirt": "X-Large",
+   "pod": "PLANS",
+   "theme": "LL-MVP"
+  },
+  {
+   "key": "PLANS-21648",
+   "name": "EDW Reporting for Admin Fee Splits",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Sushma Bankar",
+   "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-MVP"
   },
@@ -969,6 +980,17 @@
    "theme": "LL-MVP"
   },
   {
+   "key": "PLANS-21648",
+   "name": "EDW Reporting for Admin Fee Splits",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Sushma Bankar",
+   "theme": "LL-MVP"
+  },
+  {
    "key": "PLAT-5573",
    "name": "SaaS Fee Per Practice",
    "pod": "PLAT",
@@ -1561,7 +1583,7 @@
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
+   "who": "Conor Kamperman",
    "reporter": "Mireya Alvarez",
    "prio": "1: Urgent",
    "created": "2026-09-01T08:27:20.013-0700",
@@ -3983,6 +4005,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-21041",
+   "name": "PMP - One smile - membership card not loaded in member account information",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-11T16:04:22.858-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-22097",
    "name": "Audit-log writes fail when the \"who did it\" field is too long — affects consent records and Bill-to-Office switches",
    "pod": "LL",
@@ -4317,30 +4363,6 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-21041",
-   "name": "PMP - One smile - membership card not loaded in member account information",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-11T16:04:22.858-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-20956",
