@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T15:45:24+00:00",
+ "generated_at": "2026-09-01T15:50:55+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -5168,27 +5168,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22157",
-   "name": "Dashboard - Office Manager can view all offices by default NOT default to the Office Manager's assigned practice",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-01T06:31:03.009-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-22135",
    "name": "Dashboard - ACH - Renewals Not Captured in Dashboard",
    "pod": "LL",
@@ -5626,6 +5605,27 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22157",
+   "name": "Dashboard - Office Manager can view all offices by default NOT default to the Office Manager's assigned practice",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-01T06:31:03.009-0700",
+   "resolved": "2026-09-01T08:46:23.354-0700",
+   "due": "",
+   "labels": [],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
   {
    "key": "PLANS-22125",
    "name": "PMP - Migrated users - Plan is not auto renewed with ACH or CC",
