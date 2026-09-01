@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T14:00:31+00:00",
+ "generated_at": "2026-09-01T14:15:26+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1907,7 +1907,7 @@
   },
   {
    "key": "PLANS-22138",
-   "name": "Member Portal-Stage- Custom logos are not shown in membership card print",
+   "name": "Member Portal/ PMP -Stage- Incorrect logo in membership card print",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
