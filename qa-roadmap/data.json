@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T08:00:23+00:00",
+ "generated_at": "2026-09-01T08:15:23+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -4010,7 +4010,7 @@
   },
   {
    "key": "PLANS-22097",
-   "name": "member-activity-log consumer dead-letters events when OperatorName exceeds 50 chars (MemberActivityLogs.OperatorName too narrow)",
+   "name": "Audit-log writes fail when the \"who did it\" field is too long — affects consent records and Bill-to-Office switches",
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
