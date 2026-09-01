@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T16:45:23+00:00",
+ "generated_at": "2026-09-01T16:54:29+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -703,6 +703,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-20907",
+   "name": "Individual Plus - Tier 2 Expansion",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-21011",
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "status": "Idea",
@@ -744,6 +755,17 @@
    "who": "Dmytro Tymofiienko",
    "tshirt": null,
    "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21824",
+   "name": "Validate configured WA plans and update additional benefits (membership card)",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "David Jones",
+   "tshirt": null,
+   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1387,6 +1409,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-20907",
+   "name": "Individual Plus - Tier 2 Expansion",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-21011",
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "pod": "LL",
@@ -1428,6 +1461,17 @@
    "fv": "R9.8",
    "ted": null,
    "who": "Dmytro Tymofiienko",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-21824",
+   "name": "Validate configured WA plans and update additional benefits (membership card)",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "David Jones",
    "theme": "LL-Fast Follows"
   },
   {
@@ -4925,30 +4969,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22027",
-   "name": "DCA - ACH Auto Renew failed (RejectionReason :Could not convert string to integer: Approved. Path 'status', line 1, position 247.)",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-30T03:41:04.080-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21919",
    "name": "Patient is unable to updated her email in the member portal",
    "pod": "PLANS",
@@ -5649,6 +5669,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22027",
+   "name": "DCA - ACH Auto Renew failed (RejectionReason :Could not convert string to integer: Approved. Path 'status', line 1, position 247.)",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-30T03:41:04.080-0700",
+   "resolved": "2026-09-01T09:53:03.433-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22157",
    "name": "Dashboard - Office Manager can view all offices by default NOT default to the Office Manager's assigned practice",
@@ -22122,7 +22166,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-22171",
+   "name": "CSP \\ DCA plan on renew flow is not applying Admin Fee when plan is outside of renew window",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  }
+ ],
  "weeks": [
   {
    "label": "Aug 31–Sep 6",
