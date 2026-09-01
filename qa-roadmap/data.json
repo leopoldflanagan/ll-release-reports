@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-31T23:49:05+00:00",
- "today": "2026-08-31",
+ "generated_at": "2026-09-01T00:00:25+00:00",
+ "today": "2026-09-01",
  "features": [
   {
    "key": "PLANS-22088",
@@ -21955,6 +21955,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22149",
+   "name": "PMP- when purchasing mltiple plans , 2nd plan replaces the firsty add member plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-22148",
    "name": "CSP - Preprod- Cannot update plan dates or add a member to a plan",
