@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T20:30:24+00:00",
+ "generated_at": "2026-09-01T20:41:05+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1731,6 +1731,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22112",
+   "name": "UI - User no access to Organization Dashboard via menu can access with URL",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "4: Low",
+   "created": "2026-08-31T08:22:31.138-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21916",
    "name": "ACH & CC Refunds Not Visible in Member > Transactions in Member Portal",
    "pod": "LL",
@@ -2079,29 +2102,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-22112",
-   "name": "UI - User no access to Organization Dashboard via menu can access with URL",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Unassigned",
-   "reporter": "Hazel Loya",
-   "prio": "4: Low",
-   "created": "2026-08-31T08:22:31.138-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-22008",
@@ -4074,7 +4074,7 @@
    "prio": "2: Important",
    "created": "2026-08-31T16:58:59.073-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-04",
    "labels": [
     "group2_migration",
     "product_prioritized"
