@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T16:36:35+00:00",
+ "generated_at": "2026-09-01T16:45:23+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -747,6 +747,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-22168",
+   "name": "REVENUE SHARE REPORT: Add Effective Date to the revenue share report for Wellfit Pay customers",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Lloyd Tokerud",
+   "tshirt": null,
+   "pod": "EDW",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLAT-5586",
    "name": "Product Selection PER Practice",
    "status": "Architecture",
@@ -1420,6 +1431,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-22168",
+   "name": "REVENUE SHARE REPORT: Add Effective Date to the revenue share report for Wellfit Pay customers",
+   "pod": "EDW",
+   "proj": "PLANS",
+   "status": "In Development",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Lloyd Tokerud",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLAT-5586",
    "name": "Product Selection PER Practice",
    "pod": "PLAT",
@@ -1641,6 +1663,30 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21904",
+   "name": "Member Portal \\ Broken plan cards on renew flow for DCA members (Showing SGDP plans for DCA members )",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-08-26T22:32:49.719-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -1926,30 +1972,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-22132",
-   "name": "PMP - Cancelled Plan Displays as \"Expired\" in Plan Overview",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-31T11:23:16.091-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-22112",
@@ -3957,6 +3979,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22132",
+   "name": "PMP - Cancelled Plan Displays as \"Expired\" in Plan Overview",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-08-31T11:23:16.091-0700",
+   "resolved": "",
+   "due": "2026-09-01",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -4921,30 +4967,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21904",
-   "name": "Member Portal \\ Broken plan cards on renew flow for DCA members (Showing SGDP plans for DCA members )",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-08-26T22:32:49.719-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
