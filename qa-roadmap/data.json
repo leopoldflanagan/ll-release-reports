@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T11:00:26+00:00",
+ "generated_at": "2026-09-01T11:15:26+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -4009,30 +4009,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22097",
-   "name": "Audit-log writes fail when the \"who did it\" field is too long — affects consent records and Bill-to-Office switches",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "2: Important",
-   "created": "2026-08-31T04:46:38.889-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -4099,6 +4075,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22097",
+   "name": "Audit-log writes fail when the \"who did it\" field is too long — affects consent records and Bill-to-Office switches",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": null,
+   "sprint": null,
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-31T04:46:38.889-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
