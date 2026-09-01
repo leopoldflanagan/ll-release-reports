@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T22:00:29+00:00",
+ "generated_at": "2026-09-01T22:13:17+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1759,7 +1759,7 @@
   },
   {
    "key": "PLANS-22146",
-   "name": "Provider Portal-CrosBy practice-Export Payment receipt is giving 500 sever error",
+   "name": "Provider Portal-CrosBy and SGDP TN plans-Export Payment receipt is giving 500 sever error",
    "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
