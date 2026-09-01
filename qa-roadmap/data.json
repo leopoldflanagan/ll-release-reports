@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T22:49:29+00:00",
+ "generated_at": "2026-09-01T23:00:27+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -4119,13 +4119,13 @@
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "Plans-Sprint 21-26",
    "who": "Hunter Redhead",
    "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-08-31T16:22:46.696-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-02",
    "labels": [
     "group1_migration",
     "product_prioritized"
