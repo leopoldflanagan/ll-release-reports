@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T16:54:29+00:00",
+ "generated_at": "2026-09-01T17:00:27+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -22167,6 +22167,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22172",
+   "name": "Preprod- DCA - ACH not visible while purchasing plans",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-22171",
    "name": "CSP \\ DCA plan on renew flow is not applying Admin Fee when plan is outside of renew window",
