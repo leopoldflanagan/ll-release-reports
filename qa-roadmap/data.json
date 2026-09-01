@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T19:15:22+00:00",
+ "generated_at": "2026-09-01T19:24:15+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1963,6 +1963,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22182",
+   "name": "Fees are not populating for Office or Wellfit.",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Carmen West",
+   "prio": "3: Standard",
+   "created": "2026-09-01T12:23:33.524-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -22214,13 +22235,6 @@
   {
    "key": "PLANS-22181",
    "name": "Preprod Issue- ACH Add member - getting an config error for office manager",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-22180",
-   "name": "Preprod- DCA - DCA offices not visible in CSP > Practices and in Practice/ Region",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
