@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T12:23:42+00:00",
+ "generated_at": "2026-09-01T12:30:31+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1646,30 +1646,6 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-21767",
-   "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-24T09:24:09.948-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-21605",
@@ -4219,6 +4195,30 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-21767",
+   "name": "ACH - \"Set as Primary\" option is not available for newly added ACH payment accounts in Manage payments",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-24T09:24:09.948-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
