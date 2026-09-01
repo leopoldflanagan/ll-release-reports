@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T20:41:05+00:00",
+ "generated_at": "2026-09-01T20:45:25+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1726,6 +1726,30 @@
    ],
    "theme": "",
    "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22148",
+   "name": "CSP - Preprod- Cannot update plan dates or add a member to a plan",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Hunter Redhead",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-08-31T16:22:46.696-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3985,30 +4009,6 @@
    ],
    "theme": "",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22148",
-   "name": "CSP - Preprod- Cannot update plan dates or add a member to a plan",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-31T16:22:46.696-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
