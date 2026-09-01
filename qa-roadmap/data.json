@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T16:00:29+00:00",
+ "generated_at": "2026-09-01T16:15:24+00:00",
  "today": "2026-09-01",
  "features": [
   {
@@ -1554,6 +1554,27 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-22167",
+   "name": "Blocker/Preprod/DCA/ ZIP Code search returns “Unable to search at this time” for DCA, Essential Smile, OneSmile, and KOS",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Mireya Alvarez",
+   "prio": "1: Urgent",
+   "created": "2026-09-01T08:27:20.013-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22149",
    "name": "PMP- Broken - Unable to Purchase Multiple Ad Hoc Plans via Add Member Flow - First Member Details Replaced by Second Member",
    "pod": "PLANS",
@@ -1785,27 +1806,6 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22167",
-   "name": "Purchase Portal – ZIP Code search returns “Unable to search at this time” for DCA, Essential Smile, OneSmile, and KOS",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Mireya Alvarez",
-   "prio": "1: Urgent",
-   "created": "2026-09-01T08:27:20.013-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3983,30 +3983,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-20111",
-   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22T08:47:16.230-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22097",
    "name": "Audit-log writes fail when the \"who did it\" field is too long — affects consent records and Bill-to-Office switches",
    "pod": "LL",
@@ -4413,6 +4389,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-20111",
+   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22T08:47:16.230-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-15258",
