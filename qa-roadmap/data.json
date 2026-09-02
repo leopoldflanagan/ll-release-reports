@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T23:24:22+00:00",
+ "generated_at": "2026-09-02T23:30:23+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -5160,30 +5160,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21705",
-   "name": "Ancillary Benefit Card - Needs the WFIT Group Code",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T14:07:21.589-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20865",
    "name": "Solomon Dentistry-Plans Payment Acceptance Error",
    "pod": "PLANS",
@@ -5627,6 +5603,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21705",
+   "name": "Ancillary Benefit Card - Needs the WFIT Group Code",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T14:07:21.589-0700",
+   "resolved": "2026-09-02T16:25:37.516-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21690",
    "name": "DCA - Ancillary Benefits are incorrect",
