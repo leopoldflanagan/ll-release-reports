@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T03:30:24+00:00",
+ "generated_at": "2026-09-02T03:45:23+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -16,6 +16,15 @@
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "status": "Idea",
    "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-21974",
+   "name": "PDF Enhancements",
+   "status": "Idea",
+   "ted": "2026-09-14",
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
    "tshirt": null
@@ -127,15 +136,6 @@
    "fv": "R9.8",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "PLANS-21974",
-   "name": "PDF Enhancements",
-   "status": "Idea",
-   "ted": "2026-09-14",
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null
   },
   {
    "key": "PLANS-21011",
@@ -774,7 +774,7 @@
    "status": "Idea",
    "ted": "2026-09-14",
    "fv": "R9.8",
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1504,7 +1504,7 @@
    "status": "Idea",
    "fv": "R9.8",
    "ted": "2026-09-14",
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "theme": "LL-Fast Follows"
   },
   {
@@ -22264,7 +22264,7 @@
  "nopod": [
   {
    "key": "PLANS-22194",
-   "name": "Preprod \\ Auto renew failed for ACH payment method",
+   "name": "Preprod \\ Bank account payments are not configured",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
