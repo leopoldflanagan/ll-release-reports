@@ -1,7 +1,34 @@
 {
- "generated_at": "2026-09-02T22:15:21+00:00",
+ "generated_at": "2026-09-02T22:27:55+00:00",
  "today": "2026-09-02",
  "features": [
+  {
+   "key": "PLANS-21011",
+   "name": "Log Cancellation/Opt Out Reason in Account History",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Camille Knight",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-20221",
+   "name": "CSP Integration Setting at Org level",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Chris Rubio",
+   "tshirt": "Small"
+  },
+  {
+   "key": "PLANS-19455",
+   "name": "Payment Term: ID on overview",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Chris Rubio",
+   "tshirt": "Small"
+  },
   {
    "key": "PLANS-17586",
    "name": "Member Portal Support for Subscription Payments",
@@ -46,6 +73,24 @@
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
    "tshirt": null
+  },
+  {
+   "key": "PLANS-20621",
+   "name": "Wellfit Admin - Practice Assignment Picker",
+   "status": "Requirements",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Dmytro Tymofiienko",
+   "tshirt": "Small"
+  },
+  {
+   "key": "PLANS-17582",
+   "name": "Bulk Sellable Acceptable",
+   "status": "Requirements",
+   "ted": null,
+   "fv": null,
+   "who": "Dmytro Tymofiienko",
+   "tshirt": "Large"
   },
   {
    "key": "PLANS-14180",
@@ -138,48 +183,12 @@
    "tshirt": "Moderate"
   },
   {
-   "key": "PLANS-21011",
-   "name": "Log Cancellation/Opt Out Reason in Account History",
-   "status": "Idea",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Unassigned",
-   "tshirt": null
-  },
-  {
-   "key": "PLANS-20621",
-   "name": "Wellfit Admin - Practice Assignment Picker",
-   "status": "Requirements",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Unassigned",
-   "tshirt": "Small"
-  },
-  {
-   "key": "PLANS-20221",
-   "name": "CSP Integration Setting at Org level",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Unassigned",
-   "tshirt": "Small"
-  },
-  {
-   "key": "PLANS-19455",
-   "name": "Payment Term: ID on overview",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Unassigned",
-   "tshirt": "Small"
-  },
-  {
    "key": "PLANS-19316",
    "name": "Manage Preferences - CSP & WF Pay",
    "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": null
   },
   {
@@ -208,15 +217,6 @@
    "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-17582",
-   "name": "Bulk Sellable Acceptable",
-   "status": "Requirements",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": "Large"
   },
   {
    "key": "PLANS-15540",
@@ -367,7 +367,7 @@
    "status": "Requirements",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "tshirt": "Large",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -411,7 +411,7 @@
    "status": "Idea",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Camille Knight",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -444,7 +444,7 @@
    "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -587,7 +587,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -598,7 +598,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -609,7 +609,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -631,7 +631,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -653,7 +653,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -675,7 +675,7 @@
    "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -697,7 +697,7 @@
    "status": "Idea",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Camille Knight",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -741,7 +741,7 @@
    "status": "Idea",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Camille Knight",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -876,6 +876,17 @@
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "DYN",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-21976",
+   "name": "Plans Dashboard Enhancements for ACH Transactions",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
    "theme": "ACH"
   },
   {
@@ -1097,7 +1108,7 @@
    "status": "Requirements",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1141,7 +1152,7 @@
    "status": "Idea",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Camille Knight",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1174,7 +1185,7 @@
    "status": "Requirements",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1317,7 +1328,7 @@
    "status": "Architecture",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1328,7 +1339,7 @@
    "status": "Architecture",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1339,7 +1350,7 @@
    "status": "Architecture",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1361,7 +1372,7 @@
    "status": "Architecture",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1383,7 +1394,7 @@
    "status": "Architecture",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1405,7 +1416,7 @@
    "status": "Requirements",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1427,7 +1438,7 @@
    "status": "Idea",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Camille Knight",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1471,7 +1482,7 @@
    "status": "Idea",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Camille Knight",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1603,6 +1614,17 @@
    "status": "In Testing",
    "fv": "R9.8",
    "ted": "2026-09-09",
+   "who": "Unassigned",
+   "theme": "ACH"
+  },
+  {
+   "key": "PLANS-21976",
+   "name": "Plans Dashboard Enhancements for ACH Transactions",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
    "who": "Unassigned",
    "theme": "ACH"
   },
