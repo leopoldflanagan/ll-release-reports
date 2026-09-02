@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T23:00:28+00:00",
+ "generated_at": "2026-09-02T23:12:53+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -249,17 +249,6 @@
    "who": "Satva Tech",
    "tshirt": "Large",
    "pod": "DYN",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-15298",
-   "name": "Additional Benefit Eligibility SFTP Feed",
-   "status": "In Development",
-   "ted": "2026-08-21",
-   "fv": "R9.7",
-   "who": "Tharika Bairi",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
    "theme": "LL-MVP"
   },
   {
@@ -988,17 +977,6 @@
    "fv": "R9.8",
    "ted": "2026-09-10",
    "who": "Satva Tech",
-   "theme": "LL-MVP"
-  },
-  {
-   "key": "PLANS-15298",
-   "name": "Additional Benefit Eligibility SFTP Feed",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "In Development",
-   "fv": "R9.7",
-   "ted": "2026-08-21",
-   "who": "Tharika Bairi",
    "theme": "LL-MVP"
   },
   {
@@ -5206,30 +5184,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21690",
-   "name": "DCA - Ancillary Benefits are incorrect",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Chris Rubio",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T10:45:17.062-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20865",
    "name": "Solomon Dentistry-Plans Payment Acceptance Error",
    "pod": "PLANS",
@@ -5673,6 +5627,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21690",
+   "name": "DCA - Ancillary Benefits are incorrect",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Chris Rubio",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T10:45:17.062-0700",
+   "resolved": "2026-09-02T16:05:53.379-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21723",
    "name": "Member Portal/Phone number and website is Plan Card PDF is incorrect",
@@ -22482,6 +22460,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22322",
+   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-22318",
    "name": "Preprod - PMP - CC status is updated after adding a new member to the plan.",
