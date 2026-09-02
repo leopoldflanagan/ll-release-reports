@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T15:30:31+00:00",
+ "generated_at": "2026-09-02T15:40:51+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -5007,30 +5007,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22181",
-   "name": "Preprod Issue- ACH Add member - Getting an config error for office manager",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-09-01T11:46:49.243-0700",
-   "resolved": "",
-   "due": "2026-09-02",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22167",
    "name": "Blocker/Preprod/DCA/ ZIP Code search returns “Unable to search at this time” for DCA, Essential Smile, OneSmile, and KOS",
    "pod": "PLANS",
@@ -5753,6 +5729,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22181",
+   "name": "Preprod Issue- ACH Add member - Getting an config error for office manager",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-01T11:46:49.243-0700",
+   "resolved": "2026-09-02T08:37:14.424-0700",
+   "due": "2026-09-02",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22148",
    "name": "CSP - Preprod- Cannot update plan dates or add a member to a plan",
@@ -22304,6 +22304,20 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22288",
+   "name": "Preprod/PMP/DCA/Plans are not displayed for purchase",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
+  {
+   "key": "PLANS-22287",
+   "name": "DCA Custom Website – Core Plan is not displayed for offices offering both Core and Deluxe plans",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez"
+  },
   {
    "key": "PLANS-22190",
    "name": "Preprod issue \\ PMP 400 error code is thrown when trying to purchase a DCA plan",
