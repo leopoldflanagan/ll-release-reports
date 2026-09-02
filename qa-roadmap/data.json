@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T16:30:24+00:00",
+ "generated_at": "2026-09-02T16:39:54+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -1917,6 +1917,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22292",
+   "name": "Stage - Member Portal - Overview and Benefits summaries dates aren´t displayed if the plans for a minor",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-09-02T09:29:18.251-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -22367,13 +22388,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22292",
-   "name": "Stage - Member Portal - Overview and Benefits summaries dates aren´t displayed if the plans for a minor",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo"
-  },
   {
    "key": "PLANS-22288",
    "name": "Preprod/PMP/DCA/Plans are not displayed for purchase",
