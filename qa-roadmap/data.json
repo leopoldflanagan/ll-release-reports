@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T18:30:28+00:00",
+ "generated_at": "2026-09-02T18:40:20+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -1701,29 +1701,6 @@
    "due": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22112",
-   "name": "UI - User no access to Organization Dashboard via menu can access with URL",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "4: Low",
-   "created": "2026-08-31T08:22:31.138-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
     "product_prioritized"
    ],
    "theme": "",
@@ -4155,6 +4132,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22112",
+   "name": "UI - User no access to Organization Dashboard via menu can access with URL",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "4: Low",
+   "created": "2026-08-31T08:22:31.138-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -5462,27 +5462,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-28T14:48:03.311-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22019",
-   "name": "Stage - PMP - Dashboard - Plan Dashboard displays Plan Revenue with monetary values on first login",
-   "pod": "PLANS",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-28T14:36:38.476-0700",
    "resolved": "",
    "due": "",
    "labels": [],
