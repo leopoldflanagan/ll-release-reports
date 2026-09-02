@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T16:01:03+00:00",
+ "generated_at": "2026-09-02T16:15:25+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -1917,6 +1917,48 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22291",
+   "name": "preprod issue - CSP - getting an error when print refund receipts",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-02T09:06:16.276-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22290",
+   "name": "preprod issue - CSP - 'Refund Status' not updated after refund",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-02T09:04:29.432-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5729,6 +5771,27 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22289",
+   "name": "Preprod issue - CSP - 'restrictionsOnRenewals' & 'benefitPlanRefundSaga' Feature Flags not visible",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-02T09:02:12.002-0700",
+   "resolved": "2026-09-02T09:13:19.285-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22181",
    "name": "Preprod Issue- ACH Add member - Getting an config error for office manager",
