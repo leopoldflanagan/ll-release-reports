@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T20:49:12+00:00",
+ "generated_at": "2026-09-02T21:00:42+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -22460,6 +22460,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22318",
+   "name": "Preprod - PMP - CC status is updated after adding a new member to the plan.",
+   "status": "Ready for Development",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera"
+  },
   {
    "key": "PLANS-22317",
    "name": "Preprod- Member Portal - ACH purchase is not displayed in Transactions",
