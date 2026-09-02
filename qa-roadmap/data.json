@@ -1,7 +1,16 @@
 {
- "generated_at": "2026-09-02T20:00:26+00:00",
+ "generated_at": "2026-09-02T20:15:25+00:00",
  "today": "2026-09-02",
  "features": [
+  {
+   "key": "PLANS-17586",
+   "name": "Member Portal Support for Subscription Payments",
+   "status": "On Hold",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Chris Rubio",
+   "tshirt": "Moderate"
+  },
   {
    "key": "PLANS-22088",
    "name": "Promo codes enhancement (Unavailable to New Sales & Expired Plans Renewals)",
@@ -91,15 +100,6 @@
    "fv": "R9.8",
    "who": "Petro Yarish",
    "tshirt": "Small"
-  },
-  {
-   "key": "PLANS-17586",
-   "name": "Member Portal Support for Subscription Payments",
-   "status": "On Hold",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Rostyslav Masniuk",
-   "tshirt": "Moderate"
   },
   {
    "key": "PLANS-16678",
@@ -389,7 +389,7 @@
    "status": "On Hold",
    "ted": null,
    "fv": "R9.9",
-   "who": "Rostyslav Masniuk",
+   "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1119,7 +1119,7 @@
    "status": "On Hold",
    "fv": "R9.9",
    "ted": null,
-   "who": "Rostyslav Masniuk",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
@@ -22461,6 +22461,13 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-22316",
+   "name": "Preprod issue - ACH Member Portal - when navigate to payments page and come back to overview page > auto renewal setting set to OFF",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-22310",
    "name": "Preprod \\ Member Portal is not showing a warning message for members with ACH payment method",
    "status": "Backlog",
@@ -22469,7 +22476,7 @@
   },
   {
    "key": "PLANS-22307",
-   "name": "Preprod \\ Member Portal is not keeping the ACH Payment method as it does in STG",
+   "name": "Preprod \\ Member Portal is not showing the ACH Payment method as it does in STG",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
