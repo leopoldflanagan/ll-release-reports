@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T18:15:26+00:00",
+ "generated_at": "2026-09-02T18:20:19+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -5525,27 +5525,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-28T14:17:39.677-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22012",
-   "name": "DSO Dashboard| Dashboard doesn't change when switching from multi practice view to single practice or selecting practice",
-   "pod": "PLANS",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Daniel Marineni",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-28T13:20:25.921-0700",
    "resolved": "",
    "due": "",
    "labels": [],
