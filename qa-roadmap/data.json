@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T19:30:23+00:00",
+ "generated_at": "2026-09-02T19:36:15+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -22466,13 +22466,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-22306",
-   "name": "Preprod issue - CSP - Renewal Restriction Message Not Displayed in Portals After Configuration in CSP",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
   },
   {
    "key": "PLANS-22301",
