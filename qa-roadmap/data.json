@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T22:03:18+00:00",
+ "generated_at": "2026-09-02T22:14:30+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -278,7 +278,7 @@
    "name": "LL - Expired Plans Winback Journey",
    "status": "Blocked",
    "ted": "2026-07-30",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": "Small",
    "pod": "DYN",
@@ -1007,7 +1007,7 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "Blocked",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": "2026-07-30",
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
