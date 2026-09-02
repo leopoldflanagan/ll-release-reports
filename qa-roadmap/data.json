@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T21:36:57+00:00",
+ "generated_at": "2026-09-02T21:45:25+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -4191,30 +4191,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-22290",
-   "name": "preprod issue - CSP - 'Refund Status' not updated after refund",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-09-02T09:04:29.432-0700",
-   "resolved": "",
-   "due": "2026-09-02",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22182",
    "name": "Fees are not populating for Office or Wellfit.",
    "pod": "PLANS",
@@ -5747,6 +5723,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22290",
+   "name": "preprod issue - CSP - 'Refund Status' not updated after refund",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-02T09:04:29.432-0700",
+   "resolved": "2026-09-02T14:37:25.517-0700",
+   "due": "2026-09-02",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20551",
    "name": "Ancillary Benefit Pull Down Option on Site",
