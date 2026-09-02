@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T14:39:03+00:00",
+ "generated_at": "2026-09-02T14:45:27+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -1922,7 +1922,7 @@
   },
   {
    "key": "PLANS-22227",
-   "name": "PMP - UX- Member Details Not Auto-Populated When Purchasing a Plan from Member's Plan Overview",
+   "name": "PMP - UX- Member Details Not Auto-Populated When PURCHASE PLAN from Member's Plan Overview",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
@@ -4017,7 +4017,7 @@
    "key": "PLANS-22181",
    "name": "Preprod Issue- ACH Add member - Getting an config error for office manager",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.7",
    "sprint": "LL-Sprint 21-26",
