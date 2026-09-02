@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T05:15:22+00:00",
+ "generated_at": "2026-09-02T05:30:24+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -86,7 +86,7 @@
   {
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.8",
    "who": "Petro Yarish",
@@ -507,7 +507,7 @@
   {
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.8",
    "who": "Petro Yarish",
@@ -1237,7 +1237,7 @@
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "fv": "R9.8",
    "ted": null,
    "who": "Petro Yarish",
