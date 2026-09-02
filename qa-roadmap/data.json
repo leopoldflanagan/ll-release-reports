@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T03:15:20+00:00",
+ "generated_at": "2026-09-02T03:30:24+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -12,10 +12,19 @@
    "tshirt": null
   },
   {
+   "key": "PLANS-21975",
+   "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
+   "tshirt": null
+  },
+  {
    "key": "PLANS-21454",
    "name": "Joint Legal Language - Add Member/Auto-Renewal",
    "status": "Idea",
-   "ted": null,
+   "ted": "2026-09-14",
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
    "tshirt": null
@@ -120,19 +129,10 @@
    "tshirt": "Moderate"
   },
   {
-   "key": "PLANS-21975",
-   "name": "Logging ACH Refunds & Handling of ACH Receipts/Transactions",
-   "status": "Idea",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": null
-  },
-  {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
    "status": "Idea",
-   "ted": null,
+   "ted": "2026-09-14",
    "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": null
@@ -728,7 +728,7 @@
    "key": "PLANS-21454",
    "name": "Joint Legal Language - Add Member/Auto-Renewal",
    "status": "Idea",
-   "ted": null,
+   "ted": "2026-09-14",
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
    "tshirt": null,
@@ -772,7 +772,7 @@
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
    "status": "Idea",
-   "ted": null,
+   "ted": "2026-09-14",
    "fv": "R9.8",
    "who": "Unassigned",
    "tshirt": null,
@@ -924,11 +924,11 @@
   },
   {
    "key": "PLANS-21975",
-   "name": "Logging ACH Refunds & Handling of ACH Receipts/Transactions",
+   "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "status": "Idea",
    "ted": null,
    "fv": "R9.8",
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null,
    "pod": "LL",
    "theme": "ACH-Fast Follows"
@@ -1459,7 +1459,7 @@
    "proj": "PLANS",
    "status": "Idea",
    "fv": "R9.8",
-   "ted": null,
+   "ted": "2026-09-14",
    "who": "Dmytro Tymofiienko",
    "theme": "LL-Fast Follows"
   },
@@ -1503,7 +1503,7 @@
    "proj": "PLANS",
    "status": "Idea",
    "fv": "R9.8",
-   "ted": null,
+   "ted": "2026-09-14",
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
   },
@@ -1652,13 +1652,13 @@
   },
   {
    "key": "PLANS-21975",
-   "name": "Logging ACH Refunds & Handling of ACH Receipts/Transactions",
+   "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "pod": "LL",
    "proj": "PLANS",
    "status": "Idea",
    "fv": "R9.8",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Dmytro Tymofiienko",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -1996,7 +1996,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL-Sprint 21-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
@@ -2007,7 +2007,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
