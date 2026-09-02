@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T11:15:23+00:00",
+ "generated_at": "2026-09-02T11:45:23+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -4089,27 +4089,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22167",
-   "name": "Blocker/Preprod/DCA/ ZIP Code search returns “Unable to search at this time” for DCA, Essential Smile, OneSmile, and KOS",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Daryl Myrick",
-   "reporter": "Mireya Alvarez",
-   "prio": "1: Urgent",
-   "created": "2026-09-01T08:27:20.013-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22149",
    "name": "PMP- Broken - Unable to Purchase Multiple Ad Hoc Plans via Add Member Flow - First Member Details Replaced by Second Member",
    "pod": "PLANS",
@@ -4158,30 +4137,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21822",
-   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-25T10:55:24.852-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21736",
    "name": "QA RETEST - ACH Refund - Full/ Partial refunded ACH transaction that is more than 60 calendar days old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -4223,6 +4178,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22167",
+   "name": "Blocker/Preprod/DCA/ ZIP Code search returns “Unable to search at this time” for DCA, Essential Smile, OneSmile, and KOS",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Daryl Myrick",
+   "reporter": "Mireya Alvarez",
+   "prio": "1: Urgent",
+   "created": "2026-09-01T08:27:20.013-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4347,6 +4323,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21822",
+   "name": "KOS Purchase Portal<Stage<Can not purchase plan, getting error-\"Payment Failed\"",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-25T10:55:24.852-0700",
+   "resolved": "",
+   "due": "2026-09-01",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21767",
