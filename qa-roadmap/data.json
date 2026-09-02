@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T16:17:45+00:00",
+ "generated_at": "2026-09-02T16:30:24+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -22367,6 +22367,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22292",
+   "name": "Stage - Member Portal - Overview and Benefits summaries dates aren´t displayed if the plans for a minor",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo"
+  },
   {
    "key": "PLANS-22288",
    "name": "Preprod/PMP/DCA/Plans are not displayed for purchase",
