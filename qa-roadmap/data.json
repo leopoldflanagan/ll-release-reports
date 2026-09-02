@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T19:12:28+00:00",
+ "generated_at": "2026-09-02T19:15:31+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -22424,6 +22424,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22306",
+   "name": "Preprod issue - Renewal Restriction not showing in portals after configured in CSP",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-22301",
    "name": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans",
