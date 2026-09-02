@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T14:49:27+00:00",
+ "generated_at": "2026-09-02T15:00:33+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -68,7 +68,7 @@
   {
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "ted": "2026-09-16",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
@@ -298,7 +298,7 @@
   {
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "ted": "2026-09-16",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
@@ -1028,7 +1028,7 @@
    "name": "Provider Search in Member Portal",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "fv": "R9.8",
    "ted": "2026-09-16",
    "who": "Ivan Yarymovych",
