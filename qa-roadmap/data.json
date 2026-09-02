@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T19:15:31+00:00",
+ "generated_at": "2026-09-02T19:23:31+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -1874,65 +1874,23 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22300",
-   "name": "One Smile Plan - Website - WA Plan",
+   "key": "PLANS-22292",
+   "name": "Stage - Member Portal - Overview and Benefits Summary information unavailable for RP",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": null,
    "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-02T09:47:14.507-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22292",
-   "name": "Stage - Member Portal - Overview and Benefits Summary information unavailable for RP",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
    "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-09-02T09:29:18.251-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22227",
-   "name": "PMP - UX- Member Details Not Auto-Populated When PURCHASE PLAN from Member's Plan Overview",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-02T07:25:33.193-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -1953,28 +1911,10 @@
    "created": "2026-09-01T18:43:54.174-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22182",
-   "name": "Fees are not populating for Office or Wellfit.",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Chris Rubio",
-   "reporter": "Carmen West",
-   "prio": "1: Urgent",
-   "created": "2026-09-01T12:23:33.524-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3964,6 +3904,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22300",
+   "name": "One Smile Plan - Website - WA Plan",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-02T09:47:14.507-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22299",
    "name": "One Smile - 2 Year Plans",
    "pod": "PLANS",
@@ -4006,6 +3970,30 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22227",
+   "name": "PMP - UX- Member Details Not Auto-Populated When PURCHASE PLAN from Member's Plan Overview",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-02T07:25:33.193-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4197,6 +4185,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22182",
+   "name": "Fees are not populating for Office or Wellfit.",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": null,
+   "who": "Chris Rubio",
+   "reporter": "Carmen West",
+   "prio": "1: Urgent",
+   "created": "2026-09-01T12:23:33.524-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -22426,7 +22438,7 @@
  "nopod": [
   {
    "key": "PLANS-22306",
-   "name": "Preprod issue - Renewal Restriction not showing in portals after configured in CSP",
+   "name": "Preprod issue - CSP - Renewal Restriction Message Not Displayed in Portals After Configuration in CSP",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
