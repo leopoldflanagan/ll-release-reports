@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T22:27:55+00:00",
+ "generated_at": "2026-09-02T22:30:27+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -26,6 +26,24 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
+   "who": "Chris Rubio",
+   "tshirt": "Small"
+  },
+  {
+   "key": "PLANS-19316",
+   "name": "Manage Preferences - CSP & WF Pay",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Chris Rubio",
+   "tshirt": null
+  },
+  {
+   "key": "PLANS-18684",
+   "name": "Add Missing Data Icon to PMP",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
    "who": "Chris Rubio",
    "tshirt": "Small"
   },
@@ -183,26 +201,8 @@
    "tshirt": "Moderate"
   },
   {
-   "key": "PLANS-19316",
-   "name": "Manage Preferences - CSP & WF Pay",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Chris Rubio",
-   "tshirt": null
-  },
-  {
    "key": "PLANS-18881",
    "name": "Marketin Details - Driving Smile Health",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Unassigned",
-   "tshirt": "Small"
-  },
-  {
-   "key": "PLANS-18684",
-   "name": "Add Missing Data Icon to PMP",
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
@@ -356,7 +356,7 @@
    "status": "Requirements",
    "ted": null,
    "fv": "R9.8",
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -488,7 +488,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": "Small",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -543,7 +543,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -664,7 +664,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": "Small",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -1097,7 +1097,7 @@
    "status": "Requirements",
    "fv": "R9.8",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1229,7 +1229,7 @@
    "status": "Architecture",
    "fv": "R9.9",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1284,7 +1284,7 @@
    "status": "Architecture",
    "fv": "R9.8",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1405,7 +1405,7 @@
    "status": "Architecture",
    "fv": "R9.8",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
@@ -22527,8 +22527,8 @@
   {
    "key": "PLANS-22190",
    "name": "Preprod issue \\ PMP 400 error code is thrown when trying to purchase a DCA plan",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "Hunter Redhead",
    "reporter": "Luis Moreno Soberón"
   }
  ],
