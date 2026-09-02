@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T21:49:44+00:00",
+ "generated_at": "2026-09-02T22:00:29+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -1686,6 +1686,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-22291",
+   "name": "preprod issue - CSP - getting an error when print refund receipts",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Srinivas Reddy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-02T09:06:16.276-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21916",
    "name": "ACH & CC Refunds Not Visible in Member > Transactions in Member Portal",
    "pod": "LL",
@@ -1928,7 +1952,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.7",
-   "sprint": null,
+   "sprint": "LL-Sprint 21-26",
    "who": "Unassigned",
    "reporter": "Mireya Alvarez",
    "prio": "1: Urgent",
@@ -1939,7 +1963,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5766,30 +5790,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22291",
-   "name": "preprod issue - CSP - getting an error when print refund receipts",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": null,
-   "sprint": "LL-Sprint 21-26",
-   "who": "Srinivas Reddy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-02T09:06:16.276-0700",
-   "resolved": "2026-09-02T11:50:35.908-0700",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
