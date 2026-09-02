@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T00:15:22+00:00",
+ "generated_at": "2026-09-02T00:30:27+00:00",
  "today": "2026-09-02",
  "features": [
   {
@@ -4113,30 +4113,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22148",
-   "name": "CSP - Preprod- Cannot update plan dates or add a member to a plan",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-08-31T16:22:46.696-0700",
-   "resolved": "",
-   "due": "2026-09-02",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -4227,6 +4203,30 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22148",
+   "name": "CSP - Preprod- Cannot update plan dates or add a member to a plan",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-08-31T16:22:46.696-0700",
+   "resolved": "",
+   "due": "2026-09-02",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
