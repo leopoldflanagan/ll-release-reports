@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T09:00:34+00:00",
+ "generated_at": "2026-09-03T09:15:24+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -22499,7 +22499,7 @@
    "key": "PLANS-22310",
    "name": "Preprod \\ Member Portal is not showing a warning message for members with ACH payment method",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Luis Moreno Soberón"
   },
   {
