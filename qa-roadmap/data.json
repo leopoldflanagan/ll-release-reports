@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T08:00:29+00:00",
+ "generated_at": "2026-09-03T08:15:28+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -1706,30 +1706,6 @@
    "theme": "",
    "triage": "",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21916",
-   "name": "ACH & CC Refunds Not Visible in Member > Transactions in Member Portal",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-27T08:08:03.779-0700",
-   "resolved": "",
-   "due": "2026-09-03",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3925,6 +3901,30 @@
    "theme": "",
    "triage": "",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21916",
+   "name": "ACH & CC Refunds Not Visible in Member > Transactions in Member Portal",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-27T08:08:03.779-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
