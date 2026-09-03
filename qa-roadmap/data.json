@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T15:38:20+00:00",
+ "generated_at": "2026-09-03T15:45:28+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -2143,9 +2143,9 @@
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
    "created": "2026-08-25T16:37:06.386-0700",
