@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T18:41:48+00:00",
+ "generated_at": "2026-09-03T18:45:25+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -5175,27 +5175,6 @@
    "due": "",
    "labels": [],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-22108",
-   "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-31T07:38:26.909-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
