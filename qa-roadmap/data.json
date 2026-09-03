@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T18:19:20+00:00",
+ "generated_at": "2026-09-03T18:30:28+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -5555,6 +5555,27 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "EDW-2210",
+   "name": "New Plans purchased showing as due for renewal",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7",
+   "sprint": "Plans-Sprint 18-26",
+   "who": "Jeff Schniederjan",
+   "reporter": "Michael McNulty",
+   "prio": "3: Standard",
+   "created": "2026-07-09T13:16:44.658-0700",
+   "resolved": "2026-09-03T11:24:23.601-0700",
+   "due": "2026-07-24",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22426",
    "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
