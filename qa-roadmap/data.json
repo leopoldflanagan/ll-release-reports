@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T15:18:08+00:00",
+ "generated_at": "2026-09-03T15:30:28+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -609,7 +609,7 @@
    "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.8",
-   "who": "Clint Tredway",
+   "who": "Daryl Myrick",
    "tshirt": "Small",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -1339,7 +1339,7 @@
    "status": "Epics & Stories",
    "fv": "R9.8",
    "ted": null,
-   "who": "Clint Tredway",
+   "who": "Daryl Myrick",
    "theme": "LL-Fast Follows"
   },
   {
@@ -2863,7 +2863,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.7",
+   "fv": null,
    "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
@@ -5289,7 +5289,7 @@
    "status": "WAITING REVIEW",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
@@ -5299,9 +5299,9 @@
    "labels": [],
    "theme": "ACH",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21859",
@@ -22554,27 +22554,6 @@
    "prio": "3: Standard",
    "created": "2026-06-03T03:26:40.032-0700",
    "resolved": "2026-06-08T06:28:38.658-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-16238",
-   "name": "Member Portal \\ Member with WFPMembership Plan is unable to add a new plan",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 14-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-05-18T07:35:09.349-0700",
-   "resolved": "2026-06-05T08:19:44.463-0700",
    "due": "",
    "labels": [],
    "theme": "",
