@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T17:15:24+00:00",
+ "generated_at": "2026-09-03T17:26:50+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -1922,6 +1922,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22426",
+   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-03T10:22:07.907-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22425",
    "name": "Member Search - During Sale - Fuzzy Logic",
    "pod": "PLANS",
@@ -1948,18 +1972,21 @@
   {
    "key": "PLANS-22421",
    "name": "PMP - Select a plan - broken - Overlapped text",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
+   "who": "Santiago Kirk Cabrera",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-03T10:06:43.544-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
