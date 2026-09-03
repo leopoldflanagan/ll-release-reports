@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T13:49:22+00:00",
+ "generated_at": "2026-09-03T14:00:36+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -3221,7 +3221,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
    "created": "2026-07-24T10:08:46.751-0700",
