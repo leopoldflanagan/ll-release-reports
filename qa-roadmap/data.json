@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T20:00:30+00:00",
+ "generated_at": "2026-09-03T20:14:28+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -3911,8 +3911,8 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-09-02T09:47:14.507-0700",
@@ -3935,8 +3935,8 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-09-02T09:45:06.218-0700",
@@ -4077,7 +4077,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.7.1",
+   "fv": "R9.8",
    "sprint": "LL-Sprint 21-26",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Vivienne Chawande",
