@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T18:45:25+00:00",
+ "generated_at": "2026-09-03T18:51:34+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -1730,6 +1730,30 @@
    "theme": "",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21681",
+   "name": "DCA - Core Plan Bug",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7.1",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T07:52:28.551-0700",
+   "resolved": "",
+   "due": "2026-09-02",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4189,30 +4213,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21681",
-   "name": "DCA - Core Plan Bug",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7.1",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T07:52:28.551-0700",
-   "resolved": "",
-   "due": "2026-09-02",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-22177",
