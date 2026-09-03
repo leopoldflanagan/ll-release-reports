@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T14:49:40+00:00",
+ "generated_at": "2026-09-03T15:00:32+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -4024,30 +4024,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22149",
-   "name": "PMP- Broken - Unable to Purchase Multiple Ad Hoc Plans via Add Member Flow - First Member Details Replaced by Second Member",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-31T16:58:59.073-0700",
-   "resolved": "",
-   "due": "2026-09-04",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22112",
    "name": "UI - User no access to Organization Dashboard via menu can access with URL",
    "pod": "PLANS",
@@ -4182,6 +4158,30 @@
    "due": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22149",
+   "name": "PMP- Broken - Unable to Purchase Multiple Ad Hoc Plans via Add Member Flow - First Member Details Replaced by Second Member",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-31T16:58:59.073-0700",
+   "resolved": "",
+   "due": "2026-09-04",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -22575,27 +22575,6 @@
    "prio": "3: Standard",
    "created": "2026-05-18T07:35:09.349-0700",
    "resolved": "2026-06-05T08:19:44.463-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-10522",
-   "name": "Member Portal \\ Add Plan \\ 2024 Plan cards are being displayed",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 14-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2025-11-14T11:42:22.765-0800",
-   "resolved": "2026-06-05T07:51:15.336-0700",
    "due": "",
    "labels": [],
    "theme": "",
