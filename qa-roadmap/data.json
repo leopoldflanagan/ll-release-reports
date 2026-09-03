@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T03:00:29+00:00",
+ "generated_at": "2026-09-03T03:15:26+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -1730,30 +1730,6 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21852",
-   "name": "Plan Auto-Renewal Receipt \\ Email is getting triggered after a manual renewal",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "4: Low",
-   "created": "2026-08-26T07:39:20.800-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4086,6 +4062,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21852",
+   "name": "Plan Auto-Renewal Receipt \\ Email is getting triggered after a manual renewal",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "4: Low",
+   "created": "2026-08-26T07:39:20.800-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
