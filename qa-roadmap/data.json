@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T03:45:22+00:00",
+ "generated_at": "2026-09-03T04:00:29+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -1691,7 +1691,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "sprint": "LL-Sprint 21-26",
    "who": "Srinivas Reddy",
    "reporter": "Anuradhi Wickramasinghe",
@@ -4146,8 +4146,8 @@
    "key": "PLANS-22182",
    "name": "Fees are not populating for Office or Wellfit.",
    "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
+   "status": "Closed",
+   "cat": "To Do",
    "fv": "R9.7",
    "sprint": null,
    "who": "Chris Rubio",
