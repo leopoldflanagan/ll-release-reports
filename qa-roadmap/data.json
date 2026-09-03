@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T06:30:27+00:00",
+ "generated_at": "2026-09-03T06:45:23+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -4191,30 +4191,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22097",
-   "name": "Audit-log writes fail when the \"who did it\" field is too long — affects consent records and Bill-to-Office switches",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "2: Important",
-   "created": "2026-08-31T04:46:38.889-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21999",
    "name": "Stage - DCA - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
    "pod": "PLANS",
@@ -5531,6 +5507,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22097",
+   "name": "Audit-log writes fail when the \"who did it\" field is too long — affects consent records and Bill-to-Office switches",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "2: Important",
+   "created": "2026-08-31T04:46:38.889-0700",
+   "resolved": "2026-09-02T23:42:36.157-0700",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22182",
    "name": "Fees are not populating for Office or Wellfit.",
