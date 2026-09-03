@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T14:38:25+00:00",
+ "generated_at": "2026-09-03T14:45:27+00:00",
  "today": "2026-09-03",
  "features": [
   {
@@ -938,7 +938,7 @@
    "name": "ach-signed-authorization-lane",
    "status": "In Development",
    "ted": "2026-09-24",
-   "fv": "R9.6.6",
+   "fv": "H9.6.6",
    "who": "Unassigned",
    "tshirt": null,
    "pod": "PLAT",
@@ -1667,7 +1667,7 @@
    "pod": "PLAT",
    "proj": "PLAT",
    "status": "In Development",
-   "fv": "R9.6.6",
+   "fv": "H9.6.6",
    "ted": "2026-09-24",
    "who": "Unassigned",
    "theme": "ACH-Fast Follows"
