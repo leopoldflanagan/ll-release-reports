@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T09:00:26+00:00",
+ "generated_at": "2026-09-04T09:15:23+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -1892,30 +1892,6 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20111",
-   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards , Plan details and Membership agreements",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22T08:47:16.230-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -4189,6 +4165,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-20111",
+   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards , Plan details and Membership agreements",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-22T08:47:16.230-0700",
+   "resolved": "",
+   "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-22177",
