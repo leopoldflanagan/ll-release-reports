@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T14:15:23+00:00",
+ "generated_at": "2026-09-04T14:28:28+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -71,7 +71,7 @@
    "status": "Requirements",
    "ted": null,
    "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
+   "who": "Daniel Marineni",
    "tshirt": null
   },
   {
@@ -234,7 +234,7 @@
    "name": "Launch Loyalty Migration Emails",
    "status": "In Development",
    "ted": "2026-08-26",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "who": "Rojesh Thapa",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -785,7 +785,7 @@
    "status": "Requirements",
    "ted": null,
    "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
+   "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -868,17 +868,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-21976",
-   "name": "Plans Dashboard Enhancements for ACH Transactions",
-   "status": "Idea",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "ACH"
-  },
-  {
    "key": "DYN-1030",
    "name": "Ach Emails WFP Non Plans",
    "status": "Blocked",
@@ -934,6 +923,17 @@
    "theme": "ACH-Fast Follows"
   },
   {
+   "key": "PLANS-21976",
+   "name": "Plans Dashboard Enhancements for ACH Transactions",
+   "status": "Idea",
+   "ted": null,
+   "fv": null,
+   "who": "Unassigned",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "ACH-Fast Follows"
+  },
+  {
    "key": "PLAT-5763",
    "name": "ach-signed-authorization-lane",
    "status": "In Development",
@@ -963,7 +963,7 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Development",
-   "fv": "R9.7",
+   "fv": "R9.8",
    "ted": "2026-08-26",
    "who": "Rojesh Thapa",
    "theme": "LL-MVP"
@@ -1515,7 +1515,7 @@
    "status": "Requirements",
    "fv": "R9.8",
    "ted": null,
-   "who": "Dmytro Tymofiienko",
+   "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1596,17 +1596,6 @@
    "theme": "ACH"
   },
   {
-   "key": "PLANS-21976",
-   "name": "Plans Dashboard Enhancements for ACH Transactions",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Idea",
-   "fv": null,
-   "ted": null,
-   "who": "Unassigned",
-   "theme": "ACH"
-  },
-  {
    "key": "DYN-1030",
    "name": "Ach Emails WFP Non Plans",
    "pod": "DYN",
@@ -1659,6 +1648,17 @@
    "fv": "R9.8",
    "ted": null,
    "who": "Dmytro Tymofiienko",
+   "theme": "ACH-Fast Follows"
+  },
+  {
+   "key": "PLANS-21976",
+   "name": "Plans Dashboard Enhancements for ACH Transactions",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": null,
+   "ted": null,
+   "who": "Unassigned",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -1966,6 +1966,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22486",
+   "name": "Plan details - custom logos are missing",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-04T07:26:01.892-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4048,30 +4069,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22417",
-   "name": "Prod/Member Portal/Phone number is incorrect in Plan Card",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-09-03T09:03:42.589-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22150",
    "name": "Stage - PMP - Manage Patients - Unable to add a member using a DSO admin user",
    "pod": "PLANS",
@@ -4157,6 +4154,30 @@
    "created": "2026-07-22T08:47:16.230-0700",
    "resolved": "",
    "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22417",
+   "name": "Prod/Member Portal/Phone number is incorrect in Plan Card",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-09-03T09:03:42.589-0700",
+   "resolved": "",
+   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -22685,6 +22706,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22487",
+   "name": "Plan Confirmation Receipt / Missing email for DCA members who purchased a plan using ACH payment method",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-22479",
    "name": "Provider Portal: unreachable legal-language source blocks the purchase button",
