@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T21:00:28+00:00",
+ "generated_at": "2026-09-04T21:12:51+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -3853,6 +3853,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22516",
+   "name": "Marketing Details - Misspelling",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-09-04T14:05:01.268-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
