@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T17:45:23+00:00",
+ "generated_at": "2026-09-04T17:49:46+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -5192,30 +5192,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-16403",
-   "name": "Member portal - missing logo and profile icon misalignment",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-05-20T09:29:42.546-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-15258",
    "name": "Member portal - Treatment Summary page UI has changed / no back button/ Export button",
    "pod": "LL",
@@ -5659,6 +5635,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-16403",
+   "name": "Member portal - missing logo and profile icon misalignment",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-05-20T09:29:42.546-0700",
+   "resolved": "2026-09-04T10:48:26.925-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21114",
    "name": "[PMP]-Cannot close the \"Add payment method\" modal",
