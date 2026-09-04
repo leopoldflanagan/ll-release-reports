@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T19:36:39+00:00",
+ "generated_at": "2026-09-04T19:45:27+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -1926,6 +1926,27 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22503",
+   "name": "Preprod - Plan Details - Provider URL is not correct",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.7",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Chris Rubio",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-04T12:32:08.615-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -22927,13 +22948,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22503",
-   "name": "Preprod - Plan Details - Provider URL is not correct",
-   "status": "Backlog",
-   "who": "Chris Rubio",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-22497",
    "name": "Careington test-file error remediation (COMBINED ticket)",
