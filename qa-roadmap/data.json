@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T16:45:22+00:00",
+ "generated_at": "2026-09-04T16:49:17+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -113,7 +113,7 @@
   {
    "key": "PLANS-17582",
    "name": "Bulk Sellable Acceptable",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": null,
    "who": "Dmytro Tymofiienko",
@@ -353,7 +353,7 @@
   {
    "key": "PLANS-17582",
    "name": "Bulk Sellable Acceptable",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": null,
    "who": "Dmytro Tymofiienko",
@@ -1039,7 +1039,7 @@
    "name": "Bulk Sellable Acceptable",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": null,
    "ted": null,
    "who": "Dmytro Tymofiienko",
