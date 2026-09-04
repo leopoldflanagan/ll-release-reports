@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T18:00:30+00:00",
+ "generated_at": "2026-09-04T18:15:19+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -5073,30 +5073,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21178",
-   "name": "Smile Health - Responsive menu displays behind hero image",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-13T07:11:52.332-0700",
-   "resolved": "",
-   "due": "2026-08-27",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21041",
    "name": "PMP - One smile - membership card not loaded in member account information",
    "pod": "LL",
@@ -5659,6 +5635,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21178",
+   "name": "Smile Health - Responsive menu displays behind hero image",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Mariano Hernández",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-13T07:11:52.332-0700",
+   "resolved": "2026-09-04T11:08:31.199-0700",
+   "due": "2026-08-27",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-16403",
    "name": "Member portal - missing logo and profile icon misalignment",
