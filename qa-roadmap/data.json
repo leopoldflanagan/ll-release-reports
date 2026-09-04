@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T19:30:27+00:00",
+ "generated_at": "2026-09-04T19:36:39+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -22927,6 +22927,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22503",
+   "name": "Preprod - Plan Details - Provider URL is not correct",
+   "status": "Backlog",
+   "who": "Chris Rubio",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-22497",
    "name": "Careington test-file error remediation (COMBINED ticket)",
