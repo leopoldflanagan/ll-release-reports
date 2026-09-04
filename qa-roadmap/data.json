@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T13:49:54+00:00",
+ "generated_at": "2026-09-04T14:00:28+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -4096,29 +4096,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22112",
-   "name": "UI - User no access to Organization Dashboard via menu can access with URL",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "4: Low",
-   "created": "2026-08-31T08:22:31.138-0700",
-   "resolved": "",
-   "due": "2026-09-04",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -4254,6 +4231,29 @@
    "due": "",
    "labels": [
     "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22112",
+   "name": "UI - User no access to Organization Dashboard via menu can access with URL",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "4: Low",
+   "created": "2026-08-31T08:22:31.138-0700",
+   "resolved": "",
+   "due": "2026-09-04",
+   "labels": [
     "product_prioritized"
    ],
    "theme": "",
