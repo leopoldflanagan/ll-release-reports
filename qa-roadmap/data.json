@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T19:00:28+00:00",
+ "generated_at": "2026-09-04T19:10:45+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -3866,7 +3866,7 @@
   },
   {
    "key": "PLANS-22487",
-   "name": "Plan Confirmation Receipt / Missing email for DCA members who purchased a plan using ACH payment method",
+   "name": "Plan Confirmation Receipt / Missing email for all plan types",
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
