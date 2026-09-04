@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T16:37:11+00:00",
+ "generated_at": "2026-09-04T16:45:22+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -3832,6 +3832,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22499",
+   "name": "PRODUCTION - DCA Plan - Explore Savings",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7.2",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-04T09:42:50.153-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
