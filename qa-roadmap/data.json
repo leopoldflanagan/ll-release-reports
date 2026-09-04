@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T14:40:08+00:00",
+ "generated_at": "2026-09-04T14:45:21+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -1970,20 +1970,23 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22486",
-   "name": "Plan details - custom logos are missing",
+   "key": "PLANS-22479",
+   "name": "Provider Portal: unreachable legal-language source blocks the purchase button",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 21-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-04T07:26:01.892-0700",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Denys Kernychnyi",
+   "prio": "2: Important",
+   "created": "2026-09-04T02:32:44.219-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3869,6 +3872,54 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22487",
+   "name": "Plan Confirmation Receipt / Missing email for DCA members who purchased a plan using ACH payment method",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-04T07:27:59.476-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22486",
+   "name": "Plan details - custom logos are missing",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-04T07:26:01.892-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -22706,20 +22757,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22487",
-   "name": "Plan Confirmation Receipt / Missing email for DCA members who purchased a plan using ACH payment method",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-22479",
-   "name": "Provider Portal: unreachable legal-language source blocks the purchase button",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Denys Kernychnyi"
-  },
   {
    "key": "PLANS-22413",
    "name": "Stage/PMP/Multipractice/Plans Purchase/Practice Name dropdown/ Dental care alliance practices are not displayed in the nested group",
