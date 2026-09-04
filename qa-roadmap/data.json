@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T07:15:25+00:00",
+ "generated_at": "2026-09-04T07:30:26+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -22685,6 +22685,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22478",
+   "name": "Smile Health: Additional Member Savings section disappears when a coverage level's caption differs from its name",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vasyl Skochko"
+  },
   {
    "key": "PLANS-22413",
    "name": "Stage/PMP/Multipractice/Plans Purchase/Practice Name dropdown/ Dental care alliance practices are not displayed in the nested group",
