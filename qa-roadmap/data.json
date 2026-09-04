@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T18:30:23+00:00",
+ "generated_at": "2026-09-04T18:39:03+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -4929,30 +4929,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21710",
-   "name": "Member portal - Downloading the card to wallet is not working",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Sushma Bankar",
-   "prio": "3: Standard",
-   "created": "2026-08-21T15:10:43.634-0700",
-   "resolved": "",
-   "due": "2026-09-04",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21682",
    "name": "Tie Plan Multi Practice View Upgrade| Disabled offices shown on search",
    "pod": "PLANS",
@@ -5635,6 +5611,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21710",
+   "name": "Member portal - Downloading the card to wallet is not working",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Sushma Bankar",
+   "prio": "3: Standard",
+   "created": "2026-08-21T15:10:43.634-0700",
+   "resolved": "2026-09-04T11:31:05.537-0700",
+   "due": "2026-09-04",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21178",
    "name": "Smile Health - Responsive menu displays behind hero image",
