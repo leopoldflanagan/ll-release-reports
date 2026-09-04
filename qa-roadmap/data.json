@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T12:30:27+00:00",
+ "generated_at": "2026-09-04T12:45:22+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -22691,13 +22691,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Denys Kernychnyi"
-  },
-  {
-   "key": "PLANS-22478",
-   "name": "Smile Health: Additional Member Savings section disappears when a coverage level's caption differs from its name",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vasyl Skochko"
   },
   {
    "key": "PLANS-22413",
