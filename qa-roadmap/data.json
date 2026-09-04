@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T09:30:28+00:00",
+ "generated_at": "2026-09-04T09:45:23+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -22685,6 +22685,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22479",
+   "name": "Provider Portal: unreachable legal-language source blocks the purchase button",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Denys Kernychnyi"
+  },
   {
    "key": "PLANS-22478",
    "name": "Smile Health: Additional Member Savings section disappears when a coverage level's caption differs from its name",
