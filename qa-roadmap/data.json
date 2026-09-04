@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T14:49:27+00:00",
+ "generated_at": "2026-09-04T15:00:26+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -2018,6 +2018,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22322",
+   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-02T16:08:49.542-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22171",
    "name": "CSP \\ DCA plan outside of renew window defaults to \"Late Renewal\" instead of \"Late Renewal 60 Plus\" during renewal",
    "pod": "PLANS",
@@ -3922,7 +3946,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3940,6 +3964,102 @@
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-09-03T10:07:59.529-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22318",
+   "name": "Preprod - PMP - CC status is updated after adding a new member to the plan.",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-09-02T13:58:59.907-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22316",
+   "name": "Preprod issue - ACH Member Portal - when navigate to payments page and come back to overview page > auto renewal setting set to OFF",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-02T13:07:02.033-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22310",
+   "name": "Preprod \\ Member Portal is not showing a warning message for members with ACH payment method",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Vasyl Skochko",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-02T12:38:40.914-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22307",
+   "name": "Preprod \\ Member Portal is not showing the ACH Payment method as it does in STG",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-02T12:25:09.298-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -5228,6 +5348,27 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22317",
+   "name": "Preprod- Member Portal - ACH purchase is not displayed in Transactions",
+   "pod": "LL",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-09-02T13:38:10.857-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -22770,48 +22911,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-22322",
-   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-22318",
-   "name": "Preprod - PMP - CC status is updated after adding a new member to the plan.",
-   "status": "Ready for Development",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera"
-  },
-  {
-   "key": "PLANS-22317",
-   "name": "Preprod- Member Portal - ACH purchase is not displayed in Transactions",
-   "status": "Ready for Development",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera"
-  },
-  {
-   "key": "PLANS-22316",
-   "name": "Preprod issue - ACH Member Portal - when navigate to payments page and come back to overview page > auto renewal setting set to OFF",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-22310",
-   "name": "Preprod \\ Member Portal is not showing a warning message for members with ACH payment method",
-   "status": "Backlog",
-   "who": "Vasyl Skochko",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-22307",
-   "name": "Preprod \\ Member Portal is not showing the ACH Payment method as it does in STG",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-22301",
