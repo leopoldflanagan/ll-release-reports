@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T15:00:26+00:00",
+ "generated_at": "2026-09-04T15:14:59+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -185,7 +185,7 @@
   {
    "key": "PLANS-18909",
    "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-08",
    "fv": "R9.8",
    "who": "Valentyna Tenus",
@@ -551,7 +551,7 @@
   {
    "key": "PLANS-18909",
    "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-08",
    "fv": "R9.8",
    "who": "Valentyna Tenus",
@@ -1281,7 +1281,7 @@
    "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
    "ted": "2026-09-08",
    "who": "Valentyna Tenus",
@@ -4958,30 +4958,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21667",
-   "name": "Member Portal<Stage<E-Consent not displaying while ADD Member for Adult, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-20T21:59:48.328-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21254",
    "name": "ACH<PMP<Deleting Credit Card shows wrong message \"Bank account deleted\"",
    "pod": "LL",
@@ -5747,6 +5723,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21667",
+   "name": "Member Portal<Stage<E-Consent not displaying while ADD Member for Adult, but while ADD Plan it display<PMP display E-consent while performing ADD Member",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-20T21:59:48.328-0700",
+   "resolved": "2026-09-04T08:03:15.723-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21681",
    "name": "DCA - Core Plan Bug",
