@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T22:13:39+00:00",
+ "generated_at": "2026-09-04T22:15:22+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -1597,6 +1597,30 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-22501",
+   "name": "UI Improvement for PMP",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Mariano Hernández",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-09-04T10:50:56.259-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22496",
    "name": "PRODUCTION - Email is not editable in PMP",
@@ -3876,30 +3900,6 @@
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-09-04T12:54:45.047-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22501",
-   "name": "UI Improvement for PMP",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Mariano Hernández",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-09-04T10:50:56.259-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -23022,7 +23022,7 @@
  "nopod": [
   {
    "key": "PLANS-22520",
-   "name": "Stage/PMP/Additional Benefit Card/Blank space is displayed for Custom Logo - Plan Name area in the header",
+   "name": "Stage/PMP/Additional Benefit Card/PDF / Blank space is displayed for Custom Logo - Plan Name area in the header",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
