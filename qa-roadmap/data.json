@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T20:14:26+00:00",
+ "generated_at": "2026-09-04T20:15:21+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -40,7 +40,7 @@
   },
   {
    "key": "PLANS-18881",
-   "name": "Marketin Details - Driving Smile Health",
+   "name": "Marketing Details - Driving Smile Health",
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
@@ -95,7 +95,7 @@
   {
    "key": "PLANS-21454",
    "name": "Joint Legal Language - Add Member/Auto-Renewal",
-   "status": "Idea",
+   "status": "Requirements",
    "ted": "2026-09-14",
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
@@ -495,7 +495,7 @@
   },
   {
    "key": "PLANS-18881",
-   "name": "Marketin Details - Driving Smile Health",
+   "name": "Marketing Details - Driving Smile Health",
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
@@ -672,7 +672,7 @@
   {
    "key": "PLANS-21454",
    "name": "Joint Legal Language - Add Member/Auto-Renewal",
-   "status": "Idea",
+   "status": "Requirements",
    "ted": "2026-09-14",
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
@@ -1179,7 +1179,7 @@
   },
   {
    "key": "PLANS-18881",
-   "name": "Marketin Details - Driving Smile Health",
+   "name": "Marketing Details - Driving Smile Health",
    "pod": "LL",
    "proj": "PLANS",
    "status": "Architecture",
@@ -1358,7 +1358,7 @@
    "name": "Joint Legal Language - Add Member/Auto-Renewal",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "Requirements",
    "fv": "R9.8",
    "ted": "2026-09-14",
    "who": "Dmytro Tymofiienko",
