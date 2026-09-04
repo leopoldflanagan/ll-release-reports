@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T20:00:25+00:00",
+ "generated_at": "2026-09-04T20:14:26+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -3877,6 +3877,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22514",
+   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-04T13:11:18.188-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
     "product_prioritized"
    ],
    "theme": "",
@@ -22975,7 +22999,7 @@
   {
    "key": "PLANS-22497",
    "name": "Careington test-file error remediation (COMBINED ticket)",
-   "status": "In Development",
+   "status": "PR Created",
    "who": "David Jones",
    "reporter": "Sushma Bankar"
   },
