@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T23:30:25+00:00",
+ "generated_at": "2026-09-04T23:35:50+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -4377,7 +4377,7 @@
    "sprint": "LL-Sprint 21-26",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-07-22T08:47:16.230-0700",
    "resolved": "",
    "due": "2026-08-31",
