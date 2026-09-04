@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T14:45:21+00:00",
+ "generated_at": "2026-09-04T14:49:27+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -750,7 +750,7 @@
    "key": "PLANS-21837",
    "name": "Age Restrictions on Sales",
    "status": "Idea",
-   "ted": null,
+   "ted": "2026-09-11",
    "fv": "R9.8",
    "who": "Daniel Marineni",
    "tshirt": null,
@@ -1481,7 +1481,7 @@
    "proj": "PLANS",
    "status": "Idea",
    "fv": "R9.8",
-   "ted": null,
+   "ted": "2026-09-11",
    "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
