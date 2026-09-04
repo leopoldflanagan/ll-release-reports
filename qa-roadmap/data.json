@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T19:49:01+00:00",
+ "generated_at": "2026-09-04T20:00:25+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -3877,6 +3877,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22512",
+   "name": "Production - PMP Setting - Website",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.7.2",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-09-04T12:54:45.047-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
