@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T16:00:29+00:00",
+ "generated_at": "2026-09-04T16:15:22+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -413,17 +413,6 @@
    "fv": null,
    "who": "Vic Du Plessis",
    "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-17731",
-   "name": "DSO Plan Payment Feature",
-   "status": "Idea",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": "Large",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -1142,17 +1131,6 @@
    "fv": null,
    "ted": null,
    "who": "Vic Du Plessis",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-17731",
-   "name": "DSO Plan Payment Feature",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Idea",
-   "fv": null,
-   "ted": null,
-   "who": "Unassigned",
    "theme": "LL-Fast Follows"
   },
   {
@@ -22922,6 +22900,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22497",
+   "name": "Careington test-file error remediation (COMBINED ticket)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Sushma Bankar"
+  },
   {
    "key": "PLANS-22492",
    "name": "delete",
