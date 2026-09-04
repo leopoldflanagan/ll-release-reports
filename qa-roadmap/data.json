@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T23:35:50+00:00",
+ "generated_at": "2026-09-04T23:45:22+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -3835,6 +3835,27 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22520",
+   "name": "Stage/PMP/Additional Benefit Card/PDF / Blank space is displayed for Custom Logo - Plan Name area in the header",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-09-04T15:09:37.422-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23045,25 +23066,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-22520",
-   "name": "Stage/PMP/Additional Benefit Card/PDF / Blank space is displayed for Custom Logo - Plan Name area in the header",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
    "key": "PLANS-22497",
    "name": "Careington test-file error remediation (COMBINED ticket)",
    "status": "PR Merged",
    "who": "David Jones",
    "reporter": "Sushma Bankar"
-  },
-  {
-   "key": "PLANS-22492",
-   "name": "delete",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
   },
   {
    "key": "PLANS-22413",
