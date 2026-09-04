@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T16:16:08+00:00",
+ "generated_at": "2026-09-04T16:30:28+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -341,7 +341,7 @@
   },
   {
    "key": "PLANS-16750",
-   "name": "Plan Office Payment Enhancement",
+   "name": "PBO Arrangements (Provider Portal & Wellfit Pay): Show Refunds and Adjustments (Crosby Bug)",
    "status": "Requirements",
    "ted": null,
    "fv": "R9.8",
@@ -384,34 +384,12 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-17724",
-   "name": "UCR Bulk Upload for PMP",
-   "status": "Idea",
-   "ted": null,
-   "fv": null,
-   "who": "Vic Du Plessis",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-17726",
-   "name": "Goals Dashboard",
+   "name": "DELETE - Goals Dashboard",
    "status": "Idea",
    "ted": null,
    "fv": "R9.9",
    "who": "Camille Knight",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-17727",
-   "name": "Show Provider by Office for Website",
-   "status": "Idea",
-   "ted": null,
-   "fv": null,
-   "who": "Vic Du Plessis",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -423,17 +401,6 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Daniel Marineni",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-17746",
-   "name": "Benefit Usage and Office Assignment",
-   "status": "Idea",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -1058,7 +1025,7 @@
   },
   {
    "key": "PLANS-16750",
-   "name": "Plan Office Payment Enhancement",
+   "name": "PBO Arrangements (Provider Portal & Wellfit Pay): Show Refunds and Adjustments (Crosby Bug)",
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Requirements",
@@ -1101,36 +1068,14 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-17724",
-   "name": "UCR Bulk Upload for PMP",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Idea",
-   "fv": null,
-   "ted": null,
-   "who": "Vic Du Plessis",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-17726",
-   "name": "Goals Dashboard",
+   "name": "DELETE - Goals Dashboard",
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Idea",
    "fv": "R9.9",
    "ted": null,
    "who": "Camille Knight",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-17727",
-   "name": "Show Provider by Office for Website",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Idea",
-   "fv": null,
-   "ted": null,
-   "who": "Vic Du Plessis",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1142,17 +1087,6 @@
    "fv": "R9.9",
    "ted": null,
    "who": "Daniel Marineni",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-17746",
-   "name": "Benefit Usage and Office Assignment",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "Idea",
-   "fv": null,
-   "ted": null,
-   "who": "Unassigned",
    "theme": "LL-Fast Follows"
   },
   {
@@ -22903,8 +22837,8 @@
   {
    "key": "PLANS-22497",
    "name": "Careington test-file error remediation (COMBINED ticket)",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "David Jones",
    "reporter": "Sushma Bankar"
   },
   {
