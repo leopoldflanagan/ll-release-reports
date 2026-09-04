@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T17:30:26+00:00",
+ "generated_at": "2026-09-04T17:36:42+00:00",
  "today": "2026-09-04",
  "features": [
   {
@@ -5073,30 +5073,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21114",
-   "name": "[PMP]-Cannot close the \"Add payment method\" modal",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-12T12:07:58.603-0700",
-   "resolved": "",
-   "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "Yes",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21041",
    "name": "PMP - One smile - membership card not loaded in member account information",
    "pod": "LL",
@@ -5683,6 +5659,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21114",
+   "name": "[PMP]-Cannot close the \"Add payment method\" modal",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-08-12T12:07:58.603-0700",
+   "resolved": "2026-09-04T10:33:29.940-0700",
+   "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "Yes",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21191",
    "name": "Denticon: job re-ingests its own output reports; blank-name rows fail with exception instead of clean no-match",
