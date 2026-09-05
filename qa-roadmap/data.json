@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-04T23:48:48+00:00",
- "today": "2026-09-04",
+ "generated_at": "2026-09-05T00:00:27+00:00",
+ "today": "2026-09-05",
  "features": [
   {
    "key": "PLANS-21011",
@@ -3922,7 +3922,7 @@
    "sprint": "Plans-Sprint 21-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-09-04T12:54:45.047-0700",
    "resolved": "",
    "due": "",
