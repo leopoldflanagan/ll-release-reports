@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T18:30:23+00:00",
+ "generated_at": "2026-09-06T18:45:19+00:00",
  "today": "2026-09-06",
  "features": [
   {
@@ -22961,27 +22961,6 @@
    "prio": "3: Standard",
    "created": "2026-06-01T10:41:05.243-0700",
    "resolved": "2026-06-08T16:49:36.644-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-10300",
-   "name": "Member Portal | ADD PLAN button is missing ; RP plan purchased from SGDP site ; minor has a kids plan (practice sells both plans)",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 14-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2025-11-04T13:42:47.528-0800",
-   "resolved": "2026-06-08T11:44:34.280-0700",
    "due": "",
    "labels": [],
    "theme": "",
