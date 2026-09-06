@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T16:45:20+00:00",
+ "generated_at": "2026-09-06T17:00:28+00:00",
  "today": "2026-09-06",
  "features": [
   {
@@ -23024,27 +23024,6 @@
    "prio": "3: Standard",
    "created": "2026-06-05T08:59:48.867-0700",
    "resolved": "2026-06-08T10:26:59.070-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-16538",
-   "name": "Patient ID (PMS ID) missing from Purchase Plan page.",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 14-26",
-   "who": "David Jones",
-   "reporter": "Michael McNulty",
-   "prio": "3: Standard",
-   "created": "2026-05-21T06:38:02.530-0700",
-   "resolved": "2026-06-08T09:54:16.108-0700",
    "due": "",
    "labels": [],
    "theme": "",
