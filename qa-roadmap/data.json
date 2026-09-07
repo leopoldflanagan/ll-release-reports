@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T11:15:24+00:00",
+ "generated_at": "2026-09-07T11:30:22+00:00",
  "today": "2026-09-07",
  "features": [
   {
@@ -77,7 +77,7 @@
   {
    "key": "PLANS-21975",
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
-   "status": "Idea",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
@@ -870,7 +870,7 @@
   {
    "key": "PLANS-21975",
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
-   "status": "Idea",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
@@ -1556,7 +1556,7 @@
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "In Development",
    "fv": "R9.8",
    "ted": null,
    "who": "Dmytro Tymofiienko",
