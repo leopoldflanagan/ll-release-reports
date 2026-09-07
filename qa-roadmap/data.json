@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-06T23:45:27+00:00",
- "today": "2026-09-06",
+ "generated_at": "2026-09-07T00:00:29+00:00",
+ "today": "2026-09-07",
  "features": [
   {
    "key": "PLANS-21011",
@@ -22926,48 +22926,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-17654",
-   "name": "SGDP Portal \\ Membership Agreement version for CA plans are using an older version",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-06-08T12:52:16.687-0700",
-   "resolved": "2026-06-08T16:50:49.332-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-17055",
-   "name": "Provider Portal \\ Treatment Summary expansion fails to open for Crosby Dental Center",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "LL-Sprint 15-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-06-01T10:41:05.243-0700",
-   "resolved": "2026-06-08T16:49:36.644-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
@@ -22981,11 +22939,6 @@
   }
  ],
  "weeks": [
-  {
-   "label": "Aug 31–Sep 6",
-   "start": "2026-08-31",
-   "end": "2026-09-06"
-  },
   {
    "label": "Sep 7–13",
    "start": "2026-09-07",
@@ -23015,6 +22968,11 @@
    "label": "Oct 12–18",
    "start": "2026-10-12",
    "end": "2026-10-18"
+  },
+  {
+   "label": "Oct 19–25",
+   "start": "2026-10-19",
+   "end": "2026-10-25"
   }
  ]
 }
