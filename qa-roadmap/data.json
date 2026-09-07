@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T10:15:21+00:00",
+ "generated_at": "2026-09-07T10:30:22+00:00",
  "today": "2026-09-07",
  "features": [
   {
@@ -4088,7 +4088,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-09-02T12:25:09.298-0700",
