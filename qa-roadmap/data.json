@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T15:00:27+00:00",
+ "generated_at": "2026-09-07T15:14:31+00:00",
  "today": "2026-09-07",
  "features": [
   {
@@ -22930,6 +22930,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22602",
+   "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Dima Shtympel"
+  },
   {
    "key": "PLANS-22328",
    "name": "Smile health - UI -",
