@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T07:30:25+00:00",
+ "generated_at": "2026-09-07T07:45:22+00:00",
  "today": "2026-09-07",
  "features": [
   {
@@ -4016,7 +4016,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-02T13:07:02.033-0700",
