@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T09:15:23+00:00",
+ "generated_at": "2026-09-07T09:30:24+00:00",
  "today": "2026-09-07",
  "features": [
   {
@@ -87,15 +87,6 @@
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
    "status": "Idea",
-   "ted": "2026-09-14",
-   "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
-   "tshirt": null
-  },
-  {
-   "key": "PLANS-21454",
-   "name": "Joint Legal Language - Add Member/Auto-Renewal",
-   "status": "Requirements",
    "ted": "2026-09-14",
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
@@ -199,6 +190,15 @@
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-21454",
+   "name": "Joint Legal Language - Add Member/Auto-Renewal",
+   "status": "Architecture",
+   "ted": "2026-09-14",
+   "fv": "R9.8",
+   "who": "Vasyl Skochko",
+   "tshirt": null
   },
   {
    "key": "PLANS-18413",
@@ -672,10 +672,10 @@
   {
    "key": "PLANS-21454",
    "name": "Joint Legal Language - Add Member/Auto-Renewal",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": "2026-09-14",
    "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
+   "who": "Vasyl Skochko",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1358,10 +1358,10 @@
    "name": "Joint Legal Language - Add Member/Auto-Renewal",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": "R9.8",
    "ted": "2026-09-14",
-   "who": "Dmytro Tymofiienko",
+   "who": "Vasyl Skochko",
    "theme": "LL-Fast Follows"
   },
   {
