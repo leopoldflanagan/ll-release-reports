@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T10:30:22+00:00",
+ "generated_at": "2026-09-07T10:45:22+00:00",
  "today": "2026-09-07",
  "features": [
   {
@@ -4081,30 +4081,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22307",
-   "name": "Preprod \\ Member Portal is not showing the ACH Payment method as it does in STG",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Vasyl Skochko",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-02T12:25:09.298-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22300",
    "name": "One Smile Plan - Website - WA Plan",
    "pod": "PLANS",
@@ -4755,6 +4731,30 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22307",
+   "name": "Preprod \\ Member Portal is not showing the ACH Payment method as it does in STG",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Vasyl Skochko",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-02T12:25:09.298-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
