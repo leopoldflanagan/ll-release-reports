@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T14:16:45+00:00",
+ "generated_at": "2026-09-07T14:30:26+00:00",
  "today": "2026-09-07",
  "features": [
   {
@@ -1918,6 +1918,29 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-06-24T05:26:17.589-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-16717",
+   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "3: Standard",
+   "created": "2026-05-22T05:07:37.122-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -4601,29 +4624,6 @@
    "theme": "",
    "triage": "",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-16717",
-   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "3: Standard",
-   "created": "2026-05-22T05:07:37.122-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
