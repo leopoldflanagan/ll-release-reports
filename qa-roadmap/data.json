@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T06:30:25+00:00",
+ "generated_at": "2026-09-07T06:45:21+00:00",
  "today": "2026-09-07",
  "features": [
   {
@@ -3848,7 +3848,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-09-04T15:09:37.422-0700",
