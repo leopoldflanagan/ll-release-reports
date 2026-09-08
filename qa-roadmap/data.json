@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T19:49:45+00:00",
+ "generated_at": "2026-09-08T20:00:28+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -4951,30 +4951,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21682",
-   "name": "Tie Plan Multi Practice View Upgrade| Disabled offices shown on search",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-21T08:08:24.886-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21609",
    "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
    "pod": "LL",
@@ -5729,6 +5705,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21682",
+   "name": "Tie Plan Multi Practice View Upgrade| Disabled offices shown on search",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-21T08:08:24.886-0700",
+   "resolved": "2026-09-08T12:54:33.872-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20956",
    "name": "Smile Health - AD PMP - Plans in infinite loading state when \"Is Administered By\" is set to \"Careington CA\"",
