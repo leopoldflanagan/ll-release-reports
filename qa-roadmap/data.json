@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T20:14:33+00:00",
+ "generated_at": "2026-09-08T20:15:22+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -5672,30 +5672,6 @@
    "due": "",
    "labels": [
     "JSM"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22496",
-   "name": "PRODUCTION - Email is not editable in PMP",
-   "pod": "PLANS",
-   "status": "In PreProd",
-   "cat": "To Do",
-   "fv": "R9.7.2",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-04T08:51:56.449-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
