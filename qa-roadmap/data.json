@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T23:30:25+00:00",
+ "generated_at": "2026-09-08T23:36:51+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -4615,30 +4615,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22149",
-   "name": "PMP- Broken - Unable to Purchase Multiple Ad Hoc Plans via Add Member Flow - First Member Details Replaced by Second Member",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-31T16:58:59.073-0700",
-   "resolved": "",
-   "due": "2026-09-04",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22146",
    "name": "Provider Portal-CrosBy and SGDP TN plans-Export Payment receipt is giving 500 sever error",
    "pod": "PLANS",
@@ -5465,6 +5441,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22149",
+   "name": "PMP- Broken - Unable to Purchase Multiple Ad Hoc Plans via Add Member Flow - First Member Details Replaced by Second Member",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-31T16:58:59.073-0700",
+   "resolved": "2026-09-08T16:35:16.697-0700",
+   "due": "2026-09-04",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21852",
    "name": "Plan Auto-Renewal Receipt \\ Email is getting triggered after a manual renewal",
