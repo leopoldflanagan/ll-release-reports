@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T14:30:24+00:00",
+ "generated_at": "2026-09-08T14:39:32+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -3864,6 +3864,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22617",
+   "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-08T07:31:34.010-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22535",
    "name": "Plan Logo for Welcome Emails",
    "pod": "PLANS",
@@ -4798,29 +4822,6 @@
    "due": "",
    "labels": [
     "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22112",
-   "name": "UI - User no access to Organization Dashboard via menu can access with URL",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "4: Low",
-   "created": "2026-08-31T08:22:31.138-0700",
-   "resolved": "",
-   "due": "2026-09-04",
-   "labels": [
     "product_prioritized"
    ],
    "theme": "",
@@ -5776,6 +5777,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22112",
+   "name": "UI - User no access to Organization Dashboard via menu can access with URL",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "4: Low",
+   "created": "2026-08-31T08:22:31.138-0700",
+   "resolved": "2026-09-08T07:37:21.813-0700",
+   "due": "2026-09-04",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21999",
    "name": "Stage - DCA - PMP - Manage Patients - The Benefit Summary tab is not displayed for Deluxe plan",
