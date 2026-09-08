@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T14:45:26+00:00",
+ "generated_at": "2026-09-08T14:49:31+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -1907,6 +1907,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20768",
+   "name": "Migrated Plans - Exclusions - Inconsistent behavior",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-05T10:19:39.597-0700",
+   "resolved": "",
+   "due": "2026-09-10",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20133",
    "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
    "pod": "PLANS",
@@ -3079,30 +3103,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20768",
-   "name": "Migrated Plans - Exclusions - Inconsistent behavior",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-05T10:19:39.597-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-20767",
@@ -5120,7 +5120,7 @@
   },
   {
    "key": "PLANS-21505",
-   "name": "QA Retest when a member buys the same discounted plan themselves through the member portal's Add a Plan flow, the system still records the standard Wellfit Share - not the reduced one.",
+   "name": "QA Retest - when a member buys the same discounted plan themselves through the member portal's Add a Plan flow, the system still records the standard Wellfit Share - not the reduced one.",
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
