@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T21:00:25+00:00",
+ "generated_at": "2026-09-08T21:12:04+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -4615,30 +4615,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22520",
-   "name": "Stage/PMP/Additional Benefit Card/PDF / Blank space is displayed for Custom Logo - Plan Name area in the header",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Dima Shtympel",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-09-04T15:09:37.422-0700",
-   "resolved": "",
-   "due": "2026-09-09",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22310",
    "name": "Preprod \\ Member Portal is not showing a warning message for members with ACH payment method",
    "pod": "LL",
@@ -4813,7 +4789,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 21-26",
    "who": "Valentyna Tenus",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
@@ -4827,8 +4803,8 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21767",
@@ -5029,7 +5005,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 21-26",
    "who": "Rostyslav Masniuk",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
@@ -5043,8 +5019,8 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21041",
@@ -5053,7 +5029,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 21-26",
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -5067,8 +5043,8 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-20955",
@@ -5100,7 +5076,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 21-26",
    "who": "Valentyna Tenus",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
@@ -5114,32 +5090,8 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-20648",
-   "name": "PMP - Overview - Plan support Details should not be visible.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-07-31T03:50:29.473-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-19758",
@@ -5172,7 +5124,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 21-26",
    "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -5186,8 +5138,8 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-15036",
@@ -5196,7 +5148,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 21-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -5210,8 +5162,8 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-22413",
@@ -5657,6 +5609,54 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-20648",
+   "name": "PMP - Overview - Plan support Details should not be visible.",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-07-31T03:50:29.473-0700",
+   "resolved": "2026-09-08T14:08:11.963-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22520",
+   "name": "Stage/PMP/Additional Benefit Card/PDF / Blank space is displayed for Custom Logo - Plan Name area in the header",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-09-04T15:09:37.422-0700",
+   "resolved": "2026-09-08T14:02:40.667-0700",
+   "due": "2026-09-09",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21682",
    "name": "Tie Plan Multi Practice View Upgrade| Disabled offices shown on search",
