@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T21:23:02+00:00",
+ "generated_at": "2026-09-08T21:30:22+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -4957,7 +4957,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 21-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -4971,8 +4971,8 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21505",
