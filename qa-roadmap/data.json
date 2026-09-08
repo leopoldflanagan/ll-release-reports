@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T17:30:25+00:00",
+ "generated_at": "2026-09-08T17:38:23+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -1702,30 +1702,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22316",
-   "name": "Preprod issue - ACH Member Portal - when navigate to payments page and come back to overview page > auto renewal setting set to OFF",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-02T13:07:02.033-0700",
-   "resolved": "",
-   "due": "2026-09-09",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4375,6 +4351,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22316",
+   "name": "Preprod issue - ACH Member Portal - when navigate to payments page and come back to overview page > auto renewal setting set to OFF",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-02T13:07:02.033-0700",
+   "resolved": "",
+   "due": "2026-09-09",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
