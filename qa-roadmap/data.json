@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T14:39:32+00:00",
+ "generated_at": "2026-09-08T14:45:26+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -3088,7 +3088,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Oleksandr Terletskyy",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-08-05T10:19:39.597-0700",
