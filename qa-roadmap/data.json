@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T15:16:07+00:00",
+ "generated_at": "2026-09-08T15:30:25+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -141,7 +141,7 @@
    "key": "PLANS-21975",
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-11",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null
@@ -871,7 +871,7 @@
    "key": "PLANS-21975",
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-11",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null,
@@ -1558,7 +1558,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": null,
+   "ted": "2026-09-11",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
@@ -1612,6 +1612,30 @@
    "resolved": "",
    "due": "2026-09-09",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22535",
+   "name": "Plan Logo for Welcome Emails",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7.2",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Daryl Myrick",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-04T16:29:35.874-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -1811,30 +1835,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21838",
-   "name": "E-Consent <Not Displaying for all Listed Plans- SGDP CA, SGDP TN,SGDP AZ",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-25T20:02:28.587-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21835",
    "name": "MP| Inconsistent Plan purchase Pricing between add member and checkout page",
    "pod": "PLANS",
@@ -1857,6 +1857,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21736",
+   "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-22T16:39:23.599-0700",
+   "resolved": "",
+   "due": "2026-09-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21605",
@@ -3888,30 +3912,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22535",
-   "name": "Plan Logo for Welcome Emails",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7.2",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-04T16:29:35.874-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22487",
    "name": "Plan Confirmation Receipt / Missing email for all plan types",
    "pod": "PLANS",
@@ -4050,6 +4050,30 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21838",
+   "name": "E-Consent <Not Displaying for all Listed Plans- SGDP CA, SGDP TN,SGDP AZ",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-25T20:02:28.587-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": true,
    "lpSprint": false,
@@ -4244,30 +4268,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21736",
-   "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-22T16:39:23.599-0700",
-   "resolved": "",
-   "due": "2026-08-31",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-20111",
    "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards , Plan details and Membership agreements",
    "pod": "LL",
@@ -4454,30 +4454,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-20648",
-   "name": "PMP - Overview - Plan support Details should not be visible.",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-07-31T03:50:29.473-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -5256,6 +5232,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-20648",
+   "name": "PMP - Overview - Plan support Details should not be visible.",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-07-31T03:50:29.473-0700",
+   "resolved": "",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
