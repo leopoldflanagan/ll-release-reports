@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T13:49:03+00:00",
+ "generated_at": "2026-09-08T14:00:31+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -1612,6 +1612,30 @@
    "resolved": "",
    "due": "2026-09-09",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22512",
+   "name": "Production - PMP Setting - Website",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7.2",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-04T12:54:45.047-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3855,30 +3879,6 @@
    "due": "",
    "labels": [
     "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22512",
-   "name": "Production - PMP Setting - Website",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.7.2",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-04T12:54:45.047-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
