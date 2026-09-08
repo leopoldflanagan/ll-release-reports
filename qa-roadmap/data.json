@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T19:15:24+00:00",
+ "generated_at": "2026-09-08T19:24:14+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -5672,30 +5672,6 @@
    "due": "",
    "labels": [
     "JSM"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22499",
-   "name": "PRODUCTION - DCA Plan - Explore Savings",
-   "pod": "PLANS",
-   "status": "In PreProd",
-   "cat": "To Do",
-   "fv": "R9.7.2",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-04T09:42:50.153-0700",
-   "resolved": "",
-   "due": "2026-09-08",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
