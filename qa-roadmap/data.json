@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T21:37:02+00:00",
+ "generated_at": "2026-09-08T21:45:56+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -5022,30 +5022,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-19758",
-   "name": "Plan Confirmation Receipt \\ Plan Confirmation Receipt indicates Future Plan is active before its effective date",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Luis Moreno Soberón",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "4: Low",
-   "created": "2026-07-16T13:16:26.099-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-15258",
    "name": "Member portal - Treatment Summary page UI has changed / no back button/ Export button",
    "pod": "LL",
@@ -5537,6 +5513,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-19758",
+   "name": "Plan Confirmation Receipt \\ Plan Confirmation Receipt indicates Future Plan is active before its effective date",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Luis Moreno Soberón",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "4: Low",
+   "created": "2026-07-16T13:16:26.099-0700",
+   "resolved": "2026-09-08T14:43:53.891-0700",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21884",
    "name": "PMP \\ Manual renewal is not longer redirecting the user to current member overview page",
