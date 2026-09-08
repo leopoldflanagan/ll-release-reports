@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T23:00:29+00:00",
+ "generated_at": "2026-09-08T23:13:18+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -22779,7 +22779,7 @@
  "nopod": [
   {
    "key": "PLANS-22632",
-   "name": "Unexpected SGDP Receipt \\ A SGDP Receipt is being sent to the users under the title \"Welcome to Your Dental Savings Plan\"",
+   "name": "Unexpected SGDP Receipt \\ A SGDP Receipt is sent to users under the title \"Welcome to Your Dental Savings Plan\"",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
