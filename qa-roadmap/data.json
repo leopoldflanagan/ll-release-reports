@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T17:15:21+00:00",
+ "generated_at": "2026-09-08T17:27:10+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -4165,6 +4165,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22417",
+   "name": "Prod/Member Portal/Phone number is incorrect in Plan Card",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7.2",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-09-03T09:03:42.589-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22291",
    "name": "preprod issue - CSP - getting an error when print refund receipts",
    "pod": "LL",
@@ -4172,7 +4196,7 @@
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 21-26",
-   "who": "Petro Yarish",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-02T09:06:16.276-0700",
@@ -4344,30 +4368,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-03T10:06:43.544-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22417",
-   "name": "Prod/Member Portal/Phone number is incorrect in Plan Card",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7.2",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-09-03T09:03:42.589-0700",
    "resolved": "",
    "due": "",
    "labels": [
