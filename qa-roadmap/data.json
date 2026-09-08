@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T10:30:24+00:00",
+ "generated_at": "2026-09-08T10:45:23+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -3912,30 +3912,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22520",
-   "name": "Stage/PMP/Additional Benefit Card/PDF / Blank space is displayed for Custom Logo - Plan Name area in the header",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Dima Shtympel",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-09-04T15:09:37.422-0700",
-   "resolved": "",
-   "due": "2026-09-08",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22516",
    "name": "Marketing Details - Misspelling",
    "pod": "PLANS",
@@ -4708,6 +4684,30 @@
    "due": "",
    "labels": [],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22520",
+   "name": "Stage/PMP/Additional Benefit Card/PDF / Blank space is displayed for Custom Logo - Plan Name area in the header",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-09-04T15:09:37.422-0700",
+   "resolved": "",
+   "due": "2026-09-08",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
