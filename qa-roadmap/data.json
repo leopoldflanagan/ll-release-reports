@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T14:00:31+00:00",
+ "generated_at": "2026-09-08T14:15:25+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -1612,6 +1612,30 @@
    "resolved": "",
    "due": "2026-09-09",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22514",
+   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-04T13:11:18.188-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3855,30 +3879,6 @@
    "due": "",
    "labels": [
     "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22514",
-   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-04T13:11:18.188-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
     "product_prioritized"
    ],
    "theme": "",
