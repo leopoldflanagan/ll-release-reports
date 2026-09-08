@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T16:39:44+00:00",
+ "generated_at": "2026-09-08T16:45:23+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -4189,30 +4189,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22512",
-   "name": "Production - PMP Setting - Website",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7.2",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-04T12:54:45.047-0700",
-   "resolved": "",
-   "due": "2026-09-08",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22227",
    "name": "PMP - UX- Member Details Not Auto-Populated When PURCHASE PLAN from Member's Plan Overview",
    "pod": "PLANS",
@@ -4255,6 +4231,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22512",
+   "name": "Production - PMP Setting - Website",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7.2",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-04T12:54:45.047-0700",
+   "resolved": "",
+   "due": "2026-09-08",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
