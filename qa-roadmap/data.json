@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T13:00:33+00:00",
+ "generated_at": "2026-09-08T13:15:23+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -1597,6 +1597,27 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-22602",
+   "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "3: Standard",
+   "created": "2026-09-07T08:14:19.073-0700",
+   "resolved": "",
+   "due": "2026-09-09",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22501",
    "name": "UI Improvement for PMP",
@@ -22888,13 +22909,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22602",
-   "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Dima Shtympel"
-  },
   {
    "key": "PLANS-22328",
    "name": "Smile health - UI -",
