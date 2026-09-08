@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T22:15:21+00:00",
+ "generated_at": "2026-09-08T22:25:42+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -1733,30 +1733,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21982",
-   "name": "The Print button for additional benefit PDF doesn’t include the group code - Related to PLANS-21705",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Sushma Bankar",
-   "prio": "3: Standard",
-   "created": "2026-08-28T07:23:48.127-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4678,6 +4654,30 @@
    "due": "",
    "labels": [
     "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21982",
+   "name": "The Print button for additional benefit PDF doesn’t include the group code - Related to PLANS-21705",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Sushma Bankar",
+   "prio": "3: Standard",
+   "created": "2026-08-28T07:23:48.127-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
