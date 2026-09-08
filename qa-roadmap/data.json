@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T15:30:25+00:00",
+ "generated_at": "2026-09-08T15:38:54+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -411,7 +411,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -1097,7 +1097,7 @@
    "status": "Architecture",
    "fv": "R9.8",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
@@ -6092,7 +6092,7 @@
    "prio": "3: Standard",
    "created": "2026-09-03T10:22:07.907-0700",
    "resolved": "2026-09-03T10:46:30.183-0700",
-   "due": "2026-09-03",
+   "due": "2026-09-10",
    "labels": [
     "group1_migration",
     "product_prioritized"
