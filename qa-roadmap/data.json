@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T21:30:22+00:00",
+ "generated_at": "2026-09-08T21:37:02+00:00",
  "today": "2026-09-08",
  "features": [
   {
@@ -4196,30 +4196,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22512",
-   "name": "Production - PMP Setting - Website",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7.2",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-04T12:54:45.047-0700",
-   "resolved": "",
-   "due": "2026-09-08",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22497",
    "name": "Careington test-file error remediation (COMBINED ticket)",
    "pod": "PLANS",
@@ -4735,30 +4711,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21884",
-   "name": "PMP \\ Manual renewal is not longer redirecting the user to current member overview page",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Mariano Hernández",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-08-26T14:58:39.389-0700",
-   "resolved": "",
-   "due": "2026-08-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21852",
    "name": "Plan Auto-Renewal Receipt \\ Email is getting triggered after a manual renewal",
    "pod": "PLANS",
@@ -4947,30 +4899,6 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21558",
-   "name": "PMP - LL - Primary Payment Method is ACH, but Credit Card option is Auto-Selected During Manual Renewal",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-19T07:17:59.452-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5609,6 +5537,78 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21884",
+   "name": "PMP \\ Manual renewal is not longer redirecting the user to current member overview page",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Mariano Hernández",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-08-26T14:58:39.389-0700",
+   "resolved": "2026-09-08T14:33:27.885-0700",
+   "due": "2026-08-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21558",
+   "name": "PMP - LL - Primary Payment Method is ACH, but Credit Card option is Auto-Selected During Manual Renewal",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-19T07:17:59.452-0700",
+   "resolved": "2026-09-08T14:31:38.752-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22512",
+   "name": "Production - PMP Setting - Website",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.7.2",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-04T12:54:45.047-0700",
+   "resolved": "2026-09-08T14:31:06.438-0700",
+   "due": "2026-09-08",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20648",
    "name": "PMP - Overview - Plan support Details should not be visible.",
