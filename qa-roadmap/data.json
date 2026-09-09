@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T19:49:06+00:00",
+ "generated_at": "2026-09-09T20:00:31+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -22856,7 +22856,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-22664",
+   "name": "Provider Portal - Cannot save the CC in the payment options screen",
+   "status": "Ready for Development",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera"
+  }
+ ],
  "weeks": [
   {
    "label": "Sep 7–13",
