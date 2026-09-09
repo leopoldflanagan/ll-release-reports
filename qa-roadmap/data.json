@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T20:49:56+00:00",
+ "generated_at": "2026-09-09T21:00:29+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -1853,6 +1853,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22666",
+   "name": "Stage - OneSmile - Additional member cost is not applied",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "1: Urgent",
+   "created": "2026-09-09T13:31:58.621-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4692,29 +4716,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-16717",
-   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "3: Standard",
-   "created": "2026-05-22T05:07:37.122-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22413",
    "name": "Stage/PMP/Multipractice/Plans Purchase/Practice Name dropdown/ Dental care alliance practices are not displayed in the nested group",
    "pod": "PLANS",
@@ -5158,6 +5159,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-16717",
+   "name": "[2.6] Embed consent widget components in Provider Portal intake and checkout",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "3: Standard",
+   "created": "2026-05-22T05:07:37.122-0700",
+   "resolved": "2026-09-09T13:51:23.728-0700",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22299",
    "name": "One Smile - 2 Year Plans",
@@ -22836,13 +22860,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22666",
-   "name": "Stage - OneSmile - Additional member cost is not applied",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo"
-  },
   {
    "key": "PLANS-22664",
    "name": "Provider Portal - Cannot save the CC in the payment options screen",
