@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T16:30:30+00:00",
+ "generated_at": "2026-09-09T16:39:26+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -1815,30 +1815,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22479",
-   "name": "Provider Portal: unreachable legal-language source blocks the purchase button",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Denys Kernychnyi",
-   "prio": "2: Important",
-   "created": "2026-09-04T02:32:44.219-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22425",
    "name": "Member Search - During Sale - Fuzzy Logic",
    "pod": "PLANS",
@@ -1857,53 +1833,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22328",
-   "name": "DCA - Incorrect logo in Member portal (STAGE)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-02T21:06:56.713-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "Logo"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22322",
-   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-02T16:08:49.542-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3749,6 +3678,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22479",
+   "name": "Provider Portal: unreachable legal-language source blocks the purchase button",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Denys Kernychnyi",
+   "prio": "2: Important",
+   "created": "2026-09-04T02:32:44.219-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22422",
    "name": "Member Search - manage patients returning incorrect info",
    "pod": "PLANS",
@@ -3767,6 +3720,54 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22328",
+   "name": "DCA - Incorrect logo in Member portal (STAGE)",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-02T21:06:56.713-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22322",
+   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-02T16:08:49.542-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4023,7 +4024,10 @@
    "created": "2026-09-07T08:14:19.073-0700",
    "resolved": "",
    "due": "2026-09-09",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4761,30 +4765,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21254",
-   "name": "ACH<PMP<Deleting Credit Card shows wrong message \"Bank account deleted\"",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-14T07:02:33.931-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21041",
    "name": "PMP - One smile - membership card not loaded in member account information",
    "pod": "LL",
@@ -5370,6 +5350,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21254",
+   "name": "ACH<PMP<Deleting Credit Card shows wrong message \"Bank account deleted\"",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-08-14T07:02:33.931-0700",
+   "resolved": "2026-09-09T09:33:34.284-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21749",
    "name": "Auth form - Recurring Payment Date Displayed Incorrectly Compared to Plan Start Date(message says payment will debit beginning of 23rd however plan starts on 24th and payment process at 12.15 UTC 24th)",
