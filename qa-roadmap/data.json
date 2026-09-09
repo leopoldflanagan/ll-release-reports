@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T20:30:25+00:00",
+ "generated_at": "2026-09-09T20:40:17+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -1597,30 +1597,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-22632",
-   "name": "Unexpected SGDP Receipt \\ A SGDP Receipt is sent to users under the title \"Welcome to Your Dental Savings Plan\"",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "4: Low",
-   "created": "2026-09-08T15:55:15.799-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-22617",
    "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
@@ -4107,6 +4083,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22632",
+   "name": "Unexpected SGDP Receipt \\ A SGDP Receipt is sent to users under the title \"Welcome to Your Dental Savings Plan\"",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "4: Low",
+   "created": "2026-09-08T15:55:15.799-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22602",
    "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
    "pod": "LL",
@@ -4264,6 +4264,30 @@
    "created": "2026-08-19T15:45:02.696-0700",
    "resolved": "",
    "due": "2026-08-25",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21585",
+   "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
+   "pod": "PLANS",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-19T12:47:49.177-0700",
+   "resolved": "",
+   "due": "2026-09-02",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -4618,30 +4642,6 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21585",
-   "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-19T12:47:49.177-0700",
-   "resolved": "",
-   "due": "2026-09-02",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -22836,6 +22836,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22666",
+   "name": "Stage - OneSmile - Additional member cost is not applied",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo"
+  },
   {
    "key": "PLANS-22664",
    "name": "Provider Portal - Cannot save the CC in the payment options screen",
