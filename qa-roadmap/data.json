@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T21:00:29+00:00",
+ "generated_at": "2026-09-09T21:12:09+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -1862,30 +1862,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22666",
-   "name": "Stage - OneSmile - Additional member cost is not applied",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "1: Urgent",
-   "created": "2026-09-09T13:31:58.621-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22660",
    "name": "Member portal - Treatment Summary page UI- No Export button is showing",
    "pod": "LL",
@@ -3154,6 +3130,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20268",
+   "name": "RETEST - Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-07-24T10:08:46.751-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-20265",
    "name": "Plan Details PDF - Administered by not Dynamic",
    "pod": "LL",
@@ -3176,54 +3176,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20109",
-   "name": "Retest- Comfort Dental<Stage<Plan confirmation Email doesn't contain custom Logo",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-07-22T08:27:33.613-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20043",
-   "name": "All Cariengton practices - Missing custom logos in the membership agreement",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-21T15:12:06.080-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-19236",
@@ -3409,30 +3361,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-16163",
-   "name": "Member Portal \\ Opt-out reasons email flow is throwing a 401 error when user is not previously Logged in at MemberPortal",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-05-14T12:01:06.738-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3630,6 +3558,54 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22666",
+   "name": "Stage - OneSmile - Additional member cost is not applied",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "1: Urgent",
+   "created": "2026-09-09T13:31:58.621-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22664",
+   "name": "Provider Portal - Cannot save the CC in the payment options screen",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "3: Standard",
+   "created": "2026-09-09T12:58:12.845-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22655",
    "name": "Preprod - PMP - Plan for additional member is not renewed",
    "pod": "PLANS",
@@ -3663,7 +3639,7 @@
    "sprint": "Plans-Sprint 21-26",
    "who": "Santiago Kirk Cabrera",
    "reporter": "Sushma Bankar",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-09-09T08:45:25.920-0700",
    "resolved": "",
    "due": "",
@@ -3879,10 +3855,10 @@
    "sprint": "LL-Sprint 21-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-21T09:33:46.446-0700",
    "resolved": "",
-   "due": "2026-08-25",
+   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -3944,11 +3920,11 @@
   {
    "key": "PLANS-20495",
    "name": "WFP - Practice Credit Card Not Removed from Office Payments When Organization Is Switched from \"Paid by Office\" to \"Bill to Office\"",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
+   "sprint": "LL-Sprint 20-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -3966,17 +3942,17 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20268",
-   "name": "RETEST - Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
-   "pod": "LL",
+   "key": "PLANS-20109",
+   "name": "Retest- Comfort Dental<Stage<Plan confirmation Email doesn't contain custom Logo",
+   "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-07-24T10:08:46.751-0700",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-07-22T08:27:33.613-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -3985,9 +3961,33 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20043",
+   "name": "All Cariengton practices - Missing custom logos in the membership agreement",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-21T15:12:06.080-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-18564",
@@ -4077,6 +4077,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-16163",
+   "name": "Member Portal \\ Opt-out reasons email flow is throwing a 401 error when user is not previously Logged in at MemberPortal",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno",
+   "prio": "3: Standard",
+   "created": "2026-05-14T12:01:06.738-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -22859,15 +22883,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-22664",
-   "name": "Provider Portal - Cannot save the CC in the payment options screen",
-   "status": "Ready for Development",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Sep 7–13",
