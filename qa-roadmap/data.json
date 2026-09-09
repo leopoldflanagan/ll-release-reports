@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T13:45:23+00:00",
+ "generated_at": "2026-09-09T13:50:35+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -3799,7 +3799,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Hunter Redhead",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-08T07:31:34.010-0700",
@@ -4663,30 +4663,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21749",
-   "name": "Auth form - Recurring Payment Date Displayed Incorrectly Compared to Plan Start Date(message says payment will debit beginning of 23rd however plan starts on 24th and payment process at 12.15 UTC 24th)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-24T05:51:08.046-0700",
-   "resolved": "",
-   "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21739",
    "name": "Plan Transactions - '>>' and '>' pagination not clickable.",
    "pod": "LL",
@@ -5369,6 +5345,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21749",
+   "name": "Auth form - Recurring Payment Date Displayed Incorrectly Compared to Plan Start Date(message says payment will debit beginning of 23rd however plan starts on 24th and payment process at 12.15 UTC 24th)",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-24T05:51:08.046-0700",
+   "resolved": "2026-09-09T06:49:16.658-0700",
+   "due": "2026-08-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21753",
    "name": "ACH -Unable to Add ACH Payment Method While Enabling Auto Renewal (Plan Purchased via ACH & ACH Not Saved to Wallet while purchasing)",
