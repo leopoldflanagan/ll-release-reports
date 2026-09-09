@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T20:45:23+00:00",
+ "generated_at": "2026-09-09T20:49:56+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -4550,30 +4550,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22299",
-   "name": "One Smile - 2 Year Plans",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-02T09:45:06.218-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22291",
    "name": "preprod issue - CSP - getting an error when print refund receipts",
    "pod": "LL",
@@ -5182,6 +5158,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22299",
+   "name": "One Smile - 2 Year Plans",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-02T09:45:06.218-0700",
+   "resolved": "2026-09-09T13:49:12.869-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21550",
    "name": "Provider Portal not display E-consent checkbox - Electronic Consent checkbox not visible at checkout page while purchasing plan",
