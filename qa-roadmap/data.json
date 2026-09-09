@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T19:11:53+00:00",
+ "generated_at": "2026-09-09T19:15:23+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -4763,30 +4763,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-15036",
-   "name": "Member portal - Responsible party's Expired plans are not showing in member portal",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-04-09T11:23:36.419-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22413",
    "name": "Stage/PMP/Multipractice/Plans Purchase/Practice Name dropdown/ Dental care alliance practices are not displayed in the nested group",
    "pod": "PLANS",
@@ -5230,6 +5206,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-15036",
+   "name": "Member portal - Responsible party's Expired plans are not showing in member portal",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-04-09T11:23:36.419-0700",
+   "resolved": "2026-09-09T12:12:58.143-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22421",
    "name": "PMP - Select a plan - broken - Overlapped text",
