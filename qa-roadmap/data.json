@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T11:45:27+00:00",
+ "generated_at": "2026-09-09T12:00:30+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -1785,30 +1785,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-21736",
-   "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-22T16:39:23.599-0700",
-   "resolved": "",
-   "due": "2026-09-11",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-21605",
@@ -4171,6 +4147,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21736",
+   "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-22T16:39:23.599-0700",
+   "resolved": "",
+   "due": "2026-09-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20111",
