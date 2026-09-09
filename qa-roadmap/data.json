@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T21:36:28+00:00",
+ "generated_at": "2026-09-09T21:45:21+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -1665,6 +1665,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22422",
+   "name": "Member Search - manage patients returning incorrect info",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-09-03T10:07:59.529-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3474,30 +3498,6 @@
    "reporter": "Denys Kernychnyi",
    "prio": "2: Important",
    "created": "2026-09-04T02:32:44.219-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22422",
-   "name": "Member Search - manage patients returning incorrect info",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-09-03T10:07:59.529-0700",
    "resolved": "",
    "due": "",
    "labels": [
