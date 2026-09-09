@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T17:00:28+00:00",
+ "generated_at": "2026-09-09T17:13:11+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -221,8 +221,8 @@
   {
    "key": "PLANS-18413",
    "name": "Marketing Details",
-   "status": "In Development",
-   "ted": "2026-09-09",
+   "status": "In Testing",
+   "ted": null,
    "fv": "R9.8",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate"
@@ -430,8 +430,8 @@
   {
    "key": "PLANS-18413",
    "name": "Marketing Details",
-   "status": "In Development",
-   "ted": "2026-09-09",
+   "status": "In Testing",
+   "ted": null,
    "fv": "R9.8",
    "who": "Vasyl Skochko",
    "tshirt": "Moderate",
@@ -1116,9 +1116,9 @@
    "name": "Marketing Details",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
-   "ted": "2026-09-09",
+   "ted": null,
    "who": "Vasyl Skochko",
    "theme": "LL-Fast Follows"
   },
@@ -3625,6 +3625,30 @@
    ],
    "theme": "",
    "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22655",
+   "name": "Preprod - PMP - Plan for additional member is not renewed",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-09-09T09:40:42.591-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -22807,16 +22831,9 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-22655",
-   "name": "Preprod - PMP - Plan for additional member is not renewed",
-   "status": "Ready for Development",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera"
-  },
-  {
    "key": "PLANS-22632",
    "name": "Unexpected SGDP Receipt \\ A SGDP Receipt is sent to users under the title \"Welcome to Your Dental Savings Plan\"",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
   }
