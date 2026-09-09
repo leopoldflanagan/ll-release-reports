@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T16:00:29+00:00",
+ "generated_at": "2026-09-09T16:15:22+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -1622,27 +1622,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22602",
-   "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "3: Standard",
-   "created": "2026-09-07T08:14:19.073-0700",
-   "resolved": "",
-   "due": "2026-09-09",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22514",
    "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
    "pod": "PLANS",
@@ -1810,30 +1789,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20768",
-   "name": "Migrated Plans - Exclusions - Inconsistent behavior",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-05T10:19:39.597-0700",
-   "resolved": "",
-   "due": "2026-09-10",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-20133",
@@ -2525,30 +2480,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21505",
-   "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T11:51:13.130-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3938,6 +3869,54 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21505",
+   "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T11:51:13.130-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20768",
+   "name": "Migrated Plans - Exclusions - Inconsistent behavior",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-05T10:19:39.597-0700",
+   "resolved": "",
+   "due": "2026-09-10",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20495",
    "name": "WFP - Practice Credit Card Not Removed from Office Payments When Organization Is Switched from \"Paid by Office\" to \"Bill to Office\"",
    "pod": "LL",
@@ -4048,6 +4027,27 @@
    "labels": [
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22602",
+   "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "3: Standard",
+   "created": "2026-09-07T08:14:19.073-0700",
+   "resolved": "",
+   "due": "2026-09-09",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4623,7 +4623,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 21-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -4637,8 +4637,8 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21822",
