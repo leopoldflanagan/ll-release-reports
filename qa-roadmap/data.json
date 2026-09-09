@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T23:00:26+00:00",
+ "generated_at": "2026-09-09T23:13:06+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -4527,30 +4527,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22310",
-   "name": "Preprod \\ Member Portal is not showing a warning message for members with ACH payment method",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Vasyl Skochko",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-02T12:38:40.914-0700",
-   "resolved": "",
-   "due": "2026-09-09",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22291",
    "name": "preprod issue - CSP - getting an error when print refund receipts",
    "pod": "LL",
@@ -5136,6 +5112,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22310",
+   "name": "Preprod \\ Member Portal is not showing a warning message for members with ACH payment method",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Vasyl Skochko",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-02T12:38:40.914-0700",
+   "resolved": "2026-09-09T16:02:57.511-0700",
+   "due": "2026-09-09",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22307",
    "name": "Preprod \\ Member Portal is not showing the ACH Payment method as it does in STG",
