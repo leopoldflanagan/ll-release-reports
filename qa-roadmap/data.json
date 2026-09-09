@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T19:15:23+00:00",
+ "generated_at": "2026-09-09T19:23:13+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -387,7 +387,7 @@
    "key": "PLANS-17732",
    "name": "Implement web analytics platform to support DSO analytics requirements",
    "status": "Requirements",
-   "ted": null,
+   "ted": "2026-11-04",
    "fv": "R9.9",
    "who": "Daniel Marineni",
    "tshirt": null,
@@ -1074,7 +1074,7 @@
    "proj": "PLANS",
    "status": "Requirements",
    "fv": "R9.9",
-   "ted": null,
+   "ted": "2026-11-04",
    "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
