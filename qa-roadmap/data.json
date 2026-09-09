@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T18:00:27+00:00",
+ "generated_at": "2026-09-09T18:15:23+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -4643,30 +4643,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21739",
-   "name": "Plan Transactions - '>>' and '>' pagination not clickable.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-22T16:53:20.420-0700",
-   "resolved": "",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21609",
    "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
    "pod": "LL",
@@ -5299,6 +5275,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21739",
+   "name": "Plan Transactions - '>>' and '>' pagination not clickable.",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-22T16:53:20.420-0700",
+   "resolved": "2026-09-09T11:01:38.446-0700",
+   "due": "2026-08-26",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21041",
    "name": "PMP - One smile - membership card not loaded in member account information",
