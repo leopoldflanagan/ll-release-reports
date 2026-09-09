@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T19:23:13+00:00",
+ "generated_at": "2026-09-09T19:30:26+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -617,7 +617,7 @@
   {
    "key": "PLANS-20907",
    "name": "Individual Plus - Tier 2 Expansion",
-   "status": "Idea",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.8",
    "who": "Camille Knight",
@@ -1303,7 +1303,7 @@
    "name": "Individual Plus - Tier 2 Expansion",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "Epics & Stories",
    "fv": "R9.8",
    "ted": null,
    "who": "Camille Knight",
