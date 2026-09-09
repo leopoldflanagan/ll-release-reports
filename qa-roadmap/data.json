@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T22:15:19+00:00",
+ "generated_at": "2026-09-09T22:24:58+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -59,7 +59,7 @@
   {
    "key": "PLANS-17586",
    "name": "Member Portal Support for Subscription Payments",
-   "status": "On Hold",
+   "status": "Blocked",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -364,7 +364,7 @@
   {
    "key": "PLANS-17586",
    "name": "Member Portal Support for Subscription Payments",
-   "status": "On Hold",
+   "status": "Blocked",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -1050,7 +1050,7 @@
    "name": "Member Portal Support for Subscription Payments",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "On Hold",
+   "status": "Blocked",
    "fv": "R9.9",
    "ted": null,
    "who": "Chris Rubio",
