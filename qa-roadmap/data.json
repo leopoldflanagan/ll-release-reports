@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T15:28:58+00:00",
+ "generated_at": "2026-09-09T15:30:30+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -1826,6 +1826,31 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20111",
+   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards , Plan details and Membership agreements",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-07-22T08:47:16.230-0700",
+   "resolved": "",
+   "due": "2026-09-10",
+   "labels": [
+    "Logo",
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -3748,11 +3773,11 @@
    "key": "PLANS-22617",
    "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
    "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
+   "status": "In Development",
+   "cat": "In Progress",
    "fv": "R9.8",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Hunter Redhead",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-08T07:31:34.010-0700",
@@ -4124,31 +4149,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-20111",
-   "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards , Plan details and Membership agreements",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-22T08:47:16.230-0700",
-   "resolved": "",
-   "due": "2026-09-10",
-   "labels": [
-    "Logo",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-22421",
