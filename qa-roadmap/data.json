@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T14:15:13+00:00",
+ "generated_at": "2026-09-09T14:30:34+00:00",
  "today": "2026-09-09",
  "features": [
   {
@@ -1704,30 +1704,6 @@
    "created": "2026-09-02T09:45:06.218-0700",
    "resolved": "",
    "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22295",
-   "name": "One Smile Plan - NV & WA",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Petro Yarish",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-02T09:42:18.496-0700",
-   "resolved": "",
-   "due": "2026-09-09",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -4096,6 +4072,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22295",
+   "name": "One Smile Plan - NV & WA",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-02T09:42:18.496-0700",
+   "resolved": "",
+   "due": "2026-09-09",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
