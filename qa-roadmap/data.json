@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T05:00:29+00:00",
+ "generated_at": "2026-09-10T05:15:22+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -64,15 +64,6 @@
    "fv": "R9.9",
    "who": "Chris Rubio",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "PLANS-22088",
-   "name": "Promo codes enhancement (Unavailable to New Sales & Expired Plans Renewals)",
-   "status": "Requirements",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Daniel Marineni",
-   "tshirt": null
   },
   {
    "key": "PLANS-21974",
@@ -726,13 +717,13 @@
   },
   {
    "key": "PLANS-22088",
-   "name": "Promo codes enhancement (Unavailable to New Sales & Expired Plans Renewals)",
+   "name": "Promo codes enhancement -Apply GIFTCORE at autorenewal for migrated DCA customers",
    "status": "Requirements",
    "ted": null,
    "fv": "R9.8",
    "who": "Daniel Marineni",
    "tshirt": null,
-   "pod": "LL",
+   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1410,8 +1401,8 @@
   },
   {
    "key": "PLANS-22088",
-   "name": "Promo codes enhancement (Unavailable to New Sales & Expired Plans Renewals)",
-   "pod": "LL",
+   "name": "Promo codes enhancement -Apply GIFTCORE at autorenewal for migrated DCA customers",
+   "pod": "PLANS",
    "proj": "PLANS",
    "status": "Requirements",
    "fv": "R9.8",
