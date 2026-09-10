@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T14:30:26+00:00",
+ "generated_at": "2026-09-10T14:41:39+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -132,7 +132,7 @@
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "status": "In Development",
-   "ted": "2026-09-16",
+   "ted": "2026-09-17",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate"
@@ -186,7 +186,7 @@
    "key": "PLANS-22333",
    "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
    "status": "In Testing",
-   "ted": "2026-09-09",
+   "ted": "2026-09-18",
    "fv": "R9.8",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -288,7 +288,7 @@
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "status": "In Development",
-   "ted": "2026-09-16",
+   "ted": "2026-09-17",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate",
@@ -694,7 +694,7 @@
   {
    "key": "PLANS-21824",
    "name": "Validate configured WA plans and update additional benefits (membership card)",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": null,
    "fv": "R9.8",
    "who": "David Jones",
@@ -926,7 +926,7 @@
    "key": "PLANS-22333",
    "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
    "status": "In Testing",
-   "ted": "2026-09-09",
+   "ted": "2026-09-18",
    "fv": "R9.8",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -997,7 +997,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": "2026-09-16",
+   "ted": "2026-09-17",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -1402,7 +1402,7 @@
    "name": "Validate configured WA plans and update additional benefits (membership card)",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
    "ted": null,
    "who": "David Jones",
@@ -1635,7 +1635,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.8",
-   "ted": "2026-09-09",
+   "ted": "2026-09-18",
    "who": "Valentyna Tenus",
    "theme": ""
   }
@@ -2639,30 +2639,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-21163",
-   "name": "Plan Deails - legacy - Minor Improvement UI - full page taken for footer",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-13T04:31:45.587-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -4685,29 +4661,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20955",
-   "name": "Duplicate Plan Charge",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Jasmin Martin",
-   "prio": "3: Standard",
-   "created": "2026-08-11T07:09:09.925-0700",
-   "resolved": "",
-   "due": "2026-08-24",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20925",
    "name": "Stage - Member Portal - Treatments are not displayed for members",
    "pod": "LL",
@@ -5222,6 +5175,53 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21163",
+   "name": "Plan Deails - legacy - Minor Improvement UI - full page taken for footer",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13T04:31:45.587-0700",
+   "resolved": "2026-09-10T07:39:24.645-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-20955",
+   "name": "Duplicate Plan Charge",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Jasmin Martin",
+   "prio": "3: Standard",
+   "created": "2026-08-11T07:09:09.925-0700",
+   "resolved": "2026-09-10T07:38:24.910-0700",
+   "due": "2026-08-24",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22310",
    "name": "Preprod \\ Member Portal is not showing a warning message for members with ACH payment method",
