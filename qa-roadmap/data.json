@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T06:00:28+00:00",
+ "generated_at": "2026-09-10T06:15:22+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -68,7 +68,7 @@
   {
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
-   "status": "Idea",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
@@ -727,7 +727,7 @@
   {
    "key": "PLANS-22088",
    "name": "Promo codes enhancement -Apply GIFTCORE at autorenewal for migrated DCA customers",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
    "who": "Daniel Marineni",
@@ -914,7 +914,7 @@
   {
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
-   "status": "Idea",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
@@ -1424,7 +1424,7 @@
    "name": "Promo codes enhancement -Apply GIFTCORE at autorenewal for migrated DCA customers",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": "R9.8",
    "ted": null,
    "who": "Daniel Marineni",
@@ -1611,7 +1611,7 @@
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "Architecture",
    "fv": "R9.8",
    "ted": null,
    "who": "Dmytro Tymofiienko",
