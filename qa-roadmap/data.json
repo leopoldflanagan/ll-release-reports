@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T02:15:20+00:00",
+ "generated_at": "2026-09-10T02:30:26+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -3382,6 +3382,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22675",
+   "name": "Unify Font's in the Plans Widget Checkout Screen",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-09T19:23:15.953-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -22886,8 +22910,8 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-22673",
-   "name": "Prod/DCA Custom website/DCA Corporate office is displayed in the office list for zip code search (needs to be hidden)",
+   "key": "PLANS-22674",
+   "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
