@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T13:00:29+00:00",
+ "generated_at": "2026-09-10T13:14:15+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -4130,30 +4130,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22295",
-   "name": "One Smile Plan - NV & WA",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Petro Yarish",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-02T09:42:18.496-0700",
-   "resolved": "",
-   "due": "2026-09-10",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -4198,6 +4174,30 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22295",
+   "name": "One Smile Plan - NV & WA",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-02T09:42:18.496-0700",
+   "resolved": "",
+   "due": "2026-09-10",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -22931,6 +22931,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22720",
+   "name": "Fee Schedule -",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
