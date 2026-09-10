@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T18:17:45+00:00",
+ "generated_at": "2026-09-10T18:30:26+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -178,7 +178,7 @@
    "name": "Define Refund Window Timeframes",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": null
   },
@@ -861,7 +861,7 @@
    "name": "Define Refund Window Timeframes",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": null,
    "pod": "LL",
@@ -1568,7 +1568,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Architecture",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": null,
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH-Fast Follows"
@@ -4029,30 +4029,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21835",
-   "name": "MP| Inconsistent Plan purchase Pricing between add member and checkout page",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-25T16:37:06.386-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -4182,6 +4158,30 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-02T07:25:33.193-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21835",
+   "name": "MP| Inconsistent Plan purchase Pricing between add member and checkout page",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-25T16:37:06.386-0700",
    "resolved": "",
    "due": "",
    "labels": [
