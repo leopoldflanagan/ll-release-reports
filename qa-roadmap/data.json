@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T08:15:23+00:00",
+ "generated_at": "2026-09-10T08:30:27+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -3540,7 +3540,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
+   "who": "Oleksandr Terletskyy",
    "reporter": "Denys Kernychnyi",
    "prio": "2: Important",
    "created": "2026-09-04T02:32:44.219-0700",
@@ -3756,7 +3756,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-08-21T09:33:46.446-0700",
@@ -4050,30 +4050,6 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18083",
-   "name": "Member portal - ADD PLAN - add member ; giving 500 error",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-16T13:54:54.335-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
@@ -4706,6 +4682,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-18083",
+   "name": "Member portal - ADD PLAN - add member ; giving 500 error",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-06-16T13:54:54.335-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
