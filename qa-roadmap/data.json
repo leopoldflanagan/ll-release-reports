@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T19:45:22+00:00",
+ "generated_at": "2026-09-10T19:49:34+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -23039,7 +23039,7 @@
  "nopod": [
   {
    "key": "PLANS-22824",
-   "name": "Member Portal - DCA | Add Plan | Incorrect “Add Member” wording displayed",
+   "name": "Member Portal - DCA | Additional Member discount not applied when ADD PLAN",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Mireya Alvarez"
