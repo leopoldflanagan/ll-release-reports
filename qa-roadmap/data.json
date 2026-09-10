@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T14:45:24+00:00",
+ "generated_at": "2026-09-10T14:50:25+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -78,7 +78,7 @@
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
    "status": "Idea",
-   "ted": "2026-09-14",
+   "ted": null,
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
    "tshirt": null
@@ -563,7 +563,7 @@
    "key": "PLANS-19644",
    "name": "PMP: Tying multiple Patient ID's to one WF ID",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-11",
    "fv": "R9.8",
    "who": "Daryl Myrick",
    "tshirt": "Small",
@@ -717,7 +717,7 @@
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
    "status": "Idea",
-   "ted": "2026-09-14",
+   "ted": null,
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
    "tshirt": null,
@@ -1272,7 +1272,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": null,
+   "ted": "2026-09-11",
    "who": "Daryl Myrick",
    "theme": "LL-Fast Follows"
   },
@@ -1426,7 +1426,7 @@
    "proj": "PLANS",
    "status": "Idea",
    "fv": "R9.8",
-   "ted": "2026-09-14",
+   "ted": null,
    "who": "Dmytro Tymofiienko",
    "theme": "LL-Fast Follows"
   },
@@ -2045,6 +2045,29 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-16289",
+   "name": "Member Portal \\ Add Plan flow is broken",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Luis Moreno",
+   "prio": "2: Important",
+   "created": "2026-05-19T07:51:20.683-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3934,30 +3957,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20043",
-   "name": "All Cariengton practices - Missing custom logos in the membership agreement",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-21T15:12:06.080-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -4000,29 +3999,6 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-16289",
-   "name": "Member Portal \\ Add Plan flow is broken",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno",
-   "prio": "2: Important",
-   "created": "2026-05-19T07:51:20.683-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4704,6 +4680,30 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-20043",
+   "name": "All Cariengton practices - Missing custom logos in the membership agreement",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-21T15:12:06.080-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -22995,6 +22995,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22775",
+   "name": "Fee Schedule -",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
