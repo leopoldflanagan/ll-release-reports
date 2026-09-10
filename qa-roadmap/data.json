@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T12:00:27+00:00",
+ "generated_at": "2026-09-10T12:15:23+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -1933,6 +1933,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-20768",
+   "name": "Migrated Plans - Exclusions - Inconsistent behavior",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-05T10:19:39.597-0700",
+   "resolved": "",
+   "due": "2026-09-11",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-20133",
    "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
    "pod": "PLANS",
@@ -3860,30 +3884,6 @@
    "due": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20768",
-   "name": "Migrated Plans - Exclusions - Inconsistent behavior",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-05T10:19:39.597-0700",
-   "resolved": "",
-   "due": "2026-09-10",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
