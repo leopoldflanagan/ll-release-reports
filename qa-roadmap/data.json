@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T13:16:07+00:00",
+ "generated_at": "2026-09-10T13:26:46+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -2093,6 +2093,27 @@
    "labels": [
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22720",
+   "name": "Fee Schedule - Most recent effective-dated record not visible at the top of the fee scedule.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-10T06:11:42.475-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -22931,13 +22952,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22720",
-   "name": "Fee Schedule - most recent effective-dated record not visible at the top of the fee scedule.",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
