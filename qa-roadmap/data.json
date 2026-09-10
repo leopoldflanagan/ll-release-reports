@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T19:15:19+00:00",
+ "generated_at": "2026-09-10T19:20:53+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -5200,6 +5200,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22818",
+   "name": "Broken-ACH-PMP-Add Payment Method-adding ACH account not showing Authorization form and after clicking ADD button, it directly add bank account for Member",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-10T10:32:49.750-0700",
+   "resolved": "2026-09-10T10:50:06.431-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21163",
    "name": "Plan Deails - legacy - Minor Improvement UI - full page taken for footer",
    "pod": "LL",
@@ -5300,7 +5321,7 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
