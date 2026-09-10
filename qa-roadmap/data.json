@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T18:15:22+00:00",
+ "generated_at": "2026-09-10T18:17:45+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -4590,30 +4590,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22146",
-   "name": "Provider Portal-CrosBy and SGDP TN plans-Export Payment receipt is giving 500 sever error",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Vinita Thankur",
-   "prio": "4: Low",
-   "created": "2026-08-31T15:06:26.524-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -5199,6 +5175,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22146",
+   "name": "Provider Portal-CrosBy and SGDP TN plans-Export Payment receipt is giving 500 sever error",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Vinita Thankur",
+   "prio": "4: Low",
+   "created": "2026-08-31T15:06:26.524-0700",
+   "resolved": "2026-09-10T11:15:19.244-0700",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21163",
    "name": "Plan Deails - legacy - Minor Improvement UI - full page taken for footer",
