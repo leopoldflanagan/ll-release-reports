@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T20:49:39+00:00",
+ "generated_at": "2026-09-10T21:00:31+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -1733,30 +1733,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22171",
-   "name": "CSP \\ DCA plan outside of renew window defaults to \"Late Renewal\" instead of \"Late Renewal 60 Plus\" during renewal",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Mariano Hernández",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-01T09:52:17.997-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4061,6 +4037,30 @@
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-09-03T10:07:59.529-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22171",
+   "name": "CSP \\ DCA plan outside of renew window defaults to \"Late Renewal\" instead of \"Late Renewal 60 Plus\" during renewal",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Mariano Hernández",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-01T09:52:17.997-0700",
    "resolved": "",
    "due": "",
    "labels": [
