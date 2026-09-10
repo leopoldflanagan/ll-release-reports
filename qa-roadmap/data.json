@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T05:45:26+00:00",
+ "generated_at": "2026-09-10T06:00:28+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -64,6 +64,15 @@
    "fv": "R9.9",
    "who": "Chris Rubio",
    "tshirt": "Moderate"
+  },
+  {
+   "key": "PLANS-22676",
+   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
+   "tshirt": null
   },
   {
    "key": "PLANS-21974",
@@ -901,6 +910,17 @@
    "tshirt": "Small",
    "pod": "LL",
    "theme": ""
+  },
+  {
+   "key": "PLANS-22676",
+   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": ""
   }
  ],
  "all": [
@@ -1584,6 +1604,17 @@
    "fv": "R9.8",
    "ted": "2026-09-09",
    "who": "Valentyna Tenus",
+   "theme": ""
+  },
+  {
+   "key": "PLANS-22676",
+   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Dmytro Tymofiienko",
    "theme": ""
   }
  ],
