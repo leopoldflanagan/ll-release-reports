@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T08:01:03+00:00",
+ "generated_at": "2026-09-10T08:15:23+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -3564,7 +3564,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-09-02T21:06:56.713-0700",
