@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T17:49:45+00:00",
+ "generated_at": "2026-09-10T18:00:28+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -4029,30 +4029,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22227",
-   "name": "PMP - UX- Member Details Not Auto-Populated When PURCHASE PLAN from Member's Plan Overview",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-02T07:25:33.193-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21835",
    "name": "MP| Inconsistent Plan purchase Pricing between add member and checkout page",
    "pod": "PLANS",
@@ -4189,6 +4165,30 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22227",
+   "name": "PMP - UX- Member Details Not Auto-Populated When PURCHASE PLAN from Member's Plan Overview",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-02T07:25:33.193-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -22996,11 +22996,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-22818",
-   "name": "Broken-ACH-PMP-Add Payment Method-adding ACH account not showing Authorization form and after clicking ADD button, it directly add bank account for Member",
+   "key": "PLANS-22819",
+   "name": "Office assignment mismatch between PMP and CSP for member record",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Vinita Thankur"
+   "reporter": "Daniel Marineni"
   },
   {
    "key": "PLANS-22775",
