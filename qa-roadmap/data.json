@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T17:30:30+00:00",
+ "generated_at": "2026-09-10T17:36:49+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -22995,6 +22995,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22818",
+   "name": "Broken-ACH-PMP-Add Payment Method-adding ACH account not showing Authorization form and after clicking ADD button, it directly add bank account for Member",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-22775",
    "name": "delete",
