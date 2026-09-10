@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T10:00:25+00:00",
+ "generated_at": "2026-09-10T10:15:21+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -1785,6 +1785,30 @@
    "theme": "",
    "triage": "",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21686",
+   "name": "Member Portal and PMP<Stage<Primary Member can not ADD Member(minor or Adult) if having only one Credit Card account, it is working if member have only ACH bank account",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-21T09:33:46.446-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3769,30 +3793,6 @@
    "theme": "",
    "triage": "",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21686",
-   "name": "Member Portal and PMP<Stage<Primary Member can not ADD Member(minor or Adult) if having only one Credit Card account, it is working if member have only ACH bank account",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-21T09:33:46.446-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
