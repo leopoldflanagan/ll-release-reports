@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T22:24:02+00:00",
+ "generated_at": "2026-09-10T22:30:24+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -23058,6 +23058,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22832",
+   "name": "Purchase widget enforces a hard-coded age 13 that disagrees with the configured MaximumAge",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hunter Redhead"
+  },
   {
    "key": "PLANS-22824",
    "name": "Member Portal - DCA | Additional Member discount not applied when ADD PLAN",
