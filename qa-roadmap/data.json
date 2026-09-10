@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T11:00:28+00:00",
+ "generated_at": "2026-09-10T11:15:26+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -185,7 +185,7 @@
   {
    "key": "PLANS-22333",
    "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-09",
    "fv": "R9.8",
    "who": "Valentyna Tenus",
@@ -903,7 +903,7 @@
   {
    "key": "PLANS-22333",
    "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-09",
    "fv": "R9.8",
    "who": "Valentyna Tenus",
@@ -1600,7 +1600,7 @@
    "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
    "ted": "2026-09-09",
    "who": "Valentyna Tenus",
@@ -1717,6 +1717,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22479",
+   "name": "Provider Portal: unreachable legal-language source blocks the purchase button",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Denys Kernychnyi",
+   "prio": "2: Important",
+   "created": "2026-09-04T02:32:44.219-0700",
+   "resolved": "",
+   "due": "2026-09-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22422",
    "name": "Member Search - manage patients returning incorrect info",
    "pod": "PLANS",
@@ -1785,30 +1809,6 @@
    "theme": "",
    "triage": "",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21686",
-   "name": "Member Portal and PMP<Stage<Primary Member can not ADD Member(minor or Adult) if having only one Credit Card account, it is working if member have only ACH bank account",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-21T09:33:46.446-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3581,30 +3581,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22479",
-   "name": "Provider Portal: unreachable legal-language source blocks the purchase button",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Denys Kernychnyi",
-   "prio": "2: Important",
-   "created": "2026-09-04T02:32:44.219-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22328",
    "name": "DCA - Incorrect logo in Member portal (STAGE)",
    "pod": "LL",
@@ -4176,6 +4152,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21686",
+   "name": "Member Portal and PMP<Stage<Primary Member can not ADD Member(minor or Adult) if having only one Credit Card account, it is working if member have only ACH bank account",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-21T09:33:46.446-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21594",
