@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T15:30:25+00:00",
+ "generated_at": "2026-09-10T15:40:59+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -1714,6 +1714,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22497",
+   "name": "Careington test-file error remediation (COMBINED ticket)",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.7.2",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Sushma Bankar",
+   "prio": "2: Important",
+   "created": "2026-09-04T09:02:48.545-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22486",
    "name": "Plan details - custom logos are missing",
    "pod": "LL",
@@ -1855,30 +1879,6 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21835",
-   "name": "MP| Inconsistent Plan purchase Pricing between add member and checkout page",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-25T16:37:06.386-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4076,6 +4076,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21835",
+   "name": "MP| Inconsistent Plan purchase Pricing between add member and checkout page",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-25T16:37:06.386-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -5674,30 +5698,6 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22497",
-   "name": "Careington test-file error remediation (COMBINED ticket)",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7.2",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-09-04T09:02:48.545-0700",
-   "resolved": "2026-09-08T19:16:59.990-0700",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
