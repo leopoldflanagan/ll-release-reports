@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T18:30:26+00:00",
+ "generated_at": "2026-09-10T18:40:23+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -333,7 +333,7 @@
    "name": "PBO Arrangements (Provider Portal & Wellfit Pay): Show Refunds and Adjustments (Crosby Bug)",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
@@ -630,7 +630,7 @@
    "name": "Individual Plus - Tier 2 Expansion",
    "status": "Epics & Stories",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Camille Knight",
    "tshirt": null,
    "pod": "PLANS",
@@ -1040,7 +1040,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Requirements",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": null,
    "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
@@ -1337,7 +1337,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Epics & Stories",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": null,
    "who": "Camille Knight",
    "theme": "LL-Fast Follows"
