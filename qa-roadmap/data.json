@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-09T23:49:37+00:00",
- "today": "2026-09-09",
+ "generated_at": "2026-09-10T00:00:26+00:00",
+ "today": "2026-09-10",
  "features": [
   {
    "key": "PLANS-21011",
@@ -4180,30 +4180,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22516",
-   "name": "Marketing Details - Misspelling",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-09-04T14:05:01.268-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22295",
    "name": "One Smile Plan - NV & WA",
    "pod": "LL",
@@ -4472,6 +4448,30 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22516",
+   "name": "Marketing Details - Misspelling",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-09-04T14:05:01.268-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
