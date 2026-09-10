@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T13:38:58+00:00",
+ "generated_at": "2026-09-10T13:45:42+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -2077,22 +2077,20 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-14429",
-   "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-04-16T08:03:50.116-0700",
+   "key": "PLANS-22721",
+   "name": "Fee Schedule - Future Effective-Dated Procedures Visible in Smile Health Before Effective Date",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-10T06:41:38.643-0700",
    "resolved": "",
    "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4195,6 +4193,29 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-14429",
+   "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Hunter Redhead",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-04-16T08:03:50.116-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
