@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T14:00:30+00:00",
+ "generated_at": "2026-09-10T14:14:35+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -747,6 +747,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-22676",
+   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
+   "status": "Architecture",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Dmytro Tymofiienko",
+   "tshirt": null,
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLAT-5573",
    "name": "SaaS Fee Per Practice",
    "status": "Architecture",
@@ -908,17 +919,6 @@
    "fv": "R9.8",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
-   "pod": "LL",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-22676",
-   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
-   "tshirt": null,
    "pod": "LL",
    "theme": ""
   }
@@ -1442,6 +1442,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-22676",
+   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "Architecture",
+   "fv": "R9.8",
+   "ted": null,
+   "who": "Dmytro Tymofiienko",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLAT-5573",
    "name": "SaaS Fee Per Practice",
    "pod": "PLAT",
@@ -1604,17 +1615,6 @@
    "fv": "R9.8",
    "ted": "2026-09-09",
    "who": "Valentyna Tenus",
-   "theme": ""
-  },
-  {
-   "key": "PLANS-22676",
-   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "Architecture",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Dmytro Tymofiienko",
    "theme": ""
   }
  ],
@@ -4149,6 +4149,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22227",
+   "name": "PMP - UX- Member Details Not Auto-Populated When PURCHASE PLAN from Member's Plan Overview",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-02T07:25:33.193-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -4578,30 +4602,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-02T09:06:16.276-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22227",
-   "name": "PMP - UX- Member Details Not Auto-Populated When PURCHASE PLAN from Member's Plan Overview",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-02T07:25:33.193-0700",
    "resolved": "",
    "due": "",
    "labels": [
