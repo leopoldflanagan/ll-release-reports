@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T14:15:20+00:00",
+ "generated_at": "2026-09-10T14:28:46+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -390,6 +390,17 @@
    "ted": "2026-11-04",
    "fv": "R9.9",
    "who": "Daniel Marineni",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-17746",
+   "name": "Benefit Usage and Office Assignment",
+   "status": "Idea",
+   "ted": "2026-11-04",
+   "fv": "R9.9",
+   "who": "Unassigned",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -1090,6 +1101,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-17746",
+   "name": "Benefit Usage and Office Assignment",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.9",
+   "ted": "2026-11-04",
+   "who": "Unassigned",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-18017",
    "name": "Multi-Practice User - Manage Patient",
    "pod": "PLANS",
@@ -1704,7 +1726,7 @@
    "prio": "1: Urgent",
    "created": "2026-09-04T07:26:01.892-0700",
    "resolved": "",
-   "due": "2026-09-10",
+   "due": "2026-09-17",
    "labels": [
     "Logo",
     "group1_migration",
@@ -1885,30 +1907,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21623",
-   "name": "ACH Refund - Refund not audited in History of accounts (ACH/CC )",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-08-20T07:37:22.516-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21609",
    "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
    "pod": "LL",
@@ -1981,30 +1979,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21015",
-   "name": "Retest/Member Portal/Benefit Status for used benefits is not displayed in Benefit Summaries",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-08-11T12:45:43.262-0700",
-   "resolved": "",
-   "due": "2026-09-01",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-20768",
    "name": "Migrated Plans - Exclusions - Inconsistent behavior",
    "pod": "LL",
@@ -2064,7 +2038,7 @@
    "prio": "1: Urgent",
    "created": "2026-07-22T08:47:16.230-0700",
    "resolved": "",
-   "due": "2026-09-10",
+   "due": "2026-09-17",
    "labels": [
     "Logo",
     "group1_migration",
@@ -3559,7 +3533,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 21-26",
-   "who": "Unassigned",
+   "who": "Mariano Hernández",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-09T19:23:15.953-0700",
@@ -3617,7 +3591,7 @@
     "PDS",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-MVP",
    "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
@@ -3912,6 +3886,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21015",
+   "name": "Retest/Member Portal/Benefit Status for used benefits is not displayed in Benefit Summaries",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-11T12:45:43.262-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-20495",
    "name": "WFP - Practice Credit Card Not Removed from Office Payments When Organization Is Switched from \"Paid by Office\" to \"Bill to Office\"",
    "pod": "PLANS",
@@ -3934,30 +3932,6 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-20268",
-   "name": "RETEST - Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-07-24T10:08:46.751-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-20109",
@@ -4221,6 +4195,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21623",
+   "name": "ACH Refund - Refund not audited in History of accounts (ACH/CC )",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-08-20T07:37:22.516-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-14429",
    "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
    "pod": "PLANS",
@@ -4266,6 +4264,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-20268",
+   "name": "RETEST - Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-07-24T10:08:46.751-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21594",
