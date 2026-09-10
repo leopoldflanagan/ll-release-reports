@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T14:41:39+00:00",
+ "generated_at": "2026-09-10T14:45:24+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -562,7 +562,7 @@
   {
    "key": "PLANS-19644",
    "name": "PMP: Tying multiple Patient ID's to one WF ID",
-   "status": "Ready for Development",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.8",
    "who": "Daryl Myrick",
@@ -1270,7 +1270,7 @@
    "name": "PMP: Tying multiple Patient ID's to one WF ID",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R9.8",
    "ted": null,
    "who": "Daryl Myrick",
