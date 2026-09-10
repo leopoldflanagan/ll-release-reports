@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T16:00:27+00:00",
+ "generated_at": "2026-09-10T16:15:26+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -2009,7 +2009,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Mykyta Moroz",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
@@ -2021,9 +2021,9 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-20111",
@@ -4136,7 +4136,7 @@
    "prio": "2: Important",
    "created": "2026-08-21T09:33:46.446-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-10",
    "labels": [
     "group1_migration",
     "product_prioritized"
