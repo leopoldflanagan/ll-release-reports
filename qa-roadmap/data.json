@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T09:30:25+00:00",
+ "generated_at": "2026-09-10T09:45:19+00:00",
  "today": "2026-09-10",
  "features": [
   {
@@ -1833,6 +1833,30 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21505",
+   "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T11:51:13.130-0700",
+   "resolved": "",
+   "due": "2026-09-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3815,30 +3839,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21505",
-   "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T11:51:13.130-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
