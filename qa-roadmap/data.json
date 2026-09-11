@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T22:45:22+00:00",
+ "generated_at": "2026-09-11T22:49:04+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -4041,6 +4041,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "EDW-2345",
+   "name": "PRODUCTION - migrated plans - auto-renewal off",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-11T15:45:36.213-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
