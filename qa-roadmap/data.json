@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T16:49:07+00:00",
+ "generated_at": "2026-09-11T17:00:27+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -132,7 +132,7 @@
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "status": "In Development",
-   "ted": "2026-09-17",
+   "ted": "2026-09-18",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate"
@@ -288,7 +288,7 @@
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "status": "In Development",
-   "ted": "2026-09-17",
+   "ted": "2026-09-18",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate",
@@ -771,7 +771,7 @@
   {
    "key": "PLAT-5573",
    "name": "SaaS Fee Per Practice",
-   "status": "Architecture",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.8",
    "who": "Vic Du Plessis",
@@ -997,7 +997,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": "2026-09-17",
+   "ted": "2026-09-18",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -1479,7 +1479,7 @@
    "name": "SaaS Fee Per Practice",
    "pod": "PLAT",
    "proj": "PLAT",
-   "status": "Architecture",
+   "status": "In Development",
    "fv": "R9.8",
    "ted": null,
    "who": "Vic Du Plessis",
