@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T13:40:46+00:00",
+ "generated_at": "2026-09-11T13:45:23+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -141,7 +141,7 @@
    "key": "PLANS-21975",
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "status": "In Development",
-   "ted": "2026-09-11",
+   "ted": "2026-09-14",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null
@@ -882,7 +882,7 @@
    "key": "PLANS-21975",
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "status": "In Development",
-   "ted": "2026-09-11",
+   "ted": "2026-09-14",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null,
@@ -1591,7 +1591,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": "2026-09-11",
+   "ted": "2026-09-14",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
@@ -1710,6 +1710,30 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22318",
+   "name": "Preprod - PMP - CC status is updated after adding a new member to the plan.",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-09-02T13:58:59.907-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3476,30 +3500,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22318",
-   "name": "Preprod - PMP - CC status is updated after adding a new member to the plan.",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-09-02T13:58:59.907-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22144",
    "name": "One Smile – Only one plan is displayed on the Custom Website",
    "pod": "PLANS",
@@ -3844,30 +3844,6 @@
    "created": "2026-09-07T08:14:19.073-0700",
    "resolved": "",
    "due": "2026-09-09",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22497",
-   "name": "Careington test-file error remediation (COMBINED ticket)",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7.2",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-09-04T09:02:48.545-0700",
-   "resolved": "",
-   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5193,6 +5169,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22497",
+   "name": "Careington test-file error remediation (COMBINED ticket)",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.7.2",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Sushma Bankar",
+   "prio": "2: Important",
+   "created": "2026-09-04T09:02:48.545-0700",
+   "resolved": "2026-09-11T06:43:40.878-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22501",
    "name": "UI Improvement for PMP",
