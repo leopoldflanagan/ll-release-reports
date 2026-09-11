@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T16:00:29+00:00",
+ "generated_at": "2026-09-11T16:15:59+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -1684,6 +1684,31 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22486",
+   "name": "Plan details - custom logos are missing",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-04T07:26:01.892-0700",
+   "resolved": "",
+   "due": "2026-09-17",
+   "labels": [
+    "Logo",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3986,31 +4011,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22486",
-   "name": "Plan details - custom logos are missing",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-09-04T07:26:01.892-0700",
-   "resolved": "",
-   "due": "2026-09-17",
-   "labels": [
-    "Logo",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
