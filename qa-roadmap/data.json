@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T19:30:25+00:00",
+ "generated_at": "2026-09-11T19:36:41+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -4792,30 +4792,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21686",
-   "name": "Member Portal and PMP<Stage<Primary Member can not ADD Member(minor or Adult) if having only one Credit Card account, it is working if member have only ACH bank account",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-21T09:33:46.446-0700",
-   "resolved": "",
-   "due": "2026-09-10",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21505",
    "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
    "pod": "LL",
@@ -5317,6 +5293,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21686",
+   "name": "Member Portal and PMP<Stage<Primary Member can not ADD Member(minor or Adult) if having only one Credit Card account, it is working if member have only ACH bank account",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-21T09:33:46.446-0700",
+   "resolved": "2026-09-11T12:34:42.581-0700",
+   "due": "2026-09-10",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-18083",
    "name": "Member portal - ADD PLAN - add member ; giving 500 error",
