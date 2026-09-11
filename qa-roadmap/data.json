@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T23:15:22+00:00",
+ "generated_at": "2026-09-11T23:23:55+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -23376,7 +23376,7 @@
   },
   {
    "key": "PLANS-22873",
-   "name": "Member Portal \\ SGDP Plan Add Plan flow is broken",
+   "name": "Member Portal \\ Add Plan flow shows same current plan card",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
