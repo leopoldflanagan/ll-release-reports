@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T11:00:27+00:00",
+ "generated_at": "2026-09-11T11:15:20+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -3644,30 +3644,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21183",
-   "name": "CSP - ACH Transaction displays 'Status Unavailable' instead of 'Not Refunded' in Plan Transactions",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-13T07:35:44.130-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21154",
    "name": "All Portals - Plan Details - Custom Logo Not Visible in Plan Detail Document (legacy and New )",
    "pod": "PLANS",
@@ -4663,6 +4639,30 @@
    "created": "2026-08-25T14:45:49.189-0700",
    "resolved": "",
    "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21183",
+   "name": "CSP - ACH Transaction displays 'Status Unavailable' instead of 'Not Refunded' in Plan Transactions",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13T07:35:44.130-0700",
+   "resolved": "",
+   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
