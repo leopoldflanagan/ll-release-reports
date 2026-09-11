@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T15:45:24+00:00",
+ "generated_at": "2026-09-11T15:49:31+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -3597,7 +3597,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 21-26",
-   "who": "Unassigned",
+   "who": "David Jones",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "1: Urgent",
    "created": "2026-09-09T09:40:42.591-0700",
@@ -4088,102 +4088,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22648",
-   "name": "PMP and MP: Group ID code should be displayed on Membership card and Additional benefit card PDF",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-09-09T08:45:25.920-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22422",
-   "name": "Member Search - manage patients returning incorrect info",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-09-03T10:07:59.529-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22171",
-   "name": "CSP \\ DCA plan outside of renew window defaults to \"Late Renewal\" instead of \"Late Renewal 60 Plus\" during renewal",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Mariano Hernández",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-01T09:52:17.997-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21686",
-   "name": "Member Portal and PMP<Stage<Primary Member can not ADD Member(minor or Adult) if having only one Credit Card account, it is working if member have only ACH bank account",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-21T09:33:46.446-0700",
-   "resolved": "",
-   "due": "2026-09-10",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21594",
    "name": "CSP - Refund with \"Disable benefit plan\" cancels the wrong plan when two plans were purchased in one transaction",
    "pod": "PLANS",
@@ -4411,6 +4315,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22648",
+   "name": "PMP and MP: Group ID code should be displayed on Membership card and Additional benefit card PDF",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Sushma Bankar",
+   "prio": "2: Important",
+   "created": "2026-09-09T08:45:25.920-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22632",
    "name": "Unexpected SGDP Receipt \\ A SGDP Receipt is sent to users under the title \"Welcome to Your Dental Savings Plan\"",
    "pod": "PLANS",
@@ -4450,6 +4378,30 @@
    "due": "",
    "labels": [
     "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22422",
+   "name": "Member Search - manage patients returning incorrect info",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-09-03T10:07:59.529-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4603,6 +4555,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22171",
+   "name": "CSP \\ DCA plan outside of renew window defaults to \"Late Renewal\" instead of \"Late Renewal 60 Plus\" during renewal",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Mariano Hernández",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-01T09:52:17.997-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22108",
    "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
    "pod": "LL",
@@ -4727,6 +4703,30 @@
    "created": "2026-08-25T14:45:49.189-0700",
    "resolved": "",
    "due": "2026-08-31",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21686",
+   "name": "Member Portal and PMP<Stage<Primary Member can not ADD Member(minor or Adult) if having only one Credit Card account, it is working if member have only ACH bank account",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-08-21T09:33:46.446-0700",
+   "resolved": "",
+   "due": "2026-09-10",
    "labels": [
     "group1_migration",
     "product_prioritized"
