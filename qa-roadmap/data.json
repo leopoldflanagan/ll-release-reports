@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T18:49:11+00:00",
+ "generated_at": "2026-09-11T19:00:28+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -3383,6 +3383,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22874",
+   "name": "PRODUCTION - ACH Returns - Failure to read event",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-11T11:52:18.377-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22870",
    "name": "PMP - Resend Welcome Email",
    "pod": "PLANS",
@@ -4958,30 +4982,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-18083",
-   "name": "Member portal - ADD PLAN - add member ; giving 500 error",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-16T13:54:54.335-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22413",
    "name": "Stage/PMP/Multipractice/Plans Purchase/Practice Name dropdown/ Dental care alliance practices are not displayed in the nested group",
    "pod": "PLANS",
@@ -5317,6 +5317,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-18083",
+   "name": "Member portal - ADD PLAN - add member ; giving 500 error",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-06-16T13:54:54.335-0700",
+   "resolved": "2026-09-11T11:50:18.190-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-16289",
    "name": "Member Portal \\ Add Plan flow is broken",
