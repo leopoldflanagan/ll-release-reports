@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T12:45:25+00:00",
+ "generated_at": "2026-09-11T13:00:29+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -1641,27 +1641,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-22721",
-   "name": "Fee Schedule - Future Effective-Dated Procedures Visible in Smile Health Before Effective Date",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-10T06:41:38.643-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-22617",
    "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
@@ -3849,6 +3828,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22721",
+   "name": "Fee Schedule - Future Effective-Dated Procedures Visible in Smile Health Before Effective Date",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-10T06:41:38.643-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
