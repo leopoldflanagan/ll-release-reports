@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T20:00:23+00:00",
+ "generated_at": "2026-09-11T20:14:48+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -1641,30 +1641,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-22655",
-   "name": "Preprod - PMP - Plan for additional member is not renewed",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "David Jones",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-09-09T09:40:42.591-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-22617",
    "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
@@ -4018,6 +3994,30 @@
    "labels": [],
    "theme": "",
    "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22655",
+   "name": "Preprod - PMP - Plan for additional member is not renewed",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "David Jones",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "1: Urgent",
+   "created": "2026-09-09T09:40:42.591-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "Yes",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
