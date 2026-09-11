@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T14:38:31+00:00",
+ "generated_at": "2026-09-11T14:45:20+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -1772,7 +1772,7 @@
    "prio": "3: Standard",
    "created": "2026-08-27T08:08:03.779-0700",
    "resolved": "",
-   "due": "2026-09-11",
+   "due": "2026-09-14",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -3975,30 +3975,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22322",
-   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-02T16:08:49.542-0700",
-   "resolved": "",
-   "due": "2026-09-11",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -4041,29 +4017,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-20133",
-   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-07-22T12:00:08.259-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -4135,6 +4088,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22322",
+   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-02T16:08:49.542-0700",
+   "resolved": "",
+   "due": "2026-09-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4283,6 +4260,29 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-20133",
+   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-22T12:00:08.259-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21594",
