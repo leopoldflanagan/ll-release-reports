@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T16:16:18+00:00",
+ "generated_at": "2026-09-11T16:30:24+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -77,7 +77,7 @@
   {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
-   "status": "Idea",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
@@ -716,7 +716,7 @@
   {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
-   "status": "Idea",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.8",
    "who": "Dmytro Tymofiienko",
@@ -1424,7 +1424,7 @@
    "name": "PDF Enhancements",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "Requirements",
    "fv": "R9.8",
    "ted": null,
    "who": "Dmytro Tymofiienko",
@@ -23217,6 +23217,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22862",
+   "name": "Prod- Delux plan page is not showing pricing",
+   "status": "In Development",
+   "who": "Mariano Hernández",
+   "reporter": "Sushma Bankar"
+  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
