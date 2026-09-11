@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T15:00:29+00:00",
+ "generated_at": "2026-09-11T15:14:41+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -355,7 +355,7 @@
    "name": "Auto-Renewal Re-Try Process",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -1062,7 +1062,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Architecture",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": null,
    "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
@@ -23177,7 +23177,7 @@
  "nopod": [
   {
    "key": "PLANS-22846",
-   "name": "Member portal - DCA - Broken - Additional plan not discounted",
+   "name": "Member portal - ADD PLAN - Additional Member Discount Incorrectly Applied When Adding a New Primary Plan",
    "status": "Backlog",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
