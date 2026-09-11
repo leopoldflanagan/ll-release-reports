@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T15:15:23+00:00",
+ "generated_at": "2026-09-11T15:28:12+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -1929,6 +1929,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22858",
+   "name": "PMP - ADD MEMBER- Additional Member Discount Incorrectly Applied When Adding an Ad Hoc Plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-11T08:22:36.637-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22849",
    "name": "Member portal - ADD MEMBER - getting a 400 error when upgrading a plan",
    "pod": "LL",
@@ -1940,6 +1961,27 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-11T07:04:23.896-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22846",
+   "name": "Member portal - ADD PLAN - Additional Member Discount Incorrectly Applied When Adding a New Primary Plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-11T06:49:34.689-0700",
    "resolved": "",
    "due": "",
    "labels": [],
@@ -2988,7 +3030,7 @@
    "prio": "4: Low",
    "created": "2026-07-24T10:08:46.751-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-07",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4118,30 +4160,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22295",
-   "name": "One Smile Plan - NV & WA",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Petro Yarish",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-02T09:42:18.496-0700",
-   "resolved": "",
-   "due": "2026-09-10",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22227",
    "name": "PMP - UX- Member Details Not Auto-Populated When PURCHASE PLAN from Member's Plan Overview",
    "pod": "PLANS",
@@ -4177,30 +4195,6 @@
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-09-01T09:52:17.997-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21835",
-   "name": "MP| Inconsistent Plan purchase Pricing between add member and checkout page",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-25T16:37:06.386-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -4260,29 +4254,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-20133",
-   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-07-22T12:00:08.259-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-21594",
@@ -4608,6 +4579,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22295",
+   "name": "One Smile Plan - NV & WA",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-02T09:42:18.496-0700",
+   "resolved": "",
+   "due": "2026-09-10",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22291",
    "name": "preprod issue - CSP - getting an error when print refund receipts",
    "pod": "LL",
@@ -4719,6 +4714,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21835",
+   "name": "MP| Inconsistent Plan purchase Pricing between add member and checkout page",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-25T16:37:06.386-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
    "pod": "LL",
@@ -4809,6 +4828,29 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-20133",
+   "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Mykyta Moroz",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-07-22T12:00:08.259-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
    "lpSprint": true,
@@ -5371,7 +5413,7 @@
    "prio": "3: Standard",
    "created": "2026-08-13T04:31:45.587-0700",
    "resolved": "2026-09-10T07:39:24.645-0700",
-   "due": "",
+   "due": "2026-09-10",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5537,7 +5579,7 @@
    "prio": "3: Standard",
    "created": "2026-08-19T07:03:24.897-0700",
    "resolved": "2026-09-09T13:20:26.214-0700",
-   "due": "",
+   "due": "2026-09-09",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -23175,13 +23217,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22846",
-   "name": "Member portal - ADD PLAN - Additional Member Discount Incorrectly Applied When Adding a New Primary Plan",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
