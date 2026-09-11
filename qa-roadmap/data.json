@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T13:00:29+00:00",
+ "generated_at": "2026-09-11T13:14:41+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -2360,9 +2360,9 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Luis Moreno Soberón",
    "prio": "3: Standard",
    "created": "2026-08-18T15:10:05.868-0700",
