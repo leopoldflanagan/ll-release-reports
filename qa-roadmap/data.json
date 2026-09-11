@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T19:23:25+00:00",
+ "generated_at": "2026-09-11T19:30:25+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -3390,7 +3390,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-09-11T11:52:18.377-0700",
