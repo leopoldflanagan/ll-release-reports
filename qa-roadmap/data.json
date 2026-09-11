@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T17:12:52+00:00",
+ "generated_at": "2026-09-11T17:15:22+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -4816,7 +4816,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 21-26",
    "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -4830,8 +4830,8 @@
    "theme": "",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-20133",
@@ -4840,7 +4840,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 21-26",
    "who": "Mykyta Moroz",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
@@ -4853,8 +4853,8 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-20061",
