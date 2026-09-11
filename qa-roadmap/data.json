@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T20:14:48+00:00",
+ "generated_at": "2026-09-11T20:15:24+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -3374,6 +3374,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22879",
+   "name": "Production - PMP - plans not purchasable",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-11T13:15:00.816-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
