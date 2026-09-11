@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T15:28:12+00:00",
+ "generated_at": "2026-09-11T15:30:25+00:00",
  "today": "2026-09-11",
  "features": [
   {
@@ -4136,30 +4136,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22322",
-   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-02T16:08:49.542-0700",
-   "resolved": "",
-   "due": "2026-09-11",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22227",
    "name": "PMP - UX- Member Details Not Auto-Populated When PURCHASE PLAN from Member's Plan Overview",
    "pod": "PLANS",
@@ -4549,6 +4525,30 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22322",
+   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-02T16:08:49.542-0700",
+   "resolved": "",
+   "due": "2026-09-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
