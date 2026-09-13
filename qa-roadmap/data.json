@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T14:15:22+00:00",
+ "generated_at": "2026-09-13T14:30:22+00:00",
  "today": "2026-09-13",
  "features": [
   {
@@ -23377,27 +23377,6 @@
    "prio": "3: Standard",
    "created": "2026-06-12T03:09:30.980-0700",
    "resolved": "2026-06-15T08:36:30.902-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-17937",
-   "name": "Production Plans API event grid issues",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.4",
-   "sprint": "Plans-Sprint 15-26",
-   "who": "David Jones",
-   "reporter": "David Jones",
-   "prio": "3: Standard",
-   "created": "2026-06-11T13:11:34.218-0700",
-   "resolved": "2026-06-15T07:22:18.791-0700",
    "due": "",
    "labels": [],
    "theme": "",
