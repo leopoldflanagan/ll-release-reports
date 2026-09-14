@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T18:30:23+00:00",
+ "generated_at": "2026-09-14T18:41:33+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1642,6 +1642,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-22900",
+   "name": "Fee Schedule - Legacy template - Fee Schedule Content Is Incorrectly Filtered by Coverage Level",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-14T07:24:04.056-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22895",
    "name": "Fee Scedule - Fee Schedule footer is not replacing ADA savings footer when savingsSource = FeeSchedule",
    "pod": "LL",
@@ -2062,30 +2086,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-22900",
-   "name": "Fee Schedule - Legacy template - Fee Schedule Content Is Incorrectly Filtered by Coverage Level",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-14T07:24:04.056-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-22892",
@@ -23595,7 +23595,7 @@
  "nopod": [
   {
    "key": "PLANS-22940",
-   "name": "FS",
+   "name": "delete",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
