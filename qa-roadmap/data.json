@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T15:39:19+00:00",
+ "generated_at": "2026-09-14T15:45:24+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -23364,6 +23364,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22913",
+   "name": "CSP \\ Plans purchased via SGDP Purchase portal are marked for delete",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-22909",
    "name": "Member Portal \\ Add Plan flow throws 400 code error at checkout screen",
