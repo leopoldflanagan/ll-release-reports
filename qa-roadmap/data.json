@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T22:01:04+00:00",
+ "generated_at": "2026-09-14T22:14:20+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1655,30 +1655,6 @@
    "created": "2026-09-14T07:24:04.056-0700",
    "resolved": "",
    "due": "2026-09-15",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22895",
-   "name": "Fee Scedule - Fee Schedule footer is not replacing ADA savings footer when savingsSource = FeeSchedule",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-14T06:43:47.876-0700",
-   "resolved": "",
-   "due": "2026-09-16",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -4342,6 +4318,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22895",
+   "name": "Fee Scedule - Fee Schedule footer is not replacing ADA savings footer when savingsSource = FeeSchedule",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-14T06:43:47.876-0700",
+   "resolved": "",
+   "due": "2026-09-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
