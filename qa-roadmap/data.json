@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T19:30:27+00:00",
+ "generated_at": "2026-09-14T19:35:56+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -4143,7 +4143,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
+   "sprint": "Plans-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
    "prio": "3: Standard",
@@ -4167,7 +4167,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans-Sprint 22-26",
+   "sprint": "LL-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -4180,7 +4180,7 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": true,
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4656,7 +4656,7 @@
    "status": "On Hold",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": "Plans-Sprint 22-26",
+   "sprint": "Plans-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
