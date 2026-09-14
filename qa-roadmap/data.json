@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T17:15:21+00:00",
+ "generated_at": "2026-09-14T17:24:23+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1834,7 +1834,7 @@
   },
   {
    "key": "PLANS-22924",
-   "name": "Fee Schedule - Default Data Displays 'Footer' as a Savings Row Without Member Savings && All Rows Show 999% Savings for essential smile.",
+   "name": "Fee Schedule - Default Data - Displays 'Footer' as a Savings Row Without Member Savings && All Rows Show 999% Savings for essential smile.",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -1860,7 +1860,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 22-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1868,11 +1868,11 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-22917",
@@ -1905,7 +1905,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 22-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1913,11 +1913,11 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-22904",
@@ -1926,7 +1926,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 22-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1934,11 +1934,11 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-22900",
@@ -1989,7 +1989,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 22-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1999,9 +1999,9 @@
    "labels": [],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-22891",
@@ -3761,10 +3761,10 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Hunter Redhead",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "David Jones",
    "prio": "3: Standard",
    "created": "2026-09-10T15:27:31.059-0700",
    "resolved": "",
