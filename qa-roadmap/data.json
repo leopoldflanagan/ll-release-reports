@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T21:12:37+00:00",
+ "generated_at": "2026-09-14T21:15:22+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -23572,7 +23572,7 @@
   {
    "key": "PLANS-22942",
    "name": "Claims Denticon is throwing authorized errors",
-   "status": "Backlog",
+   "status": "PR Merged",
    "who": "Sailaja Yanamandra",
    "reporter": "Daniel Marineni"
   },
