@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T22:45:23+00:00",
+ "generated_at": "2026-09-14T22:49:32+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -3606,6 +3606,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22941",
+   "name": "PRODUCTION - Incorrect Status for Plans - data cleanup",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Conor Kamperman",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-09-14T11:46:39.278-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22929",
    "name": "Fee Schedule - Essential Smile - Effective Date is populated based on the previously saved record instead of the user added date when adding new CDPS records",
    "pod": "LL",
@@ -4500,6 +4524,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22942",
+   "name": "Claims Denticon is throwing authorized errors",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-09-14T12:10:34.284-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -23545,20 +23593,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22942",
-   "name": "Claims Denticon is throwing authorized errors",
-   "status": "PR Merged",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-22941",
-   "name": "PRODUCTION - Incorrect Status for Plans - data cleanup",
-   "status": "Backlog",
-   "who": "Conor Kamperman",
-   "reporter": "Daniel Marineni"
-  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
