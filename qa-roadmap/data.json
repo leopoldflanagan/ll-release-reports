@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T19:49:33+00:00",
+ "generated_at": "2026-09-14T20:00:29+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1708,6 +1708,30 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22879",
+   "name": "Production - PMP - plans not purchasable",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-11T13:15:00.816-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3668,30 +3692,6 @@
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-09-14T08:10:51.336-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22879",
-   "name": "Production - PMP - plans not purchasable",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-11T13:15:00.816-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -23606,13 +23606,6 @@
    "status": "Backlog",
    "who": "Conor Kamperman",
    "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-22940",
-   "name": "delete",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
   },
   {
    "key": "PLANS-22674",
