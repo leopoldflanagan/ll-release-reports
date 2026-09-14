@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T16:49:49+00:00",
+ "generated_at": "2026-09-14T17:00:28+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1834,7 +1834,7 @@
   },
   {
    "key": "PLANS-22924",
-   "name": "Fee schedule - Default data - showing a section as 'Footer' and a row without a Member Saving, however its not visible in One smile/ essential smile.",
+   "name": "Fee Schedule - Default Data Displays 'Footer' as a Savings Row Without Member Savings; All Rows Show 999% Savings for essential smile.",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
