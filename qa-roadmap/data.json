@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T14:17:22+00:00",
+ "generated_at": "2026-09-14T14:30:27+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -23287,27 +23287,6 @@
    "prio": "3: Standard",
    "created": "2026-06-03T10:43:58.975-0700",
    "resolved": "2026-06-16T11:11:41.292-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-17647",
-   "name": "Auto-renewal batch queues dependent plans as standalone items → false PAYMENT_ACCOUNT_INACTIVE failures",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 15-26",
-   "who": "David Jones",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-06-08T09:43:07.240-0700",
-   "resolved": "2026-06-16T07:27:35.855-0700",
    "due": "",
    "labels": [],
    "theme": "",
