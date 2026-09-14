@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T10:45:19+00:00",
+ "generated_at": "2026-09-14T11:00:24+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1875,6 +1875,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22892",
+   "name": "Smile Health - Inconsistent Font Sizes/Styles/ link colors in Legal Consent Section",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-14T03:44:43.607-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23277,13 +23298,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22892",
-   "name": "Smile Health - Inconsistent Font Sizes in Legal Consent Section",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-22877",
    "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
