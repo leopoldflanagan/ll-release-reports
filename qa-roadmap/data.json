@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T18:41:33+00:00",
+ "generated_at": "2026-09-14T18:45:58+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1728,30 +1728,6 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22883",
-   "name": "Fee Schedule - Incorrect Column Header Displayed in Fee Schedule Table [ADA Code & Member Savings]",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-12T06:08:21.240-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
@@ -4390,6 +4366,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22883",
+   "name": "Fee Schedule - Incorrect Column Header Displayed in Fee Schedule Table [ADA Code & Member Savings]",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-12T06:08:21.240-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
