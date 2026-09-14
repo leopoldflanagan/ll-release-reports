@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T20:38:56+00:00",
+ "generated_at": "2026-09-14T20:45:22+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1714,30 +1714,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22879",
-   "name": "Production - PMP - plans not purchasable",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-11T13:15:00.816-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22486",
    "name": "Plan details - custom logos are missing",
    "pod": "LL",
@@ -2016,30 +1992,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22917",
-   "name": "PRODUCTION - Purchase for DCA Core Plan - not going through",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-14T09:06:01.865-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5699,6 +5651,30 @@
    "due": "",
    "labels": [
     "JSM"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22879",
+   "name": "Production - PMP - plans not purchasable",
+   "pod": "PLANS",
+   "status": "In PreProd",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-11T13:15:00.816-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
