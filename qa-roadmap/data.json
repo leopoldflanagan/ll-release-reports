@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T13:39:39+00:00",
+ "generated_at": "2026-09-14T13:45:23+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -23298,6 +23298,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-22895",
+   "name": "Fee Scedule - Fee Schedule footer is not replacing ADA savings footer when savingsSource = FeeSchedule",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-22877",
    "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
