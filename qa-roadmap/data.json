@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T17:36:52+00:00",
+ "generated_at": "2026-09-14T17:45:24+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1827,6 +1827,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22929",
+   "name": "Fee Schedule - Essential Smile - Effective Date is populated based on the previously saved record instead of the user added date when adding new CDPS records",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-14T10:34:36.846-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23548,13 +23569,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22929",
-   "name": "Fee Schedule -",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
