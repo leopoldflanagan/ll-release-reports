@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T07:00:29+00:00",
+ "generated_at": "2026-09-14T07:15:26+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -4206,30 +4206,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21623",
-   "name": "ACH Refund - Refund not audited in History of accounts (ACH/CC )",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-08-20T07:37:22.516-0700",
-   "resolved": "",
-   "due": "2026-09-14",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-14429",
    "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
    "pod": "PLANS",
@@ -4275,6 +4251,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-21623",
+   "name": "ACH Refund - Refund not audited in History of accounts (ACH/CC )",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-08-20T07:37:22.516-0700",
+   "resolved": "",
+   "due": "2026-09-14",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-21594",
