@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T14:45:28+00:00",
+ "generated_at": "2026-09-14T14:50:40+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -3651,7 +3651,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 21-26",
-   "who": "Mariano Hernández",
+   "who": "Unassigned",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-09T19:23:15.953-0700",
@@ -3723,7 +3723,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
+   "who": "Unassigned",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-08T07:31:34.010-0700",
@@ -3902,6 +3902,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21585",
+   "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-08-19T12:47:49.177-0700",
+   "resolved": "",
+   "due": "2026-09-02",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4174,7 +4198,7 @@
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 21-26",
-   "who": "Santiago Kirk Cabrera",
+   "who": "Daryl Myrick",
    "reporter": "Sushma Bankar",
    "prio": "2: Important",
    "created": "2026-09-09T08:45:25.920-0700",
@@ -4395,30 +4419,6 @@
    "created": "2026-08-19T15:45:02.696-0700",
    "resolved": "",
    "due": "2026-08-25",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21585",
-   "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Hunter Redhead",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-19T12:47:49.177-0700",
-   "resolved": "",
-   "due": "2026-09-02",
    "labels": [
     "group2_migration",
     "product_prioritized"
