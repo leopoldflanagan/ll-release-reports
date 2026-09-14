@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T07:30:26+00:00",
+ "generated_at": "2026-09-14T07:45:23+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1975,7 +1975,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-11T07:04:23.896-0700",
@@ -1999,7 +1999,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-11T06:49:34.689-0700",
