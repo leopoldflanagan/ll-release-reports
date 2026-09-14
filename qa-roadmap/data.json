@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T09:45:23+00:00",
+ "generated_at": "2026-09-14T10:00:26+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1641,30 +1641,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-22849",
-   "name": "Member portal - ADD MEMBER - getting a 400 error when upgrading a plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-11T07:04:23.896-0700",
-   "resolved": "",
-   "due": "2026-09-14",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-22617",
    "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
@@ -4272,6 +4248,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-22849",
+   "name": "Member portal - ADD MEMBER - getting a 400 error when upgrading a plan",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-11T07:04:23.896-0700",
+   "resolved": "",
+   "due": "2026-09-14",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21594",
