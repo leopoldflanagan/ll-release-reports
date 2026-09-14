@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T19:24:45+00:00",
+ "generated_at": "2026-09-14T19:30:27+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1979,9 +1979,9 @@
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "Plans-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Daryl Myrick",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-09-14T09:06:01.865-0700",
@@ -3616,7 +3616,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Conor Kamperman",
    "reporter": "Luis Moreno Soberón",
    "prio": "1: Urgent",
    "created": "2026-09-14T08:40:59.081-0700",
@@ -4163,7 +4163,7 @@
   {
    "key": "PLANS-21154",
    "name": "All Portals - Plan Details - Custom Logo Not Visible in Plan Detail Document (legacy and New )",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
