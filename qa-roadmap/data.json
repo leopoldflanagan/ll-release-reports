@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T17:45:24+00:00",
+ "generated_at": "2026-09-14T17:49:54+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -4835,30 +4835,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22328",
-   "name": "DCA - Incorrect logo in Member portal (STAGE)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-09-02T21:06:56.713-0700",
-   "resolved": "",
-   "due": "2026-09-19",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22322",
    "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
    "pod": "LL",
@@ -5711,6 +5687,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22328",
+   "name": "DCA - Incorrect logo in Member portal (STAGE)",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-02T21:06:56.713-0700",
+   "resolved": "2026-09-14T10:47:56.355-0700",
+   "due": "2026-09-19",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22479",
    "name": "Provider Portal: unreachable legal-language source blocks the purchase button",
