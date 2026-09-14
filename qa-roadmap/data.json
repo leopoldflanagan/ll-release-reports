@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T15:49:07+00:00",
+ "generated_at": "2026-09-14T16:00:31+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -2022,6 +2022,55 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22877",
+   "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-09-11T12:50:36.470-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22873",
+   "name": "Member Portal \\ Add Plan flow shows current plan among available plan cards",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-11T11:48:33.500-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22720",
    "name": "Fee Schedule - Most recent effective-dated record not visible at the top of the fee scedule.",
    "pod": "LL",
@@ -3452,6 +3501,54 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22913",
+   "name": "CSP \\ Plans purchased via SGDP Purchase portal are marked for delete",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-09-14T08:40:59.081-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22909",
+   "name": "Member Portal \\ Add Plan flow throws 400 code error at checkout screen",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-14T08:10:51.336-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22879",
    "name": "Production - PMP - plans not purchasable",
    "pod": "PLANS",
@@ -4146,27 +4243,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22721",
-   "name": "Fee Schedule - Future Effective-Dated Procedures Visible in Smile Health Before Effective Date",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-10T06:41:38.643-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22602",
    "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
    "pod": "LL",
@@ -4252,6 +4328,27 @@
    "labels": [
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22721",
+   "name": "Fee Schedule - Future Effective-Dated Procedures Visible in Smile Health Before Effective Date",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-10T06:41:38.643-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -23364,34 +23461,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-22913",
-   "name": "CSP \\ Plans purchased via SGDP Purchase portal are marked for delete",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-22909",
-   "name": "Member Portal \\ Add Plan flow throws 400 code error at checkout screen",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-22877",
-   "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-22873",
-   "name": "Member Portal \\ Add Plan flow shows current plan among available plan cards",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
