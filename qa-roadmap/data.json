@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T14:30:27+00:00",
+ "generated_at": "2026-09-14T14:40:42+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1666,30 +1666,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22514",
-   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 21-26",
-   "who": "Clint Tredway",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-04T13:11:18.188-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22486",
    "name": "Plan details - custom logos are missing",
    "pod": "LL",
@@ -1896,6 +1872,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22900",
+   "name": "Fee Schedule - Legacy template - Fee Schedule Content Is Incorrectly Filtered by Coverage Level",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 21-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-14T07:24:04.056-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3738,6 +3735,30 @@
    ],
    "theme": "LL-MVP",
    "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22514",
+   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 21-26",
+   "who": "Clint Tredway",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-04T13:11:18.188-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
