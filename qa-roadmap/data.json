@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T21:24:24+00:00",
+ "generated_at": "2026-09-14T21:30:22+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1923,6 +1923,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22966",
+   "name": "Unable to Add Dependent to Plan",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vera King",
+   "prio": "3: Standard",
+   "created": "2026-09-14T14:28:51.206-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
