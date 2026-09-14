@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T15:45:24+00:00",
+ "generated_at": "2026-09-14T15:49:07+00:00",
  "today": "2026-09-14",
  "features": [
   {
@@ -1661,27 +1661,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22317",
-   "name": "Preprod- Member Portal - ACH purchase is not displayed in Transactions",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-09-02T13:38:10.857-0700",
-   "resolved": "",
-   "due": "2026-09-15",
-   "labels": [],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4205,6 +4184,27 @@
     "group1_migration",
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22317",
+   "name": "Preprod- Member Portal - ACH purchase is not displayed in Transactions",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-09-02T13:38:10.857-0700",
+   "resolved": "",
+   "due": "2026-09-15",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
