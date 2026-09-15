@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T17:30:27+00:00",
+ "generated_at": "2026-09-15T17:36:56+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -1944,7 +1944,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": "Plans-Sprint 22-26",
+   "sprint": null,
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
