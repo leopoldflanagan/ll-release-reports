@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T08:15:23+00:00",
+ "generated_at": "2026-09-15T08:30:29+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -1679,30 +1679,6 @@
    "created": "2026-09-14T07:24:04.056-0700",
    "resolved": "",
    "due": "2026-09-15",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22888",
-   "name": "Fee Schedule - Smile Health - 500 Error When Refreshing Benefit Details Page ; Page fails to load correctly.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-14T02:39:24.078-0700",
-   "resolved": "",
-   "due": "2026-09-16",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -4372,6 +4348,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22888",
+   "name": "Fee Schedule - Smile Health - 500 Error When Refreshing Benefit Details Page ; Page fails to load correctly.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-14T02:39:24.078-0700",
+   "resolved": "",
+   "due": "2026-09-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22886",
    "name": "Fee Schedule -Common Dental Plan Savings section does not render for FeeSchedule plans when no savings rows are returned",
    "pod": "LL",
@@ -5535,7 +5535,7 @@
    "prio": "2: Important",
    "created": "2026-08-18T11:51:13.130-0700",
    "resolved": "",
-   "due": "2026-09-11",
+   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
