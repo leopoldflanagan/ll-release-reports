@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T08:00:25+00:00",
+ "generated_at": "2026-09-15T08:15:23+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -5181,30 +5181,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21505",
-   "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T11:51:13.130-0700",
-   "resolved": "",
-   "due": "2026-09-11",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21183",
    "name": "CSP - ACH Transaction displays 'Status Unavailable' instead of 'Not Refunded' in Plan Transactions",
    "pod": "LL",
@@ -5545,6 +5521,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21505",
+   "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
+   "pod": "LL",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T11:51:13.130-0700",
+   "resolved": "",
+   "due": "2026-09-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21111",
