@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T07:00:29+00:00",
+ "generated_at": "2026-09-15T07:15:20+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -41,15 +41,6 @@
   {
    "key": "PLANS-18881",
    "name": "Marketing Details - Driving Smile Health",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Chris Rubio",
-   "tshirt": "Small"
-  },
-  {
-   "key": "PLANS-18684",
-   "name": "Add Missing Data Icon to PMP",
    "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
@@ -162,6 +153,15 @@
    "ted": "2026-09-17",
    "fv": "R9.8",
    "who": "Petro Yarish",
+   "tshirt": "Small"
+  },
+  {
+   "key": "PLANS-18684",
+   "name": "Add Missing Data Icon to PMP",
+   "status": "Epics & Stories",
+   "ted": "2026-09-25",
+   "fv": "R9.9",
+   "who": "Rostyslav Masniuk",
    "tshirt": "Small"
   },
   {
@@ -485,10 +485,10 @@
   {
    "key": "PLANS-18684",
    "name": "Add Missing Data Icon to PMP",
-   "status": "Architecture",
-   "ted": null,
+   "status": "Epics & Stories",
+   "ted": "2026-09-25",
    "fv": "R9.9",
-   "who": "Chris Rubio",
+   "who": "Rostyslav Masniuk",
    "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1193,10 +1193,10 @@
    "name": "Add Missing Data Icon to PMP",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "fv": "R9.9",
-   "ted": null,
-   "who": "Chris Rubio",
+   "ted": "2026-09-25",
+   "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
   {
@@ -2026,7 +2026,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-14T09:02:40.919-0700",
@@ -2159,7 +2159,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-09-11T11:48:33.500-0700",
@@ -4372,51 +4372,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22886",
-   "name": "Fee Schedule -Common Dental Plan Savings section does not render for FeeSchedule plans when no savings rows are returned",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-12T08:05:20.843-0700",
-   "resolved": "",
-   "due": "2026-09-15",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22883",
-   "name": "Fee Schedule - Incorrect Column Header Displayed in Fee Schedule Table [ADA Code & Member Savings]",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-12T06:08:21.240-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22602",
    "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
    "pod": "LL",
@@ -4484,6 +4439,51 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-22886",
+   "name": "Fee Schedule -Common Dental Plan Savings section does not render for FeeSchedule plans when no savings rows are returned",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-12T08:05:20.843-0700",
+   "resolved": "",
+   "due": "2026-09-15",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22883",
+   "name": "Fee Schedule - Incorrect Column Header Displayed in Fee Schedule Table [ADA Code & Member Savings]",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-12T06:08:21.240-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-22874",
