@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T13:00:29+00:00",
+ "generated_at": "2026-09-15T13:15:23+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -1666,30 +1666,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22900",
-   "name": "Fee Schedule - Legacy template - Fee Schedule Content Is Incorrectly Filtered by Coverage Level",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-14T07:24:04.056-0700",
-   "resolved": "",
-   "due": "2026-09-15",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22873",
    "name": "Member Portal \\ Add Plan flow shows current plan among available plan cards",
    "pod": "LL",
@@ -1804,30 +1780,6 @@
    "theme": "",
    "triage": "",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21916",
-   "name": "ACH & CC Refunds & ACH Purchases Not Visible in Member > Transactions in Member Portal",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-27T08:08:03.779-0700",
-   "resolved": "",
-   "due": "2026-09-16",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -2062,6 +2014,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-22900",
+   "name": "Fee Schedule - Legacy template - Fee Schedule Content Is Incorrectly Filtered by Coverage Level",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-14T07:24:04.056-0700",
+   "resolved": "",
+   "due": "2026-09-15",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-22892",
@@ -5105,6 +5081,30 @@
    "theme": "",
    "triage": "",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21916",
+   "name": "ACH & CC Refunds & ACH Purchases Not Visible in Member > Transactions in Member Portal",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-27T08:08:03.779-0700",
+   "resolved": "",
+   "due": "2026-09-16",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
