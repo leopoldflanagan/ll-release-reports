@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T14:31:02+00:00",
+ "generated_at": "2026-09-15T14:39:11+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -7,7 +7,7 @@
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "status": "Idea",
    "ted": null,
-   "fv": "R9.9",
+   "fv": null,
    "who": "Camille Knight",
    "tshirt": null
   },
@@ -151,7 +151,7 @@
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "status": "In Development",
    "ted": "2026-09-17",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Petro Yarish",
    "tshirt": "Small"
   },
@@ -454,7 +454,7 @@
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "status": "In Development",
    "ted": "2026-09-17",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Petro Yarish",
    "tshirt": "Small",
    "pod": "LL",
@@ -641,7 +641,7 @@
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "status": "Idea",
    "ted": null,
-   "fv": "R9.9",
+   "fv": null,
    "who": "Camille Knight",
    "tshirt": null,
    "pod": "LL",
@@ -1161,7 +1161,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "In Development",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": "2026-09-17",
    "who": "Petro Yarish",
    "theme": "LL-Fast Follows"
@@ -1348,7 +1348,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Idea",
-   "fv": "R9.9",
+   "fv": null,
    "ted": null,
    "who": "Camille Knight",
    "theme": "LL-Fast Follows"
