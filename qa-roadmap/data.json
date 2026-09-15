@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T07:45:22+00:00",
+ "generated_at": "2026-09-15T08:00:25+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -1642,6 +1642,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-22921",
+   "name": "One Smile - Two-Year Plan Card Incorrectly Displays \"ANNUAL PLAN\" in Plan Selection",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-14T09:27:16.518-0700",
+   "resolved": "",
+   "due": "2026-09-15",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22900",
    "name": "Fee Schedule - Legacy template - Fee Schedule Content Is Incorrectly Filtered by Coverage Level",
    "pod": "LL",
@@ -1989,30 +2013,6 @@
    "due": "",
    "labels": [],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22921",
-   "name": "One Smile - Two-Year Plan Card Incorrectly Displays \"ANNUAL PLAN\" in Plan Selection",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-09-14T09:27:16.518-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4372,6 +4372,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22886",
+   "name": "Fee Schedule -Common Dental Plan Savings section does not render for FeeSchedule plans when no savings rows are returned",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-12T08:05:20.843-0700",
+   "resolved": "",
+   "due": "2026-09-15",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22602",
    "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
    "pod": "LL",
@@ -4439,27 +4460,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-22886",
-   "name": "Fee Schedule -Common Dental Plan Savings section does not render for FeeSchedule plans when no savings rows are returned",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-12T08:05:20.843-0700",
-   "resolved": "",
-   "due": "2026-09-15",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-22883",
