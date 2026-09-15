@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T11:15:22+00:00",
+ "generated_at": "2026-09-15T11:30:23+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -158,7 +158,7 @@
   {
    "key": "PLANS-18684",
    "name": "Add Missing Data Icon to PMP",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "ted": "2026-09-25",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
@@ -485,7 +485,7 @@
   {
    "key": "PLANS-18684",
    "name": "Add Missing Data Icon to PMP",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "ted": "2026-09-25",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
@@ -1193,7 +1193,7 @@
    "name": "Add Missing Data Icon to PMP",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "fv": "R9.9",
    "ted": "2026-09-25",
    "who": "Rostyslav Masniuk",
