@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T18:51:12+00:00",
+ "generated_at": "2026-09-15T19:00:26+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -1712,6 +1712,30 @@
    "created": "2026-09-11T07:04:23.896-0700",
    "resolved": "",
    "due": "2026-09-16",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22666",
+   "name": "Retest -Stage - OneSmile - Additional member cost is not applied",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Conor Kamperman",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "1: Urgent",
+   "created": "2026-09-09T13:31:58.621-0700",
+   "resolved": "",
+   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -3842,30 +3866,6 @@
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-09T19:23:15.953-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22666",
-   "name": "Retest -Stage - OneSmile - Additional member cost is not applied",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Conor Kamperman",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "1: Urgent",
-   "created": "2026-09-09T13:31:58.621-0700",
    "resolved": "",
    "due": "",
    "labels": [
