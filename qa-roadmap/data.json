@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T15:41:17+00:00",
+ "generated_at": "2026-09-15T15:45:23+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -57,17 +57,17 @@
    "tshirt": "Moderate"
   },
   {
-   "key": "PLANS-22676",
-   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
+   "key": "PLANS-21974",
+   "name": "PDF Enhancements",
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
+   "who": "Dima Shtympel",
    "tshirt": null
   },
   {
-   "key": "PLANS-21974",
-   "name": "PDF Enhancements",
+   "key": "PLANS-22676",
+   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
@@ -728,7 +728,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": "R9.8",
-   "who": "Dmytro Tymofiienko",
+   "who": "Dima Shtympel",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1436,7 +1436,7 @@
    "status": "Architecture",
    "fv": "R9.8",
    "ted": null,
-   "who": "Dmytro Tymofiienko",
+   "who": "Dima Shtympel",
    "theme": "LL-Fast Follows"
   },
   {
