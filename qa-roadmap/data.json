@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T12:22:44+00:00",
+ "generated_at": "2026-09-15T12:30:23+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -4393,27 +4393,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22317",
-   "name": "Preprod- Member Portal - ACH purchase is not displayed in Transactions",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-09-02T13:38:10.857-0700",
-   "resolved": "",
-   "due": "2026-09-15",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -4456,6 +4435,27 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22317",
+   "name": "Preprod- Member Portal - ACH purchase is not displayed in Transactions",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-09-02T13:38:10.857-0700",
+   "resolved": "",
+   "due": "2026-09-15",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
