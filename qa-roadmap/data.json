@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T16:00:35+00:00",
+ "generated_at": "2026-09-15T16:15:22+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -7,7 +7,7 @@
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "status": "Idea",
    "ted": null,
-   "fv": null,
+   "fv": "R9.10\"",
    "who": "Camille Knight",
    "tshirt": null
   },
@@ -150,7 +150,7 @@
    "key": "PLANS-20554",
    "name": "Plan Prioritization",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-25",
    "fv": "R9.8",
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate"
@@ -616,7 +616,7 @@
    "key": "PLANS-20554",
    "name": "Plan Prioritization",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-25",
    "fv": "R9.8",
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate",
@@ -650,7 +650,7 @@
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "status": "Idea",
    "ted": null,
-   "fv": null,
+   "fv": "R9.10\"",
    "who": "Camille Knight",
    "tshirt": null,
    "pod": "LL",
@@ -1325,7 +1325,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": null,
+   "ted": "2026-09-25",
    "who": "Nazarii Polinyk",
    "theme": "LL-Fast Follows"
   },
@@ -1357,7 +1357,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Idea",
-   "fv": null,
+   "fv": "R9.10\"",
    "ted": null,
    "who": "Camille Knight",
    "theme": "LL-Fast Follows"
@@ -1699,6 +1699,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22849",
+   "name": "Member portal - ADD MEMBER - getting a 400 error when upgrading a plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-11T07:04:23.896-0700",
+   "resolved": "",
+   "due": "2026-09-14",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22846",
    "name": "Member portal - ADD PLAN - Additional Member Discount Incorrectly Applied When Adding a New Primary Plan",
    "pod": "LL",
@@ -1908,6 +1932,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23008",
+   "name": "DCA/Logo missing in the Plan Purchase PDF receipt",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-09-15T09:07:49.809-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4402,28 +4450,25 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22849",
-   "name": "Member portal - ADD MEMBER - getting a 400 error when upgrading a plan",
+   "key": "PLANS-22108",
+   "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
    "pod": "LL",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Denys Kernychnyi",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-11T07:04:23.896-0700",
+   "prio": "3: Standard",
+   "created": "2026-08-31T07:38:26.909-0700",
    "resolved": "",
-   "due": "2026-09-14",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-22024",
@@ -4788,30 +4833,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22602",
-   "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "3: Standard",
-   "created": "2026-09-07T08:14:19.073-0700",
-   "resolved": "",
-   "due": "2026-09-15",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22516",
    "name": "Marketing Details - Misspelling",
    "pod": "PLANS",
@@ -5002,27 +5023,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-22108",
-   "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-31T07:38:26.909-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-21916",
@@ -5646,6 +5646,30 @@
  ],
  "bugs_closed": [
   {
+   "key": "PLANS-22602",
+   "name": "Thread real practiceId into Plan Details PDF calls (Marketplace, Member Portal, PMP) instead of relying on org-fallback guess",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Dima Shtympel",
+   "reporter": "Dima Shtympel",
+   "prio": "3: Standard",
+   "created": "2026-09-07T08:14:19.073-0700",
+   "resolved": "2026-09-15T09:02:38.128-0700",
+   "due": "2026-09-15",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22422",
    "name": "Member Search - manage patients returning incorrect info",
    "pod": "PLANS",
@@ -5684,9 +5708,9 @@
    "resolved": "2026-09-15T08:19:33.311-0700",
    "due": "2026-09-16",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
