@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T15:15:23+00:00",
+ "generated_at": "2026-09-15T15:28:11+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -2113,27 +2113,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22720",
-   "name": "Fee Schedule - Most recent effective-dated record not visible at the top of the fee scedule.",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-10T06:11:42.475-0700",
-   "resolved": "",
-   "due": "2026-09-16",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22660",
    "name": "Member portal - Treatment Summary page UI- No Export button is showing",
    "pod": "LL",
@@ -3534,6 +3513,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23002",
+   "name": "PRODUCTION - incorrect logging in transactions",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-09-15T08:15:16.041-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -5666,6 +5669,27 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22720",
+   "name": "Fee Schedule - Most recent effective-dated record not visible at the top of the fee scedule.",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-10T06:11:42.475-0700",
+   "resolved": "2026-09-15T08:19:33.311-0700",
+   "due": "2026-09-16",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22900",
    "name": "Fee Schedule - Legacy template - Fee Schedule Content Is Incorrectly Filtered by Coverage Level",
