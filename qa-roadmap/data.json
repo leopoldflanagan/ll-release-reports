@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T15:00:28+00:00",
+ "generated_at": "2026-09-15T15:14:36+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -145,6 +145,15 @@
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": "Small"
+  },
+  {
+   "key": "PLANS-20554",
+   "name": "Plan Prioritization",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": "R9.8",
+   "who": "Nazarii Polinyk",
+   "tshirt": "Moderate"
   },
   {
    "key": "PLANS-18428",
@@ -611,7 +620,7 @@
    "fv": "R9.8",
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate",
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1312,7 +1321,7 @@
   {
    "key": "PLANS-20554",
    "name": "Plan Prioritization",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "PLANS",
    "status": "Ready for Development",
    "fv": "R9.8",
@@ -2014,30 +2023,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-22900",
-   "name": "Fee Schedule - Legacy template - Fee Schedule Content Is Incorrectly Filtered by Coverage Level",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-14T07:24:04.056-0700",
-   "resolved": "",
-   "due": "2026-09-15",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-22892",
@@ -4252,30 +4237,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22921",
-   "name": "One Smile - Two-Year Plan Card Incorrectly Displays \"ANNUAL PLAN\" in Plan Selection",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-09-14T09:27:16.518-0700",
-   "resolved": "",
-   "due": "2026-09-16",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22895",
    "name": "Fee Scedule - Fee Schedule footer is not replacing ADA savings footer when savingsSource = FeeSchedule",
    "pod": "LL",
@@ -4367,6 +4328,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-22921",
+   "name": "One Smile - Two-Year Plan Card Incorrectly Displays \"ANNUAL PLAN\" in Plan Selection",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-14T09:27:16.518-0700",
+   "resolved": "",
+   "due": "2026-09-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-22883",
@@ -5681,6 +5666,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22900",
+   "name": "Fee Schedule - Legacy template - Fee Schedule Content Is Incorrectly Filtered by Coverage Level",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-14T07:24:04.056-0700",
+   "resolved": "2026-09-15T08:11:17.373-0700",
+   "due": "2026-09-15",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22832",
    "name": "Purchase widget enforces a hard-coded age 13 that disagrees with the configured MaximumAge",
