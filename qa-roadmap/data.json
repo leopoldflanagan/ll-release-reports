@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T21:25:15+00:00",
+ "generated_at": "2026-09-15T21:30:24+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -4336,30 +4336,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22514",
-   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "David Jones",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-04T13:11:18.188-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -4495,6 +4471,30 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22514",
+   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-04T13:11:18.188-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
