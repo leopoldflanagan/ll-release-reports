@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T20:45:23+00:00",
+ "generated_at": "2026-09-15T20:49:22+00:00",
  "today": "2026-09-15",
  "features": [
   {
@@ -3935,7 +3935,7 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "sprint": "Plans-Sprint 22-26",
    "who": "Sailaja Yanamandra",
    "reporter": "Luis Moreno Soberón",
@@ -3963,7 +3963,7 @@
    "sprint": "LL-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-08-31T12:37:06.861-0700",
    "resolved": "",
    "due": "",
@@ -4007,7 +4007,7 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "sprint": "Plans-Sprint 22-26",
    "who": "Sailaja Yanamandra",
    "reporter": "Camille Knight",
@@ -4127,7 +4127,7 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": "LL-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -4836,30 +4836,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22516",
-   "name": "Marketing Details - Misspelling",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-09-04T14:05:01.268-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22322",
    "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
    "pod": "LL",
@@ -5552,6 +5528,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22516",
+   "name": "Marketing Details - Misspelling",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Santiago Kirk Cabrera",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-09-04T14:05:01.268-0700",
+   "resolved": "2026-09-15T13:48:38.033-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22171",
    "name": "CSP \\ DCA plan outside of renew window defaults to \"Late Renewal\" instead of \"Late Renewal 60 Plus\" during renewal",
