@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T18:18:21+00:00",
+ "generated_at": "2026-09-16T18:30:25+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1712,7 +1712,7 @@
    "prio": "2: Important",
    "created": "2026-09-11T06:49:34.689-0700",
    "resolved": "",
-   "due": "2026-09-17",
+   "due": "2026-09-18",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5388,7 +5388,7 @@
    "key": "PLANS-21505",
    "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
    "pod": "LL",
-   "status": "WAITING REVIEW",
+   "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
