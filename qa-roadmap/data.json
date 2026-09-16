@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T20:00:30+00:00",
+ "generated_at": "2026-09-16T20:15:22+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -2051,6 +2051,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23080",
+   "name": "Essential Smile custom Portal-Stage- No Plans are dispalying",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-16T13:08:51.012-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
