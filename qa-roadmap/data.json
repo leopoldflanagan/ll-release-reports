@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T17:30:24+00:00",
+ "generated_at": "2026-09-16T17:36:58+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -2003,6 +2003,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23064",
+   "name": "Marketing Details - Configured Plan Benefit Exceptions are not displayed in Smile Health",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-16T10:30:18.088-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23678,13 +23699,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23064",
-   "name": "Marketing Details - Plan benefit excemtions are not visible in smile health",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
