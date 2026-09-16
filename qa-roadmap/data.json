@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T16:49:35+00:00",
+ "generated_at": "2026-09-16T17:00:26+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -767,6 +767,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-22333",
+   "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
+   "status": "In Testing",
+   "ted": "2026-09-18",
+   "fv": "R9.8",
+   "who": "Valentyna Tenus",
+   "tshirt": "Small",
+   "pod": "LL",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "status": "Architecture",
@@ -930,17 +941,6 @@
    "tshirt": null,
    "pod": "WEL",
    "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "PLANS-22333",
-   "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
-   "status": "In Testing",
-   "ted": "2026-09-18",
-   "fv": "R9.8",
-   "who": "Valentyna Tenus",
-   "tshirt": "Small",
-   "pod": "LL",
-   "theme": ""
   }
  ],
  "all": [
@@ -1473,6 +1473,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-22333",
+   "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
+   "pod": "LL",
+   "proj": "PLANS",
+   "status": "In Testing",
+   "fv": "R9.8",
+   "ted": "2026-09-18",
+   "who": "Valentyna Tenus",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "pod": "LL",
@@ -1636,17 +1647,6 @@
    "ted": "2026-09-02",
    "who": "Daniel Marineni",
    "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "PLANS-22333",
-   "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": "2026-09-18",
-   "who": "Valentyna Tenus",
-   "theme": ""
   }
  ],
  "bugs": [
@@ -2003,6 +2003,48 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23047",
+   "name": "Member Portal Issue",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Michael Joe",
+   "prio": "3: Standard",
+   "created": "2026-09-16T09:51:55.528-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23046",
+   "name": "Marketing Settings - Footer Verbiage changes to 'B' or 'None' are not reflected in Smile Health",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-16T09:42:34.005-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23636,13 +23678,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23046",
-   "name": "Marketing Settings - Footer Verbiage changes to 'B' or 'None' are not reflected in Smile Health",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
