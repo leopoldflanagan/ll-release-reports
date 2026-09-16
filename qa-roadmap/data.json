@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T15:15:22+00:00",
+ "generated_at": "2026-09-16T15:29:56+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1675,6 +1675,31 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22877",
+   "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-09-11T12:50:36.470-0700",
+   "resolved": "",
+   "due": "2026-09-17",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22846",
    "name": "Member portal - ADD PLAN - Additional Member Discount Incorrectly Applied When Adding a New Primary Plan",
    "pod": "LL",
@@ -1954,6 +1979,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23038",
+   "name": "PMP-Stage- Auto-renewal payment change from CC to ACH failing for Multi-plan member in PMP",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-16T08:02:23.276-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4159,31 +4205,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22877",
-   "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-09-11T12:50:36.470-0700",
-   "resolved": "",
-   "due": "2026-09-16",
-   "labels": [
-    "PDS",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23568,11 +23589,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-23038",
-   "name": "PMP-Stage- Auto-renewal payment change from CC to ACH failing for Multi-plan member in PMP",
+   "key": "PLANS-23040",
+   "name": "Provider portal | purchase button remains enabled after disabling the communication consent",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Vinita Thankur"
+   "reporter": "Hazel Loya"
   },
   {
    "key": "PLANS-22674",
