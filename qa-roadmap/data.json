@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T19:15:23+00:00",
+ "generated_at": "2026-09-16T19:24:31+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -2051,6 +2051,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23072",
+   "name": "Plan details- Incorrect Additional person amount displayed - when configure as a %",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-16T12:10:30.592-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23720,13 +23741,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23072",
-   "name": "Plan details- Incorrect Additional person amount displayed",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-23068",
    "name": "Marketing Details - configured 'Exclusive % Discount on Additional Services' is not visible in Smile health",
