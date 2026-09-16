@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T16:30:27+00:00",
+ "generated_at": "2026-09-16T16:39:16+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1992,7 +1992,7 @@
    "cat": "To Do",
    "fv": "R9.7.1",
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Valentyna Tenus",
    "reporter": "Daniel Marineni",
    "prio": "1: Urgent",
    "created": "2026-09-16T09:14:21.155-0700",
@@ -3631,6 +3631,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23040",
+   "name": "Provider portal | purchase button remains enabled after disabling the communication consent",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Conor Kamperman",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-16T08:21:21.057-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23612,13 +23636,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23040",
-   "name": "Provider portal | purchase button remains enabled after disabling the communication consent",
-   "status": "Ready for Development",
-   "who": "Conor Kamperman",
-   "reporter": "Hazel Loya"
-  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
