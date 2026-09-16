@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T20:38:09+00:00",
+ "generated_at": "2026-09-16T20:45:24+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -2027,6 +2027,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23085",
+   "name": "Plan Details PDF - Additional Member Savings section( including % and Max capacity) is missing from generated PDF",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-16T13:37:58.443-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23744,13 +23765,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23085",
-   "name": "Plan details - New Additional member discount section not visible in plan details pdf",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-23078",
    "name": "PMP-Stage-Add Invalid CC should display proper message instead of general error message",
