@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T21:00:29+00:00",
+ "generated_at": "2026-09-16T21:14:09+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1759,6 +1759,30 @@
    "reporter": "Sushma Bankar",
    "prio": "2: Important",
    "created": "2026-09-09T08:45:25.920-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22487",
+   "name": "Plan Confirmation Receipt / Missing email for all plan types",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-04T07:27:59.476-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -4382,6 +4406,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23041",
+   "name": "Mobile sign-up — DOB field intermittently fails to auto-insert slashes, blocking registration",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.7.1",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-09-16T09:14:21.155-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22514",
    "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
    "pod": "PLANS",
@@ -4400,30 +4448,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23041",
-   "name": "Mobile sign-up — DOB field intermittently fails to auto-insert slashes, blocking registration",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7.1",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-09-16T09:14:21.155-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4938,30 +4962,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22921",
-   "name": "One Smile - Two-Year Plan Card Incorrectly Displays \"ANNUAL PLAN\" in Plan Selection",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-09-14T09:27:16.518-0700",
-   "resolved": "",
-   "due": "2026-09-16",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22655",
    "name": "PMP - Plan for additional member is not renewed",
    "pod": "PLANS",
@@ -4981,30 +4981,6 @@
    ],
    "theme": "",
    "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22487",
-   "name": "Plan Confirmation Receipt / Missing email for all plan types",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-04T07:27:59.476-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5064,7 +5040,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "LL-Sprint 22-26",
    "who": "Mykyta Moroz",
    "reporter": "Juan Rodrigo Mejia Rivera",
    "prio": "2: Important",
@@ -5217,30 +5193,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-20768",
-   "name": "Migrated Plans - Exclusions - Inconsistent behavior",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-05T10:19:39.597-0700",
-   "resolved": "",
-   "due": "2026-09-14",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
    "lpSprint": false,
@@ -5675,6 +5627,54 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-20768",
+   "name": "Migrated Plans - Exclusions - Inconsistent behavior",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-05T10:19:39.597-0700",
+   "resolved": "2026-09-16T14:10:00.010-0700",
+   "due": "2026-09-14",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22921",
+   "name": "One Smile - Two-Year Plan Card Incorrectly Displays \"ANNUAL PLAN\" in Plan Selection",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-14T09:27:16.518-0700",
+   "resolved": "2026-09-16T14:01:54.945-0700",
+   "due": "2026-09-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23011",
    "name": "Stage-PMP-Unable to purchase plan, getting invalid Payment error",
