@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T14:30:27+00:00",
+ "generated_at": "2026-09-16T14:39:08+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1723,6 +1723,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22487",
+   "name": "Plan Confirmation Receipt / Missing email for all plan types",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-04T07:27:59.476-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22486",
    "name": "Plan details - custom logos are missing",
    "pod": "LL",
@@ -1762,6 +1786,30 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21709",
+   "name": "DCA - Receipt for Purchase Not sent",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T14:48:47.882-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -3833,30 +3881,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22487",
-   "name": "Plan Confirmation Receipt / Missing email for all plan types",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-04T07:27:59.476-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22144",
    "name": "One Smile – Only one plan is displayed on the Custom Website",
    "pod": "PLANS",
@@ -3892,30 +3916,6 @@
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-08-24T15:27:56.809-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21709",
-   "name": "DCA - Receipt for Purchase Not sent",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T14:48:47.882-0700",
    "resolved": "",
    "due": "",
    "labels": [
