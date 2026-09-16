@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T16:39:16+00:00",
+ "generated_at": "2026-09-16T16:45:22+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1972,6 +1972,30 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-21T15:12:06.080-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PAY-4497",
+   "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "PAY-SPRINT 22",
+   "who": "Stephen Perry",
+   "reporter": "Andy Holtsclaw",
+   "prio": "2: Important",
+   "created": "2026-08-31T06:57:29.886-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -4198,30 +4222,6 @@
    "reporter": "Luis Moreno",
    "prio": "3: Standard",
    "created": "2026-05-14T12:01:06.738-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PAY-4497",
-   "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "PAY-SPRINT 22",
-   "who": "Stephen Perry",
-   "reporter": "Andy Holtsclaw",
-   "prio": "2: Important",
-   "created": "2026-08-31T06:57:29.886-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -23636,6 +23636,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23046",
+   "name": "Marketing Setting Enh. - Footer text A and B no updated in smile health",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-22674",
    "name": "Prod/Custom URL/ Unable to purchase a plan in custom URL",
