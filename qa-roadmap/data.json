@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T13:43:10+00:00",
+ "generated_at": "2026-09-16T13:45:20+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -4267,7 +4267,7 @@
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
