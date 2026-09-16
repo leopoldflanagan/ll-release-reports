@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T10:30:26+00:00",
+ "generated_at": "2026-09-16T10:45:20+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -221,7 +221,7 @@
   {
    "key": "PLANS-21454",
    "name": "Add Member Legal Language - Add Member/Auto-Renewal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-16",
    "fv": "R9.8",
    "who": "Vasyl Skochko",
@@ -681,7 +681,7 @@
   {
    "key": "PLANS-21454",
    "name": "Add Member Legal Language - Add Member/Auto-Renewal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-16",
    "fv": "R9.8",
    "who": "Vasyl Skochko",
@@ -1389,7 +1389,7 @@
    "name": "Add Member Legal Language - Add Member/Auto-Renewal",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
    "ted": "2026-09-16",
    "who": "Vasyl Skochko",
