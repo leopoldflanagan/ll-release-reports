@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T14:45:22+00:00",
+ "generated_at": "2026-09-16T14:49:21+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1669,6 +1669,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22846",
+   "name": "Member portal - ADD PLAN - Additional Member Discount Incorrectly Applied When Adding a New Primary Plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-11T06:49:34.689-0700",
+   "resolved": "",
+   "due": "2026-09-17",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4378,30 +4402,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22846",
-   "name": "Member portal - ADD PLAN - Additional Member Discount Incorrectly Applied When Adding a New Primary Plan",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-11T06:49:34.689-0700",
-   "resolved": "",
-   "due": "2026-09-17",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
