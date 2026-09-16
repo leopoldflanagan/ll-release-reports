@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T08:45:23+00:00",
+ "generated_at": "2026-09-16T09:00:28+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1721,6 +1721,30 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-22858",
+   "name": "PMP - ADD MEMBER- Additional Member Discount Incorrectly Applied When Adding an Ad Hoc Plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-11T08:22:36.637-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-22666",
