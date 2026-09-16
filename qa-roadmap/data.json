@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T14:16:35+00:00",
+ "generated_at": "2026-09-16T14:30:27+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -2053,7 +2053,7 @@
   },
   {
    "key": "PLANS-22924",
-   "name": "Fee Schedule - Default Data - Displays 'Footer' as a Savings Row Without Member Savings && All Rows Show 999% Savings for essential smile.",
+   "name": "Fee Schedule - Default Data - All Rows Show 999% Savings for essential smile.",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -4194,7 +4194,7 @@
    "key": "PLANS-22916",
    "name": "One Smile & Essential Smile - Benefit detals - UI not proper (hero image with adobe water mark, Alignment)",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
@@ -4218,7 +4218,7 @@
    "key": "PLANS-22877",
    "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
@@ -4243,7 +4243,7 @@
    "key": "PLANS-22873",
    "name": "Member Portal \\ Add Plan flow shows current plan among available plan cards",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
