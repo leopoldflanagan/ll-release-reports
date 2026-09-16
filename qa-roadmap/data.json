@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T07:30:23+00:00",
+ "generated_at": "2026-09-16T07:45:22+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1650,30 +1650,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-23010",
-   "name": "Blocker/Stage/Unable to Purchase Plans in all portals",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-09-15T09:36:01.271-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-22916",
    "name": "One Smile & Essential Smile - Benefit detals - UI not proper (hero image with adobe water mark, Alignment)",
@@ -4310,6 +4286,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-23010",
+   "name": "Blocker/Stage/Unable to Purchase Plans in all portals",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-09-15T09:36:01.271-0700",
+   "resolved": "",
+   "due": "2026-09-16",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-22874",
