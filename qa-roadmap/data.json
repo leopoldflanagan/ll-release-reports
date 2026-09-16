@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T22:15:20+00:00",
+ "generated_at": "2026-09-16T22:26:37+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -23747,6 +23747,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23082",
+   "name": "Fix - purchase issues (eProtect 889 response)",
+   "status": "In Development",
+   "who": "Daryl Myrick",
+   "reporter": "Daniel Marineni"
+  },
   {
    "key": "PLANS-23078",
    "name": "PMP-Stage-Add Invalid CC should display proper message instead of general error message",
