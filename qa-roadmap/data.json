@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T07:15:26+00:00",
+ "generated_at": "2026-09-16T07:30:23+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1714,31 +1714,6 @@
    "due": "",
    "labels": [
     "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22877",
-   "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-09-11T12:50:36.470-0700",
-   "resolved": "",
-   "due": "2026-09-16",
-   "labels": [
-    "PDS",
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4282,6 +4257,31 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22877",
+   "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-09-11T12:50:36.470-0700",
+   "resolved": "",
+   "due": "2026-09-16",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
