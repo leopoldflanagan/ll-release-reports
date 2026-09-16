@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T16:00:28+00:00",
+ "generated_at": "2026-09-16T16:15:24+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -23588,6 +23588,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23041",
+   "name": "Mobile sign-up — DOB field intermittently fails to auto-insert slashes, blocking registration",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni"
+  },
   {
    "key": "PLANS-23040",
    "name": "Provider portal | purchase button remains enabled after disabling the communication consent",
