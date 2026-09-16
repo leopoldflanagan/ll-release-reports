@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T15:45:24+00:00",
+ "generated_at": "2026-09-16T15:50:04+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -240,7 +240,7 @@
  "features_all": [
   {
    "key": "DYN-1077",
-   "name": "Launch Loyalty Migration Emails",
+   "name": "Launch Loyalty Premigration and Welcome Day Emails- Phase 1",
    "status": "In Development",
    "ted": "2026-08-26",
    "fv": "R9.8",
@@ -946,7 +946,7 @@
  "all": [
   {
    "key": "DYN-1077",
-   "name": "Launch Loyalty Migration Emails",
+   "name": "Launch Loyalty Premigration and Welcome Day Emails- Phase 1",
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Development",
