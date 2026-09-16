@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T01:30:22+00:00",
+ "generated_at": "2026-09-16T01:45:21+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -4501,27 +4501,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22317",
-   "name": "Preprod- Member Portal - ACH purchase is not displayed in Transactions",
-   "pod": "LL",
-   "status": "In QA",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-09-02T13:38:10.857-0700",
-   "resolved": "",
-   "due": "2026-09-16",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22874",
    "name": "PRODUCTION - ACH Returns - Failure to read event",
    "pod": "LL",
@@ -4927,6 +4906,27 @@
    ],
    "theme": "",
    "triage": "Yes",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22317",
+   "name": "Preprod- Member Portal - ACH purchase is not displayed in Transactions",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Juan Rodrigo Mejia Rivera",
+   "prio": "2: Important",
+   "created": "2026-09-02T13:38:10.857-0700",
+   "resolved": "",
+   "due": "2026-09-16",
+   "labels": [],
+   "theme": "",
+   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
