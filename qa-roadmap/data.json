@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T16:45:22+00:00",
+ "generated_at": "2026-09-16T16:49:35+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -23638,7 +23638,7 @@
  "nopod": [
   {
    "key": "PLANS-23046",
-   "name": "Marketing Setting Enh. - Footer text A and B no updated in smile health",
+   "name": "Marketing Settings - Footer Verbiage changes to 'B' or 'None' are not reflected in Smile Health",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
