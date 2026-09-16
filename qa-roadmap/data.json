@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T20:15:47+00:00",
+ "generated_at": "2026-09-16T20:30:25+00:00",
  "today": "2026-09-16",
  "features": [
   {
@@ -1796,30 +1796,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22514",
-   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "David Jones",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-04T13:11:18.188-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22011",
    "name": "Dashboard -After purchasing a single ACH plan, the Plans Sold (YTD) count increases by 5 instead of 1.",
    "pod": "LL",
@@ -2058,7 +2034,7 @@
   },
   {
    "key": "PLANS-23080",
-   "name": "Essential Smile custom Portal-Stage- No Plans are dispalying",
+   "name": "Essential Smile and One Smile custom Portal-Stage- No Plans are displaying",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
@@ -4403,6 +4379,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22514",
+   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-04T13:11:18.188-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
