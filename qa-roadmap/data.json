@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T20:00:26+00:00",
+ "generated_at": "2026-09-17T20:15:22+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -5758,30 +5758,6 @@
     "JSM"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23041",
-   "name": "Mobile sign-up — DOB field intermittently fails to auto-insert slashes, blocking registration",
-   "pod": "LL",
-   "status": "In PreProd",
-   "cat": "To Do",
-   "fv": "R9.7.1",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-09-16T09:14:21.155-0700",
-   "resolved": "",
-   "due": "2026-09-16",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23794,27 +23770,6 @@
    "prio": "3: Standard",
    "created": "2026-06-19T16:00:37.152-0700",
    "resolved": "2026-06-19T17:10:58.133-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18291",
-   "name": "age - Smilehealth- Purchase Plan - Unable to Purchase a Plan Due to a 500 Internal Server (\"The sub-merchant must exist.\")",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": null,
-   "who": "Conor Kamperman",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-06-19T12:16:38.683-0700",
-   "resolved": "2026-06-19T13:06:20.132-0700",
    "due": "",
    "labels": [],
    "theme": "",
