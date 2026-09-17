@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T21:00:27+00:00",
+ "generated_at": "2026-09-17T21:14:07+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -648,10 +648,10 @@
   {
    "key": "PLANS-21136",
    "name": "Careington Refund report/extract",
-   "status": "Idea",
+   "status": "Ready for Development",
    "ted": "2026-10-01",
    "fv": "R9.8",
-   "who": "Camille Knight",
+   "who": "Lloyd Tokerud",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -1345,10 +1345,10 @@
    "name": "Careington Refund report/extract",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Idea",
+   "status": "Ready for Development",
    "fv": "R9.8",
    "ted": "2026-10-01",
-   "who": "Camille Knight",
+   "who": "Lloyd Tokerud",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1764,6 +1764,30 @@
    "due": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22144",
+   "name": "One Smile – Only one plan is displayed on the Custom Website",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Mireya Alvarez",
+   "prio": "1: Urgent",
+   "created": "2026-08-31T12:37:06.861-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4153,30 +4177,6 @@
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-08T07:31:34.010-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22144",
-   "name": "One Smile – Only one plan is displayed on the Custom Website",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Mireya Alvarez",
-   "prio": "1: Urgent",
-   "created": "2026-08-31T12:37:06.861-0700",
    "resolved": "",
    "due": "",
    "labels": [
