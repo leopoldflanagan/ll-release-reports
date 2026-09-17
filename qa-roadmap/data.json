@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T02:30:23+00:00",
+ "generated_at": "2026-09-17T02:45:24+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -5000,6 +5000,27 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2025-11-07T08:13:22.180-0800",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23082",
+   "name": "Fix - purchase issues (eProtect 889 response)",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-09-16T13:17:26.153-0700",
    "resolved": "",
    "due": "",
    "labels": [],
@@ -23777,13 +23798,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Daryl Myrick"
-  },
-  {
-   "key": "PLANS-23082",
-   "name": "Fix - purchase issues (eProtect 889 response)",
-   "status": "In Stage",
-   "who": "Daryl Myrick",
-   "reporter": "Daniel Marineni"
   },
   {
    "key": "PLANS-23078",
