@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T07:00:27+00:00",
+ "generated_at": "2026-09-17T07:15:23+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -1651,6 +1651,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-23068",
+   "name": "Marketing Details - configured 'Exclusive % Discount on Additional Services' is not visible in Smile health",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-16T10:46:21.228-0700",
+   "resolved": "",
+   "due": "2026-09-17",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22913",
    "name": "CSP \\ Plans purchased via SGDP Purchase portal are marked for delete",
    "pod": "PLANS",
@@ -1666,31 +1690,6 @@
    "due": "",
    "labels": [
     "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22877",
-   "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-09-11T12:50:36.470-0700",
-   "resolved": "",
-   "due": "2026-09-17",
-   "labels": [
-    "PDS",
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -2190,7 +2189,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-16T10:30:18.088-0700",
@@ -3877,30 +3876,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23068",
-   "name": "Marketing Details - configured 'Exclusive % Discount on Additional Services' is not visible in Smile health",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-16T10:46:21.228-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23040",
    "name": "Provider portal | purchase button remains enabled after disabling the communication consent",
    "pod": "PLANS",
@@ -5072,6 +5047,31 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22877",
+   "name": "Member Portal \\ Deluxe plan cards are showing on a SGDP plan",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-09-11T12:50:36.470-0700",
+   "resolved": "",
+   "due": "2026-09-17",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
