@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T17:15:21+00:00",
+ "generated_at": "2026-09-17T17:24:18+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -185,7 +185,7 @@
   {
    "key": "PLANS-18018",
    "name": "Define Refund Window Timeframes",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.9",
    "who": "Shchekochykhin Vladyslav",
@@ -351,7 +351,7 @@
   {
    "key": "PLANS-17585",
    "name": "Auto-Renewal Re-Try Process",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.9",
    "who": "Daniel Marineni",
@@ -582,7 +582,7 @@
   {
    "key": "PLANS-20215",
    "name": "Subscription - Consolidated Feature",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.9",
    "who": "Unassigned",
@@ -868,7 +868,7 @@
   {
    "key": "PLANS-18018",
    "name": "Define Refund Window Timeframes",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.9",
    "who": "Shchekochykhin Vladyslav",
@@ -1048,7 +1048,7 @@
    "name": "Auto-Renewal Re-Try Process",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "fv": "R9.9",
    "ted": null,
    "who": "Daniel Marineni",
@@ -1279,7 +1279,7 @@
    "name": "Subscription - Consolidated Feature",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "fv": "R9.9",
    "ted": null,
    "who": "Unassigned",
@@ -1565,7 +1565,7 @@
    "name": "Define Refund Window Timeframes",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "fv": "R9.9",
    "ted": null,
    "who": "Shchekochykhin Vladyslav",
