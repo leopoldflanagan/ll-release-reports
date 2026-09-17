@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T14:17:24+00:00",
+ "generated_at": "2026-09-17T14:30:24+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -2006,7 +2006,7 @@
   },
   {
    "key": "PLANS-23154",
-   "name": "Marketing Settings – Footer Statement Dropdown Visible When Feature Flag is OFF",
+   "name": "Marketing Settings – Footer Statement Dropdown Visible When marketing structure Feature Flag is OFF",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -23853,27 +23853,6 @@
    "prio": "3: Standard",
    "created": "2026-06-18T14:30:52.624-0700",
    "resolved": "2026-06-19T07:58:53.213-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-11045",
-   "name": "Members Charged the admin fee via Member Portal",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 15-26",
-   "who": "Clint Tredway",
-   "reporter": "Jasmin Martin",
-   "prio": "2: Important",
-   "created": "2025-12-08T08:35:14.926-0800",
-   "resolved": "2026-06-19T07:22:54.094-0700",
    "due": "",
    "labels": [],
    "theme": "",
