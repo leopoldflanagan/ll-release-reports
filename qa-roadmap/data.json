@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T17:00:29+00:00",
+ "generated_at": "2026-09-17T17:12:40+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -4282,6 +4282,7 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "Logo",
     "group1_migration",
     "product_prioritized"
    ],
@@ -7180,6 +7181,7 @@
    "resolved": "2026-09-08T14:02:40.667-0700",
    "due": "2026-09-09",
    "labels": [
+    "Logo",
     "group1_migration",
     "product_prioritized"
    ],
