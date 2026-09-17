@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T12:45:24+00:00",
+ "generated_at": "2026-09-17T12:47:04+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -60,7 +60,7 @@
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
    "status": "Architecture",
-   "ted": "2026-09-22",
+   "ted": "2026-10-05",
    "fv": "R9.8",
    "who": "Dima Shtympel",
    "tshirt": null
@@ -726,7 +726,7 @@
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
    "status": "Architecture",
-   "ted": "2026-09-22",
+   "ted": "2026-10-05",
    "fv": "R9.8",
    "who": "Dima Shtympel",
    "tshirt": null,
@@ -1435,7 +1435,7 @@
    "proj": "PLANS",
    "status": "Architecture",
    "fv": "R9.8",
-   "ted": "2026-09-22",
+   "ted": "2026-10-05",
    "who": "Dima Shtympel",
    "theme": "LL-Fast Follows"
   },
