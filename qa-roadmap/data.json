@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T20:37:55+00:00",
+ "generated_at": "2026-09-17T20:45:21+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -3845,6 +3845,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23186",
+   "name": "PRODUCTION - Manage Patient/Overview - different status",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-17T13:41:08.486-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
