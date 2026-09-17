@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T17:24:18+00:00",
+ "generated_at": "2026-09-17T17:30:27+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -32,7 +32,7 @@
   {
    "key": "PLANS-19316",
    "name": "Manage Preferences - CSP & WF Pay",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -406,7 +406,7 @@
   {
    "key": "PLANS-18017",
    "name": "Multi-Practice User - Manage Patient",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -527,7 +527,7 @@
   {
    "key": "PLANS-19316",
    "name": "Manage Preferences - CSP & WF Pay",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -1103,7 +1103,7 @@
    "name": "Multi-Practice User - Manage Patient",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "fv": "R9.9",
    "ted": null,
    "who": "Chris Rubio",
@@ -1224,7 +1224,7 @@
    "name": "Manage Preferences - CSP & WF Pay",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "fv": "R9.9",
    "ted": null,
    "who": "Chris Rubio",
