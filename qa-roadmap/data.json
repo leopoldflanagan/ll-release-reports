@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T18:00:30+00:00",
+ "generated_at": "2026-09-17T18:15:22+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -739,7 +739,7 @@
    "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.8",
-   "who": "Daniel Marineni",
+   "who": "Unassigned",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -1436,7 +1436,7 @@
    "status": "Epics & Stories",
    "fv": "R9.8",
    "ted": null,
-   "who": "Daniel Marineni",
+   "who": "Unassigned",
    "theme": "LL-Fast Follows"
   },
   {
@@ -4908,30 +4908,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23041",
-   "name": "Mobile sign-up — DOB field intermittently fails to auto-insert slashes, blocking registration",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.7.1",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-09-16T09:14:21.155-0700",
-   "resolved": "",
-   "due": "2026-09-16",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22916",
    "name": "One Smile & Essential Smile - Benefit detals - UI not proper (hero image with adobe water mark, Alignment)",
    "pod": "LL",
@@ -5785,6 +5761,30 @@
     "JSM"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23041",
+   "name": "Mobile sign-up — DOB field intermittently fails to auto-insert slashes, blocking registration",
+   "pod": "LL",
+   "status": "In PreProd",
+   "cat": "To Do",
+   "fv": "R9.7.1",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-09-16T09:14:21.155-0700",
+   "resolved": "",
+   "due": "2026-09-16",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23794,27 +23794,6 @@
    "prio": "3: Standard",
    "created": "2026-06-19T12:16:38.683-0700",
    "resolved": "2026-06-19T13:06:20.132-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-17903",
-   "name": "WFP - When searching for a member from the same org same practice, the fieldsHomePracticeName is not returned in the search results.",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 15-26",
-   "who": "Hunter Redhead",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-11T09:22:30.334-0700",
-   "resolved": "2026-06-19T11:03:55.221-0700",
    "due": "",
    "labels": [],
    "theme": "",
