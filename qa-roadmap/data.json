@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T15:49:18+00:00",
+ "generated_at": "2026-09-17T16:00:30+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -2027,7 +2027,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3826,7 +3826,7 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "group1_migration",
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4458,30 +4458,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22873",
-   "name": "Member Portal \\ Add Plan flow shows current plan among available plan cards",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-11T11:48:33.500-0700",
-   "resolved": "",
-   "due": "2026-09-17",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23068",
    "name": "Marketing Details - configured 'Exclusive % Discount on Additional Services' is not visible in Smile health",
    "pod": "LL",
@@ -4583,7 +4559,7 @@
    "pod": "LL",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": "R9.9",
+   "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
@@ -4719,7 +4695,7 @@
    "pod": "PLANS",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "sprint": "Plans-Sprint 22-26",
    "who": "Daryl Myrick",
    "reporter": "Daryl Myrick",
@@ -5047,6 +5023,30 @@
    "due": "2026-09-17",
    "labels": [
     "PDS",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22873",
+   "name": "Member Portal \\ Add Plan flow shows current plan among available plan cards",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-11T11:48:33.500-0700",
+   "resolved": "",
+   "due": "2026-09-17",
+   "labels": [
     "group1_migration",
     "product_prioritized"
    ],
@@ -23827,8 +23827,8 @@
   {
    "key": "PLANS-23074",
    "name": "CSP \\ PDS & WDC Plans wrong configuration",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "Ready for Development",
+   "who": "Conor Kamperman",
    "reporter": "Luis Moreno Soberón"
   }
  ],
