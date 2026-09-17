@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T06:45:25+00:00",
+ "generated_at": "2026-09-17T07:00:27+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -2064,7 +2064,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-16T13:37:58.443-0700",
@@ -2127,7 +2127,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-16T12:10:30.592-0700",
