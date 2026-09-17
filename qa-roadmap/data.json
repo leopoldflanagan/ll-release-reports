@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T22:13:40+00:00",
+ "generated_at": "2026-09-17T22:15:23+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -23807,9 +23807,9 @@
  "nopod": [
   {
    "key": "PLANS-23199",
-   "name": "ACH Refund - unable to refund plans",
+   "name": "ACH Refund - When a partial refund is declined",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
