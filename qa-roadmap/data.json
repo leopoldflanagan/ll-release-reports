@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T10:45:21+00:00",
+ "generated_at": "2026-09-17T11:00:25+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -2068,6 +2068,27 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23154",
+   "name": "Marketing Settings – Footer Statement Dropdown Visible When Feature Flag is OFF",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-17T03:49:15.926-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
