@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T07:15:23+00:00",
+ "generated_at": "2026-09-17T07:30:26+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -2168,7 +2168,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-16T11:35:00.910-0700",
