@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T16:49:52+00:00",
+ "generated_at": "2026-09-17T17:00:29+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -1628,27 +1628,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-23160",
-   "name": "Membership Agreement is not opening for custom PortalSs-DCA, One Smile and Essential Smile in Stage.",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "David Jones",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-09-17T09:17:25.377-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-23143",
    "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
@@ -5791,6 +5770,27 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23160",
+   "name": "Membership Agreement is not opening for custom PortalSs-DCA, One Smile and Essential Smile in Stage.",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-17T09:17:25.377-0700",
+   "resolved": "2026-09-17T09:53:21.190-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23010",
    "name": "Blocker/Stage/Unable to Purchase Plans in all portals",
