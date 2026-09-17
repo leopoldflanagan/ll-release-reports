@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T11:45:23+00:00",
+ "generated_at": "2026-09-17T12:00:30+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -4450,27 +4450,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23072",
-   "name": "Plan details- Incorrect Additional person amount displayed - when configure as a %",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-16T12:10:30.592-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23040",
    "name": "Provider portal | purchase button remains enabled after disabling the communication consent",
    "pod": "PLANS",
@@ -4489,6 +4468,27 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23072",
+   "name": "Plan details- Incorrect Additional person amount displayed - when configure as a %",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-16T12:10:30.592-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
