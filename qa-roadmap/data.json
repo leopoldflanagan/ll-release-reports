@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T13:30:26+00:00",
+ "generated_at": "2026-09-17T13:42:25+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -1714,6 +1714,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22895",
+   "name": "Fee Scedule - Fee Schedule footer is not replacing ADA savings footer when savingsSource = FeeSchedule",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-14T06:43:47.876-0700",
+   "resolved": "",
+   "due": "2026-09-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5875,30 +5899,6 @@
    "created": "2026-09-12T06:08:21.240-0700",
    "resolved": "2026-09-16T05:19:11.540-0700",
    "due": "2026-09-15",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22895",
-   "name": "Fee Scedule - Fee Schedule footer is not replacing ADA savings footer when savingsSource = FeeSchedule",
-   "pod": "LL",
-   "status": "Ready Prod",
-   "cat": "Done",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-14T06:43:47.876-0700",
-   "resolved": "2026-09-16T05:10:07.740-0700",
-   "due": "2026-09-16",
    "labels": [
     "group2_migration",
     "product_prioritized"
