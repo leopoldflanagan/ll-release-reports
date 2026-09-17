@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T15:15:49+00:00",
+ "generated_at": "2026-09-17T15:30:25+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -59,7 +59,7 @@
   {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
-   "status": "Architecture",
+   "status": "In Development",
    "ted": "2026-10-05",
    "fv": "R9.8",
    "who": "Dima Shtympel",
@@ -714,7 +714,7 @@
   {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
-   "status": "Architecture",
+   "status": "In Development",
    "ted": "2026-10-05",
    "fv": "R9.8",
    "who": "Dima Shtympel",
@@ -1411,7 +1411,7 @@
    "name": "PDF Enhancements",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "In Development",
    "fv": "R9.8",
    "ted": "2026-10-05",
    "who": "Dima Shtympel",
@@ -2014,7 +2014,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-17T03:49:15.926-0700",
