@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T08:15:25+00:00",
+ "generated_at": "2026-09-17T08:30:25+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -2081,7 +2081,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-09-16T15:42:29.884-0700",
@@ -2231,7 +2231,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-16T09:42:34.005-0700",
