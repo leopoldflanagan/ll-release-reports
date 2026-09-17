@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T10:30:26+00:00",
+ "generated_at": "2026-09-17T10:45:21+00:00",
  "today": "2026-09-17",
  "features": [
   {
@@ -1711,6 +1711,30 @@
    "due": "",
    "labels": [],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23040",
+   "name": "Provider portal | purchase button remains enabled after disabling the communication consent",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-16T08:21:21.057-0700",
+   "resolved": "",
+   "due": "2026-09-18",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3876,30 +3900,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23040",
-   "name": "Provider portal | purchase button remains enabled after disabling the communication consent",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Conor Kamperman",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-16T08:21:21.057-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23014",
    "name": "PRODUCTION - CSP Plan Transactions",
    "pod": "PLANS",
@@ -4477,7 +4477,7 @@
    "key": "PLANS-23041",
    "name": "Mobile sign-up — DOB field intermittently fails to auto-insert slashes, blocking registration",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.7.1",
    "sprint": "LL-Sprint 22-26",
