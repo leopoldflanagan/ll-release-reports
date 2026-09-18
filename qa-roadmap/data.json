@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T00:00:28+00:00",
+ "generated_at": "2026-09-18T00:15:20+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -23797,27 +23797,6 @@
    "due": "",
    "labels": [],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18307",
-   "name": "PMP - Unable to Purchase a Plan due an error (\"Sub-merchantId must be specified.\")",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 15-26",
-   "who": "Vivienne Chawande",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-06-19T16:00:37.152-0700",
-   "resolved": "2026-06-19T17:10:58.133-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
