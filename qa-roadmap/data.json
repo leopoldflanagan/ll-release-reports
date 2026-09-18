@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T19:00:29+00:00",
+ "generated_at": "2026-09-18T19:12:26+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -4303,30 +4303,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23153",
-   "name": "Prod/PMP/DCA/Incorrect phone number is displayed in plan overview",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-09-16T21:05:00.115-0700",
-   "resolved": "",
-   "due": "2026-09-20",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PAY-4497",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
    "pod": "PLANS",
@@ -4345,6 +4321,30 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23153",
+   "name": "Prod/PMP/DCA/Incorrect phone number is displayed in plan overview",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-09-16T21:05:00.115-0700",
+   "resolved": "",
+   "due": "2026-09-20",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23894,7 +23894,7 @@
  "nopod": [
   {
    "key": "PLANS-23237",
-   "name": "Provider Portal \\ Age restrictions are blocking plan purchase",
+   "name": "Provider Portal \\ Plan purchase is blocked by age restriction despite no age restriction being configured",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
