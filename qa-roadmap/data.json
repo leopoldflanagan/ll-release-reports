@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T12:15:25+00:00",
+ "generated_at": "2026-09-18T12:22:03+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -1737,6 +1737,30 @@
    "due": "",
    "labels": [
     "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22909",
+   "name": "Member Portal \\ Add Plan flow throws 400 code error at checkout screen",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-14T08:10:51.336-0700",
+   "resolved": "",
+   "due": "2026-09-21",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -3892,30 +3916,6 @@
    "reporter": "Daniel Marineni",
    "prio": "2: Important",
    "created": "2026-09-14T11:46:39.278-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22909",
-   "name": "Member Portal \\ Add Plan flow throws 400 code error at checkout screen",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-14T08:10:51.336-0700",
    "resolved": "",
    "due": "",
    "labels": [
