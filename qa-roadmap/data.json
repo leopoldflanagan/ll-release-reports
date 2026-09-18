@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T22:30:23+00:00",
+ "generated_at": "2026-09-18T22:37:40+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -3534,27 +3534,6 @@
    "linkedLP": false
   },
   {
-   "key": "EDW-2376",
-   "name": "Dependent Not Showing In CSP or Wellfit Pay Portal",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Vera King",
-   "prio": "3: Standard",
-   "created": "2026-09-17T10:49:07.749-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "DYN-1472",
    "name": "CRM email buttons looks different for sgdp ADHA /KIDSplans",
    "pod": "PLANS",
@@ -3651,15 +3630,15 @@
   },
   {
    "key": "PLANS-23089",
-   "name": "PRODUCTION- DCA CANNOT PURCHASE PLANS in CSP or PMP",
+   "name": "PRODUCTION- Error handling in csp",
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Camille Knight",
-   "prio": "1: Urgent",
+   "prio": "2: Important",
    "created": "2026-09-16T14:16:23.089-0700",
    "resolved": "",
    "due": "",
@@ -3776,7 +3755,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "Plans-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Vera King",
    "prio": "1: Urgent",
@@ -3903,7 +3882,10 @@
    "created": "2026-09-14T03:17:52.875-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
