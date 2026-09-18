@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T18:17:56+00:00",
+ "generated_at": "2026-09-18T18:30:23+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -3719,6 +3719,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23236",
+   "name": "One Smile and Essential Smile Bug for - Click here for details",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-18T11:19:12.772-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
