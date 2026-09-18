@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T14:49:28+00:00",
+ "generated_at": "2026-09-18T15:00:29+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -1653,30 +1653,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23154",
-   "name": "Marketing Settings – Footer Statement Dropdown Visible When marketing structure Feature Flag is OFF",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-17T03:49:15.926-0700",
-   "resolved": "",
-   "due": "2026-09-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23153",
    "name": "Prod/PMP/DCA/Incorrect phone number is displayed in plan overview",
    "pod": "LL",
@@ -1812,54 +1788,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22819",
-   "name": "Office assignment mismatch between PMP and CSP for member record",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-09-10T11:00:07.831-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22144",
-   "name": "One Smile – Only one plan is displayed on the Custom Website",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Mireya Alvarez",
-   "prio": "1: Urgent",
-   "created": "2026-08-31T12:37:06.861-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4503,6 +4431,30 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-22819",
+   "name": "Office assignment mismatch between PMP and CSP for member record",
+   "pod": "PLANS",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-09-10T11:00:07.831-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22108",
    "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
    "pod": "LL",
@@ -4793,6 +4745,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23154",
+   "name": "Marketing Settings – Footer Statement Dropdown Visible When marketing structure Feature Flag is OFF",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-17T03:49:15.926-0700",
+   "resolved": "",
+   "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23085",
    "name": "Plan Details PDF - Additional Member Savings section( including % and Max capacity) is missing from generated PDF",
    "pod": "LL",
@@ -4848,27 +4824,6 @@
    "created": "2026-09-16T11:35:00.910-0700",
    "resolved": "",
    "due": "2026-09-21",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23064",
-   "name": "Marketing Details - Configured Plan Benefit Exceptions are not displayed in Smile Health",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-16T10:30:18.088-0700",
-   "resolved": "",
-   "due": "",
    "labels": [],
    "theme": "",
    "triage": "",
@@ -5106,6 +5061,30 @@
    "due": "2026-09-16",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22144",
+   "name": "One Smile – Only one plan is displayed on the Custom Website",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Vivienne Chawande",
+   "reporter": "Mireya Alvarez",
+   "prio": "1: Urgent",
+   "created": "2026-08-31T12:37:06.861-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -5762,6 +5741,27 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23064",
+   "name": "Marketing Details - Configured Plan Benefit Exceptions are not displayed in Smile Health",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-16T10:30:18.088-0700",
+   "resolved": "2026-09-18T07:54:57.447-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-21832",
    "name": "ACH - Refund Decline Entry does NOT Appears in Member Account History",
