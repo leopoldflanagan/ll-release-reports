@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T17:23:53+00:00",
+ "generated_at": "2026-09-18T17:30:27+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -1861,6 +1861,27 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-23233",
+   "name": "Marketing Setting - Additional Member Savings Statement - % presented as a savings % rather than the % charged to the additional member.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-18T10:22:43.934-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-23231",
@@ -23847,13 +23868,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23233",
-   "name": "Marketing Setting - Incorrect Wording in Additional Member Savings Statement",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-23074",
    "name": "CSP \\ PDS & WDC Plans wrong configuration",
