@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T19:12:26+00:00",
+ "generated_at": "2026-09-18T19:15:19+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -23892,6 +23892,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23241",
+   "name": "Provider Portal \\ Age restriction configuration is not applied during plan purchase",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-23237",
    "name": "Provider Portal \\ Plan purchase is blocked by age restriction despite no age restriction being configured",
