@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T15:49:45+00:00",
+ "generated_at": "2026-09-18T16:00:25+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -14,7 +14,7 @@
   {
    "key": "PLANS-20221",
    "name": "CSP Integration Setting at Org level",
-   "status": "Architecture",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -23,7 +23,7 @@
   {
    "key": "PLANS-19455",
    "name": "Payment Term: ID on overview",
-   "status": "Architecture",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -428,11 +428,11 @@
   {
    "key": "PLANS-18240",
    "name": "TN/CA Capabilities for Care Pay + Clients",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
-   "tshirt": "Small",
+   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -549,7 +549,7 @@
   {
    "key": "PLANS-19455",
    "name": "Payment Term: ID on overview",
-   "status": "Architecture",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -593,7 +593,7 @@
   {
    "key": "PLANS-20221",
    "name": "CSP Integration Setting at Org level",
-   "status": "Architecture",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -1125,7 +1125,7 @@
    "name": "TN/CA Capabilities for Care Pay + Clients",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Epics & Stories",
    "fv": "R9.9",
    "ted": null,
    "who": "Chris Rubio",
@@ -1246,7 +1246,7 @@
    "name": "Payment Term: ID on overview",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Requirements",
    "fv": "R9.9",
    "ted": null,
    "who": "Chris Rubio",
@@ -1290,7 +1290,7 @@
    "name": "CSP Integration Setting at Org level",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Requirements",
    "fv": "R9.9",
    "ted": null,
    "who": "Chris Rubio",
@@ -1916,7 +1916,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -1925,7 +1925,7 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5256,30 +5256,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21183",
-   "name": "CSP - ACH Transaction displays 'Status Unavailable' instead of 'Not Refunded' in Plan Transactions",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-13T07:35:44.130-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20925",
    "name": "Stage - Member Portal - Treatments are not displayed for members",
    "pod": "LL",
@@ -5762,6 +5738,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21183",
+   "name": "CSP - ACH Transaction displays 'Status Unavailable' instead of 'Not Refunded' in Plan Transactions",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-13T07:35:44.130-0700",
+   "resolved": "2026-09-18T08:49:49.392-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23064",
    "name": "Marketing Details - Configured Plan Benefit Exceptions are not displayed in Smile Health",
