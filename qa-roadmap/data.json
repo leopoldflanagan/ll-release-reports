@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T14:00:34+00:00",
+ "generated_at": "2026-09-18T14:15:21+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -1689,7 +1689,7 @@
    "prio": "1: Urgent",
    "created": "2026-09-16T15:42:29.884-0700",
    "resolved": "",
-   "due": "2026-09-22",
+   "due": "2026-09-24",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -1856,30 +1856,6 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21709",
-   "name": "DCA - Receipt for Purchase Not sent",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-21T14:48:47.882-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -5206,6 +5182,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21709",
+   "name": "DCA - Receipt for Purchase Not sent",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-21T14:48:47.882-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-21703",
