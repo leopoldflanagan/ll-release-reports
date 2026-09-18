@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T09:45:27+00:00",
+ "generated_at": "2026-09-18T10:00:33+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -1629,6 +1629,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-23154",
+   "name": "Marketing Settings – Footer Statement Dropdown Visible When marketing structure Feature Flag is OFF",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-17T03:49:15.926-0700",
+   "resolved": "",
+   "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23143",
    "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
    "pod": "LL",
@@ -1967,30 +1991,6 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23154",
-   "name": "Marketing Settings – Footer Statement Dropdown Visible When marketing structure Feature Flag is OFF",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-17T03:49:15.926-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4378,30 +4378,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22895",
-   "name": "Fee Scedule - Fee Schedule footer is not replacing ADA savings footer when savingsSource = FeeSchedule",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-14T06:43:47.876-0700",
-   "resolved": "",
-   "due": "2026-09-16",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PAY-4497",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
    "pod": "PLANS",
@@ -4441,6 +4417,30 @@
    "due": "2026-09-18",
    "labels": [
     "PDS",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22895",
+   "name": "Fee Scedule - Fee Schedule footer is not replacing ADA savings footer when savingsSource = FeeSchedule",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-14T06:43:47.876-0700",
+   "resolved": "",
+   "due": "2026-09-16",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
