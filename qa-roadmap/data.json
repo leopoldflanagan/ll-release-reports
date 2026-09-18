@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T21:00:35+00:00",
+ "generated_at": "2026-09-18T21:12:27+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -2607,30 +2607,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21725",
-   "name": "DCA - Plan expired out in PMP before expired",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-08-21T19:35:31.703-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21670",
    "name": "ACH Refund Status Displays as \"Status Unavailable\" for Auto-Renewed PMP Plans Paid via ACH",
    "pod": "LL",
@@ -4051,6 +4027,30 @@
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-08-24T15:27:56.809-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21725",
+   "name": "DCA - Plan expired out in PMP before expired",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T19:35:31.703-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -23895,15 +23895,15 @@
   {
    "key": "PLANS-23241",
    "name": "Provider Portal \\ Age restriction configuration is not applied during plan purchase",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-23237",
    "name": "Provider Portal \\ Plan purchase is blocked by age restriction despite no age restriction being configured",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Development",
+   "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
   },
   {
