@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T16:15:23+00:00",
+ "generated_at": "2026-09-18T16:29:16+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -204,7 +204,7 @@
    "key": "PLANS-18881",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-25",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -495,7 +495,7 @@
    "key": "PLANS-18881",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-25",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -1193,7 +1193,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": null,
+   "ted": "2026-09-25",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
