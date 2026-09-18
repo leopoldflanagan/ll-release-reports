@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T17:36:26+00:00",
+ "generated_at": "2026-09-18T17:45:22+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -329,7 +329,7 @@
   {
    "key": "PLANS-16750",
    "name": "PBO Arrangements (Provider Portal & Wellfit Pay): Show Refunds and Adjustments (Crosby Bug)",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
    "who": "Daniel Marineni",
@@ -1026,7 +1026,7 @@
    "name": "PBO Arrangements (Provider Portal & Wellfit Pay): Show Refunds and Adjustments (Crosby Bug)",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": "R9.9",
    "ted": null,
    "who": "Daniel Marineni",
@@ -1864,7 +1864,7 @@
   },
   {
    "key": "PLANS-23233",
-   "name": "Marketing Setting - Additional Member Statement - % presented as a savings % rather than the % charged to the additional member",
+   "name": "Marketing Setting - Additional Member Statement - configured % presented as a savings % rather than the % charged to the additional member",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
