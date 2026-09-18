@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T16:41:14+00:00",
+ "generated_at": "2026-09-18T16:45:25+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -726,7 +726,7 @@
    "key": "PLANS-21977",
    "name": "Payment wallet and plans enhacement - PMP",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-21",
    "fv": "R9.8",
    "who": "Conor Kamperman",
    "tshirt": null,
@@ -1424,7 +1424,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": null,
+   "ted": "2026-09-21",
    "who": "Conor Kamperman",
    "theme": "LL-Fast Follows"
   },
