@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T00:15:20+00:00",
+ "generated_at": "2026-09-18T00:30:25+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -37,15 +37,6 @@
    "fv": "R9.9",
    "who": "Chris Rubio",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-18881",
-   "name": "Marketing Details - Driving Smile Health",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Chris Rubio",
-   "tshirt": "Small"
   },
   {
    "key": "PLANS-17586",
@@ -206,6 +197,15 @@
    "status": "In Testing",
    "ted": "2026-09-14",
    "fv": "R9.8",
+   "who": "Valentyna Tenus",
+   "tshirt": "Small"
+  },
+  {
+   "key": "PLANS-18881",
+   "name": "Marketing Details - Driving Smile Health",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
   },
@@ -494,10 +494,10 @@
   {
    "key": "PLANS-18881",
    "name": "Marketing Details - Driving Smile Health",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.9",
-   "who": "Chris Rubio",
+   "who": "Valentyna Tenus",
    "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1191,10 +1191,10 @@
    "name": "Marketing Details - Driving Smile Health",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "fv": "R9.9",
    "ted": null,
-   "who": "Chris Rubio",
+   "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
   {
