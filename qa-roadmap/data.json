@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T16:00:25+00:00",
+ "generated_at": "2026-09-18T16:14:40+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -212,7 +212,7 @@
   {
    "key": "PLANS-18673",
    "name": "Purchase Widget to Payment Widget Integration",
-   "status": "Architecture",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
    "who": "Valentyna Tenus",
@@ -472,7 +472,7 @@
   {
    "key": "PLANS-18673",
    "name": "Purchase Widget to Payment Widget Integration",
-   "status": "Architecture",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
    "who": "Valentyna Tenus",
@@ -516,7 +516,7 @@
   {
    "key": "PLANS-19306",
    "name": "Member Search Improvements",
-   "status": "Architecture",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
    "who": "Unassigned",
@@ -1169,7 +1169,7 @@
    "name": "Purchase Widget to Payment Widget Integration",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Requirements",
    "fv": "R9.9",
    "ted": null,
    "who": "Valentyna Tenus",
@@ -1213,7 +1213,7 @@
    "name": "Member Search Improvements",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "Architecture",
+   "status": "Requirements",
    "fv": "R9.9",
    "ted": null,
    "who": "Unassigned",
