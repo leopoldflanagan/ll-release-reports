@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T19:15:19+00:00",
+ "generated_at": "2026-09-18T19:24:03+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -4399,30 +4399,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22666",
-   "name": "Retest -Stage - OneSmile - Additional member cost is not applied",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Conor Kamperman",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "1: Urgent",
-   "created": "2026-09-09T13:31:58.621-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22514",
    "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
    "pod": "PLANS",
@@ -5005,6 +4981,30 @@
    "created": "2026-09-11T11:48:33.500-0700",
    "resolved": "",
    "due": "2026-09-17",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22666",
+   "name": "Retest -Stage - OneSmile - Additional member cost is not applied",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Conor Kamperman",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "1: Urgent",
+   "created": "2026-09-09T13:31:58.621-0700",
+   "resolved": "",
+   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
