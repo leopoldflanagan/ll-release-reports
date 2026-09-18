@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T17:15:21+00:00",
+ "generated_at": "2026-09-18T17:23:53+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -23847,6 +23847,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23233",
+   "name": "Marketing Setting - Incorrect Wording in Additional Member Savings Statement",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-23074",
    "name": "CSP \\ PDS & WDC Plans wrong configuration",
