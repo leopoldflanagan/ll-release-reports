@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T14:30:27+00:00",
+ "generated_at": "2026-09-18T14:38:49+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -1628,6 +1628,30 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-23186",
+   "name": "PRODUCTION - Manage Patient/Overview - different status",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Vasyl Skochko",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-17T13:41:08.486-0700",
+   "resolved": "",
+   "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23154",
    "name": "Marketing Settings – Footer Statement Dropdown Visible When marketing structure Feature Flag is OFF",
@@ -3752,30 +3776,6 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23186",
-   "name": "PRODUCTION - Manage Patient/Overview - different status",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Vasyl Skochko",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-17T13:41:08.486-0700",
-   "resolved": "",
-   "due": "2026-09-22",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
