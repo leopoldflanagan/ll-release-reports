@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T13:15:26+00:00",
+ "generated_at": "2026-09-18T13:28:01+00:00",
  "today": "2026-09-18",
  "features": [
   {
@@ -150,7 +150,7 @@
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "status": "In Development",
-   "ted": "2026-09-21",
+   "ted": "2026-09-24",
    "fv": "R9.9",
    "who": "Petro Yarish",
    "tshirt": "Small"
@@ -451,7 +451,7 @@
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "status": "In Development",
-   "ted": "2026-09-21",
+   "ted": "2026-09-24",
    "fv": "R9.9",
    "who": "Petro Yarish",
    "tshirt": "Small",
@@ -1149,7 +1149,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-09-21",
+   "ted": "2026-09-24",
    "who": "Petro Yarish",
    "theme": "LL-Fast Follows"
   },
@@ -1782,7 +1782,7 @@
    "prio": "2: Important",
    "created": "2026-09-11T06:49:34.689-0700",
    "resolved": "",
-   "due": "2026-09-18",
+   "due": "2026-09-22",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -1947,7 +1947,7 @@
    "prio": "2: Important",
    "created": "2026-08-18T11:51:13.130-0700",
    "resolved": "",
-   "due": "2026-09-18",
+   "due": "2026-09-22",
    "labels": [
     "group1_migration",
     "product_prioritized"
