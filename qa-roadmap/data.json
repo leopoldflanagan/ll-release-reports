@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T15:30:21+00:00",
+ "generated_at": "2026-09-20T15:45:22+00:00",
  "today": "2026-09-20",
  "features": [
   {
@@ -23950,27 +23950,6 @@
    "prio": "4: Low",
    "created": "2025-10-21T17:20:21.142-0700",
    "resolved": "2026-06-22T08:48:49.279-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18225",
-   "name": "Smiles Dental PC - Vanilla Plan Wellfit Pay and Plan Website Issue",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 15-26",
-   "who": "Conor Kamperman",
-   "reporter": "Ezra Skeete",
-   "prio": "3: Standard",
-   "created": "2026-06-18T11:05:22.065-0700",
-   "resolved": "2026-06-22T08:42:19.449-0700",
    "due": "",
    "labels": [],
    "theme": "",
