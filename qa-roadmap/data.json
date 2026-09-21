@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T06:15:22+00:00",
+ "generated_at": "2026-09-21T06:31:00+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -690,17 +690,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-21824",
-   "name": "Validate configured WA plans and update additional benefits (membership card)",
-   "status": "In Testing",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "David Jones",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-21837",
    "name": "Age Restrictions on Sales",
    "status": "In Development",
@@ -1382,17 +1371,6 @@
    "fv": "R9.9",
    "ted": null,
    "who": "Camille Knight",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-21824",
-   "name": "Validate configured WA plans and update additional benefits (membership card)",
-   "pod": "PLANS",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "David Jones",
    "theme": "LL-Fast Follows"
   },
   {
@@ -3588,7 +3566,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-09-18T11:19:12.772-0700",
@@ -4743,30 +4721,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23153",
-   "name": "Prod/PMP/DCA/Incorrect phone number is displayed in plan overview",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-09-16T21:05:00.115-0700",
-   "resolved": "",
-   "due": "2026-09-20",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23085",
    "name": "Plan Details PDF - Additional Member Savings section( including % and Max capacity) is missing from generated PDF",
    "pod": "LL",
@@ -5828,6 +5782,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23153",
+   "name": "Prod/PMP/DCA/Incorrect phone number is displayed in plan overview",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-09-16T21:05:00.115-0700",
+   "resolved": "2026-09-20T23:24:35.091-0700",
+   "due": "2026-09-20",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23069",
    "name": "Marketing details - new ' X-ray/Exam usage' footer verbiage not visible in Plan details [new template]",
