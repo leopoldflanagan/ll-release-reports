@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T17:50:05+00:00",
+ "generated_at": "2026-09-21T18:00:30+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -3593,10 +3593,10 @@
   {
    "key": "PLANS-22966",
    "name": "Unable to Add Dependent to Plan",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.7.7",
    "sprint": "Plans-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Vera King",
@@ -3608,7 +3608,7 @@
     "PDS",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
