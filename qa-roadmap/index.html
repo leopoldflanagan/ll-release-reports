@@ -572,7 +572,8 @@
         <span class="freshpill" id="freshpill" title="Data auto-refreshes from Jira every 2 hours"></span>
       </div>
     </div>
-    <p class="sub">Each bar sits on the Dev-estimated <b>Target End date</b> — when the Feature is expected to reach Stage for QA. Grouped by QA week through the R9.7 freeze. Read it left to right: what lands soonest is what QA plans first.</p>
+    <div id="relwarn" style="display:none"></div>
+    <p class="sub">Each bar sits on the Dev-estimated <b>Target End date</b> — when the Feature is expected to reach Stage for QA. Grouped by QA week through the <span data-rel="0">R9.8</span> freeze. Read it left to right: what lands soonest is what QA plans first.</p>
   </header>
 
   <div class="tabs">
@@ -612,7 +613,7 @@
   </div>
 
   <div class="panel" id="panel-allroadmap">
-    <p class="sub" style="margin-top:16px">Consolidated QA delivery roadmap. Work still in build is placed by Dev-estimated <b>Target End date</b> through the R9.7 freeze — read left to right, soonest first. Anything already <b>In Testing</b> is pulled out into a separate <b>QA Ready / In Progress</b> lane at the top (it's already with QA, so its date no longer matters). Bar length reflects the feature's T-shirt size; blocked/on-hold shows red with a Spotlight note on hover; a ⚠ marks a date that has passed without reaching Testing.</p>
+    <p class="sub" style="margin-top:16px">Consolidated QA delivery roadmap. Work still in build is placed by Dev-estimated <b>Target End date</b> through the <span data-rel="0">R9.8</span> freeze — read left to right, soonest first. Anything already <b>In Testing</b> is pulled out into a separate <b>QA Ready / In Progress</b> lane at the top (it's already with QA, so its date no longer matters). Bar length reflects the feature's T-shirt size; blocked/on-hold shows red with a Spotlight note on hover; a ⚠ marks a date that has passed without reaching Testing.</p>
     <div class="toolbar">
       <div class="searchbar" id="rmsearchbox">
         <svg class="si" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg>
@@ -747,7 +748,7 @@ let FEATURES_ALL = [];
 
 let TODAY = new Date();
 let GENERATED_AT = "";
-// QA weeks through R9.7 freeze (2026-08-23)
+// QA weeks: rolling 7-week window from data.json; freeze marker comes from WEEKS
 let WEEKS = [];
 let NW = 0, T0 = null, T1 = null, SPAN = 1;
 function recomputeWeekBounds(){ NW = WEEKS.length; T0 = new Date(WEEKS[0].start); T1 = new Date(WEEKS[NW-1].end); SPAN = (T1 - T0) || 1; }
@@ -2103,6 +2104,7 @@ function applyData(d){
   TODAY = d.today ? new Date(d.today+"T00:00:00") : new Date();
   GENERATED_AT = d.generated_at || "";
   recomputeWeekBounds();
+  fillRelNames();
 }
 function initDashboard(){
   initFeaturesAndRoadmap();
@@ -2120,6 +2122,38 @@ const RELEASES=[
   {id:"R9.8",deploy:"2026-10-07"},{id:"R9.9",deploy:"2026-11-04"},{id:"R9.10",deploy:"2026-12-02"}
 ];
 const PRIO_COL={1:"#d03b3b",2:"#ec835a",3:"#2a78d6",4:"#8a94a6"};
+// Release names used in prose come from RELEASES, never hard-coded, so they
+// advance on their own the day a release deploys. [data-rel="0"] = next release,
+// [data-rel="1"] = the one after it.
+function upcomingReleases(){
+  var t=(typeof TODAY!=="undefined"&&TODAY)?TODAY:new Date();
+  return RELEASES.filter(function(r){ return new Date(r.deploy+"T00:00:00")>=t; });
+}
+function relCalendarStale(){ return upcomingReleases().length===0; }
+function fillRelNames(){
+  var up=upcomingReleases(), stale=!up.length;
+  document.querySelectorAll("[data-rel]").forEach(function(el){
+    var r=up[+el.getAttribute("data-rel")];
+    if(r){ el.textContent=r.id; el.removeAttribute("title"); el.style.cssText=""; }
+    else if(stale){
+      el.style.cssText="color:var(--amber);border-bottom:1px dotted var(--amber)";
+      el.title="Release calendar out of date - this name may already have shipped";
+    }
+  });
+  renderRelWarning();
+}
+// A release name nobody updated is worse than no name: make the gap visible.
+function renderRelWarning(){
+  var el=document.getElementById("relwarn"); if(!el) return;
+  if(!relCalendarStale()){ el.style.display="none"; return; }
+  var last=RELEASES.length?RELEASES[RELEASES.length-1].id:"-";
+  el.style.cssText="margin:10px 0 0;padding:10px 14px;border-radius:10px;border:1px solid var(--line);"+
+    "border-left:4px solid var(--amber);background:var(--surface2);color:var(--ink);font-size:13px";
+  el.innerHTML="<b>Release calendar out of date.</b> The last release this page knows is <b>"+last+
+    "</b>, and it has already deployed. Update RELEASES in <code>qa-roadmap/index.html</code> and "+
+    "<code>scripts/refresh_dashboard.py</code> from Confluence \u201cRelease Schedule 2026\u201d. "+
+    "Until then the release names and freeze markers below are not reliable.";
+}
 function syncVZ(){var d=document.documentElement.getAttribute('data-theme');
  var dark=(d==='dark');
  if(dark){VZ.grid='#2b3a4d';VZ.axis='#3a4a5c';VZ.ink='#e7edf4';VZ.sub='#9aa7b6';VZ.muted='#8090a2';VZ.navy='#6f9bd0';}
@@ -2397,7 +2431,11 @@ function renderInsights(){
   // PROJECTION basis: close rate only (resolved/wk), NOT net. Assumes new P1/P2 creation
   // falls to ~0 as feature testing wraps — an optimistic, best-case read (see the * note).
   function projAt(t,wk){ return Math.max(0,Math.round(R[t].open-R[t].res*wk)); }
-  // "what it takes": close rate needed to clear each tier by R9.7, assuming no new bugs open
+  // "what it takes": close rate needed to clear each tier by MILE[0], assuming no new bugs open
+  // "R9.8" without the date; "(release TBD)" once RELEASES has run out, so the
+  // legends never name a release that already shipped.
+  function MID(i){ var r=upcoming[i];
+    return (!r || /^\+/.test(r.id)) ? "(release TBD)" : r.id; }
   var W97=Math.max(MILE[0]?MILE[0].wk:1,1);
   var needP1=Math.ceil(R.p1.open/W97), needP2=Math.ceil(R.p2.open/W97);
   // Plain-language clear-date read per tier. rateKey="res" = best case (close rate);
@@ -2547,7 +2585,7 @@ function renderInsights(){
   '<div class="card" style="margin-top:14px"><h3 style="font-size:13px;margin:0 0 6px;color:var(--navy)">Workflow stage by priority</h3>'+
   '<div class="leg"><span><i style="background:'+IGREEN+'"></i>In testing</span><span><i style="background:'+IAMBER+'"></i>In dev</span><span><i style="background:'+IRED+'"></i>Not started</span></div>'+
   stageSVG+'<div class="hint">↑ click a segment → opens Active Bugs filtered to it</div>'+
-  '<div class="callout ok"><b>Read for R9.7:</b> of the '+(byPrio.P1+byPrio.P2)+' P1+P2 bugs, only <b>'+p12ns+' haven\'t started</b> — the rest are in dev or testing. <b>'+p34b+' P3/P4 bugs sit in Backlog</b> — the R9.8 queue.</div></div>'+
+  '<div class="callout ok"><b>Read for '+iesc(MID(0))+':</b> of the '+(byPrio.P1+byPrio.P2)+' P1+P2 bugs, only <b>'+p12ns+' haven\'t started</b> — the rest are in dev or testing. <b>'+p34b+' P3/P4 bugs sit in Backlog</b> — the '+iesc(MID(1))+' queue.</div></div>'+
   '</section>'+
 
   '<section id="i-due"><h2><span class="n">2</span> Due-date health — committed work</h2>'+
@@ -2589,7 +2627,7 @@ function renderInsights(){
     'With no new P1/P2 opened, the team needs to close about <b style="color:'+IRED+'">'+needP1+' P1/wk</b> and <b style="color:'+IAMBER+'">'+needP2+' P2/wk</b> for the ~'+W97+' week'+(W97===1?"":"s")+' left. Current close rate: <b>'+R.p1.res+' P1/wk</b> and <b>'+R.p2.res+' P2/wk</b>.'+
     '<br><span style="font-size:11.5px;color:var(--muted)">'+((needP1>R.p1.res||needP2>R.p2.res)?'The needed rate is above the current close rate — the gap is where capacity has to move.':'The current close rate already meets what’s needed.')+'</span></div>'+
   '<table><thead><tr><th>Milestone</th><th class="num">P1</th><th class="num">P2</th><th class="num">P3+P4</th><th class="num">Total</th></tr></thead><tbody>'+MILE.map(mrow).join("")+'</tbody></table>'+
-  '<div class="note" style="margin-top:8px"><b>Reading this table.</b> Bugs still open at each date <b>if the current close rate holds and few new bugs arrive*</b> — a best-case projection, not the plan. The plan is <b>0 P1/P2 by R9.7</b> and <b>0 P3/P4 by R9.8</b>. A <b>0</b> means that tier is projected to be cleared by that date; a number above 0 means even at the close rate, the volume won\'t be gone in time — that gap is where attention needs to go.</div>'+
+  '<div class="note" style="margin-top:8px"><b>Reading this table.</b> Bugs still open at each date <b>if the current close rate holds and few new bugs arrive*</b> — a best-case projection, not the plan. The plan is <b>0 P1/P2 by '+iesc(MID(0))+'</b> and <b>0 P3/P4 by '+iesc(MID(1))+'</b>. A <b>0</b> means that tier is projected to be cleared by that date; a number above 0 means even at the close rate, the volume won\'t be gone in time — that gap is where attention needs to go.</div>'+
   '<div class="callout"><b>When the open backlog would clear — a range:</b>'+
     '<table style="width:auto;margin:8px 0 4px;border:0"><tbody>'+
     '<tr><td style="border:0;padding:2px 14px 2px 0;color:var(--muted);font-size:12px">Best case* <span style="font-size:10.5px">(close rate)</span></td>'+
@@ -2617,7 +2655,7 @@ function renderInsights(){
     '<div class="fld"><div class="fl">Opened (24h)</div><div class="fv2">'+created24+' <span style="font-size:11px;color:var(--muted)">· '+newp1+' new P1</span></div></div>'+
     '<div class="fld"><div class="fl">Resolved (24h)</div><div class="fv2" style="color:'+IGREEN+'">'+resolved24+'</div></div>'+
   '</div>'+
-  '<div class="attnote">:rotating_light: *Overdue P1s (R9.7):* '+iesc(p1over.join(", ")||"none")+'</div>'+
+  '<div class="attnote">:rotating_light: *Overdue P1s ('+iesc(MID(0))+'):* '+iesc(p1over.join(", ")||"none")+'</div>'+
   '<div class="attnote" style="border-top:0;padding-top:2px">:chart_with_downwards_trend: *Backlog trend:* '+wows+' vs last week · '+iesc(MILE[0].label)+': ~'+r97+' P1+P2 projected open</div>'+
   '<div class="btnrow"><span class="slbtn pri">Open dashboard →</span><span class="slbtn">Overdue P1/P2 list</span></div>'+
   '</div></div></div>'+

@@ -289,6 +289,19 @@ def pull_nopod():
 
 # ---- QA week window (rolling, based on today) -----------------------------
 
+# Release calendar (deploy dates) — mirrors RELEASES in qa-roadmap/index.html.
+# Keep both in sync with Confluence "Release Schedule 2026" (space WR).
+# Across the whole 2026 schedule the feature freeze is 10 days before deploy.
+RELEASES = [
+    ("R9.6",  dt.date(2026, 8, 5)),
+    ("R9.7",  dt.date(2026, 9, 2)),
+    ("R9.8",  dt.date(2026, 10, 7)),
+    ("R9.9",  dt.date(2026, 11, 4)),
+    ("R9.10", dt.date(2026, 12, 2)),
+]
+FREEZE_LEAD_DAYS = 10
+
+
 def build_weeks(today):
     """7 Monday-anchored weeks starting the Monday of the current week."""
     monday = today - dt.timedelta(days=today.weekday())
@@ -300,13 +313,19 @@ def build_weeks(today):
             f"{e.day}" if s.month == e.month else f"{e.strftime('%b')} {e.day}")
         w = {"label": label, "start": s.isoformat(), "end": e.isoformat()}
         weeks.append(w)
-    # freeze annotations (R9.6 ~Jul 26, R9.7 ~Aug 23) if they land in-window
+    # Guard: once the calendar runs out, every release name on the page becomes
+    # a guess. Say so in the run log instead of failing quietly.
+    if not any(deploy >= today for _, deploy in RELEASES):
+        print("WARNING: release calendar is out of date - last known release is "
+              f"{RELEASES[-1][0]} ({RELEASES[-1][1]}). Update RELEASES here and in "
+              "qa-roadmap/index.html from Confluence 'Release Schedule 2026'.")
+    # freeze annotations, derived from RELEASES so they advance with the schedule
     for w in weeks:
         s = dt.date.fromisoformat(w["start"]); e = dt.date.fromisoformat(w["end"])
-        for fd, lab in [(dt.date(2026, 7, 27), "R9.6 freeze Jul 27"),
-                        (dt.date(2026, 8, 23), "R9.7 freeze Aug 23")]:
+        for rid, deploy in RELEASES:
+            fd = deploy - dt.timedelta(days=FREEZE_LEAD_DAYS)
             if s <= fd <= e:
-                w["freeze"] = lab
+                w["freeze"] = f"{rid} freeze {fd.strftime('%b')} {fd.day}"
     return weeks
 
 
