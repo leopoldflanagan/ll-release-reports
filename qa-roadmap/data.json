@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T15:30:24+00:00",
+ "generated_at": "2026-09-21T15:40:23+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -123,7 +123,7 @@
    "key": "PLANS-21975",
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "status": "In Testing",
-   "ted": "2026-09-16",
+   "ted": "2026-09-28",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null
@@ -880,7 +880,7 @@
    "key": "PLANS-21975",
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "status": "In Testing",
-   "ted": "2026-09-16",
+   "ted": "2026-09-28",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null,
@@ -1567,7 +1567,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.8",
-   "ted": "2026-09-16",
+   "ted": "2026-09-28",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
@@ -1679,27 +1679,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23046",
-   "name": "Marketing Settings - Footer Verbiage changes to 'B' or 'None' are not reflected in Smile Health",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-16T09:42:34.005-0700",
-   "resolved": "",
-   "due": "2026-09-23",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-23038",
    "name": "PMP-Stage- Auto-renewal payment change from CC to ACH failing for Multi-plan member in PMP",
    "pod": "LL",
@@ -1766,30 +1745,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22824",
-   "name": "Member Portal - DCA | When using Add Plan in the Member Portal, the page displays “Add Member” and “Adding a member costs…” instead of wording related to adding a plan.",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-09-10T12:26:25.264-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4206,6 +4161,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22824",
+   "name": "Member Portal - DCA | When using Add Plan in the Member Portal, the page displays “Add Member” and “Adding a member costs…” instead of wording related to adding a plan.",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-09-10T12:26:25.264-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21725",
    "name": "DCA - Plan expired out in PMP before expired",
    "pod": "LL",
@@ -4740,6 +4719,27 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-23046",
+   "name": "Marketing Settings - Footer Verbiage changes to 'B' or 'None' are not reflected in Smile Health",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-16T09:42:34.005-0700",
+   "resolved": "",
+   "due": "2026-09-23",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-22877",
