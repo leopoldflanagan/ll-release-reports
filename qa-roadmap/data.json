@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T13:00:31+00:00",
+ "generated_at": "2026-09-21T13:15:24+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -1655,30 +1655,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23078",
-   "name": "PMP-Stage-Add Invalid CC should display proper validation message instead of general error message",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-09-16T12:51:03.190-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23070",
    "name": "Payment Wallet-PMP-Stage-Not getting Auth form while trying to ACH as add payment method for Auto-renewal for Single plan member",
    "pod": "LL",
@@ -1790,30 +1766,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22617",
-   "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-08T07:31:34.010-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4254,6 +4206,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23233",
+   "name": "Marketing Setting - Additional Member Statement - configured additional member % presented as a savings % rather than the % charged to the additional member",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-18T10:22:43.934-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23231",
    "name": "PMP-Stage-While purchasing plan, auto-renew checkbox is checked but Payment method not assigned for auto-renewal and Auto-renewal toggle is OFF",
    "pod": "LL",
@@ -4267,6 +4243,30 @@
    "created": "2026-09-18T10:06:05.884-0700",
    "resolved": "",
    "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23078",
+   "name": "PMP-Stage-Add Invalid CC should display proper validation message instead of general error message",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-09-16T12:51:03.190-0700",
+   "resolved": "",
+   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4293,6 +4293,30 @@
    "due": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22617",
+   "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-08T07:31:34.010-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4344,30 +4368,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23233",
-   "name": "Marketing Setting - Additional Member Statement - configured additional member % presented as a savings % rather than the % charged to the additional member",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-18T10:22:43.934-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
