@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T20:10:53+00:00",
+ "generated_at": "2026-09-21T20:14:37+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -96,7 +96,7 @@
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
-   "ted": "2026-08-19",
+   "ted": "2026-09-22",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
@@ -279,7 +279,7 @@
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
-   "ted": "2026-08-19",
+   "ted": "2026-09-22",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
@@ -955,7 +955,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.8",
-   "ted": "2026-08-19",
+   "ted": "2026-09-22",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
