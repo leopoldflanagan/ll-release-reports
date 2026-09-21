@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T07:45:25+00:00",
+ "generated_at": "2026-09-21T08:01:02+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -1606,6 +1606,30 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-23248",
+   "name": "PRODUCTION - DCA Corporate office is showing as an option in plan purchase",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-18T14:17:01.026-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23186",
    "name": "PRODUCTION - Manage Patient/Overview - different status",
@@ -3526,30 +3550,6 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23248",
-   "name": "PRODUCTION - DCA Corporate office is showing as an option in plan purchase",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-18T14:17:01.026-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
