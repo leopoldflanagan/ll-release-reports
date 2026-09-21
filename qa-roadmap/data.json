@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T14:51:02+00:00",
+ "generated_at": "2026-09-21T15:00:32+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -1944,7 +1944,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "Plans-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Conor Kamperman",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-09-16T13:08:51.012-0700",
@@ -5121,30 +5121,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20499",
-   "name": "CSP - Bill to Office purchases - Purchased fees are not showing under plan details",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-29T08:59:11.328-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20133",
    "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
    "pod": "PLANS",
@@ -5665,6 +5641,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-20499",
+   "name": "CSP - Bill to Office purchases - Purchased fees are not showing under plan details",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-07-29T08:59:11.328-0700",
+   "resolved": "2026-09-21T07:52:18.237-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22917",
    "name": "PRODUCTION - Purchase for DCA Core Plan - not going through",
