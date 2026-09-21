@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T13:49:40+00:00",
+ "generated_at": "2026-09-21T14:00:27+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -4398,30 +4398,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23068",
-   "name": "Marketing Details - configured 'Exclusive % Discount on Additional Services' is not visible in Smile health",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-16T10:46:21.228-0700",
-   "resolved": "",
-   "due": "2026-09-17",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22858",
    "name": "PMP - ADD MEMBER- Additional Member Discount Incorrectly Applied When Adding an Ad Hoc Plan",
    "pod": "LL",
@@ -4697,30 +4673,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23154",
-   "name": "Marketing Settings – Footer Statement Dropdown Visible When marketing structure Feature Flag is OFF",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-17T03:49:15.926-0700",
-   "resolved": "",
-   "due": "2026-09-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23085",
    "name": "Plan Details PDF - Additional Member Savings section( including % and Max capacity) is missing from generated PDF",
    "pod": "LL",
@@ -4756,6 +4708,30 @@
    "resolved": "",
    "due": "2026-09-18",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23068",
+   "name": "Marketing Details - configured 'Exclusive % Discount on Additional Services' is not visible in Smile health",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-16T10:46:21.228-0700",
+   "resolved": "",
+   "due": "2026-09-17",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -5782,6 +5758,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23154",
+   "name": "Marketing Settings – Footer Statement Dropdown Visible When marketing structure Feature Flag is OFF",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-17T03:49:15.926-0700",
+   "resolved": "2026-09-21T06:54:27.019-0700",
+   "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23153",
    "name": "Prod/PMP/DCA/Incorrect phone number is displayed in plan overview",
