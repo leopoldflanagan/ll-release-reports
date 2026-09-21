@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T22:30:27+00:00",
+ "generated_at": "2026-09-21T22:40:26+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -208,15 +208,6 @@
    "fv": "R9.8",
    "who": "Vasyl Skochko",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-18413",
-   "name": "Marketing Details",
-   "status": "In Testing",
-   "ted": "2026-09-18",
-   "fv": "R9.8",
-   "who": "Vasyl Skochko",
-   "tshirt": "Moderate"
   }
  ],
  "features_all": [
@@ -416,17 +407,6 @@
    "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-18413",
-   "name": "Marketing Details",
-   "status": "In Testing",
-   "ted": "2026-09-18",
-   "fv": "R9.8",
-   "who": "Vasyl Skochko",
-   "tshirt": "Moderate",
-   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1089,17 +1069,6 @@
    "fv": "R9.9",
    "ted": null,
    "who": "Chris Rubio",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-18413",
-   "name": "Marketing Details",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": "2026-09-18",
-   "who": "Vasyl Skochko",
    "theme": "LL-Fast Follows"
   },
   {
