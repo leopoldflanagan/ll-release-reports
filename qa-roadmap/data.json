@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T11:00:29+00:00",
+ "generated_at": "2026-09-21T11:15:21+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -1766,6 +1766,30 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22617",
+   "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-08T07:31:34.010-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3890,30 +3914,6 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "Yes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22617",
-   "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-08T07:31:34.010-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
