@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T17:12:17+00:00",
+ "generated_at": "2026-09-21T17:15:20+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -3606,7 +3606,7 @@
    "sprint": "Plans-Sprint 22-26",
    "who": "Conor Kamperman",
    "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
+   "prio": "2: Important",
    "created": "2026-09-14T08:40:59.081-0700",
    "resolved": "",
    "due": "",
