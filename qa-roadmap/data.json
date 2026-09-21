@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T20:49:19+00:00",
+ "generated_at": "2026-09-21T21:00:28+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -4949,7 +4949,7 @@
    "prio": "3: Standard",
    "created": "2026-08-22T16:39:23.599-0700",
    "resolved": "",
-   "due": "2026-09-16",
+   "due": "2026-10-07",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4967,13 +4967,13 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "LL-Sprint 22-26",
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-21T13:06:25.301-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4997,7 +4997,7 @@
    "prio": "4: Low",
    "created": "2026-08-20T07:37:22.516-0700",
    "resolved": "",
-   "due": "2026-09-18",
+   "due": "2026-10-07",
    "labels": [
     "group1_migration",
     "product_prioritized"
