@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T16:00:30+00:00",
+ "generated_at": "2026-09-21T16:15:23+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -3471,7 +3471,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Sailaja Yanamandra",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-09-21T08:57:07.195-0700",
@@ -4183,24 +4183,24 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22824",
-   "name": "Member Portal - DCA | When using Add Plan in the Member Portal, the page displays “Add Member” and “Adding a member costs…” instead of wording related to adding a plan.",
-   "pod": "PLANS",
+   "key": "PLANS-21725",
+   "name": "DCA - Plan expired out in PMP before expired",
+   "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-09-10T12:26:25.264-0700",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T19:35:31.703-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-21",
    "labels": [
-    "group2_migration",
+    "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4279,6 +4279,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22824",
+   "name": "Member Portal - DCA | When using Add Plan in the Member Portal, the page displays “Add Member” and “Adding a member costs…” instead of wording related to adding a plan.",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-09-10T12:26:25.264-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22648",
    "name": "PMP and MP: Group ID code should be displayed on Membership card and Additional benefit card PDF",
    "pod": "PLANS",
@@ -4321,30 +4345,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21725",
-   "name": "DCA - Plan expired out in PMP before expired",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T19:35:31.703-0700",
-   "resolved": "",
-   "due": "2026-09-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
