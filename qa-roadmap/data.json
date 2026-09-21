@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T19:00:26+00:00",
+ "generated_at": "2026-09-21T19:12:33+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -741,7 +741,7 @@
    "key": "PLAT-5573",
    "name": "SaaS Fee Per Practice",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-25",
    "fv": "R9.8",
    "who": "Vic Du Plessis",
    "tshirt": "Moderate",
@@ -1417,7 +1417,7 @@
    "proj": "PLAT",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": null,
+   "ted": "2026-09-25",
    "who": "Vic Du Plessis",
    "theme": "LL-Fast Follows"
   },
@@ -3598,7 +3598,7 @@
    "cat": "To Do",
    "fv": "R9.7.7",
    "sprint": "Plans-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "David Jones",
    "reporter": "Vera King",
    "prio": "1: Urgent",
    "created": "2026-09-14T14:28:51.206-0700",
