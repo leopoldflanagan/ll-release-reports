@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T15:40:23+00:00",
+ "generated_at": "2026-09-21T15:45:23+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -767,6 +767,17 @@
    "theme": "LL-Fast Follows"
   },
   {
+   "key": "PLANS-22843",
+   "name": "Payment wallet and plans enhancement - Member portal",
+   "status": "Idea",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Daniel Marineni",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
    "key": "PLAT-5573",
    "name": "SaaS Fee Per Practice",
    "status": "In Development",
@@ -1448,6 +1459,17 @@
    "fv": "R9.8",
    "ted": "2026-09-17",
    "who": "Mykyta Moroz",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "PLANS-22843",
+   "name": "Payment wallet and plans enhancement - Member portal",
+   "pod": "PLANS",
+   "proj": "PLANS",
+   "status": "Idea",
+   "fv": "R9.9",
+   "ted": null,
+   "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
   {
@@ -4101,7 +4123,7 @@
    "prio": "2: Important",
    "created": "2026-09-18T14:17:01.026-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-22",
    "labels": [
     "group1_migration",
     "product_prioritized"
