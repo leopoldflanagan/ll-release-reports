@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T06:31:00+00:00",
+ "generated_at": "2026-09-21T06:45:22+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -1606,6 +1606,30 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-23233",
+   "name": "Marketing Setting - Additional Member Statement - configured additional member % presented as a savings % rather than the % charged to the additional member",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-18T10:22:43.934-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23186",
    "name": "PRODUCTION - Manage Patient/Overview - different status",
@@ -3574,30 +3598,6 @@
    "due": "",
    "labels": [
     "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23233",
-   "name": "Marketing Setting - Additional Member Statement - configured additional member % presented as a savings % rather than the % charged to the additional member",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-18T10:22:43.934-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
