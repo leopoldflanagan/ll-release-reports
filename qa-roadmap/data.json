@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T16:30:25+00:00",
+ "generated_at": "2026-09-21T16:40:19+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -70,7 +70,7 @@
    "name": "Bulk Sellable Acceptable",
    "status": "Ready for Development",
    "ted": null,
-   "fv": null,
+   "fv": "R9.9",
    "who": "Dmytro Tymofiienko",
    "tshirt": "Large"
   },
@@ -105,7 +105,7 @@
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "status": "In Development",
-   "ted": "2026-09-18",
+   "ted": "2026-09-23",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate"
@@ -181,15 +181,6 @@
    "fv": "R9.9",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-22333",
-   "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
-   "status": "In Testing",
-   "ted": "2026-09-18",
-   "fv": "R9.8",
-   "who": "Valentyna Tenus",
-   "tshirt": "Small"
   },
   {
    "key": "PLANS-18909",
@@ -286,7 +277,7 @@
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "status": "In Development",
-   "ted": "2026-09-18",
+   "ted": "2026-09-23",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate",
@@ -342,7 +333,7 @@
    "name": "Bulk Sellable Acceptable",
    "status": "Ready for Development",
    "ted": null,
-   "fv": null,
+   "fv": "R9.9",
    "who": "Dmytro Tymofiienko",
    "tshirt": "Large",
    "pod": "LL",
@@ -742,17 +733,6 @@
    "who": "Lloyd Tokerud",
    "tshirt": null,
    "pod": "EDW",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-22333",
-   "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
-   "status": "In Testing",
-   "ted": "2026-09-18",
-   "fv": "R9.8",
-   "who": "Valentyna Tenus",
-   "tshirt": "Small",
-   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -984,7 +964,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": "2026-09-18",
+   "ted": "2026-09-23",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -1038,7 +1018,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Ready for Development",
-   "fv": null,
+   "fv": "R9.9",
    "ted": null,
    "who": "Dmytro Tymofiienko",
    "theme": "LL-Fast Follows"
@@ -1437,17 +1417,6 @@
    "fv": "R9.8",
    "ted": null,
    "who": "Lloyd Tokerud",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-22333",
-   "name": "Legal Language Consent for Provider Portal Intake & Check Out Pages",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": "2026-09-18",
-   "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
   {
@@ -4140,7 +4109,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.8",
+   "fv": "R9.7.7",
    "sprint": "LL-Sprint 22-26",
    "who": "Ivan Yarymovych",
    "reporter": "Camille Knight",
@@ -4188,7 +4157,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.8",
+   "fv": "R9.7.7",
    "sprint": "LL-Sprint 22-26",
    "who": "Denys Kernychnyi",
    "reporter": "Camille Knight",
@@ -4712,7 +4681,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4737,27 +4706,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23085",
-   "name": "Plan Details PDF - Additional Member Savings section( including % and Max capacity) is missing from generated PDF",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-16T13:37:58.443-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4815,7 +4763,7 @@
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
-   "fv": "R9.8",
+   "fv": "R9.7.7",
    "sprint": "LL-Sprint 22-26",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Camille Knight",
@@ -5685,6 +5633,27 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23085",
+   "name": "Plan Details PDF - Additional Member Savings section( including % and Max capacity) is missing from generated PDF",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-16T13:37:58.443-0700",
+   "resolved": "2026-09-21T09:36:31.026-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23237",
    "name": "Provider Portal \\ Plan purchase is blocked by age restriction despite no age restriction being configured",
