@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T19:49:32+00:00",
+ "generated_at": "2026-09-21T20:00:28+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -884,7 +884,7 @@
    "key": "WEL-6024",
    "name": "WellfitPay Payment Widget Enhancements",
    "status": "In Development",
-   "ted": "2026-09-02",
+   "ted": "2026-10-07",
    "fv": null,
    "who": "Daniel Marineni",
    "tshirt": null,
@@ -1560,7 +1560,7 @@
    "proj": "WEL",
    "status": "In Development",
    "fv": null,
-   "ted": "2026-09-02",
+   "ted": "2026-10-07",
    "who": "Daniel Marineni",
    "theme": "ACH-Fast Follows"
   }
@@ -1900,7 +1900,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1913,9 +1913,9 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-23258",
