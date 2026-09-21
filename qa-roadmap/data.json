@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T08:01:02+00:00",
+ "generated_at": "2026-09-21T08:15:22+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -1810,6 +1810,30 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21725",
+   "name": "DCA - Plan expired out in PMP before expired",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T19:35:31.703-0700",
+   "resolved": "",
+   "due": "2026-09-21",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4002,30 +4026,6 @@
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-08-24T15:27:56.809-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-21725",
-   "name": "DCA - Plan expired out in PMP before expired",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T19:35:31.703-0700",
    "resolved": "",
    "due": "",
    "labels": [
