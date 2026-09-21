@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T17:15:20+00:00",
+ "generated_at": "2026-09-21T17:24:11+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -1742,7 +1742,7 @@
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Mireya Alvarez",
    "prio": "2: Important",
    "created": "2026-08-31T12:37:06.861-0700",
@@ -4085,7 +4085,7 @@
    "sprint": "LL-Sprint 22-26",
    "who": "Ivan Yarymovych",
    "reporter": "Camille Knight",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-09-18T14:17:01.026-0700",
    "resolved": "",
    "due": "2026-09-22",
@@ -23784,7 +23784,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-23278",
+   "name": "Plan Details PDF - \"Exclusive (%) Discount on Additional Services\" Line Is Missing",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Sep 21–27",
