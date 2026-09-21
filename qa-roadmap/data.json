@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T14:00:27+00:00",
+ "generated_at": "2026-09-21T14:15:23+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -243,7 +243,7 @@
    "name": "Dynamic Admin Fees in Email Journeys",
    "status": "In Testing",
    "ted": "2026-09-10",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Rojesh Thapa",
    "tshirt": "Large",
    "pod": "DYN",
@@ -276,7 +276,7 @@
    "name": "Non Annual Renewals",
    "status": "In Testing",
    "ted": "2026-09-10",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -826,7 +826,7 @@
    "name": "Plans Journey - ACH Email Updates",
    "status": "In Testing",
    "ted": "2026-09-09",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -928,7 +928,7 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Testing",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": "2026-09-10",
    "who": "Rojesh Thapa",
    "theme": "LL-MVP"
@@ -961,7 +961,7 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Testing",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": "2026-09-10",
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
@@ -1511,7 +1511,7 @@
    "pod": "DYN",
    "proj": "DYN",
    "status": "In Testing",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": "2026-09-09",
    "who": "Unassigned",
    "theme": "ACH"
