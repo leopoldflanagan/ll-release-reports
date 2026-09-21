@@ -8,14 +8,15 @@ import json, os, sys, datetime, urllib.request, urllib.error
 # ---- DST-safe time guard ----------------------------------------------------
 # The workflow fires at a superset of UTC times covering both CDT and CST. This guard
 # posts ONLY when the current America/Chicago (US Central) local time is within 45 min of
-# one of the four intended slots (8:30 / 10:30 / 14:00 / 18:00 CT) — so the schedule stays
-# exact year-round and self-adjusts for daylight saving. Set DIGEST_GUARD=1 to enable.
+# one of the four RUN slots. Those run slots are 15 min BEFORE the deadlines the team cares
+# about (8:30 / 10:30 / 14:00 / 18:00 CT) — a buffer so the refresh + post finish BEFORE the
+# deadline even when GitHub delays the scheduled run. DST-safe & exact year-round.
 if os.environ.get("DIGEST_GUARD"):
     try:
         from zoneinfo import ZoneInfo
         now = datetime.datetime.now(ZoneInfo("America/Chicago"))
         mins = now.hour*60 + now.minute
-        TARGETS = [8*60+30, 10*60+30, 14*60, 18*60]
+        TARGETS = [8*60+15, 10*60+15, 13*60+45, 17*60+45]   # 15-min buffer before 8:30/10:30/14:00/18:00
         if not any(abs(mins-t) <= 45 for t in TARGETS):
             print("guard: %02d:%02d CT is not a digest slot — skipping." % (now.hour, now.minute))
             sys.exit(0)
