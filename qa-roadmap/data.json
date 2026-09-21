@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T13:45:22+00:00",
+ "generated_at": "2026-09-21T13:49:40+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -1618,30 +1618,6 @@
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-17T13:41:08.486-0700",
-   "resolved": "",
-   "due": "2026-09-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23154",
-   "name": "Marketing Settings – Footer Statement Dropdown Visible When marketing structure Feature Flag is OFF",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-17T03:49:15.926-0700",
    "resolved": "",
    "due": "2026-09-22",
    "labels": [
@@ -4714,6 +4690,30 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23154",
+   "name": "Marketing Settings – Footer Statement Dropdown Visible When marketing structure Feature Flag is OFF",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-17T03:49:15.926-0700",
+   "resolved": "",
+   "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
