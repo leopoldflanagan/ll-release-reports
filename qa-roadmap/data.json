@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T16:40:19+00:00",
+ "generated_at": "2026-09-21T16:45:22+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -181,15 +181,6 @@
    "fv": "R9.9",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-18909",
-   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
-   "status": "In Testing",
-   "ted": "2026-09-14",
-   "fv": "R9.8",
-   "who": "Valentyna Tenus",
-   "tshirt": "Small"
   },
   {
    "key": "PLANS-18881",
@@ -488,17 +479,6 @@
    "status": "In Development",
    "ted": "2026-09-25",
    "fv": "R9.9",
-   "who": "Valentyna Tenus",
-   "tshirt": "Small",
-   "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-18909",
-   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
-   "status": "In Testing",
-   "ted": "2026-09-14",
-   "fv": "R9.8",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
    "pod": "LL",
@@ -1174,17 +1154,6 @@
    "status": "In Development",
    "fv": "R9.9",
    "ted": "2026-09-25",
-   "who": "Valentyna Tenus",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-18909",
-   "name": "FEE SCHEDULE: Replace the Common Dental Plan Savings section with the Fee Schedule (Purchase Portal)",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": "2026-09-14",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
