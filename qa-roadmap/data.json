@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T10:30:26+00:00",
+ "generated_at": "2026-09-21T10:45:21+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -1608,7 +1608,7 @@
  "bugs": [
   {
    "key": "PLANS-23248",
-   "name": "PRODUCTION - DCA Corporate office is showing as an option in plan purchase",
+   "name": "PLANS-23248: PRODUCTION - DCA Corporate office is showing as an option in plan purchase",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -1883,30 +1883,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23231",
-   "name": "PMP-Stage-While purchasing plan, auto-renew checkbox is checked but Payment method not assigned for auto-renewal and Auto-renewal toggle is OFF",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-09-18T10:06:05.884-0700",
-   "resolved": "",
-   "due": "2026-09-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -4291,6 +4267,30 @@
    "created": "2026-09-18T11:59:27.127-0700",
    "resolved": "",
    "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23231",
+   "name": "PMP-Stage-While purchasing plan, auto-renew checkbox is checked but Payment method not assigned for auto-renewal and Auto-renewal toggle is OFF",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-09-18T10:06:05.884-0700",
+   "resolved": "",
+   "due": "2026-09-22",
    "labels": [
     "group1_migration",
     "product_prioritized"
