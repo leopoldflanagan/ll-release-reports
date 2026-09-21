@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T10:00:24+00:00",
+ "generated_at": "2026-09-21T10:15:21+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -4377,7 +4377,7 @@
    "key": "PLANS-23228",
    "name": "ACH - Broken - PMP - Incorrect Status Displayed for Refunds in Member Transactions",
    "pod": "LL",
-   "status": "On Hold",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
