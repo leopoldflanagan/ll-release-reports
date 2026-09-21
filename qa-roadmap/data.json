@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T08:45:23+00:00",
+ "generated_at": "2026-09-21T09:00:39+00:00",
  "today": "2026-09-21",
  "features": [
   {
@@ -1631,6 +1631,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23228",
+   "name": "ACH - Broken - PMP - Incorrect Status Displayed for Refunds in Member Transactions",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-18T08:38:42.447-0700",
+   "resolved": "",
+   "due": "2026-09-21",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23186",
    "name": "PRODUCTION - Manage Patient/Overview - different status",
    "pod": "LL",
@@ -1907,30 +1931,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23228",
-   "name": "ACH - Broken - PMP - Incorrect Status Displayed for Refunds in Member Transactions",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-18T08:38:42.447-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
