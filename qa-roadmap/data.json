@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T23:15:19+00:00",
+ "generated_at": "2026-09-22T23:25:17+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -1795,13 +1795,13 @@
   },
   {
    "key": "PLANS-23422",
-   "name": "Preprod - Plan Transaction status not updated to 'Returned — refund unavailable' for decline purchases.",
+   "name": "QA retest STAGE/Preprod - Plan Transaction status not updated to 'Returned — refund unavailable' for decline purchases.",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-22T15:15:16.959-0700",
