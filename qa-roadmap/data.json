@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T07:30:26+00:00",
+ "generated_at": "2026-09-22T07:45:27+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -4111,30 +4111,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21725",
-   "name": "DCA - Plan expired out in PMP before expired",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7.7",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-08-21T19:35:31.703-0700",
-   "resolved": "",
-   "due": "2026-09-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PAY-4497",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
    "pod": "PLANS",
@@ -4249,6 +4225,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21725",
+   "name": "DCA - Plan expired out in PMP before expired",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7.7",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-08-21T19:35:31.703-0700",
+   "resolved": "",
+   "due": "2026-09-21",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
