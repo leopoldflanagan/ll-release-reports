@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T17:49:37+00:00",
+ "generated_at": "2026-09-22T18:00:29+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -1536,27 +1536,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-23345",
-   "name": "PMP - Account Information -missing Office and Patient ID After PMP Plan Purchase",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-22T07:46:27.659-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23316",
    "name": "PMP \\ Minimum Age restriction is not working as expected",
    "pod": "PLANS",
@@ -1692,6 +1671,30 @@
    "due": "2026-09-23",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22913",
+   "name": "CSP \\ Plans purchased via SGDP Purchase portal are marked for delete",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Conor Kamperman",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-14T08:40:59.081-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
     "product_prioritized"
    ],
    "theme": "",
@@ -2040,7 +2043,7 @@
    "sprint": "LL-Sprint 22-26",
    "who": "Valentyna Tenus",
    "reporter": "Vinita Thankur",
-   "prio": "2: Important",
+   "prio": "3: Standard",
    "created": "2026-09-16T08:02:23.276-0700",
    "resolved": "",
    "due": "2026-09-22",
@@ -3536,30 +3539,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23348",
-   "name": "STAGE - Inability to save a c/c to a/r - BLOCKING the load for the tokens scenario set up",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Conor Kamperman",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-22T08:28:50.943-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23089",
    "name": "PRODUCTION- Error handling in csp",
    "pod": "LL",
@@ -3647,30 +3626,6 @@
    "due": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22913",
-   "name": "CSP \\ Plans purchased via SGDP Purchase portal are marked for delete",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Conor Kamperman",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-14T08:40:59.081-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
     "product_prioritized"
    ],
    "theme": "",
@@ -4159,6 +4114,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23345",
+   "name": "PMP - Account Information -missing Office and Patient ID After PMP Plan Purchase",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-22T07:46:27.659-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23078",
    "name": "PMP-Stage-Add Invalid CC should display proper validation message instead of general error message",
    "pod": "LL",
@@ -4196,6 +4172,30 @@
    "created": "2026-09-14T08:10:51.336-0700",
    "resolved": "",
    "due": "2026-09-23",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23348",
+   "name": "STAGE - Inability to save a c/c to a/r - BLOCKING the load for the tokens scenario set up",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Conor Kamperman",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-22T08:28:50.943-0700",
+   "resolved": "",
+   "due": "",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -23840,7 +23840,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-23351",
+   "name": "ACH - Broken - Incorrect Plan End Date Displayed in CSP (annual plan purchased today expiring next month)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Sep 21–27",
