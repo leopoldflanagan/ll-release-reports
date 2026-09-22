@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T20:30:22+00:00",
+ "generated_at": "2026-09-22T20:40:49+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -23785,27 +23785,6 @@
    "due": "",
    "labels": [],
    "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18438",
-   "name": "SGDP - Purchase Portal displays Kids Plans instead of SGDP plans",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-06-23T14:31:30.542-0700",
-   "resolved": "2026-06-24T13:32:39.196-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
