@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T17:45:24+00:00",
+ "generated_at": "2026-09-22T17:49:37+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -2564,7 +2564,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
    "who": "Vasyl Skochko",
    "reporter": "Hazel Loya",
@@ -2660,7 +2660,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
    "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
@@ -3541,8 +3541,8 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
    "who": "Conor Kamperman",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
@@ -4065,6 +4065,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-19701",
+   "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-07-16T07:34:57.058-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-18564",
    "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
    "pod": "LL",
@@ -4389,30 +4413,6 @@
    "theme": "LL-MVP",
    "triage": "",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19701",
-   "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-07-16T07:34:57.058-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
