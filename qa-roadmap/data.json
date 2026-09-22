@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T21:49:59+00:00",
+ "generated_at": "2026-09-22T22:00:28+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -23772,6 +23772,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23362",
+   "name": "Auto renewal shows a 422 error when enabling it after manual renewal",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  },
   {
    "key": "PLANS-23355",
    "name": "Add Member Purchase button enabled without payment selected",
