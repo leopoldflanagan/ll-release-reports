@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T16:30:24+00:00",
+ "generated_at": "2026-09-22T16:40:12+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -177,7 +177,7 @@
    "key": "PLANS-18018",
    "name": "Define Refund Window Timeframes",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-25",
    "fv": "R9.9",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": null
@@ -809,7 +809,7 @@
    "key": "PLANS-18018",
    "name": "Define Refund Window Timeframes",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-25",
    "fv": "R9.9",
    "who": "Shchekochykhin Vladyslav",
    "tshirt": null,
@@ -1474,7 +1474,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": null,
+   "ted": "2026-09-25",
    "who": "Shchekochykhin Vladyslav",
    "theme": "ACH-Fast Follows"
   },
@@ -4207,30 +4207,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23248",
-   "name": "PLANS-23248: PRODUCTION - DCA Corporate office is showing as an option in plan purchase",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.7.7",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-18T14:17:01.026-0700",
-   "resolved": "",
-   "due": "2026-09-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23231",
    "name": "PMP-Stage-While purchasing plan, auto-renew checkbox is checked but Payment method not assigned for auto-renewal and Auto-renewal toggle is OFF",
    "pod": "LL",
@@ -4617,6 +4593,30 @@
    "due": "",
    "labels": [],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23248",
+   "name": "PLANS-23248: PRODUCTION - DCA Corporate office is showing as an option in plan purchase",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.7.7",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-18T14:17:01.026-0700",
+   "resolved": "",
+   "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
