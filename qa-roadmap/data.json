@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T18:15:28+00:00",
+ "generated_at": "2026-09-22T18:19:56+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -23820,13 +23820,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23353",
-   "name": "Add member - multiple payments method are shown",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Hazel Loya"
-  },
   {
    "key": "PLANS-23351",
    "name": "ACH - Broken - Incorrect Plan End Date Displayed in CSP (annual plan purchased today expiring next month)",
