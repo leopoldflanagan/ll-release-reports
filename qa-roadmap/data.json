@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T06:00:29+00:00",
+ "generated_at": "2026-09-22T06:15:23+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -23711,7 +23711,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-23311",
+   "name": "PMP \\ Age restriction is not",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  }
+ ],
  "weeks": [
   {
    "label": "Sep 21–27",
