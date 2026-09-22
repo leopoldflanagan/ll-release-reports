@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T11:30:22+00:00",
+ "generated_at": "2026-09-22T11:45:24+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -114,7 +114,7 @@
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "status": "In Development",
-   "ted": "2026-09-17",
+   "ted": "2026-09-24",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null
@@ -699,7 +699,7 @@
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "status": "In Development",
-   "ted": "2026-09-17",
+   "ted": "2026-09-24",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null,
@@ -1364,7 +1364,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": "2026-09-17",
+   "ted": "2026-09-24",
    "who": "Mykyta Moroz",
    "theme": "LL-Fast Follows"
   },
