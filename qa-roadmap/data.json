@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T18:30:24+00:00",
+ "generated_at": "2026-09-22T18:41:54+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -4300,30 +4300,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22514",
-   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "David Jones",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-04T13:11:18.188-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22024",
    "name": "Dashboard - Refunding a plan incorrectly increases the Goal Reached (%) value on the Dashboard.",
    "pod": "PLANS",
@@ -4806,6 +4782,30 @@
    "due": "",
    "labels": [
     "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22514",
+   "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-04T13:11:18.188-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
     "product_prioritized"
    ],
    "theme": "",
@@ -23820,6 +23820,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23355",
+   "name": "Add Member Purchase button enabled without payment selected",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  },
   {
    "key": "PLANS-23351",
    "name": "ACH - Broken - Incorrect Plan End Date Displayed in CSP (annual plan purchased today expiring next month)",
