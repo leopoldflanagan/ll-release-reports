@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T13:49:37+00:00",
+ "generated_at": "2026-09-22T14:00:28+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -1749,24 +1749,42 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21505",
-   "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
+   "key": "PLANS-23341",
+   "name": "ACH/CC - Receipt PDF - Incorrect Total Amount Displayed in Payment Receipt",
    "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
    "sprint": "LL-Sprint 22-26",
-   "who": "Petro Yarish",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T11:51:13.130-0700",
+   "prio": "3: Standard",
+   "created": "2026-09-22T06:55:25.213-0700",
    "resolved": "",
-   "due": "2026-09-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23338",
+   "name": "ACH - Email Receipt Does Not Match PMP Transaction Receipt Details (missing details)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-22T06:44:42.363-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -5018,6 +5036,30 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-21505",
+   "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T11:51:13.130-0700",
+   "resolved": "",
+   "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-20925",
@@ -23754,13 +23796,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23338",
-   "name": "ACH - Receipt PDF - Email Receipt Displays Incorrect Details Compared to PMP Transaction Receipt",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-23316",
    "name": "PMP \\ Minimum Age restriction is not working as expected",
