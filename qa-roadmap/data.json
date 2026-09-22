@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T19:00:26+00:00",
+ "generated_at": "2026-09-22T19:12:56+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -1817,6 +1817,27 @@
    "theme": "ACH",
    "triage": "",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23351",
+   "name": "ACH - Broken - Incorrect Plan End Date Displayed in CSP (annual plan purchased today expiring next month)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-22T10:49:36.278-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -23781,13 +23802,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Hazel Loya"
-  },
-  {
-   "key": "PLANS-23351",
-   "name": "ACH - Broken - Incorrect Plan End Date Displayed in CSP (annual plan purchased today expiring next month)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
