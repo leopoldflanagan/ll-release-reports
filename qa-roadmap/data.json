@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T15:29:01+00:00",
+ "generated_at": "2026-09-22T15:30:24+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -3551,6 +3551,30 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23348",
+   "name": "STAGE - Inability to save a c/c to a/r - BLOCKING the load for the tokens scenario set up",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-22T08:28:50.943-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
