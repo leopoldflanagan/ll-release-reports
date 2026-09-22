@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T20:49:51+00:00",
+ "generated_at": "2026-09-22T21:00:26+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -392,7 +392,7 @@
    "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard",
    "status": "Epics & Stories",
    "ted": "2026-11-04",
-   "fv": "R9.9",
+   "fv": null,
    "who": "Lloyd Tokerud",
    "tshirt": "Moderate",
    "pod": "EDW",
@@ -1055,7 +1055,7 @@
    "pod": "EDW",
    "proj": "PLANS",
    "status": "Epics & Stories",
-   "fv": "R9.9",
+   "fv": null,
    "ted": "2026-11-04",
    "who": "Lloyd Tokerud",
    "theme": "LL-Fast Follows"
@@ -23764,27 +23764,6 @@
    "due": "",
    "labels": [],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-17999",
-   "name": "Stage - BFF- Member BFF does not return memberPortalTerms in /v3/members/actions/current",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-06-12T12:53:59.467-0700",
-   "resolved": "2026-06-24T13:54:55.900-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
