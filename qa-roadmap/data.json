@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T14:00:28+00:00",
+ "generated_at": "2026-09-22T14:15:24+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -1536,6 +1536,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-23316",
+   "name": "PMP \\ Minimum Age restriction is not working as expected",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-21T23:56:14.417-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23265",
    "name": "PRODUCTION: Savings Calculations for DCA",
    "pod": "PLANS",
@@ -1754,15 +1778,18 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-09-22T06:55:25.213-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -1776,14 +1803,17 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 22-26",
+   "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-22T06:44:42.363-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -1796,15 +1826,18 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-09-22T06:34:43.863-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -1833,20 +1866,47 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23311",
+   "name": "PMP \\ Maximum Age restriction is not showing expected error message",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-21T23:00:37.424-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23286",
    "name": "Plan Details PDF - Member Portal URL Is Displayed as Plain Text Instead of Clickable Hyperlink(however its clickable)",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 22-26",
+   "sprint": null,
    "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-21T10:42:14.577-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
@@ -1867,7 +1927,10 @@
    "created": "2026-09-21T10:19:25.286-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": true,
@@ -4123,30 +4186,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22966",
-   "name": "Unable to Add Dependent to Plan",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.7.7",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "David Jones",
-   "reporter": "Vera King",
-   "prio": "1: Urgent",
-   "created": "2026-09-14T14:28:51.206-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22909",
    "name": "Member Portal \\ Add Plan flow throws 400 code error at checkout screen",
    "pod": "LL",
@@ -4237,6 +4276,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22966",
+   "name": "Unable to Add Dependent to Plan",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.7.7",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Vera King",
+   "prio": "1: Urgent",
+   "created": "2026-09-14T14:28:51.206-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23795,22 +23858,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-23316",
-   "name": "PMP \\ Minimum Age restriction is not working as expected",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-23311",
-   "name": "PMP \\ Maximum Age restriction is not showing expected error message",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Sep 21–27",
