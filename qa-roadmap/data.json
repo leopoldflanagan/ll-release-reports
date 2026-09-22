@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T22:13:29+00:00",
+ "generated_at": "2026-09-22T22:15:20+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -4017,8 +4017,8 @@
    "key": "PLANS-19701",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
    "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
+   "status": "In Development",
+   "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "Plans-Sprint 24-26",
    "who": "Unassigned",
@@ -5137,30 +5137,6 @@
    "linkedLP": false
   },
   {
-   "key": "PAY-4497",
-   "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "PAY-SPRINT 22",
-   "who": "Stephen Perry",
-   "reporter": "Andy Holtsclaw",
-   "prio": "2: Important",
-   "created": "2026-08-31T06:57:29.886-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22486",
    "name": "Plan details - custom logos are missing",
    "pod": "LL",
@@ -5588,6 +5564,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PAY-4497",
+   "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "PAY-SPRINT 22",
+   "who": "Stephen Perry",
+   "reporter": "Andy Holtsclaw",
+   "prio": "2: Important",
+   "created": "2026-08-31T06:57:29.886-0700",
+   "resolved": "2026-09-22T15:14:43.261-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22514",
    "name": "PDS Team Plan - View Benefits Link on Member Portal broken",
@@ -23772,6 +23772,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23422",
+   "name": "preprod -",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-23362",
    "name": "Auto renewal shows a 422 error when enabling it after manual renewal",
