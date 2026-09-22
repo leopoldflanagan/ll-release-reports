@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T17:00:27+00:00",
+ "generated_at": "2026-09-22T17:13:31+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -28,15 +28,6 @@
    "fv": "R9.9",
    "who": "Chris Rubio",
    "tshirt": "Small"
-  },
-  {
-   "key": "PLANS-19316",
-   "name": "Manage Preferences - CSP & WF Pay",
-   "status": "Epics & Stories",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Chris Rubio",
-   "tshirt": null
   },
   {
    "key": "PLANS-17586",
@@ -68,7 +59,7 @@
   {
    "key": "PLANS-17582",
    "name": "Bulk Sellable Acceptable",
-   "status": "Requirements",
+   "status": "Idea",
    "ted": null,
    "fv": "R9.9",
    "who": "Dmytro Tymofiienko",
@@ -82,6 +73,15 @@
    "fv": null,
    "who": "Dmytro Tymofiienko",
    "tshirt": "Large"
+  },
+  {
+   "key": "PLANS-19316",
+   "name": "Manage Preferences - CSP & WF Pay",
+   "status": "Epics & Stories",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Ivan Yarymovych",
+   "tshirt": null
   },
   {
    "key": "PLANS-18481",
@@ -150,7 +150,7 @@
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "status": "In Development",
-   "ted": "2026-09-24",
+   "ted": "2026-09-25",
    "fv": "R9.9",
    "who": "Petro Yarish",
    "tshirt": "Small"
@@ -313,7 +313,7 @@
   {
    "key": "PLANS-17582",
    "name": "Bulk Sellable Acceptable",
-   "status": "Requirements",
+   "status": "Idea",
    "ted": null,
    "fv": "R9.9",
    "who": "Dmytro Tymofiienko",
@@ -413,7 +413,7 @@
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "status": "In Development",
-   "ted": "2026-09-24",
+   "ted": "2026-09-25",
    "fv": "R9.9",
    "who": "Petro Yarish",
    "tshirt": "Small",
@@ -481,7 +481,7 @@
    "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.9",
-   "who": "Chris Rubio",
+   "who": "Ivan Yarymovych",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -977,7 +977,7 @@
    "name": "Bulk Sellable Acceptable",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Requirements",
+   "status": "Idea",
    "fv": "R9.9",
    "ted": null,
    "who": "Dmytro Tymofiienko",
@@ -1078,7 +1078,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-09-24",
+   "ted": "2026-09-25",
    "who": "Petro Yarish",
    "theme": "LL-Fast Follows"
   },
@@ -1145,7 +1145,7 @@
    "status": "Epics & Stories",
    "fv": "R9.9",
    "ted": null,
-   "who": "Chris Rubio",
+   "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1692,7 +1692,7 @@
    "prio": "2: Important",
    "created": "2026-09-11T06:49:34.689-0700",
    "resolved": "",
-   "due": "2026-09-22",
+   "due": "2026-09-23",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4183,30 +4183,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23231",
-   "name": "PMP-Stage-While purchasing plan, auto-renew checkbox is checked but Payment method not assigned for auto-renewal and Auto-renewal toggle is OFF",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-09-18T10:06:05.884-0700",
-   "resolved": "",
-   "due": "2026-09-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21725",
    "name": "DCA - Plan expired out in PMP before expired",
    "pod": "LL",
@@ -4638,6 +4614,30 @@
    "due": "2026-09-23",
    "labels": [
     "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23231",
+   "name": "PMP-Stage-While purchasing plan, auto-renew checkbox is checked but Payment method not assigned for auto-renewal and Auto-renewal toggle is OFF",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-09-18T10:06:05.884-0700",
+   "resolved": "",
+   "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
