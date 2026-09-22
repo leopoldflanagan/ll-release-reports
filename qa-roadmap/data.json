@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T13:45:21+00:00",
+ "generated_at": "2026-09-22T13:49:37+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -23756,7 +23756,7 @@
  "nopod": [
   {
    "key": "PLANS-23338",
-   "name": "ACH - Transaction receipt missing content",
+   "name": "ACH - Receipt PDF - Email Receipt Displays Incorrect Details Compared to PMP Transaction Receipt",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
