@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T16:49:33+00:00",
+ "generated_at": "2026-09-22T17:00:27+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -68,7 +68,7 @@
   {
    "key": "PLANS-17582",
    "name": "Bulk Sellable Acceptable",
-   "status": "Ready for Development",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
    "who": "Dmytro Tymofiienko",
@@ -313,7 +313,7 @@
   {
    "key": "PLANS-17582",
    "name": "Bulk Sellable Acceptable",
-   "status": "Ready for Development",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
    "who": "Dmytro Tymofiienko",
@@ -511,8 +511,8 @@
   {
    "key": "PLANS-19644",
    "name": "PMP: Tying multiple Patient ID's to one WF ID",
-   "status": "In Development",
-   "ted": "2026-09-25",
+   "status": "In Testing",
+   "ted": "2026-09-28",
    "fv": "R9.8",
    "who": "Daryl Myrick",
    "tshirt": "Small",
@@ -977,7 +977,7 @@
    "name": "Bulk Sellable Acceptable",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Ready for Development",
+   "status": "Requirements",
    "fv": "R9.9",
    "ted": null,
    "who": "Dmytro Tymofiienko",
@@ -1175,9 +1175,9 @@
    "name": "PMP: Tying multiple Patient ID's to one WF ID",
    "pod": "PLANS",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
-   "ted": "2026-09-25",
+   "ted": "2026-09-28",
    "who": "Daryl Myrick",
    "theme": "LL-Fast Follows"
   },
@@ -4183,30 +4183,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23335",
-   "name": "Auto renew - Unenroll from email - getting a 401 error.",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-22T06:34:43.863-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23231",
    "name": "PMP-Stage-While purchasing plan, auto-renew checkbox is checked but Payment method not assigned for auto-renewal and Auto-renewal toggle is OFF",
    "pod": "LL",
@@ -4592,6 +4568,30 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23335",
+   "name": "Auto renew - Unenroll from email - getting a 401 error.",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-22T06:34:43.863-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
