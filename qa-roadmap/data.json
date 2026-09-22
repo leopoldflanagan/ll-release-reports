@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T13:00:34+00:00",
+ "generated_at": "2026-09-22T13:15:18+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -176,7 +176,7 @@
   {
    "key": "PLANS-18018",
    "name": "Define Refund Window Timeframes",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.9",
    "who": "Shchekochykhin Vladyslav",
@@ -808,7 +808,7 @@
   {
    "key": "PLANS-18018",
    "name": "Define Refund Window Timeframes",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.9",
    "who": "Shchekochykhin Vladyslav",
@@ -1472,7 +1472,7 @@
    "name": "Define Refund Window Timeframes",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "Epics & Stories",
+   "status": "In Development",
    "fv": "R9.9",
    "ted": null,
    "who": "Shchekochykhin Vladyslav",
