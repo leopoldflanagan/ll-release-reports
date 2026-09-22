@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T06:15:23+00:00",
+ "generated_at": "2026-09-22T06:30:23+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -1828,7 +1828,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-21T10:42:14.577-0700",
@@ -1849,7 +1849,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-21T10:19:25.286-0700",
@@ -1870,7 +1870,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-21T09:15:52.988-0700",
@@ -23714,7 +23714,7 @@
  "nopod": [
   {
    "key": "PLANS-23311",
-   "name": "PMP \\ Age restriction is not",
+   "name": "PMP \\ Max Age restriction is not showing expected error message",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
