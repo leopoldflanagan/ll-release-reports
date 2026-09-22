@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T14:45:23+00:00",
+ "generated_at": "2026-09-22T14:51:28+00:00",
  "today": "2026-09-22",
  "features": [
   {
@@ -677,9 +677,9 @@
    "key": "PLANS-22088",
    "name": "Promo codes enhancement -Apply GIFTCORE at autorenewal for migrated DCA customers",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-09-25",
    "fv": "R9.8",
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
@@ -1342,8 +1342,8 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": null,
-   "who": "Unassigned",
+   "ted": "2026-09-25",
+   "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1823,12 +1823,12 @@
   {
    "key": "PLANS-23335",
    "name": "Auto renew - Unenroll from email - getting a 401 error.",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-22T06:34:43.863-0700",
@@ -23839,10 +23839,17 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-23345",
+   "name": "PMP - missing office and patient id",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-23344",
    "name": "delete",
    "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
   }
  ],
