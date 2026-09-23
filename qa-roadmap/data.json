@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T15:00:30+00:00",
+ "generated_at": "2026-09-23T15:14:53+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -1770,27 +1770,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23423",
-   "name": "PMP-Stage-ADHOC Plan Purchased in PMP-Payment Method not showing for another member purchased together with same account",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-09-22T15:17:15.042-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23422",
    "name": "QA retest STAGE/Preprod - Plan Transaction status not updated to 'Returned — refund unavailable' for decline purchases.",
    "pod": "LL",
@@ -2001,30 +1980,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-23258",
-   "name": "Renewability of a plan",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-21T08:27:36.587-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23199",
    "name": "ACH Refund - Unable to Process Remaining Refund After Partial Refund Decline (409 Error)",
    "pod": "LL",
@@ -2079,8 +2034,8 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-16T14:16:23.089-0700",
@@ -4225,6 +4180,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23258",
+   "name": "Renewability of a plan",
+   "pod": "PLANS",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-21T08:27:36.587-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-22916",
    "name": "One Smile & Essential Smile - Benefit detals - UI not proper (hero image with adobe water mark, Alignment)",
    "pod": "LL",
@@ -4476,6 +4455,27 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23423",
+   "name": "testing-PMP-Stage-ADHOC Plan Purchased in PMP-Payment Method not showing for another member purchased together with same account",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Vinita Thankur",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-22T15:17:15.042-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23348",
    "name": "STAGE - Inability to save a c/c to a/r - BLOCKING the load for the tokens scenario set up",
    "pod": "PLANS",
@@ -4535,30 +4535,6 @@
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-09-21T23:56:14.417-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23311",
-   "name": "PMP \\ Maximum Age restriction is not showing expected error message",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-21T23:00:37.424-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -5642,6 +5618,30 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23311",
+   "name": "PMP \\ Maximum Age restriction is not showing expected error message",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-21T23:00:37.424-0700",
+   "resolved": "2026-09-23T08:10:40.142-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-11098",
    "name": "PDS - Accounting process - assigning a practice to users is missing some do to a date criteria",
