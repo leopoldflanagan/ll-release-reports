@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T16:00:30+00:00",
+ "generated_at": "2026-09-23T16:15:21+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -1632,20 +1632,23 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23080",
-   "name": "Essential Smile custom Portal-Stage- No Plans are displaying",
-   "pod": "PLANS",
+   "key": "PLANS-23089",
+   "name": "PLANS-23089: PRODUCTION: Error handling in CSP",
+   "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.9",
+   "fv": "R9.8",
    "sprint": "Plans-Sprint 22-26",
    "who": "Daryl Myrick",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-09-16T13:08:51.012-0700",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-16T14:16:23.089-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -2019,30 +2022,6 @@
    "due": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23089",
-   "name": "PLANS-23089: PRODUCTION: Error handling in CSP",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-16T14:16:23.089-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4590,6 +4569,27 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23080",
+   "name": "Essential Smile custom Portal-Stage- No Plans are displaying",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-16T13:08:51.012-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
