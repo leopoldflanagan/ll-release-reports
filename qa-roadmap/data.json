@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T13:00:29+00:00",
+ "generated_at": "2026-09-23T13:15:08+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -1599,30 +1599,6 @@
    "due": "",
    "labels": [
     "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22144",
-   "name": "One Smile – Only one plan is displayed on the Custom Website",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-31T12:37:06.861-0700",
-   "resolved": "",
-   "due": "2026-09-24",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4180,30 +4156,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23078",
-   "name": "PMP-Stage-Add Invalid CC should display proper validation message instead of general error message",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-09-16T12:51:03.190-0700",
-   "resolved": "",
-   "due": "2026-09-24",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22846",
    "name": "Member portal - ADD PLAN - Additional Member Discount Incorrectly Applied When Adding a New Primary Plan",
    "pod": "LL",
@@ -4692,6 +4644,30 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23078",
+   "name": "PMP-Stage-Add Invalid CC should display proper validation message instead of general error message",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-09-16T12:51:03.190-0700",
+   "resolved": "",
+   "due": "2026-09-24",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23070",
    "name": "Payment Wallet-PMP-Stage-Not getting Auth form while trying to ACH as add payment method for Auto-renewal for Single plan member",
    "pod": "LL",
@@ -4944,6 +4920,30 @@
    "due": "2026-09-16",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22144",
+   "name": "One Smile – Only one plan is displayed on the Custom Website",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-31T12:37:06.861-0700",
+   "resolved": "",
+   "due": "2026-09-24",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
