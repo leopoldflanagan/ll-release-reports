@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T12:47:27+00:00",
+ "generated_at": "2026-09-23T13:00:29+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -1611,7 +1611,7 @@
    "key": "PLANS-22144",
    "name": "One Smile – Only one plan is displayed on the Custom Website",
    "pod": "PLANS",
-   "status": "In Development",
+   "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
