@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T10:30:24+00:00",
+ "generated_at": "2026-09-23T10:45:24+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -5528,27 +5528,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-11098",
-   "name": "PDS - Accounting process - assigning a practice to users is missing some do to a date criteria",
-   "pod": "PLANS",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Daryl Myrick",
-   "reporter": "Michael McNulty",
-   "prio": "3: Standard",
-   "created": "2025-12-10T13:07:01.668-0800",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-5372",
    "name": "MPV3 | broken| Benefit summaries are not showing for Ad-Hoc Plans (Crosby & Mt Pleasant Discount Plan)",
    "pod": "PLANS",
@@ -5639,6 +5618,27 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-11098",
+   "name": "PDS - Accounting process - assigning a practice to users is missing some do to a date criteria",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Daryl Myrick",
+   "reporter": "Michael McNulty",
+   "prio": "3: Standard",
+   "created": "2025-12-10T13:07:01.668-0800",
+   "resolved": "2026-09-23T03:40:35.647-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-19701",
    "name": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong last 4 digits for cc details",
