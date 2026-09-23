@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T22:00:29+00:00",
+ "generated_at": "2026-09-23T22:14:21+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -1536,6 +1536,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-23453",
+   "name": "PMP - Account Information - Welcome Letter Resend Email Displays Unresolved Placeholder Values",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-23T14:19:23.273-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23436",
    "name": "PMP-Stage-Renew expired plan with existing ACH account, not displaying payment method attached for Auto-renewal in Overview Plan summary and in Member Payment tab showing -Not attached to Plan beside ACH account",
    "pod": "PLANS",
@@ -1770,45 +1794,21 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23453",
-   "name": "PMP - Account Information - Welcome Letter Resend Email Displays Unresolved Placeholder Values",
-   "pod": "PLANS",
+   "key": "PLANS-23455",
+   "name": "PMP - unexpected \"Plans with No Payment Method Assigned\" Message Displayed After Disabling Auto Renew",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
    "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-09-23T14:19:23.273-0700",
+   "created": "2026-09-23T14:38:29.592-0700",
    "resolved": "",
    "due": "",
    "labels": [],
    "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23449",
-   "name": "PMP/Waivefam/Error is displayed on ADD PLAN for a member with a tiered plan with max members",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-09-23T13:45:43.225-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3524,6 +3524,30 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23449",
+   "name": "PMP/Waivefam/Error is displayed on ADD PLAN for a member with a tiered plan with max members",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-09-23T13:45:43.225-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23876,15 +23900,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-23455",
-   "name": "PMP - when turn off auto renewal unfaimilar text section displayed in member payment types page",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Sep 21–27",
