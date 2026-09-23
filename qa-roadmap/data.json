@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T18:20:12+00:00",
+ "generated_at": "2026-09-23T18:30:26+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -23818,27 +23818,6 @@
    "prio": "1: Urgent",
    "created": "2026-06-22T13:36:15.834-0700",
    "resolved": "2026-06-25T13:18:12.095-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18527",
-   "name": "fix(dev-cspapi): update storage account names and KV secret refs to stwfdev1/StWellfit",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": null,
-   "who": "Aleff Morais",
-   "reporter": "Aleff Morais",
-   "prio": "3: Standard",
-   "created": "2026-06-25T11:22:35.888-0700",
-   "resolved": "2026-06-25T11:25:13.879-0700",
    "due": "",
    "labels": [],
    "theme": "",
