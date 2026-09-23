@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T21:27:22+00:00",
+ "generated_at": "2026-09-23T21:30:23+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -1756,7 +1756,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "Plans-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Daryl Myrick",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-23T14:19:23.273-0700",
@@ -1764,6 +1764,27 @@
    "due": "",
    "labels": [],
    "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23449",
+   "name": "PMP/Waivefam/Error is displayed on ADD PLAN for a member with a tiered plan with max members",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-09-23T13:45:43.225-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -1798,7 +1819,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "David Jones",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-09-23T10:48:10.110-0700",
@@ -23849,15 +23870,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-23449",
-   "name": "PMP/Waivefam/Error is displayed on ADD PLAN for a member with a tiered plan with max members",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Sep 21–27",
