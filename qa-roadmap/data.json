@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T19:38:39+00:00",
+ "generated_at": "2026-09-23T19:45:22+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -5139,29 +5139,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-14429",
-   "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-04-16T08:03:50.116-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22486",
    "name": "Plan details - custom logos are missing",
    "pod": "LL",
@@ -5592,6 +5569,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-14429",
+   "name": "CSP| Cancel plan from a dependan cancels plan for primary member",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-04-16T08:03:50.116-0700",
+   "resolved": "2026-09-23T12:43:58.366-0700",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20133",
    "name": "Stage - CSP - Promo Code - Unable to add the secondary plan",
