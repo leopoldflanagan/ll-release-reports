@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T09:15:23+00:00",
+ "generated_at": "2026-09-23T09:30:26+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -1560,21 +1560,21 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23186",
-   "name": "PRODUCTION - Manage Patient/Overview - different status",
+   "key": "PLANS-23143",
+   "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": null,
-   "who": "Vasyl Skochko",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
    "reporter": "Camille Knight",
    "prio": "2: Important",
-   "created": "2026-09-17T13:41:08.486-0700",
+   "created": "2026-09-16T15:42:29.884-0700",
    "resolved": "",
    "due": "2026-09-24",
    "labels": [
-    "group1_migration",
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4132,21 +4132,21 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23143",
-   "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
+   "key": "PLANS-23186",
+   "name": "PRODUCTION - Manage Patient/Overview - different status",
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Rostyslav Masniuk",
+   "sprint": null,
+   "who": "Vasyl Skochko",
    "reporter": "Camille Knight",
    "prio": "2: Important",
-   "created": "2026-09-16T15:42:29.884-0700",
+   "created": "2026-09-17T13:41:08.486-0700",
    "resolved": "",
    "due": "2026-09-24",
    "labels": [
-    "group2_migration",
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
