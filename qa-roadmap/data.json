@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T14:50:58+00:00",
+ "generated_at": "2026-09-23T15:00:30+00:00",
  "today": "2026-09-23",
  "features": [
   {
@@ -1536,6 +1536,30 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-23362",
+   "name": "Auto renewal shows a 422 error when enabling it after manual renewal",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-22T14:56:47.462-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23355",
    "name": "Add Member Purchase button enabled without payment selected",
    "pod": "LL",
@@ -1601,6 +1625,27 @@
     "group1_migration",
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23080",
+   "name": "Essential Smile custom Portal-Stage- No Plans are displaying",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-16T13:08:51.012-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
    "theme": "",
    "triage": "",
    "lpEpic": false,
@@ -4174,27 +4219,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23080",
-   "name": "Essential Smile custom Portal-Stage- No Plans are displaying",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-09-16T13:08:51.012-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -23846,15 +23870,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-23362",
-   "name": "Auto renewal shows a 422 error when enabling it after manual renewal",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Hazel Loya"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Sep 21–27",
