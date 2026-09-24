@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T04:45:22+00:00",
+ "generated_at": "2026-09-24T05:00:27+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1900,7 +1900,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": "LL-Sprint 22-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1913,8 +1913,8 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-23338",
@@ -1949,7 +1949,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": "LL-Sprint 22-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1962,8 +1962,8 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-23286",
@@ -2102,7 +2102,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": "LL-Sprint 22-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2118,8 +2118,8 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-23008",
