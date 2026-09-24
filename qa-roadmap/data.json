@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T15:45:21+00:00",
+ "generated_at": "2026-09-24T15:49:20+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -25968,8 +25968,8 @@
   {
    "key": "PLANS-23473",
    "name": "PMP \\ Auto-renewal toggle remains enabled for members who exceed the configured age restriction",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "Ready for Development",
+   "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
   }
  ],
