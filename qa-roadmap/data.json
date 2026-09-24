@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T05:00:27+00:00",
+ "generated_at": "2026-09-24T05:15:24+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -25909,7 +25909,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-23464",
+   "name": "PMP \\ Missing summary of age restriction failure in addition to the flagged row",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  }
+ ],
  "weeks": [
   {
    "label": "Sep 21–27",
