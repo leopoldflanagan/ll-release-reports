@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T04:00:24+00:00",
+ "generated_at": "2026-09-24T04:10:05+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1604,8 +1604,8 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22604",
-   "parentName": "[2] Joint Legal Language - Present the Joint ACH authorization at add-member checkout",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5518,8 +5518,8 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5810,8 +5810,8 @@
    ],
    "theme": "LL-MVP",
    "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
