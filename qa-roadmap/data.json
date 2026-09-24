@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T18:00:32+00:00",
+ "generated_at": "2026-09-24T18:15:24+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1789,6 +1789,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23511",
+   "name": "ACH - Plan Purchases Display Payment Transaction ID Instead of Processor Transaction ID",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 22-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-24T10:54:21.503-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22538",
+   "parentName": "[1] Logging ACH Refunds — Account History records every ACH money movement",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -25968,13 +25991,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23511",
-   "name": "ACH- For plan purchases payment transaction id is logged instead of processr transaction id",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-23473",
    "name": "PMP \\ Auto-renewal toggle remains enabled for members who exceed the configured age restriction",
