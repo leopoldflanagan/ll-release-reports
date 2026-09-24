@@ -168,6 +168,12 @@ def parse_issue(i, theme=None):
         "labels": f.get("labels") or [],
         "linked_lowprio": linked_lowprio,
         "lp_sprint": lp_sprint,
+        # Parent the bug hangs from. Jira returns key + fields.summary for `parent`;
+        # Epic Link (customfield_10014) is only a key, so the name can come back empty.
+        "parent_key": (parent.get("key")
+                       or (epic_link if isinstance(epic_link, str) else "")
+                       or ""),
+        "parent_name": clean(((parent.get("fields") or {}).get("summary")) or ""),
         "theme": theme or (theme_field.get("value") if isinstance(theme_field, dict) else "") or "",
         "triage": (triage_field.get("value") if isinstance(triage_field, dict) else "") or "",
     }
@@ -247,6 +253,8 @@ def pull_bugs():
                     "reporter": r.get("reporter") or "", "prio": r.get("prio") or "3: Standard",
                     "created": r.get("created") or "", "resolved": "", "due": r.get("due") or "", "labels": r.get("labels") or [],
                     "theme": r.get("theme") or "", "triage": r.get("triage") or "",
+                    "parentKey": r.get("parent_key") or "",
+                    "parentName": r.get("parent_name") or "",
                     "lpEpic": bool(r.get("linked_lowprio")),
                     "lpSprint": bool(r.get("lp_sprint")),
                     "linkedLP": bool(r.get("linked_lowprio") and r.get("lp_sprint"))})
@@ -269,6 +277,8 @@ def pull_closed_bugs(days=90):
                     "created": r.get("created") or "", "resolved": r.get("resolved") or "",
                     "due": r.get("due") or "", "labels": r.get("labels") or [],
                     "theme": r.get("theme") or "", "triage": r.get("triage") or "",
+                    "parentKey": r.get("parent_key") or "",
+                    "parentName": r.get("parent_name") or "",
                     "lpEpic": bool(r.get("linked_lowprio")),
                     "lpSprint": bool(r.get("lp_sprint")),
                     "linkedLP": bool(r.get("linked_lowprio") and r.get("lp_sprint"))})
