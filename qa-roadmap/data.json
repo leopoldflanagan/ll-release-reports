@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T18:30:25+00:00",
+ "generated_at": "2026-09-24T18:42:12+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1536,6 +1536,32 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-23473",
+   "name": "PMP \\ Auto-renewal toggle remains enabled for members who exceed the configured age restriction",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-24T08:13:26.994-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23467",
    "name": "PMP/Renew/Unable to Renew plan in PMP with existing card in Wallet (Error is displayed)",
    "pod": "PLANS",
@@ -1806,7 +1832,10 @@
    "created": "2026-09-24T10:54:21.503-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22538",
@@ -25990,15 +26019,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-23473",
-   "name": "PMP \\ Auto-renewal toggle remains enabled for members who exceed the configured age restriction",
-   "status": "In Development",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Sep 21–27",
