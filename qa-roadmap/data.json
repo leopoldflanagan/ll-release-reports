@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T23:00:25+00:00",
+ "generated_at": "2026-09-24T23:13:34+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -25968,7 +25968,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-23531",
+   "name": "PMP \\ Ineligible plan can be selected and purchased despite configured age restriction",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  }
+ ],
  "weeks": [
   {
    "label": "Sep 21–27",
