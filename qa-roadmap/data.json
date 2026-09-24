@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T11:45:19+00:00",
+ "generated_at": "2026-09-24T12:00:32+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -41,7 +41,7 @@
   {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-24",
    "fv": "R9.8",
    "who": "Dima Shtympel",
@@ -654,7 +654,7 @@
   {
    "key": "PLANS-21974",
    "name": "PDF Enhancements",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-24",
    "fv": "R9.8",
    "who": "Dima Shtympel",
@@ -1318,7 +1318,7 @@
    "name": "PDF Enhancements",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
    "ted": "2026-09-24",
    "who": "Dima Shtympel",
