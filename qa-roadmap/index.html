@@ -10,11 +10,16 @@
     --ink:#0f1f30; --muted:#5a6b7d; --line:#e3e9f0; --bg:#f6f8fb;
     --amber:#E8A317; --red:#D64545; --purple:#7A5FB0;
     --track:#eef2f7; --surface:#ffffff; --surface2:#fafcff; --navy-bg:#123E6B; --shadow:rgba(18,62,107,.05);
+    /* Priority scale — one source of truth for pills, cards and charts */
+    --p1:#B3261E; --p2:#E05C4E; --p3:#E8A317; --p4:#1B5FA8;
+    --p1bg:#fbe0de; --p2bg:#fde9e6; --p3bg:#fdf1da; --p4bg:#e7f0fb;
   }
   :root[data-theme="dark"]{
     --blue:#5aa0ec; --navy:#a9c4e8; --green:#5bd06a; --ink:#e7edf4; --muted:#93a2b3;
     --line:#2b3a4d; --bg:#0f1621; --amber:#f0b64a; --red:#e2686a; --purple:#b49ae0;
     --track:#243244; --surface:#18222f; --surface2:#1e2a39; --navy-bg:#22344a; --shadow:rgba(0,0,0,.45);
+    --p1:#F2645A; --p2:#E8897F; --p3:#F0B64A; --p4:#5AA0EC;
+    --p1bg:#3a2220; --p2bg:#33231f; --p3bg:#332a1a; --p4bg:#1c2a3d;
   }
   .themebtn{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:16px;width:38px;height:38px;border-radius:10px;cursor:pointer;line-height:1}
   .themebtn:hover{border-color:var(--blue)}
@@ -243,10 +248,12 @@
   #bugpriofilter .tbtn:hover{border-color:var(--purple);color:var(--purple);background:#f5f1fb}
   #bugpriofilter .tbtn.active:hover{color:#fff}
   .prio{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 8px;border-radius:20px;letter-spacing:.02em;white-space:nowrap}
-  .prio.p1{background:#fbe0e0;color:var(--red)}
-  .prio.p2{background:#fde8d6;color:var(--amber)}
-  .prio.p3{background:#e7f0fb;color:var(--blue)}
-  .prio.p4{background:var(--track);color:var(--muted)}
+  .prio.p1{background:var(--p1bg);color:var(--p1)}
+  .prio.p2{background:var(--p2bg);color:var(--p2)}
+  .prio.p3{background:var(--p3bg);color:var(--p3)}
+  .prio.p4{background:var(--p4bg);color:var(--p4)}
+  .pico{display:inline-block;vertical-align:-2px;margin-right:3px}
+  #bugcards .sctitle .pico{vertical-align:-3px;margin-right:5px}
   .prio.p5,.prio.px{background:var(--track);color:var(--muted)}
   /* migration-group label pill + P3/P4 review flag icons */
   .gtag{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;background:#eaf7ee;color:var(--green);margin-left:6px;white-space:nowrap}
@@ -267,6 +274,11 @@
   .exportbtn:hover{background:#f3faef}
   .proj{display:inline-block;padding:2px 7px;border-radius:4px;background:var(--track);color:var(--navy);font-size:11px;font-weight:700}
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:16px}
+/* Bug cards read as two deliberate rows: total + the four priorities, then the five states. */
+#bugcards{grid-template-columns:repeat(5,1fr)}
+@media(max-width:1180px){#bugcards{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){#bugcards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:430px){#bugcards{grid-template-columns:1fr}}
   .sc{padding:16px 18px}
   .sctitle{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
   .bignum{font-size:38px;font-weight:800;color:var(--blue);line-height:1}
@@ -279,6 +291,9 @@
   .bugcolhead{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:2px solid var(--line);margin-bottom:8px}
   .bugcolhead.near{border-bottom-color:var(--green)}
   .bugcolhead.back{border-bottom-color:#cbd5e1}
+  /* Grey = parked, amber = waiting on a decision, blue = somebody is working it, green = under test */
+  .bugcolhead.rfd{border-bottom-color:#5f6c7a}
+  .bugcolhead.review{border-bottom-color:var(--amber)}
   .bugcount{font-size:12px;font-weight:700;color:var(--navy);background:var(--track);border-radius:10px;padding:1px 9px}
   .bugtbl{margin-top:0;table-layout:fixed}
   .bugtbl td{overflow-wrap:normal;word-break:normal}
@@ -298,6 +313,7 @@
   .toolbar{overflow:visible}            /* let dropdown menus escape the card */
   .filterfoot{border-bottom-left-radius:14px;border-bottom-right-radius:14px}
   .dropbar{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+  .xref td.gap{background:var(--surface2)}
   .dropwrap{position:relative}
   .dropbtn{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 12px;border-radius:20px;font-size:12.5px;font-weight:600;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:6px}
   .dropbtn:hover{border-color:var(--blue)}
@@ -443,6 +459,8 @@
   .colstatus{font-size:13px;font-weight:800;color:#fff;background:var(--navy);padding:4px 12px;border-radius:6px;letter-spacing:.01em}
   .bugcolhead.near .colstatus{background:var(--green)}
   .bugcolhead.back .colstatus{background:#7c8a99}
+.bugcolhead.rfd .colstatus{background:#5f6c7a}
+.bugcolhead.review .colstatus{background:#B8801A}
   .colstatus.hold{background:var(--red)}
   /* On Hold status filter chip */
   .holdchip{margin-left:14px;border-color:var(--red)!important;color:var(--red)!important}
@@ -981,7 +999,7 @@ function fmtDate(d){ return d?new Date(d).toLocaleDateString('en-US',{month:'sho
 // ---- Active Features tab (all pods, grouped by Theme) ----
 const allbody=document.getElementById("allbody");
 // multi-select filter state: empty Set = "All". Within a group = OR; across groups = AND.
-let fThemes=new Set(), fPods=new Set(), fReleases=new Set(), fStatuses=new Set();
+let fThemes=new Set(), fPods=new Set(), fReleases=new Set(), fStatuses=new Set(), fMaint=new Set();
 let fCard="all";
 let fSortKey="status", fSortDir="desc";   // default: workflow (status) closest-to-Closed on top
 const FCARD_PRED = {
@@ -1028,12 +1046,36 @@ function wireSearch(boxId, inputId, clearId, countId, setter, rerender, countFn)
   input.addEventListener("keydown", e=>{ if(e.key==="Escape"){ input.value=""; apply(); } });
   if(clear) clear.addEventListener("click", ()=>{ input.value=""; apply(); input.focus(); });
 }
+/* Maintenance checks — one entry per FIELD somebody would go and fix in Jira,
+   not per detection rule. Each test carries its own workflow scope, so the options
+   stay composable with every other filter. Valid fix versions come from RELEASES
+   (read lazily: RELEASES is declared further down this same script). */
+const fvKnown=()=>(typeof RELEASES!=="undefined"?RELEASES.map(r=>r.id):[]);
+const FEAT_FLOW=["Ready for Development","In Development","In Testing","Blocked","On Hold"];
+const featInFlow=f=>FEAT_FLOW.indexOf(f.status)>=0;
+const featOwned=f=>!!f.who && f.who!=="Unassigned";
+const MAINT=[
+  {v:"fv",   label:"Fix version missing or invalid", col:"fv",
+   why:f=>f.fv?"Fix version is not on the release calendar":"No fix version",
+   test:f=>!f.fv || fvKnown().indexOf(f.fv)<0},
+  {v:"own",  label:"No owner", col:"who",
+   why:()=>"No owner, and it is Ready for Development or beyond",
+   test:f=>featInFlow(f) && !featOwned(f)},
+  {v:"ted",  label:"No Target End", col:"ted",
+   why:()=>"Owned and in flow, but never estimated",
+   test:f=>featInFlow(f) && featOwned(f) && !f.ted},
+  {v:"late", label:"Target End passed", col:"ted",
+   why:f=>"Target End was "+fmtDate(f.ted)+" and it has not reached Testing",
+   test:f=>isOverdue(f)}
+];
+const featGaps=f=>MAINT.filter(m=>m.test(f));
 function featureBase(){
   return FEATURES_ALL.filter(f=>{
     if(fThemes.size   && !fThemes.has(f.theme||""))   return false;
     if(fPods.size     && !fPods.has(f.pod||""))       return false;
     if(fReleases.size && !fReleases.has(f.fv||"—"))   return false;
     if(fStatuses.size && !fStatuses.has(f.status))    return false;
+    if(fMaint.size && !MAINT.some(m=>fMaint.has(m.v) && m.test(f))) return false;
     if(!matchSearch(f, allSearchTerm))                return false;
     return true;
   });
@@ -1050,6 +1092,11 @@ function renderAll(){
     if(av<bv) return -1*dir; if(av>bv) return 1*dir;
     return a.key.localeCompare(b.key);
   });
+  const gapMark=(f,col)=>{
+    const h=featGaps(f).filter(m=>m.col===col);
+    return h.length?` <span class="warnico" title="${h.map(m=>m.why(f)).join(" \u00b7 ").replace(/"/g,"&quot;")}">\u26a0</span>`:"";
+  };
+  const gapCls=(f,col)=>featGaps(f).some(m=>m.col===col)?' class="gap"':'';
   rows.forEach(f=>{
     const over=isOverdue(f);
     const warn = over ? `<span class="warnico" title="Target End date is in the past and the feature is not yet In Testing — please update the date.">⚠</span>` : '';
@@ -1057,8 +1104,10 @@ function renderAll(){
     const tr=document.createElement("tr");
     tr.innerHTML=`<td><a href="${JIRA}${f.key}" target="_blank" rel="noopener">${f.key}</a><br><span style="color:var(--ink)">${warn}${f.name}</span></td>`+
       `<td>${themePill(f.theme)}</td><td>${podPill(f.pod)}</td>`+
-      `<td>${statusPill(f.status)}</td><td>${f.fv||'<span class="muted-date">\u2014</span>'}</td>`+
-      `<td>${fmtDate(f.ted)}</td><td>${sz}</td><td>${f.who}</td>`;
+      `<td>${statusPill(f.status)}</td>`+
+      `<td${gapCls(f,"fv")}>${f.fv||'<span class="muted-date">\u2014</span>'}${gapMark(f,"fv")}</td>`+
+      `<td${gapCls(f,"ted")}>${fmtDate(f.ted)}${gapMark(f,"ted")}</td><td>${sz}</td>`+
+      `<td${gapCls(f,"who")}>${f.who}${gapMark(f,"who")}</td>`;
     allbody.appendChild(tr);
   });
   renderCards();
@@ -1067,7 +1116,7 @@ function renderAll(){
   document.getElementById("allnote").textContent=`Showing ${rows.length} of ${FEATURES_ALL.length} active Features across all pods. Click a column header to sort; click a card to filter. Pulled ${TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}.`;
 }
 function featureActiveCount(){
-  return fThemes.size+fPods.size+fReleases.size+fStatuses.size
+  return fThemes.size+fPods.size+fReleases.size+fStatuses.size+fMaint.size
     + (fCard!=="all"?1:0) + (allSearchTerm?1:0);
 }
 function updateFeatureFoot(shown){
@@ -1188,6 +1237,7 @@ function featFilterDefs(){
   defs.push({id:"rel",label:"Release",options:rels.map(r=>({v:r,label:r,count:A.filter(f=>(f.fv||"—")===r).length})),selected:()=>[...fReleases],toggle:v=>{ fReleases.has(v)?fReleases.delete(v):fReleases.add(v); }});
   let sts=Array.from(new Set(A.map(f=>f.status))).sort((a,b)=>fRank(b)-fRank(a));
   defs.push({id:"status",label:"Status",options:sts.map(s=>({v:s,label:s,count:A.filter(f=>f.status===s).length})),selected:()=>[...fStatuses],toggle:v=>{ fStatuses.has(v)?fStatuses.delete(v):fStatuses.add(v); }});
+  defs.push({id:"maint",label:"Maintenance",options:MAINT.map(m=>({v:m.v,label:m.label,count:A.filter(m.test).length})),selected:()=>[...fMaint],toggle:v=>{ fMaint.has(v)?fMaint.delete(v):fMaint.add(v); }});
   return defs;
 }
 function renderFeatBar(){
@@ -1234,7 +1284,7 @@ function initFeaturesAndRoadmap(){
   wireSearch("allsearchbox","allsearch","allsearchclear","allsearchcount",
     v=>{ allSearchTerm=v; }, refreshFeatUI, ()=>featureBase().filter(f=>fCard==="all"||FCARD_PRED[fCard](f)).length);
   document.getElementById("allclearall").addEventListener("click", ()=>{
-    fThemes.clear(); fPods.clear(); fReleases.clear(); fStatuses.clear(); fCard="all"; featOpenMenu=null;
+    fThemes.clear(); fPods.clear(); fReleases.clear(); fStatuses.clear(); fMaint.clear(); fCard="all"; featOpenMenu=null;
     const si=document.getElementById("allsearch");
     if(si){ si.value=""; allSearchTerm=""; document.getElementById("allsearchbox").classList.remove("has-text"); }
     refreshFeatUI();
@@ -1273,11 +1323,15 @@ let BUGS_CLOSED = [];        // bugs resolved within the last CLOSED_DAYS (for C
 let CLOSED_DAYS = 90;
 // Workflow order: index 0 = backlog (furthest from done), high = closest to closing.
 // Board renders columns by rank DESC so closest-to-close sits first; On Hold is always pinned on top.
-const FLOW = ["Backlog","Ready for Development","On Hold","In Development","PR Created","WAITING REVIEW","PR Merged","Dev Verification","In Stage","In QA"];
+// Workflow order, least to most advanced. The board renders it reversed (closest to closing
+// on top), so a status added here lands in the right column automatically.
+// WAITING REVIEW sits before Ready for Development: it is work waiting on a decision, not on a dev.
+// In PreProd is the last gate before Prod, so it ranks above In Stage.
+const FLOW = ["Backlog","WAITING REVIEW","Ready for Development","On Hold","In Development","PR Created","PR Merged","Dev Verification","In Stage","In QA","In PreProd"];
 function flowRank(s){ const i=FLOW.indexOf(s); return i<0?0:i; }
-const NEAR_CLOSE = ["In Stage","In QA","Dev Verification","PR Merged"];
+const NEAR_CLOSE = ["In Stage","In QA","Dev Verification","PR Merged","In PreProd"];
 // Fixed column widths so every per-status table lines up (Bug col flexes, the rest are fixed).
-const BUGCOLS = `<colgroup><col><col style="width:70px"><col style="width:82px"><col style="width:88px"><col style="width:100px"><col style="width:146px"><col style="width:124px"><col style="width:116px"></colgroup>`;
+const BUGCOLS = `<colgroup><col><col style="width:132px"><col style="width:70px"><col style="width:82px"><col style="width:88px"><col style="width:100px"><col style="width:146px"><col style="width:124px"><col style="width:116px"></colgroup>`;
 // PLANS bugs with no Pod (needs triage)
 let NOPOD = [];
 
@@ -1319,6 +1373,13 @@ function lpMissing(b){ const m=[]; if(!b.lpEpic) m.push("epic"); if(!b.lpSprint)
 function notLinkedLP(b){ return isP34(b) && lpMissing(b).length>0; }   // P3/P4 missing the epic and/or the LP sprint
 function prioNum(p){ const m=/^(\d+)/.exec(p||""); return m?parseInt(m[1],10):99; }
 function prioShort(p){ const m=/^(\d+)/.exec(p||""); return m?("P"+m[1]):"—"; }
+// Priority glyph: double-up / up / bar / down — the shape trackers use so a level reads at a glance.
+const PICO={1:'<path d="M3 9l4-4 4 4M3 14l4-4 4 4"/>',
+            2:'<path d="M3 11.5l4-4 4 4"/>',
+            3:'<path d="M3 7.5h8M3 11.5h8"/>',
+            4:'<path d="M3 7.5l4 4 4-4"/>'};
+function prioIcon(p){ const n=Math.min(prioNum(p),4); const d=PICO[n]; if(!d) return "";
+  return `<svg class="pico" width="14" height="14" viewBox="0 0 14 19" fill="none" stroke="var(--p${n})" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`; }
 // Time-window helpers — relative to the snapshot time (generated_at), so "last hour"
 // means created within 1h before the data was pulled (stable regardless of viewing time).
 function snapshotMs(){ const g=Date.parse(GENERATED_AT); return isNaN(g)?Date.now():g; }
@@ -1355,8 +1416,12 @@ const CARD_PRED = {
   wip: b=>b.cat==="In Progress",
   unassigned: b=>b.who==="Unassigned",
   onhold: b=>/hold/i.test(b.status),
-  urgent: b=>prioNum(b.prio)<=2,   // P1 + P2
-  routine: b=>prioNum(b.prio)>=3    // P3 + P4
+  urgent: b=>prioNum(b.prio)<=2,   // kept so older saved views still resolve
+  routine: b=>prioNum(b.prio)>=3,
+  p1: b=>prioNum(b.prio)===1,
+  p2: b=>prioNum(b.prio)===2,
+  p3: b=>prioNum(b.prio)===3,
+  p4: b=>prioNum(b.prio)>=4
 };
 // Faceted base: bugs matching the Theme scope + every active filter EXCEPT the one named in `exclude`.
 // Used both for the visible list (exclude="") and for each filter's own option counts (facet counts).
@@ -1437,11 +1502,11 @@ function renderBugCards(){
   const priocard=(id,title,val,color,breakdown)=>`<button class="card sc bugcardbtn priocard${bugCard===id?' sel':''}" data-card="${id}"><div class="sctitle">${title}</div><div class="bignum" style="color:${color}">${val}</div><div class="pctrow"><span class="pctnum">${pct(val)}%</span> of active</div>${bar(val)}<div class="priobreak">${breakdown}</div></button>`;
   box.innerHTML=
     card("all",(bugScope==="closed"?"Closed bugs":bugScope==="all"?"All bugs":"Active bugs"),total,"var(--blue)",`${bugScope==="closed"?`resolved · last ${CLOSED_DAYS}d`:bugScope==="all"?"open + closed":"not closed"}${bugThemes.size?` · ${[...bugThemes].join(", ")}`:""}`)+
-    priocard("urgent","Urgent · P1 + P2",urgent,"var(--red)",
-      `<span class="pb"><span class="prio p1">P1</span> ${p1}</span><span class="pb"><span class="prio p2">P2</span> ${p2}</span>`)+
-    priocard("routine","Routine · P3 + P4",routine,"var(--blue)",
-      `<span class="pb"><span class="prio p3">P3</span> ${p3}</span><span class="pb"><span class="prio p4">P4</span> ${p4}</span>`)+
-    card("near","Near closing",near,"var(--green)","In Stage · In QA · Dev Verification · PR Merged")+
+    card("p1",`${prioIcon("1")}P1 · Urgent`,p1,"var(--p1)")+
+    card("p2",`${prioIcon("2")}P2 · Important`,p2,"var(--p2)")+
+    card("p3",`${prioIcon("3")}P3 · Standard`,p3,"var(--p3)")+
+    card("p4",`${prioIcon("4")}P4 · Low`,p4,"var(--p4)")+
+    card("near","Near closing",near,"var(--green)","In PreProd · In Stage · In QA · Dev Verification · PR Merged")+
     card("wip","Work in progress",wip,"var(--amber)")+
     card("backlog","In backlog",backlog,"var(--muted)")+
     card("unassigned","Unassigned",unassigned,unassigned?"var(--red)":"var(--green)")+
@@ -1453,7 +1518,7 @@ function renderBugCards(){
       // A card IS a slice of one dimension — when selecting it, clear the same-dimension chip
       // filter so they never contradict (e.g. clicking "Urgent P1+P2" while P3/P4 chips are on → 0).
       if(selecting){
-        if(c==="urgent"||c==="routine") bugPrios.clear();
+        if(c==="urgent"||c==="routine"||/^p[1-4]$/.test(c)) bugPrios.clear();
         else if(c==="near"||c==="wip"||c==="backlog"||c==="onhold") bugStatuses.clear();
         else if(c==="unassigned") bugAssignees.clear();
       }
@@ -1483,11 +1548,13 @@ function renderBugs(){
     const near=NEAR_CLOSE.includes(st);
     const isBack=st==="Backlog";
     const hold=/hold/i.test(st);
+    const rfd=st==="Ready for Development";
+    const review=/waiting review/i.test(st);
     const isOpen = hadRender ? (prevOpen.has(st) || openByDefault) : openByDefault;
     const sec=document.createElement("div"); sec.className="bugcol"+(isOpen?" open":"");
-    sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''}"><span class="chev">▸</span><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
+    sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''} ${rfd?'rfd':''} ${review?'review':''}"><span class="chev">▸</span><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
     const tbl=document.createElement("table"); tbl.className="xref bugtbl";
-    tbl.innerHTML=BUGCOLS+`<thead><tr><th>Bug</th><th>Pod</th><th>Priority</th><th>Fix Version</th><th>Due</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
+    tbl.innerHTML=BUGCOLS+`<thead><tr><th>Bug</th><th>Parent</th><th>Pod</th><th>Priority</th><th>Fix Version</th><th>Due</th><th>Sprint</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
     const tb=document.createElement("tbody");
     list.sort(bugCmp).forEach(b=>{
       const pn=prioNum(b.prio);
@@ -1501,8 +1568,11 @@ function renderBugs(){
         (notLinkedLP(b)?`<span class="flagico nolink tip" data-tip="Not in Low Prior Bugs — this P3/P4 bug is missing ${lpMissing(b).join(' & ')}. Add it to the 'Low Prior Bugs' sprint and link it under the low-priority epic (PLANS-20751).">🔗</span>`:"");
       const tr=document.createElement("tr");
       tr.innerHTML=`<td><a href="${JIRA}${b.key}" target="_blank" rel="noopener">${b.key}</a>${newTag}${reviewed}${triaged}${closedStamp}${flags}<br><span style="color:var(--ink)">${b.name}${gl}</span></td>`+
+        `<td>${b.parentKey
+            ? `<a href="${JIRA}${b.parentKey}" target="_blank" rel="noopener" title="${(b.parentName||b.parentKey).replace(/"/g,'&quot;')}">${b.parentKey}</a>`
+            : '<span class="muted-date">—</span>'}</td>`+
         `<td>${podPill(b.pod)}</td>`+
-        `<td><span class="prio p${pn<=5?pn:'x'}">${prioShort(b.prio)}</span></td>`+
+        `<td><span class="prio p${pn<=5?pn:'x'}">${prioIcon(b.prio)}${prioShort(b.prio)}</span></td>`+
         `<td>${b.fv||'<span class="muted-date">—</span>'}</td>`+
         `<td>${dueCell(b)}</td>`+
         `<td>${b.sprint?`<span class="sprint" title="${(b.sprint||'').replace(/"/g,'&quot;')}">${b.sprint}</span>`:'<span class="muted-date">—</span>'}</td>`+
@@ -1654,11 +1724,11 @@ function syncLabelChips(lf){
 function exportBugsToExcel(){
   const rows=bugRows().slice().sort((a,b)=>
     flowRank(b.status)-flowRank(a.status)||prioNum(a.prio)-prioNum(b.prio)||a.key.localeCompare(b.key));
-  const cols=["Key","Summary","Status","Priority","Fix Version","Sprint","Assignee","Reporter","Pod","Migration Group","In LP Sprint","In LP Epic"];
+  const cols=["Key","Summary","Parent","Parent Summary","Status","Priority","Fix Version","Sprint","Assignee","Reporter","Pod","Migration Group","In LP Sprint","In LP Epic"];
   const esc=s=>String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
   const cell=v=>`<Cell><Data ss:Type="String">${esc(v)}</Data></Cell>`;
   const headRow=`<Row>${cols.map(c=>`<Cell><Data ss:Type="String">${esc(c)}</Data></Cell>`).join("")}</Row>`;
-  const bodyRows=rows.map(b=>`<Row>${[b.key,b.name,b.status,b.prio,b.fv,b.sprint,b.who,b.reporter,b.pod,bugGroupLabels(b).join(" | "),(b.lpSprint?"Yes":"No"),(b.lpEpic?"Yes":"No")].map(cell).join("")}</Row>`).join("");
+  const bodyRows=rows.map(b=>`<Row>${[b.key,b.name,b.parentKey||"",b.parentName||"",b.status,b.prio,b.fv,b.sprint,b.who,b.reporter,b.pod,bugGroupLabels(b).join(" | "),(b.lpSprint?"Yes":"No"),(b.lpEpic?"Yes":"No")].map(cell).join("")}</Row>`).join("");
   const xml=`<?xml version="1.0"?>
 <?mso-application progid="Excel.Sheet"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
@@ -2121,7 +2191,9 @@ const RELEASES=[
   {id:"R9.6",deploy:"2026-08-05"},{id:"R9.7",deploy:"2026-09-02"},
   {id:"R9.8",deploy:"2026-10-07"},{id:"R9.9",deploy:"2026-11-04"},{id:"R9.10",deploy:"2026-12-02"}
 ];
-const PRIO_COL={1:"#d03b3b",2:"#ec835a",3:"#2a78d6",4:"#8a94a6"};
+const PRIO_COL=(()=>{const c=getComputedStyle(document.documentElement);
+  const g=n=>(c.getPropertyValue("--p"+n)||"").trim();
+  return {1:g(1)||"#B3261E",2:g(2)||"#E05C4E",3:g(3)||"#E8A317",4:g(4)||"#1B5FA8"};})();
 // Release names used in prose come from RELEASES, never hard-coded, so they
 // advance on their own the day a release deploys. [data-rel="0"] = next release,
 // [data-rel="1"] = the one after it.
