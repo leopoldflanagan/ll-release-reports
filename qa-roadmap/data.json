@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T19:49:59+00:00",
+ "generated_at": "2026-09-24T20:00:26+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1963,29 +1963,6 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-23334",
-   "name": "ACH - Broken -Payment Methods - 'Primary' Tag Missing for ACH payment method",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-22T06:19:45.401-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
    "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-20751",
@@ -5894,6 +5871,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23334",
+   "name": "ACH - Broken -Payment Methods - 'Primary' Tag Missing for ACH payment method",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-22T06:19:45.401-0700",
+   "resolved": "2026-09-24T12:51:29.052-0700",
+   "due": "",
+   "labels": [],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
   {
    "key": "PLANS-23345",
    "name": "PMP - Account Information -missing Office and Patient ID After PMP Plan Purchase",
