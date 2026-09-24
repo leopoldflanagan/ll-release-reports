@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T19:15:19+00:00",
+ "generated_at": "2026-09-24T19:25:43+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1562,6 +1562,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23464",
+   "name": "PMP \\ Missing summary of age restriction failure in addition to the flagged row",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-09-23T22:12:13.361-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23453",
    "name": "PMP - Account Information - Welcome Letter Resend Email Displays Unresolved Placeholder Values",
    "pod": "PLANS",
@@ -1840,32 +1866,6 @@
    "triage": "",
    "parentKey": "PLANS-22044",
    "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23464",
-   "name": "PMP \\ Missing summary of age restriction failure in addition to the flagged row",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-09-23T22:12:13.361-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
