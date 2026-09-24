@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T18:45:27+00:00",
+ "generated_at": "2026-09-24T18:52:22+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -104,7 +104,7 @@
   {
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-24",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
@@ -258,7 +258,7 @@
   {
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-24",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
@@ -922,7 +922,7 @@
    "name": "Provider Search in Member Portal",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
    "ted": "2026-09-24",
    "who": "Ivan Yarymovych",
