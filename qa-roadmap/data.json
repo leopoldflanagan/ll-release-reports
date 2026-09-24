@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T16:17:54+00:00",
+ "generated_at": "2026-09-24T16:30:26+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -4460,7 +4460,7 @@
    "key": "PLANS-23047",
    "name": "Member Portal Issue",
    "pod": "LL",
-   "status": "PR Merged",
+   "status": "In QA",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
