@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T19:36:49+00:00",
+ "generated_at": "2026-09-24T19:45:25+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -25967,29 +25967,6 @@
    "triage": "",
    "parentKey": "PLANS-17458",
    "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18234",
-   "name": "Email change - PMP email is not correctly rendered",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-06-18T14:26:03.845-0700",
-   "resolved": "2026-06-26T12:39:21.712-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-12955",
-   "parentName": "Email Branding: E3 - Template-Based Migration & Validation",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
