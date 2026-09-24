@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T14:00:31+00:00",
+ "generated_at": "2026-09-24T14:15:21+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1562,32 +1562,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23439",
-   "name": "ACH - Broken - Transactions are not displayed in CSP > Plan Transactions after the transaction is returned.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-23T11:52:14.524-0700",
-   "resolved": "",
-   "due": "2026-09-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23436",
    "name": "PMP-Stage-Renew expired plan with existing ACH account, not displaying payment method attached for Auto-renewal in Overview Plan summary and in Member Payment tab showing -Not attached to Plan beside ACH account",
    "pod": "PLANS",
@@ -1597,11 +1571,14 @@
    "sprint": "Plans-Sprint 22-26",
    "who": "David Jones",
    "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-09-23T10:48:10.110-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22044",
@@ -1611,34 +1588,60 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23355",
-   "name": "Add Member Purchase button enabled without payment selected",
+   "key": "PLANS-23286",
+   "name": "Plan Details PDF - Member Portal URL Is Displayed as Plain Text Instead of Clickable Hyperlink(however its clickable)",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Vasyl Skochko",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-22T11:31:43.766-0700",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-21T10:42:14.577-0700",
    "resolved": "",
    "due": "2026-09-25",
    "labels": [
-    "group1_migration",
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-23278",
    "name": "Plan Details PDF - \"Exclusive (%) Discount on Additional Services\" Line Is Missing",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-21T10:19:25.286-0700",
+   "resolved": "",
+   "due": "2026-09-25",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-23266",
+   "name": "Plan Details PDF - UI - Footer Discount Note Displays Without Required Dagger (†) Marker",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -1647,9 +1650,9 @@
    "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-09-21T10:19:25.286-0700",
+   "created": "2026-09-21T09:15:52.988-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-25",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -1816,6 +1819,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23464",
+   "name": "PMP \\ Missing summary of age restriction failure in addition to the flagged row",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-23T22:12:13.361-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23457",
    "name": "ACH - CSP Account History Displays Incorrect Auto Renewal Records",
    "pod": "LL",
@@ -1932,58 +1961,6 @@
    "due": "",
    "labels": [],
    "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-23286",
-   "name": "Plan Details PDF - Member Portal URL Is Displayed as Plain Text Instead of Clickable Hyperlink(however its clickable)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-21T10:42:14.577-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-23266",
-   "name": "Plan Details PDF - UI - Footer Discount Note Displays Without Required Dagger (†) Marker",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-21T09:15:52.988-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
@@ -4272,6 +4249,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23439",
+   "name": "ACH - Broken - Transactions are not displayed in CSP > Plan Transactions after the transaction is returned.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-23T11:52:14.524-0700",
+   "resolved": "",
+   "due": "2026-09-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23265",
    "name": "PRODUCTION: Savings Calculations for DCA",
    "pod": "PLANS",
@@ -4826,6 +4829,32 @@
    "triage": "",
    "parentKey": "PLANS-10457",
    "parentName": "Plans Marketplace Post MVP (Fast Follow)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23355",
+   "name": "Add Member Purchase button enabled without payment selected",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-22T11:31:43.766-0700",
+   "resolved": "",
+   "due": "2026-09-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -25909,15 +25938,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-23464",
-   "name": "PMP \\ Missing summary of age restriction failure in addition to the flagged row",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Sep 21–27",
