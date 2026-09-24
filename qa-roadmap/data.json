@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T22:00:28+00:00",
+ "generated_at": "2026-09-24T22:14:27+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -4803,32 +4803,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23355",
-   "name": "Add Member Purchase button enabled without payment selected",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-22T11:31:43.766-0700",
-   "resolved": "",
-   "due": "2026-09-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23348",
    "name": "STAGE - Inability to save a c/c to a/r - BLOCKING the load for the tokens scenario set up",
    "pod": "PLANS",
@@ -5863,6 +5837,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23355",
+   "name": "Add Member Purchase button enabled without payment selected",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-22T11:31:43.766-0700",
+   "resolved": "2026-09-24T15:06:32.664-0700",
+   "due": "2026-09-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23449",
    "name": "PMP/Waivefam/Error is displayed on ADD PLAN for a member with a tiered plan with max members",
