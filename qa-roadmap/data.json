@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T08:45:21+00:00",
+ "generated_at": "2026-09-24T09:00:25+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1557,6 +1557,32 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23439",
+   "name": "ACH - Broken - Transactions are not displayed in CSP > Plan Transactions after the transaction is returned.",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-23T11:52:14.524-0700",
+   "resolved": "",
+   "due": "2026-09-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3701,32 +3727,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23439",
-   "name": "ACH - Broken - Transactions are not displayed in CSP > Plan Transactions after the transaction is returned.",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-23T11:52:14.524-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23422",
    "name": "ACH - Plan Transaction status not updated to 'Returned — refund unavailable' for Settled / Returned purchases.",
    "pod": "LL",
@@ -3734,7 +3734,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
+   "who": "Shchekochykhin Vladyslav",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-22T15:15:16.959-0700",
