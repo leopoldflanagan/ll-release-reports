@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T13:30:27+00:00",
+ "generated_at": "2026-09-24T13:45:25+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -4831,29 +4831,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23423",
-   "name": "testing-PMP-Stage-ADHOC Plan Purchased in PMP-Payment Method not showing for Auto-renewal for another member purchased together with same account",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Vinita Thankur",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-09-22T15:17:15.042-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23348",
    "name": "STAGE - Inability to save a c/c to a/r - BLOCKING the load for the tokens scenario set up",
    "pod": "PLANS",
@@ -5966,6 +5943,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23423",
+   "name": "testing-PMP-Stage-ADHOC Plan Purchased in PMP-Payment Method not showing for Auto-renewal for another member purchased together with same account",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Vinita Thankur",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-22T15:17:15.042-0700",
+   "resolved": "2026-09-24T06:37:52.267-0700",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22819",
    "name": "retest-Office assignment mismatch between PMP and CSP for member record",
