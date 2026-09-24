@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T14:45:26+00:00",
+ "generated_at": "2026-09-24T14:52:17+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -105,7 +105,7 @@
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "status": "In Development",
-   "ted": "2026-09-23",
+   "ted": "2026-09-24",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate"
@@ -150,7 +150,7 @@
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "status": "In Development",
-   "ted": "2026-09-25",
+   "ted": "2026-09-28",
    "fv": "R9.9",
    "who": "Petro Yarish",
    "tshirt": "Small"
@@ -259,7 +259,7 @@
    "key": "PLANS-14421",
    "name": "Provider Search in Member Portal",
    "status": "In Development",
-   "ted": "2026-09-23",
+   "ted": "2026-09-24",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Moderate",
@@ -413,7 +413,7 @@
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "status": "In Development",
-   "ted": "2026-09-25",
+   "ted": "2026-09-28",
    "fv": "R9.9",
    "who": "Petro Yarish",
    "tshirt": "Small",
@@ -924,7 +924,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": "2026-09-23",
+   "ted": "2026-09-24",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -1078,7 +1078,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-09-25",
+   "ted": "2026-09-28",
    "who": "Petro Yarish",
    "theme": "LL-Fast Follows"
   },
@@ -1820,7 +1820,7 @@
   },
   {
    "key": "PLANS-23457",
-   "name": "ACH - CSP Account History Displays Incorrect Auto Renewal Records",
+   "name": "ACH - CSP/PMP Account History Displays Incorrect Auto Renewal Records",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -25941,7 +25941,7 @@
  "nopod": [
   {
    "key": "PLANS-23467",
-   "name": "PMP/Renew/Unable to Renew plan in PMP (Error is displayed)",
+   "name": "PMP/Renew/Unable to Renew plan in PMP with existing card in Wallet (Error is displayed)",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
