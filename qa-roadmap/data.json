@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T11:30:24+00:00",
+ "generated_at": "2026-09-24T11:45:19+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1637,6 +1637,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23278",
+   "name": "Plan Details PDF - \"Exclusive (%) Discount on Additional Services\" Line Is Missing",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-21T10:19:25.286-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-23265",
    "name": "PRODUCTION: Savings Calculations for DCA",
    "pod": "PLANS",
@@ -1674,32 +1700,6 @@
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-17T13:41:08.486-0700",
-   "resolved": "",
-   "due": "2026-09-24",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23047",
-   "name": "Member Portal Issue",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Michael Joe",
-   "prio": "2: Important",
-   "created": "2026-09-16T09:51:55.528-0700",
    "resolved": "",
    "due": "2026-09-24",
    "labels": [
@@ -1977,32 +1977,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-21T10:42:14.577-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-23278",
-   "name": "Plan Details PDF - \"Exclusive (%) Discount on Additional Services\" Line Is Missing",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-21T10:19:25.286-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -4319,6 +4293,32 @@
    "triage": "",
    "parentKey": "PLANS-14520",
    "parentName": "Auto-Renewal Opt Out Report - External",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23047",
+   "name": "Member Portal Issue",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Michael Joe",
+   "prio": "2: Important",
+   "created": "2026-09-16T09:51:55.528-0700",
+   "resolved": "",
+   "due": "2026-09-24",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
