@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T15:00:25+00:00",
+ "generated_at": "2026-09-24T15:15:23+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -96,7 +96,7 @@
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
-   "ted": "2026-09-22",
+   "ted": "2026-09-25",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
@@ -132,7 +132,7 @@
    "key": "PLANS-15226",
    "name": "WAIVEFAM Promo Code",
    "status": "In Testing",
-   "ted": "2026-09-25",
+   "ted": "2026-09-24",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": "Small"
@@ -270,7 +270,7 @@
    "key": "PLANS-14501",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
-   "ted": "2026-09-22",
+   "ted": "2026-09-25",
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
@@ -281,7 +281,7 @@
    "key": "PLANS-15226",
    "name": "WAIVEFAM Promo Code",
    "status": "In Testing",
-   "ted": "2026-09-25",
+   "ted": "2026-09-24",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": "Small",
@@ -687,7 +687,7 @@
   {
    "key": "PLANS-22168",
    "name": "REVENUE SHARE REPORT: Add Effective Date to the revenue share report for Wellfit Pay customers",
-   "status": "In Development",
+   "status": "Epics & Stories",
    "ted": null,
    "fv": "R9.8",
    "who": "Lloyd Tokerud",
@@ -935,7 +935,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.8",
-   "ted": "2026-09-22",
+   "ted": "2026-09-25",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -946,7 +946,7 @@
    "proj": "PLANS",
    "status": "In Testing",
    "fv": "R9.8",
-   "ted": "2026-09-25",
+   "ted": "2026-09-24",
    "who": "Mykyta Moroz",
    "theme": "LL-Fast Follows"
   },
@@ -1351,7 +1351,7 @@
    "name": "REVENUE SHARE REPORT: Add Effective Date to the revenue share report for Wellfit Pay customers",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "Epics & Stories",
    "fv": "R9.8",
    "ted": null,
    "who": "Lloyd Tokerud",
@@ -1763,6 +1763,32 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23467",
+   "name": "PMP/Renew/Unable to Renew plan in PMP with existing card in Wallet (Error is displayed)",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-09-24T07:43:46.722-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4249,32 +4275,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23278",
-   "name": "Plan Details PDF - \"Exclusive (%) Discount on Additional Services\" Line Is Missing",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-21T10:19:25.286-0700",
-   "resolved": "",
-   "due": "2026-09-25",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-23265",
    "name": "PRODUCTION: Savings Calculations for DCA",
    "pod": "PLANS",
@@ -4405,56 +4405,30 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23362",
-   "name": "Auto renewal shows a 422 error when enabling it after manual renewal",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "David Jones",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-22T14:56:47.462-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22604",
-   "parentName": "[2] Joint Legal Language - Present the Joint ACH authorization at add-member checkout",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23038",
-   "name": "PMP-Stage- Auto-renewal payment change from CC to ACH failing for Multi-plan member in PMP",
+   "key": "PLANS-23278",
+   "name": "Plan Details PDF - \"Exclusive (%) Discount on Additional Services\" Line Is Missing",
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "David Jones",
-   "reporter": "Vinita Thankur",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-09-16T08:02:23.276-0700",
+   "created": "2026-09-21T10:19:25.286-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-25",
    "labels": [
-    "group1_migration",
+    "group2_migration",
     "product_prioritized"
    ],
-   "theme": "ACH-Fast Follows",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-23258",
@@ -4730,6 +4704,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23362",
+   "name": "Auto renewal shows a 422 error when enabling it after manual renewal",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-22T14:56:47.462-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22604",
+   "parentName": "[2] Joint Legal Language - Present the Joint ACH authorization at add-member checkout",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23355",
    "name": "Add Member Purchase button enabled without payment selected",
    "pod": "LL",
@@ -4986,6 +4986,32 @@
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23038",
+   "name": "PMP-Stage- Auto-renewal payment change from CC to ACH failing for Multi-plan member in PMP",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-16T08:02:23.276-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -25940,11 +25966,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-23467",
-   "name": "PMP/Renew/Unable to Renew plan in PMP with existing card in Wallet (Error is displayed)",
+   "key": "PLANS-23473",
+   "name": "PMP \\ Auto-renewal toggle remains enabled for members who exceed the configured age restriction",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
+   "reporter": "Luis Moreno Soberón"
   }
  ],
  "weeks": [
