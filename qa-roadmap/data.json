@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T02:00:31+00:00",
+ "generated_at": "2026-09-24T02:15:23+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1553,7 +1553,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -1574,7 +1574,7 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -1635,7 +1635,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "LL-Sprint 22-26",
    "who": "Vasyl Skochko",
    "reporter": "Camille Knight",
    "prio": "2: Important",
@@ -1646,7 +1646,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -1800,7 +1800,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -1811,11 +1811,11 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH-Fast Follows",
    "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-23357",
@@ -1857,30 +1857,6 @@
    "due": "",
    "labels": [],
    "theme": "ACH-Fast Follows",
-   "triage": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23341",
-   "name": "ACH/CC - Receipt PDF - Incorrect Total Amount Displayed in Payment Receipt",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-22T06:55:25.213-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3550,7 +3526,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "ACH-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
@@ -3599,6 +3575,30 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23341",
+   "name": "ACH/CC - Receipt PDF - Incorrect Total Amount Displayed in Payment Receipt",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-22T06:55:25.213-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
    "triage": "",
    "lpEpic": false,
    "lpSprint": false,
