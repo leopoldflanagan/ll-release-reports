@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T06:45:23+00:00",
+ "generated_at": "2026-09-24T07:00:30+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -1734,32 +1734,6 @@
    ],
    "theme": "",
    "triage": "Yes",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22144",
-   "name": "One Smile – Only one plan is displayed on the Custom Website",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-31T12:37:06.861-0700",
-   "resolved": "",
-   "due": "2026-09-24",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
@@ -5288,6 +5262,32 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-22144",
+   "name": "One Smile – Only one plan is displayed on the Custom Website",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-31T12:37:06.861-0700",
+   "resolved": "",
+   "due": "2026-09-24",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
