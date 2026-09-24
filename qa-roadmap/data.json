@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T20:50:15+00:00",
+ "generated_at": "2026-09-24T21:00:30+00:00",
  "today": "2026-09-24",
  "features": [
   {
@@ -127,15 +127,6 @@
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null
-  },
-  {
-   "key": "PLANS-15226",
-   "name": "WAIVEFAM Promo Code",
-   "status": "In Testing",
-   "ted": "2026-09-24",
-   "fv": "R9.8",
-   "who": "Mykyta Moroz",
-   "tshirt": "Small"
   },
   {
    "key": "PLANS-20554",
@@ -274,17 +265,6 @@
    "fv": "R9.8",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
-   "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-15226",
-   "name": "WAIVEFAM Promo Code",
-   "status": "In Testing",
-   "ted": "2026-09-24",
-   "fv": "R9.8",
-   "who": "Mykyta Moroz",
-   "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -937,17 +917,6 @@
    "fv": "R9.8",
    "ted": "2026-09-25",
    "who": "Ivan Yarymovych",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "PLANS-15226",
-   "name": "WAIVEFAM Promo Code",
-   "pod": "LL",
-   "proj": "PLANS",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": "2026-09-24",
-   "who": "Mykyta Moroz",
    "theme": "LL-Fast Follows"
   },
   {
@@ -25976,7 +25945,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-23527",
+   "name": "ACH - Broken - Print",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Sep 21–27",
