@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T16:30:26+00:00",
+ "generated_at": "2026-09-25T16:41:48+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -114,7 +114,7 @@
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "status": "In Development",
-   "ted": "2026-09-24",
+   "ted": "2026-09-25",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null
@@ -659,7 +659,7 @@
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "status": "In Development",
-   "ted": "2026-09-24",
+   "ted": "2026-09-25",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null,
@@ -1302,7 +1302,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.8",
-   "ted": "2026-09-24",
+   "ted": "2026-09-25",
    "who": "Mykyta Moroz",
    "theme": "LL-Fast Follows"
   },
@@ -1666,7 +1666,10 @@
    "created": "2026-09-25T03:01:00.309-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
