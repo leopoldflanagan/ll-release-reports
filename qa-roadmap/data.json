@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T20:00:25+00:00",
+ "generated_at": "2026-09-25T20:13:51+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -3417,7 +3417,7 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": "R9.9",
+   "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
@@ -3941,7 +3941,7 @@
    "sprint": "LL-Sprint 22-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "3: Standard",
    "created": "2026-08-13T03:21:00.823-0700",
    "resolved": "",
    "due": "",
