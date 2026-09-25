@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T03:45:23+00:00",
+ "generated_at": "2026-09-25T04:00:29+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -1706,6 +1706,32 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23531",
+   "name": "PMP \\ Manual Renewal allows an ineligible plan to be selected and purchased despite configured age restriction",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-24T16:04:11.202-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26023,15 +26049,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-23531",
-   "name": "PMP \\ Manual Renewal allows an ineligible plan to be selected and purchased despite configured age restriction",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Sep 21–27",
