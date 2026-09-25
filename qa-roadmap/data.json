@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T23:37:27+00:00",
+ "generated_at": "2026-09-25T23:45:22+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -88,7 +88,7 @@
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
   },
@@ -160,7 +160,7 @@
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "On Hold",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
   },
@@ -187,7 +187,7 @@
    "name": "Purchase Widget to Payment Widget Integration",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Valentyna Tenus",
    "tshirt": "Large"
   }
@@ -264,7 +264,7 @@
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "On Hold",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small",
    "pod": "LL",
@@ -396,7 +396,7 @@
    "name": "Unify Purchase Into NPM Package",
    "status": "On Hold",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
    "pod": "LL",
@@ -407,7 +407,7 @@
    "name": "Purchase Widget to Payment Widget Integration",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Valentyna Tenus",
    "tshirt": "Large",
    "pod": "LL",
@@ -462,7 +462,7 @@
    "name": "consolidate smile health portal to access plans widget api",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -594,7 +594,7 @@
    "name": "Add Locations to Smile Health",
    "status": "Idea",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Camille Knight",
    "tshirt": null,
    "pod": "PLANS",
@@ -894,7 +894,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "On Hold",
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "ted": null,
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
@@ -1026,7 +1026,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "On Hold",
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "ted": null,
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
@@ -1037,7 +1037,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Requirements",
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "ted": null,
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
@@ -1092,7 +1092,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Architecture",
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "ted": null,
    "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
@@ -1224,7 +1224,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Idea",
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "ted": null,
    "who": "Camille Knight",
    "theme": "LL-Fast Follows"
