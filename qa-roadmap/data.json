@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T22:00:28+00:00",
+ "generated_at": "2026-09-25T22:14:17+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -4470,7 +4470,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "Plans-Sprint 22-26",
    "who": "Vasyl Skochko",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
