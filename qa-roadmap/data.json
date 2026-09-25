@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T14:17:07+00:00",
+ "generated_at": "2026-09-25T14:30:25+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -141,7 +141,7 @@
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "status": "In Development",
-   "ted": "2026-09-28",
+   "ted": "2026-09-30",
    "fv": "R9.9",
    "who": "Petro Yarish",
    "tshirt": "Small"
@@ -393,7 +393,7 @@
    "key": "PLANS-18428",
    "name": "PMP - Primary Contact Update for Minor Migrated Members",
    "status": "In Development",
-   "ted": "2026-09-28",
+   "ted": "2026-09-30",
    "fv": "R9.9",
    "who": "Petro Yarish",
    "tshirt": "Small",
@@ -1047,7 +1047,7 @@
    "proj": "PLANS",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-09-28",
+   "ted": "2026-09-30",
    "who": "Petro Yarish",
    "theme": "LL-Fast Follows"
   },
