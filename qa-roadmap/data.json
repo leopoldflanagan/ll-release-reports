@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T18:00:28+00:00",
+ "generated_at": "2026-09-25T18:15:21+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -647,7 +647,7 @@
   {
    "key": "PLANS-22168",
    "name": "REVENUE SHARE REPORT: Add Effective Date to the revenue share report for Wellfit Pay customers",
-   "status": "Ready for Development",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.8",
    "who": "Lloyd Tokerud",
@@ -1289,7 +1289,7 @@
    "name": "REVENUE SHARE REPORT: Add Effective Date to the revenue share report for Wellfit Pay customers",
    "pod": "EDW",
    "proj": "PLANS",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R9.8",
    "ted": null,
    "who": "Lloyd Tokerud",
