@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T02:30:24+00:00",
+ "generated_at": "2026-09-25T02:45:21+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -3561,6 +3561,32 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23534",
+   "name": "Digital Smiles (both plans)",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-24T19:33:23.357-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
