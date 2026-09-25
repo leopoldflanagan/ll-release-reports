@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T10:30:24+00:00",
+ "generated_at": "2026-09-25T10:45:22+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -26052,9 +26052,9 @@
  "nopod": [
   {
    "key": "PLANS-23536",
-   "name": "PMP -",
+   "name": "PMP - Add member button visible in member portal for Ad hoc plans and unable to Add plan using ADD PLAN(no plans)",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
   }
  ],
