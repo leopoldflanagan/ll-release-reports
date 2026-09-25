@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T21:45:22+00:00",
+ "generated_at": "2026-09-25T21:49:18+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -3421,7 +3421,7 @@
    "sprint": "LL-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-09-25T09:48:02.434-0700",
    "resolved": "",
    "due": "",
@@ -3447,7 +3447,7 @@
    "sprint": "LL-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-09-25T09:29:11.855-0700",
    "resolved": "",
    "due": "",
