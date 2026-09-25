@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T03:30:27+00:00",
+ "generated_at": "2026-09-25T03:45:23+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -3535,6 +3535,32 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23535",
+   "name": "Stage - AUTO-RENEWAL ERROR in Amount charged",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-24T20:33:55.269-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
