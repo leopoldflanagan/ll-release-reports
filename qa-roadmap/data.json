@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T18:18:24+00:00",
+ "generated_at": "2026-09-25T18:30:24+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -113,7 +113,7 @@
   {
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-25",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
@@ -645,20 +645,9 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-22168",
-   "name": "REVENUE SHARE REPORT: Add Effective Date to the revenue share report for Wellfit Pay customers",
-   "status": "In Development",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Lloyd Tokerud",
-   "tshirt": null,
-   "pod": "EDW",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-25",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
@@ -1285,22 +1274,11 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "PLANS-22168",
-   "name": "REVENUE SHARE REPORT: Add Effective Date to the revenue share report for Wellfit Pay customers",
-   "pod": "EDW",
-   "proj": "PLANS",
-   "status": "In Development",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Lloyd Tokerud",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "PLANS-22676",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "pod": "LL",
    "proj": "PLANS",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
    "ted": "2026-09-25",
    "who": "Mykyta Moroz",
