@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T15:16:26+00:00",
+ "generated_at": "2026-09-25T15:30:26+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -4348,32 +4348,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23266",
-   "name": "Plan Details PDF - UI - Footer Discount Note Displays Without Required Dagger (†) Marker",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-21T09:15:52.988-0700",
-   "resolved": "",
-   "due": "2026-09-25",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-23143",
    "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
    "pod": "LL",
@@ -4866,6 +4840,32 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-21T10:42:14.577-0700",
+   "resolved": "",
+   "due": "2026-09-25",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-23266",
+   "name": "Plan Details PDF - UI - Footer Discount Note Displays Without Required Dagger (†) Marker",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-21T09:15:52.988-0700",
    "resolved": "",
    "due": "2026-09-25",
    "labels": [
