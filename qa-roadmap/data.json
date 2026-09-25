@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T08:15:22+00:00",
+ "generated_at": "2026-09-25T08:30:26+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -1557,32 +1557,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23143",
-   "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-16T15:42:29.884-0700",
-   "resolved": "",
-   "due": "2026-09-25",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22941",
    "name": "PRODUCTION - Incorrect Status for Plans - data cleanup",
    "pod": "PLANS",
@@ -1769,12 +1743,12 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
-   "who": "Anuradhi Wickramasinghe",
+   "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-24T10:54:21.503-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-26",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4252,7 +4226,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.9",
+   "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
    "who": "Vasyl Skochko",
    "reporter": "Anuradhi Wickramasinghe",
@@ -4398,6 +4372,32 @@
    "triage": "",
    "parentKey": "PLANS-22044",
    "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23143",
+   "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-16T15:42:29.884-0700",
+   "resolved": "",
+   "due": "2026-09-25",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
