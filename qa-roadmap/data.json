@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T11:00:31+00:00",
+ "generated_at": "2026-09-25T11:15:23+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -1504,6 +1504,32 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-23534",
+   "name": "Digital Smiles (both plans)",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Vasyl Skochko",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-24T19:33:23.357-0700",
+   "resolved": "",
+   "due": "2026-09-29",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23523",
    "name": "Member Portal \\ Age restriction validation does not follow the behavior implemented in other portals",
@@ -3509,32 +3535,6 @@
    "due": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23534",
-   "name": "Digital Smiles (both plans)",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Vasyl Skochko",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-24T19:33:23.357-0700",
-   "resolved": "",
-   "due": "2026-09-29",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
