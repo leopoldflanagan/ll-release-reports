@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T07:30:26+00:00",
+ "generated_at": "2026-09-25T07:45:19+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -1549,32 +1549,6 @@
     "product_prioritized"
    ],
    "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23186",
-   "name": "PRODUCTION - Manage Patient/Overview - different status",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-17T13:41:08.486-0700",
-   "resolved": "",
-   "due": "2026-09-24",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
@@ -4897,6 +4871,32 @@
    "created": "2026-09-18T10:06:05.884-0700",
    "resolved": "",
    "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23186",
+   "name": "PRODUCTION - Manage Patient/Overview - different status",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-17T13:41:08.486-0700",
+   "resolved": "",
+   "due": "2026-09-24",
    "labels": [
     "group1_migration",
     "product_prioritized"
