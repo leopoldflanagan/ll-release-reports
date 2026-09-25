@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T14:45:21+00:00",
+ "generated_at": "2026-09-25T14:51:20+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -4114,6 +4114,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23439",
+   "name": "ACH - Broken - Transactions are not displayed in CSP > Plan Transactions after the transaction is returned.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-23T11:52:14.524-0700",
+   "resolved": "",
+   "due": "2026-09-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23265",
    "name": "PRODUCTION: Savings Calculations for DCA",
    "pod": "PLANS",
@@ -4265,32 +4291,6 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23439",
-   "name": "ACH - Broken - Transactions are not displayed in CSP > Plan Transactions after the transaction is returned.",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-23T11:52:14.524-0700",
-   "resolved": "",
-   "due": "2026-09-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
