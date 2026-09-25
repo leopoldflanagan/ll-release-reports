@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T19:36:44+00:00",
+ "generated_at": "2026-09-25T19:45:22+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -4139,32 +4139,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23228",
-   "name": "ACH - Broken - PMP - Incorrect Status Displayed for Refunds in Member Transactions",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-18T08:38:42.447-0700",
-   "resolved": "",
-   "due": "2026-09-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23523",
    "name": "Member Portal \\ Age restriction validation does not follow the behavior implemented in other portals",
    "pod": "PLANS",
@@ -4186,6 +4160,32 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23228",
+   "name": "ACH - Broken - PMP - Incorrect Status Displayed for Refunds in Member Transactions",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-18T08:38:42.447-0700",
+   "resolved": "",
+   "due": "2026-09-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4589,32 +4589,6 @@
    "triage": "",
    "parentKey": "PLANS-22044",
    "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23453",
-   "name": "PMP - Account Information - Welcome Letter Resend Email Displays Unresolved Placeholder Values",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-23T14:19:23.273-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5940,6 +5914,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23453",
+   "name": "PMP - Account Information - Welcome Letter Resend Email Displays Unresolved Placeholder Values",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Daryl Myrick",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-23T14:19:23.273-0700",
+   "resolved": "2026-09-25T12:41:47.014-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22824",
    "name": "Member Portal - DCA | When using Add Plan in the Member Portal, the page displays “Add Member” and “Adding a member costs…” instead of wording related to adding a plan.",
