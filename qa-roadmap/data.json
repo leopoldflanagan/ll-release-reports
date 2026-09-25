@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T08:30:26+00:00",
+ "generated_at": "2026-09-25T08:45:19+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -1543,7 +1543,7 @@
    "prio": "2: Important",
    "created": "2026-09-18T08:38:42.447-0700",
    "resolved": "",
-   "due": "2026-09-21",
+   "due": "2026-09-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -1691,7 +1691,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-09-24T16:04:11.202-0700",
@@ -4273,6 +4273,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23143",
+   "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-16T15:42:29.884-0700",
+   "resolved": "",
+   "due": "2026-09-25",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23473",
    "name": "PMP \\ Auto-renewal toggle remains enabled for members who exceed the configured age restriction",
    "pod": "PLANS",
@@ -4372,32 +4398,6 @@
    "triage": "",
    "parentKey": "PLANS-22044",
    "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23143",
-   "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-16T15:42:29.884-0700",
-   "resolved": "",
-   "due": "2026-09-25",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
