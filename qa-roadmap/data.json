@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T14:51:20+00:00",
+ "generated_at": "2026-09-25T15:00:33+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -4192,32 +4192,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23143",
-   "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-16T15:42:29.884-0700",
-   "resolved": "",
-   "due": "2026-09-25",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23531",
    "name": "PMP \\ Manual Renewal allows an ineligible plan to be selected and purchased despite configured age restriction",
    "pod": "PLANS",
@@ -4398,6 +4372,32 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-23143",
+   "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-16T15:42:29.884-0700",
+   "resolved": "",
+   "due": "2026-09-25",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-22913",
