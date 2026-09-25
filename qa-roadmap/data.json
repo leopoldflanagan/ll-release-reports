@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T09:00:28+00:00",
+ "generated_at": "2026-09-25T09:15:24+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -3553,12 +3553,12 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Vasyl Skochko",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-24T19:33:23.357-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-09-29",
    "labels": [
     "group2_migration",
     "product_prioritized"
