@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T23:30:25+00:00",
+ "generated_at": "2026-09-25T23:37:27+00:00",
  "today": "2026-09-25",
  "features": [
   {
@@ -16,7 +16,7 @@
    "name": "CSP Integration Setting at Org level",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Chris Rubio",
    "tshirt": "Small"
   },
@@ -61,7 +61,7 @@
    "name": "Bulk Sellable Acceptable",
    "status": "Idea",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Dmytro Tymofiienko",
    "tshirt": "Large"
   },
@@ -286,7 +286,7 @@
    "name": "Bulk Sellable Acceptable",
    "status": "Idea",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Dmytro Tymofiienko",
    "tshirt": "Large",
    "pod": "LL",
@@ -495,7 +495,7 @@
    "name": "Edge Cases - for Member Portal - Multi Plans",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -517,7 +517,7 @@
    "name": "CSP Integration Setting at Org level",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "who": "Chris Rubio",
    "tshirt": "Small",
    "pod": "LL",
@@ -916,7 +916,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Idea",
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "ted": null,
    "who": "Dmytro Tymofiienko",
    "theme": "LL-Fast Follows"
@@ -1125,7 +1125,7 @@
    "pod": "PLANS",
    "proj": "PLANS",
    "status": "Architecture",
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "ted": null,
    "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
@@ -1147,7 +1147,7 @@
    "pod": "LL",
    "proj": "PLANS",
    "status": "Requirements",
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "ted": null,
    "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
