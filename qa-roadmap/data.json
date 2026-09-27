@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T14:15:29+00:00",
+ "generated_at": "2026-09-27T14:30:21+00:00",
  "today": "2026-09-27",
  "features": [
   {
@@ -26241,29 +26241,6 @@
    "triage": "",
    "parentKey": "PLANS-14926",
    "parentName": "Updates to Marketing Details",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-13495",
-   "name": "Member Portal & Mobile App Authentication Issues",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Clint Tredway",
-   "reporter": "Michael Joe",
-   "prio": "3: Standard",
-   "created": "2026-04-06T14:07:45.447-0700",
-   "resolved": "2026-06-29T07:23:51.236-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-13306",
-   "parentName": "Member portal bugs bucket",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
