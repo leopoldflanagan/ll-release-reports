@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T20:45:23+00:00",
+ "generated_at": "2026-09-28T20:52:21+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -26306,7 +26306,7 @@
   {
    "key": "PLANS-23795",
    "name": "Auto renew \\ Minimum age restriction incorrectly blocks grandfathered members from renewing",
-   "status": "Backlog",
+   "status": "PR Created",
    "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
   },
