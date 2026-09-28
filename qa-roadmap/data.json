@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T13:00:30+00:00",
+ "generated_at": "2026-09-28T13:15:27+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -26120,29 +26120,6 @@
    "prio": "3: Standard",
    "created": "2026-06-17T07:48:11.720-0700",
    "resolved": "2026-06-30T14:45:59.343-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18672",
-   "name": "PLANS-18672: Smile Health - Custom WFP logo appears broken in Dynamic Purchase Portal",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-29T11:53:27.560-0700",
-   "resolved": "2026-06-30T06:08:09.796-0700",
    "due": "",
    "labels": [],
    "theme": "",
