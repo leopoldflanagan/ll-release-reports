@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T17:52:49+00:00",
+ "generated_at": "2026-09-28T18:00:30+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -5371,32 +5371,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-21623",
-   "name": "ACH Refund - Refund not audited in History of accounts (ACH/CC )",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-08-20T07:37:22.516-0700",
-   "resolved": "",
-   "due": "2026-10-07",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-21505",
    "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
    "pod": "LL",
@@ -5891,6 +5865,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21623",
+   "name": "ACH Refund - Refund not audited in History of accounts (ACH/CC )",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-08-20T07:37:22.516-0700",
+   "resolved": "2026-09-28T11:00:15.846-0700",
+   "due": "2026-10-07",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
   {
    "key": "PLANS-21835",
    "name": "MP| Inconsistent Plan purchase Pricing between add member and checkout page",
