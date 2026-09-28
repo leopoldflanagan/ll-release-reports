@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T22:49:18+00:00",
+ "generated_at": "2026-09-28T23:00:23+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -1619,10 +1619,33 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22538",
    "parentName": "[1] Logging ACH Refunds — Account History records every ACH money movement",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23801",
+   "name": "MemberPortal/FindADentist/Search form is displayed instead of the practice for a member whose plan is tied to one practice",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-09-28T13:35:06.965-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22237",
+   "parentName": "PLANS-22237: Epic 3: Provider Search - Frontend: Member Portal find-a-dentist page",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1642,7 +1665,7 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22538",
    "parentName": "[1] Logging ACH Refunds — Account History records every ACH money movement",
@@ -1665,10 +1688,33 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22538",
    "parentName": "[1] Logging ACH Refunds — Account History records every ACH money movement",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23769",
+   "name": "MemberPortal/FindADentist/DCA Co-orp Office is displayed in search results",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-09-28T10:46:27.318-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22237",
+   "parentName": "PLANS-22237: Epic 3: Provider Search - Frontend: Member Portal find-a-dentist page",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6097,7 +6143,7 @@
    "status": "Closed",
    "cat": "Done",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -6108,12 +6154,12 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22538",
    "parentName": "[1] Logging ACH Refunds — Account History records every ACH money movement",
    "lpEpic": false,
-   "lpSprint": false,
+   "lpSprint": true,
    "linkedLP": false
   },
   {
@@ -26251,13 +26297,6 @@
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
-   "key": "PLANS-23801",
-   "name": "MemberPortal/FindADentist/Search form is displayed instead of the practice for a member whose plan is tied to one practice",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
    "key": "PLANS-23799",
    "name": "ACH - Incorrect Status in CSP Plan Transactions When a Refunded Transaction Is Returned/Declined",
    "status": "Backlog",
@@ -26270,13 +26309,6 @@
    "status": "PR Created",
    "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-23769",
-   "name": "MemberPortal/FindADentist/DCA Co-orp Office is displayed in search results",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
   },
   {
    "key": "PLANS-23768",
