@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T19:49:47+00:00",
+ "generated_at": "2026-09-28T20:00:31+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -6027,7 +6027,7 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -26260,8 +26260,8 @@
   {
    "key": "PLANS-23765",
    "name": "CSP \\ Plan update is not possible due age restriction",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "PR Created",
+   "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
   }
  ],
