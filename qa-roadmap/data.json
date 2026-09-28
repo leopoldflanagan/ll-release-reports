@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T16:15:22+00:00",
+ "generated_at": "2026-09-28T16:18:53+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -4116,6 +4116,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23544",
+   "name": "ONE SMILE site - Unable to add members",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-25T09:29:11.855-0700",
+   "resolved": "",
+   "due": "2026-09-28",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23542",
    "name": "ACH - Auto-Renewal Transactions Skip Approved /Settled Status and Display Directly as 'Paid' in PMP Transactions",
    "pod": "LL",
@@ -4142,58 +4168,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23546",
-   "name": "2-Year Plan One Smile - incorrect info on the box",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-25T09:48:02.434-0700",
-   "resolved": "",
-   "due": "2026-09-29",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23544",
-   "name": "ONE SMILE site - Unable to add members",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-25T09:29:11.855-0700",
-   "resolved": "",
-   "due": "2026-09-28",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23536",
    "name": "Member Portal- unable to purchase plan using ADD PLAN(no plans) && Add member button visible in member portal for Ad hoc plans",
    "pod": "LL",
@@ -4209,6 +4183,32 @@
    "due": "2026-09-28",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23546",
+   "name": "2-Year Plan One Smile - incorrect info on the box",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-25T09:48:02.434-0700",
+   "resolved": "",
+   "due": "2026-09-29",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
