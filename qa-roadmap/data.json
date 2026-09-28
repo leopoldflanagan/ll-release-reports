@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T21:45:23+00:00",
+ "generated_at": "2026-09-28T21:50:12+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -26285,33 +26285,17 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-18100",
-   "name": "WFP- email field - Unable to enter email",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Hunter Redhead",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-17T07:48:11.720-0700",
-   "resolved": "2026-06-30T14:45:59.343-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23805",
+   "name": "Member portal - there is not payment status for ACH transactions",
+   "status": "Backlog",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-23801",
    "name": "MemberPortal/FindADentist/Search form is displayed instead of the practice for a member whose plan is tied to one practice",
