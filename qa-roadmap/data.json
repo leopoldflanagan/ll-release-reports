@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T21:50:12+00:00",
+ "generated_at": "2026-09-28T22:00:26+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -4770,32 +4770,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23439",
-   "name": "ACH - Broken - Transactions are not displayed in CSP > Plan Transactions after the transaction is returned.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-23T11:52:14.524-0700",
-   "resolved": "",
-   "due": "2026-09-28",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23436",
    "name": "PMP-Stage-Renew expired plan with existing ACH account, not displaying payment method attached for Auto-renewal in Overview Plan summary and in Member Payment tab showing -Not attached to Plan beside ACH account",
    "pod": "PLANS",
@@ -4817,32 +4791,6 @@
    "triage": "",
    "parentKey": "PLANS-22044",
    "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23422",
-   "name": "ACH - Plan Transaction status not updated to 'Returned — refund unavailable' for Settled / Returned purchases.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-22T15:15:16.959-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5833,6 +5781,58 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23439",
+   "name": "ACH - Broken - Transactions are not displayed in CSP > Plan Transactions after the transaction is returned.",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-23T11:52:14.524-0700",
+   "resolved": "2026-09-28T14:59:38.636-0700",
+   "due": "2026-09-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23422",
+   "name": "ACH - Plan Transaction status not updated to 'Returned — refund unavailable' for Settled / Returned purchases.",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Shchekochykhin Vladyslav",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-22T15:15:16.959-0700",
+   "resolved": "2026-09-28T14:57:39.214-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23228",
    "name": "ACH - Broken - PMP - Incorrect Status Displayed for Refunds in Member Transactions",
@@ -26262,38 +26262,15 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-18606",
-   "name": "CSP - Marketing Details - Exceptions are not retained when switching between Display modes — they disappear after saving another template.",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "LL-Sprint 16-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-06-26T15:31:04.018-0700",
-   "resolved": "2026-06-30T14:52:13.618-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-14926",
-   "parentName": "Updates to Marketing Details",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
  "nopod": [
   {
    "key": "PLANS-23805",
-   "name": "Member portal - there is not payment status for ACH transactions",
+   "name": "Member Portal - No Payment Status Visibility for ACH Transactions (Declined, Returned, Refunded)",
    "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
