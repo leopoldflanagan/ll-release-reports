@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T15:30:24+00:00",
+ "generated_at": "2026-09-28T15:41:51+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -1652,32 +1652,6 @@
    "triage": "",
    "parentKey": "PLANS-22243",
    "parentName": "PLANS-22243: Epic 5: Provider Search - Frontend: Accessibility",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23564",
-   "name": "ACH Refund - Refund Receipt Opens Blank Page for ~20 Seconds Before Loading in member portal",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-25T16:20:32.907-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-23208",
-   "parentName": "[7] Logging ACH Refunds — Refund receipts and bulk transaction-history PDF, MP and PMP",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3519,6 +3493,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23564",
+   "name": "ACH Refund - Refund Receipt Opens Blank Page for ~20 Seconds Before Loading in member portal",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-25T16:20:32.907-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-23535",
    "name": "Stage - AUTO-RENEWAL ERROR in Amount charged",
    "pod": "PLANS",
@@ -4212,32 +4212,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23228",
-   "name": "ACH - Broken - PMP - Incorrect Status Displayed for Refunds in Member Transactions",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-18T08:38:42.447-0700",
-   "resolved": "",
-   "due": "2026-09-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
@@ -4961,6 +4935,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23228",
+   "name": "ACH - Broken - PMP - Incorrect Status Displayed for Refunds in Member Transactions",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-18T08:38:42.447-0700",
+   "resolved": "",
+   "due": "2026-09-25",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23186",
    "name": "PRODUCTION - Manage Patient/Overview - different status",
    "pod": "LL",
@@ -5579,32 +5579,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20043",
-   "name": "BLOCKED-All Cariengton practices - Missing custom logos in the membership agreement",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 22-26",
-   "who": "David Jones",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-21T15:12:06.080-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22486",
    "name": "Plan details - custom logos are missing",
    "pod": "LL",
@@ -6047,6 +6021,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-20043",
+   "name": "BLOCKED-All Cariengton practices - Missing custom logos in the membership agreement",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "David Jones",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-07-21T15:12:06.080-0700",
+   "resolved": "2026-09-28T08:38:17.802-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "parentKey": "PLANS-18470",
+   "parentName": "Plans 9.6 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23756",
    "name": "PMP/CSP History - Purchase Type Displays as \"Purchase\" for Refund Transactions",
