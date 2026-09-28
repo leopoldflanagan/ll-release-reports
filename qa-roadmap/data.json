@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T20:30:25+00:00",
+ "generated_at": "2026-09-28T20:40:49+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -26267,8 +26267,22 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-23801",
+   "name": "MemberPortal/FindADentist/Search form is displayed instead of the practice for a member whose plan is tied to one practice",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
+  {
+   "key": "PLANS-23800",
+   "name": "ACH - incorrect status visible in member transactions for initial purchase as ' refund unsuccessful'",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-23799",
-   "name": "ACH - incorrect status for refund returned - full",
+   "name": "ACH - Incorrect Status in CSP Plan Transactions When a Refunded Transaction Is Returned/Declined",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
@@ -26277,7 +26291,7 @@
    "key": "PLANS-23795",
    "name": "Auto renew \\ Minimum age restriction incorrectly blocks grandfathered members from renewing",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
   },
   {
