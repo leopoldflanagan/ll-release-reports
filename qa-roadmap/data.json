@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T03:45:23+00:00",
+ "generated_at": "2026-09-28T04:00:26+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -1451,6 +1451,32 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-23536",
+   "name": "Member Portal- unable to purchase plan using ADD PLAN(no plans) && Add member button visible in member portal for Ad hoc plans",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-25T03:01:00.309-0700",
+   "resolved": "",
+   "due": "2026-09-28",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23534",
    "name": "Digital Smiles (both plans)",
@@ -3557,32 +3583,6 @@
     "product_prioritized"
    ],
    "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23536",
-   "name": "Member Portal- unable to purchase plan using ADD PLAN(no plans) && Add member button visible in member portal for Ad hoc plans",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-25T03:01:00.309-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
