@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T06:00:27+00:00",
+ "generated_at": "2026-09-28T06:15:24+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -26156,6 +26156,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23749",
+   "name": "Member Portal/Find A Dentist/Elements in Find a Dentist form are not reachable or operable with keyboard",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-23547",
    "name": "PMP - Resent Welcome email button is enabled for inactive members - (Bug report yet to be updated by QA )",
