@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T08:45:23+00:00",
+ "generated_at": "2026-09-28T09:00:31+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -1451,32 +1451,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-23563",
-   "name": "Exclusions not reading from CSP to Smile Health",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-25T15:57:35.914-0700",
-   "resolved": "",
-   "due": "2026-09-29",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-23562",
    "name": "Digital Smiles - no plans showing on site",
@@ -4131,6 +4105,32 @@
    "triage": "",
    "parentKey": "PLANS-14520",
    "parentName": "Auto-Renewal Opt Out Report - External",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23563",
+   "name": "Exclusions not reading from CSP to Smile Health",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-25T15:57:35.914-0700",
+   "resolved": "",
+   "due": "2026-09-29",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
