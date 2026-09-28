@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T15:15:23+00:00",
+ "generated_at": "2026-09-28T15:20:47+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -4142,10 +4142,36 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23542",
+   "name": "ACH - Auto-Renewal Transactions Skip Approved /Settled Status and Display Directly as 'Paid' in PMP Transactions",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-25T08:37:47.903-0700",
+   "resolved": "",
+   "due": "2026-09-30",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23546",
    "name": "2-Year Plan One Smile - incorrect info on the box",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
@@ -4171,7 +4197,7 @@
    "key": "PLANS-23544",
    "name": "ONE SMILE site - Unable to add members",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 22-26",
@@ -4186,32 +4212,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23542",
-   "name": "ACH - Auto-Renewal Transactions Skip Approved /Settled Status and Display Directly as 'Paid' in PMP Transactions",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-25T08:37:47.903-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
