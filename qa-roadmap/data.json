@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T21:00:28+00:00",
+ "generated_at": "2026-09-28T21:14:11+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -1601,6 +1601,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23802",
+   "name": "ACH - Status Mismatch Between Receipt and Member Transactions for Partially Refunded Plan After Returned Refund",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-28T13:59:52.536-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22538",
+   "parentName": "[1] Logging ACH Refunds — Account History records every ACH money movement",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26289,13 +26312,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23802",
-   "name": "Purchase type shows as purchase for refunds in PMP member transactions",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-23801",
    "name": "MemberPortal/FindADentist/Search form is displayed instead of the practice for a member whose plan is tied to one practice",
