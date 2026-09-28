@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T07:30:24+00:00",
+ "generated_at": "2026-09-28T07:46:01+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -26160,7 +26160,7 @@
    "key": "PLANS-23749",
    "name": "Member Portal/Find A Dentist/Elements in Find a Dentist form are not reachable or operable with keyboard",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Vivienne Chawande"
   },
   {
