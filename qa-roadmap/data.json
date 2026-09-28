@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T14:00:29+00:00",
+ "generated_at": "2026-09-28T14:15:21+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -1452,32 +1452,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-23562",
-   "name": "PLANS-23562: Digital Smiles - no plans showing on site",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-25T15:41:23.981-0700",
-   "resolved": "",
-   "due": "2026-09-29",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23546",
    "name": "2-Year Plan One Smile - incorrect info on the box",
    "pod": "LL",
@@ -1582,29 +1556,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22011",
-   "name": "Dashboard -After purchasing a single ACH plan, the Plans Sold (YTD) count increases by 5 instead of 1.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "EDW-Sprint 22-26",
-   "who": "Lloyd Tokerud",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-28T12:25:36.625-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-21609",
    "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
    "pod": "LL",
@@ -1653,6 +1604,52 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "EDW-2396",
+   "name": "Dashboard -After purchasing a single ACH plan, the Plans Sold (YTD) count increases by 5 instead of 1.",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "EDW-Sprint 22-26",
+   "who": "Lloyd Tokerud",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T12:25:36.625-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23753",
+   "name": "PMP-Stage-Manage Payments Footer for Unassigned plan don't show 'Go To Plan' link",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-28T06:55:02.903-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22046",
+   "parentName": "[3] Payment Wallet and Plans Enhancement - Method visibility, safe removal, and remediation on Manage Payments",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -1736,7 +1733,7 @@
   },
   {
    "key": "PLANS-23547",
-   "name": "PMP - Resent Welcome email button is enabled for inactive members - (Bug report yet to be updated by QA )",
+   "name": "PMP - Resent Welcome email button is enabled for inactive members",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
@@ -4592,6 +4589,32 @@
    "triage": "",
    "parentKey": "PLANS-10457",
    "parentName": "Plans Marketplace Post MVP (Fast Follow)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23562",
+   "name": "PLANS-23562: Smile Health: Digital Smiles: no plans showing on site",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-25T15:41:23.981-0700",
+   "resolved": "",
+   "due": "2026-09-29",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -26191,13 +26214,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23753",
-   "name": "PMP-Stage-Manage Payments Footer for Unassigned plan don't show 'Go To Plan' link",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur"
-  },
   {
    "key": "PLANS-23750",
    "name": "PMP \\ Manual Renewal age restriction behavior does not match Member Portal",
