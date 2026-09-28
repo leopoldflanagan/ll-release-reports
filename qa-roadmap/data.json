@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T05:00:25+00:00",
+ "generated_at": "2026-09-28T05:15:24+00:00",
  "today": "2026-09-28",
  "features": [
   {
@@ -1451,6 +1451,32 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-23544",
+   "name": "ONE SMILE site - Unable to add members",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 22-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-25T09:29:11.855-0700",
+   "resolved": "",
+   "due": "2026-09-28",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23534",
    "name": "Digital Smiles (both plans)",
@@ -3498,32 +3524,6 @@
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-09-25T09:48:02.434-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23544",
-   "name": "ONE SMILE site - Unable to add members",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 22-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-25T09:29:11.855-0700",
    "resolved": "",
    "due": "",
    "labels": [
