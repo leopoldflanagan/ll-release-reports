@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T12:45:23+00:00",
+ "generated_at": "2026-09-29T12:53:41+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1554,32 +1554,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-21609",
-   "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-08-19T20:03:36.639-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-21605",
@@ -4110,6 +4084,32 @@
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21609",
+   "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-19T20:03:36.639-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
