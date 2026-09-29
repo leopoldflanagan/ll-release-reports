@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T09:00:42+00:00",
+ "generated_at": "2026-09-29T09:15:21+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26479,29 +26479,6 @@
    "triage": "",
    "parentKey": "PLANS-17458",
    "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18482",
-   "name": "[DCA/KOS] - Zipcode search returns offices not set to be seen",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 16-26",
-   "who": "Petro Yarish",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-06-24T15:44:01.698-0700",
-   "resolved": "2026-07-01T02:01:35.532-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
