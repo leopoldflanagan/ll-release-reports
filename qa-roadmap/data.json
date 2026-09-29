@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T19:30:23+00:00",
+ "generated_at": "2026-09-29T19:42:13+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -5989,7 +5989,10 @@
    "created": "2026-09-29T11:43:18.871-0700",
    "resolved": "2026-09-29T12:18:35.464-0700",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-21806",
