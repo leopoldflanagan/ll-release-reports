@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T19:00:28+00:00",
+ "generated_at": "2026-09-29T19:13:08+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1478,32 +1478,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23801",
-   "name": "PLANS-23801: Member Portal: Find A Dentist: Search form is displayed instead of the practice for a member whose plan is tied to one practice",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-09-28T13:35:06.965-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22237",
-   "parentName": "PLANS-22237: Epic 3: Provider Search - Frontend: Member Portal find-a-dentist page",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23769",
    "name": "PLANS-23769: Member Portal: Find A Dentist: DCA Co-orp office is displayed in search results",
    "pod": "LL",
@@ -1604,6 +1578,81 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-21505",
+   "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-18T11:51:13.130-0700",
+   "resolved": "",
+   "due": "2026-09-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23849",
+   "name": "Member portal - broken - primary member's plan is not available in the list of plans when attempting to add a new plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-29T11:43:18.871-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23845",
+   "name": "Member Portal \\ Auto renew toggle turned OFF after adding a new plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-29T11:22:01.285-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5481,32 +5530,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-21505",
-   "name": "DCA - Member portal - WF share amount not Discounted when Add Additional member (ADD PLAN)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-18T11:51:13.130-0700",
-   "resolved": "",
-   "due": "2026-09-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-20925",
    "name": "Stage - Member Portal - Treatments are not displayed for members",
    "pod": "LL",
@@ -5975,6 +5998,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23801",
+   "name": "PLANS-23801: Member Portal: Find A Dentist: Search form is displayed instead of the practice for a member whose plan is tied to one practice",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-09-28T13:35:06.965-0700",
+   "resolved": "2026-09-29T12:06:02.760-0700",
+   "due": "2026-09-30",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22237",
+   "parentName": "PLANS-22237: Epic 3: Provider Search - Frontend: Member Portal find-a-dentist page",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22909",
    "name": "Member Portal \\ Add Plan flow throws 400 code error at checkout screen",
@@ -26545,25 +26594,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-23849",
-   "name": "Member portal - ADD PLAN - exising plan not visible [bug report inprogress]",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
    "key": "PLANS-23846",
    "name": "Office shows preselected on Assign patient ID modal when switching views",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Hazel Loya"
-  },
-  {
-   "key": "PLANS-23845",
-   "name": "Member Portal \\ Auto renew toggle turned OFF after adding a new plan",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-23844",
