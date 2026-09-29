@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T14:30:28+00:00",
+ "generated_at": "2026-09-29T14:42:27+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1574,29 +1574,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "EDW-2396",
-   "name": "Dashboard -After purchasing a single ACH plan, the Plans Sold (YTD) count increases by 5 instead of 1.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "EDW-Sprint 23-26",
-   "who": "Lloyd Tokerud",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-28T12:25:36.625-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
@@ -6070,6 +6047,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "EDW-2396",
+   "name": "Dashboard -After purchasing a single ACH plan, the Plans Sold (YTD) count increases by 5 instead of 1.",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "EDW-Sprint 23-26",
+   "who": "Lloyd Tokerud",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T12:25:36.625-0700",
+   "resolved": "2026-09-29T07:40:32.412-0700",
+   "due": "",
+   "labels": [],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23439",
    "name": "ACH - Broken - Transactions are not displayed in CSP > Plan Transactions after the transaction is returned.",
