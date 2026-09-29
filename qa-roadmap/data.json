@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T00:30:25+00:00",
+ "generated_at": "2026-09-29T00:45:22+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1660,11 +1660,14 @@
    "sprint": "LL-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-09-28T13:34:39.763-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22538",
@@ -1679,15 +1682,18 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": "LL-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-09-28T13:15:27.977-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22538",
@@ -1706,11 +1712,14 @@
    "sprint": "LL-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-09-28T10:46:27.318-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22237",
