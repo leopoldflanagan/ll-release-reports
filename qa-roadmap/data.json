@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T22:15:40+00:00",
+ "generated_at": "2026-09-29T22:30:23+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26429,29 +26429,6 @@
    "triage": "",
    "parentKey": "PLANS-14926",
    "parentName": "Updates to Marketing Details",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18791",
-   "name": "CSP \\ Preprod purchase options dropdown values are not displayed when purchasing a WFP Plan",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-07-01T13:41:09.130-0700",
-   "resolved": "2026-07-01T15:15:40.104-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
