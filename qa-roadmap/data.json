@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T21:51:24+00:00",
+ "generated_at": "2026-09-29T22:00:29+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26465,13 +26465,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-23857",
-   "name": "Edit/ Remove External ID is not reflected on Account History",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Hazel Loya"
   },
   {
    "key": "PLANS-23856",
