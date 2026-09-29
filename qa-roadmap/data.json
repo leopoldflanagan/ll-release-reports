@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T14:17:46+00:00",
+ "generated_at": "2026-09-29T14:30:28+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -4396,58 +4396,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23795",
-   "name": "Auto renew \\ Minimum age restriction incorrectly blocks grandfathered members from renewing",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-28T13:17:09.178-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23765",
-   "name": "CSP \\ Plan update is not possible due age restriction",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-28T09:25:30.414-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23542",
    "name": "ACH - Auto-Renewal Transactions Skip Approved /Settled Status and Display Directly as 'Paid' in PMP Transactions",
    "pod": "LL",
@@ -4495,6 +4443,58 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23795",
+   "name": "Auto renew \\ Minimum age restriction incorrectly blocks grandfathered members from renewing",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-28T13:17:09.178-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23765",
+   "name": "CSP \\ Plan update is not possible due age restriction",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-28T09:25:30.414-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
