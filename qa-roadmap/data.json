@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T22:48:55+00:00",
+ "generated_at": "2026-09-29T23:00:26+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26429,29 +26429,6 @@
    "triage": "",
    "parentKey": "PLANS-17458",
    "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18753",
-   "name": "CSP - When Switching between Display modes previous data is removed",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "LL-Sprint 16-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-30T14:45:56.424-0700",
-   "resolved": "2026-07-01T15:55:14.241-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-14926",
-   "parentName": "Updates to Marketing Details",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
