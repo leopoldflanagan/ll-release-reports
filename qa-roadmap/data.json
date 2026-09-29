@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T19:45:22+00:00",
+ "generated_at": "2026-09-29T19:51:28+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26598,7 +26598,7 @@
  "nopod": [
   {
    "key": "PLANS-23852",
-   "name": "Member Portal/FindADentist/Accessibility Screen Reader does not work on the page",
+   "name": "Member Portal/FindADentist/Accessibility Screen Reader does not read aloud the navigation",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
