@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T19:42:13+00:00",
+ "generated_at": "2026-09-29T19:45:22+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26596,6 +26596,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23852",
+   "name": "Member Portal/FindADentist/Accessibility Screen Reader does not work on the page",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-23846",
    "name": "Office shows preselected on Assign patient ID modal when switching views",
