@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-28T23:50:42+00:00",
- "today": "2026-09-28",
+ "generated_at": "2026-09-29T00:00:30+00:00",
+ "today": "2026-09-29",
  "features": [
   {
    "key": "WT-993",
@@ -26289,6 +26289,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23820",
+   "name": "Provider Portal \\ Age restriction is not blocking the members from purchasing plans",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-23805",
    "name": "Member Portal - No Payment Status Visibility for ACH Transactions (Declined, Returned, Refunded)",
