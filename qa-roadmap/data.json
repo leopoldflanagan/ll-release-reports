@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T18:30:24+00:00",
+ "generated_at": "2026-09-29T18:45:23+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26544,6 +26544,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23849",
+   "name": "Member portal - ADD PLAN - exising plan not visible [bug report inprogress]",
+   "status": "Backlog",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-23846",
    "name": "Office shows preselected on Assign patient ID modal when switching views",
