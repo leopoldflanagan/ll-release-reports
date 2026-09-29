@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T15:45:24+00:00",
+ "generated_at": "2026-09-29T15:53:01+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -3620,32 +3620,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-23535",
-   "name": "Stage - AUTO-RENEWAL ERROR in Amount charged",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-24T20:33:55.269-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23527",
    "name": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
    "pod": "LL",
@@ -6047,6 +6021,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23535",
+   "name": "Stage - AUTO-RENEWAL ERROR in Amount charged",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-24T20:33:55.269-0700",
+   "resolved": "2026-09-29T08:47:02.307-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "EDW-2396",
    "name": "Dashboard -After purchasing a single ACH plan, the Plans Sold (YTD) count increases by 5 instead of 1.",
