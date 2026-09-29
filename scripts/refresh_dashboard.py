@@ -355,6 +355,52 @@ def splice(html, marker_decl, new_decl):
     return pat.sub(lambda m: new_decl, html, count=1)
 
 
+# ---- Guard: never publish a collapsed snapshot ----------------------------
+# Every feature query depends on field values that live ON the Feature itself
+# (Pod cf[11626], Theme cf[12146]) and on the issue type still being named
+# "Feature". The Sept 2026 move of Features into the WT "Wellfit Portfolio"
+# project left all three intact - but if a later step moves Theme up to the
+# Initiative parent, the JQL keeps returning HTTP 200 with zero rows. Without
+# this check the bot would publish an empty data.json, the dashboard would go
+# blank, and the run log would say nothing was wrong.
+COLLAPSE_FLOOR = 0.5   # abort if a dataset falls below half the last snapshot
+GUARDED = ("features", "features_all", "bugs")
+
+
+def guard_snapshot(path, payload):
+    """Abort before writing if the pulls came back empty or collapsed."""
+    if os.environ.get("ALLOW_COLLAPSE") == "1":
+        print("  guard: skipped (ALLOW_COLLAPSE=1)")
+        return
+
+    empty = [k for k in GUARDED if not payload.get(k)]
+    if empty:
+        sys.exit(
+            "ERROR: refusing to publish - these datasets came back EMPTY: "
+            + ", ".join(empty) + ".\n"
+            "The Jira queries returned no rows. Most likely a field or issue "
+            "type changed: Pod cf[11626], Theme cf[12146], or 'issuetype = "
+            "Feature'. Check THEMES and the JQL in this file.\n"
+            "data.json was NOT modified.")
+
+    try:
+        with open(path, encoding="utf-8") as fh:
+            prev = json.load(fh)
+    except (OSError, ValueError):
+        print("  guard: no readable previous snapshot - size check skipped")
+        return
+
+    for k in GUARDED:
+        was, now = len(prev.get(k) or []), len(payload.get(k) or [])
+        if was and now < was * COLLAPSE_FLOOR:
+            sys.exit(
+                f"ERROR: refusing to publish - '{k}' collapsed from {was} to "
+                f"{now} ({now / was:.0%} of the previous snapshot).\n"
+                "If this drop is real, re-run once with ALLOW_COLLAPSE=1 to "
+                "accept it. data.json was NOT modified.")
+    print("  guard: snapshot sizes OK")
+
+
 def main():
     # New architecture: the script writes a data-only JSON file.
     # The HTML never gets touched by the bot — it fetches this JSON at load time.
@@ -395,6 +441,8 @@ def main():
         "nopod": nopod,
         "weeks": weeks,
     }
+
+    guard_snapshot(path, payload)
 
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=1)
