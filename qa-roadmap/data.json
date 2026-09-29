@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T23:15:24+00:00",
+ "generated_at": "2026-09-29T23:27:45+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26406,29 +26406,6 @@
    "triage": "",
    "parentKey": "PLANS-14926",
    "parentName": "Updates to Marketing Details",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18396",
-   "name": "Stage - Member Portal - The theme changes when refreshing the page",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-06-22T14:06:55.351-0700",
-   "resolved": "2026-07-01T16:25:00.623-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
