@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T20:30:26+00:00",
+ "generated_at": "2026-09-29T20:41:14+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26569,29 +26569,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18515",
-   "name": "Blocker - Stage - Member Portal - The Terms and Conditions modal is not displayed",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "LL-Sprint 16-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-06-25T08:28:52.798-0700",
-   "resolved": "2026-07-01T13:33:03.280-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-16233",
-   "parentName": "Epic 2 Member portal terms and conditions on initial login",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
