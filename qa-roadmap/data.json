@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T08:30:24+00:00",
+ "generated_at": "2026-09-29T08:45:20+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1707,13 +1707,13 @@
   },
   {
    "key": "PLANS-23801",
-   "name": "MemberPortal/FindADentist/Search form is displayed instead of the practice for a member whose plan is tied to one practice",
+   "name": "PLANS-23801: Member Portal: Find A Dentist: Search form is displayed instead of the practice for a member whose plan is tied to one practice",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-09-28T13:35:06.965-0700",
@@ -1759,7 +1759,7 @@
   },
   {
    "key": "PLANS-23768",
-   "name": "Member Portal/FindADentist/Search button remains enabled on clearing the Distance selection",
+   "name": "PLANS-23768: Member Portal: Find A Dentist: Search button remains enabled on clearing the distance selection",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -3725,13 +3725,13 @@
   },
   {
    "key": "PLANS-23769",
-   "name": "MemberPortal/FindADentist/DCA Co-orp Office is displayed in search results",
+   "name": "PLANS-23769: Member Portal: Find A Dentist: DCA Co-orp office is displayed in search results",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-09-28T10:46:27.318-0700",
