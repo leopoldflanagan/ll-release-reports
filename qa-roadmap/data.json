@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T13:19:50+00:00",
+ "generated_at": "2026-09-29T13:30:26+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1601,6 +1601,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23830",
+   "name": "ACH Auto Renew - Old Plan Payment Status Incorrectly Changes to \"Returned\" After Auto Renewal",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-29T06:14:06.725-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22538",
+   "parentName": "[1] Logging ACH Refunds — Account History records every ACH money movement",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26486,13 +26509,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23830",
-   "name": "ACH -Auto Renew - old plan Payment status incorrectly shows as 'Returned' when plan is auto renewed.",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-23805",
    "name": "Member Portal - No Payment Status Visibility for ACH Transactions (Declined, Returned, Refunded)",
