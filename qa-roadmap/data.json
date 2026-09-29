@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T21:00:25+00:00",
+ "generated_at": "2026-09-29T21:15:10+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26526,33 +26526,24 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-17591",
-   "name": "VM - Eaglesoft - member with treatments linked to provider portal ; treatments are not showing in treatment tab",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Vivienne Chawande",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-05T03:39:44.731-0700",
-   "resolved": "2026-07-01T14:05:01.347-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23857",
+   "name": "Edit/ Remove External ID is not reflected on Account History",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  },
+  {
+   "key": "PLANS-23856",
+   "name": "CSP \\ Unable to overwrite plan price for DCA plans",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-23846",
    "name": "Office shows preselected on Assign patient ID modal when switching views",
