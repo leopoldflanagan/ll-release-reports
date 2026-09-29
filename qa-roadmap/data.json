@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T17:45:20+00:00",
+ "generated_at": "2026-09-29T17:53:44+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26544,6 +26544,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23844",
+   "name": "Account Information | None membership is not showing added ID until after selecting history",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  },
   {
    "key": "PLANS-23805",
    "name": "Member Portal - No Payment Status Visibility for ACH Transactions (Declined, Returned, Refunded)",
