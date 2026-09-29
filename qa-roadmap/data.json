@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T22:00:29+00:00",
+ "generated_at": "2026-09-29T22:15:23+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1471,8 +1471,8 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22237",
-   "parentName": "PLANS-22237: Epic 3: Provider Search - Frontend: Member Portal find-a-dentist page",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1561,7 +1561,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": "LL-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
@@ -1575,9 +1575,9 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22243",
-   "parentName": "PLANS-22243: Epic 5: Provider Search - Frontend: Accessibility",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -1639,8 +1639,8 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 23-26",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Ivan Yarymovych",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
@@ -1653,11 +1653,11 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22237",
-   "parentName": "PLANS-22237: Epic 3: Provider Search - Frontend: Member Portal find-a-dentist page",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-23750",
@@ -6047,8 +6047,8 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22237",
-   "parentName": "PLANS-22237: Epic 3: Provider Search - Frontend: Member Portal find-a-dentist page",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6151,8 +6151,8 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22243",
-   "parentName": "PLANS-22243: Epic 5: Provider Search - Frontend: Accessibility",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
