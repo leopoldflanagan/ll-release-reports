@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T08:00:26+00:00",
+ "generated_at": "2026-09-29T08:15:22+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1451,6 +1451,32 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-23749",
+   "name": "Member Portal/Find A Dentist/Elements in Find a Dentist form are not reachable or operable with keyboard",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-09-27T23:12:30.083-0700",
+   "resolved": "",
+   "due": "2026-09-30",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22243",
+   "parentName": "PLANS-22243: Epic 5: Provider Search - Frontend: Accessibility",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23534",
    "name": "Digital Smiles (both plans)",
@@ -3771,32 +3797,6 @@
    "triage": "",
    "parentKey": "PLANS-22046",
    "parentName": "[3] Payment Wallet and Plans Enhancement - Method visibility, safe removal, and remediation on Manage Payments",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23749",
-   "name": "Member Portal/Find A Dentist/Elements in Find a Dentist form are not reachable or operable with keyboard",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-09-27T23:12:30.083-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22243",
-   "parentName": "PLANS-22243: Epic 5: Provider Search - Frontend: Accessibility",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
