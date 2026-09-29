@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T21:30:15+00:00",
+ "generated_at": "2026-09-29T21:42:30+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1473,32 +1473,6 @@
    "triage": "",
    "parentKey": "PLANS-22237",
    "parentName": "PLANS-22237: Epic 3: Provider Search - Frontend: Member Portal find-a-dentist page",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23483",
-   "name": "PMP-Stage-Plan should auto-renewed but failing with error",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-09-24T08:15:50.466-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22044",
-   "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4270,6 +4244,32 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23483",
+   "name": "PMP-Stage-Plan should auto-renewed but failing with error",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-09-24T08:15:50.466-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22044",
+   "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
