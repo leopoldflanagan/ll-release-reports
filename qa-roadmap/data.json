@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T21:45:22+00:00",
+ "generated_at": "2026-09-29T21:51:24+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -26455,58 +26455,17 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-18794",
-   "name": "[Member Portal] - Preprod -Add Member button is not triggering any action",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-01T13:56:40.304-0700",
-   "resolved": "2026-07-01T14:50:51.971-0700",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18778",
-   "name": "Member Portal \\ Preprod plan cards are not displayed when manually renewing a plan about to expire",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-07-01T13:27:30.119-0700",
-   "resolved": "2026-07-01T14:48:46.026-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23863",
+   "name": "Promo Code/Promo Code Validity Date is not honored while applying Promo in the purchase checkout",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-23857",
    "name": "Edit/ Remove External ID is not reflected on Account History",
