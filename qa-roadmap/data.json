@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T19:13:08+00:00",
+ "generated_at": "2026-09-29T19:15:22+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1610,12 +1610,12 @@
   {
    "key": "PLANS-23849",
    "name": "Member portal - broken - primary member's plan is not available in the list of plans when attempting to add a new plan",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 23-26",
-   "who": "Anuradhi Wickramasinghe",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-29T11:43:18.871-0700",
