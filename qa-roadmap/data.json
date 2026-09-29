@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T10:00:30+00:00",
+ "generated_at": "2026-09-29T10:15:29+00:00",
  "today": "2026-09-29",
  "features": [
   {
@@ -1499,32 +1499,6 @@
    "triage": "",
    "parentKey": "PLANS-22237",
    "parentName": "PLANS-22237: Epic 3: Provider Search - Frontend: Member Portal find-a-dentist page",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23749",
-   "name": "PLANS-23749: Member Portal: Find A Dentist: Elements in a form are not reachable or operable with keyboard",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-09-27T23:12:30.083-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22243",
-   "parentName": "PLANS-22243: Epic 5: Provider Search - Frontend: Accessibility",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4745,6 +4719,32 @@
    "triage": "",
    "parentKey": "PLANS-10457",
    "parentName": "Plans Marketplace Post MVP (Fast Follow)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23749",
+   "name": "PLANS-23749: Member Portal: Find A Dentist: Elements in a form are not reachable or operable with keyboard",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-09-27T23:12:30.083-0700",
+   "resolved": "",
+   "due": "2026-09-30",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22243",
+   "parentName": "PLANS-22243: Epic 5: Provider Search - Frontend: Accessibility",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
