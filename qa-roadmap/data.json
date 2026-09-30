@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T10:15:22+00:00",
+ "generated_at": "2026-09-30T10:30:24+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -1606,13 +1606,13 @@
   },
   {
    "key": "PLANS-23852",
-   "name": "Member Portal/FindADentist/Accessibility Screen Reader does not read aloud the navigation",
+   "name": "PLANS-23852: Member Portal: Find A Dentist: Accessibility Screen Reader does not read aloud the navigation",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-09-29T12:43:55.201-0700",
