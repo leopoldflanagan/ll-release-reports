@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T11:45:21+00:00",
+ "generated_at": "2026-09-30T12:00:24+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -1451,6 +1451,32 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-23878",
+   "name": "PDF's - Additional Benefits was not implemented correctly",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-30T04:48:06.334-0700",
+   "resolved": "",
+   "due": "2026-10-02",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23845",
    "name": "Member Portal \\ Auto renew toggle turned OFF after adding a new plan",
