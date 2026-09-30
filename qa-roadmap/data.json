@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T14:43:53+00:00",
+ "generated_at": "2026-09-30T14:45:25+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -4736,7 +4736,7 @@
    "sprint": "Plans-Sprint 23-26",
    "who": "David Jones",
    "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-09-28T16:55:29.405-0700",
    "resolved": "",
    "due": "",
