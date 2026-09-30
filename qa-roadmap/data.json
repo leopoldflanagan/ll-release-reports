@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T22:30:26+00:00",
+ "generated_at": "2026-09-30T22:40:47+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -1568,6 +1568,32 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23856",
+   "name": "CSP \\ Unable to overwrite plan price for DCA plans",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-29T14:09:03.423-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26380,13 +26406,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Hazel Loya"
-  },
-  {
-   "key": "PLANS-23856",
-   "name": "CSP \\ Unable to overwrite plan price for DCA plans",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-23805",
