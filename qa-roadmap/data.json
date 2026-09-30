@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T15:15:24+00:00",
+ "generated_at": "2026-09-30T15:22:03+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -131,7 +131,7 @@
   {
    "key": "WT-1055",
    "name": "Plan Prioritization",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-28",
    "fv": "R9.8",
    "who": "Nazarii Polinyk",
@@ -186,7 +186,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Development",
-   "ted": "2026-09-25",
+   "ted": "2026-11-04",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -361,7 +361,7 @@
   {
    "key": "WT-1055",
    "name": "Plan Prioritization",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-28",
    "fv": "R9.8",
    "who": "Nazarii Polinyk",
@@ -659,7 +659,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Development",
-   "ted": "2026-09-25",
+   "ted": "2026-11-04",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -992,7 +992,7 @@
    "name": "Plan Prioritization",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
    "ted": "2026-09-28",
    "who": "Nazarii Polinyk",
@@ -1291,7 +1291,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-09-25",
+   "ted": "2026-11-04",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
@@ -1552,6 +1552,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23882",
+   "name": "Plan details - Auto renewal text not sourced from CSP settings.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-30T08:11:00.449-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4220,32 +4243,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23845",
-   "name": "Member Portal \\ Auto renew toggle turned OFF after adding a new plan",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-29T11:22:01.285-0700",
-   "resolved": "",
-   "due": "2026-10-02",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23769",
    "name": "PLANS-23769: Member Portal: Find A Dentist: DCA Co-orp office is displayed in search results",
    "pod": "LL",
@@ -4293,6 +4290,32 @@
    "triage": "",
    "parentKey": "PLANS-22044",
    "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23845",
+   "name": "Member Portal \\ Auto renew toggle turned OFF after adding a new plan",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-29T11:22:01.285-0700",
+   "resolved": "",
+   "due": "2026-10-02",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -26399,13 +26422,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23882",
-   "name": "Plan details - Auto renewal text not sourced from CSP settings.",
-   "status": "Backlog",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-23856",
    "name": "CSP \\ Unable to overwrite plan price for DCA plans",
