@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-29T23:49:36+00:00",
- "today": "2026-09-29",
+ "generated_at": "2026-09-30T00:00:26+00:00",
+ "today": "2026-09-30",
  "features": [
   {
    "key": "WT-993",
@@ -26383,29 +26383,6 @@
    "triage": "",
    "parentKey": "PLANS-17458",
    "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18417",
-   "name": "Fix Legacy Details",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Chris Rubio",
-   "reporter": "Chris Rubio",
-   "prio": "3: Standard",
-   "created": "2026-06-23T11:01:03.794-0700",
-   "resolved": "2026-07-01T16:55:50.851-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-14926",
-   "parentName": "Updates to Marketing Details",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
