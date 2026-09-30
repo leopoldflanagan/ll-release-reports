@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T16:53:07+00:00",
+ "generated_at": "2026-09-30T17:00:29+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -1473,6 +1473,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23905",
+   "name": "WF Share - PMP Add Plan Charges Full WF Share Instead of Discounted Amount",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-30T09:49:26.889-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26392,13 +26415,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-23905",
-   "name": "WF share - PMP Add Plan charges full WF share instead of discounted amount",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-23856",
    "name": "CSP \\ Unable to overwrite plan price for DCA plans",
