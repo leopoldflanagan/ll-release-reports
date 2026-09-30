@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T16:18:55+00:00",
+ "generated_at": "2026-09-30T16:30:27+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -194,17 +194,6 @@
  ],
  "features_all": [
   {
-   "key": "WT-1065",
-   "name": "EDW Reporting for Admin Fee Splits",
-   "status": "In Development",
-   "ted": null,
-   "fv": "R9.8",
-   "who": "Sushma Bankar",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "WT-724",
    "name": "Dynamic Admin Fees in Email Journeys",
    "status": "In Testing",
@@ -229,7 +218,7 @@
   {
    "key": "WT-1018",
    "name": "Promo codes enhancement -Apply GIFTCORE at autorenewal for migrated DCA customers",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-09-25",
    "fv": "R9.8",
    "who": "Daniel Marineni",
@@ -823,17 +812,6 @@
  ],
  "all": [
   {
-   "key": "WT-1065",
-   "name": "EDW Reporting for Admin Fee Splits",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "In Development",
-   "fv": "R9.8",
-   "ted": null,
-   "who": "Sushma Bankar",
-   "theme": "LL-MVP"
-  },
-  {
    "key": "WT-724",
    "name": "Dynamic Admin Fees in Email Journeys",
    "pod": "DYN",
@@ -860,7 +838,7 @@
    "name": "Promo codes enhancement -Apply GIFTCORE at autorenewal for migrated DCA customers",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.8",
    "ted": "2026-09-25",
    "who": "Daniel Marineni",
