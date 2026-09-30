@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T17:00:29+00:00",
+ "generated_at": "2026-09-30T17:14:46+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -1491,11 +1491,11 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3561,6 +3561,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23908",
+   "name": "GIFTCORE Promo - continues to be allowed in production when it was removed",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-30T10:07:16.187-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23753",
    "name": "PMP-Stage-Manage Payments Footer for Unassigned plan don't show 'Go To Plan' link",
    "pod": "PLANS",
@@ -4288,32 +4314,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23769",
-   "name": "PLANS-23769: Member Portal: Find A Dentist: DCA Co-orp office is displayed in search results",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-09-28T10:46:27.318-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23523",
    "name": "Member Portal \\ Age restriction validation does not follow the behavior implemented in other portals",
    "pod": "PLANS",
@@ -4816,6 +4816,32 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23769",
+   "name": "PLANS-23769: Member Portal: Find A Dentist: DCA Co-orp office is displayed in search results",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-09-28T10:46:27.318-0700",
+   "resolved": "",
+   "due": "2026-09-30",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
