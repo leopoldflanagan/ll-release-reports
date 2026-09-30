@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T22:00:25+00:00",
+ "generated_at": "2026-09-30T22:15:22+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -3569,7 +3569,7 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": null,
    "who": "Daryl Myrick",
    "reporter": "Vera King",
