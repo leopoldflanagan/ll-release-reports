@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T17:14:46+00:00",
+ "generated_at": "2026-09-30T17:15:21+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -3567,7 +3567,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.8",
-   "sprint": null,
+   "sprint": "Plans-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
@@ -5549,8 +5549,8 @@
    "key": "PLANS-22486",
    "name": "Plan details - custom logos are missing",
    "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
+   "status": "Will Not Implement",
+   "cat": "To Do",
    "fv": "R9.8",
    "sprint": "LL-Sprint 23-26",
    "who": "Dima Shtympel",
