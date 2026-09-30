@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T13:30:26+00:00",
+ "generated_at": "2026-09-30T13:42:01+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -5485,7 +5485,7 @@
    "cat": "In Progress",
    "fv": "R9.8",
    "sprint": "LL-Sprint 23-26",
-   "who": "Shchekochykhin Vladyslav",
+   "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-04T07:26:01.892-0700",
@@ -5777,7 +5777,7 @@
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "LL-Sprint 23-26",
-   "who": "Shchekochykhin Vladyslav",
+   "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-07-22T08:47:16.230-0700",
