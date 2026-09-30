@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T15:00:30+00:00",
+ "generated_at": "2026-09-30T15:15:24+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -41,7 +41,7 @@
   {
    "key": "WT-1029",
    "name": "PDF Enhancements",
-   "status": "In Testing",
+   "status": "Blocked",
    "ted": "2026-10-02",
    "fv": "R9.8",
    "who": "Dima Shtympel",
@@ -273,7 +273,7 @@
   {
    "key": "WT-1029",
    "name": "PDF Enhancements",
-   "status": "In Testing",
+   "status": "Blocked",
    "ted": "2026-10-02",
    "fv": "R9.8",
    "who": "Dima Shtympel",
@@ -904,7 +904,7 @@
    "name": "PDF Enhancements",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Testing",
+   "status": "Blocked",
    "fv": "R9.8",
    "ted": "2026-10-02",
    "who": "Dima Shtympel",
@@ -1662,7 +1662,7 @@
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Daniel Marineni",
    "reporter": "Hazel Loya",
@@ -4246,32 +4246,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23823",
-   "name": "Plans details PDF - Misc. Bugs for Plans Go Live Phase 2",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-28T18:20:55.198-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23769",
    "name": "PLANS-23769: Member Portal: Find A Dentist: DCA Co-orp office is displayed in search results",
    "pod": "LL",
@@ -4345,6 +4319,32 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23823",
+   "name": "Plans details PDF - Misc. Bugs for Plans Go Live Phase 2",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-28T18:20:55.198-0700",
+   "resolved": "",
+   "due": "2026-09-30",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -26399,6 +26399,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23882",
+   "name": "Plan details - Auto renewal text not sourced from CSP settings.",
+   "status": "Backlog",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-23856",
    "name": "CSP \\ Unable to overwrite plan price for DCA plans",
