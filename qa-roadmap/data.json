@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T13:02:07+00:00",
+ "generated_at": "2026-09-30T13:15:23+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -1463,32 +1463,6 @@
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-09-30T04:48:06.334-0700",
-   "resolved": "",
-   "due": "2026-10-02",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23845",
-   "name": "Member Portal \\ Auto renew toggle turned OFF after adding a new plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-29T11:22:01.285-0700",
    "resolved": "",
    "due": "2026-10-02",
    "labels": [
@@ -4163,6 +4137,32 @@
    "triage": "",
    "parentKey": "PLANS-14520",
    "parentName": "Auto-Renewal Opt Out Report - External",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23845",
+   "name": "Member Portal \\ Auto renew toggle turned OFF after adding a new plan",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-29T11:22:01.285-0700",
+   "resolved": "",
+   "due": "2026-10-02",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
