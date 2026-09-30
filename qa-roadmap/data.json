@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T18:30:31+00:00",
+ "generated_at": "2026-09-30T18:45:12+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -4415,6 +4415,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23823",
+   "name": "Plans details PDF - Misc. Bugs for Plans Go Live Phase 2",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-28T18:20:55.198-0700",
+   "resolved": "",
+   "due": "2026-09-30",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23794",
    "name": "ACH - Incorrect Remaining Amount and Status in CSP Plan Transactions After Returned Partial Refund",
    "pod": "LL",
@@ -4462,32 +4488,6 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23823",
-   "name": "Plans details PDF - Misc. Bugs for Plans Go Live Phase 2",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-28T18:20:55.198-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -26401,29 +26401,6 @@
    "prio": "3: Standard",
    "created": "2026-06-03T07:38:39.308-0700",
    "resolved": "2026-07-02T12:05:31.847-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-13781",
-   "name": "[Existing Broken] Plan Confirmation email - displays two unexpected green lines when viewed in Gmail.",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Conor Kamperman",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-04-08T08:56:08.802-0700",
-   "resolved": "2026-07-02T11:41:27.146-0700",
    "due": "",
    "labels": [],
    "theme": "LL-MVP",
