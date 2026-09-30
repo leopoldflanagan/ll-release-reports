@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T17:15:21+00:00",
+ "generated_at": "2026-09-30T17:30:23+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -3568,7 +3568,7 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 23-26",
-   "who": "Unassigned",
+   "who": "Daryl Myrick",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-09-30T10:07:16.187-0700",
@@ -4366,32 +4366,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23845",
-   "name": "Member Portal \\ Auto renew toggle turned OFF after adding a new plan",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-29T11:22:01.285-0700",
-   "resolved": "",
-   "due": "2026-10-02",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23839",
    "name": "ACH - Auto Renewal Declined Transaction Displays Incorrect Status as \"Paid\"",
    "pod": "LL",
@@ -4738,6 +4712,32 @@
    "triage": "",
    "parentKey": "PLANS-10457",
    "parentName": "Plans Marketplace Post MVP (Fast Follow)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23845",
+   "name": "Member Portal \\ Auto renew toggle turned OFF after adding a new plan",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-29T11:22:01.285-0700",
+   "resolved": "",
+   "due": "2026-10-02",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5542,33 +5542,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-22486",
-   "name": "Plan details - custom logos are missing",
-   "pod": "LL",
-   "status": "Will Not Implement",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-04T07:26:01.892-0700",
-   "resolved": "",
-   "due": "2026-09-17",
-   "labels": [
-    "Logo",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
