@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T20:00:26+00:00",
+ "generated_at": "2026-09-30T20:15:24+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -114,7 +114,7 @@
    "key": "WT-976",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "status": "In Testing",
-   "ted": "2026-09-25",
+   "ted": "2026-10-02",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null
@@ -540,8 +540,8 @@
    "key": "WT-887",
    "name": "SaaS Fee Per Practice",
    "status": "In Development",
-   "ted": "2026-09-25",
-   "fv": "R9.8",
+   "ted": "2026-10-06",
+   "fv": "R9.9",
    "who": "Vic Du Plessis",
    "tshirt": "Moderate",
    "pod": "PLAT",
@@ -573,7 +573,7 @@
    "key": "WT-976",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "status": "In Testing",
-   "ted": "2026-09-25",
+   "ted": "2026-10-02",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
    "tshirt": null,
@@ -1149,8 +1149,8 @@
    "pod": "PLAT",
    "proj": "WT",
    "status": "In Development",
-   "fv": "R9.8",
-   "ted": "2026-09-25",
+   "fv": "R9.9",
+   "ted": "2026-10-06",
    "who": "Vic Du Plessis",
    "theme": "LL-Fast Follows"
   },
@@ -1183,7 +1183,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.8",
-   "ted": "2026-09-25",
+   "ted": "2026-10-02",
    "who": "Mykyta Moroz",
    "theme": "LL-Fast Follows"
   },
@@ -26368,6 +26368,20 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23922",
+   "name": "Production disclaimer shows outdated address and malformed provider link",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni"
+  },
+  {
+   "key": "PLANS-23921",
+   "name": "Organization logo broken on production plans website",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni"
+  },
   {
    "key": "PLANS-23920",
    "name": "Plan text defects in PDF and website (Ideal Dental, Aurora Loyalty Plan)",
