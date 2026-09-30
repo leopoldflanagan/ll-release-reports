@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T00:00:26+00:00",
+ "generated_at": "2026-09-30T00:15:20+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -26360,29 +26360,6 @@
    "triage": "",
    "parentKey": "PLANS-14769",
    "parentName": "LL Dynamic Support Contact Info Displayed Across Portals",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18399",
-   "name": "Stage - Member Portal - Payments - Payment methods disappear when theme changes",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.5",
-   "sprint": null,
-   "who": "Clint Tredway",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-06-22T14:31:34.879-0700",
-   "resolved": "2026-07-01T17:05:54.356-0700",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
