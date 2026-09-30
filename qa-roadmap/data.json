@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T14:18:11+00:00",
+ "generated_at": "2026-09-30T14:30:29+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -4194,6 +4194,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23769",
+   "name": "PLANS-23769: Member Portal: Find A Dentist: DCA Co-orp office is displayed in search results",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-09-28T10:46:27.318-0700",
+   "resolved": "",
+   "due": "2026-09-30",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23483",
    "name": "PMP-Stage-Plan should auto-renewed but failing with error",
    "pod": "PLANS",
@@ -4371,32 +4397,6 @@
    "triage": "",
    "parentKey": "PLANS-22538",
    "parentName": "[1] Logging ACH Refunds — Account History records every ACH money movement",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23769",
-   "name": "PLANS-23769: Member Portal: Find A Dentist: DCA Co-orp office is displayed in search results",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-09-28T10:46:27.318-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
