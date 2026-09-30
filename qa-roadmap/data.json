@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T19:49:13+00:00",
+ "generated_at": "2026-09-30T20:00:26+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -26369,8 +26369,15 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-23920",
+   "name": "Plan text defects in PDF and website (Ideal Dental, Aurora Loyalty Plan)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni"
+  },
+  {
    "key": "PLANS-23919",
-   "name": "Office user can edit External ID from offices he doesn't have access to",
+   "name": "Office user can edit/remove External ID from offices he doesn't have access to",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Hazel Loya"
