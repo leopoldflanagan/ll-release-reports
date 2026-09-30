@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T15:30:23+00:00",
+ "generated_at": "2026-09-30T15:43:00+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -40,7 +40,7 @@
   },
   {
    "key": "WT-1029",
-   "name": "PDF Enhancements",
+   "name": "pdf-enhancements",
    "status": "Blocked",
    "ted": "2026-10-02",
    "fv": "R9.8",
@@ -272,7 +272,7 @@
   },
   {
    "key": "WT-1029",
-   "name": "PDF Enhancements",
+   "name": "pdf-enhancements",
    "status": "Blocked",
    "ted": "2026-10-02",
    "fv": "R9.8",
@@ -901,7 +901,7 @@
   },
   {
    "key": "WT-1029",
-   "name": "PDF Enhancements",
+   "name": "pdf-enhancements",
    "pod": "LL",
    "proj": "WT",
    "status": "Blocked",
@@ -1570,11 +1570,11 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
