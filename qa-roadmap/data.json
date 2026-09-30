@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T15:22:03+00:00",
+ "generated_at": "2026-09-30T15:30:23+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -87,7 +87,7 @@
    "key": "WT-1024",
    "name": "Manage Preferences - CSP & WF Pay",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-10-14",
    "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": null
@@ -186,7 +186,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Development",
-   "ted": "2026-11-04",
+   "ted": "2026-10-05",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -252,7 +252,7 @@
    "key": "WT-1024",
    "name": "Manage Preferences - CSP & WF Pay",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-10-14",
    "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": null,
@@ -659,7 +659,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Development",
-   "ted": "2026-11-04",
+   "ted": "2026-10-05",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -884,7 +884,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": null,
+   "ted": "2026-10-14",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -1291,7 +1291,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-11-04",
+   "ted": "2026-10-05",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
