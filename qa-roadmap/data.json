@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T14:30:29+00:00",
+ "generated_at": "2026-09-30T14:43:53+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -1478,6 +1478,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23523",
+   "name": "Member Portal \\ Age restriction validation does not follow the behavior implemented in other portals",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-24T13:09:10.860-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -1586,7 +1612,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
    "created": "2026-09-29T07:45:14.941-0700",
@@ -4272,32 +4298,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23820",
-   "name": "Provider Portal \\ Age restriction is not blocking the members from purchasing plans",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-09-28T16:55:29.405-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23802",
    "name": "ACH - Status Mismatch Between Receipt and Member Transactions for Partially Refunded Plan After Returned Refund",
    "pod": "LL",
@@ -4727,6 +4727,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-23820",
+   "name": "Provider Portal \\ Age restriction is not blocking the members from purchasing plans",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-09-28T16:55:29.405-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23563",
    "name": "Exclusions not reading from CSP to Smile Health",
    "pod": "LL",
@@ -4878,32 +4904,6 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23523",
-   "name": "Member Portal \\ Age restriction validation does not follow the behavior implemented in other portals",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-24T13:09:10.860-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
