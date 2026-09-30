@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T19:18:58+00:00",
+ "generated_at": "2026-09-30T19:30:25+00:00",
  "today": "2026-09-30",
  "features": [
   {
@@ -4392,32 +4392,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23823",
-   "name": "Plans details PDF - Misc. Bugs for Plans Go Live Phase 2",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-28T18:20:55.198-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23794",
    "name": "ACH - Incorrect Remaining Amount and Status in CSP Plan Transactions After Returned Partial Refund",
    "pod": "LL",
@@ -4790,6 +4764,32 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23823",
+   "name": "Plans details PDF - Misc. Bugs for Plans Go Live Phase 2",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-28T18:20:55.198-0700",
+   "resolved": "",
+   "due": "2026-09-30",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
