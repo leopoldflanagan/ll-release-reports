@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T22:15:21+00:00",
+ "generated_at": "2026-10-01T22:28:59+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -4370,32 +4370,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23820",
-   "name": "Provider Portal \\ Age restriction is not blocking the members from purchasing plans",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-28T16:55:29.405-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23794",
    "name": "ACH - Incorrect Remaining Amount and Status in CSP Plan Transactions After Returned Partial Refund",
    "pod": "LL",
@@ -4794,6 +4768,32 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23820",
+   "name": "Provider Portal \\ Age restriction is not blocking the members from purchasing plans",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-28T16:55:29.405-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
