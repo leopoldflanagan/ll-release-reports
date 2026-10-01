@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T19:30:23+00:00",
+ "generated_at": "2026-10-01T19:41:26+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -26358,7 +26358,7 @@
  "nopod": [
   {
    "key": "PLANS-24021",
-   "name": "bug",
+   "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "status": "Backlog",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
