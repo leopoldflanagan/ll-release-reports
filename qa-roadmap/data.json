@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T20:00:27+00:00",
+ "generated_at": "2026-10-01T20:15:24+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -26379,6 +26379,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24023",
+   "name": "Medi-Cal Insurance Acknowledgement issue.",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni"
+  },
   {
    "key": "PLANS-24022",
    "name": "TPA termination end-date backfill corrects too wide a population: narrow to 2026+ plans and users with no enabled plan",
