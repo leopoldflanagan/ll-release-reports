@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T19:15:24+00:00",
+ "generated_at": "2026-10-01T19:29:15+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -26358,9 +26358,9 @@
  "nopod": [
   {
    "key": "PLANS-24021",
-   "name": "Plan Prioterization - When update 1 plan other plan also getting updated as same",
+   "name": "bug",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
