@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T12:52:53+00:00",
+ "generated_at": "2026-10-01T13:00:29+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -26296,29 +26296,6 @@
    "triage": "",
    "parentKey": "PLANS-15107",
    "parentName": "[DCA] Portal Level Sellability Testing",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18141",
-   "name": "fix(pdf-template): null-guard MarketingDetails.Items LINQ cast so plans-detail-template saves via Designer",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 16-26",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "3: Standard",
-   "created": "2026-06-18T02:11:32.165-0700",
-   "resolved": "2026-07-03T05:56:30.023-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
