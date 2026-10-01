@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T17:15:21+00:00",
+ "generated_at": "2026-10-01T17:30:15+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -1486,11 +1486,11 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.9",
+   "fv": null,
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "4: Low",
    "created": "2026-10-01T09:02:28.451-0700",
    "resolved": "",
    "due": "",
