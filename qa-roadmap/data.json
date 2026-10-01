@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T19:00:31+00:00",
+ "generated_at": "2026-10-01T19:14:04+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -26356,6 +26356,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24021",
+   "name": "Plan Prioterization - When update 1 plan other plan also getting updated as same",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24007",
    "name": "Member Portal \\ Add Plan flow incorrectly displays Digital Smiles for Seniors 55+ plans",
