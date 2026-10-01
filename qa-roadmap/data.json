@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T19:41:26+00:00",
+ "generated_at": "2026-10-01T19:45:25+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -1503,6 +1503,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24021",
+   "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-01T12:03:00.046-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22784",
+   "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26357,11 +26380,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-24021",
-   "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
+   "key": "PLANS-24022",
+   "name": "TPA termination end-date backfill corrects too wide a population: narrow to 2026+ plans and users with no enabled plan",
    "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
+   "who": "Sailaja Yanamandra",
+   "reporter": "Sailaja Yanamandra"
   },
   {
    "key": "PLANS-24007",
