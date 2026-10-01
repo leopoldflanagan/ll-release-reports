@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T15:41:39+00:00",
+ "generated_at": "2026-10-01T15:45:23+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -1530,7 +1530,7 @@
   },
   {
    "key": "PLANS-23987",
-   "name": "Plan Sales Report - Returned Refund Amount Continues to Display as Negative Value Instead of Being Voided",
+   "name": "ACH -Plan Sales Report - Returned Refund Amount Continues to Display as Negative Value Instead of Being Voided",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -5185,32 +5185,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22617",
-   "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-08T07:31:34.010-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22322",
    "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
    "pod": "LL",
@@ -5779,6 +5753,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22617",
+   "name": "Ad-Hoc Plan Type - Individual - Reading incorrect terminology",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Daryl Myrick",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-08T07:31:34.010-0700",
+   "resolved": "2026-10-01T08:43:57.637-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23436",
    "name": "PMP-Stage-Renew expired plan with existing ACH account, not displaying payment method attached for Auto-renewal in Overview Plan summary and in Member Payment tab showing -Not attached to Plan beside ACH account",
