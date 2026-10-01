@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T15:16:32+00:00",
+ "generated_at": "2026-10-01T15:30:29+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -26303,6 +26303,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-23987",
+   "name": "ACH Refund Decline - Not reflected in Plan sales as voided & as a 0 plan sale",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-23923",
    "name": "Production plan benefits don't match stage",
