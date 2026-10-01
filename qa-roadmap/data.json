@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T18:30:29+00:00",
+ "generated_at": "2026-10-01T18:45:21+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -1503,6 +1503,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24018",
+   "name": "Plan Prioritization - Configured settings are not reflected in Purchase portals",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-01T11:39:02.808-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22784",
+   "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
