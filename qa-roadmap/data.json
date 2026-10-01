@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T14:00:28+00:00",
+ "generated_at": "2026-10-01T14:15:24+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -4265,32 +4265,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23483",
-   "name": "PMP-Stage-Plan should auto-renewed but failing with error",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-09-24T08:15:50.466-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22044",
-   "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23908",
    "name": "GIFTCORE Promo - continues to be allowed in production when it was removed",
    "pod": "PLANS",
@@ -4390,6 +4364,32 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23483",
+   "name": "PMP-Stage-Plan should auto-renewed but failing with error",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-09-24T08:15:50.466-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22044",
+   "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
