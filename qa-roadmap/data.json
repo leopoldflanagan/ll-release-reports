@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T22:00:27+00:00",
+ "generated_at": "2026-10-01T22:14:36+00:00",
  "today": "2026-10-01",
  "features": [
   {
@@ -26389,7 +26389,7 @@
   {
    "key": "PLANS-24022",
    "name": "TPA termination end-date backfill corrects too wide a population: narrow to 2026+ plans and users with no enabled plan",
-   "status": "PR Merged",
+   "status": "PR Created",
    "who": "Sailaja Yanamandra",
    "reporter": "Sailaja Yanamandra"
   },
