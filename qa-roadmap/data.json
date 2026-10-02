@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T03:15:22+00:00",
+ "generated_at": "2026-10-02T03:30:24+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -26379,6 +26379,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24030",
+   "name": "CSP/Renewal/Giftcore Promo code is applied for Expired Plans though Eligibility rule is applied to restrict Expired plans",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24023",
    "name": "Medi-Cal Insurance Acknowledgement issue.",
