@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T22:00:26+00:00",
+ "generated_at": "2026-10-02T22:14:52+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -314,17 +314,6 @@
    "who": "Lloyd Tokerud",
    "tshirt": null,
    "pod": "EDW",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1042",
-   "name": "PMP: Tying multiple Patient ID's to one WF ID",
-   "status": "In Testing",
-   "ted": "2026-09-28",
-   "fv": "R9.8",
-   "who": "Daryl Myrick",
-   "tshirt": "Small",
-   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -888,17 +877,6 @@
    "fv": "R9.9",
    "ted": "2026-10-01",
    "who": "Lloyd Tokerud",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1042",
-   "name": "PMP: Tying multiple Patient ID's to one WF ID",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": "2026-09-28",
-   "who": "Daryl Myrick",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1479,8 +1457,8 @@
    "labels": [],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-22729",
+   "parentName": "[4] Age Restrictions on Sales - Roll Out to Fast-Follow Portals and Go Live",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1600,8 +1578,8 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-22729",
+   "parentName": "[4] Age Restrictions on Sales - Roll Out to Fast-Follow Portals and Go Live",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
