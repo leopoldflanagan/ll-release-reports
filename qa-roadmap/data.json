@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T21:15:24+00:00",
+ "generated_at": "2026-10-02T21:29:47+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -1459,6 +1459,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24083",
+   "name": "Provider Portal \\ Age restriction row is missing for Dependents",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-02T14:10:29.908-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26704,13 +26727,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24083",
-   "name": "Provider Portal \\ Age restriction row is missing for Dependents",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
   {
    "key": "PLANS-24075",
    "name": "PMP/Dashboard/Plans/Plan that have already renewed are displayed in Renewal remaining tile",
