@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T19:30:23+00:00",
+ "generated_at": "2026-10-02T19:39:24+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -724,17 +724,6 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "WT-1083",
-   "name": "ach-signed-authorization-lane",
-   "status": "In Development",
-   "ted": "2026-09-24",
-   "fv": "H9.6.6",
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "PLAT",
-   "theme": "ACH-Fast Follows"
-  },
-  {
    "key": "WT-718",
    "name": "Ach Emails WFP Non Plans",
    "status": "Blocked",
@@ -1306,17 +1295,6 @@
    "fv": null,
    "ted": null,
    "who": "Chris Rubio",
-   "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "WT-1083",
-   "name": "ach-signed-authorization-lane",
-   "pod": "PLAT",
-   "proj": "WT",
-   "status": "In Development",
-   "fv": "H9.6.6",
-   "ted": "2026-09-24",
-   "who": "Unassigned",
    "theme": "ACH-Fast Follows"
   },
   {
