@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T15:00:27+00:00",
+ "generated_at": "2026-10-02T15:15:22+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -26471,7 +26471,7 @@
   {
    "key": "PLANS-24007",
    "name": "Member Portal \\ Add Plan flow incorrectly displays Digital Smiles for Seniors 55+ plans",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "David Jones",
    "reporter": "Luis Moreno Soberón"
   },
