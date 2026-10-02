@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T18:30:22+00:00",
+ "generated_at": "2026-10-02T18:44:43+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -1481,6 +1481,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24071",
+   "name": "Member Portal \\ Unexpected plan cards are displayed for One Smile members in Add Plan flow",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-02T11:30:45.924-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
