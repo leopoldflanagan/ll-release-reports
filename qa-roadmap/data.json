@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T16:17:02+00:00",
+ "generated_at": "2026-10-02T16:30:27+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -735,17 +735,6 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "WT-1096",
-   "name": "WellfitPay Payment Widget Enhancements",
-   "status": "In Development",
-   "ted": "2026-10-07",
-   "fv": null,
-   "who": "Daniel Marineni",
-   "tshirt": null,
-   "pod": "WEL",
-   "theme": "ACH-Fast Follows"
-  },
-  {
    "key": "WT-718",
    "name": "Ach Emails WFP Non Plans",
    "status": "Blocked",
@@ -1331,17 +1320,6 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "WT-1096",
-   "name": "WellfitPay Payment Widget Enhancements",
-   "pod": "WEL",
-   "proj": "WT",
-   "status": "In Development",
-   "fv": null,
-   "ted": "2026-10-07",
-   "who": "Daniel Marineni",
-   "theme": "ACH-Fast Follows"
-  },
-  {
    "key": "WT-718",
    "name": "Ach Emails WFP Non Plans",
    "pod": "DYN",
@@ -1507,8 +1485,31 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24063",
+   "name": "Plan Prioritization - Unranked Plan Displayed Before Ranked Plan in Purchase portals and PMP",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-02T08:45:06.407-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22784",
+   "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24062",
-   "name": "One Smile-Pre-Prod- Along with One Smile Plan, its showing Essential Smile too for NV office.",
+   "name": "One Smile-Stage- One Smile showing only 1 plan for NV office.",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -26546,13 +26547,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24063",
-   "name": "Plan Prioritization -",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24023",
    "name": "Medi-Cal Insurance Acknowledgement issue.",
