@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T22:52:43+00:00",
+ "generated_at": "2026-10-02T23:00:27+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -5209,32 +5209,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-23186",
-   "name": "PRODUCTION - Manage Patient/Overview - different status",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-17T13:41:08.486-0700",
-   "resolved": "",
-   "due": "2026-09-24",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23143",
    "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
    "pod": "LL",
@@ -5881,6 +5855,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23186",
+   "name": "PRODUCTION - Manage Patient/Overview - different status",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-17T13:41:08.486-0700",
+   "resolved": "2026-10-02T15:58:44.952-0700",
+   "due": "2026-09-24",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-20925",
    "name": "Stage - Member Portal - Treatments are not displayed for members",
