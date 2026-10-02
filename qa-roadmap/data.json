@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T01:00:28+00:00",
+ "generated_at": "2026-10-02T01:15:21+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -4425,8 +4425,8 @@
    "key": "PLANS-23483",
    "name": "PMP-Stage-Plan should auto-renewed but failing with error",
    "pod": "PLANS",
-   "status": "In QA",
-   "cat": "In Progress",
+   "status": "Ready for Stage",
+   "cat": "To Do",
    "fv": "R9.9",
    "sprint": "Plans-Sprint 23-26",
    "who": "Conor Kamperman",
