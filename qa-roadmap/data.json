@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T18:00:26+00:00",
+ "generated_at": "2026-10-02T18:15:24+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -3783,6 +3783,32 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24069",
+   "name": "Healthy Smiles of Lakeway - when click purchase - you are directed to Comfort Detnal",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-02T11:02:09.265-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -26654,7 +26680,7 @@
   {
    "key": "PLANS-24023",
    "name": "Medi-Cal Insurance Acknowledgement issue.",
-   "status": "PR Created",
+   "status": "PR Merged",
    "who": "Conor Kamperman",
    "reporter": "Daniel Marineni"
   },
