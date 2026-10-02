@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T16:30:27+00:00",
+ "generated_at": "2026-10-02T16:43:05+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -1498,7 +1498,10 @@
    "created": "2026-10-02T08:45:06.407-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22784",
@@ -1807,7 +1810,7 @@
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.8",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Hazel Loya",
