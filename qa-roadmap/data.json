@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T08:00:23+00:00",
+ "generated_at": "2026-10-02T08:15:22+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -1403,32 +1403,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23882",
-   "name": "Plan details - Auto renewal text not sourced from CSP settings.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-09-30T08:11:00.449-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23878",
    "name": "PDF's - Additional Benefits was not implemented correctly",
    "pod": "LL",
@@ -1529,6 +1503,32 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24030",
+   "name": "CSP/Renewal/Giftcore Promo code is applied for Expired Plans though Eligibility rule is applied to restrict Expired plans",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-01T20:18:21.711-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-23099",
+   "parentName": "[2] Promo Code Eligibility Rules — enforce eligibility in the Plans API",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4314,6 +4314,32 @@
    "parentKey": "PLANS-14520",
    "parentName": "Auto-Renewal Opt Out Report - External",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23882",
+   "name": "Plan details - Auto renewal text not sourced from CSP settings.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-30T08:11:00.449-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26379,13 +26405,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24030",
-   "name": "CSP/Renewal/Giftcore Promo code is applied for Expired Plans though Eligibility rule is applied to restrict Expired plans",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
   {
    "key": "PLANS-24023",
    "name": "Medi-Cal Insurance Acknowledgement issue.",
