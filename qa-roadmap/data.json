@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T15:52:27+00:00",
+ "generated_at": "2026-10-02T16:00:26+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -1503,6 +1503,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24062",
+   "name": "One Smile-Stage- Only One plan is showing for One Smile NV offices in Stage, Annual plan is not showing",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-10-02T08:44:55.311-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26527,21 +26550,14 @@
    "key": "PLANS-24063",
    "name": "Plan Prioritization -",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-24062",
-   "name": "One Smile-Stage- Only One plan is showing for One Smile NV offices in Stage, Annual plan is not showing",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur"
   },
   {
    "key": "PLANS-24023",
    "name": "Medi-Cal Insurance Acknowledgement issue.",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "Ready for Development",
+   "who": "Conor Kamperman",
    "reporter": "Daniel Marineni"
   },
   {
