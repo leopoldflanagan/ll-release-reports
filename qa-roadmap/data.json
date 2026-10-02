@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T17:30:21+00:00",
+ "generated_at": "2026-10-02T17:45:22+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -1687,7 +1687,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "Plans-Sprint 24-26",
    "who": "Unassigned",
    "reporter": "Hazel Loya",
    "prio": "2: Important",
@@ -1836,8 +1836,8 @@
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": null,
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
    "who": "Unassigned",
    "reporter": "Hazel Loya",
    "prio": "2: Important",
@@ -1863,7 +1863,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "Plans-Sprint 24-26",
    "who": "Daniel Marineni",
    "reporter": "Hazel Loya",
    "prio": "2: Important",
@@ -4472,32 +4472,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23882",
-   "name": "Plan details - Auto renewal text not sourced from CSP settings.",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-09-30T08:11:00.449-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23839",
    "name": "ACH - Auto Renewal Declined Transaction Displays Incorrect Status as \"Paid\"",
    "pod": "LL",
@@ -4894,6 +4868,32 @@
    "parentKey": "",
    "parentName": "",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23882",
+   "name": "Plan details - Auto renewal text not sourced from CSP settings.",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-30T08:11:00.449-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
