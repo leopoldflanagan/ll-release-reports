@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T16:43:05+00:00",
+ "generated_at": "2026-10-02T16:45:21+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -1676,6 +1676,32 @@
    "triage": "",
    "parentKey": "PLANS-22544",
    "parentName": "[5] Logging ACH Refunds — reflect ACH refunds in the Plan Sales Report and the CSP transaction view",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23919",
+   "name": "Office user can edit/remove External ID from offices he doesn't have access to",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-30T12:46:42.859-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21920",
+   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -26570,13 +26596,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-23919",
-   "name": "Office user can edit/remove External ID from offices he doesn't have access to",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Hazel Loya"
   },
   {
    "key": "PLANS-23805",
