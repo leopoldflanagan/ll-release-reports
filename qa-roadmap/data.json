@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T14:15:25+00:00",
+ "generated_at": "2026-10-02T14:17:19+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -1508,7 +1508,7 @@
   },
   {
    "key": "PLANS-24052",
-   "name": "Plan Prioritization - Ranking not honuers in 2nd plan selection page in purchase portals",
+   "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
