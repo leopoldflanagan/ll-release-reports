@@ -1,16 +1,7 @@
 {
- "generated_at": "2026-10-02T08:15:22+00:00",
+ "generated_at": "2026-10-02T08:30:28+00:00",
  "today": "2026-10-02",
  "features": [
-  {
-   "key": "WT-993",
-   "name": "Log Cancellation/Opt Out Reason in Account History",
-   "status": "Backlog",
-   "ted": null,
-   "fv": "R9.10",
-   "who": "Camille Knight",
-   "tshirt": null
-  },
   {
    "key": "WT-1036",
    "name": "Payment Term: ID on overview",
@@ -37,6 +28,15 @@
    "fv": "R9.9",
    "who": "Chris Rubio",
    "tshirt": "Moderate"
+  },
+  {
+   "key": "WT-993",
+   "name": "Log Cancellation/Opt Out Reason in Account History",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.10",
+   "who": "Denys Kernychnyi",
+   "tshirt": null
   },
   {
    "key": "WT-1029",
@@ -660,10 +660,10 @@
   {
    "key": "WT-993",
    "name": "Log Cancellation/Opt Out Reason in Account History",
-   "status": "Backlog",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.10",
-   "who": "Camille Knight",
+   "who": "Denys Kernychnyi",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1258,10 +1258,10 @@
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "pod": "LL",
    "proj": "WT",
-   "status": "Backlog",
+   "status": "In Development",
    "fv": "R9.10",
    "ted": null,
-   "who": "Camille Knight",
+   "who": "Denys Kernychnyi",
    "theme": "LL-Fast Follows"
   },
   {
