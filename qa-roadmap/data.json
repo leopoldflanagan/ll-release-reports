@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T15:16:14+00:00",
+ "generated_at": "2026-10-02T15:30:29+00:00",
  "today": "2026-10-02",
  "features": [
   {
@@ -1503,6 +1503,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24059",
+   "name": "One Smile - NV Plans Displayed for WA Office in PMP and One Smile Purchase Portal",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-02T08:23:54.014-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -4770,6 +4793,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24022",
+   "name": "TPA termination end-date backfill corrects too wide a population: narrow to 2026+ plans and users with no enabled plan",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Sailaja Yanamandra",
+   "prio": "1: Urgent",
+   "created": "2026-10-01T12:44:23.973-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20015",
+   "parentName": "[2] TPA Plans - Effective Date Updates - Backfill already-terminated TPA members",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23908",
    "name": "GIFTCORE Promo - continues to be allowed in production when it was removed",
    "pod": "PLANS",
@@ -5728,6 +5774,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24007",
+   "name": "Member Portal \\ Add Plan flow incorrectly displays Digital Smiles for Seniors 55+ plans",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-10-01T10:39:30.542-0700",
+   "resolved": "2026-10-02T08:16:24.542-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23820",
    "name": "Provider Portal \\ Age restriction is not blocking the members from purchasing plans",
@@ -26460,20 +26529,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-24022",
-   "name": "TPA termination end-date backfill corrects too wide a population: narrow to 2026+ plans and users with no enabled plan",
-   "status": "In Stage",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Sailaja Yanamandra"
-  },
-  {
-   "key": "PLANS-24007",
-   "name": "Member Portal \\ Add Plan flow incorrectly displays Digital Smiles for Seniors 55+ plans",
-   "status": "In Development",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-24003",
