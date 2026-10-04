@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T23:00:26+00:00",
+ "generated_at": "2026-10-04T23:15:20+00:00",
  "today": "2026-10-04",
  "features": [
   {
@@ -26613,6 +26613,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24093",
+   "name": "Blocker - Stage/Migrated Users/Unable to ADD Payment method to a migrated user without payment method in PMP",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24075",
    "name": "PMP/Dashboard/Plans/Plan that have already renewed are displayed in Renewal remaining tile",
