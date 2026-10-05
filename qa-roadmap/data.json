@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T16:30:25+00:00",
+ "generated_at": "2026-10-05T16:44:05+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -4614,32 +4614,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24023",
-   "name": "Medi-Cal Insurance Acknowledgement issue.",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Conor Kamperman",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-01T13:06:03.814-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23839",
    "name": "ACH - Auto Renewal Declined Transaction Displays Incorrect Status as \"Paid\"",
    "pod": "LL",
@@ -5113,6 +5087,32 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24023",
+   "name": "Medi-Cal Insurance Acknowledgement issue.",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Conor Kamperman",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-01T13:06:03.814-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
@@ -26738,29 +26738,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18745",
-   "name": "Member Portal - OTP Resend option remains unavailable after countdown reaches 0:00 (Sign In & Forgot Password)",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-06-30T12:59:44.789-0700",
-   "resolved": "2026-07-07T09:41:22.682-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14895",
-   "parentName": "Member Portal Plans Item Tracking",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
