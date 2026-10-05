@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T16:15:21+00:00",
+ "generated_at": "2026-10-05T16:18:48+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -26755,29 +26755,6 @@
    "prio": "3: Standard",
    "created": "2026-06-30T12:59:44.789-0700",
    "resolved": "2026-07-07T09:41:22.682-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14895",
-   "parentName": "Member Portal Plans Item Tracking",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18750",
-   "name": "Member Portal – Display validation message when an unregistered email is entered in OTP flows",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-06-30T14:13:15.928-0700",
-   "resolved": "2026-07-07T09:17:48.824-0700",
    "due": "",
    "labels": [],
    "theme": "LL-MVP",
