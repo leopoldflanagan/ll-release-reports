@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T16:18:48+00:00",
+ "generated_at": "2026-10-05T16:30:25+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -1451,29 +1451,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24102",
-   "name": "PMP Portal - Only 2 plans displayed when rankings are configured for 3 plans via System Settings",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-05T05:44:46.823-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22784",
-   "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24101",
    "name": "Member portal - ADD Plan - now showing all available plans. (ranking set via system settings )",
    "pod": "PLANS",
@@ -1553,7 +1530,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "Plans-Sprint 23-26",
-   "who": "Unassigned",
+   "who": "Conor Kamperman",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-02T10:48:35.451-0700",
@@ -3761,7 +3738,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "Plans-Sprint 23-26",
-   "who": "Anuradhi Wickramasinghe",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-05T05:52:01.324-0700",
@@ -6047,6 +6024,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24102",
+   "name": "PMP Portal - Only 2 plans displayed when rankings are configured for 3 plans via System Settings",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-05T05:44:46.823-0700",
+   "resolved": "2026-10-05T09:23:38.531-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22784",
+   "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-22316",
    "name": "Preprod issue - ACH Member Portal - when navigate to payments page and come back to overview page > auto renewal setting set to OFF",
