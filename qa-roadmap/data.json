@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T16:00:29+00:00",
+ "generated_at": "2026-10-05T16:15:21+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -1336,8 +1336,31 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24116",
+   "name": "DCA - Plan Ranking Not Honored in Portal Despite Ranking Updates from CSP",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-05T08:58:53.396-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22783",
+   "parentName": "[1] Plan Prioritization - Ranking parity across all selling surfaces",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24113",
-   "name": "CSP - Blocker - Unable to Save Plan Ranking from Plan Template - Error: \"Invalid column name 'OnHold'\"",
+   "name": "CSP - Error is displayed on saving changes to Plan Ranking from Plan Template",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -3783,32 +3806,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24093",
-   "name": "Blocker - Stage/Migrated Users/Unable to ADD Payment method to a migrated user without payment method in PMP",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-10-04T16:02:14.776-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-23167",
-   "parentName": "[1] Promo Codes Enhancement - auto-apply GIFTCORE at autorenewal for migrated DCA customers",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24067",
    "name": "Single Location Practice's are not honoring the no need for zip code entry for Smile Health - when you have the dedicated URL",
    "pod": "LL",
@@ -4796,6 +4793,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24093",
+   "name": "Blocker - Stage/Migrated Users/Unable to ADD Payment method to a migrated user without payment method in PMP",
+   "pod": "PLANS",
+   "status": "Ready for Stage",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-10-04T16:02:14.776-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23167",
+   "parentName": "[1] Promo Codes Enhancement - auto-apply GIFTCORE at autorenewal for migrated DCA customers",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23483",
    "name": "PMP-Stage-Plan should auto-renewed but failing with error",
    "pod": "PLANS",
@@ -5609,32 +5632,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22316",
-   "name": "Preprod issue - ACH Member Portal - when navigate to payments page and come back to overview page > auto renewal setting set to OFF",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-02T13:07:02.033-0700",
-   "resolved": "",
-   "due": "2026-09-09",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22413",
    "name": "Stage/PMP/Multipractice/Plans Purchase/Practice Name dropdown/ Dental care alliance practices are not displayed in the nested group",
    "pod": "PLANS",
@@ -6050,6 +6047,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22316",
+   "name": "Preprod issue - ACH Member Portal - when navigate to payments page and come back to overview page > auto renewal setting set to OFF",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-02T13:07:02.033-0700",
+   "resolved": "2026-10-05T09:15:09.311-0700",
+   "due": "2026-09-09",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24063",
    "name": "Plan Prioritization - Unranked Plan Displayed Before Ranked Plan in Purchase portals and PMP",
@@ -26768,13 +26791,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24116",
-   "name": "DCA - Ranking is not honured",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24112",
    "name": "The STAGE SGDP portal is displaying Kids Plans instead of SGDP coverage levels.",
