@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T02:30:22+00:00",
+ "generated_at": "2026-10-05T02:45:23+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -26613,6 +26613,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24094",
+   "name": "PMP/AddMember/Promo code setup is not applied to add member purchase(this sale type is not gated)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24093",
    "name": "Blocker - Stage/Migrated Users/Unable to ADD Payment method to a migrated user without payment method in PMP",
