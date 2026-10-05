@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T15:43:03+00:00",
+ "generated_at": "2026-10-05T15:45:21+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -1446,29 +1446,6 @@
    "triage": "",
    "parentKey": "PLANS-22784",
    "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24094",
-   "name": "PMP/AddMember/Promo code setup for the plan is not applied to add member purchase(this sale type is not gated)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 23-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-10-04T19:39:23.137-0700",
-   "resolved": "",
-   "due": "2026-10-06",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-23101",
-   "parentName": "[3] Promo Code Eligibility Rules — enforce the same gate on the legacy and CSP surfaces",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3751,6 +3728,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24094",
+   "name": "PMP/AddMember/Promo code setup for the plan is not applied to add member purchase(this sale type is not gated)",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-04T19:39:23.137-0700",
+   "resolved": "",
+   "due": "2026-10-06",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-23101",
+   "parentName": "[3] Promo Code Eligibility Rules — enforce the same gate on the legacy and CSP surfaces",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24093",
    "name": "Blocker - Stage/Migrated Users/Unable to ADD Payment method to a migrated user without payment method in PMP",
    "pod": "PLANS",
@@ -3764,7 +3767,10 @@
    "created": "2026-10-04T16:02:14.776-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-23167",
