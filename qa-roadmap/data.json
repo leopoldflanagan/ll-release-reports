@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T09:15:24+00:00",
+ "generated_at": "2026-10-05T09:30:27+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -177,7 +177,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Development",
-   "ted": "2026-10-05",
+   "ted": "2026-10-08",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -617,7 +617,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Development",
-   "ted": "2026-10-05",
+   "ted": "2026-10-08",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -1183,7 +1183,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-10-05",
+   "ted": "2026-10-08",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
@@ -1375,7 +1375,7 @@
    "prio": "1: Urgent",
    "created": "2026-09-24T19:33:23.357-0700",
    "resolved": "",
-   "due": "2026-10-02",
+   "due": "2026-10-05",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -4561,7 +4561,7 @@
    "prio": "2: Important",
    "created": "2026-09-16T09:51:55.528-0700",
    "resolved": "",
-   "due": "2026-09-24",
+   "due": "2026-10-05",
    "labels": [
     "group1_migration",
     "product_prioritized"
