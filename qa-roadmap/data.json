@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T14:57:23+00:00",
+ "generated_at": "2026-10-05T15:00:31+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -26809,9 +26809,9 @@
  "nopod": [
   {
    "key": "PLANS-24112",
-   "name": "Retest-The STAGE SGDP portal is displaying Kids Plans instead of SGDP coverage levels.",
-   "status": "In Stage",
-   "who": "Anuradhi Wickramasinghe",
+   "name": "The STAGE SGDP portal is displaying Kids Plans instead of SGDP coverage levels.",
+   "status": "Ready for Development",
+   "who": "Unassigned",
    "reporter": "Lucy Mbahyam"
   },
   {
