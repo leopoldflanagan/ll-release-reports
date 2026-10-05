@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T12:30:26+00:00",
+ "generated_at": "2026-10-05T12:45:24+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -1479,32 +1479,6 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24063",
-   "name": "Plan Prioritization - Unranked Plan Displayed Before Ranked Plan in Purchase portals and PMP",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 23-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-02T08:45:06.407-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22784",
-   "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5855,6 +5829,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24063",
+   "name": "Plan Prioritization - Unranked Plan Displayed Before Ranked Plan in Purchase portals and PMP",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-02T08:45:06.407-0700",
+   "resolved": "2026-10-05T05:42:29.119-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22784",
+   "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23186",
    "name": "PRODUCTION - Manage Patient/Overview - different status",
@@ -26614,8 +26614,15 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-24102",
+   "name": "PMP portal - Ranking set via system settings for 3 plans , only showing 2 Plans",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-24101",
-   "name": "Member portal - ADD Plan , now showing all available plans. (ranking set via system settings )",
+   "name": "Member portal - ADD Plan - now showing all available plans. (ranking set via system settings )",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
