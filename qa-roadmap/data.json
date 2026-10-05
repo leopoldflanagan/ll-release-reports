@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T15:15:23+00:00",
+ "generated_at": "2026-10-05T15:22:20+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -62,15 +62,6 @@
    "status": "Backlog",
    "ted": null,
    "fv": "R9.10",
-   "who": "Dmytro Tymofiienko",
-   "tshirt": "Large"
-  },
-  {
-   "key": "WT-752",
-   "name": "Wallet Enhancements for ACH",
-   "status": "In Development",
-   "ted": null,
-   "fv": null,
    "who": "Dmytro Tymofiienko",
    "tshirt": "Large"
   },
@@ -713,17 +704,6 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "WT-752",
-   "name": "Wallet Enhancements for ACH",
-   "status": "In Development",
-   "ted": null,
-   "fv": null,
-   "who": "Dmytro Tymofiienko",
-   "tshirt": "Large",
-   "pod": "LL",
-   "theme": "ACH-Fast Follows"
-  },
-  {
    "key": "WT-995",
    "name": "Plans Dashboard Enhancements for ACH Transactions",
    "status": "Backlog",
@@ -1262,17 +1242,6 @@
    "fv": null,
    "ted": null,
    "who": "Satva Tech",
-   "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "WT-752",
-   "name": "Wallet Enhancements for ACH",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Development",
-   "fv": null,
-   "ted": null,
-   "who": "Dmytro Tymofiienko",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -4636,32 +4605,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24023",
-   "name": "Medi-Cal Insurance Acknowledgement issue.",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Conor Kamperman",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-01T13:06:03.814-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23047",
    "name": "Member Portal Issue",
    "pod": "LL",
@@ -4683,6 +4626,32 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24023",
+   "name": "Medi-Cal Insurance Acknowledgement issue.",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Conor Kamperman",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-01T13:06:03.814-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -26754,29 +26723,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18901",
-   "name": "CSP – Plan purchase restriction exception is not enforced when an Org (Org A) Restriction excepion is configured",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-02T09:08:26.481-0700",
-   "resolved": "2026-07-07T08:16:22.379-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15107",
-   "parentName": "[DCA] Portal Level Sellability Testing",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
