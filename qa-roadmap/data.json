@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T18:30:44+00:00",
+ "generated_at": "2026-10-05T18:45:22+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -4640,32 +4640,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23047",
-   "name": "Member Portal Issue",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Michael Joe",
-   "prio": "2: Important",
-   "created": "2026-09-16T09:51:55.528-0700",
-   "resolved": "",
-   "due": "2026-10-05",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23794",
    "name": "ACH - Incorrect Remaining Amount and Status in CSP Plan Transactions After Returned Partial Refund",
    "pod": "LL",
@@ -5477,6 +5451,32 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23047",
+   "name": "Member Portal Issue",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Michael Joe",
+   "prio": "2: Important",
+   "created": "2026-09-16T09:51:55.528-0700",
+   "resolved": "",
+   "due": "2026-10-05",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
