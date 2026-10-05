@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T13:47:15+00:00",
+ "generated_at": "2026-10-05T14:00:28+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -1636,7 +1636,7 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
@@ -1694,32 +1694,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24030",
-   "name": "CSP/Renewal/Giftcore Promo code is applied for Expired Plans though Eligibility rule is applied to restrict Expired plans",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-01T20:18:21.711-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-23099",
-   "parentName": "[2] Promo Code Eligibility Rules — enforce eligibility in the Plans API",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "pod": "LL",
@@ -1743,28 +1717,25 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24004",
-   "name": "Member Portal - Inconsistent Font Sizes/Styles/ link colors in Legal Consent Section",
+   "key": "PLANS-24003",
+   "name": "Ideal Dental- Aurora Loyalty Plan bugs",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
    "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-10-01T09:02:28.451-0700",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-01T08:48:21.147-0700",
    "resolved": "",
    "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
+   "labels": [],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3934,6 +3905,58 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24030",
+   "name": "CSP/Renewal/Giftcore Promo code is applied for Expired Plans though Eligibility rule is applied to restrict Expired plans",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-01T20:18:21.711-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24004",
+   "name": "Member Portal - Inconsistent Font Sizes/Styles/ link colors in Legal Consent Section",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-10-01T09:02:28.451-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-23753",
    "name": "PMP-Stage-Manage Payments Footer for Unassigned plan don't show 'Go To Plan' link",
    "pod": "PLANS",
@@ -4583,32 +4606,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24071",
-   "name": "Member Portal \\ Unexpected plan cards are displayed for One Smile members in Add Plan flow",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-10-02T11:30:45.924-0700",
-   "resolved": "",
-   "due": "2026-10-05",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24069",
    "name": "Healthy Smiles of Lakeway - when click purchase - you are directed to Comfort Detnal",
    "pod": "LL",
@@ -4646,6 +4643,32 @@
    "reporter": "Michael Joe",
    "prio": "2: Important",
    "created": "2026-09-16T09:51:55.528-0700",
+   "resolved": "",
+   "due": "2026-10-05",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24071",
+   "name": "Member Portal \\ Unexpected plan cards are displayed for One Smile members in Add Plan flow",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-10-02T11:30:45.924-0700",
    "resolved": "",
    "due": "2026-10-05",
    "labels": [
@@ -26754,13 +26777,6 @@
    "name": "Medi-Cal Insurance Acknowledgement issue.",
    "status": "PR Created",
    "who": "Conor Kamperman",
-   "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-24003",
-   "name": "Ideal Dental- Aurora Loyalty Plan bugs",
-   "status": "Backlog",
-   "who": "Unassigned",
    "reporter": "Daniel Marineni"
   },
   {
