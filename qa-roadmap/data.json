@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T08:45:24+00:00",
+ "generated_at": "2026-10-05T09:00:28+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -1326,6 +1326,32 @@
    "due": "2026-10-05",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24069",
+   "name": "Healthy Smiles of Lakeway - when click purchase - you are directed to Comfort Detnal",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-02T11:02:09.265-0700",
+   "resolved": "",
+   "due": "2026-10-05",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -3811,32 +3837,6 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24069",
-   "name": "Healthy Smiles of Lakeway - when click purchase - you are directed to Comfort Detnal",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-02T11:02:09.265-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
