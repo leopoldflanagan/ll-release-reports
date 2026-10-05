@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T15:45:21+00:00",
+ "generated_at": "2026-10-05T15:54:09+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -1442,6 +1442,32 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22784",
+   "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24101",
+   "name": "Member portal - ADD Plan - now showing all available plans. (ranking set via system settings )",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-05T03:26:34.316-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22784",
@@ -3718,7 +3744,10 @@
    "created": "2026-10-05T05:52:01.324-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-21806",
@@ -3827,32 +3856,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24062",
-   "name": "One Smile-Stage- One Smile showing only 1 plan for NV office.",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-10-02T08:44:55.311-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5092,6 +5095,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24062",
+   "name": "One Smile-Stage- One Smile showing only 1 plan for NV office.",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-10-02T08:44:55.311-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24022",
    "name": "TPA termination end-date backfill corrects too wide a population: narrow to 2026+ plans and users with no enabled plan",
    "pod": "PLANS",
@@ -5134,8 +5163,8 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -26768,13 +26797,6 @@
    "status": "Ready for Development",
    "who": "Unassigned",
    "reporter": "Lucy Mbahyam"
-  },
-  {
-   "key": "PLANS-24101",
-   "name": "Member portal - ADD Plan - now showing all available plans. (ranking set via system settings )",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
   },
   {
    "key": "PLANS-23923",
