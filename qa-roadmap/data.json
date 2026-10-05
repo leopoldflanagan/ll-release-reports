@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T19:00:27+00:00",
+ "generated_at": "2026-10-05T19:15:22+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -4749,7 +4749,7 @@
    "pod": "LL",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
    "who": "Petro Yarish",
    "reporter": "Anuradhi Wickramasinghe",
@@ -4850,7 +4850,7 @@
    "pod": "LL",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
    "who": "Denys Kernychnyi",
    "reporter": "Mireya Alvarez",
@@ -26676,6 +26676,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24130",
+   "name": "PMP \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-24129",
    "name": "Giftcore/ Promo code Giftcore is not auto applied to a manual renewal in Member Portal/PMP",
