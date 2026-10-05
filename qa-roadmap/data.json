@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T13:00:26+00:00",
+ "generated_at": "2026-10-05T13:15:24+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -26629,29 +26629,6 @@
    "triage": "",
    "parentKey": "PLANS-16613",
    "parentName": "Tie Plan Purchase to Office: Epic 3 - Wellfit Pay All-Practice View Practice Selection (Journey 3)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-17995",
-   "name": "Stage - SMS - Text message activation link is not working",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Hunter Redhead",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-06-12T11:17:40.642-0700",
-   "resolved": "2026-07-07T06:12:18.989-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
