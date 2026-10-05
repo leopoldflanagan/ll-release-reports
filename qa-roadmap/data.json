@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T23:00:28+00:00",
+ "generated_at": "2026-10-05T23:14:34+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -26650,6 +26650,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24140",
+   "name": "PreProd SmileHealth \\ Checkout screen display Payment is temporarily unavailable 502 code error",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-24129",
    "name": "Giftcore/ Promo code Giftcore is not auto applied to a manual renewal in Member Portal/PMP",
