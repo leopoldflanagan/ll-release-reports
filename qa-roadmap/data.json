@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T23:30:22+00:00",
+ "generated_at": "2026-10-05T23:40:20+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -26620,29 +26620,6 @@
    "triage": "",
    "parentKey": "PLANS-14769",
    "parentName": "LL Dynamic Support Contact Info Displayed Across Portals",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18718",
-   "name": "Member Portal \\ Add Plan flow is broken 500 code error",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-06-30T07:54:49.190-0700",
-   "resolved": "2026-07-07T16:36:10.709-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-13306",
-   "parentName": "Member portal bugs bucket",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
