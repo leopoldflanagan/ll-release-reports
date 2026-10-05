@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T14:20:00+00:00",
+ "generated_at": "2026-10-05T14:30:28+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -1508,7 +1508,7 @@
   },
   {
    "key": "PLANS-24103",
-   "name": "CSP - Assigned Office updated from PMP is not displayed in CSP > member > Plan Details",
+   "name": "CSP - assigned office is updated from PMP, the office assignment is not reflected in CSP > Member > Plan Details.",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
