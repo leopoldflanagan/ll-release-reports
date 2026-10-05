@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T11:30:24+00:00",
+ "generated_at": "2026-10-05T11:45:25+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -84,15 +84,6 @@
    "tshirt": "Large"
   },
   {
-   "key": "WT-1024",
-   "name": "Manage Preferences - CSP & WF Pay",
-   "status": "In Development",
-   "ted": "2026-10-14",
-   "fv": "R9.9",
-   "who": "Ivan Yarymovych",
-   "tshirt": null
-  },
-  {
    "key": "WT-783",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
@@ -127,6 +118,15 @@
    "fv": "R9.8",
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate"
+  },
+  {
+   "key": "WT-1024",
+   "name": "Manage Preferences - CSP & WF Pay",
+   "status": "In Development",
+   "ted": "2026-10-14",
+   "fv": "R9.9",
+   "who": "Nazarii Polinyk",
+   "tshirt": null
   },
   {
    "key": "WT-989",
@@ -234,7 +234,7 @@
    "status": "In Development",
    "ted": "2026-10-14",
    "fv": "R9.9",
-   "who": "Ivan Yarymovych",
+   "who": "Nazarii Polinyk",
    "tshirt": null,
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -799,7 +799,7 @@
    "status": "In Development",
    "fv": "R9.9",
    "ted": "2026-10-14",
-   "who": "Ivan Yarymovych",
+   "who": "Nazarii Polinyk",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1358,32 +1358,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23534",
-   "name": "Digital Smiles (both plans)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-24T19:33:23.357-0700",
-   "resolved": "",
-   "due": "2026-10-05",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5100,6 +5074,32 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23534",
+   "name": "Digital Smiles (both plans)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-24T19:33:23.357-0700",
+   "resolved": "",
+   "due": "2026-10-05",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
