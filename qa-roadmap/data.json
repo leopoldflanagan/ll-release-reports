@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T12:55:40+00:00",
+ "generated_at": "2026-10-05T13:00:26+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -1411,6 +1411,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24103",
+   "name": "CSP - Assigned Office updated from PMP is not displayed in CSP > member > Plan Details",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-05T05:52:01.324-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26636,13 +26659,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24103",
-   "name": "CSP -",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24101",
    "name": "Member portal - ADD Plan - now showing all available plans. (ranking set via system settings )",
