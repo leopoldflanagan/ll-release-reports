@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T09:45:24+00:00",
+ "generated_at": "2026-10-05T10:00:33+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -26617,7 +26617,7 @@
    "key": "PLANS-24094",
    "name": "PMP/AddMember/Promo code setup for the plan is not applied to add member purchase(this sale type is not gated)",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Mykyta Moroz",
    "reporter": "Vivienne Chawande"
   },
   {
