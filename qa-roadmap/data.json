@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T12:15:21+00:00",
+ "generated_at": "2026-10-05T12:26:22+00:00",
  "today": "2026-10-05",
  "features": [
   {
@@ -26615,7 +26615,7 @@
  "nopod": [
   {
    "key": "PLANS-24101",
-   "name": "Member portal - Ranking not working",
+   "name": "Member portal - ADD Plan , now showing all available plans. (ranking set via system settings )",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
