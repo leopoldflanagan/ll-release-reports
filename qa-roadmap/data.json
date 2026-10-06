@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T22:30:23+00:00",
+ "generated_at": "2026-10-06T22:39:50+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -5273,32 +5273,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-22322",
-   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-02T16:08:49.542-0700",
-   "resolved": "",
-   "due": "2026-09-11",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-22413",
    "name": "Stage/PMP/Multipractice/Plans Purchase/Practice Name dropdown/ Dental care alliance practices are not displayed in the nested group",
    "pod": "PLANS",
@@ -5714,6 +5688,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22322",
+   "name": "Preprod \\ PMP DCA migrated members can't renew plans due to “No plans are offered in your state” error",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-02T16:08:49.542-0700",
+   "resolved": "2026-10-06T15:32:06.421-0700",
+   "due": "2026-09-11",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23845",
    "name": "Member Portal \\ Auto renew toggle turned OFF after adding a new plan",
@@ -26446,7 +26446,7 @@
  "nopod": [
   {
    "key": "PLANS-24167",
-   "name": "PreProd-PMP-One Smile plan didn't auto-renewed, no failure recorded in Account History",
+   "name": "PreProd-PMP-One Smile plan didn't auto-renewed, no failure reason recorded in Account History",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vinita Thankur"
