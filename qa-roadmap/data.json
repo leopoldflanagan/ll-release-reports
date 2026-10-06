@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T17:52:16+00:00",
+ "generated_at": "2026-10-06T18:00:26+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -5353,32 +5353,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23143",
-   "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-16T15:42:29.884-0700",
-   "resolved": "",
-   "due": "2026-09-25",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23089",
    "name": "PLANS-23089: PRODUCTION: Error handling in CSP",
    "pod": "PLANS",
@@ -5872,6 +5846,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23143",
+   "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-16T15:42:29.884-0700",
+   "resolved": "2026-10-06T10:53:25.458-0700",
+   "due": "2026-09-25",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24071",
    "name": "Member Portal \\ Unexpected plan cards are displayed for One Smile members in Add Plan flow",
