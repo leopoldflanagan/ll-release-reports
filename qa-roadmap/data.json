@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T19:00:27+00:00",
+ "generated_at": "2026-10-06T19:12:39+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -26506,42 +26506,10 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "LL-874",
-   "name": "[PMP]-Acknowledgement is included in the payload even when the option was not checked",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 16-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-02T11:07:00.614-0700",
-   "resolved": "2026-07-08T12:05:13.540-0700",
-   "due": "2026-07-03",
-   "labels": [
-    "LLplans"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24163",
-   "name": "WFP/Admin/Pan Fee Pricing/Admin user is unable to view, edit or delete Plan Fee Pricing itemsms",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
   {
    "key": "PLANS-24158",
    "name": "PreProd-Plan purchasing is not working in SGDP PP and WFP",
