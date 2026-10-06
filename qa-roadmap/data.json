@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T09:45:23+00:00",
+ "generated_at": "2026-10-06T10:00:27+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -93,6 +93,15 @@
    "tshirt": null
   },
   {
+   "key": "WT-1003",
+   "name": "Define Refund Window Timeframes",
+   "status": "In Development",
+   "ted": "2026-09-25",
+   "fv": "R9.9",
+   "who": "Mykyta Moroz",
+   "tshirt": null
+  },
+  {
    "key": "WT-976",
    "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
    "status": "In Testing",
@@ -145,15 +154,6 @@
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
-  },
-  {
-   "key": "WT-1003",
-   "name": "Define Refund Window Timeframes",
-   "status": "In Development",
-   "ted": "2026-09-25",
-   "fv": "R9.9",
-   "who": "Shchekochykhin Vladyslav",
-   "tshirt": null
   },
   {
    "key": "WT-1053",
@@ -665,7 +665,7 @@
    "status": "In Development",
    "ted": "2026-09-25",
    "fv": "R9.9",
-   "who": "Shchekochykhin Vladyslav",
+   "who": "Mykyta Moroz",
    "tshirt": null,
    "pod": "LL",
    "theme": "ACH-Fast Follows"
@@ -1208,7 +1208,7 @@
    "status": "In Development",
    "fv": "R9.9",
    "ted": "2026-09-25",
-   "who": "Shchekochykhin Vladyslav",
+   "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -1302,32 +1302,6 @@
    "triage": "",
    "parentKey": "PLANS-22784",
    "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24003",
-   "name": "PLANS-24003: Ideal Dental- Aurora Loyalty Plan bugs",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-01T08:48:21.147-0700",
-   "resolved": "",
-   "due": "2026-10-06",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4782,6 +4756,32 @@
    "triage": "",
    "parentKey": "PLANS-22044",
    "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24003",
+   "name": "PLANS-24003: Ideal Dental- Aurora Loyalty Plan bugs",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-01T08:48:21.147-0700",
+   "resolved": "",
+   "due": "2026-10-06",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
