@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T13:30:27+00:00",
+ "generated_at": "2026-10-06T13:42:23+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -5060,32 +5060,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24062",
-   "name": "One Smile-Stage- One Smile showing only 1 plan for NV office.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-10-02T08:44:55.311-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24023",
    "name": "Medi-Cal Insurance Acknowledgement issue.",
    "pod": "PLANS",
@@ -5992,6 +5966,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24062",
+   "name": "One Smile-Stage- One Smile showing only 1 plan for NV office.",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-10-02T08:44:55.311-0700",
+   "resolved": "2026-10-06T06:34:05.140-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23047",
    "name": "Member Portal Issue",
