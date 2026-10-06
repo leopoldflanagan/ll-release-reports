@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T09:15:21+00:00",
+ "generated_at": "2026-10-06T09:30:25+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1259,7 +1259,7 @@
  "bugs": [
   {
    "key": "PLANS-24109",
-   "name": "Bugs - Digital Smiles & Digital Smiles Senior 55+ (stage)",
+   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -1302,6 +1302,32 @@
    "triage": "",
    "parentKey": "PLANS-22784",
    "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24003",
+   "name": "PLANS-24003: Ideal Dental- Aurora Loyalty Plan bugs",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-01T08:48:21.147-0700",
+   "resolved": "",
+   "due": "2026-10-06",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1636,32 +1662,6 @@
    "triage": "",
    "parentKey": "PLANS-22784",
    "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24003",
-   "name": "PLANS-24003: Ideal Dental- Aurora Loyalty Plan bugs",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-01T08:48:21.147-0700",
-   "resolved": "",
-   "due": "2026-10-06",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
