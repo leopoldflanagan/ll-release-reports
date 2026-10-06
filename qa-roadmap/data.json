@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T16:45:22+00:00",
+ "generated_at": "2026-10-06T16:55:01+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1410,6 +1410,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24155",
+   "name": "Credit Card Payment Not Going Through",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Carmen West",
+   "prio": "3: Standard",
+   "created": "2026-10-06T09:53:26.910-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
