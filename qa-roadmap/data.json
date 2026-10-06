@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T15:52:01+00:00",
+ "generated_at": "2026-10-06T16:00:26+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -5391,32 +5391,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-23266",
-   "name": "Plan Details PDF - UI - Footer Discount Note Displays Without Required Dagger (†) Marker",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-21T09:15:52.988-0700",
-   "resolved": "",
-   "due": "2026-09-25",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-23143",
    "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
    "pod": "LL",
@@ -5936,6 +5910,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23266",
+   "name": "Plan Details PDF - UI - Footer Discount Note Displays Without Required Dagger (†) Marker",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Vasyl Skochko",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-21T09:15:52.988-0700",
+   "resolved": "2026-10-06T08:59:47.488-0700",
+   "due": "2026-09-25",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
   {
    "key": "PLANS-23753",
    "name": "PMP-Stage-Manage Payments Footer for Unassigned plan don't show 'Go To Plan' link",
