@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T15:00:30+00:00",
+ "generated_at": "2026-10-06T15:15:22+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -26564,29 +26564,6 @@
    "labels": [
     "plans"
    ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19169",
-   "name": "WFP \\ Practice Name dropdown options overlap the purchase form in Multi Practice View",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-07-08T07:48:05.268-0700",
-   "resolved": "2026-07-08T08:06:35.747-0700",
-   "due": "",
-   "labels": [],
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-18470",
