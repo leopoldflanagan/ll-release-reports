@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T08:45:27+00:00",
+ "generated_at": "2026-10-06T09:00:30+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -132,7 +132,7 @@
    "key": "WT-987",
    "name": "Add Missing Data Icon to PMP",
    "status": "In Development",
-   "ted": "2026-10-09",
+   "ted": "2026-10-23",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
@@ -608,7 +608,7 @@
    "key": "WT-987",
    "name": "Add Missing Data Icon to PMP",
    "status": "In Development",
-   "ted": "2026-10-09",
+   "ted": "2026-10-23",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small",
@@ -1152,7 +1152,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-10-09",
+   "ted": "2026-10-23",
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
@@ -26551,29 +26551,6 @@
    "triage": "",
    "parentKey": "PLANS-15107",
    "parentName": "[DCA] Portal Level Sellability Testing",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18512",
-   "name": "Blocker - Member portal - Broken - Overview page / Plans not loaded for RP",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-25T08:00:11.625-0700",
-   "resolved": "2026-07-08T01:55:53.483-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
