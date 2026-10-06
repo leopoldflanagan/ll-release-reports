@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T20:42:02+00:00",
+ "generated_at": "2026-10-06T20:45:20+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -3532,6 +3532,32 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24164",
+   "name": "BLOCKER for CREG testing - adding member via CSP",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-06T13:41:56.145-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
     "product_prioritized"
    ],
    "theme": "",
