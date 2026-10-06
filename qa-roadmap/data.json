@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T09:00:30+00:00",
+ "generated_at": "2026-10-06T09:15:21+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1258,6 +1258,32 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24109",
+   "name": "Bugs - Digital Smiles & Digital Smiles Senior 55+ (stage)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T07:03:58.029-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24052",
    "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
    "pod": "LL",
@@ -1276,32 +1302,6 @@
    "triage": "",
    "parentKey": "PLANS-22784",
    "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24003",
-   "name": "Ideal Dental- Aurora Loyalty Plan bugs",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-01T08:48:21.147-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1636,6 +1636,32 @@
    "triage": "",
    "parentKey": "PLANS-22784",
    "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24003",
+   "name": "PLANS-24003: Ideal Dental- Aurora Loyalty Plan bugs",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-01T08:48:21.147-0700",
+   "resolved": "",
+   "due": "2026-10-06",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3777,32 +3803,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24109",
-   "name": "Bugs - Digital Smiles & Digital Smiles Senior 55+ (stage)",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T07:03:58.029-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24103",
    "name": "CSP - Office assigned from PMP, the office assignment is not reflected in CSP > Member > Plan Details.",
    "pod": "PLANS",
@@ -4686,7 +4686,7 @@
    "key": "PLANS-23839",
    "name": "ACH - Auto Renewal Declined Transaction Displays Incorrect Status as \"Paid\"",
    "pod": "LL",
-   "status": "PR Merged",
+   "status": "In QA",
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "LL-Sprint 23-26",
