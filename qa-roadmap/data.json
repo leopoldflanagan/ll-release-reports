@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T19:27:34+00:00",
+ "generated_at": "2026-10-06T19:30:28+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1195,32 +1195,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24030",
-   "name": "CSP/Renewal/Giftcore Promo code is applied for Expired Plans though Eligibility rule is applied to restrict Expired plans",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Vivienne Chawande",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-01T20:18:21.711-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
@@ -4572,6 +4546,32 @@
    "due": "",
    "labels": [
     "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24030",
+   "name": "CSP/Renewal/Giftcore Promo code is applied for Expired Plans though Eligibility rule is applied to restrict Expired plans",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Vivienne Chawande",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-01T20:18:21.711-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
