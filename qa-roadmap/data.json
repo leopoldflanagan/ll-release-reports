@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T20:00:24+00:00",
+ "generated_at": "2026-10-06T20:15:25+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -26436,29 +26436,6 @@
    "triage": "",
    "parentKey": "PLANS-18470",
    "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-15072",
-   "name": "Retest - Member Portal - Payments - Credit Card still appears and has not been removed",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Unassigned",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-04-14T11:58:14.089-0700",
-   "resolved": "2026-07-08T13:07:55.334-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14864",
-   "parentName": "RE - MP Refactor Work Placeholder",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
