@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T14:53:49+00:00",
+ "generated_at": "2026-10-06T15:00:30+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1402,7 +1402,8 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "group2_migration"
+    "group2_migration",
+    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
@@ -1413,20 +1414,49 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24140",
+   "name": "PreProd SmileHealth \\ Checkout screen display Payment is temporarily unavailable 502 code error",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Luis Moreno Soberón",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T16:07:16.880-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24130",
    "name": "PMP \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Nazarii Polinyk",
    "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-10-05T12:15:14.877-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22787",
@@ -1441,15 +1471,18 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-10-05T08:23:22.128-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22784",
@@ -1472,7 +1505,10 @@
    "created": "2026-10-05T06:37:35.445-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22785",
@@ -3916,32 +3952,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-23753",
-   "name": "PMP-Stage-Manage Payments Footer for Unassigned plan don't show 'Go To Plan' link",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-09-28T06:55:02.903-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22046",
-   "parentName": "[3] Payment Wallet and Plans Enhancement - Method visibility, safe removal, and remediation on Manage Payments",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23564",
    "name": "ACH Refund - Refund Receipt Opens Blank Page for ~20 Seconds Before Loading in member portal",
    "pod": "LL",
@@ -5926,6 +5936,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23753",
+   "name": "PMP-Stage-Manage Payments Footer for Unassigned plan don't show 'Go To Plan' link",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "Plans-Sprint 22-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-09-28T06:55:02.903-0700",
+   "resolved": "2026-10-06T07:55:42.817-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22046",
+   "parentName": "[3] Payment Wallet and Plans Enhancement - Method visibility, safe removal, and remediation on Manage Payments",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24133",
    "name": "Member Portal \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
@@ -26570,25 +26606,11 @@
    "reporter": "Vivienne Chawande"
   },
   {
-   "key": "PLANS-24140",
-   "name": "PreProd SmileHealth \\ Checkout screen display Payment is temporarily unavailable 502 code error",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
-  {
    "key": "PLANS-24129",
    "name": "Giftcore/ Promo code Giftcore is not auto applied to a manual renewal in Member Portal/PMP",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-23923",
-   "name": "Production plan benefits don't match stage",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Daniel Marineni"
   },
   {
    "key": "PLANS-23805",
