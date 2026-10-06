@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T19:51:11+00:00",
+ "generated_at": "2026-10-06T20:00:24+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -26453,29 +26453,6 @@
    "prio": "3: Standard",
    "created": "2026-04-14T11:58:14.089-0700",
    "resolved": "2026-07-08T13:07:55.334-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14864",
-   "parentName": "RE - MP Refactor Work Placeholder",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-16552",
-   "name": "Member portal - password change confirmation message popoup UI has changed.",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-05-21T10:51:30.789-0700",
-   "resolved": "2026-07-08T12:55:28.755-0700",
    "due": "",
    "labels": [],
    "theme": "LL-MVP",
