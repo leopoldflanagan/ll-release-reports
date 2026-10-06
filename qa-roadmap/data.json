@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T19:41:08+00:00",
+ "generated_at": "2026-10-06T19:45:24+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -26482,29 +26482,6 @@
    "triage": "",
    "parentKey": "PLANS-14864",
    "parentName": "RE - MP Refactor Work Placeholder",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19109",
-   "name": "CSP - Support Email Not Updated in Plan Management > Support Profile After Updating Support Profile",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-07T09:09:34.586-0700",
-   "resolved": "2026-07-08T12:42:53.440-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14769",
-   "parentName": "LL Dynamic Support Contact Info Displayed Across Portals",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
