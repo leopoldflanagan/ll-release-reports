@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T18:00:26+00:00",
+ "generated_at": "2026-10-06T18:15:25+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1258,32 +1258,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-24109",
-   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T07:03:58.029-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24052",
    "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
    "pod": "LL",
@@ -1486,24 +1460,27 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24129",
-   "name": "Giftcore/ Promo code Giftcore is not auto applied to a manual renewal in Member Portal/PMP",
-   "pod": "PLANS",
+   "key": "PLANS-24109",
+   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-10-05T11:03:36.462-0700",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T07:03:58.029-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-23167",
-   "parentName": "[1] Promo Codes Enhancement - auto-apply GIFTCORE at autorenewal for migrated DCA customers",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3643,32 +3620,6 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24151",
-   "name": "PRODUCTION - Essential Smile Plans are searchable through One Smile Org in Plan Transactions",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Daniel Marineni",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-06T09:15:12.727-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -5846,6 +5797,55 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24129",
+   "name": "Giftcore/ Promo code Giftcore is not auto applied to a manual renewal in Member Portal/PMP",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-10-05T11:03:36.462-0700",
+   "resolved": "2026-10-06T11:13:39.135-0700",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-23167",
+   "parentName": "[1] Promo Codes Enhancement - auto-apply GIFTCORE at autorenewal for migrated DCA customers",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24151",
+   "name": "PRODUCTION - Essential Smile Plans are searchable through One Smile Org in Plan Transactions",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Daniel Marineni",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-06T09:15:12.727-0700",
+   "resolved": "2026-10-06T11:09:12.905-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23143",
    "name": "ONESMILE PLAN WEBSITE UI - INCORRECT",
