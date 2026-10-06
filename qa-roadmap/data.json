@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T17:15:27+00:00",
+ "generated_at": "2026-10-06T17:27:41+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -26613,31 +26613,6 @@
    "triage": "",
    "parentKey": "PLANS-15227",
    "parentName": "WAIVEFAM Validation via CSP",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-5945",
-   "name": "CSP Member Search by Email Address Is Not UrlEncoded",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Mike McGlumphy",
-   "prio": "3: Standard",
-   "created": "2025-04-22T13:35:54.011-0700",
-   "resolved": "2026-07-08T10:25:53.488-0700",
-   "due": "",
-   "labels": [
-    "JSM"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
