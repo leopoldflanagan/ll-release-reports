@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T17:00:45+00:00",
+ "generated_at": "2026-10-06T17:13:07+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1257,32 +1257,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24130",
-   "name": "PMP \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-05T12:15:14.877-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-24109",
    "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
@@ -4662,6 +4636,32 @@
    "triage": "",
    "parentKey": "PLANS-14520",
    "parentName": "Auto-Renewal Opt Out Report - External",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24130",
+   "name": "PMP \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-05T12:15:14.877-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
