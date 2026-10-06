@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T21:15:22+00:00",
+ "generated_at": "2026-10-06T21:29:52+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -23,7 +23,7 @@
   {
    "key": "WT-820",
    "name": "Member Portal Support for Subscription Payments",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -435,7 +435,7 @@
   {
    "key": "WT-820",
    "name": "Member Portal Support for Subscription Payments",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.9",
    "who": "Chris Rubio",
@@ -956,7 +956,7 @@
    "name": "Member Portal Support for Subscription Payments",
    "pod": "LL",
    "proj": "WT",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": "R9.9",
    "ted": null,
    "who": "Chris Rubio",
