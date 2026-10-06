@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T15:30:23+00:00",
+ "generated_at": "2026-10-06T15:40:45+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1278,7 +1278,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1304,7 +1304,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1330,7 +1330,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1356,7 +1356,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -1539,32 +1539,6 @@
    "triage": "",
    "parentKey": "PLANS-21920",
    "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23913",
-   "name": "ACH - Emails are not working (Declines, Returns)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-30T11:02:15.290-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22544",
-   "parentName": "[5] Logging ACH Refunds — reflect ACH refunds in the Plan Sales Report and the CSP transaction view",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3634,7 +3608,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3686,7 +3660,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3712,7 +3686,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3738,7 +3712,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3815,8 +3789,8 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-23101",
-   "parentName": "[3] Promo Code Eligibility Rules — enforce the same gate on the legacy and CSP surfaces",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3894,7 +3868,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3950,6 +3924,32 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-23913",
+   "name": "ACH - Emails are not working (Declines, Returns)",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-30T11:02:15.290-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-23564",
@@ -4232,7 +4232,7 @@
    "theme": "LL-Fast Follows",
    "triage": "Yes",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4415,7 +4415,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4595,7 +4595,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4644,7 +4644,7 @@
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4696,7 +4696,7 @@
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4748,7 +4748,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5021,7 +5021,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5177,7 +5177,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5203,7 +5203,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5229,7 +5229,7 @@
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5281,7 +5281,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5437,7 +5437,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5515,7 +5515,7 @@
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5807,7 +5807,7 @@
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6012,10 +6012,10 @@
    "key": "PLANS-23987",
    "name": "ACH -Plan Sales Report - Returned Refund Amount Continues to Display as Negative Value Instead of Being Voided",
    "pod": "LL",
-   "status": "Closed",
+   "status": "Will Not Implement",
    "cat": "Done",
-   "fv": null,
-   "sprint": "LL-Sprint 23-26",
+   "fv": "R9.8",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -6023,13 +6023,13 @@
    "resolved": "2026-10-06T07:14:20.091-0700",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22544",
-   "parentName": "[5] Logging ACH Refunds — reflect ACH refunds in the Plan Sales Report and the CSP transaction view",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-24116",
@@ -6101,7 +6101,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6202,7 +6202,7 @@
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6254,7 +6254,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6306,7 +6306,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6427,7 +6427,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6453,7 +6453,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6505,7 +6505,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6635,7 +6635,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6661,7 +6661,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6725,7 +6725,7 @@
    "status": "Closed",
    "cat": "Done",
    "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
@@ -6735,11 +6735,11 @@
    "labels": [],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-23096",
-   "parentName": "[1] Promo Code Eligibility Rules — store and configure sale-type eligibility on a promo code",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-23769",
@@ -6762,7 +6762,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6788,7 +6788,7 @@
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6840,7 +6840,7 @@
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6918,7 +6918,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6993,7 +6993,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7019,7 +7019,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7097,7 +7097,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7172,7 +7172,7 @@
    "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7198,7 +7198,7 @@
    "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7224,7 +7224,7 @@
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7250,7 +7250,7 @@
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7351,7 +7351,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7403,7 +7403,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7429,7 +7429,7 @@
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7468,7 +7468,7 @@
    "cat": "Done",
    "fv": "R9.8",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-28T07:20:56.140-0700",
@@ -7480,11 +7480,11 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22538",
-   "parentName": "[1] Logging ACH Refunds — Account History records every ACH money movement",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": true,
-   "linkedLP": false
+   "linkedLP": true
   },
   {
    "key": "PLANS-22941",
@@ -7735,7 +7735,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7761,7 +7761,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7914,7 +7914,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7940,7 +7940,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -8674,7 +8674,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -8844,7 +8844,7 @@
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -9075,7 +9075,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -9101,7 +9101,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -9124,7 +9124,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -9150,7 +9150,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -9176,7 +9176,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -9300,7 +9300,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -9427,7 +9427,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -10250,7 +10250,7 @@
    "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -11246,7 +11246,7 @@
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -11442,7 +11442,7 @@
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
-   "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -26520,54 +26520,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18297",
-   "name": "WFP \\ Tie Plan Purchase to Office \\ Expected GetSellablePlans endpoint is not displayed as expected",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-06-19T14:54:09.135-0700",
-   "resolved": "2026-07-08T08:37:27.736-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-16613",
-   "parentName": "Tie Plan Purchase to Office: Epic 3 - Wellfit Pay All-Practice View Practice Selection (Journey 3)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19066",
-   "name": "OneSmile - Benefit details do not match any figma spec",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-07T06:52:11.040-0700",
-   "resolved": "2026-07-08T08:34:00.257-0700",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
