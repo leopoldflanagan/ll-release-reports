@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T10:45:23+00:00",
+ "generated_at": "2026-10-06T11:00:25+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -3855,32 +3855,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24065",
-   "name": "Comfort Dental, Danahay, & Wellcare - all having c/c processing issues on Smile Health",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Daryl Myrick",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-02T10:22:25.340-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24055",
    "name": "Provider Portal \\ Age restriction summary row is missing for Primary Member",
    "pod": "PLANS",
@@ -5055,6 +5029,32 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "[R9.8] LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24065",
+   "name": "Comfort Dental, Danahay, & Wellcare - all having c/c processing issues on Smile Health",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Daryl Myrick",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-02T10:22:25.340-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
