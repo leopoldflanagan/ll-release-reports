@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T10:30:25+00:00",
+ "generated_at": "2026-10-06T10:45:23+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -26528,29 +26528,6 @@
    "triage": "",
    "parentKey": "PLANS-18470",
    "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18504",
-   "name": "CSP - Past dates can be selected for Restriction activate ON/OFF dates ; Restrictions not applied when select a past date range.",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-25T06:12:10.397-0700",
-   "resolved": "2026-07-08T03:36:21.192-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15107",
-   "parentName": "[DCA] Portal Level Sellability Testing",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
