@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T17:27:41+00:00",
+ "generated_at": "2026-10-06T17:30:27+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -96,7 +96,7 @@
    "key": "WT-1003",
    "name": "Define Refund Window Timeframes",
    "status": "In Development",
-   "ted": "2026-09-25",
+   "ted": "2026-10-13",
    "fv": "R9.9",
    "who": "Mykyta Moroz",
    "tshirt": null
@@ -663,7 +663,7 @@
    "key": "WT-1003",
    "name": "Define Refund Window Timeframes",
    "status": "In Development",
-   "ted": "2026-09-25",
+   "ted": "2026-10-13",
    "fv": "R9.9",
    "who": "Mykyta Moroz",
    "tshirt": null,
@@ -1207,7 +1207,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-09-25",
+   "ted": "2026-10-13",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
