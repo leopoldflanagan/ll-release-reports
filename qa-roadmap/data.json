@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T13:53:58+00:00",
+ "generated_at": "2026-10-06T14:00:27+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1293,11 +1293,14 @@
    "sprint": "LL-Sprint 23-26",
    "who": "Oleksandr Terletskyy",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-10-02T07:11:28.155-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22784",
@@ -1672,15 +1675,18 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-09-30T11:02:15.290-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "ACH-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22544",
@@ -1692,18 +1698,21 @@
   {
    "key": "PLANS-23905",
    "name": "WF Share - PMP Add Plan Charges Full WF Share Instead of Discounted Amount",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": "LL-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-09-30T09:49:26.889-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
@@ -3744,7 +3753,10 @@
    "created": "2026-10-05T07:50:32.558-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22414",
