@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T22:00:31+00:00",
+ "generated_at": "2026-10-06T22:15:22+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -26437,31 +26437,6 @@
    "triage": "",
    "parentKey": "PLANS-18119",
    "parentName": "PMP Ancillary Benefit Card — Epic 2: Ancillary Benefit Card in PMP",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19019",
-   "name": "OneSmile - Information in Plans Details is not accurate",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-06T13:56:06.844-0700",
-   "resolved": "2026-07-08T15:12:08.778-0700",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
