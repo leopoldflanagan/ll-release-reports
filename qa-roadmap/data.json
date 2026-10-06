@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T18:46:02+00:00",
+ "generated_at": "2026-10-06T19:00:27+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -26535,6 +26535,20 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24163",
+   "name": "WFP/Admin/Pan Fee Pricing/Admin user is unable to view, edit or delete Plan Fee Pricing itemsms",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
+  {
+   "key": "PLANS-24158",
+   "name": "PreProd-Plan purchasing is not working in SGDP PP and WFP",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-24152",
    "name": "PreProd Member Portal \\ Previous expired plan is still displayed in the Overview section after auto-renewal",
