@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T18:30:27+00:00",
+ "generated_at": "2026-10-06T18:45:28+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1196,30 +1196,30 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-24052",
-   "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
+   "key": "PLANS-24021",
+   "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Oleksandr Terletskyy",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-02T07:11:28.155-0700",
+   "prio": "3: Standard",
+   "created": "2026-10-01T12:03:00.046-0700",
    "resolved": "",
    "due": "",
    "labels": [
-    "group2_migration",
-    "product_prioritized"
+    "group1_migration",
+    "group2_migration"
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-23878",
@@ -3829,32 +3829,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24021",
-   "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-01T12:03:00.046-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-24004",
    "name": "Member Portal - Inconsistent Font Sizes/Styles/ link colors in Legal Consent Section",
    "pod": "LL",
@@ -4569,6 +4543,32 @@
    "created": "2026-10-02T11:02:09.265-0700",
    "resolved": "",
    "due": "2026-10-08",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24052",
+   "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-02T07:11:28.155-0700",
+   "resolved": "",
+   "due": "",
    "labels": [
     "group2_migration",
     "product_prioritized"
