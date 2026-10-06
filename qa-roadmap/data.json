@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T18:19:30+00:00",
+ "generated_at": "2026-10-06T18:30:27+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -100,24 +100,6 @@
    "fv": "R9.9",
    "who": "Mykyta Moroz",
    "tshirt": null
-  },
-  {
-   "key": "WT-976",
-   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
-   "status": "In Testing",
-   "ted": "2026-10-02",
-   "fv": "R9.8",
-   "who": "Mykyta Moroz",
-   "tshirt": null
-  },
-  {
-   "key": "WT-1055",
-   "name": "Plan Prioritization",
-   "status": "In Testing",
-   "ted": "2026-09-28",
-   "fv": "R9.8",
-   "who": "Nazarii Polinyk",
-   "tshirt": "Moderate"
   },
   {
    "key": "WT-1024",
@@ -315,17 +297,6 @@
    "fv": "R9.10",
    "who": "Valentyna Tenus",
    "tshirt": "Large",
-   "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1055",
-   "name": "Plan Prioritization",
-   "status": "In Testing",
-   "ted": "2026-09-28",
-   "fv": "R9.8",
-   "who": "Nazarii Polinyk",
-   "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -547,17 +518,6 @@
    "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-976",
-   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
-   "status": "In Testing",
-   "ted": "2026-10-02",
-   "fv": "R9.8",
-   "who": "Mykyta Moroz",
-   "tshirt": null,
-   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -860,17 +820,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "WT-1055",
-   "name": "Plan Prioritization",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": "2026-09-28",
-   "who": "Nazarii Polinyk",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "WT-1060",
    "name": "Member Search Improvements",
    "pod": "PLANS",
@@ -1088,17 +1037,6 @@
    "fv": "R9.9",
    "ted": null,
    "who": "Daniel Marineni",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-976",
-   "name": "Promo codes enhancement -Eligibility rules and validity dates for custom promo codes",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": "2026-10-02",
-   "who": "Mykyta Moroz",
    "theme": "LL-Fast Follows"
   },
   {
@@ -26590,29 +26528,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18078",
-   "name": "Stage - CSP - Plan Overview - API returns 200 when WAIVEFAM is not valid for the selected plan",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-06-16T11:12:46.285-0700",
-   "resolved": "2026-07-08T11:22:51.296-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15227",
-   "parentName": "WAIVEFAM Validation via CSP",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
