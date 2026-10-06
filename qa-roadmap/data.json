@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T14:00:27+00:00",
+ "generated_at": "2026-10-06T14:15:22+00:00",
  "today": "2026-10-06",
  "features": [
   {
@@ -1611,34 +1611,14 @@
    "created": "2026-10-01T12:03:00.046-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "group2_migration"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22784",
    "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-23987",
-   "name": "ACH -Plan Sales Report - Returned Refund Amount Continues to Display as Negative Value Instead of Being Voided",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-01T08:26:02.946-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22544",
-   "parentName": "[5] Logging ACH Refunds — reflect ACH refunds in the Plan Sales Report and the CSP transaction view",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -5955,6 +5935,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23987",
+   "name": "ACH -Plan Sales Report - Returned Refund Amount Continues to Display as Negative Value Instead of Being Voided",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-01T08:26:02.946-0700",
+   "resolved": "2026-10-06T07:14:20.091-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22544",
+   "parentName": "[5] Logging ACH Refunds — reflect ACH refunds in the Plan Sales Report and the CSP transaction view",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24116",
    "name": "DCA - Plan Ranking Not Honored in Portal Despite Ranking Updates from CSP",
@@ -26511,31 +26514,6 @@
    "resolved": "2026-07-08T08:06:35.747-0700",
    "due": "",
    "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19018",
-   "name": "OneSmile - Cannot find the \"Find a Dentist Near You\" section",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Mariano Hernández",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-06T13:42:36.543-0700",
-   "resolved": "2026-07-08T07:07:40.533-0700",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-18470",
