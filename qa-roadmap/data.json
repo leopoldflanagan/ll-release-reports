@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T13:54:38+00:00",
+ "generated_at": "2026-10-07T14:00:27+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -26449,33 +26449,17 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-19270",
-   "name": "CSP - Source Displays as \"Purchase Portal\" Instead of \"DCA Purchase Portal\" for DCA Consents",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-08T15:52:00.781-0700",
-   "resolved": "2026-07-09T06:57:24.130-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-16686",
-   "parentName": "Legal Language Updates - Epic 3: Preference Management & Consent Audit",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24187",
+   "name": "Plan Details - One Smile - Additional person discount value looks cropped.",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24167",
    "name": "PreProd-PMP-One Smile plan didn't auto-renewed, no failure reason recorded in Account History",
