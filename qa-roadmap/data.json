@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T10:30:24+00:00",
+ "generated_at": "2026-10-07T10:45:19+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -1296,6 +1296,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24168",
+   "name": "Plan Details - Grammar mistake in auto renewal text 'your administration fee of will be waived'",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-07T03:33:45.582-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23328",
+   "parentName": "[4] Marketing Details Driving Smile Health - One PDF per Coverage Level for Ad Hoc Plans",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -5065,32 +5088,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23823",
-   "name": "Plans details PDF - Misc. Bugs for Plans Go Live Phase 2",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-28T18:20:55.198-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23563",
    "name": "Exclusions not reading from CSP to Smile Health",
    "pod": "LL",
@@ -5662,6 +5659,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23823",
+   "name": "Plans details PDF - Misc. Bugs for Plans Go Live Phase 2",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-28T18:20:55.198-0700",
+   "resolved": "2026-10-07T03:36:21.512-0700",
+   "due": "2026-09-30",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23799",
    "name": "ACH - Incorrect Status in CSP Plan Transactions When a Refunded Transaction Is Returned/Declined",
