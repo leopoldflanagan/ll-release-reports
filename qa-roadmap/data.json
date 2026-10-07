@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T13:00:26+00:00",
+ "generated_at": "2026-10-07T13:15:23+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -4455,7 +4455,7 @@
    "key": "PLANS-24130",
    "name": "PMP \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "LL-Sprint 23-26",
@@ -4508,7 +4508,7 @@
    "key": "PLANS-24105",
    "name": "PMP - Coverage Level Ranking is not honored when displaying plans",
    "pod": "LL",
-   "status": "PR Created",
+   "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "LL-Sprint 23-26",
