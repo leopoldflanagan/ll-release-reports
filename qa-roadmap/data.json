@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T14:00:27+00:00",
+ "generated_at": "2026-10-07T14:15:25+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -1298,6 +1298,29 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
+  },
+  {
+   "key": "PLANS-24187",
+   "name": "Plan Details - One Smile - Additional Person Discount value appears cropped",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-07T06:58:28.056-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
   },
   {
    "key": "PLANS-24168",
@@ -26454,11 +26477,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-24187",
-   "name": "Plan Details - One Smile - Additional person discount value looks cropped.",
+   "key": "PLANS-24188",
+   "name": "PMP \\ Error when trying to manually renew a migrated",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
+   "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-24167",
