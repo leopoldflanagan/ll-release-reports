@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T16:19:15+00:00",
+ "generated_at": "2026-10-07T16:30:24+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -1449,7 +1449,7 @@
   },
   {
    "key": "PLANS-24140",
-   "name": "STG PreProd SmileHealth \\ Checkout screen display Payment is temporarily unavailable 502 code error",
+   "name": "PreProd SmileHealth \\ Checkout screen display Payment is temporarily unavailable 502 code error",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
