@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T18:16:00+00:00",
+ "generated_at": "2026-10-07T18:20:21+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -5142,32 +5142,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23534",
-   "name": "Digital Smiles (both plans)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-24T19:33:23.357-0700",
-   "resolved": "",
-   "due": "2026-10-05",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23348",
    "name": "STAGE - Inability to save a c/c to a/r - BLOCKING the load for the tokens scenario set up",
    "pod": "PLANS",
@@ -5609,6 +5583,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23534",
+   "name": "Digital Smiles (both plans)",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-24T19:33:23.357-0700",
+   "resolved": "2026-10-07T11:20:01.337-0700",
+   "due": "2026-10-05",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23904",
    "name": "Member showed as Active Yesterday, Now Shows as Canceled",
