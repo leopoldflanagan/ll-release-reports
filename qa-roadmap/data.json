@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T14:45:22+00:00",
+ "generated_at": "2026-10-07T14:53:42+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -4816,7 +4816,7 @@
    "pod": "LL",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "sprint": "LL-Sprint 23-26",
    "who": "Denys Kernychnyi",
    "reporter": "Daniel Marineni",
