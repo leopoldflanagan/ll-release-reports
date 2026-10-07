@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T14:53:42+00:00",
+ "generated_at": "2026-10-07T15:00:24+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -1396,7 +1396,7 @@
   },
   {
    "key": "PLANS-24152",
-   "name": "PreProd Member Portal \\ Previous expired plan is still displayed in the Overview section after auto-renewal",
+   "name": "STG PreProd Member Portal \\ Previous expired plan is still displayed in the Overview section after auto-renewal",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -1448,7 +1448,7 @@
   },
   {
    "key": "PLANS-24140",
-   "name": "PreProd SmileHealth \\ Checkout screen display Payment is temporarily unavailable 502 code error",
+   "name": "STG PreProd SmileHealth \\ Checkout screen display Payment is temporarily unavailable 502 code error",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
@@ -5189,32 +5189,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23467",
-   "name": "PMP/Renew/Unable to Renew plan in PMP with existing card in Wallet (Error is displayed)",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-09-24T07:43:46.722-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23348",
    "name": "STAGE - Inability to save a c/c to a/r - BLOCKING the load for the tokens scenario set up",
    "pod": "PLANS",
@@ -5682,6 +5656,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23467",
+   "name": "PMP/Renew/Unable to Renew plan in PMP with existing card in Wallet (Error is displayed)",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-09-24T07:43:46.722-0700",
+   "resolved": "2026-10-07T07:57:30.816-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24155",
    "name": "Credit Card Payment Not Going Through",
