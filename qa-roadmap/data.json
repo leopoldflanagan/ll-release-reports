@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T15:30:25+00:00",
+ "generated_at": "2026-10-07T15:45:24+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -1378,8 +1378,8 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
@@ -1390,10 +1390,10 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3870,6 +3870,7 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "CCB_candidate",
     "group1_migration",
     "product_prioritized"
    ],
@@ -4699,6 +4700,7 @@
    "resolved": "",
    "due": "2026-09-30",
    "labels": [
+    "CCB_candidate",
     "group1_migration",
     "product_prioritized"
    ],
