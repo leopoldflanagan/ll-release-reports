@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T10:15:23+00:00",
+ "generated_at": "2026-10-07T10:30:24+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -1195,32 +1195,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24105",
-   "name": "PMP - Coverage Level Ranking is not honored when displaying plans",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T06:33:22.962-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
@@ -4496,6 +4470,32 @@
    "due": "2026-10-07",
    "labels": [
     "CCB_candidate",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24105",
+   "name": "PMP - Coverage Level Ranking is not honored when displaying plans",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T06:33:22.962-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
     "group2_migration",
     "product_prioritized"
    ],
