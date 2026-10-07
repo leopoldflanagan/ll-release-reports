@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T17:31:13+00:00",
+ "generated_at": "2026-10-07T17:45:26+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -1274,6 +1274,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24195",
+   "name": "Preprod - Plan template differences compared to STAGE (Comfort Dental / True North Smiles Plan Washington )",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-07T10:32:23.876-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
