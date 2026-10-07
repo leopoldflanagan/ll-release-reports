@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T15:00:24+00:00",
+ "generated_at": "2026-10-07T15:25:37+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -276,17 +276,6 @@
    "who": "Valentyna Tenus",
    "tshirt": "Small",
    "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1037",
-   "name": "Careington Refund report/extract",
-   "status": "In Development",
-   "ted": "2026-10-01",
-   "fv": "R9.9",
-   "who": "Lloyd Tokerud",
-   "tshirt": null,
-   "pod": "EDW",
    "theme": "LL-Fast Follows"
   },
   {
@@ -795,17 +784,6 @@
    "fv": "R9.9",
    "ted": "2026-10-23",
    "who": "Valentyna Tenus",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1037",
-   "name": "Careington Refund report/extract",
-   "pod": "EDW",
-   "proj": "WT",
-   "status": "In Development",
-   "fv": "R9.9",
-   "ted": "2026-10-01",
-   "who": "Lloyd Tokerud",
    "theme": "LL-Fast Follows"
   },
   {
