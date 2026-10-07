@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T10:45:19+00:00",
+ "generated_at": "2026-10-07T11:00:23+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -5088,32 +5088,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23563",
-   "name": "Exclusions not reading from CSP to Smile Health",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-09-25T15:57:35.914-0700",
-   "resolved": "",
-   "due": "2026-09-29",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-23534",
    "name": "Digital Smiles (both plans)",
    "pod": "LL",
@@ -5659,6 +5633,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23563",
+   "name": "Exclusions not reading from CSP to Smile Health",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-09-25T15:57:35.914-0700",
+   "resolved": "2026-10-07T03:59:30.101-0700",
+   "due": "2026-09-29",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23823",
    "name": "Plans details PDF - Misc. Bugs for Plans Go Live Phase 2",
