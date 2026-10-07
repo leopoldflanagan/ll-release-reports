@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T14:16:45+00:00",
+ "generated_at": "2026-10-07T14:30:28+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -26447,38 +26447,20 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-19143",
-   "name": "Typo in OneSmile card",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Mariano Hernández",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-07T17:32:22.765-0700",
-   "resolved": "2026-07-09T07:23:36.991-0700",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
   }
  ],
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-24191",
+   "name": "Plan Details",
+   "status": "Backlog",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-24188",
-   "name": "PMP \\ Error when trying to manually renew a migrated",
+   "name": "PreProd PMP \\ Error when trying to manually renew a migrated",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
