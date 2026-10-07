@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T09:15:21+00:00",
+ "generated_at": "2026-10-07T09:30:30+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -1195,6 +1195,33 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-24109",
+   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T07:03:58.029-0700",
+   "resolved": "",
+   "due": "2026-10-07",
+   "labels": [
+    "CCB_candidate",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24105",
    "name": "PMP - Coverage Level Ranking is not honored when displaying plans",
@@ -3619,33 +3646,6 @@
    "triage": "",
    "parentKey": "PLANS-22414",
    "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24109",
-   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T07:03:58.029-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "CCB_candidate",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
