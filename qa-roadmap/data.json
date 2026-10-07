@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T18:00:26+00:00",
+ "generated_at": "2026-10-07T18:16:00+00:00",
  "today": "2026-10-07",
  "features": [
   {
@@ -36,6 +36,15 @@
    "ted": "2026-10-02",
    "fv": "R9.8",
    "who": "Dima Shtympel",
+   "tshirt": null
+  },
+  {
+   "key": "WT-1170",
+   "name": "Show statuses for ACH transactions at Member Portal",
+   "status": "Backlog",
+   "ted": null,
+   "fv": "R9.10",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null
   },
   {
@@ -99,15 +108,6 @@
    "ted": "2026-10-14",
    "fv": "R9.9",
    "who": "Nazarii Polinyk",
-   "tshirt": null
-  },
-  {
-   "key": "WT-1170",
-   "name": "Show statuses for ACH transactions at Member Portal",
-   "status": "Backlog",
-   "ted": null,
-   "fv": null,
-   "who": "Obie Khandaker",
    "tshirt": null
   },
   {
@@ -677,8 +677,8 @@
    "name": "Show statuses for ACH transactions at Member Portal",
    "status": "Backlog",
    "ted": null,
-   "fv": null,
-   "who": "Obie Khandaker",
+   "fv": "R9.10",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null,
    "pod": "LL",
    "theme": ""
@@ -1197,9 +1197,9 @@
    "pod": "LL",
    "proj": "WT",
    "status": "Backlog",
-   "fv": null,
+   "fv": "R9.10",
    "ted": null,
-   "who": "Obie Khandaker",
+   "who": "Dmytro Tymofiienko",
    "theme": ""
   }
  ],
