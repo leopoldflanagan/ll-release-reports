@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T13:30:26+00:00",
+ "generated_at": "2026-10-08T13:43:52+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1205,6 +1205,32 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24201",
+   "name": "PMP \\ UI\\Smile Alliance logo is not centered as requested at Membership PDF",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Nazarii Polinyk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-10-07T16:49:33.462-0700",
+   "resolved": "",
+   "due": "2026-10-09",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23878",
    "name": "PDF's - Additional Benefits was not implemented correctly",
    "pod": "LL",
@@ -1304,32 +1330,6 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24201",
-   "name": "PMP \\ UI\\Smile Alliance logo is not centered as requested at Membership PDF",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Nazarii Polinyk",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-10-07T16:49:33.462-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
