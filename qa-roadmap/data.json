@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T19:45:21+00:00",
+ "generated_at": "2026-10-08T19:55:32+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1341,18 +1341,21 @@
   {
    "key": "PLANS-24293",
    "name": "Dental Innovations - Phase 2 Error",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Ezra Skeete",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-10-08T12:30:50.142-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "",
@@ -1652,6 +1655,7 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "9.8.2",
     "group1_migration",
     "product_prioritized"
    ],
