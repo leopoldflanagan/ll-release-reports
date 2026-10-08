@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T18:19:44+00:00",
+ "generated_at": "2026-10-08T18:30:26+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -159,7 +159,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Development",
-   "ted": "2026-10-08",
+   "ted": "2026-10-09",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -185,17 +185,6 @@
    "fv": "R9.9",
    "who": "Chris Rubio",
    "tshirt": "Moderate",
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1018",
-   "name": "Promo codes enhancement -Apply GIFTCORE at autorenewal for migrated DCA customers",
-   "status": "In Testing",
-   "ted": "2026-09-25",
-   "fv": "R9.8",
-   "who": "Daniel Marineni",
-   "tshirt": null,
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -555,7 +544,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Development",
-   "ted": "2026-10-08",
+   "ted": "2026-10-09",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -708,17 +697,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "WT-1018",
-   "name": "Promo codes enhancement -Apply GIFTCORE at autorenewal for migrated DCA customers",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.8",
-   "ted": "2026-09-25",
-   "who": "Daniel Marineni",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "WT-1021",
    "name": "Wellfit User - Practice Assignment Picker",
    "pod": "LL",
@@ -1077,7 +1055,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-10-08",
+   "ted": "2026-10-09",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
@@ -1621,7 +1599,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "Plans-Sprint 23-26",
-   "who": "Unassigned",
+   "who": "David Jones",
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-10-08T06:54:04.281-0700",
@@ -1633,8 +1611,8 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3852,29 +3830,6 @@
    "linkedLP": false
   },
   {
-   "key": "EDW-2431",
-   "name": "OneSmile Migration Issue",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Lloyd Tokerud",
-   "reporter": "Brianna Hill",
-   "prio": "1: Urgent",
-   "created": "2026-10-08T10:07:51.877-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "DYN-1472",
    "name": "CRM email buttons looks different for sgdp ADHA /KIDSplans",
    "pod": "PLANS",
@@ -5908,6 +5863,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "EDW-2431",
+   "name": "OneSmile Migration Issue",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Lloyd Tokerud",
+   "reporter": "Brianna Hill",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T10:07:51.877-0700",
+   "resolved": "2026-10-08T11:25:57.397-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24277",
    "name": "PLANS-24277: Dental Innovations - the logo is missing (prod)",
@@ -26739,29 +26717,6 @@
    "triage": "",
    "parentKey": "PLANS-16233",
    "parentName": "Epic 2 Member portal terms and conditions on initial login",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19277",
-   "name": "Provider Portal \\ Unable to complete plan purchase due to 409 error code Payments Integration Unavailable",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-07-08T16:44:29.710-0700",
-   "resolved": "2026-07-10T11:20:49.725-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
