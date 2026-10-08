@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T20:55:03+00:00",
+ "generated_at": "2026-10-08T21:00:26+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -5498,29 +5498,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24283",
-   "name": "Locations are not Available for Digital Smailes",
-   "pod": "PLANS",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Kristina Garcia",
-   "prio": "1: Urgent",
-   "created": "2026-10-08T09:32:56.165-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24278",
    "name": "Open network issue (stage & prod)",
    "pod": "LL",
@@ -6011,6 +5988,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24283",
+   "name": "Locations are not Available for Digital Smailes",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Kristina Garcia",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T09:32:56.165-0700",
+   "resolved": "2026-10-08T13:56:54.523-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "EDW-2431",
    "name": "OneSmile Migration Issue",
