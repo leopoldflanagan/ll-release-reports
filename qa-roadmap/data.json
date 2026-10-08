@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T15:15:23+00:00",
+ "generated_at": "2026-10-08T15:19:56+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -49,7 +49,7 @@
   },
   {
    "key": "WT-1021",
-   "name": "Wellfit Admin - Practice Assignment Picker",
+   "name": "Wellfit User - Practice Assignment Picker",
    "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
@@ -201,7 +201,7 @@
   },
   {
    "key": "WT-1021",
-   "name": "Wellfit Admin - Practice Assignment Picker",
+   "name": "Wellfit User - Practice Assignment Picker",
    "status": "Requirements",
    "ted": null,
    "fv": "R9.9",
@@ -720,7 +720,7 @@
   },
   {
    "key": "WT-1021",
-   "name": "Wellfit Admin - Practice Assignment Picker",
+   "name": "Wellfit User - Practice Assignment Picker",
    "pod": "LL",
    "proj": "WT",
    "status": "Requirements",
@@ -26471,6 +26471,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24275",
+   "name": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank Screen",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24274",
    "name": "Prod & Stage - Guided Practice Solutions org is not visible in practices page & UCR management",
