@@ -45,11 +45,12 @@ jobs:
         run: |
           git config user.name  "LL Dashboard Bot"
           git config user.email "actions@github.com"
-          # Bot only ever writes data.json — never the HTML — so conflicts are impossible.
-          if git diff --quiet -- qa-roadmap/data.json; then
+          # Bot only ever writes data.json and history.json — never the HTML — so
+          # conflicts with manual edits are impossible.
+          if git diff --quiet -- qa-roadmap/data.json qa-roadmap/history.json; then
             echo "No changes - data already up to date."
           else
-            git add qa-roadmap/data.json
+            git add qa-roadmap/data.json qa-roadmap/history.json
             git commit -m "Auto-refresh LL QA data ($(date -u +%Y-%m-%d))"
             for i in 1 2 3; do
               if git push; then

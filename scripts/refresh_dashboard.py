@@ -355,6 +355,169 @@ def splice(html, marker_decl, new_decl):
     return pat.sub(lambda m: new_decl, html, count=1)
 
 
+# ---- Bug history accumulator ----------------------------------------------
+# The bug lists above are a rolling 90-day window: anything older drops out and
+# the history is gone with it. This builds a SEPARATE file that only ever grows,
+# holding the per-release counts the trend views need.
+#
+# Two choices worth knowing about:
+#   * Windows run deploy-to-deploy, and a bug belongs to the window it was
+#     REPORTED in - the release that was live when it showed up. Its fixVersion
+#     says where it is scheduled to be FIXED, which is a different question and
+#     a different number.
+#   * Counts come from Jira directly rather than from the lists above, so a
+#     window is still correct when it predates the 90-day window.
+#
+# HISTORY_TEAMS is a dict on purpose: DS and EDW can be added here without
+# touching any logic below, which is what the per-team reports will need.
+
+HISTORY_SCHEMA = 1
+HISTORY_TEAMS = {
+    "LL":    'cf[11626] = "LL"',
+    "PLANS": 'cf[11626] = "PLANS"',
+}
+WORK_TYPES = '"Story", "Task"'
+
+# Deploy dates confirmed against each fixVersion's releaseDate in Jira. Kept
+# separate from RELEASES because that list drives the roadmap's freeze markers
+# and prose, where adding past releases would change what the page displays.
+HISTORY_RELEASES = [
+    ("R9.4", dt.date(2026, 6, 3)),
+    ("R9.5", dt.date(2026, 7, 1)),
+] + RELEASES
+
+
+def release_windows(today):
+    """Deploy to the next deploy. A window that has not started yet is skipped;
+    the one containing today is open and gets recomputed on every run."""
+    out = []
+    for n, (rid, start) in enumerate(HISTORY_RELEASES):
+        end = HISTORY_RELEASES[n + 1][1] if n + 1 < len(HISTORY_RELEASES) else None
+        if start > today:
+            continue
+        out.append({"id": rid, "start": start, "end": end,
+                    "closed": bool(end and end <= today)})
+    return out
+
+
+def _pct(vals_sorted, q):
+    if not vals_sorted:
+        return None
+    k = min(len(vals_sorted) - 1, int(round((len(vals_sorted) - 1) * q)))
+    return vals_sorted[k]
+
+
+def _prio_key(issue):
+    name = ((issue["fields"].get("priority") or {}).get("name") or "")
+    head = name.split(":")[0].strip()
+    return head if head in ("1", "2", "3", "4") else "other"
+
+
+def _count_by_prio(issues):
+    out = {"1": 0, "2": 0, "3": 0, "4": 0, "other": 0}
+    for i in issues:
+        out[_prio_key(i)] += 1
+    return out
+
+
+def _window_clause(field, w):
+    c = f'{field} >= "{w["start"].isoformat()}"'
+    if w["end"]:
+        c += f' AND {field} < "{w["end"].isoformat()}"'
+    return c
+
+
+def measure_window(pred, w):
+    """One team's row for one window, from three queries."""
+    flds = ["priority", "created", "resolutiondate"]
+    reported = jira_search(f'issuetype = Bug AND {pred} AND {_window_clause("created", w)}',
+                           flds, max_total=5000)
+    resolved = jira_search(f'issuetype = Bug AND {pred} AND {_window_clause("resolved", w)}',
+                           flds, max_total=5000)
+
+    buckets = {}
+    for i in resolved:
+        f = i["fields"]
+        if not (f.get("created") and f.get("resolutiondate")):
+            continue
+        days = (dt.date.fromisoformat(f["resolutiondate"][:10])
+                - dt.date.fromisoformat(f["created"][:10])).days
+        buckets.setdefault(_prio_key(i), []).append(max(0, days))
+    ttr = {}
+    for k, v in buckets.items():
+        v.sort()
+        ttr[k] = {"n": len(v), "median": _pct(v, 0.5), "p90": _pct(v, 0.9)}
+
+    # Denominator for "bugs against how much we shipped". Counted, not weighted:
+    # story points are filled on roughly 6% of this project's stories, so any
+    # points-based figure would be mostly guesswork dressed up as a number.
+    work = jira_search(f'issuetype IN ({WORK_TYPES}) AND {pred} AND {_window_clause("resolved", w)}',
+                       ["priority"], max_total=5000)
+
+    return {"reported": _count_by_prio(reported),
+            "resolved": _count_by_prio(resolved),
+            "ttr_days": ttr,
+            "work_items": len(work)}
+
+
+def build_history(path, today):
+    """Grow history.json. A closed window is measured once and then left alone;
+    the open window is refreshed every run."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            prev = json.load(fh)
+    except (OSError, ValueError):
+        prev = {}
+
+    # What we carry forward vs what we compare against are two different things.
+    # A schema bump rebuilds every window, but the figures already on disk are
+    # still the best record of what those windows held, so they stay available
+    # for the zero-check below.
+    stored = prev.get("releases") or {}
+    if prev and prev.get("schema") != HISTORY_SCHEMA:
+        print(f"  history: schema {prev.get('schema')} != {HISTORY_SCHEMA}, rebuilding")
+        rel = {}
+    else:
+        rel = dict(stored)
+
+    teams_now = sorted(HISTORY_TEAMS)
+    for w in release_windows(today):
+        have = rel.get(w["id"]) or {}
+        prior = stored.get(w["id"]) or {}
+        # Frozen only counts if it was measured for the same set of teams -
+        # otherwise adding a team would leave old windows silently short a column.
+        if have.get("closed") and have.get("teams_measured") == teams_now:
+            continue
+        row = {"start": w["start"].isoformat(),
+               "end": w["end"].isoformat() if w["end"] else None,
+               "closed": w["closed"],
+               "teams_measured": teams_now,
+               "measured_at": today.isoformat(),
+               "teams": {t: measure_window(pred, w) for t, pred in HISTORY_TEAMS.items()}}
+        tot = sum(sum(t["reported"].values()) for t in row["teams"].values())
+        # A frozen window is only ever re-measured on a rebuild (schema bump, or an
+        # unreadable file). If Jira hands back nothing for a window that previously
+        # had bugs, that is Jira having changed under us - a renamed field, archived
+        # issues - not a month in which nobody reported anything. Keep what we had.
+        was = sum(sum(t["reported"].values())
+                  for t in (prior.get("teams") or {}).values())
+        if was and not tot:
+            print(f"  history: {w['id']} re-measured as 0 but held {was} - keeping the "
+                  "stored figures. Check the Pod field and issue type names.")
+            rel[w["id"]] = prior
+            continue
+        rel[w["id"]] = row
+        print(f"  history: {w['id']} ({'frozen' if w['closed'] else 'open'}) - {tot} reported")
+
+    out = {"schema": HISTORY_SCHEMA,
+           "updated_at": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
+           "teams": teams_now,
+           "releases": rel}
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(out, fh, ensure_ascii=False, indent=1)
+    return out
+
+
 # ---- Guard: never publish a collapsed snapshot ----------------------------
 # Every feature query depends on field values that live ON the Feature itself
 # (Pod cf[11626], Theme cf[12146]) and on the issue type still being named
@@ -447,6 +610,10 @@ def main():
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=1)
     print(f"Done — wrote {path}, generated at {now_iso}")
+
+    hist_path = os.path.join(os.path.dirname(os.path.abspath(path)), "history.json")
+    print(f"Bug history → {hist_path}")
+    build_history(hist_path, today)
 
 
 if __name__ == "__main__":
