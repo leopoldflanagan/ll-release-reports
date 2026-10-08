@@ -371,7 +371,7 @@ def splice(html, marker_decl, new_decl):
 # HISTORY_TEAMS is a dict on purpose: DS and EDW can be added here without
 # touching any logic below, which is what the per-team reports will need.
 
-HISTORY_SCHEMA = 1
+HISTORY_SCHEMA = 2
 HISTORY_TEAMS = {
     "LL":    'cf[11626] = "LL"',
     "PLANS": 'cf[11626] = "PLANS"',
@@ -454,10 +454,18 @@ def measure_window(pred, w):
     work = jira_search(f'issuetype IN ({WORK_TYPES}) AND {pred} AND {_window_clause("resolved", w)}',
                        ["priority"], max_total=5000)
 
+    # How big the release was, in features. Without this a raw bug count cannot be
+    # compared across releases: a window that ships twice the features should draw
+    # more bugs. It also decides which windows are comparable at all - R9.4 carried
+    # two features against a median of eighteen, so it is history, not a reference.
+    feats = jira_search(f'issuetype = Feature AND {pred} AND fixVersion = "{w["id"]}"',
+                        ["priority"], max_total=5000)
+
     return {"reported": _count_by_prio(reported),
             "resolved": _count_by_prio(resolved),
             "ttr_days": ttr,
-            "work_items": len(work)}
+            "work_items": len(work),
+            "features": len(feats)}
 
 
 def build_history(path, today):
@@ -495,6 +503,7 @@ def build_history(path, today):
                "measured_at": today.isoformat(),
                "teams": {t: measure_window(pred, w) for t, pred in HISTORY_TEAMS.items()}}
         tot = sum(sum(t["reported"].values()) for t in row["teams"].values())
+        nf = sum(t.get("features", 0) for t in row["teams"].values())
         # A frozen window is only ever re-measured on a rebuild (schema bump, or an
         # unreadable file). If Jira hands back nothing for a window that previously
         # had bugs, that is Jira having changed under us - a renamed field, archived
@@ -507,7 +516,8 @@ def build_history(path, today):
             rel[w["id"]] = prior
             continue
         rel[w["id"]] = row
-        print(f"  history: {w['id']} ({'frozen' if w['closed'] else 'open'}) - {tot} reported")
+        print(f"  history: {w['id']} ({'frozen' if w['closed'] else 'open'}) - "
+              f"{tot} reported over {nf} features")
 
     out = {"schema": HISTORY_SCHEMA,
            "updated_at": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
