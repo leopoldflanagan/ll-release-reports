@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T13:45:27+00:00",
+ "generated_at": "2026-10-08T13:56:12+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -26448,6 +26448,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24266",
+   "name": "Prod/GIFTCORE promo/Not configured to block additional plan purchase in CSP",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24194",
    "name": "PreProd-One Smile Plan-Plan not showing in PMP and Custom Portal",
