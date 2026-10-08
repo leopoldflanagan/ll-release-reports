@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T16:15:22+00:00",
+ "generated_at": "2026-10-08T16:20:30+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1406,6 +1406,52 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24280",
+   "name": "Prod - Comfort Dental Studio - Showing 8 promos for all coverage levels , in STAGE only 1 is visible.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-08T09:13:04.321-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24279",
+   "name": "Prod - Digital Smiles - Split admin fee is not configured",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-08T09:04:42.344-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26540,20 +26586,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24280",
-   "name": "Prod - Comfort Dental Studio - Showing 8 promos for all coverage levels , in STAGE only 1 is visible.",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-24279",
-   "name": "Prod - Digital Smiles - Split admin fee is not configured",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24275",
    "name": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank Screen",
