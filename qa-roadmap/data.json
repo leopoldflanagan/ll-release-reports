@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T22:15:17+00:00",
+ "generated_at": "2026-10-08T22:30:23+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1183,6 +1183,33 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24266",
+   "name": "Prod/GIFTCORE promo/Not configured to block additional plan purchase in CSP",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Chris Rubio",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T06:54:04.281-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "9.8.2",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24204",
    "name": "Prod/PMP/Able to purchase plan for Digital Smiles 55+ for a person with DOB less than 55",
    "pod": "LL",
@@ -1584,33 +1611,6 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24266",
-   "name": "Prod/GIFTCORE promo/Not configured to block additional plan purchase in CSP",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Chris Rubio",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-10-08T06:54:04.281-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "9.8.2",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -26888,29 +26888,6 @@
    "triage": "",
    "parentKey": "PLANS-18311",
    "parentName": "[2] Smile Generation Dental Plan — TN - Renewal Successor Wiring & End-to-End QA Sign-Off",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19275",
-   "name": "SGDP Purchase Portal \\ Unable to complete plan purchase due to 500 Internal Server Error at checkout",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-07-08T16:37:55.006-0700",
-   "resolved": "2026-07-10T15:27:23.884-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
