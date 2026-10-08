@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T21:51:57+00:00",
+ "generated_at": "2026-10-08T22:00:27+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1182,6 +1182,32 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-24293",
+   "name": "Dental Innovations - Phase 2 Error",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Camille Knight",
+   "reporter": "Ezra Skeete",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T12:30:50.142-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24204",
    "name": "Prod/PMP/Able to purchase plan for Digital Smiles 55+ for a person with DOB less than 55",
@@ -3853,32 +3879,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24293",
-   "name": "Dental Innovations - Phase 2 Error",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Ezra Skeete",
-   "prio": "1: Urgent",
-   "created": "2026-10-08T12:30:50.142-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24289",
    "name": "PRODUCTION - Website Issue",
    "pod": "LL",
@@ -4943,58 +4943,6 @@
    "linkedLP": true
   },
   {
-   "key": "PLANS-24130",
-   "name": "PMP \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-05T12:15:14.877-0700",
-   "resolved": "",
-   "due": "2026-10-07",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24105",
-   "name": "PMP - Coverage Level Ranking is not honored when displaying plans",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T06:33:22.962-0700",
-   "resolved": "",
-   "due": "2026-10-07",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24104",
    "name": "Smile Health - Coverage Level Ranking is not honored when displaying plans",
    "pod": "LL",
@@ -5441,6 +5389,58 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24130",
+   "name": "PMP \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-05T12:15:14.877-0700",
+   "resolved": "",
+   "due": "2026-10-07",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24105",
+   "name": "PMP - Coverage Level Ranking is not honored when displaying plans",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T06:33:22.962-0700",
+   "resolved": "",
+   "due": "2026-10-07",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
