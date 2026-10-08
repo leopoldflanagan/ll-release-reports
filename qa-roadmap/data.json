@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T22:52:26+00:00",
+ "generated_at": "2026-10-08T22:59:47+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -26865,29 +26865,6 @@
    "triage": "",
    "parentKey": "PLANS-16686",
    "parentName": "Legal Language Updates - Epic 3: Preference Management & Consent Audit",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19437",
-   "name": "Auto Renewal \\ SGDP TN is not waiving the admin fee",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-07-10T07:41:20.138-0700",
-   "resolved": "2026-07-10T15:56:05.787-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18311",
-   "parentName": "[2] Smile Generation Dental Plan — TN - Renewal Successor Wiring & End-to-End QA Sign-Off",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
