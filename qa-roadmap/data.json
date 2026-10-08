@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T00:15:20+00:00",
+ "generated_at": "2026-10-08T00:30:25+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1284,7 +1284,7 @@
   },
   {
    "key": "PLANS-24201",
-   "name": "PMP \\ Smile Alliance logo is not centered as requested at Membership PDF",
+   "name": "PMP \\ UI\\Smile Alliance logo is not centered as requested at Membership PDF",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -1307,7 +1307,7 @@
   },
   {
    "key": "PLANS-24198",
-   "name": "Member Portal \\ Distorted logo for Smile Alliance Plan at Plan Details link in the overview page",
+   "name": "Member Portal \\UI\\ Distorted logo for Smile Alliance Plan at Plan Details link in the overview page",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
