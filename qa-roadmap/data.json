@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T18:30:26+00:00",
+ "generated_at": "2026-10-08T18:45:24+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -79,7 +79,7 @@
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
    "ted": "2026-09-25",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
   },
@@ -380,7 +380,7 @@
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
    "ted": "2026-09-25",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
    "pod": "LL",
@@ -889,7 +889,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "In Testing",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": "2026-09-25",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
@@ -1599,7 +1599,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "Plans-Sprint 23-26",
-   "who": "David Jones",
+   "who": "Unassigned",
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-10-08T06:54:04.281-0700",
@@ -3844,6 +3844,58 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24289",
+   "name": "PRODUCTION - Website Issue",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T11:41:26.722-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24288",
+   "name": "PRODUCTION - Theme Bug",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-08T11:39:42.185-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
