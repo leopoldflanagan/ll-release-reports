@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T19:44:51+00:00",
+ "generated_at": "2026-10-08T19:45:21+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -5567,7 +5567,7 @@
   },
   {
    "key": "PLANS-24108",
-   "name": "Member portal - Coverage Level Ranking is not honoured when displaying plans",
+   "name": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
    "pod": "LL",
    "status": "WAITING REVIEW",
    "cat": "In Progress",
@@ -5575,7 +5575,7 @@
    "sprint": "LL-Sprint 23-26",
    "who": "Nazarii Polinyk",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
+   "prio": "2: Important",
    "created": "2026-10-05T06:37:35.445-0700",
    "resolved": "",
    "due": "",
