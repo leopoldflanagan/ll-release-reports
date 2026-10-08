@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T21:00:26+00:00",
+ "generated_at": "2026-10-08T21:14:59+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -5498,29 +5498,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24278",
-   "name": "Open network issue (stage & prod)",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Petro Yarish",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-08T08:37:28.710-0700",
-   "resolved": "",
-   "due": "2026-10-09",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24113",
    "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
    "pod": "LL",
@@ -5988,6 +5965,29 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24278",
+   "name": "Open network issue (stage & prod)",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Petro Yarish",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T08:37:28.710-0700",
+   "resolved": "2026-10-08T14:09:08.597-0700",
+   "due": "2026-10-09",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24283",
    "name": "Locations are not Available for Digital Smailes",
