@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T11:00:25+00:00",
+ "generated_at": "2026-10-08T11:15:22+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -3728,32 +3728,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24104",
-   "name": "Smile Health - Coverage Level Ranking is not honored when displaying plans",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T06:15:39.668-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24103",
    "name": "CSP - Office assigned from PMP, the office assignment is not reflected in CSP > Member > Plan Details.",
    "pod": "PLANS",
@@ -4730,6 +4704,32 @@
    "created": "2026-10-05T06:33:22.962-0700",
    "resolved": "",
    "due": "2026-10-07",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24104",
+   "name": "Smile Health - Coverage Level Ranking is not honored when displaying plans",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T06:15:39.668-0700",
+   "resolved": "",
+   "due": "2026-10-08",
    "labels": [
     "group2_migration",
     "product_prioritized"
