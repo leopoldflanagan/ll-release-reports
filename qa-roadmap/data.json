@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T00:45:21+00:00",
+ "generated_at": "2026-10-08T01:00:26+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1288,15 +1288,18 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-10-07T16:49:33.462-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "",
@@ -1311,15 +1314,18 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-10-07T16:32:43.945-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "",
