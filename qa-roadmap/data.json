@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T14:56:24+00:00",
+ "generated_at": "2026-10-08T15:00:28+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -26471,6 +26471,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24273",
+   "name": "Prod/Plan Details PDF/Provider Link is not clickable",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24272",
    "name": "Prod - True North Smiles Plan CA & TN Config issues",
