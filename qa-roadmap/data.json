@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T18:00:28+00:00",
+ "generated_at": "2026-10-08T18:15:23+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1609,6 +1609,32 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24266",
+   "name": "Prod/GIFTCORE promo/Not configured to block additional plan purchase in CSP",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T06:54:04.281-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3949,32 +3975,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24108",
-   "name": "Member portal - Coverage Level Ranking is not honoured when displaying plans",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T06:37:35.445-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24103",
    "name": "CSP - Office assigned from PMP, the office assignment is not reflected in CSP > Member > Plan Details.",
    "pod": "PLANS",
@@ -5452,6 +5452,32 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "1: Urgent",
    "created": "2026-10-05T08:23:22.128-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24108",
+   "name": "Member portal - Coverage Level Ranking is not honoured when displaying plans",
+   "pod": "LL",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T06:37:35.445-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -26743,13 +26769,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24266",
-   "name": "Prod/GIFTCORE promo/Not configured to block additional plan purchase in CSP",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
   {
    "key": "PLANS-24194",
    "name": "PreProd-One Smile Plan-Plan not showing in PMP and Custom Portal",
