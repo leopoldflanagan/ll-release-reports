@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T21:15:22+00:00",
+ "generated_at": "2026-10-08T21:30:23+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1204,32 +1204,6 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24201",
-   "name": "PMP \\ UI\\Smile Alliance logo is not centered as requested at Membership PDF",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Nazarii Polinyk",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-10-07T16:49:33.462-0700",
-   "resolved": "",
-   "due": "2026-10-09",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4838,32 +4812,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24198",
-   "name": "Member Portal \\UI\\ Distorted logo for Smile Alliance Plan at Plan Details link in the overview page",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-10-07T16:32:43.945-0700",
-   "resolved": "",
-   "due": "2026-10-08",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24152",
    "name": "STG PreProd Member Portal \\ Previous expired plan is still displayed in the Overview section after auto-renewal",
    "pod": "LL",
@@ -5202,7 +5150,7 @@
   },
   {
    "key": "PLANS-24003",
-   "name": "PLANS-24003: Ideal Dental- Aurora Loyalty Plan bugs",
+   "name": "PLANS-24003: Selecting at org level should update practice level visibility options",
    "pod": "LL",
    "status": "On Hold",
    "cat": "In Progress",
@@ -5210,7 +5158,7 @@
    "sprint": "LL-Sprint 23-26",
    "who": "Denys Kernychnyi",
    "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
+   "prio": "2: Important",
    "created": "2026-10-01T08:48:21.147-0700",
    "resolved": "",
    "due": "2026-10-06",
@@ -5965,6 +5913,58 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24198",
+   "name": "Member Portal \\UI\\ Distorted logo for Smile Alliance Plan at Plan Details link in the overview page",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "1: Urgent",
+   "created": "2026-10-07T16:32:43.945-0700",
+   "resolved": "2026-10-08T14:16:38.741-0700",
+   "due": "2026-10-08",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24201",
+   "name": "PMP \\ UI\\Smile Alliance logo is not centered as requested at Membership PDF",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Nazarii Polinyk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-07T16:49:33.462-0700",
+   "resolved": "2026-10-08T14:15:52.963-0700",
+   "due": "2026-10-09",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24278",
    "name": "Open network issue (stage & prod)",
