@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T07:30:24+00:00",
+ "generated_at": "2026-10-08T07:45:21+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1205,6 +1205,32 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24152",
+   "name": "STG PreProd Member Portal \\ Previous expired plan is still displayed in the Overview section after auto-renewal",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-06T09:17:11.616-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-23878",
    "name": "PDF's - Additional Benefits was not implemented correctly",
    "pod": "LL",
@@ -1474,32 +1500,6 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24152",
-   "name": "STG PreProd Member Portal \\ Previous expired plan is still displayed in the Overview section after auto-renewal",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-06T09:17:11.616-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
