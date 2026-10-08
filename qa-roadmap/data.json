@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-07T23:52:03+00:00",
- "today": "2026-10-07",
+ "generated_at": "2026-10-08T00:00:25+00:00",
+ "today": "2026-10-08",
  "features": [
   {
    "key": "WT-1033",
@@ -1279,6 +1279,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24201",
+   "name": "PMP \\ Smile Alliance logo is not centered as requested at Membership PDF",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-07T16:49:33.462-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26393,13 +26416,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24201",
-   "name": "PMP \\ Smile Alliance logo is not centered as requested at Membership PDF",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
   {
    "key": "PLANS-24194",
    "name": "PreProd-One Smile Plan-Plan not showing in PMP and Custom Portal",
