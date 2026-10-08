@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T14:00:29+00:00",
+ "generated_at": "2026-10-08T14:15:22+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -26448,6 +26448,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24267",
+   "name": "Prod/DCA/Logo missing in member agreement in PMP",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24266",
    "name": "Prod/GIFTCORE promo/Not configured to block additional plan purchase in CSP",
