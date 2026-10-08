@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T15:55:28+00:00",
+ "generated_at": "2026-10-08T16:00:26+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -26533,29 +26533,6 @@
    "triage": "",
    "parentKey": "PLANS-18470",
    "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-11618",
-   "name": "Retest WFP | Purchase using pre saved CC| Missing 'PRIMARY' tag on the primary card",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Juan Rodrigo Mejia Rivera",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-01-09T09:52:09.935-0800",
-   "resolved": "2026-07-10T08:57:34.638-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-10389",
-   "parentName": "PMP MVP Fast Follow Bugs for after February",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
