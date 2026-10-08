@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T12:00:30+00:00",
+ "generated_at": "2026-10-08T12:15:20+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1316,7 +1316,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Nazarii Polinyk",
    "reporter": "Luis Moreno Soberón",
    "prio": "1: Urgent",
    "created": "2026-10-07T16:49:33.462-0700",
