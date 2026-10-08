@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T14:21:57+00:00",
+ "generated_at": "2026-10-08T14:30:25+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1305,6 +1305,29 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24268",
+   "name": "Prod - True North Smiles - Prod config issues",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-08T07:24:14.003-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
