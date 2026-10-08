@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T15:45:23+00:00",
+ "generated_at": "2026-10-08T15:55:28+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -1331,6 +1331,52 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24278",
+   "name": "Open network issue (stage & prod)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T08:37:28.710-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24277",
+   "name": "Dental Innovations - the logo is missing. (prod)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T08:34:48.859-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26518,27 +26564,6 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-24278",
-   "name": "Open network issue (stage & prod)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-24277",
-   "name": "Dental Innovations - the logo is missing. (prod)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-24276",
-   "name": "Prod - multiple plans- Settings page does not match with STAGE",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
    "key": "PLANS-24275",
    "name": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank Screen",
    "status": "Backlog",
@@ -26547,21 +26572,7 @@
   },
   {
    "key": "PLANS-24274",
-   "name": "Prod & Stage - Guided Practice Solutions org is not visible in practices page & UCR management",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-24272",
-   "name": "Prod - True North Smiles Plan CA & TN Config issues",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-24271",
-   "name": "Prod - True North Smiles Plan Washington - config issues",
+   "name": "Prod & Stage - Guided Practice Solutions org is not visible in practices page & Practices/Regions page",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
