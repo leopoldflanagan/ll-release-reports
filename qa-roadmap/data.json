@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T15:19:56+00:00",
+ "generated_at": "2026-10-08T15:30:23+00:00",
  "today": "2026-10-08",
  "features": [
   {
@@ -50,7 +50,7 @@
   {
    "key": "WT-1021",
    "name": "Wellfit User - Practice Assignment Picker",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
    "who": "Dmytro Tymofiienko",
@@ -202,7 +202,7 @@
   {
    "key": "WT-1021",
    "name": "Wellfit User - Practice Assignment Picker",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.9",
    "who": "Dmytro Tymofiienko",
@@ -723,7 +723,7 @@
    "name": "Wellfit User - Practice Assignment Picker",
    "pod": "LL",
    "proj": "WT",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": "R9.9",
    "ted": null,
    "who": "Dmytro Tymofiienko",
@@ -1309,6 +1309,29 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24273",
+   "name": "Prod/Plan Details PDF/Provider Link is not clickable",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-10-08T07:59:32.733-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24268",
    "name": "Prod - True North Smiles - Prod config issues",
    "pod": "LL",
@@ -1334,7 +1357,7 @@
   {
    "key": "PLANS-24204",
    "name": "Prod/PMP/Able to purchase plan for Digital Smiles 55+ for a person with DOB less than 55",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
@@ -1556,7 +1579,7 @@
   {
    "key": "PLANS-23905",
    "name": "WF Share - PMP Add Plan Charges Full WF Share Instead of Discounted Amount",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
@@ -26472,6 +26495,13 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-24276",
+   "name": "Prod - Danahay dental Savings 365 - Settings page does not match with STAGE",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-24275",
    "name": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank Screen",
    "status": "Backlog",
@@ -26484,13 +26514,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-24273",
-   "name": "Prod/Plan Details PDF/Provider Link is not clickable",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
   },
   {
    "key": "PLANS-24272",
