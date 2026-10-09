@@ -1,6 +1,6 @@
 {
- "schema": 3,
- "updated_at": "2026-10-09T18:00:26+00:00",
+ "schema": 4,
+ "updated_at": "2026-10-09T18:15:38+00:00",
  "teams": [
   "LL",
   "PLANS"
@@ -182,15 +182,14 @@
       }
      },
      "work_items": 405,
-     "features": 7,
+     "features": 5,
      "sizes": {
-      "unsized": 1,
       "Small": 2,
-      "Moderate": 2,
-      "Large": 2
+      "Large": 2,
+      "Moderate": 1
      },
-     "size_points": 20,
-     "sized_features": 6,
+     "size_points": 17,
+     "sized_features": 5,
      "weeks": {
       "reported": {
        "2026-06-29": 9,
@@ -468,18 +467,18 @@
       }
      },
      "work_items": 159,
-     "features": 12,
+     "features": 11,
      "sizes": {
       "unsized": 2,
       "Moderate": 2,
-      "Huge": 3,
+      "Huge": 2,
       "Small": 1,
       "Large": 2,
       "Tiny": 1,
       "X-Large": 1
      },
-     "size_points": 66,
-     "sized_features": 10,
+     "size_points": 53,
+     "sized_features": 9,
      "weeks": {
       "reported": {
        "2026-08-31": 18,
