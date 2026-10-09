@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T17:15:14+00:00",
+ "generated_at": "2026-10-09T17:29:46+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -73,15 +73,6 @@
    "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
-  },
-  {
-   "key": "WT-1030",
-   "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
-   "status": "In Testing",
-   "ted": "2026-09-28",
-   "fv": "R9.9",
-   "who": "Mykyta Moroz",
-   "tshirt": "Moderate"
   },
   {
    "key": "WT-1003",
@@ -618,17 +609,6 @@
    "theme": "ACH-Fast Follows"
   },
   {
-   "key": "WT-1030",
-   "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
-   "status": "In Testing",
-   "ted": "2026-09-28",
-   "fv": "R9.9",
-   "who": "Mykyta Moroz",
-   "tshirt": "Moderate",
-   "pod": "LL",
-   "theme": "ACH-Fast Follows"
-  },
-  {
    "key": "WT-1044",
    "name": "Write All Plans member communications to WFP Comms Service",
    "status": "Blocked",
@@ -1122,17 +1102,6 @@
    "status": "In Development",
    "fv": "R9.9",
    "ted": "2026-10-13",
-   "who": "Mykyta Moroz",
-   "theme": "ACH-Fast Follows"
-  },
-  {
-   "key": "WT-1030",
-   "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.9",
-   "ted": "2026-09-28",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
@@ -4576,6 +4545,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24052",
+   "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8.2",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-02T07:11:28.155-0700",
+   "resolved": "",
+   "due": "2026-10-09",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "pod": "LL",
@@ -4636,32 +4631,6 @@
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-10-06T09:17:11.616-0700",
-   "resolved": "",
-   "due": "2026-10-09",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24052",
-   "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.8.2",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-02T07:11:28.155-0700",
    "resolved": "",
    "due": "2026-10-09",
    "labels": [

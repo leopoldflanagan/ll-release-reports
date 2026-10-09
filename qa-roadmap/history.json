@@ -1,6 +1,6 @@
 {
  "schema": 3,
- "updated_at": "2026-10-09T17:15:16+00:00",
+ "updated_at": "2026-10-09T17:29:49+00:00",
  "teams": [
   "LL",
   "PLANS"
@@ -610,13 +610,13 @@
       }
      },
      "work_items": 3,
-     "features": 8,
+     "features": 9,
      "sizes": {
-      "Moderate": 5,
+      "Moderate": 6,
       "Small": 3
      },
-     "size_points": 21,
-     "sized_features": 8,
+     "size_points": 24,
+     "sized_features": 9,
      "weeks": {
       "reported": {
        "2026-10-05": 25
