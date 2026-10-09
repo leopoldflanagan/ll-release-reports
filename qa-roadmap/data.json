@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T12:30:26+00:00",
+ "generated_at": "2026-10-09T12:45:24+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -4772,7 +4772,7 @@
    "prio": "2: Important",
    "created": "2026-10-06T09:17:11.616-0700",
    "resolved": "",
-   "due": "2026-10-08",
+   "due": "2026-10-09",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -4798,7 +4798,7 @@
    "prio": "1: Urgent",
    "created": "2026-10-05T07:03:58.029-0700",
    "resolved": "",
-   "due": "2026-10-10",
+   "due": "2026-10-19",
    "labels": [
     "CCB_candidate",
     "group2_migration",
