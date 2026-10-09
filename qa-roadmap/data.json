@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T10:15:21+00:00",
+ "generated_at": "2026-10-09T10:30:24+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -158,7 +158,7 @@
   {
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-09",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
@@ -543,7 +543,7 @@
   {
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-09",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
@@ -1053,7 +1053,7 @@
    "name": "Marketing Details - Driving Smile Health",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.9",
    "ted": "2026-10-09",
    "who": "Valentyna Tenus",
