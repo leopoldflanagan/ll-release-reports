@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T15:53:21+00:00",
+ "generated_at": "2026-10-09T16:00:27+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -4602,32 +4602,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24052",
-   "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8.2",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-02T07:11:28.155-0700",
-   "resolved": "",
-   "due": "2026-10-09",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "pod": "LL",
@@ -4688,6 +4662,32 @@
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-10-06T09:17:11.616-0700",
+   "resolved": "",
+   "due": "2026-10-09",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24052",
+   "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8.2",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-02T07:11:28.155-0700",
    "resolved": "",
    "due": "2026-10-09",
    "labels": [
