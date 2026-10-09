@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T15:31:26+00:00",
+ "generated_at": "2026-10-09T15:45:24+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -1388,32 +1388,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24289",
-   "name": "PLANS-24289: PRODUCTION: Smile Health: Purchase flow: If you select the back button when you have made a selection of a plan, and you chose an alternative plan, the price of the first selection is hanging and it is inappropriately charging for the plan",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8.3",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-08T11:41:26.722-0700",
-   "resolved": "",
-   "due": "2026-10-09",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -3712,6 +3686,32 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24289",
+   "name": "PLANS-24289: PRODUCTION: Smile Health: Purchase flow: If you select the back button when you have made a selection of a plan, and you chose an alternative plan, the price of the first selection is hanging and it is inappropriately charging for the plan",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.8.3",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T11:41:26.722-0700",
+   "resolved": "",
+   "due": "2026-10-09",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
