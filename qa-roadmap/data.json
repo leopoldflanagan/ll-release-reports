@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T13:44:05+00:00",
+ "generated_at": "2026-10-09T13:45:23+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -4298,7 +4298,7 @@
    "sprint": "Plans-Sprint 25-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-20T17:27:52.942-0700",
    "resolved": "",
    "due": "",
@@ -4348,9 +4348,9 @@
    "cat": "To Do",
    "fv": "R9.8",
    "sprint": "Plans-Sprint 25-26",
-   "who": "Sailaja Yanamandra",
+   "who": "Unassigned",
    "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-08-19T12:47:49.177-0700",
    "resolved": "",
    "due": "2026-09-02",
