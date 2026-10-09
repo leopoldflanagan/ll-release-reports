@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T13:00:28+00:00",
+ "generated_at": "2026-10-09T13:15:24+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -1621,18 +1621,21 @@
   {
    "key": "PLANS-24267",
    "name": "Prod/DCA/Logo missing in member agreement in PMP",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": "Plans-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-10-08T07:01:53.636-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-21806",
