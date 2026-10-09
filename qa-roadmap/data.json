@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T15:45:24+00:00",
+ "generated_at": "2026-10-09T15:53:21+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -26853,6 +26853,34 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24340",
+   "name": "Plan details the paragraph is not correct in member portal.",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni"
+  },
+  {
+   "key": "PLANS-24339",
+   "name": "URL is correct in member portal, but incorrect in WF Pay",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni"
+  },
+  {
+   "key": "PLANS-24338",
+   "name": "Member portal - Inability to add to wallet",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni"
+  },
+  {
+   "key": "PLANS-24335",
+   "name": "Member portal UI on phone - not mobile compatible",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni"
+  },
   {
    "key": "PLANS-24194",
    "name": "PreProd-One Smile Plan-Plan not showing in PMP and Custom Portal",
