@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T21:54:31+00:00",
+ "generated_at": "2026-10-09T22:00:23+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -1341,7 +1341,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
+   "who": "Chris Rubio",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-09T14:50:10.177-0700",
