@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T19:15:22+00:00",
+ "generated_at": "2026-10-09T19:27:40+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -4893,32 +4893,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24167",
-   "name": "PreProd-PMP-One Smile plan didn't auto-renewed, no failure reason recorded in Account History",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8.2",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "David Jones",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-10-06T15:27:22.142-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24068",
    "name": "DCA - Member Portal - Medi-Cal checkbox is missing for California members when adding a plan",
    "pod": "PLANS",
@@ -5542,6 +5516,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24130",
+   "name": "PMP \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
+   "pod": "LL",
+   "status": "In PreProd",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-05T12:15:14.877-0700",
+   "resolved": "",
+   "due": "2026-10-07",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24105",
    "name": "PMP - Coverage Level Ranking is not honored when displaying plans",
    "pod": "LL",
@@ -5596,6 +5596,32 @@
  ],
  "bugs_closed": [
   {
+   "key": "PLANS-24167",
+   "name": "PreProd-PMP-One Smile plan didn't auto-renewed, no failure reason recorded in Account History",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8.2",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "David Jones",
+   "reporter": "Vinita Thankur",
+   "prio": "1: Urgent",
+   "created": "2026-10-06T15:27:22.142-0700",
+   "resolved": "2026-10-09T12:16:00.368-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24266",
    "name": "Prod/GIFTCORE promo/Not configured to block additional plan purchase in CSP",
    "pod": "LL",
@@ -5636,32 +5662,6 @@
    "created": "2026-10-02T11:02:09.265-0700",
    "resolved": "2026-10-09T10:02:27.504-0700",
    "due": "2026-10-08",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24130",
-   "name": "PMP \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
-   "pod": "LL",
-   "status": "Ready Prod",
-   "cat": "Done",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-05T12:15:14.877-0700",
-   "resolved": "2026-10-09T09:46:25.507-0700",
-   "due": "2026-10-07",
    "labels": [
     "group2_migration",
     "product_prioritized"
