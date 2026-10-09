@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T16:00:27+00:00",
+ "generated_at": "2026-10-09T16:15:21+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -88,7 +88,7 @@
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "status": "In Testing",
    "ted": "2026-09-28",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
   },
@@ -622,7 +622,7 @@
    "name": "Loging ACH Refunds & Handling of ACH Receipts/Transactions",
    "status": "In Testing",
    "ted": "2026-09-28",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate",
    "pod": "LL",
@@ -1131,7 +1131,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "In Testing",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": "2026-09-28",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
@@ -5055,32 +5055,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24104",
-   "name": "Smile Health - Coverage Level Ranking is not honored when displaying plans",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.8.2",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T06:15:39.668-0700",
-   "resolved": "",
-   "due": "2026-10-08",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24068",
    "name": "DCA - Member Portal - Medi-Cal checkbox is missing for California members when adding a plan",
    "pod": "PLANS",
@@ -5679,6 +5653,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24104",
+   "name": "Smile Health - Coverage Level Ranking is not honored when displaying plans",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.8.2",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T06:15:39.668-0700",
+   "resolved": "2026-10-09T09:07:36.224-0700",
+   "due": "2026-10-08",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24105",
    "name": "PMP - Coverage Level Ranking is not honored when displaying plans",
