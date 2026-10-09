@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T17:00:28+00:00",
+ "generated_at": "2026-10-09T17:15:14+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -4576,32 +4576,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24069",
-   "name": "Healthy Smiles of Lakeway - when click purchase - you are directed to Comfort Detnal",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8.2",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-02T11:02:09.265-0700",
-   "resolved": "",
-   "due": "2026-10-08",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "pod": "LL",
@@ -5627,6 +5601,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24069",
+   "name": "Healthy Smiles of Lakeway - when click purchase - you are directed to Comfort Detnal",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8.2",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-02T11:02:09.265-0700",
+   "resolved": "2026-10-09T10:02:27.504-0700",
+   "due": "2026-10-08",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-24130",
    "name": "PMP \\ Current plan is not prioritized first during renewal when plan prioritization is configured",
