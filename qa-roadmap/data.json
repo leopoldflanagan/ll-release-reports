@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T23:00:23+00:00",
+ "generated_at": "2026-10-09T23:14:35+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -4491,29 +4491,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24351",
-   "name": "Prod/STAGE- SGDP/ADHA Broken - Plan cards and Member saving table not visible on home page",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8.2",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Chris Rubio",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-09T14:50:10.177-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24109",
    "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
    "pod": "LL",
@@ -4565,6 +4542,29 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-24351",
+   "name": "Prod/STAGE- SGDP/ADHA Broken - Plan cards and Member saving table not visible on home page",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8.2",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Chris Rubio",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-09T14:50:10.177-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-24278",
