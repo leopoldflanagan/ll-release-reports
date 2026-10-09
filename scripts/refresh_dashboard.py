@@ -371,12 +371,17 @@ def splice(html, marker_decl, new_decl):
 # HISTORY_TEAMS is a dict on purpose: DS and EDW can be added here without
 # touching any logic below, which is what the per-team reports will need.
 
-HISTORY_SCHEMA = 2
+HISTORY_SCHEMA = 3
 HISTORY_TEAMS = {
     "LL":    'cf[11626] = "LL"',
     "PLANS": 'cf[11626] = "PLANS"',
 }
 WORK_TYPES = '"Story", "Task"'
+
+# T-shirt size is a label, not a number, so comparing release volume needs a scale.
+# These weights are a convention, not a measurement - they are published on the page
+# so anyone can argue with them, and changing them here changes the report.
+TSHIRT_POINTS = {"Tiny": 1, "Small": 2, "Moderate": 3, "Large": 5, "X-Large": 8, "Huge": 13}
 
 # Deploy dates confirmed against each fixVersion's releaseDate in Jira. Kept
 # separate from RELEASES because that list drives the roadmap's freeze markers
@@ -427,8 +432,23 @@ def _window_clause(field, w):
     return c
 
 
+def _weekly(issues, field):
+    """Monday-anchored counts inside the window. The per-release totals are the headline,
+    but the weekly shape is what shows whether a good release was a steady month or one
+    very good Tuesday - and data.json only keeps 90 days of it."""
+    out = {}
+    for i in issues:
+        v = i["fields"].get(field)
+        if not v:
+            continue
+        d = dt.date.fromisoformat(v[:10])
+        k = (d - dt.timedelta(days=d.weekday())).isoformat()
+        out[k] = out.get(k, 0) + 1
+    return dict(sorted(out.items()))
+
+
 def measure_window(pred, w):
-    """One team's row for one window, from three queries."""
+    """One team's row for one window."""
     flds = ["priority", "created", "resolutiondate"]
     reported = jira_search(f'issuetype = Bug AND {pred} AND {_window_clause("created", w)}',
                            flds, max_total=5000)
@@ -459,13 +479,29 @@ def measure_window(pred, w):
     # more bugs. It also decides which windows are comparable at all - R9.4 carried
     # two features against a median of eighteen, so it is history, not a reference.
     feats = jira_search(f'issuetype = Feature AND {pred} AND fixVersion = "{w["id"]}"',
-                        ["priority"], max_total=5000)
+                        ["priority", CLOUD_FIELDS["tshirt"]], max_total=5000)
+
+    # Count alone says a release shipped 25 features; it does not say whether they were
+    # 25 Smalls or 25 Huges. The mix is stored raw so the page can show it, and the
+    # points total is what makes "bugs per unit of volume" possible at all.
+    sizes, pts, sized = {}, 0, 0
+    for f in feats:
+        v = (f["fields"].get(CLOUD_FIELDS["tshirt"]) or {}).get("value") or ""
+        sizes[v or "unsized"] = sizes.get(v or "unsized", 0) + 1
+        if v in TSHIRT_POINTS:
+            pts += TSHIRT_POINTS[v]
+            sized += 1
 
     return {"reported": _count_by_prio(reported),
             "resolved": _count_by_prio(resolved),
             "ttr_days": ttr,
             "work_items": len(work),
-            "features": len(feats)}
+            "features": len(feats),
+            "sizes": sizes,
+            "size_points": pts,
+            "sized_features": sized,
+            "weeks": {"reported": _weekly(reported, "created"),
+                      "resolved": _weekly(resolved, "resolutiondate")}}
 
 
 def build_history(path, today):
@@ -504,6 +540,8 @@ def build_history(path, today):
                "teams": {t: measure_window(pred, w) for t, pred in HISTORY_TEAMS.items()}}
         tot = sum(sum(t["reported"].values()) for t in row["teams"].values())
         nf = sum(t.get("features", 0) for t in row["teams"].values())
+        npt = sum(t.get("size_points", 0) for t in row["teams"].values())
+        nsz = sum(t.get("sized_features", 0) for t in row["teams"].values())
         # A frozen window is only ever re-measured on a rebuild (schema bump, or an
         # unreadable file). If Jira hands back nothing for a window that previously
         # had bugs, that is Jira having changed under us - a renamed field, archived
@@ -516,8 +554,10 @@ def build_history(path, today):
             rel[w["id"]] = prior
             continue
         rel[w["id"]] = row
+        avg = (npt / nsz) if nsz else 0
         print(f"  history: {w['id']} ({'frozen' if w['closed'] else 'open'}) - "
-              f"{tot} reported over {nf} features")
+              f"{tot} reported over {nf} features "
+              f"(avg size {avg:.1f} pts from {nsz} of {nf} sized)")
 
     out = {"schema": HISTORY_SCHEMA,
            "updated_at": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
