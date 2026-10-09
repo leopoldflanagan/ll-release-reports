@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T16:30:26+00:00",
+ "generated_at": "2026-10-09T16:43:29+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -10,15 +10,6 @@
    "fv": "R9.10",
    "who": "Chris Rubio",
    "tshirt": "Small"
-  },
-  {
-   "key": "WT-820",
-   "name": "Member Portal Support for Subscription Payments",
-   "status": "In Development",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Chris Rubio",
-   "tshirt": "Moderate"
   },
   {
    "key": "WT-993",
@@ -136,6 +127,15 @@
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
+  },
+  {
+   "key": "WT-820",
+   "name": "Member Portal Support for Subscription Payments",
+   "status": "In Development",
+   "ted": null,
+   "fv": "R9.9",
+   "who": "Rostyslav Masniuk",
+   "tshirt": "Moderate"
   },
   {
    "key": "WT-1053",
@@ -425,7 +425,7 @@
    "status": "In Development",
    "ted": null,
    "fv": "R9.9",
-   "who": "Chris Rubio",
+   "who": "Rostyslav Masniuk",
    "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -935,7 +935,7 @@
    "status": "In Development",
    "fv": "R9.9",
    "ted": null,
-   "who": "Chris Rubio",
+   "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
   {
