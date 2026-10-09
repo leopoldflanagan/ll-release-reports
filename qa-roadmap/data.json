@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T10:00:34+00:00",
+ "generated_at": "2026-10-09T10:15:21+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -1182,32 +1182,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24289",
-   "name": "PLANS-24289: PRODUCTION - Website Issue",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-08T11:41:26.722-0700",
-   "resolved": "",
-   "due": "2026-10-09",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
   {
    "key": "PLANS-24266",
    "name": "Prod/GIFTCORE promo/Not configured to block additional plan purchase in CSP",
@@ -4915,6 +4889,32 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-24289",
+   "name": "PLANS-24289: PRODUCTION - Website Issue",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T11:41:26.722-0700",
+   "resolved": "",
+   "due": "2026-10-09",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-24003",
