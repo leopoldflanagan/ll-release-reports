@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T16:16:50+00:00",
+ "generated_at": "2026-10-09T16:30:26+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -34,7 +34,7 @@
    "name": "pdf-enhancements",
    "status": "Blocked",
    "ted": "2026-10-02",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Dima Shtympel",
    "tshirt": null
   },
@@ -226,7 +226,7 @@
    "name": "pdf-enhancements",
    "status": "Blocked",
    "ted": "2026-10-02",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "who": "Dima Shtympel",
    "tshirt": null,
    "pod": "LL",
@@ -735,7 +735,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "Blocked",
-   "fv": "R9.8",
+   "fv": "R9.9",
    "ted": "2026-10-02",
    "who": "Dima Shtympel",
    "theme": "LL-Fast Follows"
@@ -4633,11 +4633,11 @@
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
-   "fv": "R9.8.1",
+   "fv": "R9.9",
    "sprint": "LL-Sprint 23-26",
    "who": "Petro Yarish",
    "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
+   "prio": "2: Important",
    "created": "2026-10-08T08:37:28.710-0700",
    "resolved": "",
    "due": "2026-10-09",

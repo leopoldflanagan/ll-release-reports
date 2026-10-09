@@ -1,6 +1,6 @@
 {
  "schema": 3,
- "updated_at": "2026-10-09T16:16:52+00:00",
+ "updated_at": "2026-10-09T16:30:30+00:00",
  "teams": [
   "LL",
   "PLANS"
@@ -579,22 +579,22 @@
    "teams": {
     "LL": {
      "reported": {
-      "1": 7,
-      "2": 5,
+      "1": 6,
+      "2": 6,
       "3": 13,
       "4": 0,
       "other": 0
      },
      "resolved": {
-      "1": 9,
-      "2": 1,
+      "1": 8,
+      "2": 2,
       "3": 10,
       "4": 0,
       "other": 0
      },
      "ttr_days": {
       "1": {
-       "n": 9,
+       "n": 8,
        "median": 4,
        "p90": 12
       },
@@ -604,16 +604,15 @@
        "p90": 1
       },
       "2": {
-       "n": 1,
-       "median": 9,
+       "n": 2,
+       "median": 0,
        "p90": 9
       }
      },
      "work_items": 3,
-     "features": 9,
+     "features": 8,
      "sizes": {
       "Moderate": 5,
-      "unsized": 1,
       "Small": 3
      },
      "size_points": 21,
