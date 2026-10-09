@@ -371,7 +371,7 @@ def splice(html, marker_decl, new_decl):
 # HISTORY_TEAMS is a dict on purpose: DS and EDW can be added here without
 # touching any logic below, which is what the per-team reports will need.
 
-HISTORY_SCHEMA = 3
+HISTORY_SCHEMA = 4
 HISTORY_TEAMS = {
     "LL":    'cf[11626] = "LL"',
     "PLANS": 'cf[11626] = "PLANS"',
@@ -478,7 +478,12 @@ def measure_window(pred, w):
     # compared across releases: a window that ships twice the features should draw
     # more bugs. It also decides which windows are comparable at all - R9.4 carried
     # two features against a median of eighteen, so it is history, not a reference.
-    feats = jira_search(f'issuetype = Feature AND {pred} AND fixVersion = "{w["id"]}"',
+    # Will Not Implement is excluded on purpose. A cancelled feature shipped no
+    # scope, so counting it deflates bugs-per-feature, and if it carries a size it
+    # also inflates the release's average volume with work nobody ever built.
+    # R9.7 carried WT-844 "Plan Design" at Huge (13 of its 134 points) this way.
+    feats = jira_search(f'issuetype = Feature AND {pred} AND fixVersion = "{w["id"]}" '
+                        f'AND status != "Will Not Implement"',
                         ["priority", CLOUD_FIELDS["tshirt"]], max_total=5000)
 
     # Count alone says a release shipped 25 features; it does not say whether they were
