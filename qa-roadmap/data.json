@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T21:15:21+00:00",
+ "generated_at": "2026-10-09T21:30:09+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -5503,32 +5503,6 @@
    "created": "2026-10-05T12:15:14.877-0700",
    "resolved": "",
    "due": "2026-10-07",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24052",
-   "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
-   "pod": "LL",
-   "status": "In PreProd",
-   "cat": "To Do",
-   "fv": "R9.8.2",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-02T07:11:28.155-0700",
-   "resolved": "",
-   "due": "2026-10-09",
    "labels": [
     "group2_migration",
     "product_prioritized"
