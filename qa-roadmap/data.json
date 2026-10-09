@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T14:45:24+00:00",
+ "generated_at": "2026-10-09T15:00:25+00:00",
  "today": "2026-10-09",
  "features": [
   {
@@ -27,7 +27,7 @@
    "ted": "2026-10-08",
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
-   "tshirt": null
+   "tshirt": "Moderate"
   },
   {
    "key": "WT-1029",
@@ -90,7 +90,7 @@
    "ted": "2026-09-28",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
-   "tshirt": null
+   "tshirt": "Moderate"
   },
   {
    "key": "WT-1003",
@@ -99,7 +99,7 @@
    "ted": "2026-10-13",
    "fv": "R9.9",
    "who": "Mykyta Moroz",
-   "tshirt": null
+   "tshirt": "Moderate"
   },
   {
    "key": "WT-1024",
@@ -108,7 +108,7 @@
    "ted": "2026-10-14",
    "fv": "R9.9",
    "who": "Nazarii Polinyk",
-   "tshirt": null
+   "tshirt": "Moderate"
   },
   {
    "key": "WT-989",
@@ -206,7 +206,7 @@
    "ted": "2026-10-14",
    "fv": "R9.9",
    "who": "Nazarii Polinyk",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -217,7 +217,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Camille Knight",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -305,7 +305,7 @@
    "ted": null,
    "fv": null,
    "who": "Vic Du Plessis",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "PLAT",
    "theme": "LL-Fast Follows"
   },
@@ -360,7 +360,7 @@
    "ted": "2026-11-04",
    "fv": "R9.9",
    "who": "Daniel Marineni",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -415,7 +415,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Daniel Marineni",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -459,7 +459,7 @@
    "ted": null,
    "fv": null,
    "who": "Vic Du Plessis",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "PLAT",
    "theme": "LL-Fast Follows"
   },
@@ -470,7 +470,7 @@
    "ted": null,
    "fv": null,
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "PLAT",
    "theme": "LL-Fast Follows"
   },
@@ -514,7 +514,7 @@
    "ted": "2026-11-04",
    "fv": "R9.9",
    "who": "Camille Knight",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -580,7 +580,7 @@
    "ted": "2026-10-08",
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -613,7 +613,7 @@
    "ted": "2026-10-13",
    "fv": "R9.9",
    "who": "Mykyta Moroz",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "LL",
    "theme": "ACH-Fast Follows"
   },
@@ -624,7 +624,7 @@
    "ted": "2026-09-28",
    "fv": "R9.8",
    "who": "Mykyta Moroz",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "LL",
    "theme": "ACH-Fast Follows"
   },
@@ -4523,29 +4523,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24278",
-   "name": "Open network issue (stage & prod)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Petro Yarish",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-08T08:37:28.710-0700",
-   "resolved": "",
-   "due": "2026-10-09",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24152",
    "name": "STG PreProd Member Portal \\ Previous expired plan is still displayed in the Overview section after auto-renewal",
    "pod": "LL",
@@ -4677,6 +4654,29 @@
    "linkedLP": true
   },
   {
+   "key": "PLANS-24278",
+   "name": "Open network issue (stage & prod)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Petro Yarish",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T08:37:28.710-0700",
+   "resolved": "",
+   "due": "2026-10-09",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24164",
    "name": "BLOCKER for CREG testing - adding member via CSP",
    "pod": "PLANS",
@@ -4710,7 +4710,7 @@
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-10-08T11:41:26.722-0700",
