@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T02:00:25+00:00",
+ "generated_at": "2026-10-10T02:15:22+00:00",
  "today": "2026-10-10",
  "features": [
   {
@@ -1334,6 +1334,118 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24340",
+   "name": "Plan details the paragraph is not correct in WFPAY.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-09T08:52:04.378-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24339",
+   "name": "URL is correct in member portal, but incorrect in WF Pay",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni",
+   "prio": "3: Standard",
+   "created": "2026-10-09T08:49:57.908-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24338",
+   "name": "Member portal - Inability to add to wallet",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.10\"",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni",
+   "prio": "3: Standard",
+   "created": "2026-10-09T08:48:27.568-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24335",
+   "name": "Member portal UI on phone - not mobile compatible",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-09T08:47:00.145-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24275",
    "name": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank Screen",
    "pod": "LL",
@@ -1378,6 +1490,32 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24194",
+   "name": "PreProd-One Smile Plan-Plan not showing in PMP and Custom Portal",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-07T09:37:08.127-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
@@ -26818,43 +26956,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-24340",
-   "name": "Plan details the paragraph is not correct in member portal.",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-24339",
-   "name": "URL is correct in member portal, but incorrect in WF Pay",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-24338",
-   "name": "Member portal - Inability to add to wallet",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-24335",
-   "name": "Member portal UI on phone - not mobile compatible",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Daniel Marineni"
-  },
-  {
-   "key": "PLANS-24194",
-   "name": "PreProd-One Smile Plan-Plan not showing in PMP and Custom Portal",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Oct 5–11",
