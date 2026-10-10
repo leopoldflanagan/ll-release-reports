@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-09T23:54:17+00:00",
- "today": "2026-10-09",
+ "generated_at": "2026-10-10T00:00:21+00:00",
+ "today": "2026-10-10",
  "features": [
   {
    "key": "WT-1033",
@@ -525,7 +525,7 @@
    "name": "Subscription - Consolidated Feature",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Unassigned",
    "tshirt": "Large",
    "pod": "PLANS",
@@ -1023,7 +1023,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Ready for Development",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "ted": null,
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
@@ -1183,7 +1183,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.8.2",
+   "fv": "R9.8.3",
    "sprint": "LL-Sprint 23-26",
    "who": "Valentyna Tenus",
    "reporter": "Vivienne Chawande",
@@ -4496,7 +4496,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.8.2",
+   "fv": "R9.8.3",
    "sprint": "LL-Sprint 23-26",
    "who": "Mykyta Moroz",
    "reporter": "Daniel Marineni",
