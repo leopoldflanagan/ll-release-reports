@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T09:15:22+00:00",
+ "generated_at": "2026-10-10T09:30:31+00:00",
  "today": "2026-10-10",
  "features": [
   {
@@ -26927,29 +26927,6 @@
    "triage": "",
    "parentKey": "PLANS-18470",
    "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18668",
-   "name": "WFP Portal - The office should see a PDF for Perio & a PDF for Prophy - if they are selling both plans. / Missing Marketing details table",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-29T11:03:26.816-0700",
-   "resolved": "2026-07-12T02:17:29.978-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14926",
-   "parentName": "Updates to Marketing Details",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
