@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T16:00:26+00:00",
+ "generated_at": "2026-10-11T16:15:22+00:00",
  "today": "2026-10-11",
  "features": [
   {
@@ -27003,56 +27003,6 @@
    "triage": "",
    "parentKey": "PLANS-10457",
    "parentName": "Plans Marketplace Post MVP (Fast Follow)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19235",
-   "name": "PMP - \"Check all\" items is not correctly working",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Hunter Redhead",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-08T13:20:47.431-0700",
-   "resolved": "2026-07-13T09:09:30.843-0700",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19139",
-   "name": "OneSmile - \"Check all\"items is not correctly working",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Mariano Hernández",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-07T15:54:29.702-0700",
-   "resolved": "2026-07-13T09:01:02.905-0700",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
