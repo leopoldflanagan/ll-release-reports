@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:15:20+00:00",
+ "generated_at": "2026-10-12T15:24:05+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -22,9 +22,9 @@
   },
   {
    "key": "WT-1029",
-   "name": "pdf-enhancements",
-   "status": "Blocked",
-   "ted": "2026-10-02",
+   "name": "PDF Enhancements",
+   "status": "In Testing",
+   "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Dima Shtympel",
    "tshirt": null
@@ -214,9 +214,9 @@
   },
   {
    "key": "WT-1029",
-   "name": "pdf-enhancements",
-   "status": "Blocked",
-   "ted": "2026-10-02",
+   "name": "PDF Enhancements",
+   "status": "In Testing",
+   "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Dima Shtympel",
    "tshirt": null,
@@ -711,12 +711,12 @@
   },
   {
    "key": "WT-1029",
-   "name": "pdf-enhancements",
+   "name": "PDF Enhancements",
    "pod": "LL",
    "proj": "WT",
-   "status": "Blocked",
+   "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-02",
+   "ted": "2026-10-30",
    "who": "Dima Shtympel",
    "theme": "LL-Fast Follows"
   },
@@ -1402,7 +1402,7 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "ACH-Fast Follows",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
@@ -4279,8 +4279,8 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
+   "parentKey": "PLANS-24377",
+   "parentName": "PDF Enhancements - Epic 2: Administrator footer and remaining PDF fixes (R9.9)",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -6927,8 +6927,8 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -7207,11 +7207,11 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
    "lpSprint": true,
-   "linkedLP": true
+   "linkedLP": false
   },
   {
    "key": "PLANS-23278",
@@ -7285,11 +7285,11 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
    "lpSprint": true,
-   "linkedLP": true
+   "linkedLP": false
   },
   {
    "key": "PLANS-23753",
