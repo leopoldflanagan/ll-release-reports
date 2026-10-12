@@ -2629,10 +2629,11 @@ const QR = (function () {
   // to a filter state and hands it to insDrill, the same applier the Insights
   // tab uses - one drill path for the dashboard, not two.
   //
-  // Week by week is the deliberate rough edge: a week bar lands on its whole
-  // RELEASE, so the count you clicked will be smaller than the list you get.
-  // The arrival chip says "Reported in R9.6", never the week, so the widening
-  // is visible rather than silent.
+  // Every drill returns exactly the number that was clicked. Week by week is
+  // deliberately NOT drillable: the filter model speaks in releases, so a week
+  // bar could only land on its whole release - 61 clicked, 284 returned. One
+  // affordance that does not correspond teaches distrust of the ones that do,
+  // and the same question is answered honestly by Reported vs resolved.
   const relOf = cat => String(cat || "").replace(/\s*·$/, "").trim();
   const podList = () => statPods.size ? Array.from(statPods) : [];
   const prioStringsFor = nums => {
@@ -2651,8 +2652,6 @@ const QR = (function () {
                                  win: k.indexOf("Before ") === 0 ? { mode: "repBefore", rel: k.slice(7) } : { mode: "rep", rel: k } }; },
     "st-flow":   r => ({ scope: "all", pods: podList(), prios: cardPrios("st-flow"),
                          win: { mode: r.dataset.si === "1" ? "res" : "rep", rel: relOf(r.dataset.cat) } }),
-    "st-weeks":  r => ({ scope: "all", pods: podList(), prios: cardPrios("st-weeks"),
-                         win: { mode: "rep", rel: r.dataset.rel } }),
     "st-mix":    r => ({ scope: "all", pods: podList(), prios: prioStringsFor([String(+r.dataset.si + 1)]),
                          win: { mode: "rep", rel: relOf(r.dataset.cat) } }),
     "st-pf":     r => ({ scope: "all", pods: podList(), prios: cardPrios("st-pf"),
@@ -2799,7 +2798,8 @@ const QR = (function () {
     withCard("st-weeks", () => {
       document.getElementById("st-wksub").innerHTML =
         "The same flow at week resolution, grouped under its release. Weekly detail begins inside <b>" + coveredFrom()
-        + "</b>; earlier releases keep their per-release totals but have no week-by-week breakdown.";
+        + "</b>; earlier releases keep their per-release totals but have no week-by-week breakdown."
+        + " Bars here do not open the bug list \u2014 it filters by release, and a week is narrower than that.";
       vzWeekGroups("st-weeks", Q.weeks,
         [{ name: "Reported", color: VZ.orange, vals: Q.weeks.map(w => wkSum(w, "created")) },
         { name: "Resolved", color: VZ.aqua, vals: Q.weeks.map(w => wkSum(w, "resolved")) }], { w: 760, h: 330 });
