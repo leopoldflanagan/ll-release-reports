@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T17:30:21+00:00",
+ "generated_at": "2026-10-12T17:42:13+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1348,6 +1348,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24408",
+   "name": "PMP - Additional benefit card - org logo is missing",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-12T10:32:45.790-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24405",
@@ -4325,34 +4350,6 @@
    "init": "Launch Loyalty Multi-Site Offices (Phase 3)"
   },
   {
-   "key": "PLANS-24289",
-   "name": "PLANS-24289: PRODUCTION: Smile Health: Purchase flow: If you select the back button when you have made a selection of a plan, and you chose an alternative plan, the price of the first selection is hanging and it is inappropriately charging for the plan",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8.3",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-08T11:41:26.722-0700",
-   "resolved": "",
-   "due": "2026-10-13",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24288",
    "name": "PRODUCTION - Theme Bug",
    "pod": "LL",
@@ -4602,6 +4599,34 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24289",
+   "name": "PLANS-24289: PRODUCTION: Smile Health: Purchase flow: If you select the back button when you have made a selection of a plan, and you chose an alternative plan, the price of the first selection is hanging and it is inappropriately charging for the plan",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8.3",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T11:41:26.722-0700",
+   "resolved": "",
+   "due": "2026-10-13",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
