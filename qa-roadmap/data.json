@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T19:12:53+00:00",
+ "generated_at": "2026-10-12T19:15:19+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1351,7 +1351,7 @@
   },
   {
    "key": "PLANS-24421",
-   "name": "STAGE - Plan Details - Getting a 400 error for Danahay and Digital Smiles",
+   "name": "STAGE - Plan Details -Downloading PDF - Getting a 400 error for Danahay and Digital Smiles",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
