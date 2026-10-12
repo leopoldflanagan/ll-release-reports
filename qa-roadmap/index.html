@@ -148,6 +148,9 @@
   .pchips{display:none;gap:6px;flex-wrap:wrap;margin:2px 0 10px}
   .pchips.open{display:flex}
   .pchips .sfchip{font-size:11px;padding:3px 10px}
+  .chartbox.drill rect[data-cat],.chartbox.drill rect[data-label],.chartbox.drill rect[data-rel]{cursor:pointer}
+  .kpi.drill{cursor:pointer}
+  .kpi.drill:hover{border-color:var(--blue)}
   .statcard.wide{grid-column:1 / -1}
   .stath{padding-right:96px}
   .stath h3{margin:0;font-size:14.5px;color:var(--navy);font-weight:800}
@@ -1413,6 +1416,12 @@ let bugLabelFilter="all";    // all | prioritized | unprioritized
 let bugGroups=new Set();     // multi-select migration-group label chips; empty = all
 let bugFlags=new Set();      // multi-select P3/P4 review flags: "nolabel" | "nolink"
 let bugPods=new Set();       // Pod filter (multi-select chip); empty = All pods (default)
+// Release WINDOW filter: which deploy-to-deploy window a bug was reported (or
+// resolved) in. Not the same as bugReleases, which is fixVersion - where the bug
+// is planned to be fixed. Crossing the two is useful: reported in R9.6 with
+// fixVersion R9.9 is work that got pushed out. Single-valued: it is set by a
+// drill-through from the Quality Report, and a drill always means one thing.
+let bugWin=null;             // {mode:"rep"|"res"|"repBefore", rel:"R9.6"} | null
 let bugThemes=new Set();     // Theme scope (multi-select); empty = All
 const NEW_DAYS=2;            // a bug is "NEW" if created within this many days
 const PRIO_LABEL="product_prioritized";
@@ -1500,10 +1509,12 @@ function bugAgeDays(b){ if(!b.created) return null; return Math.floor((_dayFloor
 function bugAgeBucket(b){ var a=bugAgeDays(b); if(a==null) return ""; if(a<=7) return "0–7"; if(a<=30) return "8–30"; if(a<=90) return "31–90"; if(a<=180) return "91–180"; return "180+"; }
 // Deep-link from the Insights tab: apply a clean filter set and jump to Active Bugs.
 function insDrill(state){
-  var s={scope:"open",themes:[],pods:[],statuses:state.statuses||[],prios:state.prios||[],
+  var s={scope:state.scope||"open",themes:[],pods:state.pods||[],statuses:state.statuses||[],prios:state.prios||[],
     recent:null,closed:null,due:state.due||[],triage:[],assignees:[],releases:[],label:"all",
-    groups:[],flags:[],neg:[],card:"all",sort:"prio",search:"",age:state.age||""};
+    groups:[],flags:[],neg:[],win:state.win||null,card:"all",sort:"prio",search:"",age:state.age||""};
   applyFilters(s);
+  // the landing is a real view, so make it shareable like any other
+  try{ history.replaceState(null,"",shareBase()+"#f="+encodeURIComponent(b64e(JSON.stringify(serializeFilters())))); }catch(e){}
   document.querySelectorAll(".tab").forEach(function(x){x.classList.remove("active");});
   document.querySelectorAll(".panel").forEach(function(x){x.classList.remove("active");});
   var tb=document.querySelector('.tab[data-tab="bugs"]'); if(tb) tb.classList.add("active");
@@ -1516,6 +1527,28 @@ function insDrill(state){
   try{ var _f=document.querySelector("#panel-bugs .toolbar")||document.getElementById("bugresult")||document.getElementById("bugchips");
     if(_f){ _f.scrollIntoView({behavior:"smooth",block:"start"}); } else { window.scrollTo(0,0); } }catch(e){ try{window.scrollTo(0,0);}catch(_){} }
 }
+// The window comes from history.json, so dates never reach the UI - the filter
+// is named after the release, like everything else on the Quality Report.
+function winOf(rel){
+  // QHIST is a module-scope `let`, so it is NOT on window - asking for
+  // window.QHIST silently returned null and the filter quietly matched
+  // everything instead of failing loudly.
+  const H=(typeof QHIST!=="undefined" && QHIST) ? QHIST : null;
+  const v=((H&&H.releases)||{})[rel]; if(!v) return null;
+  return {a:Date.parse(v.start+"T00:00:00"),
+          b:v.end?Date.parse(v.end+"T00:00:00"):Infinity};
+}
+function inWin(b,mode,rel){
+  const w=winOf(rel);
+  if(!w) return true;          // history unavailable: show everything rather than silently hiding rows
+  const t = mode==="res" ? resolvedMs(b) : createdMs(b);
+  if(isNaN(t)) return false;
+  return mode==="repBefore" ? t < w.a : (t>=w.a && t<w.b);
+}
+function winLabel(w){
+  return (w.mode==="res" ? "Resolved in" : w.mode==="repBefore" ? "Reported before" : "Reported in");
+}
+
 function facetBase(exclude){
   let r = (exclude!=="theme" && bugThemes.size) ? baseBugs().filter(b=>bugThemes.has(b.theme||"None")) : baseBugs();
   if(bugCard!=="all") r=r.filter(CARD_PRED[bugCard]);
@@ -1531,6 +1564,7 @@ function facetBase(exclude){
   if(exclude!=="triage" && bugTriage.size) r=r.filter(neg("triage", b=>bugTriage.has(b.triage||"")));
   if(exclude!=="assignee" && bugAssignees.size) r=r.filter(neg("assignee", b=>bugAssignees.has(b.who||"Unassigned")));
   if(exclude!=="release" && bugReleases.size) r=r.filter(neg("release", b=>bugReleases.has(b.fv||"None")));
+  if(exclude!=="win" && bugWin) r=r.filter(b=>inWin(b,bugWin.mode,bugWin.rel));
   if(exclude!=="prioritized"){ if(bugLabelFilter==="prioritized") r=r.filter(hasLabel); else if(bugLabelFilter==="unprioritized") r=r.filter(b=>!hasLabel(b)); }
   if(exclude!=="group" && bugGroups.size) r=r.filter(neg("group", b=>bugGroupLabels(b).some(l=>bugGroups.has(l))));
   if(exclude!=="review" && bugFlags.size) r=r.filter(b=> (bugFlags.has("nolabel")&&missingGroup(b)) || (bugFlags.has("nolink")&&notLinkedLP(b)) );
@@ -1657,7 +1691,9 @@ function renderBugs(){
   saveFilters();   // persist current filters (per browser) so the next load restores them
 }
 function bugActiveCount(){
-  return bugStatuses.size+bugPrios.size+bugGroups.size+bugFlags.size+bugTriage.size+bugPods.size+bugDue.size+bugAssignees.size+bugReleases.size+(bugAge?1:0)+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0)+(bugRecentHours?1:0)+(bugClosedHours?1:0)+(bugLabelFilter!=="all"?1:0);
+  // bugWin counts: without it, a drill whose only filter is the release window
+  // left the "Filtered results" summary hidden and showing its previous numbers.
+  return bugStatuses.size+bugPrios.size+bugGroups.size+bugFlags.size+bugTriage.size+bugPods.size+bugDue.size+bugAssignees.size+bugReleases.size+(bugAge?1:0)+(bugWin?1:0)+(bugCard!=="all"?1:0)+(bugSearchTerm?1:0)+(bugRecentHours?1:0)+(bugClosedHours?1:0)+(bugLabelFilter!=="all"?1:0);
 }
 // Live "filtered results" summary — reflects the FULL current selection (all sub-filters +
 // search + card), unlike the big metric cards which stay pinned to the Show/Theme scope.
@@ -2056,6 +2092,9 @@ function renderChips(){
       box.appendChild(chip);
     });
   });
+  if(bugWin){ any=true; const chip=document.createElement("span"); chip.className="selchip";
+    chip.innerHTML=`<span class="scname">${winLabel(bugWin)}:</span> ${bugWin.rel} <span class="scx" title="Remove">✕</span>`;
+    chip.querySelector(".scx").addEventListener("click",()=>{ bugWin=null; refreshBugUI(); }); box.appendChild(chip); }
   if(bugAge){ any=true; const chip=document.createElement("span"); chip.className="selchip";
     chip.innerHTML=`<span class="scname">Age:</span> ${bugAge} days <span class="scx" title="Remove">✕</span>`;
     chip.querySelector(".scx").addEventListener("click",()=>{ bugAge=""; refreshBugUI(); }); box.appendChild(chip); }
@@ -2094,7 +2133,7 @@ function toggleLLRows(){
 }
 function onPodChange(){
   // reset all filters, rebuild pod-dependent chips, toggle LL-only rows, re-render
-  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear(); bugReleases.clear(); bugNegated.clear(); bugAge="";
+  bugCard="all"; bugStatuses.clear(); bugPrios.clear(); bugPods.clear(); bugNewOnly=false; bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear(); bugReleases.clear(); bugNegated.clear(); bugAge=""; bugWin=null;
   bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear();
   const si=document.getElementById("bugsearch");
   if(si){ si.value=""; bugSearchTerm=""; const sb=document.getElementById("bugsearchbox"); if(sb) sb.classList.remove("has-text"); }
@@ -2106,7 +2145,7 @@ function serializeFilters(){
   return {scope:bugScope, themes:[...bugThemes], pods:[...bugPods], statuses:[...bugStatuses],
     prios:[...bugPrios], recent:bugRecentHours, closed:bugClosedHours, due:[...bugDue],
     triage:[...bugTriage], assignees:[...bugAssignees], releases:[...bugReleases], label:bugLabelFilter, groups:[...bugGroups],
-    flags:[...bugFlags], neg:[...bugNegated], age:bugAge, card:bugCard, sort:bugSort, search:bugSearchTerm};
+    flags:[...bugFlags], neg:[...bugNegated], age:bugAge, win:bugWin, card:bugCard, sort:bugSort, search:bugSearchTerm};
 }
 function saveFilters(){ try{ localStorage.setItem(LS_KEY, JSON.stringify(serializeFilters())); }catch(e){} }
 function loadSavedFilters(){ try{ const raw=localStorage.getItem(LS_KEY); return raw?JSON.parse(raw):null; }catch(e){ return null; } }
@@ -2147,7 +2186,7 @@ function applyFilters(s){
   bugPrios=new Set(s.prios||[]); bugRecentHours=s.recent||null; bugClosedHours=s.closed||null;
   bugDue=new Set(s.due||[]); bugTriage=new Set(s.triage||[]); bugAssignees=new Set(s.assignees||[]); bugReleases=new Set(s.releases||[]);
   bugLabelFilter=s.label||"all"; bugGroups=new Set(s.groups||[]); bugFlags=new Set(s.flags||[]);
-  bugNegated=new Set(s.neg||[]); bugAge=s.age||""; bugCard=s.card||"all"; bugSort=s.sort||"prio"; bugSearchTerm=s.search||"";
+  bugNegated=new Set(s.neg||[]); bugAge=s.age||""; bugWin=s.win||null; bugCard=s.card||"all"; bugSort=s.sort||"prio"; bugSearchTerm=s.search||"";
 }
 const LS_DEFAULT="llqa.bugdefault.v1";
 function savePersonalDefault(){ try{ localStorage.setItem(LS_DEFAULT, JSON.stringify(serializeFilters())); }catch(e){} }
@@ -2158,19 +2197,19 @@ function applyDefaultFilters(){
   if(pd){ applyFilters(pd); return; }
   bugScope="open"; bugThemes.clear(); bugPods.clear(); bugStatuses.clear(); bugPrios.clear();
   bugRecentHours=null; bugClosedHours=null; bugDue.clear(); bugTriage.clear(); bugAssignees.clear();
-  bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugNegated.clear(); bugReleases.clear(); bugAge=""; bugCard="all"; bugSearchTerm="";
+  bugLabelFilter="all"; bugGroups.clear(); bugFlags.clear(); bugNegated.clear(); bugReleases.clear(); bugAge=""; bugWin=null; bugCard="all"; bugSearchTerm="";
   if(DEFAULT_PRIO_LEVELS.length) baseBugs().forEach(b=>{ if(DEFAULT_PRIO_LEVELS.includes(prioNum(b.prio))) bugPrios.add(b.prio); });
 }
 // The default filter set as an object (personal default if saved, else built-in P1+P2) — for comparison.
 function defaultFiltersObject(){
   const pd=loadPersonalDefault(); if(pd) return pd;
   const prios=[]; if(DEFAULT_PRIO_LEVELS.length) baseBugs().forEach(b=>{ if(DEFAULT_PRIO_LEVELS.includes(prioNum(b.prio))) prios.push(b.prio); });
-  return {scope:"open",themes:[],pods:[],statuses:[],prios:[...new Set(prios)],recent:null,closed:null,due:[],triage:[],assignees:[],releases:[],label:"all",groups:[],flags:[],neg:[],card:"all"};
+  return {scope:"open",themes:[],pods:[],statuses:[],prios:[...new Set(prios)],recent:null,closed:null,due:[],triage:[],assignees:[],releases:[],label:"all",groups:[],flags:[],neg:[],win:null,card:"all"};
 }
 // canonical compare string — FILTERS only (ignore sort & search, which aren't filters)
 function normFilters(o){
   const a=k=>[...(o[k]||[])].sort();
-  return JSON.stringify({scope:o.scope||"open",themes:a("themes"),pods:a("pods"),statuses:a("statuses"),prios:a("prios"),recent:o.recent||null,closed:o.closed||null,due:a("due"),triage:a("triage"),assignees:a("assignees"),releases:a("releases"),label:o.label||"all",groups:a("groups"),flags:a("flags"),neg:a("neg"),age:o.age||"",card:o.card||"all"});
+  return JSON.stringify({scope:o.scope||"open",themes:a("themes"),pods:a("pods"),statuses:a("statuses"),prios:a("prios"),recent:o.recent||null,closed:o.closed||null,due:a("due"),triage:a("triage"),assignees:a("assignees"),releases:a("releases"),label:o.label||"all",groups:a("groups"),flags:a("flags"),neg:a("neg"),age:o.age||"",win:o.win||null,card:o.card||"all"});
 }
 function isOnDefault(){ return normFilters(serializeFilters())===normFilters(defaultFiltersObject()); }
 // One stateful control: disabled when you're on your default; enabled ("Return to default") when you've drifted.
@@ -2361,7 +2400,7 @@ function vzVBars(hostId,cats,series,opt){
     const total=bw*series.length+ (series.length-1)*3;
     series.forEach((s,si)=>{
       const v=s.vals[i]||0, bx=cx-total/2+si*(bw+3), by=y(v), bh=padT+plotH-by;
-      g+=`<rect x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(0,bh).toFixed(1)}" rx="3" fill="${s.color}" data-tip="<b>${esc(c)}</b><br>${esc(s.name)}: ${v}"/>`;
+      g+=`<rect x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(0,bh).toFixed(1)}" rx="3" fill="${s.color}" data-cat="${esc(c)}" data-si="${si}" data-tip="<b>${esc(c)}</b><br>${esc(s.name)}: ${v}"/>`;
     });
     g+=`<text x="${cx}" y="${H-padB+15}" text-anchor="middle" font-size="10" fill="${VZ.sub}">${esc(c)}</text>`;
   });
@@ -2382,7 +2421,7 @@ function vzHBars(hostId,items,opt){
     g+=`<text x="${padL-8}" y="${yy+rowH/2+3.5}" text-anchor="end" font-size="11" fill="${VZ.sub}">${esc(it.label)}</text>`;
     // an item may carry its own tooltip; without this the Quality Report's
     // richer tips (age medians, Initiative splits) are silently dropped.
-    g+=`<rect x="${padL}" y="${yy+3}" width="${Math.max(2,bw).toFixed(1)}" height="${rowH-10}" rx="3" fill="${col}" data-tip="${it.tip || ('<b>'+esc(it.label)+'</b>: '+it.val)}"/>`;
+    g+=`<rect x="${padL}" y="${yy+3}" width="${Math.max(2,bw).toFixed(1)}" height="${rowH-10}" rx="3" fill="${col}" data-label="${esc(it.key||it.label)}" data-tip="${it.tip || ('<b>'+esc(it.label)+'</b>: '+it.val)}"/>`;
     g+=`<text x="${padL+Math.max(2,bw)+6}" y="${yy+rowH/2+3.5}" font-size="11" font-weight="700" fill="${VZ.ink}">${it.val}</text>`;
   });
   host.innerHTML=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img">${g}</svg>`;
@@ -2576,9 +2615,70 @@ const QR = (function () {
     return { weeks, aging, order, status, pods, today: (TODAY instanceof Date ? TODAY : new Date()).toISOString().slice(0, 10) };
   }
 
-  function qcard(v, l, sub, tip) {
-    return '<div class="kpi" data-tip="' + String(tip).replace(/"/g, "&quot;") + '">'
+  // The tile carries its own drill state, so each KPI declares where it goes
+  // instead of a switch elsewhere having to know.
+  function qcard(v, l, sub, tip, st) {
+    const q = x => String(x).replace(/"/g, "&quot;");
+    return '<div class="kpi' + (st ? " drill" : "") + '"' + (st ? ' data-drill="1" data-drillst="' + q(JSON.stringify(st)) + '"' : "")
+      + ' data-tip="' + q(tip) + '">'
       + '<div class="kv">' + v + '</div><div class="kl">' + l + '</div><div class="kd">' + sub + '</div></div>';
+  }
+
+  // ---- Drill-through to Active Bugs ------------------------------------
+  // A bar is a question; the list is the answer. Each chart maps a clicked bar
+  // to a filter state and hands it to insDrill, the same applier the Insights
+  // tab uses - one drill path for the dashboard, not two.
+  //
+  // Week by week is the deliberate rough edge: a week bar lands on its whole
+  // RELEASE, so the count you clicked will be smaller than the list you get.
+  // The arrival chip says "Reported in R9.6", never the week, so the widening
+  // is visible rather than silent.
+  const relOf = cat => String(cat || "").replace(/\s*·$/, "").trim();
+  const podList = () => statPods.size ? Array.from(statPods) : [];
+  const prioStringsFor = nums => {
+    if (!nums || nums.length === 4) return [];           // all four = no priority filter
+    const out = new Set();
+    BUGS.concat(BUGS_CLOSED).forEach(b => { if (nums.indexOf(String(prioNum(b.prio))) >= 0) out.add(b.prio); });
+    return Array.from(out);
+  };
+  const cardPrios = cid => { const pc = CURCARD; CURCARD = cid; const v = PSEL(); CURCARD = pc; return prioStringsFor(v); };
+
+  const DRILL = {
+    "st-status": r => ({ scope: "open", pods: podList(), prios: cardPrios("st-status"), statuses: [r.dataset.label] }),
+    "st-pod":    r => ({ scope: "open", pods: [r.dataset.label], prios: cardPrios("st-pod") }),
+    "st-age":    r => { const k = r.dataset.label || "";
+                        return { scope: "open", pods: podList(), prios: cardPrios("st-age"),
+                                 win: k.indexOf("Before ") === 0 ? { mode: "repBefore", rel: k.slice(7) } : { mode: "rep", rel: k } }; },
+    "st-flow":   r => ({ scope: "all", pods: podList(), prios: cardPrios("st-flow"),
+                         win: { mode: r.dataset.si === "1" ? "res" : "rep", rel: relOf(r.dataset.cat) } }),
+    "st-weeks":  r => ({ scope: "all", pods: podList(), prios: cardPrios("st-weeks"),
+                         win: { mode: "rep", rel: r.dataset.rel } }),
+    "st-mix":    r => ({ scope: "all", pods: podList(), prios: prioStringsFor([String(+r.dataset.si + 1)]),
+                         win: { mode: "rep", rel: relOf(r.dataset.cat) } }),
+    "st-pf":     r => ({ scope: "all", pods: podList(), prios: cardPrios("st-pf"),
+                         win: { mode: "rep", rel: relOf(r.dataset.cat) } })
+  };
+
+  function markDrillable() {
+    Object.keys(DRILL).forEach(id => { const h = document.getElementById(id); if (h) h.classList.add("drill"); });
+  }
+
+  function wireDrill() {
+    const p = document.getElementById("panel-stats"); if (!p) return;
+    p.addEventListener("click", e => {
+      const r = e.target && e.target.closest ? e.target.closest("rect") : null; if (!r) return;
+      const box = r.closest(".chartbox"); if (!box || !DRILL[box.id]) return;
+      const st = DRILL[box.id](r);
+      if (st.win && !st.win.rel) return;                 // a bar with no release is not a question
+      if (typeof insDrill === "function") insDrill(st);
+    });
+    const k = document.getElementById("st-kpis"); if (!k) return;
+    k.addEventListener("click", e => {
+      const t = e.target && e.target.closest ? e.target.closest(".kpi[data-drill]") : null; if (!t) return;
+      const which = t.dataset.drill;
+      const d = JSON.parse(t.dataset.drillst || "null");
+      if (d) insDrill(d);
+    });
   }
 
   function paintBadges() {
@@ -2615,6 +2715,7 @@ const QR = (function () {
   function wire() {
     const p = document.getElementById("panel-stats"); if (WIRED || !p) return;
     WIRED = true;
+    wireDrill();
     p.addEventListener("click", e => {
       const b = e.target.closest ? e.target.closest(".pbadge") : null; if (!b) return;
       const cid = b.dataset.card, hostc = p.querySelector('.pchips[data-for="' + cid + '"]');
@@ -2656,18 +2757,26 @@ const QR = (function () {
     const p12 = Q.order.reduce((s, k) => { const o = Q.aging[k]; return s + (o ? o.prio[1] + o.prio[2] : 0); }, 0);
     const lastClosed = prior;
     host.innerHTML =
-      qcard(openNow, "Open now", "across " + SEL.join(" + "), "Every bug still open, whatever release it came from. This row always follows the global Priority chips, even when a card below overrides them.")
-      + qcard(rep(SUBJ), "Reported in " + SUBJ, "day " + N + " of " + L, "Still growing — the window closes on " + fmtD(H.releases[SUBJ].end) + ".")
+      qcard(openNow, "Open now", "across " + SEL.join(" + "), "Every bug still open, whatever release it came from. This row always follows the global Priority chips, even when a card below overrides them. Click to open this list in Active Bugs.",
+        { scope: "open", pods: podList(), prios: cardPrios(null) })
+      + qcard(rep(SUBJ), "Reported in " + SUBJ, "day " + N + " of " + L,
+        "Still growing — the window closes on " + fmtD(H.releases[SUBJ].end) + ". Click to open this list in Active Bugs.",
+        { scope: "all", pods: podList(), prios: cardPrios(null), win: { mode: "rep", rel: SUBJ } })
       + qcard((res(SUBJ) - rep(SUBJ) > 0 ? "+" : "") + (res(SUBJ) - rep(SUBJ)), "Net in " + SUBJ,
         res(SUBJ) - rep(SUBJ) < 0 ? "backlog growing" : "backlog shrinking",
         "Resolved minus reported inside the window: " + res(SUBJ) + " − " + rep(SUBJ) + ".")
       + qcard(pf(lastClosed) ? pf(lastClosed).toFixed(1) : "—", "Bugs per feature",
         lastClosed + " · avg size " + (szAvg(lastClosed) ? szAvg(lastClosed).toFixed(1) : "—"),
         "The last comparable release: " + feat(lastClosed) + " features, average size "
-        + (szAvg(lastClosed) ? szAvg(lastClosed).toFixed(1) : "?") + " over " + szN(lastClosed) + " sized.")
+        + (szAvg(lastClosed) ? szAvg(lastClosed).toFixed(1) : "?") + " over " + szN(lastClosed) + " sized. "
+        + "Click to open the bugs reported in that release.",
+        { scope: "all", pods: podList(), prios: cardPrios(null), win: { mode: "rep", rel: lastClosed } })
       + qcard(oldDebt, "Open from before " + prior, "carried debt",
-        "Bugs still open that were reported before " + prior + " — not current work.")
-      + qcard(p12, "P1 + P2 open", "needs focus", "Urgent and Important bugs still open, any release.");
+        "Bugs still open that were reported before " + prior + " — not current work. Click to open this list in Active Bugs.",
+        { scope: "open", pods: podList(), prios: cardPrios(null), win: { mode: "repBefore", rel: prior } })
+      + qcard(p12, "P1 + P2 open", "needs focus",
+        "Urgent and Important bugs still open, any release. Click to open this list in Active Bugs.",
+        { scope: "open", pods: podList(), prios: prioStringsFor(["1", "2"]) });
     bindTips(host);
 
     const labs = ORDER.map(r => H.releases[r].closed ? r : r + " ·");
@@ -2845,6 +2954,7 @@ const QR = (function () {
         + "have no Feature above them. Giving those Epics a Feature parent in Jira is what moves this chart.";
     });
 
+    markDrillable();
     paintBadges();
     document.querySelectorAll('#panel-stats .pchips.open').forEach(x => buildCardChips(x.dataset.for));
   }
@@ -2865,7 +2975,7 @@ const QR = (function () {
       const cx=padL+slot*(i+0.5), tot=series.length*bw+(series.length-1)*3;
       series.forEach((s,k)=>{
         const v=s.vals[i]||0, hh=(v/max)*plotH, x=cx-tot/2+k*(bw+3);
-        g+=`<rect x="${x.toFixed(1)}" y="${(padT+plotH-hh).toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(0,hh).toFixed(1)}" rx="2" fill="${s.color}" data-tip="<b>${esc(w.label)}</b> · ${esc(w.release)}<br>${s.name}: <b>${v}</b>"/>`;
+        g+=`<rect x="${x.toFixed(1)}" y="${(padT+plotH-hh).toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(0,hh).toFixed(1)}" rx="2" fill="${s.color}" data-rel="${esc(w.release)}" data-tip="<b>${esc(w.label)}</b> · ${esc(w.release)}<br>${s.name}: <b>${v}</b>"/>`;
       });
       g+=`<text x="${cx}" y="${padT+plotH+14}" text-anchor="middle" font-size="9.5" fill="${VZ.sub}">${esc(w.label)}</text>`;
     });
