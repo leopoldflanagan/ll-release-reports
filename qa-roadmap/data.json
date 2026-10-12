@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T12:45:21+00:00",
+ "generated_at": "2026-10-12T13:00:31+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1334,32 +1334,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-20960",
-   "name": "Member Portal - Restricted Label, Info Icon and Restriction Dialog Not Displayed on Plan Overview Page",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-11T08:21:58.116-0700",
-   "resolved": "",
-   "due": "2026-10-12",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
    "key": "PLANS-24340",
    "name": "Plan details the paragraph is not correct in WFPAY.",
    "pod": "LL",
@@ -2357,7 +2331,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-08-23T22:35:52.185-0700",
@@ -4336,6 +4310,32 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-20960",
+   "name": "Member Portal - Restricted Label, Info Icon and Restriction Dialog Not Displayed on Plan Overview Page",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-11T08:21:58.116-0700",
+   "resolved": "",
+   "due": "2026-10-12",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
@@ -26796,29 +26796,6 @@
    "triage": "",
    "parentKey": "PLANS-18119",
    "parentName": "PMP Ancillary Benefit Card — Epic 2: Ancillary Benefit Card in PMP",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-19025",
-   "name": "PMP/Migration/Practice : Comfort Dental Studio is displayed twice in the practice dropdown in PMP",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Hunter Redhead",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-06T14:44:52.769-0700",
-   "resolved": "2026-07-14T05:53:00.094-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
