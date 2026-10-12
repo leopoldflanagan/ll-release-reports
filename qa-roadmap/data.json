@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T07:30:24+00:00",
+ "generated_at": "2026-10-12T07:45:23+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -3575,12 +3575,12 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Mireya Alvarez",
    "prio": "2: Important",
    "created": "2026-02-26T14:09:30.262-0800",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-13",
    "labels": [
     "Reenbit",
     "group2_migration",
