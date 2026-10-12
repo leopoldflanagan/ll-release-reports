@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T18:45:24+00:00",
+ "generated_at": "2026-10-12T18:48:13+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -28972,7 +28972,7 @@
  "nopod": [
   {
    "key": "PLANS-24419",
-   "name": "Prod - Url",
+   "name": "Prod - Plan Details - legal text - URL redirected to empty page",
    "status": "Backlog",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
