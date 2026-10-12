@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T08:00:30+00:00",
+ "generated_at": "2026-10-12T08:15:20+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1268,7 +1268,7 @@
    "prio": "2: Important",
    "created": "2026-09-30T04:48:06.334-0700",
    "resolved": "",
-   "due": "2026-10-02",
+   "due": "2026-10-26",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5307,7 +5307,7 @@
    "prio": "2: Important",
    "created": "2026-07-22T08:47:16.230-0700",
    "resolved": "",
-   "due": "2026-09-17",
+   "due": "2026-10-16",
    "labels": [
     "Logo",
     "group1_migration",
