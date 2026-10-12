@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T20:45:19+00:00",
+ "generated_at": "2026-10-12T20:56:26+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -5768,34 +5768,6 @@
    "created": "2026-10-08T11:41:26.722-0700",
    "resolved": "",
    "due": "2026-10-13",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24187",
-   "name": "Plan Details - One Smile - Additional Person Discount value appears cropped",
-   "pod": "LL",
-   "status": "In PreProd",
-   "cat": "To Do",
-   "fv": "R9.8.3",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-07T06:58:28.056-0700",
-   "resolved": "",
-   "due": "",
    "labels": [
     "group2_migration",
     "product_prioritized"
