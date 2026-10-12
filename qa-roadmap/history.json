@@ -1,6 +1,6 @@
 {
  "schema": 4,
- "updated_at": "2026-10-12T16:30:27+00:00",
+ "updated_at": "2026-10-12T16:41:50+00:00",
  "teams": [
   "LL",
   "PLANS"
@@ -14,7 +14,7 @@
     "LL",
     "PLANS"
    ],
-   "measured_at": "2026-10-09",
+   "measured_at": "2026-10-12",
    "teams": {
     "LL": {
      "reported": {
@@ -142,7 +142,7 @@
     "LL",
     "PLANS"
    ],
-   "measured_at": "2026-10-09",
+   "measured_at": "2026-10-12",
    "teams": {
     "LL": {
      "reported": {
@@ -285,7 +285,7 @@
     "LL",
     "PLANS"
    ],
-   "measured_at": "2026-10-09",
+   "measured_at": "2026-10-12",
    "teams": {
     "LL": {
      "reported": {
@@ -327,14 +327,13 @@
      "work_items": 136,
      "features": 12,
      "sizes": {
-      "Moderate": 4,
-      "unsized": 3,
+      "Moderate": 5,
+      "Small": 3,
       "X-Large": 1,
-      "Large": 3,
-      "Small": 1
+      "Large": 3
      },
-     "size_points": 37,
-     "sized_features": 9,
+     "size_points": 44,
+     "sized_features": 12,
      "weeks": {
       "reported": {
        "2026-08-03": 10,
@@ -392,14 +391,13 @@
      "work_items": 123,
      "features": 10,
      "sizes": {
-      "Small": 3,
-      "unsized": 1,
+      "Small": 4,
       "X-Large": 2,
       "Large": 2,
       "Moderate": 2
      },
-     "size_points": 38,
-     "sized_features": 9,
+     "size_points": 40,
+     "sized_features": 10,
      "weeks": {
       "reported": {
        "2026-08-03": 14,
@@ -427,7 +425,7 @@
     "LL",
     "PLANS"
    ],
-   "measured_at": "2026-10-09",
+   "measured_at": "2026-10-12",
    "teams": {
     "LL": {
      "reported": {
@@ -440,14 +438,14 @@
      "resolved": {
       "1": 17,
       "2": 52,
-      "3": 52,
+      "3": 51,
       "4": 5,
       "other": 0
      },
      "ttr_days": {
       "3": {
-       "n": 52,
-       "median": 12,
+       "n": 51,
+       "median": 8,
        "p90": 53
       },
       "2": {
@@ -466,19 +464,18 @@
        "p90": 107
       }
      },
-     "work_items": 159,
+     "work_items": 157,
      "features": 11,
      "sizes": {
-      "unsized": 2,
+      "Large": 3,
+      "Huge": 3,
       "Moderate": 2,
-      "Huge": 2,
       "Small": 1,
-      "Large": 2,
       "Tiny": 1,
       "X-Large": 1
      },
-     "size_points": 53,
-     "sized_features": 9,
+     "size_points": 71,
+     "sized_features": 11,
      "weeks": {
       "reported": {
        "2026-08-31": 18,
@@ -492,7 +489,7 @@
        "2026-08-31": 19,
        "2026-09-07": 20,
        "2026-09-14": 23,
-       "2026-09-21": 17,
+       "2026-09-21": 16,
        "2026-09-28": 30,
        "2026-10-05": 17
       }
@@ -509,7 +506,7 @@
      "resolved": {
       "1": 22,
       "2": 43,
-      "3": 38,
+      "3": 36,
       "4": 7,
       "other": 0
      },
@@ -520,9 +517,9 @@
        "p90": 7
       },
       "3": {
-       "n": 38,
+       "n": 36,
        "median": 7,
-       "p90": 34
+       "p90": 56
       },
       "2": {
        "n": 43,
@@ -535,16 +532,16 @@
        "p90": 28
       }
      },
-     "work_items": 129,
+     "work_items": 115,
      "features": 13,
      "sizes": {
-      "unsized": 6,
-      "Small": 2,
-      "Moderate": 4,
-      "X-Large": 1
+      "Large": 2,
+      "Small": 3,
+      "X-Large": 2,
+      "Moderate": 6
      },
-     "size_points": 24,
-     "sized_features": 7,
+     "size_points": 50,
+     "sized_features": 13,
      "weeks": {
       "reported": {
        "2026-08-31": 23,
@@ -558,7 +555,7 @@
        "2026-08-31": 21,
        "2026-09-07": 21,
        "2026-09-14": 12,
-       "2026-09-21": 27,
+       "2026-09-21": 25,
        "2026-09-28": 21,
        "2026-10-05": 8
       }
