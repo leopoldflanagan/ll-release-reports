@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T13:30:28+00:00",
+ "generated_at": "2026-10-12T13:45:25+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -124,7 +124,7 @@
    "name": "Member Portal Support for Subscription Payments",
    "status": "In Development",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate"
   },
@@ -415,7 +415,7 @@
    "name": "Member Portal Support for Subscription Payments",
    "status": "In Development",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate",
    "pod": "LL",
@@ -913,7 +913,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "In Development",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "ted": null,
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
@@ -4952,32 +4952,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-23542",
-   "name": "ACH - Auto-Renewal Transactions Skip Approved /Settled Status and Display Directly as 'Paid' in PMP Transactions",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-25T08:37:47.903-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24113",
    "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
    "pod": "LL",
@@ -5445,6 +5419,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23542",
+   "name": "ACH - Auto-Renewal Transactions Skip Approved /Settled Status and Display Directly as 'Paid' in PMP Transactions",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-25T08:37:47.903-0700",
+   "resolved": "2026-10-12T06:40:34.849-0700",
+   "due": "2026-09-30",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-16858",
    "name": "Two Primary Cards shown in Member Portal",
