@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T17:20:53+00:00",
+ "generated_at": "2026-10-12T17:30:21+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1348,6 +1348,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24405",
+   "name": "Prod - Logo not visible in Membership agreement / Membership cards.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-12T10:23:52.559-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24399",
