@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:00:26+00:00",
+ "generated_at": "2026-10-12T15:15:20+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1152,29 +1152,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-24351",
-   "name": "Prod/STAGE- SGDP/ADHA Broken - Plan cards and Member saving table not visible on home page",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.8.2",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Chris Rubio",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-09T14:50:10.177-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24335",
    "name": "PLANS-24335: Member Portal: Add plan: UI on phone - not mobile compatible",
    "pod": "LL",
@@ -1250,6 +1227,32 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24187",
+   "name": "Plan Details - One Smile - Additional Person Discount value appears cropped",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10\"",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-07T06:58:28.056-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3427,32 +3430,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24187",
-   "name": "Plan Details - One Smile - Additional Person Discount value appears cropped",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10\"",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-07T06:58:28.056-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24112",
    "name": "The STAGE SGDP portal is displaying Kids Plans instead of SGDP coverage levels.",
    "pod": "PLANS",
@@ -4150,6 +4127,29 @@
    "triage": "",
    "parentKey": "PLANS-14520",
    "parentName": "Auto-Renewal Opt Out Report - External",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24351",
+   "name": "Prod/STAGE- SGDP/ADHA Broken - Plan cards and Member saving table not visible on home page",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.8.2",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Chris Rubio",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-09T14:50:10.177-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4870,32 +4870,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24068",
-   "name": "DCA - Member Portal - Medi-Cal checkbox is missing for California members when adding a plan",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Conor Kamperman",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-02T10:48:35.451-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24030",
    "name": "CSP/Renewal/Giftcore Promo code is applied for Expired Plans though Eligibility rule is applied to restrict Expired plans",
    "pod": "PLANS",
@@ -5442,6 +5416,32 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24068",
+   "name": "DCA - Member Portal - Medi-Cal checkbox is missing for California members when adding a plan",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Conor Kamperman",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-02T10:48:35.451-0700",
+   "resolved": "2026-10-12T08:14:37.820-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
   {
    "key": "PLANS-23542",
    "name": "ACH - Auto-Renewal Transactions Skip Approved /Settled Status and Display Directly as 'Paid' in PMP Transactions",
