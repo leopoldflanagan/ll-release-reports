@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T14:00:30+00:00",
+ "generated_at": "2026-10-12T14:01:50+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1280,32 +1280,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-21748",
-   "name": "ACH refunds receipt -Discrepancy in Account Information in receipt",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-23T22:35:52.185-0700",
-   "resolved": "",
-   "due": "2026-10-13",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-21736",
@@ -4595,6 +4569,32 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-21748",
+   "name": "ACH refunds receipt -Discrepancy in Account Information in receipt",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-08-23T22:35:52.185-0700",
+   "resolved": "",
+   "due": "2026-10-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
@@ -26782,7 +26782,7 @@
  "nopod": [
   {
    "key": "PLANS-24361",
-   "name": "SGDP - incorrect member savings in pricing details compared to CSP settings.",
+   "name": "SGDP – Incorrect Member Savings [$258] Displayed in Pricing Details Compared to CSP Settings",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
