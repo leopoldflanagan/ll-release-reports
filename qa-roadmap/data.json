@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T08:45:18+00:00",
+ "generated_at": "2026-10-12T09:00:28+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1173,32 +1173,6 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24288",
-   "name": "PRODUCTION - Theme Bug",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-08T11:39:42.185-0700",
-   "resolved": "",
-   "due": "2026-10-12",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4396,6 +4370,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-24288",
+   "name": "PRODUCTION - Theme Bug",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-08T11:39:42.185-0700",
+   "resolved": "",
+   "due": "2026-10-12",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
    "key": "PLANS-24109",
    "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
    "pod": "LL",
@@ -4463,32 +4463,6 @@
    "resolved": "",
    "due": "2026-10-09",
    "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24152",
-   "name": "STG PreProd Member Portal \\ Previous expired plan is still displayed in the Overview section after auto-renewal",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-06T09:17:11.616-0700",
-   "resolved": "",
-   "due": "2026-10-09",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
@@ -4842,6 +4816,32 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24152",
+   "name": "STG PreProd Member Portal \\ Previous expired plan is still displayed in the Overview section after auto-renewal",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-06T09:17:11.616-0700",
+   "resolved": "",
+   "due": "2026-10-09",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
