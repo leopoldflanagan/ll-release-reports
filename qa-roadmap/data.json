@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T18:48:13+00:00",
+ "generated_at": "2026-10-12T19:00:29+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1350,6 +1350,31 @@
    "init": ""
   },
   {
+   "key": "PLANS-24419",
+   "name": "Prod - Plan Details - legal text - URL redirected to empty page (Danahay & One Smile, Comfort dental)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-12T11:36:32.266-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
    "key": "PLANS-24416",
    "name": "Prod - PMP - One Smile - Incorrect URL in membership card",
    "pod": "LL",
@@ -1411,31 +1436,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-12T10:32:45.790-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-23885",
-   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-24405",
-   "name": "Prod - Logo not visible in Membership agreement / Membership cards.",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-12T10:23:52.559-0700",
    "resolved": "",
    "due": "",
    "labels": [],
@@ -5899,6 +5899,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24405",
+   "name": "Prod - Logo not visible in Membership agreement / Membership cards.",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-12T10:23:52.559-0700",
+   "resolved": "2026-10-12T11:49:44.232-0700",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
   {
    "key": "PLANS-24068",
    "name": "DCA - Member Portal - Medi-Cal checkbox is missing for California members when adding a plan",
@@ -28969,15 +28994,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-24419",
-   "name": "Prod - Plan Details - legal text - URL redirected to empty page",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Oct 12–18",
