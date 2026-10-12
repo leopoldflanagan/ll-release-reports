@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T09:00:28+00:00",
+ "generated_at": "2026-10-12T09:15:25+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1256,6 +1256,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-22008",
+   "name": "PMP - DCA - Plan expiring today shows as Expired in Search Patient page, but remains Active in Plan Overview as expected",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-28T12:17:27.172-0700",
+   "resolved": "",
+   "due": "2026-10-12",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -1918,12 +1944,12 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-09-25T10:07:45.831-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-13",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -2290,32 +2316,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-22008",
-   "name": "PMP - DCA - Plan expiring today shows as Expired in Search Patient page, but remains Active in Plan Overview as expected",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-28T12:17:27.172-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
@@ -2695,7 +2695,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-14T03:19:43.137-0700",
@@ -2903,7 +2903,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-11T08:21:58.116-0700",
@@ -3445,7 +3445,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Luis Moreno",
    "prio": "2: Important",
    "created": "2026-04-29T11:52:19.091-0700",
@@ -3540,33 +3540,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
-  },
-  {
-   "key": "PLANS-14884",
-   "name": "Additional Benefits | Refresh causes content not to load and Back button does not redirect to /plan",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-02-26T14:09:30.262-0800",
-   "resolved": "",
-   "due": "2026-10-13",
-   "labels": [
-    "Reenbit",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
   },
   {
    "key": "PLANS-14068",
@@ -4439,6 +4412,33 @@
    "labels": [
     "group1_migration",
     "group2_migration"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
+   "key": "PLANS-14884",
+   "name": "Additional Benefits | Refresh causes content not to load and Back button does not redirect to /plan",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-02-26T14:09:30.262-0800",
+   "resolved": "",
+   "due": "2026-10-13",
+   "labels": [
+    "Reenbit",
+    "group2_migration",
+    "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
