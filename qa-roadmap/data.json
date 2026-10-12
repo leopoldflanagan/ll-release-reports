@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:45:21+00:00",
+ "generated_at": "2026-10-12T15:51:30+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1211,7 +1211,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.10\"",
+   "fv": "R9.8.3",
    "sprint": "LL-Sprint 23-26",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
@@ -1227,6 +1227,58 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24083",
+   "name": "Provider Portal \\ Age restriction row is missing for Dependents",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "4: Low",
+   "created": "2026-10-02T14:10:29.908-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22729",
+   "parentName": "[4] Age Restrictions on Sales - Roll Out to Fast-Follow Portals and Go Live",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24055",
+   "name": "Provider Portal \\ Age restriction summary row is missing for Primary Member",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-02T07:20:09.243-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22729",
+   "parentName": "[4] Age Restrictions on Sales - Roll Out to Fast-Follow Portals and Go Live",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -3479,32 +3531,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24083",
-   "name": "Provider Portal \\ Age restriction row is missing for Dependents",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 24-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "4: Low",
-   "created": "2026-10-02T14:10:29.908-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22729",
-   "parentName": "[4] Age Restrictions on Sales - Roll Out to Fast-Follow Portals and Go Live",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24067",
    "name": "Single Location Practice's are not honoring the no need for zip code entry for Smile Health - when you have the dedicated URL",
    "pod": "LL",
@@ -3526,32 +3552,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24055",
-   "name": "Provider Portal \\ Age restriction summary row is missing for Primary Member",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans-Sprint 24-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-10-02T07:20:09.243-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22729",
-   "parentName": "[4] Age Restrictions on Sales - Roll Out to Fast-Follow Portals and Go Live",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4134,7 +4134,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.9",
+   "fv": "R9.8.3",
    "sprint": "LL-Sprint 23-26",
    "who": "Nazarii Polinyk",
    "reporter": "Camille Knight",
@@ -4181,33 +4181,6 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24109",
-   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T07:03:58.029-0700",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "CCB_candidate",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "pod": "LL",
@@ -4232,32 +4205,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
-  },
-  {
-   "key": "PLANS-23905",
-   "name": "WF Share - PMP Add Plan Charges Full WF Share Instead of Discounted Amount",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-09-30T09:49:26.889-0700",
-   "resolved": "",
-   "due": "2026-10-12",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false
   },
   {
    "key": "PLANS-23878",
@@ -4445,7 +4392,7 @@
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
-   "fv": "R9.9",
+   "fv": "R9.8.1",
    "sprint": "LL-Sprint 23-26",
    "who": "Petro Yarish",
    "reporter": "Daniel Marineni",
@@ -4459,6 +4406,59 @@
    "parentKey": "PLANS-22410",
    "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-24109",
+   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8.3",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T07:03:58.029-0700",
+   "resolved": "",
+   "due": "2026-10-19",
+   "labels": [
+    "CCB_candidate",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
+  },
+  {
+   "key": "PLANS-23905",
+   "name": "WF Share - PMP Add Plan Charges Full WF Share Instead of Discounted Amount",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8.3",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-09-30T09:49:26.889-0700",
+   "resolved": "",
+   "due": "2026-10-12",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false
   },
@@ -26825,7 +26825,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-24384",
+   "name": "PreProd-PMP-Logo Missing form Membership Agreement for One SMile",
+   "status": "Backlog",
+   "who": "Dima Shtympel",
+   "reporter": "Vinita Thankur"
+  }
+ ],
  "weeks": [
   {
    "label": "Oct 12–18",
