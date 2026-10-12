@@ -288,6 +288,52 @@ def pull_closed_bugs(days=90):
 CLOSED_DAYS = 90  # rolling window for closed bugs
 
 
+# ---- bug -> Epic -> Feature -> Initiative ---------------------------------
+# A bug's own parent is always a bug-container Epic, never a Feature, so the
+# Initiative is two more hops up. The walk is deliberately literal: where a hop
+# is missing the bug is left blank rather than guessed, and the placeholder
+# Feature "Bug Fix Container" is reported under its own Initiative name instead
+# of being folded into a real one. It is a parking lot, and a chart that hides
+# that is a chart that flatters the hierarchy.
+#
+# Measured on 2026-10-12 over 1,035 bugs: 18% reach a real Initiative, 24% land
+# in Bug Fix Container, 59% have no path at all. The gaps are the point of the
+# panel - do not paper over them here.
+def _parent_map(keys, label):
+    """{key: (parent_key, parent_summary)} for the keys given, batched by JQL."""
+    out, keys = {}, sorted(set(k for k in keys if k))
+    for i in range(0, len(keys), 80):
+        chunk = keys[i:i + 80]
+        rows = jira_search("key in (" + ",".join(chunk) + ")",
+                           ["parent"], max_total=200)
+        for r in rows:
+            p = (r.get("fields") or {}).get("parent") or {}
+            if p.get("key"):
+                out[r["key"]] = (p["key"], ((p.get("fields") or {}).get("summary") or ""))
+    print(f"  initiative walk: {len(out)} of {len(keys)} {label} have a parent")
+    return out
+
+
+def attach_initiatives(*bug_lists):
+    epics = [b.get("parentKey") for lst in bug_lists for b in lst]
+    e2f = _parent_map(epics, "bug epics")
+    f2i = _parent_map([v[0] for v in e2f.values()], "features")
+    hit = miss = 0
+    for lst in bug_lists:
+        for b in lst:
+            feat = e2f.get(b.get("parentKey") or "")
+            init = f2i.get(feat[0]) if feat else None
+            b["initKey"] = init[0] if init else ""
+            b["init"] = init[1] if init else ""
+            if init:
+                hit += 1
+            else:
+                miss += 1
+    total = hit + miss
+    print(f"  initiative walk: {hit} of {total} bugs reach an Initiative "
+          f"({(100 * hit / total) if total else 0:.0f}%), {miss} left blank")
+
+
 def pull_nopod():
     jql = ('project = PLANS AND issuetype = Bug AND "Pod[Dropdown]" IS EMPTY '
            'AND statusCategory != Done ORDER BY created DESC')
@@ -529,13 +575,23 @@ def build_history(path, today):
     else:
         rel = dict(stored)
 
+    # Backfilling a field in Jira for a past release - T-shirt sizes, say - changes
+    # figures a frozen window already recorded, and the freeze means no ordinary run
+    # will ever notice. REMEASURE names the closed windows to measure again:
+    # REMEASURE="R9.6,R9.7", or REMEASURE=all. It is a one-off lever, not a setting:
+    # left unset, frozen stays frozen.
+    remeasure = {p.strip() for p in (os.environ.get("REMEASURE") or "").split(",") if p.strip()}
+    if remeasure:
+        print("  history: REMEASURE " + ", ".join(sorted(remeasure)))
+
     teams_now = sorted(HISTORY_TEAMS)
     for w in release_windows(today):
         have = rel.get(w["id"]) or {}
         prior = stored.get(w["id"]) or {}
+        forced = "all" in remeasure or w["id"] in remeasure
         # Frozen only counts if it was measured for the same set of teams -
         # otherwise adding a team would leave old windows silently short a column.
-        if have.get("closed") and have.get("teams_measured") == teams_now:
+        if not forced and have.get("closed") and have.get("teams_measured") == teams_now:
             continue
         row = {"start": w["start"].isoformat(),
                "end": w["end"].isoformat() if w["end"] else None,
@@ -641,6 +697,7 @@ def main():
     print(f"  bugs (active): {len(bugs)}")
     bugs_closed = pull_closed_bugs(CLOSED_DAYS)
     print(f"  bugs (closed, last {CLOSED_DAYS}d): {len(bugs_closed)}")
+    attach_initiatives(bugs, bugs_closed)
     nopod = pull_nopod()
     print(f"  no-pod bugs: {len(nopod)}")
     weeks = build_weeks(today)

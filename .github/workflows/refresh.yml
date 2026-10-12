@@ -10,6 +10,11 @@ on:
   schedule:
     - cron: "*/15 12-23 * * 1-5"   # cada 15 min, Lun–Vie, ~7am–6pm CT (cubre hasta el digest de las 6pm)
   workflow_dispatch:
+    inputs:
+      remeasure:
+        description: "Re-measure these CLOSED releases, comma-separated (e.g. R9.6,R9.7) or 'all'. Needed after backfilling a field in Jira for a past release - closed windows are frozen otherwise. Leave empty for a normal run."
+        required: false
+        default: ""
 
 # Allow the job to push the regenerated index.html back to the repo
 permissions:
@@ -38,6 +43,8 @@ jobs:
           JIRA_BASE_URL: https://wellfit.atlassian.net
           JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
           JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          # Empty on every scheduled run, so the freeze holds unless a human asks.
+          REMEASURE: ${{ inputs.remeasure }}
         run: |
           python3 scripts/refresh_dashboard.py qa-roadmap/data.json
 
