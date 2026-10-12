@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T13:45:25+00:00",
+ "generated_at": "2026-10-12T14:00:30+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1559,7 +1559,7 @@
    "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-10-07T06:58:28.056-0700",
    "resolved": "",
    "due": "",
@@ -4451,7 +4451,7 @@
    "pod": "LL",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": "R9.9",
+   "fv": "R9.8.3",
    "sprint": "LL-Sprint 23-26",
    "who": "Valentyna Tenus",
    "reporter": "Vivienne Chawande",
@@ -26779,7 +26779,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-24361",
+   "name": "SGDP - incorrect member savings in pricing details compared to CSP settings.",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Oct 12–18",
