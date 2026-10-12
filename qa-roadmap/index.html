@@ -135,7 +135,7 @@
   .kpi .kl{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-top:5px}
   .kpi .kd{font-size:11.5px;font-weight:600;margin-top:3px;color:var(--muted)}
   .kpi .kd.up{color:#0ca30c}.kpi .kd.down{color:var(--red)}
-  .statgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .statgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
   @media(max-width:900px){.statgrid{grid-template-columns:1fr}}
   .statcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px 10px;box-shadow:0 1px 3px var(--shadow)}
   .statcard.wide{grid-column:1 / -1}
@@ -726,6 +726,7 @@
     <p class="sub" style="margin-top:2px">The unit is the release window, deploy to deploy — a bug belongs to the window it was <b>reported</b> in, not to its fix version. Snapshot <span id="st-asof"></span>.</p>
     <div class="statfilters">
       <div class="sfrow"><span class="sflbl">Pod</span><div id="st-podfilter" class="sfchips"></div></div>
+      <div class="sfrow"><span class="sflbl">Priority</span><div id="st-priofilter" class="sfchips"></div></div>
     </div>
     <div class="kpis" id="st-kpis"></div>
     <div class="statgrid">
@@ -740,7 +741,7 @@
         <p class="reading" id="st-r-weeks"></p>
       </div>
       <div class="statcard">
-        <div class="stath"><h3>Priority mix</h3><span class="stsub">Share of what each release reported.</span></div>
+        <div class="stath"><h3>Priority mix</h3><span class="stsub">Share of what each release reported. Always all four — this card is the breakdown, so the Priority chips do not apply to it.</span></div>
         <div class="chartbox" id="st-mix"></div>
         <p class="reading" id="st-r-mix"></p>
       </div>
@@ -2301,11 +2302,12 @@ function statWeeks(openSet,closedSet){
   return arr;
 }
 // Stats-tab Pod/Theme filters (independent of the Active Bugs filters)
-let statPods=new Set(), statThemes=new Set();
+let statPods=new Set(), statThemes=new Set(), statPrios=new Set();
 function statFilter(arr){
   let r=arr;
   if(statPods.size) r=r.filter(b=>statPods.has(b.pod||""));
   if(statThemes.size) r=r.filter(b=>statThemes.has(b.theme||"None"));
+  if(statPrios.size) r=r.filter(b=>statPrios.has("P"+prioNum(b.prio)));
   return r;
 }
 function statChipRow(hostId,set,items){
@@ -2322,6 +2324,7 @@ function renderStatFilters(){
   ths.sort((a,b)=>{const ia=thOrder.indexOf(a),ib=thOrder.indexOf(b);return (ia<0?9:ia)-(ib<0?9:ib)||a.localeCompare(b);});
   ths.push("None");
   statChipRow("st-themefilter",statThemes,ths);   // no-op on the Quality Report tab: the row is not rendered there
+  statChipRow("st-priofilter",statPrios,["P1","P2","P3","P4"]);   // no-op on the Quality Report tab: the row is not rendered there
 }
 // ---- vertical grouped bars (1–2 series) + legend + hover ----
 function vzVBars(hostId,cats,series,opt){
@@ -2425,7 +2428,14 @@ const QR = (function () {
   // ---- release accessors (schema 4: sizes live inside each team block) ----
   const tm = (r, t) => (((H.releases[r] || {}).teams) || {})[t] || {};
   const pick = r => SEL.map(t => tm(r, t)).filter(o => o && o.reported);
-  const s4 = o => ["1", "2", "3", "4"].reduce((s, k) => s + (o[k] || 0), 0);
+  // history.json stores reported/resolved per priority, so the chips reach the
+  // release panels too, not just the open-backlog ones. s4all stays unfiltered
+  // for the Priority mix, which is the breakdown itself and cannot be filtered
+  // by priority without collapsing to 100%.
+  const PSEL = () => statPrios.size ? ["1", "2", "3", "4"].filter(k => statPrios.has("P" + k)) : ["1", "2", "3", "4"];
+  const s4 = o => PSEL().reduce((s, k) => s + (o[k] || 0), 0);
+  const s4all = o => ["1", "2", "3", "4"].reduce((s, k) => s + (o[k] || 0), 0);
+  const repAll = r => pick(r).reduce((s, t) => s + s4all(t.reported), 0);
   const rep = r => pick(r).reduce((s, t) => s + s4(t.reported), 0);
   const res = r => pick(r).reduce((s, t) => s + s4(t.resolved), 0);
   const prio = (r, p) => pick(r).reduce((s, t) => s + (t.reported[p] || 0), 0);
@@ -2582,7 +2592,7 @@ const QR = (function () {
 
     vzVBars("st-mix", labs, [1, 2, 3, 4].map(p => ({
       name: "P" + p, color: PRIO_COL[p],
-      vals: ORDER.map(r => rep(r) ? Math.round(100 * prio(r, p) / rep(r)) : 0)
+      vals: ORDER.map(r => repAll(r) ? Math.round(100 * prio(r, p) / repAll(r)) : 0)
     })), { w: 420, h: 280, bw: 11 });
     tagReleaseLabels("st-mix");
 
@@ -2688,7 +2698,7 @@ const QR = (function () {
         : share > 100 ? "On its own it more than covers " + peak.w.release + "'s whole surplus — the other weeks in that window ran negative."
         : "It carries " + share + "% of " + peak.w.release + "'s surplus; the other weeks are ordinary.");
 
-    const p1s = r => rep(r) ? 100 * prio(r, 1) / rep(r) : 0;
+    const p1s = r => repAll(r) ? 100 * prio(r, 1) / repAll(r) : 0;
     const first = el[0], last = el[el.length - 1];
     const d1 = p1s(last) - p1s(first);
     document.getElementById("st-r-mix").innerHTML =
@@ -2702,17 +2712,22 @@ const QR = (function () {
       + "A linear trend, not a commitment.";
 
     const R = refAvg(), a0 = pfAdj(el[0]), a1 = pfAdj(el[el.length - 1]);
+    const pfFirst = el[0], pfLast = el[el.length - 1];
+    const pscope = statPrios.size ? Array.from(statPrios).sort().join(" + ") + " only" : "";
     document.getElementById("st-r-pf").innerHTML =
-      "<b>Raw " + pf(el[0]).toFixed(1) + " → " + pf(el[el.length - 1]).toFixed(1) + "</b> ("
-      + Math.round(100 * (pf(el[el.length - 1]) / pf(el[0]) - 1)) + "%). Adjusted <b>" + a0.toFixed(1) + " → " + a1.toFixed(1) + "</b> ("
-      + Math.round(100 * (a1 / a0 - 1)) + "%). "
-      + el[el.length - 1] + " shipped " + (szAvg(el[el.length - 1]) > szAvg(el[0]) ? "bigger" : "smaller") + " features than " + el[0] + " ("
-      + szAvg(el[el.length - 1]).toFixed(1) + " vs " + szAvg(el[0]).toFixed(1) + " points), so part of the raw move is volume, not quality — "
-      + "the adjusted bar is what is left once that is taken out."
-      + "<br>Adjusted = raw × (" + R.toFixed(2) + " ÷ the release's own average size), where " + R.toFixed(2)
-      + " points is the average feature across " + el.join(", ") + ". A release of exactly average volume is unchanged."
-      + "<br>Scale: Tiny 1 · Small 2 · Moderate 3 · Large 5 · X-Large 8 · Huge 13 — a convention. Change it and every size figure moves. "
-      + "Cancelled features (Will Not Implement) are not counted: they shipped no scope.";
+      "<b>A release that shipped bigger features will draw more bugs per feature — that is normal, not a quality problem.</b> "
+      + "The blue bar answers the fair question: how many bugs would this release have drawn if its features had been average size?"
+      + (pscope ? " Counting <b>" + pscope + "</b>." : "")
+      + "<br><b>" + pfFirst + "</b> raw " + pf(pfFirst).toFixed(1) + ", adjusted <b>" + a0.toFixed(1) + "</b> — its features were "
+      + (szAvg(pfFirst) < R ? "<b>smaller</b> than average, so the raw figure flattered it" : "<b>bigger</b> than average, so the raw figure was harsh on it") + ". "
+      + "<b>" + pfLast + "</b> raw " + pf(pfLast).toFixed(1) + ", adjusted <b>" + a1.toFixed(1) + "</b> — "
+      + (szAvg(pfLast) < R ? "same, the other way" : "the opposite: it carried the heavier features") + "."
+      + "<br>Across " + pfFirst + " to " + pfLast + " that is <b>" + Math.round(100 * (pf(pfLast) / pf(pfFirst) - 1)) + "%</b> raw and <b>"
+      + Math.round(100 * (a1 / a0 - 1)) + "%</b> once size is taken out."
+      + "<br><span style=\"opacity:.75\">Adjusted = raw × (" + R.toFixed(2) + " ÷ the release's own average size). "
+      + R.toFixed(2) + " points is the average feature across " + el.join(", ") + "; a release of exactly that size is unchanged. "
+      + "Sizes: Tiny 1 · Small 2 · Moderate 3 · Large 5 · X-Large 8 · Huge 13, a convention — change it and every size figure moves. "
+      + "Cancelled features are not counted: they shipped no scope.</span>";
 
     const oldest = Q.order.filter(k => agePods(k) > 0)[0];
     document.getElementById("st-r-age").innerHTML =
