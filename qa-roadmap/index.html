@@ -2346,7 +2346,19 @@ function bindTips(host){
   });
 }
 function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
-function niceMax(v){ if(v<=5) return 5; const p=Math.pow(10,Math.floor(Math.log10(v))); const s=v/p; const n=s<=1?1:s<=2?2:s<=5?5:10; return n*p; }
+// Picks the axis top from the STEP between the 4 gridlines, not from the max
+// itself. The old version rounded 22.8 up to 50, so bars used less than half
+// the card and the rest was white space.
+function niceMax(v){
+  v = v || 1;
+  if (v <= 8) return Math.max(4, Math.ceil(v / 4) * 4);
+  const q = v / 4, p = Math.pow(10, Math.floor(Math.log10(q)));
+  // Only integer steps: a step of 12.5 would print the gridline 12.5 as "13"
+  // and the next as "25", which is the kind of axis nobody can read off.
+  const step = [1, 1.25, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10].map(x => x * p)
+      .find(x => x >= q - 1e-9 && Number.isInteger(x)) || 10 * p;
+  return step * 4;
+}
 function statWeeks(openSet,closedSet){
   const snap=snapshotMs(), WK=7*864e5;
   const n=Math.min(13, Math.max(4, Math.ceil((CLOSED_DAYS||90)/7)+1));
