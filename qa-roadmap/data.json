@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T19:28:20+00:00",
+ "generated_at": "2026-10-12T19:30:25+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1498,31 +1498,6 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-24384",
-   "name": "PreProd-PMP-Logo Missing form Membership Agreement for One SMile",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Dima Shtympel",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-10-12T08:47:38.780-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24380",
@@ -5892,6 +5867,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24384",
+   "name": "PreProd-PMP-Logo Missing form Membership Agreement for One SMile",
+   "pod": "LL",
+   "status": "In PreProd",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-10-12T08:47:38.780-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   }
  ],
  "bugs_closed": [
