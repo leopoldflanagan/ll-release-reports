@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:30:27+00:00",
+ "generated_at": "2026-10-12T15:44:12+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -27,7 +27,7 @@
    "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Dima Shtympel",
-   "tshirt": null
+   "tshirt": "Large"
   },
   {
    "key": "WT-1170",
@@ -36,7 +36,7 @@
    "ted": null,
    "fv": "R9.10",
    "who": "Dmytro Tymofiienko",
-   "tshirt": null
+   "tshirt": "Small"
   },
   {
    "key": "WT-1021",
@@ -123,7 +123,7 @@
    "key": "WT-820",
    "name": "Member Portal Support for Subscription Payments",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate"
@@ -219,7 +219,7 @@
    "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Dima Shtympel",
-   "tshirt": null,
+   "tshirt": "Large",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -230,7 +230,7 @@
    "ted": null,
    "fv": "R9.10",
    "who": "Camille Knight",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -362,7 +362,7 @@
    "ted": "2026-11-04",
    "fv": "R9.9",
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "X-Large",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -414,7 +414,7 @@
    "key": "WT-820",
    "name": "Member Portal Support for Subscription Payments",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate",
@@ -494,7 +494,7 @@
    "ted": null,
    "fv": "R9.9",
    "who": "Daniel Marineni",
-   "tshirt": null,
+   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
@@ -637,7 +637,7 @@
    "ted": null,
    "fv": null,
    "who": "Unassigned",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "PLANS",
    "theme": "ACH-Fast Follows"
   },
@@ -648,7 +648,7 @@
    "ted": null,
    "fv": "R9.10",
    "who": "Dmytro Tymofiienko",
-   "tshirt": null,
+   "tshirt": "Small",
    "pod": "LL",
    "theme": ""
   }
@@ -914,7 +914,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": null,
+   "ted": "2026-11-23",
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
@@ -1175,32 +1175,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-24289",
-   "name": "PLANS-24289: PRODUCTION: Smile Health: Purchase flow: If you select the back button when you have made a selection of a plan, and you chose an alternative plan, the price of the first selection is hanging and it is inappropriately charging for the plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 23-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-08T11:41:26.722-0700",
-   "resolved": "",
-   "due": "2026-10-13",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -2329,32 +2303,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "4: Low",
    "created": "2026-08-22T16:58:18.539-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true
-  },
-  {
-   "key": "PLANS-21733",
-   "name": "ACH Refund - Transaction Older Than 6months Does Not Display \"Past Refund Window\" and Allows Refund from CSP",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-22T16:21:52.563-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -3948,6 +3896,32 @@
    "linkedLP": false
   },
   {
+   "key": "PLANS-21733",
+   "name": "ACH Refund - Transaction Older Than 6months Does Not Display \"Past Refund Window\" and Allows Refund from CSP",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-22T16:21:52.563-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true
+  },
+  {
    "key": "PLANS-21665",
    "name": "PDS Team Plan - Plan details missing",
    "pod": "PLANS",
@@ -4155,24 +4129,27 @@
    "linkedLP": false
   },
   {
-   "key": "PLANS-24351",
-   "name": "Prod/STAGE- SGDP/ADHA Broken - Plan cards and Member saving table not visible on home page",
+   "key": "PLANS-24289",
+   "name": "PLANS-24289: PRODUCTION: Smile Health: Purchase flow: If you select the back button when you have made a selection of a plan, and you chose an alternative plan, the price of the first selection is hanging and it is inappropriately charging for the plan",
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.8.2",
+   "fv": "R9.9",
    "sprint": "LL-Sprint 23-26",
-   "who": "Chris Rubio",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-09T14:50:10.177-0700",
+   "who": "Nazarii Polinyk",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-08T11:41:26.722-0700",
    "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
+   "due": "2026-10-13",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
@@ -4438,6 +4415,29 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true
+  },
+  {
+   "key": "PLANS-24351",
+   "name": "Prod/STAGE- SGDP/ADHA Broken - Plan cards and Member saving table not visible on home page",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8.2",
+   "sprint": "LL-Sprint 23-26",
+   "who": "Chris Rubio",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-09T14:50:10.177-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false
   },
   {
    "key": "PLANS-24278",
