@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T20:00:23+00:00",
+ "generated_at": "2026-10-12T20:15:22+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1409,11 +1409,14 @@
    "sprint": "LL-Sprint 24-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-10-12T11:26:52.717-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-23885",
