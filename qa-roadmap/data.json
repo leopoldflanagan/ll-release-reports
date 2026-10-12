@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T22:00:26+00:00",
+ "generated_at": "2026-10-12T22:15:22+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1258,6 +1258,35 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24109",
+   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.8.3",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T07:03:58.029-0700",
+   "resolved": "",
+   "due": "2026-10-19",
+   "labels": [
+    "CCB_candidate",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-23844",
@@ -5057,34 +5086,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24164",
-   "name": "BLOCKER for CREG testing - adding member via CSP",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-06T13:41:56.145-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24030",
    "name": "CSP/Renewal/Giftcore Promo code is applied for Expired Plans though Eligibility rule is applied to restrict Expired plans",
    "pod": "PLANS",
@@ -5672,38 +5673,37 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24109",
-   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
-   "pod": "LL",
-   "status": "In PreProd",
-   "cat": "To Do",
-   "fv": "R9.8.3",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T07:03:58.029-0700",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "CCB_candidate",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24164",
+   "name": "BLOCKER for CREG testing - adding member via CSP",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 23-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-06T13:41:56.145-0700",
+   "resolved": "2026-10-12T15:05:34.092-0700",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24194",
    "name": "PreProd-One Smile Plan-Plan not showing in PMP and Custom Portal",
@@ -28910,33 +28910,6 @@
    "linkedLP": false,
    "initKey": "WT-127",
    "init": "Mobile Support Member Portal"
-  },
-  {
-   "key": "PLANS-19020",
-   "name": "OneSmile - Find a provider page is not loading",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-06T14:03:44.518-0700",
-   "resolved": "2026-07-14T15:09:46.908-0700",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
