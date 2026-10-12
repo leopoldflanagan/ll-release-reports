@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T17:45:23+00:00",
+ "generated_at": "2026-10-12T17:52:59+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -28915,7 +28915,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-24411",
+   "name": "Plan Details - Savings displayed twice on PDF",
+   "status": "Backlog",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Oct 12–18",
