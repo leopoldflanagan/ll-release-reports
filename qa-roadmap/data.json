@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T21:50:52+00:00",
+ "generated_at": "2026-10-12T22:00:26+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -5057,34 +5057,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24194",
-   "name": "PreProd-One Smile Plan-Plan not showing in PMP and Custom Portal",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-07T09:37:08.127-0700",
-   "resolved": "",
-   "due": "2026-10-12",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24164",
    "name": "BLOCKER for CREG testing - adding member via CSP",
    "pod": "PLANS",
@@ -5732,6 +5704,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24194",
+   "name": "PreProd-One Smile Plan-Plan not showing in PMP and Custom Portal",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-07T09:37:08.127-0700",
+   "resolved": "2026-10-12T14:51:36.092-0700",
+   "due": "2026-10-12",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "EDW-2453",
    "name": "Smile Alliance Club Patient's plan is showing as deleted",
