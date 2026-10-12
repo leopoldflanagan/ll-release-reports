@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T19:00:29+00:00",
+ "generated_at": "2026-10-12T19:12:53+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -1348,6 +1348,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24421",
+   "name": "STAGE - Plan Details - Getting a 400 error for Danahay and Digital Smiles",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-12T12:12:06.938-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24419",
@@ -3644,35 +3669,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24414",
-   "name": "Production - OneSmile Plan - WA Annual/WA 2 Yr. Plan",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-12T11:07:10.808-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "plans",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24273",
    "name": "Prod/Plan Details PDF/Provider Link is not clickable",
    "pod": "LL",
@@ -4457,34 +4453,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24187",
-   "name": "Plan Details - One Smile - Additional Person Discount value appears cropped",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8.3",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-07T06:58:28.056-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "pod": "LL",
@@ -4696,6 +4664,34 @@
    "resolved": "",
    "due": "2026-10-09",
    "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24187",
+   "name": "Plan Details - One Smile - Additional Person Discount value appears cropped",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8.3",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-07T06:58:28.056-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
@@ -5899,6 +5895,35 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24414",
+   "name": "Production - OneSmile Plan - WA Annual/WA 2 Yr. Plan",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-12T11:07:10.808-0700",
+   "resolved": "2026-10-12T12:03:33.732-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "plans",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24405",
    "name": "Prod - Logo not visible in Membership agreement / Membership cards.",
