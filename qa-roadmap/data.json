@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T03:30:22+00:00",
+ "generated_at": "2026-10-12T03:45:20+00:00",
  "today": "2026-10-12",
  "features": [
   {
@@ -26842,29 +26842,6 @@
    "triage": "",
    "parentKey": "PLANS-16233",
    "parentName": "Epic 2 Member portal terms and conditions on initial login",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false
-  },
-  {
-   "key": "PLANS-18715",
-   "name": "Member Portal \\ Broken SGDP Kids logo is shown when system looks for existent members on Add Plan flow",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Hunter Redhead",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-06-30T07:26:49.537-0700",
-   "resolved": "2026-07-13T20:33:44.231-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false
