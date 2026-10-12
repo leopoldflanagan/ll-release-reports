@@ -599,7 +599,7 @@
   <div class="tabs">
     <button class="tab active" data-tab="insights">✨ Insights</button>
     <button class="tab" data-tab="bugs">Active Bugs</button>
-    <button class="tab" data-tab="stats">Statistics</button>
+    <button class="tab" data-tab="stats">Quality Report</button>
     <button class="tab" data-tab="all">Active Features</button>
     <button class="tab" data-tab="allroadmap">All PODs QA Roadmap</button>
   </div>
@@ -722,19 +722,55 @@
   </div>
 
   <div class="panel" id="panel-stats">
-    <p class="sub" style="margin-top:16px">Leadership view — throughput (incoming vs. resolved), open-backlog trend &amp; projection, and severity mix. Closed data covers the last <b id="st-window">90</b> days. Snapshot <span id="st-asof"></span>.</p>
+    <p class="sub" style="margin-top:16px" id="st-subj">Bug flow by release, and what is still open.</p>
+    <p class="sub" style="margin-top:2px">The unit is the release window, deploy to deploy — a bug belongs to the window it was <b>reported</b> in, not to its fix version. Snapshot <span id="st-asof"></span>.</p>
     <div class="statfilters">
       <div class="sfrow"><span class="sflbl">Pod</span><div id="st-podfilter" class="sfchips"></div></div>
-      <div class="sfrow"><span class="sflbl">Theme</span><div id="st-themefilter" class="sfchips"></div></div>
     </div>
     <div class="kpis" id="st-kpis"></div>
     <div class="statgrid">
-      <div class="statcard wide"><div class="stath"><h3>Weekly incoming vs. resolved</h3><span class="stsub">bugs created (incoming) vs. closed (resolved) each week — when green tops orange, the backlog shrank that week</span></div><div class="chartbox" id="st-flow"></div></div>
-      <div class="statcard wide"><div class="stath"><h3>Open backlog &amp; projection</h3><span class="stsub">open bug count at each week-end, with a trend projection</span></div><div class="chartbox" id="st-burn"></div></div>
-      <div class="statcard"><div class="stath"><h3>Bugs by priority</h3><span class="stsub">open vs. closed (last 90d)</span></div><div class="chartbox" id="st-prio"></div></div>
+      <div class="statcard wide">
+        <div class="stath"><h3>Reported vs. resolved</h3><span class="stsub">Per release window. Hover a release name for its dates — the windows are not the same length.</span></div>
+        <div class="chartbox" id="st-flow"></div>
+        <p class="reading" id="st-r-flow"></p>
+      </div>
+      <div class="statcard wide">
+        <div class="stath"><h3>Week by week</h3><span class="stsub" id="st-wksub"></span></div>
+        <div class="chartbox" id="st-weeks"></div>
+        <p class="reading" id="st-r-weeks"></p>
+      </div>
+      <div class="statcard">
+        <div class="stath"><h3>Priority mix</h3><span class="stsub">Share of what each release reported.</span></div>
+        <div class="chartbox" id="st-mix"></div>
+        <p class="reading" id="st-r-mix"></p>
+      </div>
+      <div class="statcard">
+        <div class="stath"><h3>Bugs per feature</h3>
+          <span class="stsub">Raw, and the same figure corrected for how big that release's features were. Under each bar: the feature count and their average size. Hover for the mix.</span></div>
+        <div class="chartbox" id="st-pf"></div>
+        <p class="reading" id="st-r-pf"></p>
+      </div>
+      <div class="statcard wide">
+        <div class="stath"><h3>Open backlog &amp; projection</h3><span class="stsub">The one weekly panel: it projects to a future date, so weeks are the unit. Release deploys sit on it as markers.</span></div>
+        <div class="chartbox" id="st-burn"></div>
+        <p class="reading" id="st-r-burn"></p>
+      </div>
+      <div class="statcard wide">
+        <div class="stath"><h3>Still open, by release of origin</h3><span class="stsub">Which release each open bug came from. Hover for how old they are.</span></div>
+        <div class="chartbox" id="st-age"></div>
+        <p class="reading" id="st-r-age"></p>
+      </div>
+    </div>
+    <p class="sub" style="margin-top:22px"><b>Right now</b> — no release cadence on these: the open backlog as it stands, and what closed recently.</p>
+    <div class="statgrid">
       <div class="statcard"><div class="stath"><h3>Open bugs by status</h3><span class="stsub">where active bugs sit in the workflow</span></div><div class="chartbox" id="st-status"></div></div>
       <div class="statcard"><div class="stath"><h3>Open bugs by pod</h3><span class="stsub">active bug load per pod</span></div><div class="chartbox" id="st-pod"></div></div>
-      <div class="statcard"><div class="stath"><h3>Open bug aging</h3><span class="stsub">how long active bugs have been open</span></div><div class="chartbox" id="st-age"></div></div>
+      <div class="statcard wide">
+        <div class="stath"><h3>Bugs by Initiative</h3>
+          <span class="stsub">Walked from each bug up to its Initiative: bug → its Epic → that Epic's Feature → the Feature's Initiative. Bars are total bugs — everything open now, plus what closed inside the releases the bot retains. Hover for the split.</span></div>
+        <div class="chartbox" id="st-init"></div>
+        <p class="reading" id="st-r-init"></p>
+      </div>
     </div>
   </div>
 
@@ -2285,7 +2321,7 @@ function renderStatFilters(){
   const thOrder=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"]; let ths=Array.from(new Set(BUGS.concat(BUGS_CLOSED).map(b=>b.theme).filter(Boolean)));
   ths.sort((a,b)=>{const ia=thOrder.indexOf(a),ib=thOrder.indexOf(b);return (ia<0?9:ia)-(ib<0?9:ib)||a.localeCompare(b);});
   ths.push("None");
-  statChipRow("st-themefilter",statThemes,ths);
+  statChipRow("st-themefilter",statThemes,ths);   // no-op on the Quality Report tab: the row is not rendered there
 }
 // ---- vertical grouped bars (1–2 series) + legend + hover ----
 function vzVBars(hostId,cats,series,opt){
@@ -2322,7 +2358,9 @@ function vzHBars(hostId,items,opt){
   items.forEach((it,i)=>{
     const yy=padT+i*rowH, bw=(it.val/max)*plotW, col=it.color||VZ.blue;
     g+=`<text x="${padL-8}" y="${yy+rowH/2+3.5}" text-anchor="end" font-size="11" fill="${VZ.sub}">${esc(it.label)}</text>`;
-    g+=`<rect x="${padL}" y="${yy+3}" width="${Math.max(2,bw).toFixed(1)}" height="${rowH-10}" rx="3" fill="${col}" data-tip="<b>${esc(it.label)}</b>: ${it.val}"/>`;
+    // an item may carry its own tooltip; without this the Quality Report's
+    // richer tips (age medians, Initiative splits) are silently dropped.
+    g+=`<rect x="${padL}" y="${yy+3}" width="${Math.max(2,bw).toFixed(1)}" height="${rowH-10}" rx="3" fill="${col}" data-tip="${it.tip || ('<b>'+esc(it.label)+'</b>: '+it.val)}"/>`;
     g+=`<text x="${padL+Math.max(2,bw)+6}" y="${yy+rowH/2+3.5}" font-size="11" font-weight="700" fill="${VZ.ink}">${it.val}</text>`;
   });
   host.innerHTML=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img">${g}</svg>`;
@@ -2364,77 +2402,405 @@ function vzLine(hostId,pts,proj,opt){
   bindTips(host);
 }
 function kpi(v,label,delta,cls){ return `<div class="kpi"><div class="kv">${v}</div><div class="kl">${label}</div>${delta?`<div class="kd ${cls||''}">${delta}</div>`:""}</div>`; }
-function renderStats(){ syncVZ();
-  renderStatFilters();
-  const OPEN=statFilter(BUGS), CLOSED=statFilter(BUGS_CLOSED);
-  const snap=snapshotMs(), DAY=864e5;
-  const wk=statWeeks(OPEN,CLOSED);
-  // KPIs
-  const closed7=CLOSED.filter(b=>withinHoursClosed(b,168)).length;
-  const created7=OPEN.concat(CLOSED).filter(b=>withinHours(b,168)).length;
-  const net7=closed7-created7;
-  const ages=OPEN.map(b=>{const t=createdMs(b);return isNaN(t)?null:(snap-t)/DAY;}).filter(v=>v!=null);
-  const avgAge=ages.length?Math.round(ages.reduce((a,b)=>a+b,0)/ages.length):0;
-  const p12=OPEN.filter(b=>prioNum(b.prio)<=2).length;
-  const ttc=CLOSED.map(b=>{const c=createdMs(b),r=resolvedMs(b);return (isNaN(c)||isNaN(r))?null:(r-c)/DAY;}).filter(v=>v!=null).sort((a,b)=>a-b);
-  const medTtc=ttc.length?Math.round(ttc[Math.floor(ttc.length/2)]):0;
-  document.getElementById("st-window").textContent=CLOSED_DAYS;
-  document.getElementById("st-asof").textContent=GENERATED_AT?new Date(GENERATED_AT).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):"—";
-  document.getElementById("st-kpis").innerHTML=
-    kpi(OPEN.length,"Open bugs")+
-    kpi(CLOSED.length,`Closed · ${CLOSED_DAYS}d`)+
-    kpi((net7>0?"+":"")+net7,"Net last 7d",net7>0?"resolved &gt; incoming":net7<0?"incoming &gt; resolved":"flat",net7>0?"up":net7<0?"down":"")+
-    kpi(avgAge+"d","Avg open age")+
-    kpi(p12,"P1 + P2 open",p12?"needs focus":"clear",p12?"down":"up")+
-    kpi(medTtc+"d","Median time to close");
-  // flow: created vs resolved
-  vzVBars("st-flow", wk.map(w=>w.label),
-    [{name:"Created (incoming)",color:VZ.orange,vals:wk.map(w=>w.created)},
-     {name:"Resolved (closed)",color:VZ.aqua,vals:wk.map(w=>w.resolved)}], {w:760,h:280});
-  // backlog + projection
-  const pts=wk.map(w=>({label:w.label,y:w.backlog,t:w.end}));
-  const recent=wk.slice(-6); const avgNet=recent.reduce((s,w)=>s+(w.resolved-w.created),0)/recent.length;
-  const now=OPEN.length;
-  // horizon: cover the next release deploy date (from the calendar), min 6 / max 12 weeks
-  const nextRel=RELEASES.map(r=>Date.parse(r.deploy+"T00:00:00")).filter(t=>t>snap).sort((a,b)=>a-b)[0];
-  let horizon=6; if(nextRel) horizon=Math.max(horizon, Math.ceil((nextRel-snap)/(7*DAY))+1); horizon=Math.min(horizon,12);
-  let proj=[];
-  for(let k=1;k<=horizon;k++){ const t=snap+k*7*DAY; proj.push({label:new Date(t).toLocaleDateString('en-US',{month:'short',day:'numeric'}),y:Math.max(0,now-avgNet*k),t}); }
-  // release markers within the plotted span
-  const firstT=pts[0].t, lastT=proj.length?proj[proj.length-1].t:pts[pts.length-1].t;
-  const markers=RELEASES.map(r=>{const t=Date.parse(r.deploy+"T00:00:00");return {t,label:r.id+" · "+new Date(t).toLocaleDateString('en-US',{month:'short',day:'numeric'})};}).filter(m=>m.t>=firstT&&m.t<=lastT);
-  vzLine("st-burn", pts, proj, {w:760,h:280,markers});
-  // note: pace + projected backlog at the next release
-  let projNote="";
-  if(avgNet>0.3){ const clearWk=Math.ceil(now/avgNet); const clearDate=new Date(snap+clearWk*7*DAY);
-    projNote=`At the current pace (~${avgNet.toFixed(1)} net closed/wk) the open backlog trends toward zero around <b>${clearDate.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}</b>.`;
-  } else { projNote=`At the current pace the backlog is <b>${avgNet<-0.3?'growing':'roughly flat'}</b> (~${avgNet.toFixed(1)} net/wk) — incoming is matching or outpacing resolution.`; }
-  if(nextRel){ const relW=(nextRel-snap)/(7*DAY); const relN=Math.round(Math.max(0,now-avgNet*relW)); const rid=RELEASES.find(r=>Date.parse(r.deploy+"T00:00:00")===nextRel).id;
-    projNote+=` Projected open bugs by <b>${rid}</b> (${new Date(nextRel).toLocaleDateString('en-US',{month:'short',day:'numeric'})}): <b>~${relN}</b>.`; }
-  let bn=document.getElementById("st-burnnote"); if(!bn){ bn=document.createElement("p"); bn.id="st-burnnote"; bn.style.cssText="font-size:11.5px;color:var(--muted);margin:4px 2px 8px"; document.getElementById("st-burn").after(bn); }
-  bn.innerHTML=projNote+` <span style="opacity:.8">Projection is a linear trend from the last 6 weeks, not a committed date.</span>`;
-  // priority open vs closed
-  const pc=p=>({o:OPEN.filter(b=>prioNum(b.prio)===p).length,c:CLOSED.filter(b=>prioNum(b.prio)===p).length});
-  const P=[1,2,3,4].map(pc);
-  vzVBars("st-prio",["P1","P2","P3","P4"],
-    [{name:"Open",color:VZ.blue,vals:P.map(x=>x.o)},{name:`Closed · ${CLOSED_DAYS}d`,color:VZ.muted,vals:P.map(x=>x.c)}],{w:360,h:250,bw:22});
-  // open by status
-  const byStatus={}; OPEN.forEach(b=>{byStatus[b.status]=(byStatus[b.status]||0)+1;});
-  const stItems=Object.entries(byStatus).map(([k,v])=>({label:k,val:v})).sort((a,b)=>b.val-a.val).slice(0,10);
-  vzHBars("st-status",stItems,{w:360,padL:130});
-  // open by pod
-  const byPod={}; OPEN.forEach(b=>{const p=b.pod||"—";byPod[p]=(byPod[p]||0)+1;});
-  const podItems=Object.entries(byPod).map(([k,v])=>({label:k,val:v,color:VZ.blue})).sort((a,b)=>b.val-a.val);
-  vzHBars("st-pod",podItems,{w:360,padL:70});
-  // aging buckets
-  const buckets=[["< 1 week",0,7],["1–2 wks",7,14],["2–4 wks",14,30],["1–3 mo",30,90],["> 3 mo",90,1e9]];
-  const ageItems=buckets.map(([lab,lo,hi])=>({label:lab,val:ages.filter(a=>a>=lo&&a<hi).length,
-    color:hi<=14?VZ.aqua:hi<=30?VZ.blue:hi<=90?VZ.orange:PRIO_COL[1]}));
-  vzVBars("st-age",ageItems.map(x=>x.label),[{name:"Open bugs",color:VZ.blue,vals:ageItems.map(x=>x.val)}],{w:360,h:250,bw:34});
-  // recolor age bars individually (severity)
-  const ageSvg=document.querySelectorAll("#st-age svg rect");
-  ageSvg.forEach((r,i)=>{ if(ageItems[i]) r.setAttribute("fill",ageItems[i].color); });
-}
+// ============ QUALITY REPORT TAB ============
+// Release cadence, not calendar buckets: the unit is a deploy-to-deploy window,
+// read from history.json (written by the bot alongside data.json). A bug belongs
+// to the window it was REPORTED in, not to its fixVersion. data.json still feeds
+// the two "right now" panels at the bottom and the week-by-week detail, which
+// only reaches back CLOSED_DAYS - history.json has no weekly breakdown before that.
+// Everything here is scoped by Pod. There is deliberately no Theme filter: the
+// windows were never measured by theme, and a filter that silently does not
+// apply is worse than no filter.
+let QHIST = null;   // history.json, or null until it loads / if it fails
+
+const QR = (function () {
+  // T-shirt is a label, not a number. These weights are a convention, printed on
+  // the page so they can be argued with - change them here and every size figure moves.
+  const TPTS = { Tiny: 1, Small: 2, Moderate: 3, Large: 5, "X-Large": 8, Huge: 13 };
+  const SZORDER = ["Huge", "X-Large", "Large", "Moderate", "Small", "Tiny", "unsized"];
+  const AGEC = { "R9.4": "#B3261E", "R9.5": "#E05C4E", "R9.6": "#E8A317", "R9.7": "#4CAF2E", "R9.8": "#1B5FA8" };
+
+  let H = null, Q = null, SEL = [], TEAMS = [], ORDER = [], SUBJ = "";
+
+  // ---- release accessors (schema 4: sizes live inside each team block) ----
+  const tm = (r, t) => (((H.releases[r] || {}).teams) || {})[t] || {};
+  const pick = r => SEL.map(t => tm(r, t)).filter(o => o && o.reported);
+  const s4 = o => ["1", "2", "3", "4"].reduce((s, k) => s + (o[k] || 0), 0);
+  const rep = r => pick(r).reduce((s, t) => s + s4(t.reported), 0);
+  const res = r => pick(r).reduce((s, t) => s + s4(t.resolved), 0);
+  const prio = (r, p) => pick(r).reduce((s, t) => s + (t.reported[p] || 0), 0);
+  const feat = r => SEL.reduce((s, t) => s + (tm(r, t).features || 0), 0);
+  const szPts = r => SEL.reduce((s, t) => s + (tm(r, t).size_points || 0), 0);
+  const szN = r => SEL.reduce((s, t) => s + (tm(r, t).sized_features || 0), 0);
+  const szAvg = r => szN(r) ? szPts(r) / szN(r) : null;
+  const perPoint = r => szPts(r) ? rep(r) / szPts(r) : null;
+  const szMix = r => { const m = {}; SEL.forEach(t => { const o = tm(r, t).sizes; if (o) Object.entries(o).forEach(([k, v]) => m[k] = (m[k] || 0) + v); }); return m; };
+  const pf = r => feat(r) ? rep(r) / feat(r) : null;
+  const med = a => { const v = a.slice().sort((x, y) => x - y); return v.length % 2 ? v[(v.length - 1) / 2] : (v[v.length / 2 - 1] + v[v.length / 2]) / 2; };
+
+  // A window is comparable only if it shipped a non-trivial share of the usual
+  // feature count. R9.4 carried two against a median of eighteen - history, not
+  // a reference. The threshold moves with the pod chips, like everything else.
+  const eligible = r => H.releases[r].closed && feat(r) >= med(ORDER.filter(x => H.releases[x].closed).map(feat)) / 3;
+
+  // Raw bugs-per-feature counts a Huge and a Small as one thing each. The
+  // reference is the average feature across the comparable closed windows, so
+  // "adjusted" is the raw figure restated for a release of average volume.
+  const refAvg = () => { const el = ORDER.filter(eligible); const p = el.reduce((s, r) => s + szPts(r), 0), n = el.reduce((s, r) => s + szN(r), 0); return n ? p / n : null; };
+  const pfAdj = r => { const a = szAvg(r), R = refAvg(); return (a && R && pf(r) != null) ? pf(r) * R / a : null; };
+
+  const span = r => { const v = H.releases[r]; return v.end ? (Date.parse(v.end) - Date.parse(v.start)) / 864e5 : 28; };
+  // "Is this window still open" is `closed`, never `end`: the open window also
+  // carries an end date (the next scheduled deploy).
+  const days = r => { const v = H.releases[r]; return v.closed ? span(r) : (Date.parse(Q.today) - Date.parse(v.start)) / 864e5 + 1; };
+  const fmtD = s => new Date(s + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  const relTip = r => { const v = H.releases[r]; return "<b>" + r + "</b> · " + fmtD(v.start) + " – " + (v.end ? fmtD(v.end) : "open") + " · " + Math.round(span(r)) + " days"; };
+  const wkSum = (w, k) => SEL.reduce((s, t) => s + (w[k][t] || 0), 0);
+  // The bot retains a rolling window of closed bugs. Say where that window
+  // begins as a RELEASE, not as a number of days - the cadence on this tab is
+  // the release, and "90 days" means nothing to someone reading release names.
+  const coveredFrom = () => (Q.weeks[0] && Q.weeks[0].release) || ORDER[0];
+  const agePods = k => { const o = Q.aging[k]; return o ? SEL.reduce((s, t) => s + (o.pods[t] || 0), 0) : 0; };
+
+  // ---- the "right now" half, derived from data.json ----
+  function relOfDate(ms) {
+    for (const r of ORDER) {
+      const v = H.releases[r], a = Date.parse(v.start), b = v.end ? Date.parse(v.end) : Infinity;
+      if (ms >= a && ms < b) return r;
+    }
+    return ms < Date.parse(H.releases[ORDER[0]].start) ? (ORDER[0].replace(/(\d+)$/, (m) => (+m - 1)) + " or earlier") : null;
+  }
+
+  function buildQ() {
+    const OPEN = statFilter(BUGS), CLOSED = statFilter(BUGS_CLOSED);
+    const snap = snapshotMs(), WK = 7 * 864e5;
+    const EARLIER = "Before " + ORDER[0];
+
+    // Weeks: the same backward walk the old tab used, so the 90-day cut in
+    // bugs_closed never shows up as a phantom backlog. Split per pod here, and
+    // tagged with the release window the week starts in, so the bars can group.
+    const n = Math.min(13, Math.max(4, Math.ceil((CLOSED_DAYS || 90) / 7) + 1));
+    const weeks = [];
+    for (let i = n - 1; i >= 0; i--) {
+      const end = snap - i * WK, start = end - WK;
+      weeks.push({
+        _s: start, _e: end,
+        label: new Date(start).toLocaleDateString("en-US", { month: "short", day: "numeric" }),
+        end: new Date(end).toISOString().slice(0, 10),
+        release: relOfDate(start) || ORDER[ORDER.length - 1],
+        created: {}, resolved: {}, backlog: {}
+      });
+    }
+    TEAMS.forEach(t => {
+      const o = OPEN.filter(b => (b.pod || "") === t), c = CLOSED.filter(b => (b.pod || "") === t);
+      const all = o.concat(c);
+      weeks.forEach(w => {
+        w.created[t] = all.filter(b => { const x = createdMs(b); return x >= w._s && x < w._e; }).length;
+        w.resolved[t] = c.filter(b => { const x = resolvedMs(b); return x >= w._s && x < w._e; }).length;
+      });
+      let cumC = 0, cumR = 0;
+      for (let i = weeks.length - 1; i >= 0; i--) { weeks[i].backlog[t] = o.length + cumR - cumC; cumC += weeks[i].created[t]; cumR += weeks[i].resolved[t]; }
+    });
+
+    // Aging by the release the bug was REPORTED in - carried debt is invisible
+    // under time buckets, because an old bug keeps aging into the current week.
+    const aging = {}, order = [EARLIER].concat(ORDER);
+    order.forEach(k => aging[k] = { n: 0, median: 0, max: 0, prio: { 1: 0, 2: 0, 3: 0, 4: 0 }, pods: {}, _ages: [] });
+    OPEN.forEach(b => {
+      const t = createdMs(b); if (isNaN(t)) return;
+      const k = relOfDate(t) || EARLIER, row = aging[k] || aging[EARLIER];
+      row.n++; row._ages.push(Math.max(0, Math.round((snap - t) / 864e5)));
+      const p = prioNum(b.prio); if (p >= 1 && p <= 4) row.prio[p]++;
+      const pd = b.pod || "—"; row.pods[pd] = (row.pods[pd] || 0) + 1;
+    });
+    order.forEach(k => { const a = aging[k]; if (a._ages.length) { a.median = Math.round(med(a._ages)); a.max = Math.max.apply(null, a._ages); } delete a._ages; });
+
+    const status = {}, pods = {};
+    TEAMS.forEach(t => { status[t] = {}; pods[t] = 0; });
+    OPEN.forEach(b => { const t = b.pod || "—"; if (!status[t]) { status[t] = {}; pods[t] = 0; } status[t][b.status] = (status[t][b.status] || 0) + 1; pods[t]++; });
+
+    return { weeks, aging, order, status, pods, today: (TODAY instanceof Date ? TODAY : new Date()).toISOString().slice(0, 10) };
+  }
+
+  function qcard(v, l, sub, tip) {
+    return '<div class="kpi" data-tip="' + String(tip).replace(/"/g, "&quot;") + '">'
+      + '<div class="kv">' + v + '</div><div class="kl">' + l + '</div><div class="kd">' + sub + '</div></div>';
+  }
+
+  function render() {
+    const host = document.getElementById("st-kpis"); if (!host) return;
+    if (!QHIST || !QHIST.releases) {
+      host.innerHTML = '<p class="sub">Release history is not available — <code>history.json</code> could not be loaded.</p>';
+      return;
+    }
+    syncVZ();
+    H = QHIST;
+    TEAMS = (H.teams || []).slice();
+    ORDER = Object.keys(H.releases);
+    SUBJ = ORDER.filter(r => !H.releases[r].closed).slice(-1)[0] || ORDER.slice(-1)[0];
+    SEL = statPods.size ? TEAMS.filter(t => statPods.has(t)) : TEAMS.slice();
+    if (!SEL.length) SEL = TEAMS.slice();
+    Q = buildQ();
+
+    const N = Math.round(days(SUBJ)), L = Math.round(span(SUBJ));
+    document.getElementById("st-asof").textContent =
+      GENERATED_AT ? new Date(GENERATED_AT).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "—";
+    document.getElementById("st-subj").innerHTML =
+      "Bug flow by release, and what is still open. <b>" + SUBJ + "</b> is live — day " + N + " of " + L + ".";
+
+    const openNow = Q.order.reduce((s, k) => s + agePods(k), 0);
+    const prior = ORDER.filter(eligible).slice(-1)[0];
+    const old = Q.order.filter(k => k !== SUBJ && k !== prior).reduce((s, k) => s + agePods(k), 0);
+    const p12 = Q.order.reduce((s, k) => { const o = Q.aging[k]; return s + (o ? o.prio[1] + o.prio[2] : 0); }, 0);
+    const lastClosed = ORDER.filter(eligible).slice(-1)[0];
+    host.innerHTML =
+      qcard(openNow, "Open now", "across " + SEL.join(" + "), "Every bug still open, whatever release it came from.")
+      + qcard(rep(SUBJ), "Reported in " + SUBJ, "day " + N + " of " + L, "Still growing — the window closes on " + fmtD(H.releases[SUBJ].end) + ".")
+      + qcard((res(SUBJ) - rep(SUBJ) > 0 ? "+" : "") + (res(SUBJ) - rep(SUBJ)), "Net in " + SUBJ,
+        res(SUBJ) - rep(SUBJ) < 0 ? "backlog growing" : "backlog shrinking",
+        "Resolved minus reported inside the window: " + res(SUBJ) + " − " + rep(SUBJ) + ".")
+      + qcard(pf(lastClosed) ? pf(lastClosed).toFixed(1) : "—", "Bugs per feature",
+        lastClosed + " · avg size " + (szAvg(lastClosed) ? szAvg(lastClosed).toFixed(1) : "—"),
+        "The last comparable release: " + feat(lastClosed) + " features, average size "
+        + (szAvg(lastClosed) ? szAvg(lastClosed).toFixed(1) : "?") + " over " + szN(lastClosed) + " sized.")
+      + qcard(old, "Open from before " + prior, "carried debt",
+        "Bugs still open that were reported before " + prior + " — not current work.")
+      + qcard(p12, "P1 + P2 open", "needs focus", "Urgent and Important bugs still open, any release.");
+    bindTips(host);
+
+    const labs = ORDER.map(r => H.releases[r].closed ? r : r + " ·");
+    vzVBars("st-flow", labs, [{ name: "Reported", color: VZ.orange, vals: ORDER.map(rep) },
+    { name: "Resolved", color: VZ.aqua, vals: ORDER.map(res) }], { w: 760, h: 300 });
+    tagReleaseLabels("st-flow");
+
+    document.getElementById("st-wksub").innerHTML =
+      "The same flow at week resolution, grouped under its release. Weekly detail begins inside <b>" + coveredFrom()
+      + "</b>; earlier releases keep their per-release totals but have no week-by-week breakdown.";
+    vzWeekGroups("st-weeks", Q.weeks,
+      [{ name: "Reported", color: VZ.orange, vals: Q.weeks.map(w => wkSum(w, "created")) },
+      { name: "Resolved", color: VZ.aqua, vals: Q.weeks.map(w => wkSum(w, "resolved")) }], { w: 760, h: 330 });
+
+    vzVBars("st-mix", labs, [1, 2, 3, 4].map(p => ({
+      name: "P" + p, color: PRIO_COL[p],
+      vals: ORDER.map(r => rep(r) ? Math.round(100 * prio(r, p) / rep(r)) : 0)
+    })), { w: 420, h: 280, bw: 11 });
+    tagReleaseLabels("st-mix");
+
+    const el = ORDER.filter(eligible);
+    vzVBars("st-pf", el, [
+      { name: "Raw", color: VZ.orange, vals: el.map(r => +pf(r).toFixed(1)) },
+      { name: "Size-adjusted", color: VZ.blue, vals: el.map(r => +(pfAdj(r) || 0).toFixed(1)) }],
+      { w: 420, h: 322, bw: 22});
+    annotateSizes("st-pf");
+
+    // Backlog projection: weekly on purpose. It projects to a future date, so
+    // weeks are the only honest unit here; release deploys sit on it as markers.
+    const pts = Q.weeks.map(w => ({ label: w.label, y: wkSum(w, "backlog"), t: Date.parse(w.end) }));
+    const recent = pts.slice(-6);
+    const avgNet = recent.length > 1 ? (recent[0].y - recent[recent.length - 1].y) / (recent.length - 1) : 0;
+    const lastT = pts[pts.length - 1].t, now = pts[pts.length - 1].y;
+    const nextDeploy = ORDER.map(r => Date.parse(H.releases[r].start)).filter(t => t > lastT).sort((a, b) => a - b)[0];
+    let horizon = 6; if (nextDeploy) horizon = Math.max(horizon, Math.ceil((nextDeploy - lastT) / (7 * 864e5)) + 1);
+    const proj = []; for (let k = 1; k <= Math.min(horizon, 12); k++) {
+      const t = lastT + k * 7 * 864e5;
+      proj.push({ label: new Date(t).toLocaleDateString("en-US", { month: "short", day: "numeric" }), y: Math.max(0, Math.round(now - avgNet * k)), t });
+    }
+    const markers = ORDER.map(r => ({ t: Date.parse(H.releases[r].start), label: r + " · " + fmtD(H.releases[r].start) }))
+      .filter(m => m.t >= pts[0].t && m.t <= (proj.length ? proj[proj.length - 1].t : lastT));
+    vzLine("st-burn", pts, proj, { w: 760, h: 290, markers });
+
+    vzHBars("st-age", Q.order.filter(k => agePods(k) > 0).map(k => {
+      const o = Q.aging[k], n = agePods(k);
+      return {
+        label: k, val: n, color: AGEC[k] || VZ.navy,
+        tip: "<b>" + k + "</b> — " + n + " still open<br>median " + o.median + " days open, oldest " + o.max
+          + "<br>P1 " + o.prio[1] + " · P2 " + o.prio[2] + " · P3 " + o.prio[3] + " · P4 " + o.prio[4]
+      };
+    }), { w: 620, rowH: 30, padL: 140 });
+
+    const stc = {}; SEL.forEach(t => Object.entries(Q.status[t] || {}).forEach(([s, n]) => stc[s] = (stc[s] || 0) + n));
+    vzHBars("st-status", Object.entries(stc).sort((a, b) => b[1] - a[1]).slice(0, 12)
+      .map(([s, n]) => ({ label: s, val: n, color: VZ.blue })), { w: 420, rowH: 26, padL: 150 });
+    vzHBars("st-pod", TEAMS.map(t => ({ label: t, val: Q.pods[t] || 0, color: SEL.includes(t) ? VZ.blue : VZ.muted })),
+      { w: 420, rowH: 30, padL: 80 });
+
+    // Bugs by Initiative, walked bug -> Epic -> Feature -> Initiative by the
+    // refresh script. The chain is mostly broken: measured 2026-10-12, 18% of
+    // bugs reach a real Initiative, 24% land in the "Bug Fix Container"
+    // placeholder and 59% have no path at all. Those two buckets are drawn as
+    // their own bars, never merged and never dropped - the gap is the finding.
+    const NOINIT = "No Initiative", JUNK = "Bug Fix Container";
+    const OPENb = statFilter(BUGS), CLOSEDb = statFilter(BUGS_CLOSED);
+    const stamped = OPENb.concat(CLOSEDb).some(b => "init" in b);
+    if (!stamped) {
+      document.getElementById("st-init").innerHTML =
+        '<p class="sub">Waiting on the next data refresh — the Initiative walk is new in the bot and <code>data.json</code> does not carry it yet.</p>';
+      document.getElementById("st-r-init").innerHTML = "";
+    } else {
+      const ic = arr => { const m = {}; arr.forEach(b => { const k = (b.init || "").trim() || NOINIT; m[k] = (m[k] || 0) + 1; }); return m; };
+      const io = ic(OPENb), icl = ic(CLOSEDb);
+      const tail = n => n === NOINIT ? 2 : n === JUNK ? 1 : 0;
+      const names = Array.from(new Set(Object.keys(io).concat(Object.keys(icl))))
+        .sort((a, b) => tail(a) - tail(b) || ((io[b] || 0) + (icl[b] || 0)) - ((io[a] || 0) + (icl[a] || 0)));
+      // Initiative names run past the label gutter; truncate the drawn label and
+      // keep the full name in the tooltip rather than widening the chart.
+      const short = n => n.length > 44 ? n.slice(0, 43) + "\u2026" : n;
+      vzHBars("st-init", names.map(n => ({
+        label: short(n), val: (io[n] || 0) + (icl[n] || 0),
+        color: n === NOINIT ? VZ.muted : n === JUNK ? "#E8A317" : VZ.blue,
+        tip: "<b>" + esc(n) + "</b><br>" + (io[n] || 0) + " open now · " + (icl[n] || 0) + " closed since " + coveredFrom()
+          + (n === NOINIT ? "<br>No path from the bug to an Initiative: its Epic has no Feature parent, or the bug has no parent at all."
+            : n === JUNK ? "<br>A placeholder Feature, not real scope. Attributed in name only." : "")
+      })), { w: 760, rowH: 28, padL: 290 });
+
+      const tot = OPENb.length + CLOSEDb.length;
+      const lost = (io[NOINIT] || 0) + (icl[NOINIT] || 0), junk = (io[JUNK] || 0) + (icl[JUNK] || 0);
+      const real = tot - lost - junk;
+      const top = names.filter(n => n !== NOINIT && n !== JUNK)[0];
+      document.getElementById("st-r-init").innerHTML =
+        "<b>" + real + " of " + tot + " bugs (" + (tot ? Math.round(100 * real / tot) : 0) + "%) reach a real Initiative.</b> "
+        + lost + " have no path at all and " + junk + " land in <i>Bug Fix Container</i>, a placeholder — together "
+        + (tot ? Math.round(100 * (lost + junk) / tot) : 0) + "% of the bugs on this chart are not attributed to anything real."
+        + (top ? " Of the rest, <b>" + esc(top) + "</b> carries the most." : "")
+        + "<br>This is a hierarchy problem, not a reporting one: a bug's parent is a bug-container Epic, and most of those Epics "
+        + "have no Feature above them. Giving those Epics a Feature parent in Jira is what moves this chart.";
+    }
+
+    // ---- readings, computed. Nothing here is written by hand: this page
+    // refreshes itself, and a sentence that was true in October is a lie in November.
+    const closed = ORDER.filter(r => H.releases[r].closed);
+    const net = r => res(r) - rep(r);
+    const best = closed.slice().sort((a, b) => net(b) - net(a))[0];
+    document.getElementById("st-r-flow").innerHTML =
+      "<b>" + best + " cleared the most relative to what it took in</b> (" + res(best) + " resolved against " + rep(best) + " reported, "
+      + (net(best) >= 0 ? "+" : "") + net(best) + "). Windows are not the same length — hover a release name for its dates.";
+
+    const wkNet = Q.weeks.map(w => ({ w, d: wkSum(w, "resolved") - wkSum(w, "created") }));
+    const peak = wkNet.slice().sort((a, b) => b.d - a.d)[0];
+    const relWeeks = wkNet.filter(x => x.w.release === peak.w.release);
+    const relTot = relWeeks.reduce((s, x) => s + x.d, 0);
+    const share = relTot > 0 ? Math.round(100 * peak.d / relTot) : null;
+    document.getElementById("st-r-weeks").innerHTML = peak.d <= 0
+      ? "<b>No week shown closed more than it opened.</b> The backlog grew every week in this view."
+      : "<b>" + peak.w.label + " is the standout week</b> — " + wkSum(peak.w, "resolved") + " resolved against "
+      + wkSum(peak.w, "created") + " reported (+" + peak.d + "). "
+      + (share === null ? peak.w.release + " came out net negative even so."
+        : share > 100 ? "On its own it more than covers " + peak.w.release + "'s whole surplus — the other weeks in that window ran negative."
+        : "It carries " + share + "% of " + peak.w.release + "'s surplus; the other weeks are ordinary.");
+
+    const p1s = r => rep(r) ? 100 * prio(r, 1) / rep(r) : 0;
+    const first = el[0], last = el[el.length - 1];
+    const d1 = p1s(last) - p1s(first);
+    document.getElementById("st-r-mix").innerHTML =
+      "<b>P1 share " + (d1 > 1 ? "is climbing" : d1 < -1 ? "is falling" : "is flat") + "</b> — "
+      + p1s(first).toFixed(0) + "% in " + first + " against " + p1s(last).toFixed(0) + "% in " + last + ".";
+
+    const trend = avgNet > 0.3 ? "shrinking" : avgNet < -0.3 ? "growing" : "flat";
+    document.getElementById("st-r-burn").innerHTML =
+      "<b>The backlog is " + trend + "</b> (~" + Math.abs(avgNet).toFixed(1) + " " + (avgNet >= 0 ? "fewer" : "more") + " open per week over the last six). "
+      + (nextDeploy ? "Projected open bugs by " + ORDER.find(r => Date.parse(H.releases[r].start) === nextDeploy) + ": <b>~" + proj[proj.length - 1].y + "</b>. " : "")
+      + "A linear trend, not a commitment.";
+
+    const R = refAvg(), a0 = pfAdj(el[0]), a1 = pfAdj(el[el.length - 1]);
+    document.getElementById("st-r-pf").innerHTML =
+      "<b>Raw " + pf(el[0]).toFixed(1) + " → " + pf(el[el.length - 1]).toFixed(1) + "</b> ("
+      + Math.round(100 * (pf(el[el.length - 1]) / pf(el[0]) - 1)) + "%). Adjusted <b>" + a0.toFixed(1) + " → " + a1.toFixed(1) + "</b> ("
+      + Math.round(100 * (a1 / a0 - 1)) + "%). "
+      + el[el.length - 1] + " shipped " + (szAvg(el[el.length - 1]) > szAvg(el[0]) ? "bigger" : "smaller") + " features than " + el[0] + " ("
+      + szAvg(el[el.length - 1]).toFixed(1) + " vs " + szAvg(el[0]).toFixed(1) + " points), so part of the raw move is volume, not quality — "
+      + "the adjusted bar is what is left once that is taken out."
+      + "<br>Adjusted = raw × (" + R.toFixed(2) + " ÷ the release's own average size), where " + R.toFixed(2)
+      + " points is the average feature across " + el.join(", ") + ". A release of exactly average volume is unchanged."
+      + "<br>Scale: Tiny 1 · Small 2 · Moderate 3 · Large 5 · X-Large 8 · Huge 13 — a convention. Change it and every size figure moves. "
+      + "Cancelled features (Will Not Implement) are not counted: they shipped no scope.";
+
+    const oldest = Q.order.filter(k => agePods(k) > 0)[0];
+    document.getElementById("st-r-age").innerHTML =
+      "<b>" + old + " of " + openNow + " open bugs predate " + prior + ".</b> Carried debt, not current work"
+      + (oldest && Q.aging[oldest] ? " — the " + oldest + " group sits at a median of " + Q.aging[oldest].median + " days open." : ".");
+  }
+
+  // ---- chart helpers specific to this tab, inside the closure because they
+  // read H / Q and the release accessors above.
+  function vzWeekGroups(hostId,weeks,series,opt){
+    opt=opt||{}; const host=document.getElementById(hostId); if(!host) return;
+    const W=opt.w||760,H2=opt.h||330,padL=38,padR=12,padT=14,padB=62;
+    const plotW=W-padL-padR, plotH=H2-padT-padB, n=weeks.length;
+    let max=0; series.forEach(s=>s.vals.forEach(v=>{if(v>max)max=v;})); max=niceMax(max||1);
+    const slot=plotW/n, bw=Math.min(opt.bw||14,(slot*0.72)/series.length);
+    let g="";
+    for(let i=0;i<=4;i++){ const y=padT+plotH-(i/4)*plotH;
+      g+=`<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" stroke="${VZ.grid}" stroke-width="1"/>`;
+      g+=`<text x="${padL-6}" y="${y+3.5}" text-anchor="end" font-size="10" fill="${VZ.sub}">${Math.round(max*i/4)}</text>`; }
+    weeks.forEach((w,i)=>{
+      const cx=padL+slot*(i+0.5), tot=series.length*bw+(series.length-1)*3;
+      series.forEach((s,k)=>{
+        const v=s.vals[i]||0, hh=(v/max)*plotH, x=cx-tot/2+k*(bw+3);
+        g+=`<rect x="${x.toFixed(1)}" y="${(padT+plotH-hh).toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.max(0,hh).toFixed(1)}" rx="2" fill="${s.color}" data-tip="<b>${esc(w.label)}</b> · ${esc(w.release)}<br>${s.name}: <b>${v}</b>"/>`;
+      });
+      g+=`<text x="${cx}" y="${padT+plotH+14}" text-anchor="middle" font-size="9.5" fill="${VZ.sub}">${esc(w.label)}</text>`;
+    });
+    // release bands below the week labels
+    const groups=[]; weeks.forEach((w,i)=>{
+      const last=groups[groups.length-1];
+      if(last && last.rel===w.release) last.to=i; else groups.push({rel:w.release,from:i,to:i});
+    });
+    const by=padT+plotH+24;
+    groups.forEach(gr=>{
+      const x0=padL+slot*gr.from+3, x1=padL+slot*(gr.to+1)-3;
+      g+=`<rect x="${x0.toFixed(1)}" y="${by}" width="${(x1-x0).toFixed(1)}" height="20" rx="4" fill="${VZ.grid}"/>`;
+      g+=`<text x="${((x0+x1)/2).toFixed(1)}" y="${by+14}" text-anchor="middle" font-size="11" font-weight="700" fill="${VZ.navy}" style="cursor:help" data-tip="${relTip(gr.rel)}">${esc(gr.rel)}</text>`;
+      if(gr.to<weeks.length-1){ const xs=padL+slot*(gr.to+1);
+        g+=`<line x1="${xs}" y1="${padT}" x2="${xs}" y2="${by+20}" stroke="${VZ.axis}" stroke-width="1" stroke-dasharray="3 3"/>`; }
+    });
+    const leg=series.map(s=>`<span class="chip"><span class="sw" style="background:${s.color};width:10px;height:10px;border-radius:2px;display:inline-block"></span> <b>${esc(s.name)}</b></span>`).join(" ");
+    host.innerHTML=`<div class="leg" style="margin-bottom:6px">${leg}</div><svg viewBox="0 0 ${W} ${H2}" preserveAspectRatio="xMidYMid meet" role="img">${g}</svg>`;
+    bindTips(host);
+  }
+
+  function annotateSizes(hostId){
+    const host=document.getElementById(hostId); if(!host) return;
+    const svg=host.querySelector("svg"); if(!svg) return;
+    const NS="http://www.w3.org/2000/svg";
+    svg.querySelectorAll('text[text-anchor="middle"]').forEach(t=>{
+      const r=t.textContent.trim(); if(!H.releases[r]) return;
+      const nf=feat(r), ns=szN(r), avg=szAvg(r), mix=szMix(r);
+      const mk=(dy,size,fill,txt)=>{
+        const e=document.createElementNS(NS,"text");
+        e.setAttribute("x",t.getAttribute("x"));
+        e.setAttribute("y",String(+t.getAttribute("y")+dy));
+        e.setAttribute("text-anchor","middle");
+        e.setAttribute("font-size",size); e.setAttribute("fill",fill);
+        e.textContent=txt; svg.appendChild(e); return e;
+      };
+      const l1=mk(13,"9",VZ.sub, nf+" feat · avg "+(avg?avg.toFixed(1):"—"));
+      const l2=ns<nf ? mk(24,"8.5", ns/nf<0.8 ? "#E8A317" : VZ.sub, ns+" of "+nf+" sized") : null;
+      const tip=relTip(r)
+        +"<br><b>"+nf+" features</b> · "+szPts(r)+" size points over "+ns+" sized"
+        +(ns<nf ? " · <b>"+(nf-ns)+" unsized</b>" : "")
+        +"<br>"+SZORDER.filter(k=>mix[k]).map(k=>k+" "+mix[k]).join(" · ")
+        +(perPoint(r) ? "<br>"+perPoint(r).toFixed(1)+" bugs per size point" : "");
+      [t,l1,l2].filter(Boolean).forEach(e=>{e.setAttribute("data-tip",tip); e.style.cursor="help";});
+    });
+    bindTips(host);
+  }
+
+  function tagReleaseLabels(hostId){
+    const host=document.getElementById(hostId); if(!host) return;
+    host.querySelectorAll('text[text-anchor="middle"]').forEach(t=>{
+      const k=t.textContent.replace(/\s*·\s*$/,"").replace(/\s*\(.*$/,"").trim();
+      if(H.releases[k]){ t.setAttribute("data-tip",relTip(k)); t.style.cursor="help"; }
+    });
+    bindTips(host);
+  }
+
+  return { render: render };
+})();
+
+
+function renderStats(){ renderStatFilters(); QR.render(); }
+
+
 var _lastGen=null;   // last-seen data.json generated_at (skip re-render when unchanged)
 
 // ============ INSIGHTS TAB (live, computed from data.json) ============
@@ -2752,6 +3118,10 @@ window.renderInsights=renderInsights;
 
 (function bootstrap(){
   // cache-bust so a fresh snapshot shows without a hard reload
+  fetch("history.json?_="+Date.now())
+    .then(r=>r.ok?r.json():null).then(h=>{ QHIST=h; })
+    .catch(err=>{ console.warn("history.json unavailable:", err); })
+    .finally(()=>
   fetch("data.json?_="+Date.now())
     .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
     .then(d=>{ _lastGen=d.generated_at||null; applyData(d); initDashboard(); })
@@ -2761,7 +3131,7 @@ window.renderInsights=renderInsights;
       if(el){ el.className="freshpill stale"; el.textContent="Could not load data — check data.json"; }
       // still init with empty data so the page structure renders
       initDashboard();
-    });
+    }));
 })();
 
 // ---- Auto-refresh: re-fetch data.json every 5 min while the page is open, so an open
@@ -2776,7 +3146,11 @@ function autoRefreshData(){
       applyData(d);   // updates globals + freshpill + Insights
       var act=document.querySelector(".tab.active"), tab=act?act.dataset.tab:"";
       if(tab==="bugs"){ if(typeof refreshBugUI==="function") refreshBugUI(); else if(typeof renderBugs==="function") renderBugs(); }
-      else if(tab==="stats" && typeof renderStats==="function") renderStats();
+      else if(tab==="stats" && typeof renderStats==="function"){
+        // history.json moves on the same commit as data.json, so refresh both
+        fetch("history.json?_="+Date.now()).then(function(r){return r.ok?r.json():null;})
+          .then(function(h){ if(h) QHIST=h; }).catch(function(){}).then(function(){ renderStats(); });
+      }
       else if(tab==="insights" && typeof renderInsights==="function") renderInsights();
     })
     .catch(function(err){ console.warn("auto-refresh skipped:", err); });
