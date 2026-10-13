@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T10:00:29+00:00",
+ "generated_at": "2026-10-13T10:15:22+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1200,36 +1200,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24340",
-   "name": "Plan details the paragraph is not correct in WFPAY.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Daniel Marineni",
-   "prio": "2: Important",
-   "created": "2026-10-09T08:52:04.378-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-24339",
@@ -4311,6 +4281,36 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24340",
+   "name": "Plan details the paragraph is not correct in WFPAY.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-09T08:52:04.378-0700",
+   "resolved": "",
+   "due": "2026-10-14",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24335",
