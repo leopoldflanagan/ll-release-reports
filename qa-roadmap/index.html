@@ -763,7 +763,7 @@
       </div>
       <div class="statcard">
         <div class="stath"><h3>Bugs per feature</h3>
-          <span class="stsub">Bugs divided by features. Orange counts features; blue counts their size. Under each bar: how many features and their average size.</span></div>
+          <span class="stsub">Bugs ÷ features. Orange counts features; blue weighs their size, since bigger features draw more bugs on their own.</span></div>
         <span class="pbadge" data-card="st-pf" role="button" tabindex="0"></span><div class="pchips" data-for="st-pf"></div>
         <div class="chartbox" id="st-pf"></div>
         <p class="reading" id="st-r-pf"></p>
@@ -2856,17 +2856,14 @@ const QR = (function () {
       const pfFirst = el[0], pfLast = el[el.length - 1];
       const sc = pLabel("st-pf");
       document.getElementById("st-r-pf").innerHTML =
-        "<b>Orange</b> — bugs \u00f7 features. " + pfLast + ": " + rep(pfLast) + " \u00f7 " + feat(pfLast) + " = <b>" + pf(pfLast).toFixed(1) + "</b>."
+        pfLast + ": " + rep(pfLast) + " bugs \u00f7 " + feat(pfLast) + " features = <b>" + pf(pfLast).toFixed(1) + "</b>. "
+        + "Its features were " + (szAvg(pfLast) < R ? "light" : "heavy") + " \u2014 " + szPts(pfLast) + " points, or "
+        + (szPts(pfLast) / R).toFixed(1) + " average-sized features \u2014 so by size it is <b>" + a1.toFixed(1) + "</b>."
         + (sc !== "All" ? " Counting <b>" + sc + "</b> only." : "")
-        + "<br><b>Blue</b> — the same, but counting size instead of headcount. " + pfLast + "'s features averaged "
-        + szAvg(pfLast).toFixed(1) + " points against the " + R.toFixed(1) + " norm, so its " + szPts(pfLast)
-        + " points are worth <b>" + (szPts(pfLast) / R).toFixed(1) + "</b> average-sized features: "
-        + rep(pfLast) + " \u00f7 " + (szPts(pfLast) / R).toFixed(1) + " = <b>" + a1.toFixed(1) + "</b>."
-        + "<br>A release that shipped bigger features draws more bugs on its own. Blue takes that out so releases compare fairly."
-        + "<br>" + pfFirst + " \u2192 " + pfLast + ": <b>" + Math.round(100 * (pf(pfLast) / pf(pfFirst) - 1)) + "%</b> orange, <b>"
-        + Math.round(100 * (a1 / a0 - 1)) + "%</b> blue."
-        + "<br><span style=\"opacity:.75\">Sizes: Tiny 1 \u00b7 Small 2 \u00b7 Moderate 3 \u00b7 Large 5 \u00b7 X-Large 8 \u00b7 Huge 13. "
-        + "Norm " + R.toFixed(1) + " = the average feature across " + el.join(", ") + ". Cancelled features are not counted.</span>";
+        + "<br>" + pfFirst + " \u2192 " + pfLast + ": <b>" + Math.round(100 * (pf(pfLast) / pf(pfFirst) - 1)) + "%</b> by count, <b>"
+        + Math.round(100 * (a1 / a0 - 1)) + "%</b> by size."
+        + "<br><span style=\"opacity:.75\">Tiny 1 \u00b7 Small 2 \u00b7 Moderate 3 \u00b7 Large 5 \u00b7 X-Large 8 \u00b7 Huge 13; norm "
+        + R.toFixed(1) + ". Cancelled features are not counted.</span>";
     });
 
     // ---- Open backlog & projection. Weekly on purpose: it projects to a future
