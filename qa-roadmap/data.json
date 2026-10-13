@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T15:00:30+00:00",
+ "generated_at": "2026-10-13T15:15:25+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -28913,7 +28913,7 @@
   {
    "key": "PLANS-24445",
    "name": "Prod/Digital Smiles and One Smile/Plan Details PDF/Incorrect Legal language in the PDF",
-   "status": "Backlog",
+   "status": "Ready for Development",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
   },
@@ -28927,13 +28927,6 @@
   {
    "key": "PLANS-24427",
    "name": "Digital Smiles/Plan Detail PDF/Blank Page is displayed in the document",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-24426",
-   "name": "Digital Smiles/Plan Details PDF/Exclusions in the PDF are not consistent with those updated in Marketing settings",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
