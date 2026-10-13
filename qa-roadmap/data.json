@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T18:21:49+00:00",
+ "generated_at": "2026-10-13T18:30:26+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -5643,20 +5643,22 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
+  }
+ ],
+ "bugs_closed": [
   {
    "key": "PLANS-24445",
    "name": "Prod/Digital Smiles and One Smile/Plan Details PDF/Incorrect Legal language in the PDF",
    "pod": "LL",
-   "status": "In PreProd",
-   "cat": "To Do",
+   "status": "Closed",
+   "cat": "Done",
    "fv": "R9.8.4",
    "sprint": "LL-Sprint 24-26",
    "who": "Dima Shtympel",
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-10-13T07:47:29.997-0700",
-   "resolved": "",
+   "resolved": "2026-10-13T11:26:43.870-0700",
    "due": "",
    "labels": [],
    "theme": "LL-Fast Follows",
@@ -5668,9 +5670,7 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  }
- ],
- "bugs_closed": [
+  },
   {
    "key": "PLANS-24425",
    "name": "OneSmile/Plan Details PDF/Provider link is incorrect",
