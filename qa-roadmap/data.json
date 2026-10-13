@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T12:15:25+00:00",
+ "generated_at": "2026-10-13T12:25:57+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1368,34 +1368,6 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21247",
-   "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-14T02:34:50.968-0700",
-   "resolved": "",
-   "due": "2026-10-13",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
    "initKey": "",
    "init": ""
   },
@@ -4465,6 +4437,34 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-08-14T03:19:43.137-0700",
+   "resolved": "",
+   "due": "2026-10-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-21247",
+   "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-14T02:34:50.968-0700",
    "resolved": "",
    "due": "2026-10-13",
    "labels": [
