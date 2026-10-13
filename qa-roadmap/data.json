@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T23:11:55+00:00",
+ "generated_at": "2026-10-13T23:15:23+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -5023,34 +5023,6 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
-   "key": "PLANS-24083",
-   "name": "Provider Portal \\ Age restriction row is missing for Dependents",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "4: Low",
-   "created": "2026-10-02T14:10:29.908-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22729",
-   "parentName": "[4] Age Restrictions on Sales - Roll Out to Fast-Follow Portals and Go Live",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-24030",
    "name": "CSP/Renewal/Giftcore Promo code is applied for Expired Plans though Eligibility rule is applied to restrict Expired plans",
    "pod": "PLANS",
@@ -5668,6 +5640,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24083",
+   "name": "Provider Portal \\ Age restriction row is missing for Dependents",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "4: Low",
+   "created": "2026-10-02T14:10:29.908-0700",
+   "resolved": "2026-10-13T16:14:53.185-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22729",
+   "parentName": "[4] Age Restrictions on Sales - Roll Out to Fast-Follow Portals and Go Live",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
   {
    "key": "PLANS-24055",
    "name": "Provider Portal \\ Age restriction summary row is missing for Primary Member",
