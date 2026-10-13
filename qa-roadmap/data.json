@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T23:37:08+00:00",
+ "generated_at": "2026-10-13T23:45:26+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -28979,31 +28979,6 @@
    "prio": "3: Standard",
    "created": "2026-07-09T14:26:11.537-0700",
    "resolved": "2026-07-15T20:34:39.095-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-19147",
-   "name": "PMP/Plan Card/ Office Name is displayed in the Header at Front of the Card instead of Logo or Plan Name",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-07T20:14:27.899-0700",
-   "resolved": "2026-07-15T16:38:43.068-0700",
    "due": "",
    "labels": [],
    "theme": "LL-MVP",
