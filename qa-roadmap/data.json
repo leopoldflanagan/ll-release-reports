@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T08:15:25+00:00",
+ "generated_at": "2026-10-13T08:30:29+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -4343,34 +4343,6 @@
    "init": "Launch Loyalty Multi-Site Offices (Phase 3)"
   },
   {
-   "key": "PLANS-24288",
-   "name": "PRODUCTION - Theme Bug",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-08T11:39:42.185-0700",
-   "resolved": "",
-   "due": "2026-10-12",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "pod": "LL",
@@ -4620,6 +4592,34 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24288",
+   "name": "PRODUCTION - Theme Bug",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-08T11:39:42.185-0700",
+   "resolved": "",
+   "due": "2026-10-12",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
