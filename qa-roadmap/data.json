@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T00:00:23+00:00",
+ "generated_at": "2026-10-13T00:15:20+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1258,34 +1258,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-23844",
-   "name": "Account Information | None membership is not showing Information until after selecting history",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-29T10:53:22.056-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-23483",
@@ -4427,35 +4399,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24109",
-   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.8.3",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Daniel Marineni",
-   "prio": "1: Urgent",
-   "created": "2026-10-05T07:03:58.029-0700",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "CCB_candidate",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "pod": "LL",
@@ -4510,6 +4453,34 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-23844",
+   "name": "Account Information | None membership is not showing Information until after selecting history",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-29T10:53:22.056-0700",
+   "resolved": "",
+   "due": "2026-10-15",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-23550",
@@ -4667,6 +4638,35 @@
    "resolved": "",
    "due": "2026-10-09",
    "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24109",
+   "name": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.8.3",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Daniel Marineni",
+   "prio": "1: Urgent",
+   "created": "2026-10-05T07:03:58.029-0700",
+   "resolved": "",
+   "due": "2026-10-19",
+   "labels": [
+    "CCB_candidate",
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
