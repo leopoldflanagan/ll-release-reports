@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T16:57:25+00:00",
+ "generated_at": "2026-10-13T17:00:27+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -28944,6 +28944,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24458",
+   "name": "One Smile - Marketing Settings - Plan name is incorrect",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24427",
    "name": "Digital Smiles/Plan Detail PDF/Blank Page is displayed in the document",
