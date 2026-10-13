@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T08:00:29+00:00",
+ "generated_at": "2026-10-13T08:15:25+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1429,7 +1429,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 24-26",
-   "who": "Rostyslav Masniuk",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-12T11:26:52.717-0700",
@@ -1562,7 +1562,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Rostyslav Masniuk",
+   "who": "Unassigned",
    "reporter": "Daniel Marineni",
    "prio": "2: Important",
    "created": "2026-10-09T08:49:57.908-0700",
@@ -4579,7 +4579,7 @@
    "prio": "2: Important",
    "created": "2026-04-29T11:52:19.091-0700",
    "resolved": "",
-   "due": "2026-10-12",
+   "due": "2026-10-13",
    "labels": [
     "group1_migration",
     "product_prioritized"
