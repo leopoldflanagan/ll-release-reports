@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T18:30:26+00:00",
+ "generated_at": "2026-10-13T18:45:25+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1418,6 +1418,31 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24427",
+   "name": "Digital Smiles/Plan Detail PDF/Blank Page is displayed in the document",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.8.4",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-10-12T19:50:38.139-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -5652,7 +5677,7 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": "R9.8.4",
+   "fv": null,
    "sprint": "LL-Sprint 24-26",
    "who": "Dima Shtympel",
    "reporter": "Vivienne Chawande",
@@ -28968,15 +28993,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-24427",
-   "name": "Digital Smiles/Plan Detail PDF/Blank Page is displayed in the document",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Oct 12–18",
