@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T02:45:20+00:00",
+ "generated_at": "2026-10-13T03:00:26+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -28885,6 +28885,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24427",
+   "name": "Digital Smiles/Plan Detail PDF/Blank Page is displayed in the document",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24426",
    "name": "Digital Smiles/Plan Details PDF/Exclusions in the PDF are not consistent with those updated in Marketing settings",
