@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T05:45:23+00:00",
+ "generated_at": "2026-10-13T06:00:29+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1703,7 +1703,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-10-07T07:13:24.181-0700",
