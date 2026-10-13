@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T15:15:25+00:00",
+ "generated_at": "2026-10-13T15:16:48+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -114,7 +114,7 @@
    "key": "WT-833",
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "In Development",
-   "ted": "2026-10-12",
+   "ted": "2026-10-15",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
@@ -436,7 +436,7 @@
    "key": "WT-833",
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "In Development",
-   "ted": "2026-10-12",
+   "ted": "2026-10-15",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small",
@@ -936,7 +936,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": "2026-10-12",
+   "ted": "2026-10-15",
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
