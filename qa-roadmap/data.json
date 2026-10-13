@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T14:46:41+00:00",
+ "generated_at": "2026-10-13T15:00:30+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1191,7 +1191,7 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
@@ -1260,34 +1260,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-23483",
-   "name": "PMP-Stage-Plan should auto-renewed but failing with error",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-09-24T08:15:50.466-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22044",
-   "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -1351,7 +1323,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 24-26",
-   "who": "Anuradhi Wickramasinghe",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-13T07:00:54.154-0700",
@@ -1363,6 +1335,31 @@
    "parentKey": "PLANS-22410",
    "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24425",
+   "name": "OneSmile/Plan Details PDF/Provider link is incorrect",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-10-12T13:58:18.699-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -5055,6 +5052,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-23483",
+   "name": "PMP-Stage-Plan should auto-renewed but failing with error",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-09-24T08:15:50.466-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22044",
+   "parentName": "[1] Payment Wallet and Plans Enhancement - Fund a plan in place from the plan surface",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-22008",
@@ -28886,6 +28911,13 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-24445",
+   "name": "Prod/Digital Smiles and One Smile/Plan Details PDF/Incorrect Legal language in the PDF",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
+  {
    "key": "PLANS-24439",
    "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
    "status": "Backlog",
@@ -28902,13 +28934,6 @@
   {
    "key": "PLANS-24426",
    "name": "Digital Smiles/Plan Details PDF/Exclusions in the PDF are not consistent with those updated in Marketing settings",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-24425",
-   "name": "OneSmile/Plan Details PDF/Provider link is incorrect",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
