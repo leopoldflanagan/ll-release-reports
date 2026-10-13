@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T14:30:31+00:00",
+ "generated_at": "2026-10-13T14:45:23+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1158,7 +1158,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
+   "sprint": "Plans-Sprint 24-26",
    "who": "Dima Shtympel",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
@@ -1266,7 +1266,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
+   "sprint": "Plans-Sprint 24-26",
    "who": "Conor Kamperman",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
@@ -1342,6 +1342,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24442",
+   "name": "PMP - When a plan is renewed and then refunded/disabled, the plan status is incorrectly displayed as Expired and the Renew button becomes visible again",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-13T07:00:54.154-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24416",
@@ -4718,7 +4743,7 @@
    "status": "On Hold",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": "Plans-Sprint 23-26",
+   "sprint": "Plans-Sprint 24-26",
    "who": "Daniel Marineni",
    "reporter": "Daryl Myrick",
    "prio": "2: Important",
@@ -28860,13 +28885,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24442",
-   "name": "PMP - Broken - Cancelled Plan Shows as 'Expired' and Displays 'Renew' Button After Refund & Cancel Action (bug report inprogress)",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24439",
    "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
