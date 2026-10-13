@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T20:45:24+00:00",
+ "generated_at": "2026-10-13T20:52:26+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1356,31 +1356,6 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24427",
-   "name": "Digital Smiles/Plan Detail PDF/Blank Page is displayed in the document",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.8.4",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-10-12T19:50:38.139-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
@@ -5671,6 +5646,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24427",
+   "name": "Digital Smiles/Plan Detail PDF/Blank Page is displayed in the document",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.8.4",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-10-12T19:50:38.139-0700",
+   "resolved": "2026-10-13T13:46:00.539-0700",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24445",
    "name": "Prod/Digital Smiles and One Smile/Plan Details PDF/Incorrect Legal language in the PDF",
