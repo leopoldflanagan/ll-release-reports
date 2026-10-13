@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T21:15:22+00:00",
+ "generated_at": "2026-10-13T21:25:18+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1284,6 +1284,56 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24469",
+   "name": "Duplicate Charge-Not Showing in CSP",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Carmen West",
+   "prio": "3: Standard",
+   "created": "2026-10-13T14:23:04.464-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24468",
+   "name": "PMP - Plan selection- when the organization sells only one plan, only the coverage levels are shown and the plan name is not visible.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-13T13:33:00.374-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24458",
@@ -28994,13 +29044,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24468",
-   "name": "PMP - Plan selection- when the organization sells only one plan, only the coverage levels are shown and the plan name is missing.",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24467",
    "name": "Preprod - One Smile- Membership agreement - logo is not visible",
