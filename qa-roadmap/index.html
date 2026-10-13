@@ -815,7 +815,14 @@ function isQA(f){ return /test/i.test(f.status); }
 // blocked/on-hold → red
 function isBlocked(f){ return /hold|block/i.test(f.status); }
 // overdue: has a past date AND has NOT yet reached In Testing → date must be updated
-function isOverdue(f){ return f.ted && new Date(f.ted) < TODAY && !isQA(f); }
+// Jira date-only fields are calendar days, not instants. new Date("2026-10-23")
+// parses as UTC midnight, which renders as Oct 22 anywhere west of UTC - the
+// whole roadmap was showing every Target End one day early.
+function dOnly(s){
+  if(s instanceof Date) return s;
+  return (typeof s === "string" && /^\d{4}-\d{2}-\d{2}$/.test(s)) ? new Date(s + "T00:00:00") : new Date(s);
+}
+function isOverdue(f){ return f.ted && dOnly(f.ted) < TODAY && !isQA(f); }
 // Optional Leadership Spotlight note per feature (by-exception; filled by SM). Shown on hover for blocked/at-risk bars.
 const SPOTLIGHT = {
   "PLANS-15451":"Plan Design on hold pending prioritization decision — not currently staffed.",
@@ -830,16 +837,16 @@ let GENERATED_AT = "";
 // QA weeks: rolling 7-week window from data.json; freeze marker comes from WEEKS
 let WEEKS = [];
 let NW = 0, T0 = null, T1 = null, SPAN = 1;
-function recomputeWeekBounds(){ NW = WEEKS.length; T0 = new Date(WEEKS[0].start); T1 = new Date(WEEKS[NW-1].end); SPAN = (T1 - T0) || 1; }
-function pct(d){ return Math.max(0,Math.min(100, ((new Date(d)-T0)/SPAN)*100)); }
+function recomputeWeekBounds(){ NW = WEEKS.length; T0 = dOnly(WEEKS[0].start); T1 = dOnly(WEEKS[NW-1].end); SPAN = (T1 - T0) || 1; }
+function pct(d){ return Math.max(0,Math.min(100, ((dOnly(d)-T0)/SPAN)*100)); }
 function weekOf(f){
   // QA-ready (In Testing+) features live in a dedicated lane, not a date week
   if(isQA(f)) return -2;
   if(!f.ted) return -1;
-  const dt=new Date(f.ted);
+  const dt=dOnly(f.ted);
   // overdue (date passed, not yet in testing) → clamp into the current week so it still shows, flagged
   if(dt < T0) return 0;
-  for(let i=0;i<NW;i++){ if(dt>=new Date(WEEKS[i].start) && dt<=new Date(WEEKS[i].end)) return i; }
+  for(let i=0;i<NW;i++){ if(dt>=dOnly(WEEKS[i].start) && dt<=dOnly(WEEKS[i].end)) return i; }
   return -1;
 }
 function cls(f){
@@ -851,7 +858,7 @@ function cls(f){
 function barLabel(f){
   if(isQA(f)) return "In Testing";
   const warn = isOverdue(f) ? "⚠ " : "";
-  if(f.ted) return warn+new Date(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric'});
+  if(f.ted) return warn+dOnly(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric'});
   return "—";
 }
 // T-shirt size scale (Jira "Size" field). Rank for sorting; px for bar width.
@@ -872,7 +879,7 @@ function weekCenter(wi){ const s=pct(WEEKS[wi].start), e=pct(WEEKS[wi].end); ret
 // Theme lookup by key (from the cross-pod theme dataset) so roadmap items can be theme-filtered.
 const THEME_BY_KEY = {};
 function rebuildThemeIndex(){ for(const k in THEME_BY_KEY) delete THEME_BY_KEY[k]; FEATURES_ALL.forEach(f=>{ if(f.theme) THEME_BY_KEY[f.key]=f.theme; }); }
-let rmSeg="all", rmThemes=new Set();   // rmThemes: empty = All; multi-select OR
+let rmSeg="all", rmThemes=new Set(), rmRels=new Set();   // empty Set = All; multi-select OR within a group, AND across groups
 function segData(seg){
   let items;
   if(seg==="LL"){ items=FEATURES.slice(); }
@@ -894,6 +901,7 @@ function renderRoadmap(seg){
   const data = seg==="all" ? segAll() : segData(seg);
   let items = data.items;
   if(rmThemes.size) items = items.filter(f=>rmThemes.has(f.theme||""));
+  if(rmRels.size) items = items.filter(f=>rmRels.has(f.fv||""));
   if(rmSearchTerm) items = items.filter(f=>matchSearch(f, rmSearchTerm));
   // scale header
   let scale=`<div class="scalerow"><div class="corner">Feature</div><div class="weeks" style="grid-template-columns:repeat(${NW},minmax(0,1fr))">`;
@@ -919,7 +927,7 @@ function renderRoadmap(seg){
     else if(isBlocked(f)) tipBody = "Blocked / On Hold";
     else if(over) tipBody = "⚠ Target End date has passed and it isn't In Testing yet — date needs updating.";
     else if(isQA(f)) tipBody = "In Testing — already with QA.";
-    else if(f.ted) tipBody = "Target End "+new Date(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+    else if(f.ted) tipBody = "Target End "+dOnly(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
     const tipSize = f.tshirt ? `Size: ${f.tshirt}` : "";
     const tip = `<span class="bartip"><b>${tipHead}</b>${tipBody?`<br>${tipBody}`:''}${tipSize?`<br>${tipSize}`:''}<br><i>click → open in Jira</i></span>`;
     const warnIcon = over ? `<span class="warnico" title="Target End date is in the past and the feature is not yet In Testing — please update the date.">⚠</span>` : '';
@@ -945,12 +953,12 @@ function renderRoadmap(seg){
   const byWeek={};
   placed.forEach(f=>{ const wi=weekOf(f); (byWeek[wi]=byWeek[wi]||[]).push(f); });
   WEEKS.forEach((w,wi)=>{
-    const list=(byWeek[wi]||[]).sort((a,b)=>new Date(a.ted||WEEKS[wi].start)-new Date(b.ted||WEEKS[wi].start));
+    const list=(byWeek[wi]||[]).sort((a,b)=>dOnly(a.ted||WEEKS[wi].start)-dOnly(b.ted||WEEKS[wi].start));
     if(!list.length) return;
     const g=document.createElement("div"); g.className="group open";
     g.innerHTML=`<div class="grouphead"><span class="ghl"><span class="gchev">▸</span>QA Week — ${w.label}</span><span class="rng">${list.length} item${list.length>1?'s':''}</span></div>`;
     list.forEach(f=>{
-      const left = (new Date(f.ted) < T0) ? weekCenter(0) : pct(f.ted);
+      const left = (dOnly(f.ted) < T0) ? weekCenter(0) : pct(f.ted);
       g.appendChild(barRow(f, left));
     });
     g.querySelector(".grouphead").addEventListener("click",()=>g.classList.toggle("open"));
@@ -969,7 +977,7 @@ function renderRoadmap(seg){
   setupPeek("nodate","nodate-toggle",5);
   document.getElementById("stamp").textContent="Snapshot built "+TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})+" from Jira. Roadmap is a snapshot — it does not auto-refresh.";
 }
-let rmOpenMenu=null;   // "pod" | "theme" | null
+let rmOpenMenu=null;   // "pod" | "theme" | "rel" | null
 const RM_SEG_LABEL={all:"All Pods", LL:"LL QA Roadmap", PLANS:"Plans QA Roadmap", cross:"Cross Pod QA Roadmap"};
 function rmSegCount(v){ const d=(v==="all"?segAll():segData(v)); return d.items.length; }
 function rmThemeOptions(){
@@ -979,6 +987,23 @@ function rmThemeOptions(){
   found.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
   [...rmThemes].forEach(t=>{ if(!found.includes(t)) rmThemes.delete(t); });
   return found.map(t=>({v:t,label:t,count:data.items.filter(f=>f.theme===t).length}));
+}
+function rmRelOptions(){
+  // Releases sort by their numeric parts so R9.10 lands after R9.9, which a
+  // plain string sort gets wrong. Features with no fixVersion group under "".
+  const data = rmSeg === "all" ? segAll() : segData(rmSeg);
+  const num = v => (String(v).match(/\d+/g) || []).map(Number);
+  const found = Array.from(new Set(data.items.map(f => f.fv || "")));
+  found.sort((a, b) => {
+    if(!a) return 1; if(!b) return -1;
+    const A = num(a), B = num(b);
+    for(let i = 0; i < Math.max(A.length, B.length); i++){
+      if((A[i] || 0) !== (B[i] || 0)) return (A[i] || 0) - (B[i] || 0);
+    }
+    return a.localeCompare(b);
+  });
+  [...rmRels].forEach(r => { if(!found.includes(r)) rmRels.delete(r); });
+  return found.map(v => ({v, label: v || "No release", count: data.items.filter(f => (f.fv || "") === v).length}));
 }
 function buildRoadmapThemeChips(){   // Drive-style Pod + Theme dropdowns for the roadmap
   const bar=document.getElementById("rmdropbar"); if(!bar) return;
@@ -996,7 +1021,7 @@ function buildRoadmapThemeChips(){   // Drive-style Pod + Theme dropdowns for th
       const on=(rmSeg===v);
       const it=document.createElement("button"); it.type="button"; it.className="dropitem"+(on?" on":"");
       it.innerHTML=`<span class="dchk">${on?"✓":""}</span><span class="ditxt">${RM_SEG_LABEL[v]}</span><span class="dnum">${rmSegCount(v)}</span>`;
-      it.addEventListener("click",ev=>{ ev.stopPropagation(); if(rmSeg!==v){ rmSeg=v; rmThemes.clear(); } rmOpenMenu="pod"; buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
+      it.addEventListener("click",ev=>{ ev.stopPropagation(); if(rmSeg!==v){ rmSeg=v; rmThemes.clear(); rmRels.clear(); } rmOpenMenu="pod"; buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
       menu.appendChild(it);
     });
     wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
@@ -1020,16 +1045,41 @@ function buildRoadmapThemeChips(){   // Drive-style Pod + Theme dropdowns for th
     });
     wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
   })();
+  // ---- Release dropdown (multi-select, same shape as Theme) ----
+  (function(){
+    const opts=rmRelOptions(); const sel=[...rmRels];
+    const wrap=document.createElement("div"); wrap.className="dropwrap"; wrap.dataset.fid="rmrel";
+    const btn=document.createElement("button"); btn.type="button";
+    btn.className="dropbtn"+(sel.length?" active":"")+(rmOpenMenu==="rel"?" opened":"");
+    btn.innerHTML=`Release${sel.length?` <span class="dcount">${sel.length}</span>`:""} <span class="dcar">▾</span>`;
+    btn.addEventListener("click",ev=>{ ev.stopPropagation(); rmOpenMenu=(rmOpenMenu==="rel"?null:"rel"); buildRoadmapThemeChips(); });
+    const menu=document.createElement("div"); menu.className="dropmenu"+(rmOpenMenu==="rel"?" open":"");
+    if(!opts.length){ const e=document.createElement("div"); e.className="dropitem"; e.style.opacity=".6"; e.style.cursor="default"; e.textContent="No releases in this view"; menu.appendChild(e); }
+    opts.forEach(o=>{
+      const on=rmRels.has(o.v);
+      const it=document.createElement("button"); it.type="button"; it.className="dropitem"+(on?" on":"");
+      it.innerHTML=`<span class="dchk">${on?"✓":""}</span><span class="ditxt">${esc(o.label)}</span><span class="dnum">${o.count}</span>`;
+      it.addEventListener("click",ev=>{ ev.stopPropagation(); if(rmRels.has(o.v)) rmRels.delete(o.v); else rmRels.add(o.v); rmOpenMenu="rel"; buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
+      menu.appendChild(it);
+    });
+    wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
+  })();
   // ---- Theme chips (Pod value shows in its own button) ----
   const box=document.getElementById("rmchips");
-  if(box){ box.innerHTML=""; const sel=[...rmThemes];
+  if(box){ box.innerHTML=""; const sel=[...rmThemes], rsel=[...rmRels];
     sel.forEach(v=>{
       const chip=document.createElement("span"); chip.className="selchip";
       chip.innerHTML=`<span class="scname">Theme:</span> ${v} <span class="scx" title="Remove">✕</span>`;
       chip.querySelector(".scx").addEventListener("click",()=>{ rmThemes.delete(v); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
       box.appendChild(chip);
     });
-    box.style.display=sel.length?"flex":"none";
+    rsel.forEach(v=>{
+      const chip=document.createElement("span"); chip.className="selchip";
+      chip.innerHTML=`<span class="scname">Release:</span> ${esc(v||"No release")} <span class="scx" title="Remove">✕</span>`;
+      chip.querySelector(".scx").addEventListener("click",()=>{ rmRels.delete(v); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
+      box.appendChild(chip);
+    });
+    box.style.display=(sel.length+rsel.length)?"flex":"none";
   }
 }
 document.addEventListener("click",e=>{ if(rmOpenMenu && !(e.target.closest && e.target.closest(".dropwrap"))){ rmOpenMenu=null; buildRoadmapThemeChips(); } });
@@ -1055,7 +1105,7 @@ function statusPill(s){
   else if(k.includes("ready for dev")) cls="idea";
   return `<span class="pill ${cls}">${s}</span>`;
 }
-function fmtDate(d){ return d?new Date(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}):'<span class="muted-date">\u2014</span>'; }
+function fmtDate(d){ return d?dOnly(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}):'<span class="muted-date">\u2014</span>'; }
 
 // ---- Active Features tab (all pods, grouped by Theme) ----
 const allbody=document.getElementById("allbody");
@@ -1075,7 +1125,7 @@ function featureSortVal(f, key){
   switch(key){
     case "status": return fRank(f.status);
     case "release": return f.fv||"";
-    case "ted": return f.ted?new Date(f.ted).getTime():(fSortDir==="asc"?Infinity:-Infinity);
+    case "ted": return f.ted?dOnly(f.ted).getTime():(fSortDir==="asc"?Infinity:-Infinity);
     case "size": return tshirtRank(f.tshirt);
     case "theme": return f.theme||"zzz";
     case "pod": return f.pod||"zzz";
@@ -1359,6 +1409,7 @@ function initFeaturesAndRoadmap(){
     v=>{ rmSearchTerm=v; }, ()=>renderRoadmap(rmSeg),
     ()=>{ const d=rmSeg==="all"?segAll():segData(rmSeg); let it=d.items;
       if(rmThemes.size) it=it.filter(f=>rmThemes.has(f.theme||""));
+      if(rmRels.size) it=it.filter(f=>rmRels.has(f.fv||""));
       if(rmSearchTerm) it=it.filter(f=>matchSearch(f,rmSearchTerm)); return it.length; });
 }
 function updateFreshpill(){
