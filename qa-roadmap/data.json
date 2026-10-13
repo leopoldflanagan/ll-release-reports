@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T16:00:32+00:00",
+ "generated_at": "2026-10-13T16:15:22+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1244,7 +1244,7 @@
    "prio": "2: Important",
    "created": "2026-10-07T07:13:24.181-0700",
    "resolved": "",
-   "due": "2026-10-13",
+   "due": "2026-10-14",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -3376,7 +3376,7 @@
    "cat": "To Do",
    "fv": "R9.8.4",
    "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Vivienne Chawande",
    "prio": "1: Urgent",
    "created": "2026-10-13T07:47:29.997-0700",
@@ -28935,31 +28935,6 @@
    "triage": "",
    "parentKey": "PLANS-12030",
    "parentName": "Plans Misc Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-16751",
-   "name": "Stage - PMP - Purchase Plan - Add adult Member - Additional member can be added using the same email as the primary member",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Hunter Redhead",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-05-22T15:55:49.004-0700",
-   "resolved": "2026-07-15T09:13:41.910-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
