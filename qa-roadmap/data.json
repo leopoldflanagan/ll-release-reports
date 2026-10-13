@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T06:45:23+00:00",
+ "generated_at": "2026-10-13T07:00:30+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1526,31 +1526,6 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-24380",
-   "name": "PMP - One Smile - Minor UI - Plan cards are not aligned",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-12T08:25:44.179-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24361",
@@ -3644,6 +3619,31 @@
    "init": ""
   },
   {
+   "key": "PLANS-24380",
+   "name": "PMP - One Smile - Minor UI - Plan cards are not aligned",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-12T08:25:44.179-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24273",
    "name": "Prod/Plan Details PDF/Provider Link is not clickable",
    "pod": "LL",
@@ -4523,7 +4523,7 @@
    "prio": "2: Important",
    "created": "2026-08-14T03:19:43.137-0700",
    "resolved": "",
-   "due": "2026-10-12",
+   "due": "2026-10-13",
    "labels": [
     "group1_migration",
     "product_prioritized"
