@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T17:15:25+00:00",
+ "generated_at": "2026-10-13T17:19:18+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -3338,34 +3338,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24449",
-   "name": "BLOCKER - STAGE - PDF will not open",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-13T08:27:53.651-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24445",
    "name": "Prod/Digital Smiles and One Smile/Plan Details PDF/Incorrect Legal language in the PDF",
    "pod": "LL",
@@ -4885,6 +4857,34 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-24449",
+   "name": "BLOCKER - STAGE - PDF will not open",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-13T08:27:53.651-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24335",
