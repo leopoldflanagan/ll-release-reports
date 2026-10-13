@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T23:30:24+00:00",
+ "generated_at": "2026-10-13T23:37:08+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -29010,31 +29010,6 @@
    "triage": "",
    "parentKey": "PLANS-18470",
    "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-16898",
-   "name": "WFP \\ Membership Agreement layout issue and “Accept” button enabled by default",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Hunter Redhead",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-05-27T12:03:16.631-0700",
-   "resolved": "2026-07-15T16:34:45.986-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-12030",
-   "parentName": "Plans Misc Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
