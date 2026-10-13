@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T11:30:26+00:00",
+ "generated_at": "2026-10-13T11:45:25+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -28860,6 +28860,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24439",
+   "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Valentyna Tenus"
+  },
   {
    "key": "PLANS-24427",
    "name": "Digital Smiles/Plan Detail PDF/Blank Page is displayed in the document",
