@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T20:30:26+00:00",
+ "generated_at": "2026-10-13T20:41:38+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1153,7 +1153,7 @@
  "bugs": [
   {
    "key": "PLANS-24384",
-   "name": "PreProd-PMP-Logo Missing form Membership Agreement for One Smile and all other Offices.",
+   "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -28994,6 +28994,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24468",
+   "name": "PMP - Plan name is not visible when practice sells only 1 type",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24467",
    "name": "Preprod - One Smile- Membership agreement - logo is not visible",
