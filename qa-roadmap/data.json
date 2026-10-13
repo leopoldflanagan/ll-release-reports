@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T19:00:27+00:00",
+ "generated_at": "2026-10-13T19:12:22+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -468,7 +468,7 @@
   {
    "key": "WT-887",
    "name": "SaaS Fee Per Practice",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-06",
    "fv": "R9.9",
    "who": "Vic Du Plessis",
@@ -967,7 +967,7 @@
    "name": "SaaS Fee Per Practice",
    "pod": "PLAT",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.9",
    "ted": "2026-10-06",
    "who": "Vic Du Plessis",
@@ -1151,34 +1151,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24439",
-   "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "2: Important",
-   "created": "2026-10-13T04:41:41.492-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24384",
    "name": "PreProd-PMP-Logo Missing form Membership Agreement for One SMile",
@@ -4142,6 +4114,34 @@
    "linkedLP": false,
    "initKey": "WT-384",
    "init": "Launch Loyalty Multi-Site Offices (Phase 3)"
+  },
+  {
+   "key": "PLANS-24439",
+   "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "2: Important",
+   "created": "2026-10-13T04:41:41.492-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24380",
