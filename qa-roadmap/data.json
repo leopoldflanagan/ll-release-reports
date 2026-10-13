@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T07:00:30+00:00",
+ "generated_at": "2026-10-13T07:15:22+00:00",
  "today": "2026-10-13",
  "features": [
   {
@@ -1457,7 +1457,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-12T11:26:52.717-0700",
@@ -1590,7 +1590,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Daniel Marineni",
    "prio": "2: Important",
    "created": "2026-10-09T08:49:57.908-0700",
