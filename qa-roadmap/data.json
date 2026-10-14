@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T09:45:24+00:00",
+ "generated_at": "2026-10-14T10:00:27+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -4197,31 +4197,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24380",
-   "name": "PMP - One Smile - Minor UI - Plan cards are not aligned",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-12T08:25:44.179-0700",
-   "resolved": "",
-   "due": "2026-10-16",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24340",
    "name": "Plan details the paragraph is not correct in WFPAY.",
    "pod": "LL",
@@ -4336,34 +4311,6 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
-   "key": "PLANS-23844",
-   "name": "Account Information | None membership is not showing Information until after selecting history",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-29T10:53:22.056-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24439",
    "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
    "pod": "LL",
@@ -4390,6 +4337,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24380",
+   "name": "PMP - One Smile - Minor UI - Plan cards are not aligned",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-12T08:25:44.179-0700",
+   "resolved": "",
+   "due": "2026-10-16",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24339",
@@ -4466,6 +4438,34 @@
    "labels": [
     "CCB_candidate",
     "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-23844",
+   "name": "Account Information | None membership is not showing Information until after selecting history",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-29T10:53:22.056-0700",
+   "resolved": "",
+   "due": "2026-10-15",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
