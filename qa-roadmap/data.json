@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T20:50:25+00:00",
+ "generated_at": "2026-10-14T21:00:23+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -2449,6 +2449,35 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-24439",
+   "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "2: Important",
+   "created": "2026-10-13T04:41:41.492-0700",
+   "resolved": "",
+   "due": "2026-10-15",
+   "labels": [
+    "OneSmile",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24384",
    "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
@@ -5844,60 +5873,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24439",
-   "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "2: Important",
-   "created": "2026-10-13T04:41:41.492-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "OneSmile",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24380",
-   "name": "PMP - One Smile - Minor UI - Plan cards are not aligned",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-12T08:25:44.179-0700",
-   "resolved": "",
-   "due": "2026-10-16",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24339",
    "name": "URL is correct in member portal, but incorrect in WF Pay",
    "pod": "LL",
@@ -7079,6 +7054,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24380",
+   "name": "PMP - One Smile - Minor UI - Plan cards are not aligned",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-12T08:25:44.179-0700",
+   "resolved": "2026-10-14T13:56:40.860-0700",
+   "due": "2026-10-16",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24168",
    "name": "Plan Details - Grammar mistake in auto renewal text 'your administration fee of will be waived'",
