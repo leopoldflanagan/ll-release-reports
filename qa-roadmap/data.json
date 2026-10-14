@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T14:51:19+00:00",
+ "generated_at": "2026-10-14T15:00:26+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -1151,34 +1151,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24474",
-   "name": "Production - Tiered Plans - Plan Details",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-13T20:55:44.081-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24384",
    "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
@@ -4166,6 +4138,34 @@
    "init": "Launch Loyalty Multi-Site Offices (Phase 3)"
   },
   {
+   "key": "PLANS-24474",
+   "name": "Production - Tiered Plans - Plan Details",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-13T20:55:44.081-0700",
+   "resolved": "",
+   "due": "2026-10-15",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24473",
    "name": "PROD - ONE SMILE Changes to Website - WA Change",
    "pod": "LL",
@@ -4211,34 +4211,6 @@
     "group1_migration",
     "group2_migration",
     "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24188",
-   "name": "PreProd PMP \\ Error when trying to manually renew a migrated member",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-07T07:13:24.181-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -4419,19 +4391,19 @@
    "init": ""
   },
   {
-   "key": "PLANS-24288",
-   "name": "PRODUCTION - Theme Bug",
+   "key": "PLANS-24188",
+   "name": "PreProd PMP \\ Error when trying to manually renew a migrated member",
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
+   "who": "Petro Yarish",
+   "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
-   "created": "2026-10-08T11:39:42.185-0700",
+   "created": "2026-10-07T07:13:24.181-0700",
    "resolved": "",
-   "due": "2026-10-12",
+   "due": "2026-10-14",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -5013,6 +4985,34 @@
     "group1_migration",
     "group2_migration",
     "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24288",
+   "name": "PRODUCTION - Theme Bug",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-08T11:39:42.185-0700",
+   "resolved": "",
+   "due": "2026-10-12",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
