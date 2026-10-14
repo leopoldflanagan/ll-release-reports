@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T06:30:26+00:00",
+ "generated_at": "2026-10-14T06:45:21+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -1151,6 +1151,62 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-24474",
+   "name": "Production - Tiered Plans - Plan Details",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-13T20:55:44.081-0700",
+   "resolved": "",
+   "due": "2026-10-14",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24473",
+   "name": "PROD - ONE SMILE Changes to Website - WA Change",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-13T19:53:11.403-0700",
+   "resolved": "",
+   "due": "2026-10-14",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24384",
    "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
@@ -3358,62 +3414,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24474",
-   "name": "Production - Tiered Plans - Plan Details",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-13T20:55:44.081-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24473",
-   "name": "PROD - ONE SMILE Changes to Website - WA Change",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-13T19:53:11.403-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24273",
    "name": "Prod/Plan Details PDF/Provider Link is not clickable",
    "pod": "LL",
@@ -4479,34 +4479,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-22140",
-   "name": "Plan Details PDF in PMP and CSP - Showing only Prophy plan prices (Perio/ Child prices are not visible)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-31T12:13:06.814-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21251",
    "name": "PMP - Payment Widget - Required Validation Messages Missing for Expiration Date, CVV, and Billing ZIP Code in Manage Patient > Add Payment Methods",
    "pod": "LL",
@@ -4702,6 +4674,34 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-22140",
+   "name": "Plan Details PDF in PMP and CSP - Showing only Prophy plan prices (Perio/ Child prices are not visible)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-31T12:13:06.814-0700",
+   "resolved": "",
+   "due": "2026-10-14",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-23258",
