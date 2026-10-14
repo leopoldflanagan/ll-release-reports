@@ -1091,7 +1091,14 @@ function renderRoadmap(){
         rmRels.add(card.dataset.rel || "");
         if(seg) rmFlags.add(seg.dataset.state);
         rmOpenMenu=null; buildRoadmapThemeChips(); renderRoadmap();
-        const b=document.getElementById("board"); if(b) b.scrollIntoView({behavior:"smooth",block:"start"});
+        // Scroll to whichever section actually received the rows. Unplanned
+        // features have no date, so they land in the list BELOW the board -
+        // scrolling to an empty board made the click look like it did nothing.
+        const board=document.getElementById("board");
+        const onBoard=board && board.querySelectorAll(".fkey").length;
+        const target=onBoard ? board : (document.querySelectorAll("#nodate li").length
+                                          ? document.getElementById("backlogtitle") : board);
+        if(target) target.scrollIntoView({behavior:"smooth",block:"start"});
       };
       host.addEventListener("click", e=>go(e.target));
       host.addEventListener("keydown", e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); go(e.target); } });
