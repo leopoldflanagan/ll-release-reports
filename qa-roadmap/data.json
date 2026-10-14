@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T22:00:27+00:00",
+ "generated_at": "2026-10-14T22:13:51+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -338,7 +338,7 @@
    "name": "Implement web analytics platform to support DSO analytics requirements",
    "status": "Requirements",
    "ted": "2026-11-04",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -1485,7 +1485,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Requirements",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "ted": "2026-11-04",
    "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
@@ -2588,6 +2588,31 @@
    "init": ""
   },
   {
+   "key": "PLANS-24511",
+   "name": "Member Portal \\ CREG Membership card is missing plan end date",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-14T14:49:19.133-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24263",
+   "parentName": "End to end QA validation for CREG",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-435",
+   "init": "CREG / Additional PDS Family TPA Clients"
+  },
+  {
    "key": "PLANS-24498",
    "name": "Stage-Essential Smile/SmileHealth/Custom Portals-Missing Coverage Type in Plan Summary while purchasing plan",
    "pod": "LL",
@@ -2886,7 +2911,10 @@
    "created": "2026-10-12T06:57:41.620-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
@@ -4708,6 +4736,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24499",
+   "name": "Configuration Changes - not taking in Prod.",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-14T10:08:00.607-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24478",
    "name": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price",
    "pod": "LL",
@@ -6491,31 +6547,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24499",
-   "name": "Production - True North - Practices not showing on Website",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-14T10:08:00.607-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -30065,13 +30096,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24511",
-   "name": "Member Portal \\ CREG Membership card is missing plan end date",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
   {
    "key": "PLANS-24467",
    "name": "Preprod - One Smile- Membership agreement - logo is not visible",
