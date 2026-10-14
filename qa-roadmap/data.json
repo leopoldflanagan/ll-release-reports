@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T18:00:27+00:00",
+ "generated_at": "2026-10-14T18:15:22+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -2451,7 +2451,7 @@
  "bugs": [
   {
    "key": "PLANS-24476",
-   "name": "PRODUCTION - True North",
+   "name": "PRODUCTION - True North pulling wrong plans",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -2465,34 +2465,6 @@
    "due": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24474",
-   "name": "Production - Tiered Plans - Plan Details",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "H9.8.5",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-13T20:55:44.081-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
@@ -6609,6 +6581,34 @@
    "created": "2026-10-14T06:07:34.813-0700",
    "resolved": "",
    "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24474",
+   "name": "Production - Tiered Plans - Plan Details",
+   "pod": "LL",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "H9.8.5",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-13T20:55:44.081-0700",
+   "resolved": "",
+   "due": "2026-10-15",
    "labels": [
     "group2_migration",
     "product_prioritized"
