@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T17:12:51+00:00",
+ "generated_at": "2026-10-14T17:15:23+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -2606,6 +2606,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24499",
+   "name": "Production - True North - Practices not showing on Website",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "H9.8.5",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Chris Rubio",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-14T10:08:00.607-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -30306,13 +30331,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24499",
-   "name": "Production - True North - Practices not showing on Website",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Camille Knight"
-  },
   {
    "key": "PLANS-24467",
    "name": "Preprod - One Smile- Membership agreement - logo is not visible",
