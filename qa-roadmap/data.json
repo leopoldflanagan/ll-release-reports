@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T14:40:39+00:00",
+ "generated_at": "2026-10-14T14:45:24+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -206,7 +206,7 @@
    "name": "WFShare reporting for new Individual Plus Plan",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.9",
+   "fv": null,
    "who": "Camille Knight",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -514,7 +514,7 @@
    "name": "TN/CA Capabilities for Care Pay + Clients",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -704,7 +704,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Ready for Development",
-   "fv": "R9.9",
+   "fv": null,
    "ted": null,
    "who": "Camille Knight",
    "theme": "LL-Fast Follows"
@@ -1012,7 +1012,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Ready for Development",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "ted": null,
    "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
@@ -1340,6 +1340,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24480",
+   "name": "PMP - DCA - membership card print - logo should be corrected.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-14T07:43:42.519-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24469",
