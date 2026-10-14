@@ -171,6 +171,10 @@
   .xref a{color:var(--blue);font-weight:700;text-decoration:none}
   .xref a:hover{text-decoration:underline}
   .pod{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:20px;background:rgba(27,95,168,.1);color:var(--blue)}
+  .rowtop{align-self:flex-start;margin-bottom:1px}
+  .fvchip{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;
+    background:rgba(27,95,168,.1);color:var(--blue);letter-spacing:.02em;white-space:nowrap}
+  .fvchip.none{background:rgba(90,107,125,.12);color:var(--muted);font-weight:600}
   .themetag{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;white-space:nowrap;background:rgba(122,95,176,.12);color:var(--purple)}
   .themetag.th-llmvp{background:rgba(27,95,168,.12);color:var(--blue)}
   .themetag.th-llfastfollows{background:rgba(76,175,46,.14);color:var(--green)}
@@ -185,7 +189,13 @@
   .bar.expected .dot{background:var(--blue)}
   .loadrow{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch;margin:16px 0 4px}
   .loadlbl{flex:0 0 100%;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
-  .loadcard{border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--surface);min-width:170px}
+  .loadcard{border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--surface);min-width:170px;
+    cursor:pointer;transition:border-color .12s,box-shadow .12s,transform .12s}
+  .loadcard:hover{border-color:var(--blue);box-shadow:0 2px 10px rgba(27,95,168,.12);transform:translateY(-1px)}
+  .loadcard:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  .loadcard .lsplit>span{cursor:pointer}
+  .loadcard .lsplit>span:hover{filter:brightness(.93)}
+  .loadhint{font-weight:600;text-transform:none;letter-spacing:0;opacity:.75}
   .loadcard .lrel{font-size:12.5px;font-weight:800;display:flex;align-items:baseline;gap:7px}
   .loadcard .lfz{font-size:10.5px;font-weight:600;color:var(--muted)}
   .loadcard .lnum{font-size:21px;font-weight:800;margin:3px 0 5px;line-height:1}
@@ -935,18 +945,20 @@ let rmPods=new Set(), rmThemes=new Set(), rmRels=new Set(), rmStatus=new Set(), 
 const RM_FLAG={
   overdue:{label:"\u26a0 Overdue",            test:f=>featOverdue(f)},
   blocked:{label:"\u26d4 Blocked / on hold",  test:f=>isBlocked(f)},
-  noest:  {label:"\u2753 No dev estimate",    test:f=>isExpected(f) && !isQA(f)},
-  nodate: {label:"No release assigned",    test:f=>isUnplanned(f) && !isQA(f)}
+  noest:  {label:"\u2753 No dev estimate",    test:f=>planState(f)==="expected"},
+  nodate: {label:"No release assigned",    test:f=>planState(f)==="unplanned"},
+  hasest: {label:"\u2713 Dev estimate given", test:f=>planState(f)==="committed"}
 };
 function rmBase(){ return segAll().items; }
 // skip = the group being counted, so each menu shows what you would get by
 // picking that option, not a count frozen before the other filters applied.
 function rmApply(items, skip){
-  if(skip!=="pod"    && rmPods.size)   items=items.filter(f=>rmPods.has(f.pod||""));
-  if(skip!=="theme"  && rmThemes.size) items=items.filter(f=>rmThemes.has(f.theme||""));
-  if(skip!=="rel"    && rmRels.size)   items=items.filter(f=>rmRels.has(f.fv||""));
-  if(skip!=="status" && rmStatus.size) items=items.filter(f=>rmStatus.has(f.status||""));
-  if(skip!=="flag"   && rmFlags.size)  items=items.filter(f=>[...rmFlags].some(k=>RM_FLAG[k]&&RM_FLAG[k].test(f)));
+  const off = g => skip===g || (Array.isArray(skip) && skip.indexOf(g)>=0);
+  if(!off("pod")    && rmPods.size)   items=items.filter(f=>rmPods.has(f.pod||""));
+  if(!off("theme")  && rmThemes.size) items=items.filter(f=>rmThemes.has(f.theme||""));
+  if(!off("rel")    && rmRels.size)   items=items.filter(f=>rmRels.has(f.fv||""));
+  if(!off("status") && rmStatus.size) items=items.filter(f=>rmStatus.has(f.status||""));
+  if(!off("flag")   && rmFlags.size)  items=items.filter(f=>[...rmFlags].some(k=>RM_FLAG[k]&&RM_FLAG[k].test(f)));
   return items;
 }
 function rmFiltered(){
@@ -997,7 +1009,10 @@ function renderRoadmap(){
     const c=cls(f);
     const url=JIRA+f.key;
     const w=barWidth(f);
-    const podTag = f.pod ? `<span class="pod" style="margin-right:6px">${f.pod}</span>` : '';
+    // Status leads the row: on a QA board "where is this in the pipe" beats
+    // "whose pod is it". Fix version takes the chip slot status used to hold,
+    // and the pod drops into the grey meta line where the release used to sit.
+    const fvTag = `<span class="fvchip${f.fv?'':' none'}">${f.fv||'no release'}</span>`;
     const over = featOverdue(f);
     const spot = SPOTLIGHT[f.key];
     // tooltip content (custom CSS tooltip so it appears reliably over the whole bar)
@@ -1020,7 +1035,11 @@ function renderRoadmap(){
       WEEKS.map(x=>`<div class="gridcell ${x.freeze?'freeze':''}"></div>`).join("")+
       `<a class="bar ${c}" href="${url}" target="_blank" rel="noopener" style="left:calc(${leftPct}% - 2px);${isExpected(f)?'width:auto;padding:0 11px;':`width:${w}px;`}${leftPct>60?'transform:translate(-100%,-50%)':''}"><span class="dot"></span>${barLabel(f)}${tip}</a>`+
       `</div>`;
-    row.innerHTML=`<div class="cellL">${podTag}<a class="fkey" href="${url}" target="_blank" rel="noopener" title="Open in Jira">${f.key}</a><span class="fname">${warnIcon}${f.name}</span><span class="fmeta">${statusPill(f.status)}<span class="fmrest">${f.fv||'—'}${szMeta} · ${f.who}</span></span></div>${lane}`;
+    row.innerHTML=`<div class="cellL"><span class="rowtop">${statusPill(f.status)}</span>`
+      + `<a class="fkey" href="${url}" target="_blank" rel="noopener" title="Open in Jira">${f.key}</a>`
+      + `<span class="fname">${warnIcon}${f.name}</span>`
+      + `<span class="fmeta">${fvTag}<span class="fmrest">${f.pod||'\u2014'}${szMeta} \u00b7 ${f.who}</span></span>`
+      + `</div>${lane}`;
     return row;
   }
 
@@ -1029,8 +1048,13 @@ function renderRoadmap(){
     let host=document.getElementById("rmload");
     if(!host){ host=document.createElement("div"); host.id="rmload"; host.className="loadrow"; board.parentNode.insertBefore(host, board); }
     const PT={Tiny:1,Small:2,Moderate:3,Large:5,"X-Large":8,Huge:13};
+    // Pod / Status / Theme / search still narrow these numbers - "what QA is due
+    // to receive, for LL" is a fair question - but Release and the plan-state
+    // flags are left out, because those are what the cards THEMSELVES set.
+    let cardItems = rmApply(rmBase(), ["rel","flag"]);
+    if(rmSearchTerm) cardItems = cardItems.filter(f=>matchSearch(f, rmSearchTerm));
     const rel={};
-    items.forEach(f=>{
+    cardItems.forEach(f=>{
       const k=f.fv||"(no release)";
       const r=rel[k]||(rel[k]={committed:0,expected:0,unplanned:0,pts:0});
       r[planState(f)]++; r.pts += PT[f.tshirt]||0;
@@ -1040,16 +1064,38 @@ function renderRoadmap(){
       const ia=order.indexOf(a), ib=order.indexOf(b);
       return (ia<0?99:ia)-(ib<0?99:ib) || a.localeCompare(b);
     });
-    host.innerHTML = `<div class="loadlbl">What QA is due to receive</div>` + keys.map(k=>{
+    // data-rel carries "" for the no-release bucket, which is exactly the value
+    // the Release filter stores, so no translation is needed on the way in.
+    host.innerHTML = `<div class="loadlbl">What QA is due to receive \u2014 <span class="loadhint">click a card to filter the timeline</span></div>`
+      + keys.map(k=>{
       const r=rel[k], tot=r.committed+r.expected+r.unplanned;
-      const fz=relFreeze(k);
-      return `<div class="loadcard"><div class="lrel">${esc(k)}${fz?`<span class="lfz">freeze ${fz.toLocaleDateString('en-US',{month:'short',day:'numeric'})}</span>`:''}</div>`
+      const fz=relFreeze(k), rv=(k==="(no release)"?"":k);
+      return `<div class="loadcard" role="button" tabindex="0" data-rel="${esc(rv)}" title="Show only ${esc(k)} on the timeline">`
+        + `<div class="lrel">${esc(k)}${fz?`<span class="lfz">freeze ${fz.toLocaleDateString('en-US',{month:'short',day:'numeric'})}</span>`:''}</div>`
         + `<div class="lnum">${tot}<span>feature${tot!==1?"s":""} \u00b7 ${r.pts} pts</span></div>`
-        + `<div class="lsplit"><span class="lc">${r.committed} committed</span>`
-        + (r.expected?`<span class="le">${r.expected} expected</span>`:"")
-        + (r.unplanned?`<span class="lu">${r.unplanned} unplanned</span>`:"")
+        + `<div class="lsplit">`
+        + (r.committed?`<span class="lc" data-state="hasest" title="${r.committed} with a dev estimate">${r.committed} committed</span>`:"")
+        + (r.expected?`<span class="le" data-state="noest" title="${r.expected} with no estimate, placed at the freeze">${r.expected} expected</span>`:"")
+        + (r.unplanned?`<span class="lu" data-state="nodate" title="${r.unplanned} with no release and no date">${r.unplanned} unplanned</span>`:"")
         + `</div></div>`;
     }).join("");
+    if(!host.dataset.wired){
+      host.dataset.wired="1";
+      const go = t => {
+        const card=t.closest(".loadcard"); if(!card) return;
+        const seg=t.closest("[data-state]");
+        // Replace only what the cards own - release and plan state - and keep any
+        // Pod / Status / Theme / search the person already set, because the number
+        // printed on the card was computed with those applied.
+        rmRels.clear(); rmFlags.clear();
+        rmRels.add(card.dataset.rel || "");
+        if(seg) rmFlags.add(seg.dataset.state);
+        rmOpenMenu=null; buildRoadmapThemeChips(); renderRoadmap();
+        const b=document.getElementById("board"); if(b) b.scrollIntoView({behavior:"smooth",block:"start"});
+      };
+      host.addEventListener("click", e=>go(e.target));
+      host.addEventListener("keydown", e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); go(e.target); } });
+    }
   })();
 
   // 1) QA Ready / In Progress lane (In Testing+) — separated, date-independent
