@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T22:45:22+00:00",
+ "generated_at": "2026-10-14T22:49:32+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -4766,6 +4766,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24113",
+   "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-05T08:23:22.128-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24101",
    "name": "Member portal - ADD Plan - now showing all available plans. (ranking set via system settings )",
    "pod": "PLANS",
@@ -5641,7 +5669,7 @@
    "pod": "PLANS",
    "status": "On Hold",
    "cat": "In Progress",
-   "fv": "R9.9",
+   "fv": "R9.10\"",
    "sprint": "Plans-Sprint 24-26",
    "who": "Daniel Marineni",
    "reporter": "Daryl Myrick",
@@ -6437,34 +6465,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24113",
-   "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-05T08:23:22.128-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
