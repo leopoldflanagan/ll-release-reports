@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T08:45:22+00:00",
+ "generated_at": "2026-10-14T09:00:44+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -4252,36 +4252,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24339",
-   "name": "URL is correct in member portal, but incorrect in WF Pay",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Nazarii Polinyk",
-   "reporter": "Daniel Marineni",
-   "prio": "2: Important",
-   "created": "2026-10-09T08:49:57.908-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24188",
    "name": "PreProd PMP \\ Error when trying to manually renew a migrated member",
    "pod": "LL",
@@ -4409,6 +4379,36 @@
    "due": "",
    "labels": [
     "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24339",
+   "name": "URL is correct in member portal, but incorrect in WF Pay",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Nazarii Polinyk",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-09T08:49:57.908-0700",
+   "resolved": "",
+   "due": "2026-10-14",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
     "product_prioritized"
    ],
    "theme": "",
