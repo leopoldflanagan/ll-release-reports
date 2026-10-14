@@ -70,7 +70,8 @@
   .cellL{padding:8px 14px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;gap:2px}
   .fkey{font-size:11px;color:var(--blue);font-weight:700;font-variant-numeric:tabular-nums}
   .fname{font-size:12.5px;color:var(--ink);font-weight:500;line-height:1.25}
-  .fmeta{font-size:10.5px;color:var(--muted)}
+  .fmeta{font-size:10.5px;color:var(--muted);display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:1px}
+  .fmeta .fmrest{min-width:0}
   .lane{position:relative;display:grid}
   .gridcell{border-left:1px solid var(--line)}
   .gridcell.freeze{background:rgba(214,69,69,.05)}
@@ -195,6 +196,8 @@
   .loadcard .lu{background:rgba(232,163,23,.20);color:#8a6000;padding:2px 7px;border-radius:999px}
   .pill.hold{background:rgba(90,107,125,.14);color:var(--muted)}
   .pill.idea{background:rgba(27,95,168,.1);color:var(--blue)}
+  .pill.shaping{background:rgba(90,107,125,.13);color:var(--muted)}
+  .pill.blocked{background:rgba(179,38,30,.12);color:var(--p1)}
   .pill.closed{background:rgba(76,175,46,.14);color:var(--green)}
   .lbl{font-size:10px;color:var(--muted);background:var(--track);padding:1px 6px;border-radius:4px;margin-right:3px;white-space:nowrap}
   .muted-date{color:var(--muted)}
@@ -1017,7 +1020,7 @@ function renderRoadmap(){
       WEEKS.map(x=>`<div class="gridcell ${x.freeze?'freeze':''}"></div>`).join("")+
       `<a class="bar ${c}" href="${url}" target="_blank" rel="noopener" style="left:calc(${leftPct}% - 2px);${isExpected(f)?'width:auto;padding:0 11px;':`width:${w}px;`}${leftPct>60?'transform:translate(-100%,-50%)':''}"><span class="dot"></span>${barLabel(f)}${tip}</a>`+
       `</div>`;
-    row.innerHTML=`<div class="cellL">${podTag}<a class="fkey" href="${url}" target="_blank" rel="noopener" title="Open in Jira">${f.key}</a><span class="fname">${warnIcon}${f.name}</span><span class="fmeta">${f.fv||'—'} · ${f.status}${szMeta} · ${f.who}</span></div>${lane}`;
+    row.innerHTML=`<div class="cellL">${podTag}<a class="fkey" href="${url}" target="_blank" rel="noopener" title="Open in Jira">${f.key}</a><span class="fname">${warnIcon}${f.name}</span><span class="fmeta">${statusPill(f.status)}<span class="fmrest">${f.fv||'—'}${szMeta} · ${f.who}</span></span></div>${lane}`;
     return row;
   }
 
@@ -1196,14 +1199,20 @@ document.addEventListener("click",e=>{ if(rmOpenMenu && !(e.target.closest && e.
 let ALL = [];
 
 const JIRA="https://wellfit.atlassian.net/browse/";
+// Five colours, read from QA's point of view: nobody is building it yet (grey),
+// it is ready to be picked up (blue), it is being built (amber), QA has it
+// (purple), it is stopped (red). The words carry the detail; the colour only
+// has to answer "where is this in the pipe" from across the room.
 function statusPill(s){
   const k=(s||'').toLowerCase();
-  let cls="dev";
+  let cls="dev";                                                  // In Development and anything unrecognised
   if(k.includes("test")) cls="testing";
-  else if(k.includes("hold")) cls="hold";
-  else if(k.includes("idea")) cls="idea";
+  else if(k.includes("hold")||k.includes("block")) cls="blocked";
   else if(k.includes("closed")||k.includes("done")) cls="closed";
-  else if(k.includes("ready for dev")) cls="idea";
+  else if(k.includes("ready for dev")) cls="idea";                // the handoff point
+  else if(k.includes("backlog")||k.includes("requirement")
+       || k.includes("architect")||k.includes("idea")
+       || k.includes("draft")||k.includes("groom")) cls="shaping"; // not started
   return `<span class="pill ${cls}">${s}</span>`;
 }
 function fmtDate(d){ return d?dOnly(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}):'<span class="muted-date">\u2014</span>'; }
