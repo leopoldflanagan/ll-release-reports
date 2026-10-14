@@ -659,6 +659,10 @@
         <div class="dropbar" id="rmdropbar"></div>
         <div class="chipsel" id="rmchips"></div>
       </div>
+      <div class="filterfoot">
+        <span class="fcount" id="rmfcount"></span>
+        <button class="clearall" id="rmclearall" type="button">✕ Clear all filters</button>
+      </div>
     </div>
     <div class="legend" style="margin-top:14px">
       <span class="chip"><span class="sw ready"></span><b>QA Ready / In Progress</b> (In Testing)</span>
@@ -822,7 +826,11 @@ function dOnly(s){
   if(s instanceof Date) return s;
   return (typeof s === "string" && /^\d{4}-\d{2}-\d{2}$/.test(s)) ? new Date(s + "T00:00:00") : new Date(s);
 }
-function isOverdue(f){ return f.ted && dOnly(f.ted) < TODAY && !isQA(f); }
+// Named featOverdue, not isOverdue: the bug board declares its own isOverdue(b)
+// later in this same scope, and the later declaration wins. The roadmap was
+// silently calling the BUG version, which returns false for a feature - so the
+// overdue marker never fired.
+function featOverdue(f){ return f.ted && dOnly(f.ted) < TODAY && !isQA(f); }
 // Optional Leadership Spotlight note per feature (by-exception; filled by SM). Shown on hover for blocked/at-risk bars.
 const SPOTLIGHT = {
   "PLANS-15451":"Plan Design on hold pending prioritization decision — not currently staffed.",
@@ -852,12 +860,12 @@ function weekOf(f){
 function cls(f){
   if(isBlocked(f)) return "late";          // blocked / on hold → red
   if(isQA(f)) return "ready";              // In Testing+ → green (QA can work it)
-  if(isOverdue(f)) return "dev";           // date passed but still amber bar; warning icon flags it
+  if(featOverdue(f)) return "dev";           // date passed but still amber bar; warning icon flags it
   return "dev";                            // in progress toward QA → amber
 }
 function barLabel(f){
   if(isQA(f)) return "In Testing";
-  const warn = isOverdue(f) ? "⚠ " : "";
+  const warn = featOverdue(f) ? "⚠ " : "";
   if(f.ted) return warn+dOnly(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric'});
   return "—";
 }
@@ -879,7 +887,41 @@ function weekCenter(wi){ const s=pct(WEEKS[wi].start), e=pct(WEEKS[wi].end); ret
 // Theme lookup by key (from the cross-pod theme dataset) so roadmap items can be theme-filtered.
 const THEME_BY_KEY = {};
 function rebuildThemeIndex(){ for(const k in THEME_BY_KEY) delete THEME_BY_KEY[k]; FEATURES_ALL.forEach(f=>{ if(f.theme) THEME_BY_KEY[f.key]=f.theme; }); }
-let rmSeg="all", rmThemes=new Set(), rmRels=new Set();   // empty Set = All; multi-select OR within a group, AND across groups
+// Roadmap filters. Pod is the real Jira Pod field (customfield_11626). It used to
+// be three hand-made views - LL / Plans / Cross Pod - and "Cross Pod" was quietly
+// three different pods (DYN, PLAT, EDW) stuffed into one bucket.
+let rmPods=new Set(), rmThemes=new Set(), rmRels=new Set(), rmStatus=new Set(), rmFlags=new Set();
+// Flags answer "what is slipping?" off values the board already computes.
+const RM_FLAG={
+  overdue:{label:"\u26a0 Overdue",            test:f=>featOverdue(f)},
+  blocked:{label:"\u26d4 Blocked / on hold",  test:f=>isBlocked(f)},
+  nodate: {label:"No Target End",          test:f=>!f.ted && !isQA(f)}
+};
+function rmBase(){ return segAll().items; }
+// skip = the group being counted, so each menu shows what you would get by
+// picking that option, not a count frozen before the other filters applied.
+function rmApply(items, skip){
+  if(skip!=="pod"    && rmPods.size)   items=items.filter(f=>rmPods.has(f.pod||""));
+  if(skip!=="theme"  && rmThemes.size) items=items.filter(f=>rmThemes.has(f.theme||""));
+  if(skip!=="rel"    && rmRels.size)   items=items.filter(f=>rmRels.has(f.fv||""));
+  if(skip!=="status" && rmStatus.size) items=items.filter(f=>rmStatus.has(f.status||""));
+  if(skip!=="flag"   && rmFlags.size)  items=items.filter(f=>[...rmFlags].some(k=>RM_FLAG[k]&&RM_FLAG[k].test(f)));
+  return items;
+}
+function rmFiltered(){
+  let it=rmApply(rmBase(),null);
+  if(rmSearchTerm) it=it.filter(f=>matchSearch(f,rmSearchTerm));
+  return it;
+}
+function rmActiveCount(){
+  return (rmPods.size?1:0)+(rmThemes.size?1:0)+(rmRels.size?1:0)+(rmStatus.size?1:0)+(rmFlags.size?1:0)+(rmSearchTerm?1:0);
+}
+function updateRoadmapFoot(shown){
+  const n=rmActiveCount();
+  const fc=document.getElementById("rmfcount"), ca=document.getElementById("rmclearall");
+  if(fc) fc.innerHTML = n ? `<b>${shown}</b> shown \u00b7 ${n} filter${n>1?"s":""} active` : `<b>${shown}</b> features`;
+  if(ca) ca.classList.toggle("show", n>0);
+}
 function segData(seg){
   let items;
   if(seg==="LL"){ items=FEATURES.slice(); }
@@ -896,13 +938,10 @@ function segAll(){
   const xp = segData("cross").items;
   return {items:[...ll,...pl,...xp]};
 }
-function renderRoadmap(seg){
-  rmSeg = seg;
-  const data = seg==="all" ? segAll() : segData(seg);
-  let items = data.items;
-  if(rmThemes.size) items = items.filter(f=>rmThemes.has(f.theme||""));
-  if(rmRels.size) items = items.filter(f=>rmRels.has(f.fv||""));
+function renderRoadmap(){
+  let items = rmApply(rmBase(), null);
   if(rmSearchTerm) items = items.filter(f=>matchSearch(f, rmSearchTerm));
+  updateRoadmapFoot(items.length);
   // scale header
   let scale=`<div class="scalerow"><div class="corner">Feature</div><div class="weeks" style="grid-template-columns:repeat(${NW},minmax(0,1fr))">`;
   WEEKS.forEach(w=>{ scale+=`<div class="weekhead ${w.freeze?'freeze':''}"><b>${w.label}</b>${w.freeze?`<span class="frz">${w.freeze}</span>`:''}</div>`; });
@@ -918,7 +957,7 @@ function renderRoadmap(seg){
     const url=JIRA+f.key;
     const w=barWidth(f);
     const podTag = f.pod ? `<span class="pod" style="margin-right:6px">${f.pod}</span>` : '';
-    const over = isOverdue(f);
+    const over = featOverdue(f);
     const spot = SPOTLIGHT[f.key];
     // tooltip content (custom CSS tooltip so it appears reliably over the whole bar)
     let tipHead = `${f.key} — ${f.status}`;
@@ -977,118 +1016,110 @@ function renderRoadmap(seg){
   setupPeek("nodate","nodate-toggle",5);
   document.getElementById("stamp").textContent="Snapshot built "+TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})+" from Jira. Roadmap is a snapshot — it does not auto-refresh.";
 }
-let rmOpenMenu=null;   // "pod" | "theme" | "rel" | null
-const RM_SEG_LABEL={all:"All Pods", LL:"LL QA Roadmap", PLANS:"Plans QA Roadmap", cross:"Cross Pod QA Roadmap"};
-function rmSegCount(v){ const d=(v==="all"?segAll():segData(v)); return d.items.length; }
+let rmOpenMenu=null;   // which dropdown is open, by group id
+function rmOptions(group, key, sorter){
+  const pool = rmApply(rmBase(), group);
+  const vals = Array.from(new Set(pool.map(key)));
+  vals.sort(sorter);
+  return vals.map(v=>({v, label: v || ("pod"===group?"No pod":"\u2014"), count: pool.filter(f=>key(f)===v).length}));
+}
+function rmPodOptions(){
+  return rmOptions("pod", f=>f.pod||"", (a,b)=> (!a?1:!b?-1:a.localeCompare(b)));
+}
 function rmThemeOptions(){
-  const data = rmSeg==="all" ? segAll() : segData(rmSeg);
   const order=["LL-MVP","LL-Fast Follows","ACH","ACH-Fast Follows"];
-  let found=Array.from(new Set(data.items.map(f=>f.theme).filter(Boolean)));
-  found.sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
-  [...rmThemes].forEach(t=>{ if(!found.includes(t)) rmThemes.delete(t); });
-  return found.map(t=>({v:t,label:t,count:data.items.filter(f=>f.theme===t).length}));
+  return rmOptions("theme", f=>f.theme||"", (a,b)=>{
+    if(!a) return 1; if(!b) return -1;
+    const ia=order.indexOf(a), ib=order.indexOf(b);
+    return (ia<0?99:ia)-(ib<0?99:ib) || a.localeCompare(b);
+  }).filter(o=>o.v);
 }
 function rmRelOptions(){
   // Releases sort by their numeric parts so R9.10 lands after R9.9, which a
   // plain string sort gets wrong. Features with no fixVersion group under "".
-  const data = rmSeg === "all" ? segAll() : segData(rmSeg);
-  const num = v => (String(v).match(/\d+/g) || []).map(Number);
-  const found = Array.from(new Set(data.items.map(f => f.fv || "")));
-  found.sort((a, b) => {
+  const num = v => (String(v).match(/\d+/g)||[]).map(Number);
+  return rmOptions("rel", f=>f.fv||"", (a,b)=>{
     if(!a) return 1; if(!b) return -1;
-    const A = num(a), B = num(b);
-    for(let i = 0; i < Math.max(A.length, B.length); i++){
-      if((A[i] || 0) !== (B[i] || 0)) return (A[i] || 0) - (B[i] || 0);
-    }
+    const A=num(a), B=num(b);
+    for(let i=0;i<Math.max(A.length,B.length);i++){ if((A[i]||0)!==(B[i]||0)) return (A[i]||0)-(B[i]||0); }
     return a.localeCompare(b);
-  });
-  [...rmRels].forEach(r => { if(!found.includes(r)) rmRels.delete(r); });
-  return found.map(v => ({v, label: v || "No release", count: data.items.filter(f => (f.fv || "") === v).length}));
+  }).map(o=>({...o, label:o.v||"No release"}));
 }
-function buildRoadmapThemeChips(){   // Drive-style Pod + Theme dropdowns for the roadmap
+function rmStatusOptions(){
+  return rmOptions("status", f=>f.status||"", (a,b)=> fRank(a)-fRank(b) || a.localeCompare(b));
+}
+function rmFlagOptions(){
+  const pool = rmApply(rmBase(), "flag");
+  return Object.keys(RM_FLAG).map(k=>({v:k, label:RM_FLAG[k].label, count:pool.filter(RM_FLAG[k].test).length}));
+}
+// Drop a stale selection the moment the data stops offering it, so a chip can
+// never sit there filtering everything down to nothing with no way to see why.
+function rmPrune(){
+  const base=rmBase();
+  const keep=(set,key)=>{ const have=new Set(base.map(key)); [...set].forEach(v=>{ if(!have.has(v)) set.delete(v); }); };
+  keep(rmPods,   f=>f.pod||"");
+  keep(rmThemes, f=>f.theme||"");
+  keep(rmRels,   f=>f.fv||"");
+  keep(rmStatus, f=>f.status||"");
+  [...rmFlags].forEach(k=>{ if(!RM_FLAG[k]) rmFlags.delete(k); });
+}
+const RM_GROUPS=[
+  {id:"pod",    label:"Pod",       set:()=>rmPods,   opts:rmPodOptions,    empty:"No pods in this view"},
+  {id:"rel",    label:"Release",   set:()=>rmRels,   opts:rmRelOptions,    empty:"No releases in this view"},
+  {id:"status", label:"Status",    set:()=>rmStatus, opts:rmStatusOptions, empty:"No statuses in this view"},
+  {id:"flag",   label:"Attention", set:()=>rmFlags,  opts:rmFlagOptions,   empty:"Nothing flagged"},
+  {id:"theme",  label:"Theme",     set:()=>rmThemes, opts:rmThemeOptions,  empty:"No themes in this view"}
+];
+function buildRoadmapThemeChips(){
   const bar=document.getElementById("rmdropbar"); if(!bar) return;
+  rmPrune();
   bar.innerHTML="";
-  // ---- Pod dropdown (single-select) ----
-  (function(){
-    const active=(rmSeg!=="all");
-    const wrap=document.createElement("div"); wrap.className="dropwrap"; wrap.dataset.fid="rmpod";
+  RM_GROUPS.forEach(g=>{
+    const set=g.set(), sel=[...set], opts=g.opts();
+    const wrap=document.createElement("div"); wrap.className="dropwrap"; wrap.dataset.fid="rm"+g.id;
     const btn=document.createElement("button"); btn.type="button";
-    btn.className="dropbtn"+(active?" active":"")+(rmOpenMenu==="pod"?" opened":"");
-    btn.innerHTML=`Pod: ${RM_SEG_LABEL[rmSeg]} <span class="dcar">▾</span>`;
-    btn.addEventListener("click",ev=>{ ev.stopPropagation(); rmOpenMenu=(rmOpenMenu==="pod"?null:"pod"); buildRoadmapThemeChips(); });
-    const menu=document.createElement("div"); menu.className="dropmenu"+(rmOpenMenu==="pod"?" open":"");
-    ["all","LL","PLANS","cross"].forEach(v=>{
-      const on=(rmSeg===v);
-      const it=document.createElement("button"); it.type="button"; it.className="dropitem"+(on?" on":"");
-      it.innerHTML=`<span class="dchk">${on?"✓":""}</span><span class="ditxt">${RM_SEG_LABEL[v]}</span><span class="dnum">${rmSegCount(v)}</span>`;
-      it.addEventListener("click",ev=>{ ev.stopPropagation(); if(rmSeg!==v){ rmSeg=v; rmThemes.clear(); rmRels.clear(); } rmOpenMenu="pod"; buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
-      menu.appendChild(it);
-    });
-    wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
-  })();
-  // ---- Theme dropdown (multi-select) ----
-  (function(){
-    const opts=rmThemeOptions(); const sel=[...rmThemes];
-    const wrap=document.createElement("div"); wrap.className="dropwrap"; wrap.dataset.fid="rmtheme";
-    const btn=document.createElement("button"); btn.type="button";
-    btn.className="dropbtn"+(sel.length?" active":"")+(rmOpenMenu==="theme"?" opened":"");
-    btn.innerHTML=`Theme${sel.length?` <span class="dcount">${sel.length}</span>`:""} <span class="dcar">▾</span>`;
-    btn.addEventListener("click",ev=>{ ev.stopPropagation(); rmOpenMenu=(rmOpenMenu==="theme"?null:"theme"); buildRoadmapThemeChips(); });
-    const menu=document.createElement("div"); menu.className="dropmenu"+(rmOpenMenu==="theme"?" open":"");
-    if(!opts.length){ const e=document.createElement("div"); e.className="dropitem"; e.style.opacity=".6"; e.style.cursor="default"; e.textContent="No themes in this view"; menu.appendChild(e); }
+    btn.className="dropbtn"+(sel.length?" active":"")+(rmOpenMenu===g.id?" opened":"");
+    btn.innerHTML=`${g.label}${sel.length?` <span class="dcount">${sel.length}</span>`:""} <span class="dcar">\u25be</span>`;
+    btn.addEventListener("click",ev=>{ ev.stopPropagation(); rmOpenMenu=(rmOpenMenu===g.id?null:g.id); buildRoadmapThemeChips(); });
+    const menu=document.createElement("div"); menu.className="dropmenu"+(rmOpenMenu===g.id?" open":"");
+    if(!opts.length){ const e=document.createElement("div"); e.className="dropitem"; e.style.opacity=".6"; e.style.cursor="default"; e.textContent=g.empty; menu.appendChild(e); }
     opts.forEach(o=>{
-      const on=rmThemes.has(o.v);
+      const on=set.has(o.v);
       const it=document.createElement("button"); it.type="button"; it.className="dropitem"+(on?" on":"");
-      it.innerHTML=`<span class="dchk">${on?"✓":""}</span><span class="ditxt">${o.label}</span><span class="dnum">${o.count}</span>`;
-      it.addEventListener("click",ev=>{ ev.stopPropagation(); if(rmThemes.has(o.v)) rmThemes.delete(o.v); else rmThemes.add(o.v); rmOpenMenu="theme"; buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
+      it.innerHTML=`<span class="dchk">${on?"\u2713":""}</span><span class="ditxt">${esc(o.label)}</span><span class="dnum">${o.count}</span>`;
+      it.addEventListener("click",ev=>{ ev.stopPropagation(); if(set.has(o.v)) set.delete(o.v); else set.add(o.v); rmOpenMenu=g.id; buildRoadmapThemeChips(); renderRoadmap(); });
       menu.appendChild(it);
     });
     wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
-  })();
-  // ---- Release dropdown (multi-select, same shape as Theme) ----
-  (function(){
-    const opts=rmRelOptions(); const sel=[...rmRels];
-    const wrap=document.createElement("div"); wrap.className="dropwrap"; wrap.dataset.fid="rmrel";
-    const btn=document.createElement("button"); btn.type="button";
-    btn.className="dropbtn"+(sel.length?" active":"")+(rmOpenMenu==="rel"?" opened":"");
-    btn.innerHTML=`Release${sel.length?` <span class="dcount">${sel.length}</span>`:""} <span class="dcar">▾</span>`;
-    btn.addEventListener("click",ev=>{ ev.stopPropagation(); rmOpenMenu=(rmOpenMenu==="rel"?null:"rel"); buildRoadmapThemeChips(); });
-    const menu=document.createElement("div"); menu.className="dropmenu"+(rmOpenMenu==="rel"?" open":"");
-    if(!opts.length){ const e=document.createElement("div"); e.className="dropitem"; e.style.opacity=".6"; e.style.cursor="default"; e.textContent="No releases in this view"; menu.appendChild(e); }
-    opts.forEach(o=>{
-      const on=rmRels.has(o.v);
-      const it=document.createElement("button"); it.type="button"; it.className="dropitem"+(on?" on":"");
-      it.innerHTML=`<span class="dchk">${on?"✓":""}</span><span class="ditxt">${esc(o.label)}</span><span class="dnum">${o.count}</span>`;
-      it.addEventListener("click",ev=>{ ev.stopPropagation(); if(rmRels.has(o.v)) rmRels.delete(o.v); else rmRels.add(o.v); rmOpenMenu="rel"; buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
-      menu.appendChild(it);
-    });
-    wrap.appendChild(btn); wrap.appendChild(menu); bar.appendChild(wrap);
-  })();
-  // ---- Theme chips (Pod value shows in its own button) ----
+  });
   const box=document.getElementById("rmchips");
-  if(box){ box.innerHTML=""; const sel=[...rmThemes], rsel=[...rmRels];
-    sel.forEach(v=>{
-      const chip=document.createElement("span"); chip.className="selchip";
-      chip.innerHTML=`<span class="scname">Theme:</span> ${v} <span class="scx" title="Remove">✕</span>`;
-      chip.querySelector(".scx").addEventListener("click",()=>{ rmThemes.delete(v); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
-      box.appendChild(chip);
+  if(box){
+    box.innerHTML=""; let n=0;
+    RM_GROUPS.forEach(g=>{
+      const set=g.set(); const labels={}; g.opts().forEach(o=>{ labels[o.v]=o.label; });
+      [...set].forEach(v=>{
+        n++;
+        const chip=document.createElement("span"); chip.className="selchip";
+        chip.innerHTML=`<span class="scname">${g.label}:</span> ${esc(labels[v]||v||"\u2014")} <span class="scx" title="Remove">\u2715</span>`;
+        chip.querySelector(".scx").addEventListener("click",()=>{ set.delete(v); buildRoadmapThemeChips(); renderRoadmap(); });
+        box.appendChild(chip);
+      });
     });
-    rsel.forEach(v=>{
-      const chip=document.createElement("span"); chip.className="selchip";
-      chip.innerHTML=`<span class="scname">Release:</span> ${esc(v||"No release")} <span class="scx" title="Remove">✕</span>`;
-      chip.querySelector(".scx").addEventListener("click",()=>{ rmRels.delete(v); buildRoadmapThemeChips(); renderRoadmap(rmSeg); });
-      box.appendChild(chip);
-    });
-    box.style.display=(sel.length+rsel.length)?"flex":"none";
+    box.style.display=n?"flex":"none";
   }
 }
+function rmClearAll(){
+  rmPods.clear(); rmThemes.clear(); rmRels.clear(); rmStatus.clear(); rmFlags.clear();
+  const si=document.getElementById("rmsearch"); if(si){ si.value=""; }
+  rmSearchTerm="";
+  const sb=document.getElementById("rmsearchbox"); if(sb) sb.classList.remove("hasvalue");
+  const sc=document.getElementById("rmsearchcount"); if(sc) sc.style.display="none";
+  const sx=document.getElementById("rmsearchclear"); if(sx) sx.style.display="none";
+  buildRoadmapThemeChips(); renderRoadmap();
+}
 document.addEventListener("click",e=>{ if(rmOpenMenu && !(e.target.closest && e.target.closest(".dropwrap"))){ rmOpenMenu=null; buildRoadmapThemeChips(); } });
-document.querySelectorAll("#segfilter .segbtn").forEach(b=>{
-  b.addEventListener("click",()=>{
-    document.querySelectorAll("#segfilter .segbtn").forEach(x=>x.classList.remove("active"));
-    b.classList.add("active"); rmSeg=b.dataset.seg; buildRoadmapThemeChips(); renderRoadmap(rmSeg);
-  });
-});
+(function(){ const b=document.getElementById("rmclearall"); if(b) b.addEventListener("click", rmClearAll); })();
+
 // initial render deferred until ALL is defined (called at end)
 
 // ==== MASTER DATA: all active features across pods ====
@@ -1119,7 +1150,7 @@ const FCARD_PRED = {
   dev: f=>/develop|pr /i.test(f.status),
   early: f=>/backlog|requirement|architecture|epics|ready for dev|idea/i.test(f.status),
   blocked: isBlocked,
-  overdue: isOverdue
+  overdue: featOverdue
 };
 function featureSortVal(f, key){
   switch(key){
@@ -1177,7 +1208,7 @@ const MAINT=[
    test:f=>featInFlow(f) && featOwned(f) && !f.ted},
   {v:"late", label:"Target End passed", col:"ted",
    why:f=>"Target End was "+fmtDate(f.ted)+" and it has not reached Testing",
-   test:f=>isOverdue(f)}
+   test:f=>featOverdue(f)}
 ];
 const featGaps=f=>MAINT.filter(m=>m.test(f));
 function featureBase(){
@@ -1209,7 +1240,7 @@ function renderAll(){
   };
   const gapCls=(f,col)=>featGaps(f).some(m=>m.col===col)?' class="gap"':'';
   rows.forEach(f=>{
-    const over=isOverdue(f);
+    const over=featOverdue(f);
     const warn = over ? `<span class="warnico" title="Target End date is in the past and the feature is not yet In Testing — please update the date.">⚠</span>` : '';
     const sz = f.tshirt?`<span class="tshirt t-${f.tshirt.replace(/[^a-zA-Z]/g,'').toLowerCase()}">${f.tshirt}</span>`:'<span class="muted-date">\u2014</span>';
     const tr=document.createElement("tr");
@@ -1244,7 +1275,7 @@ function renderCards(){
   const dev=base.filter(FCARD_PRED.dev).length;
   const early=base.filter(FCARD_PRED.early).length;
   const blocked=base.filter(isBlocked).length;
-  const overdue=base.filter(isOverdue).length;
+  const overdue=base.filter(featOverdue).length;
   const pctv=n=>total?Math.round(n/total*100):0;
   const bar=n=>`<div class="pctbar"><span style="width:${pctv(n)}%"></span></div>`;
   const box=document.getElementById("allcards");
@@ -1401,16 +1432,13 @@ function initFeaturesAndRoadmap(){
     refreshFeatUI();
   });
   buildRoadmapThemeChips();
-  renderRoadmap("all");
+  renderRoadmap();
   const _re=document.getElementById("rmexpandall"), _rc=document.getElementById("rmcollapseall");
   if(_re)_re.addEventListener("click",()=>document.querySelectorAll("#board .group").forEach(g=>g.classList.add("open")));
   if(_rc)_rc.addEventListener("click",()=>document.querySelectorAll("#board .group").forEach(g=>g.classList.remove("open")));
   wireSearch("rmsearchbox","rmsearch","rmsearchclear","rmsearchcount",
-    v=>{ rmSearchTerm=v; }, ()=>renderRoadmap(rmSeg),
-    ()=>{ const d=rmSeg==="all"?segAll():segData(rmSeg); let it=d.items;
-      if(rmThemes.size) it=it.filter(f=>rmThemes.has(f.theme||""));
-      if(rmRels.size) it=it.filter(f=>rmRels.has(f.fv||""));
-      if(rmSearchTerm) it=it.filter(f=>matchSearch(f,rmSearchTerm)); return it.length; });
+    v=>{ rmSearchTerm=v; }, ()=>renderRoadmap(),
+    ()=>rmFiltered().length);
 }
 function updateFreshpill(){
   var el=document.getElementById("freshpill"); if(!el) return;
