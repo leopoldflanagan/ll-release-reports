@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T07:45:23+00:00",
+ "generated_at": "2026-10-14T08:15:25+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -1163,34 +1163,6 @@
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-10-13T20:55:44.081-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24473",
-   "name": "PROD - ONE SMILE Changes to Website - WA Change",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-13T19:53:11.403-0700",
    "resolved": "",
    "due": "2026-10-14",
    "labels": [
@@ -4197,6 +4169,34 @@
    "init": "Launch Loyalty Multi-Site Offices (Phase 3)"
   },
   {
+   "key": "PLANS-24473",
+   "name": "PROD - ONE SMILE Changes to Website - WA Change",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-13T19:53:11.403-0700",
+   "resolved": "",
+   "due": "2026-10-14",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24380",
    "name": "PMP - One Smile - Minor UI - Plan cards are not aligned",
    "pod": "LL",
@@ -4233,36 +4233,6 @@
    "reporter": "Daniel Marineni",
    "prio": "2: Important",
    "created": "2026-10-09T08:52:04.378-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24339",
-   "name": "URL is correct in member portal, but incorrect in WF Pay",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Nazarii Polinyk",
-   "reporter": "Daniel Marineni",
-   "prio": "2: Important",
-   "created": "2026-10-09T08:49:57.908-0700",
    "resolved": "",
    "due": "2026-10-14",
    "labels": [
@@ -4522,6 +4492,36 @@
    "due": "",
    "labels": [
     "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24339",
+   "name": "URL is correct in member portal, but incorrect in WF Pay",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Nazarii Polinyk",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-09T08:49:57.908-0700",
+   "resolved": "",
+   "due": "2026-10-14",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
     "product_prioritized"
    ],
    "theme": "",
