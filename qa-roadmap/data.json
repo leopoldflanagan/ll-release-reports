@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T20:15:16+00:00",
+ "generated_at": "2026-10-14T20:30:24+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -51,7 +51,7 @@
    "key": "WT-1036",
    "name": "Payment Term: ID on overview",
    "status": "In Development",
-   "ted": "2026-10-23",
+   "ted": "2026-10-16",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -260,7 +260,7 @@
    "key": "WT-1036",
    "name": "Payment Term: ID on overview",
    "status": "In Development",
-   "ted": "2026-10-23",
+   "ted": "2026-10-16",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -1409,7 +1409,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-10-23",
+   "ted": "2026-10-16",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
