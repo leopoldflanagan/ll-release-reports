@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T16:16:52+00:00",
+ "generated_at": "2026-10-14T16:18:52+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -5480,6 +5480,34 @@
    "init": "Launch Loyalty Multi-Site Offices (Phase 3)"
   },
   {
+   "key": "PLANS-24473",
+   "name": "PROD - ONE SMILE Changes to Website - WA Change",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "H9.8.5",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-13T19:53:11.403-0700",
+   "resolved": "",
+   "due": "2026-10-14",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24340",
    "name": "Plan details the paragraph is not correct in WFPAY.",
    "pod": "LL",
@@ -5592,34 +5620,6 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-24473",
-   "name": "PROD - ONE SMILE Changes to Website - WA Change",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "H9.8.5",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-13T19:53:11.403-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-24339",
