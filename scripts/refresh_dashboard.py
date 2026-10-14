@@ -181,42 +181,46 @@ def parse_issue(i, theme=None):
 
 # ---- Pull the datasets ----------------------------------------------------
 
-def pull_ll_features():
-    jql = ('issuetype = Feature AND cf[11626] = "LL" '
-           'AND statusCategory != Done ORDER BY assignee ASC')
-    rows = [parse_issue(i) for i in jira_search(jql)]
-    keep = ["key", "name", "status", "ted", "fv", "who", "tshirt"]
-    return [{k: r[k] for k in keep} for r in rows]
+def pull_features():
+    """Every active Feature this roadmap is accountable for. Two ways in:
 
+      - Pod is LL or PLANS. These two pods come in WHOLE, Theme or no Theme.
+        This is the part that answers "are they all here?" with a yes.
+      - Any other pod carrying one of THEMES. Cross-pod work that still lands on
+        this QA team; without it the DYN / PLAT / EDW features QA does receive
+        would vanish from the board.
 
-def pull_theme_features():
-    """One query per theme (the dropdown value isn't returned in fields)."""
-    seen = {}
-    for th in THEMES:
-        jql = (f'issuetype = Feature AND "Theme[Dropdown]" = "{th}" '
-               f'AND statusCategory != Done ORDER BY status ASC')
-        for i in jira_search(jql):
-            r = parse_issue(i, theme=th)
-            if r["key"] not in seen:  # a key belongs to one theme
-                seen[r["key"]] = r
+    Placeholder features are excluded: they are backlog containers, not
+    deliverables, and LL+PLANS alone carries 32 of them. The match is on the
+    word anywhere in the summary, so a real feature titled "... placeholder ..."
+    would be dropped too - none exist today, and the run log prints the count
+    so a sudden drop is visible.
+
+    One query, not five. The Theme dropdown DOES come back in fields
+    (customfield_12146), which is what parse_issue reads, so the old
+    one-query-per-theme loop was never needed.
+    """
+    themes = ", ".join('"%s"' % t for t in THEMES)
+    jql = ('issuetype = Feature AND statusCategory != Done '
+           'AND summary !~ "Placeholder" '
+           f'AND (cf[11626] IN ("LL", "PLANS") OR "Theme[Dropdown]" IN ({themes})) '
+           'ORDER BY key ASC')
+    rows = [parse_issue(i) for i in jira_search(jql, max_total=5000)]
     keep = ["key", "name", "status", "ted", "fv", "who", "tshirt", "pod", "theme"]
-    return [{k: r[k] for k in keep} for r in seen.values()]
+    return [{k: r.get(k) for k in keep} for r in rows]
 
 
-def build_features_all(ll_features, theme_features):
-    """Merge LL (pod=LL, maybe no theme) with cross-pod theme features."""
+def build_features_all(features):
+    """Normalise one pulled list. Dedupe by key: a feature can match both arms
+    of the query (an LL feature that also carries a Theme) and Jira would return
+    it once, but a future OR branch could change that - cheap insurance."""
     bykey = {}
-    for r in ll_features:
-        rr = dict(r); rr["pod"] = "LL"; rr["theme"] = ""
+    for r in features:
+        rr = dict(r)
+        rr["pod"] = rr.get("pod") or ""
+        rr["theme"] = rr.get("theme") or ""
         bykey[rr["key"]] = rr
-    for t in theme_features:
-        if t["key"] in bykey:
-            bykey[t["key"]]["theme"] = t["theme"]
-        else:
-            bykey[t["key"]] = dict(t)
     out = list(bykey.values())
-    for r in out:
-        r.setdefault("theme", ""); r["pod"] = r.get("pod") or ""
     order = {t: i for i, t in enumerate(THEMES)}
     out.sort(key=lambda r: (order.get(r["theme"], 99), r["key"]))
     keep = ["key", "name", "status", "ted", "fv", "who", "tshirt", "pod", "theme"]
@@ -224,7 +228,7 @@ def build_features_all(ll_features, theme_features):
 
 
 def build_all(features_all):
-    """The roadmap's cross-project ALL set = every theme feature, shaped for ALL."""
+    """The roadmap's cross-project ALL set = every pulled feature, shaped for ALL."""
     keep = ["key", "name", "pod", "proj", "status", "fv", "ted", "who", "theme"]
     out = []
     for r in features_all:
@@ -686,12 +690,18 @@ def main():
     today = dt.date.today()
     print(f"Refreshing data → {path} — snapshot {today.isoformat()}")
 
-    ll = pull_ll_features()
+    feats = pull_features()
+    features_all = build_features_all(feats)
+    by_pod = {}
+    for r in features_all:
+        by_pod[r.get("pod") or "(no pod)"] = by_pod.get(r.get("pod") or "(no pod)", 0) + 1
+    print(f"  FEATURES_ALL: {len(features_all)} "
+          + " ".join(f"{k}={v}" for k, v in sorted(by_pod.items())))
+    # FEATURES (the LL-only array the roadmap's LL lane reads) is a slice of the
+    # same pull, so LL can never disagree with itself between the two arrays.
+    ll = [{k: r.get(k) for k in ("key", "name", "status", "ted", "fv", "who", "tshirt")}
+          for r in features_all if r.get("pod") == "LL"]
     print(f"  LL features: {len(ll)}")
-    theme = pull_theme_features()
-    print(f"  theme features: {len(theme)}")
-    features_all = build_features_all(ll, theme)
-    print(f"  FEATURES_ALL: {len(features_all)}")
     all_set = build_all(features_all)
     bugs = pull_bugs()
     print(f"  bugs (active): {len(bugs)}")
