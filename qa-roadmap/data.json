@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T13:30:24+00:00",
+ "generated_at": "2026-10-14T13:43:11+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -4999,31 +4999,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24421",
-   "name": "STAGE - Plan Details -Downloading PDF - Getting a 400 error for below mentioned p2 offices.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-12T12:12:06.938-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24335",
    "name": "PLANS-24335: Member Portal: Add plan: UI on phone - not mobile compatible",
    "pod": "LL",
@@ -5752,6 +5727,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24421",
+   "name": "STAGE - Plan Details -Downloading PDF - Getting a 400 error for below mentioned p2 offices.",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-12T12:12:06.938-0700",
+   "resolved": "2026-10-14T06:32:19.492-0700",
+   "due": "2026-10-14",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24449",
    "name": "BLOCKER - STAGE - PDF will not open",
@@ -28901,33 +28901,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-19682",
-   "name": "Retest - [PMP] - PMP is not displaying a renewed plan",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Juan Rodrigo Mejia Rivera",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-15T13:59:45.255-0700",
-   "resolved": "2026-07-16T06:41:05.368-0700",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
