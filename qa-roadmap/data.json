@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T03:30:29+00:00",
+ "generated_at": "2026-10-14T03:45:24+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -28993,31 +28993,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-19394",
-   "name": "Plan card - Make 50%/50% split",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Mariano Hernández",
-   "reporter": "Michael McNulty",
-   "prio": "3: Standard",
-   "created": "2026-07-09T14:26:11.537-0700",
-   "resolved": "2026-07-15T20:34:39.095-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
