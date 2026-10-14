@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T08:15:25+00:00",
+ "generated_at": "2026-10-14T08:30:30+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -3309,7 +3309,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-10-13T21:09:50.070-0700",
