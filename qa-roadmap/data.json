@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T17:00:26+00:00",
+ "generated_at": "2026-10-14T17:12:51+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -331,17 +331,6 @@
    "who": "Unassigned",
    "tshirt": "Small",
    "pod": "DYN",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-754",
-   "name": "DELETE - Goals Dashboard",
-   "status": "Backlog",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Camille Knight",
-   "tshirt": null,
-   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1491,17 +1480,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "WT-754",
-   "name": "DELETE - Goals Dashboard",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "Backlog",
-   "fv": "R9.9",
-   "ted": null,
-   "who": "Camille Knight",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "WT-764",
    "name": "Implement web analytics platform to support DSO analytics requirements",
    "pod": "PLANS",
@@ -2632,6 +2610,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24498",
+   "name": "Stage-Essential Smile/SmileHealth/Custom Portals-Missing Coverage Type in Plan Summary while purchasing plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-14T09:57:55.729-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24485",
@@ -30301,11 +30307,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-24498",
-   "name": "Stage-Essential Smile/SmileHealth/Custom Portals-Missing Coverage Type in Plan Summary while purchasing plan",
+   "key": "PLANS-24499",
+   "name": "Production - True North - Practices not showing on Website",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Vinita Thankur"
+   "reporter": "Camille Knight"
   },
   {
    "key": "PLANS-24467",
