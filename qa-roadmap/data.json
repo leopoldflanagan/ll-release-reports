@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T14:00:28+00:00",
+ "generated_at": "2026-10-14T14:15:24+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -1230,6 +1230,34 @@
    "init": "Bug Fix Container"
   },
   {
+   "key": "PLANS-24145",
+   "name": "PMP-Stage-Manually renewed Plan-Old plan(still Active) not showing in Overview Plan summary, its showing new renewed plan",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-06T06:11:17.918-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-23919",
    "name": "Office user can edit/remove External ID from offices he doesn't have access to",
    "pod": "PLANS",
@@ -1571,34 +1599,6 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24145",
-   "name": "PMP-Stage-Manually renewed Plan-Old plan(still Active) not showing in Overview Plan summary, its showing new renewed plan",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-06T06:11:17.918-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -3442,34 +3442,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24112",
-   "name": "The STAGE SGDP portal is displaying Kids Plans instead of SGDP coverage levels.",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Lucy Mbahyam",
-   "prio": "2: Important",
-   "created": "2026-10-05T07:50:32.558-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24103",
    "name": "CSP - Office assigned from PMP, the office assignment is not reflected in CSP > Member > Plan Details.",
    "pod": "PLANS",
@@ -5108,6 +5080,34 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-24112",
+   "name": "The STAGE SGDP portal is displaying Kids Plans instead of SGDP coverage levels.",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Lucy Mbahyam",
+   "prio": "2: Important",
+   "created": "2026-10-05T07:50:32.558-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24030",
