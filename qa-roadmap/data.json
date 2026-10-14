@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T22:30:28+00:00",
+ "generated_at": "2026-10-14T22:39:35+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -2672,35 +2672,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24467",
-   "name": "Preprod - One Smile- Membership agreement - logo is not visible",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-13T13:25:28.329-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24442",
    "name": "PMP - When a plan is renewed and then refunded/disabled, the plan status is incorrectly displayed as Expired and the Renew button becomes visible again",
    "pod": "LL",
@@ -4761,6 +4732,35 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24467",
+   "name": "Preprod - One Smile- Membership agreement - logo is not visible",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-13T13:25:28.329-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24273",
