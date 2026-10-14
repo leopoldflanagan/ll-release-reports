@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T15:40:26+00:00",
+ "generated_at": "2026-10-14T15:43:04+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -5933,34 +5933,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-20960",
-   "name": "Member Portal - Restricted Label, Info Icon and Restriction Dialog Not Displayed on Plan Overview Page",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-11T08:21:58.116-0700",
-   "resolved": "",
-   "due": "2026-10-12",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-15657",
    "name": "Member Portal \\ Failed to display Benefit Summary",
    "pod": "LL",
@@ -6579,6 +6551,34 @@
    "due": "2026-10-12",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-20960",
+   "name": "Member Portal - Restricted Label, Info Icon and Restriction Dialog Not Displayed on Plan Overview Page",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-11T08:21:58.116-0700",
+   "resolved": "",
+   "due": "2026-10-12",
+   "labels": [
+    "group3_migration",
     "product_prioritized"
    ],
    "theme": "LL-MVP",
