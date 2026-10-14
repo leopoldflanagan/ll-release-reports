@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T16:45:33+00:00",
+ "generated_at": "2026-10-14T16:53:31+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -2471,62 +2471,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24478",
-   "name": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "H9.8.5",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-14T06:07:34.813-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24476",
-   "name": "PRODUCTION - True North",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "H9.8.5",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-13T21:09:50.070-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24474",
    "name": "Production - Tiered Plans - Plan Details",
@@ -5917,6 +5861,34 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
+   "key": "PLANS-24476",
+   "name": "PRODUCTION - True North",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "H9.8.5",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-13T21:09:50.070-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24473",
    "name": "PROD - ONE SMILE Changes to Website - WA Change",
    "pod": "LL",
@@ -6642,6 +6614,34 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24478",
+   "name": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price",
+   "pod": "LL",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "H9.8.5",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-14T06:07:34.813-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
