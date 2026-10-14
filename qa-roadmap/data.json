@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T13:45:25+00:00",
+ "generated_at": "2026-10-14T13:53:02+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -8,6 +8,15 @@
    "status": "Requirements",
    "ted": null,
    "fv": "R9.10",
+   "who": "Chris Rubio",
+   "tshirt": "Small"
+  },
+  {
+   "key": "WT-1021",
+   "name": "Wellfit User - Practice Assignment Picker",
+   "status": "Architecture",
+   "ted": "2026-10-25",
+   "fv": "R9.9",
    "who": "Chris Rubio",
    "tshirt": "Small"
   },
@@ -35,15 +44,6 @@
    "status": "Backlog",
    "ted": null,
    "fv": "R9.10",
-   "who": "Dmytro Tymofiienko",
-   "tshirt": "Small"
-  },
-  {
-   "key": "WT-1021",
-   "name": "Wellfit User - Practice Assignment Picker",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R9.9",
    "who": "Dmytro Tymofiienko",
    "tshirt": "Small"
   },
@@ -183,9 +183,9 @@
    "key": "WT-1021",
    "name": "Wellfit User - Practice Assignment Picker",
    "status": "Architecture",
-   "ted": null,
+   "ted": "2026-10-25",
    "fv": "R9.9",
-   "who": "Dmytro Tymofiienko",
+   "who": "Chris Rubio",
    "tshirt": "Small",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -683,8 +683,8 @@
    "proj": "WT",
    "status": "Architecture",
    "fv": "R9.9",
-   "ted": null,
-   "who": "Dmytro Tymofiienko",
+   "ted": "2026-10-25",
+   "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
   },
   {
