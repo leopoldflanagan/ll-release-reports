@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T13:00:24+00:00",
+ "generated_at": "2026-10-14T13:14:00+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -3317,6 +3317,34 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24478",
+   "name": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-14T06:07:34.813-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
