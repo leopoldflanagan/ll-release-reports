@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T18:30:26+00:00",
+ "generated_at": "2026-10-14T18:45:22+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -6548,11 +6548,11 @@
    "pod": "LL",
    "status": "WAITING REVIEW",
    "cat": "In Progress",
-   "fv": "H9.8.5",
+   "fv": "R9.9",
    "sprint": "LL-Sprint 24-26",
    "who": "Chris Rubio",
    "reporter": "Camille Knight",
-   "prio": "1: Urgent",
+   "prio": "2: Important",
    "created": "2026-10-14T10:08:00.607-0700",
    "resolved": "",
    "due": "",
