@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T19:00:28+00:00",
+ "generated_at": "2026-10-14T19:13:16+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -2449,6 +2449,34 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-24474",
+   "name": "Production - Tiered Plans - Plan Details",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "H9.8.5",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-13T20:55:44.081-0700",
+   "resolved": "",
+   "due": "2026-10-15",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24384",
    "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
@@ -5844,34 +5872,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24474",
-   "name": "Production - Tiered Plans - Plan Details",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "H9.8.5",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-13T20:55:44.081-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24439",
    "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
    "pod": "LL",
@@ -6608,11 +6608,11 @@
    "pod": "LL",
    "status": "WAITING REVIEW",
    "cat": "In Progress",
-   "fv": "H9.8.5",
+   "fv": "R9.9",
    "sprint": "LL-Sprint 24-26",
    "who": "Petro Yarish",
    "reporter": "Camille Knight",
-   "prio": "1: Urgent",
+   "prio": "3: Standard",
    "created": "2026-10-14T06:07:34.813-0700",
    "resolved": "",
    "due": "",
