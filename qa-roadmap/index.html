@@ -178,6 +178,21 @@
   .pill{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;letter-spacing:.02em}
   .pill.testing{background:rgba(122,95,176,.14);color:var(--purple)}
   .pill.dev{background:rgba(232,163,23,.16);color:var(--amber)}
+  /* A derived date must never look like an estimate */
+  .bar.expected{background:repeating-linear-gradient(135deg,rgba(90,160,236,.22) 0 7px,rgba(90,160,236,.07) 7px 14px);
+    border:1.5px dashed var(--blue);color:var(--ink);font-weight:600}
+  .bar.expected .dot{background:var(--blue)}
+  .loadrow{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch;margin:16px 0 4px}
+  .loadlbl{flex:0 0 100%;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+  .loadcard{border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--surface);min-width:170px}
+  .loadcard .lrel{font-size:12.5px;font-weight:800;display:flex;align-items:baseline;gap:7px}
+  .loadcard .lfz{font-size:10.5px;font-weight:600;color:var(--muted)}
+  .loadcard .lnum{font-size:21px;font-weight:800;margin:3px 0 5px;line-height:1}
+  .loadcard .lnum span{font-size:11px;font-weight:600;color:var(--muted);margin-left:6px}
+  .loadcard .lsplit{display:flex;flex-wrap:wrap;gap:5px;font-size:10.5px;font-weight:700}
+  .loadcard .lc{background:rgba(91,208,106,.18);color:#2b7a35;padding:2px 7px;border-radius:999px}
+  .loadcard .le{background:rgba(90,160,236,.18);color:#1B5FA8;padding:2px 7px;border-radius:999px}
+  .loadcard .lu{background:rgba(232,163,23,.20);color:#8a6000;padding:2px 7px;border-radius:999px}
   .pill.hold{background:rgba(90,107,125,.14);color:var(--muted)}
   .pill.idea{background:rgba(27,95,168,.1);color:var(--blue)}
   .pill.closed{background:rgba(76,175,46,.14);color:var(--green)}
@@ -847,17 +862,37 @@ let WEEKS = [];
 let NW = 0, T0 = null, T1 = null, SPAN = 1;
 function recomputeWeekBounds(){ NW = WEEKS.length; T0 = dOnly(WEEKS[0].start); T1 = dOnly(WEEKS[NW-1].end); SPAN = (T1 - T0) || 1; }
 function pct(d){ return Math.max(0,Math.min(100, ((dOnly(d)-T0)/SPAN)*100)); }
+// ---- Three planning states ------------------------------------------------
+// committed = the dev gave a Target End.
+// expected  = no Target End, but the feature carries a fixVersion, so the latest
+//             moment it can legally arrive is that release's feature freeze.
+// unplanned = neither. Cannot be placed at all; it needs a release first.
+const FREEZE_LEAD_DAYS = 10;   // freeze is 10 days before deploy, whole 2026 schedule
+function relFreeze(fv){
+  const r = (typeof RELEASES!=="undefined"?RELEASES:[]).find(x=>x.id===fv);
+  if(!r) return null;
+  const d = dOnly(r.deploy); d.setDate(d.getDate()-FREEZE_LEAD_DAYS); return d;
+}
+function planState(f){
+  if(f.ted) return "committed";
+  return relFreeze(f.fv) ? "expected" : "unplanned";
+}
+// The date the board places this feature on. A derived date is NOT an estimate -
+// it is the last date the release still allows, which is the worst case for QA.
+function planDate(f){ return f.ted ? dOnly(f.ted) : relFreeze(f.fv); }
+function isExpected(f){ return planState(f)==="expected"; }
+function isUnplanned(f){ return planState(f)==="unplanned"; }
 function weekOf(f){
   // QA-ready (In Testing+) features live in a dedicated lane, not a date week
   if(isQA(f)) return -2;
-  if(!f.ted) return -1;
-  const dt=dOnly(f.ted);
+  const dt=planDate(f); if(!dt) return -1;
   // overdue (date passed, not yet in testing) → clamp into the current week so it still shows, flagged
   if(dt < T0) return 0;
   for(let i=0;i<NW;i++){ if(dt>=dOnly(WEEKS[i].start) && dt<=dOnly(WEEKS[i].end)) return i; }
   return -1;
 }
 function cls(f){
+  if(isExpected(f)) return "expected";   // dashed: a freeze date, not an estimate
   if(isBlocked(f)) return "late";          // blocked / on hold → red
   if(isQA(f)) return "ready";              // In Testing+ → green (QA can work it)
   if(featOverdue(f)) return "dev";           // date passed but still amber bar; warning icon flags it
@@ -867,6 +902,8 @@ function barLabel(f){
   if(isQA(f)) return "In Testing";
   const warn = featOverdue(f) ? "⚠ " : "";
   if(f.ted) return warn+dOnly(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric'});
+  const fz=relFreeze(f.fv);
+  if(fz) return f.fv+" freeze · "+fz.toLocaleDateString('en-US',{month:'short',day:'numeric'});
   return "—";
 }
 // T-shirt size scale (Jira "Size" field). Rank for sorting; px for bar width.
@@ -895,7 +932,8 @@ let rmPods=new Set(), rmThemes=new Set(), rmRels=new Set(), rmStatus=new Set(), 
 const RM_FLAG={
   overdue:{label:"\u26a0 Overdue",            test:f=>featOverdue(f)},
   blocked:{label:"\u26d4 Blocked / on hold",  test:f=>isBlocked(f)},
-  nodate: {label:"No Target End",          test:f=>!f.ted && !isQA(f)}
+  noest:  {label:"\u2753 No dev estimate",    test:f=>isExpected(f) && !isQA(f)},
+  nodate: {label:"No release assigned",    test:f=>isUnplanned(f) && !isQA(f)}
 };
 function rmBase(){ return segAll().items; }
 // skip = the group being counted, so each menu shows what you would get by
@@ -967,6 +1005,9 @@ function renderRoadmap(){
     else if(over) tipBody = "⚠ Target End date has passed and it isn't In Testing yet — date needs updating.";
     else if(isQA(f)) tipBody = "In Testing — already with QA.";
     else if(f.ted) tipBody = "Target End "+dOnly(f.ted).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+    else if(isExpected(f)) tipBody = "No dev estimate yet. Placed at the <b>"+f.fv+" feature freeze</b> ("
+      + relFreeze(f.fv).toLocaleDateString('en-US',{month:'short',day:'numeric'})
+      + ") \u2014 the latest it can arrive, not a promise it will.";
     const tipSize = f.tshirt ? `Size: ${f.tshirt}` : "";
     const tip = `<span class="bartip"><b>${tipHead}</b>${tipBody?`<br>${tipBody}`:''}${tipSize?`<br>${tipSize}`:''}<br><i>click → open in Jira</i></span>`;
     const warnIcon = over ? `<span class="warnico" title="Target End date is in the past and the feature is not yet In Testing — please update the date.">⚠</span>` : '';
@@ -974,11 +1015,39 @@ function renderRoadmap(){
     const row=document.createElement("div"); row.className="row";
     const lane=`<div class="lane" style="grid-template-columns:repeat(${NW},minmax(0,1fr))">`+
       WEEKS.map(x=>`<div class="gridcell ${x.freeze?'freeze':''}"></div>`).join("")+
-      `<a class="bar ${c}" href="${url}" target="_blank" rel="noopener" style="left:calc(${leftPct}% - 2px);width:${w}px;${leftPct>60?'transform:translate(-100%,-50%)':''}"><span class="dot"></span>${barLabel(f)}${tip}</a>`+
+      `<a class="bar ${c}" href="${url}" target="_blank" rel="noopener" style="left:calc(${leftPct}% - 2px);${isExpected(f)?'width:auto;padding:0 11px;':`width:${w}px;`}${leftPct>60?'transform:translate(-100%,-50%)':''}"><span class="dot"></span>${barLabel(f)}${tip}</a>`+
       `</div>`;
     row.innerHTML=`<div class="cellL">${podTag}<a class="fkey" href="${url}" target="_blank" rel="noopener" title="Open in Jira">${f.key}</a><span class="fname">${warnIcon}${f.name}</span><span class="fmeta">${f.fv||'—'} · ${f.status}${szMeta} · ${f.who}</span></div>${lane}`;
     return row;
   }
+
+  // 0) What QA is due to receive, per release
+  (function(){
+    let host=document.getElementById("rmload");
+    if(!host){ host=document.createElement("div"); host.id="rmload"; host.className="loadrow"; board.parentNode.insertBefore(host, board); }
+    const PT={Tiny:1,Small:2,Moderate:3,Large:5,"X-Large":8,Huge:13};
+    const rel={};
+    items.forEach(f=>{
+      const k=f.fv||"(no release)";
+      const r=rel[k]||(rel[k]={committed:0,expected:0,unplanned:0,pts:0});
+      r[planState(f)]++; r.pts += PT[f.tshirt]||0;
+    });
+    const order=(typeof RELEASES!=="undefined"?RELEASES.map(r=>r.id):[]);
+    const keys=Object.keys(rel).sort((a,b)=>{
+      const ia=order.indexOf(a), ib=order.indexOf(b);
+      return (ia<0?99:ia)-(ib<0?99:ib) || a.localeCompare(b);
+    });
+    host.innerHTML = `<div class="loadlbl">What QA is due to receive</div>` + keys.map(k=>{
+      const r=rel[k], tot=r.committed+r.expected+r.unplanned;
+      const fz=relFreeze(k);
+      return `<div class="loadcard"><div class="lrel">${esc(k)}${fz?`<span class="lfz">freeze ${fz.toLocaleDateString('en-US',{month:'short',day:'numeric'})}</span>`:''}</div>`
+        + `<div class="lnum">${tot}<span>feature${tot!==1?"s":""} \u00b7 ${r.pts} pts</span></div>`
+        + `<div class="lsplit"><span class="lc">${r.committed} committed</span>`
+        + (r.expected?`<span class="le">${r.expected} expected</span>`:"")
+        + (r.unplanned?`<span class="lu">${r.unplanned} unplanned</span>`:"")
+        + `</div></div>`;
+    }).join("");
+  })();
 
   // 1) QA Ready / In Progress lane (In Testing+) — separated, date-independent
   if(qaReadyList.length){
@@ -992,12 +1061,13 @@ function renderRoadmap(){
   const byWeek={};
   placed.forEach(f=>{ const wi=weekOf(f); (byWeek[wi]=byWeek[wi]||[]).push(f); });
   WEEKS.forEach((w,wi)=>{
-    const list=(byWeek[wi]||[]).sort((a,b)=>dOnly(a.ted||WEEKS[wi].start)-dOnly(b.ted||WEEKS[wi].start));
+    const list=(byWeek[wi]||[]).sort((a,b)=>(planDate(a)||dOnly(WEEKS[wi].start))-(planDate(b)||dOnly(WEEKS[wi].start)));
     if(!list.length) return;
     const g=document.createElement("div"); g.className="group open";
     g.innerHTML=`<div class="grouphead"><span class="ghl"><span class="gchev">▸</span>QA Week — ${w.label}</span><span class="rng">${list.length} item${list.length>1?'s':''}</span></div>`;
     list.forEach(f=>{
-      const left = (dOnly(f.ted) < T0) ? weekCenter(0) : pct(f.ted);
+      const pd = planDate(f);
+      const left = (pd < T0) ? weekCenter(0) : pct(pd);
       g.appendChild(barRow(f, left));
     });
     g.querySelector(".grouphead").addEventListener("click",()=>g.classList.toggle("open"));
@@ -1012,7 +1082,7 @@ function renderRoadmap(){
     li.innerHTML=`${keyEl}<span style="flex:1">${p.name}<br><span class="who">${podTag}${p.fv||'no FV'} · ${p.who}</span></span>${statusPill(p.status)}`;
     nd.appendChild(li);
   });
-  document.getElementById("backlogtitle").textContent = `Backlog / no placeable date — ${backlog.length} item${backlog.length!==1?'s':''}`;
+  document.getElementById("backlogtitle").textContent = `No release assigned — cannot be planned — ${backlog.length} item${backlog.length!==1?'s':''}`;
   setupPeek("nodate","nodate-toggle",5);
   document.getElementById("stamp").textContent="Snapshot built "+TODAY.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})+" from Jira. Roadmap is a snapshot — it does not auto-refresh.";
 }
