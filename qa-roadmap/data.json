@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T15:45:59+00:00",
+ "generated_at": "2026-10-14T15:54:21+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -2660,6 +2660,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24485",
+   "name": "Marketing Settings - Legacy ONLY - CDPS \"Show Header as\" setting is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL-Sprint 24-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-14T08:32:00.384-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23202",
+   "parentName": "[1] Marketing Details Driving Smile Health - Savings Header Framing and Value Mode",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24484",
@@ -5625,34 +5650,6 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
-   "key": "PLANS-24439",
-   "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "2: Important",
-   "created": "2026-10-13T04:41:41.492-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24380",
    "name": "PMP - One Smile - Minor UI - Plan cards are not aligned",
    "pod": "LL",
@@ -5701,34 +5698,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24188",
-   "name": "PreProd PMP \\ Error when trying to manually renew a migrated member",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-07T07:13:24.181-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -5890,34 +5859,6 @@
    "created": "2026-08-14T03:19:43.137-0700",
    "resolved": "",
    "due": "2026-10-14",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21247",
-   "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-14T02:34:50.968-0700",
-   "resolved": "",
-   "due": "2026-10-13",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6285,6 +6226,34 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
+   "key": "PLANS-24439",
+   "name": "OneSmile portal: dynamic footer stays stale after practice switch via Find-a-Dentist",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "2: Important",
+   "created": "2026-10-13T04:41:41.492-0700",
+   "resolved": "",
+   "due": "2026-10-15",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24335",
    "name": "PLANS-24335: Member Portal: Add plan: UI on phone - not mobile compatible",
    "pod": "LL",
@@ -6394,6 +6363,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24188",
+   "name": "PreProd PMP \\ Error when trying to manually renew a migrated member",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-07T07:13:24.181-0700",
+   "resolved": "",
+   "due": "2026-10-14",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24168",
@@ -6554,6 +6551,34 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-21247",
+   "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-14T02:34:50.968-0700",
+   "resolved": "",
+   "due": "2026-10-13",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
@@ -30275,13 +30300,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24485",
-   "name": "Marketing Settings - Legacy Plans - CDPS \"Show Header as\" setting is not inherited from 1 Individual coverage level for 2 Individual and 3 Individual coverage levels",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24467",
    "name": "Preprod - One Smile- Membership agreement - logo is not visible",
