@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T07:00:27+00:00",
+ "generated_at": "2026-10-14T07:15:25+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -28891,31 +28891,6 @@
    "labels": [
     "plans"
    ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-19620",
-   "name": "Member Portal \\ Overview page does not display the Renew button after opting out of auto-renewal until the page is refreshed",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-07-14T12:09:47.407-0700",
-   "resolved": "2026-07-16T00:00:35.423-0700",
-   "due": "",
-   "labels": [],
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-18470",
