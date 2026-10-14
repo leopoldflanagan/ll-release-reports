@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T19:15:25+00:00",
+ "generated_at": "2026-10-14T19:27:36+00:00",
  "today": "2026-10-14",
  "features": [
   {
@@ -4735,6 +4735,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24478",
+   "name": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-10-14T06:07:34.813-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24475",
    "name": "Production - Text Messaging Improvements",
    "pod": "PLANS",
@@ -6592,34 +6620,6 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24478",
-   "name": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-10-14T06:07:34.813-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
