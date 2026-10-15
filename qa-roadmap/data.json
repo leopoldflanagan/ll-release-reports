@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T21:30:25+00:00",
+ "generated_at": "2026-10-15T21:41:40+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -2572,6 +2572,37 @@
    "init": "Bug Fix Container"
   },
   {
+   "key": "PLANS-24339",
+   "name": "URL is correct in member portal, but incorrect in WF Pay",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-09T08:49:57.908-0700",
+   "resolved": "",
+   "due": "2026-10-14",
+   "labels": [
+    "OneSmile",
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-23846",
    "name": "Office shows preselected on Assign patient ID modal when switching views",
    "pod": "PLANS",
@@ -4868,7 +4899,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Brianna Hill",
    "prio": "2: Important",
    "created": "2026-10-14T17:41:32.044-0700",
@@ -5592,34 +5623,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-21665",
-   "name": "PDS Team Plan - Plan details missing",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-20T17:27:52.942-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-21609",
    "name": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP",
    "pod": "LL",
@@ -6113,37 +6116,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24339",
-   "name": "URL is correct in member portal, but incorrect in WF Pay",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Daniel Marineni",
-   "prio": "2: Important",
-   "created": "2026-10-09T08:49:57.908-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "OneSmile",
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24288",
    "name": "PRODUCTION - Theme Bug",
    "pod": "LL",
@@ -6312,6 +6284,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-21665",
+   "name": "PDS Team Plan - Plan details missing",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-20T17:27:52.942-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-21585",
@@ -30812,7 +30812,7 @@
  "nopod": [
   {
    "key": "PLANS-24552",
-   "name": "PBO flow in provider for crosby charged the full amount rather than the wellfit share for plan purchase",
+   "name": "PBO flow charges full amount instead of Wellfit share — Crosby plans",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Sushma Bankar"
