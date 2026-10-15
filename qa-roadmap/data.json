@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T20:13:40+00:00",
+ "generated_at": "2026-10-15T20:15:22+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -930,6 +930,17 @@
   {
    "key": "WT-1194",
    "name": "Multi Plan Ownership - PMP & MP",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1195",
+   "name": "Legal Language Additions",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -2098,6 +2109,17 @@
   {
    "key": "WT-1194",
    "name": "Multi Plan Ownership - PMP & MP",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1195",
+   "name": "Legal Language Additions",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
