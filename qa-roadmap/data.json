@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T16:54:12+00:00",
+ "generated_at": "2026-10-15T17:00:28+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -30247,6 +30247,20 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24533",
+   "name": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed together instead of aligned in columns",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-24532",
+   "name": "Prod / STAGE - One Smile - Mobile - Membership agreement is not Downloadable / Viewable",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24516",
    "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
