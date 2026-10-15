@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T23:11:19+00:00",
+ "generated_at": "2026-10-15T23:15:22+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -30734,31 +30734,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-19284",
-   "name": "PLANS-19284: Additional Benefits: Back of the Card: Provider Tiles: Blank Phone Number field is displayed",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-08T20:42:09.271-0700",
-   "resolved": "2026-07-17T16:13:53.383-0700",
-   "due": "2026-07-17",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18119",
-   "parentName": "PMP Ancillary Benefit Card — Epic 2: Ancillary Benefit Card in PMP",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
