@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T22:30:24+00:00",
+ "generated_at": "2026-10-15T22:40:25+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -30784,31 +30784,6 @@
    "linkedLP": false,
    "initKey": "WT-266",
    "init": "Plans Tech Debt"
-  },
-  {
-   "key": "PLANS-15009",
-   "name": "Retest - Member portal - Renew - not showing correct coverage level when renew from Dashoard",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-04-06T12:45:59.451-0700",
-   "resolved": "2026-07-17T15:38:51.470-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14864",
-   "parentName": "RE - MP Refactor Work Placeholder",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
