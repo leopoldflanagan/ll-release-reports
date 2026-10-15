@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T20:42:08+00:00",
+ "generated_at": "2026-10-15T20:45:20+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -6167,34 +6167,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-21251",
-   "name": "PMP - Payment Widget - Required Validation Messages Missing for Expiration Date, CVV, and Billing ZIP Code in Manage Patient > Add Payment Methods",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-14T03:19:43.137-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21247",
    "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
    "pod": "LL",
@@ -6728,6 +6700,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21251",
+   "name": "PMP - Payment Widget - Required Validation Messages Missing for Expiration Date, CVV, and Billing ZIP Code in Manage Patient > Add Payment Methods",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-14T03:19:43.137-0700",
+   "resolved": "2026-10-15T13:44:47.783-0700",
+   "due": "2026-10-14",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-22008",
    "name": "PMP - DCA - Plan expiring today shows as Expired in Search Patient page, but remains Active in Plan Overview as expected",
