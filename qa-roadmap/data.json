@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T14:30:26+00:00",
+ "generated_at": "2026-10-15T14:40:53+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -4590,7 +4590,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "Plans-Sprint 24-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
    "prio": "2: Important",
@@ -4604,13 +4604,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "",
-   "init": ""
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24519",
