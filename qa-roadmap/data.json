@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T00:00:24+00:00",
+ "generated_at": "2026-10-15T00:15:22+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -6105,34 +6105,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-23844",
-   "name": "Account Information | None membership is not showing Information until after selecting history",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-29T10:53:22.056-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-23835",
    "name": "Duplicate External ID for a member",
    "pod": "PLANS",
@@ -6919,6 +6891,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23844",
+   "name": "Account Information | None membership is not showing Information until after selecting history",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-29T10:53:22.056-0700",
+   "resolved": "2026-10-14T17:01:03.883-0700",
+   "due": "2026-10-15",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-23258",
    "name": "Renewability of a plan",
