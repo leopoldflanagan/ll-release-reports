@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T08:45:21+00:00",
+ "generated_at": "2026-10-15T09:00:26+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -5593,6 +5593,34 @@
    "init": "Launch Loyalty Multi-Site Offices (Phase 3)"
   },
   {
+   "key": "PLANS-24498",
+   "name": "Stage-Essential Smile/SmileHealth/Custom Portals-Missing Coverage Type in Plan Summary while purchasing plan",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-14T09:57:55.729-0700",
+   "resolved": "",
+   "due": "2026-10-15",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24340",
    "name": "Plan details the paragraph is not correct in WFPAY.",
    "pod": "LL",
@@ -5706,34 +5734,6 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-24498",
-   "name": "Stage-Essential Smile/SmileHealth/Custom Portals-Missing Coverage Type in Plan Summary while purchasing plan",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-14T09:57:55.729-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-23846",
