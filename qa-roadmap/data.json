@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T20:52:19+00:00",
+ "generated_at": "2026-10-15T21:00:27+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -2579,7 +2579,7 @@
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "Plans-Sprint 24-26",
-   "who": "Daryl Myrick",
+   "who": "Conor Kamperman",
    "reporter": "Hazel Loya",
    "prio": "2: Important",
    "created": "2026-09-29T11:26:31.005-0700",
@@ -2607,7 +2607,7 @@
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "Plans-Sprint 24-26",
-   "who": "Daryl Myrick",
+   "who": "Conor Kamperman",
    "reporter": "Hazel Loya",
    "prio": "2: Important",
    "created": "2026-09-29T07:45:14.941-0700",
@@ -2678,6 +2678,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24546",
+   "name": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-10-15T13:41:00.718-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -30661,13 +30686,6 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-24546",
-   "name": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
    "key": "PLANS-24545",
    "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list 1.",
    "status": "Backlog",
@@ -30676,7 +30694,7 @@
   },
   {
    "key": "PLANS-24540",
-   "name": "Prod - One Smile - Claude quality scrub - Issue list (bug report in progress)",
+   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 2 (bug report in progress)",
    "status": "WAITING REVIEW",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
