@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T07:45:23+00:00",
+ "generated_at": "2026-10-15T08:00:27+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -2520,34 +2520,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24498",
-   "name": "Stage-Essential Smile/SmileHealth/Custom Portals-Missing Coverage Type in Plan Summary while purchasing plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-14T09:57:55.729-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24439",
@@ -5619,6 +5591,34 @@
    "linkedLP": false,
    "initKey": "WT-384",
    "init": "Launch Loyalty Multi-Site Offices (Phase 3)"
+  },
+  {
+   "key": "PLANS-24498",
+   "name": "Stage-Essential Smile/SmileHealth/Custom Portals-Missing Coverage Type in Plan Summary while purchasing plan",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-14T09:57:55.729-0700",
+   "resolved": "",
+   "due": "2026-10-15",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24340",
