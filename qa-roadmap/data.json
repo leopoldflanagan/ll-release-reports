@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T02:15:22+00:00",
+ "generated_at": "2026-10-15T02:30:23+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -30164,6 +30164,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24517",
+   "name": "Support Profile Incorrect for One Smile",
+   "status": "Ready for Development",
+   "who": "Unassigned",
+   "reporter": "Camille Knight"
+  },
   {
    "key": "PLANS-24516",
    "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
