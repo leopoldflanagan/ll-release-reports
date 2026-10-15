@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T18:30:27+00:00",
+ "generated_at": "2026-10-15T18:45:17+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -2750,7 +2750,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-12T10:32:45.790-0700",
@@ -6403,34 +6403,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-16298",
-   "name": "Member Portal - Saved payment methods disappear after refreshing the Payments page",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-05-19T09:53:24.993-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-14884",
    "name": "Additional Benefits | Refresh causes content not to load and Back button does not redirect to /plan",
    "pod": "LL",
@@ -6933,6 +6905,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-16298",
+   "name": "Member Portal - Saved payment methods disappear after refreshing the Payments page",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Mireya Alvarez",
+   "prio": "3: Standard",
+   "created": "2026-05-19T09:53:24.993-0700",
+   "resolved": "2026-10-15T11:32:04.706-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-15657",
    "name": "Member Portal \\ Failed to display Benefit Summary",
