@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T02:45:24+00:00",
+ "generated_at": "2026-10-15T03:00:25+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -913,6 +913,17 @@
    "fv": null,
    "who": "Obie Khandaker",
    "tshirt": "Moderate",
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1190",
+   "name": "Enhancement Receipts & WF Emails to carry logo of plan or Name of Office",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
    "pod": "PLANS",
    "theme": ""
   },
@@ -2054,6 +2065,17 @@
   {
    "key": "WT-1176",
    "name": "Waive Admin Fee when changing plan types",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1190",
+   "name": "Enhancement Receipts & WF Emails to carry logo of plan or Name of Office",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
