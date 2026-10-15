@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T20:45:20+00:00",
+ "generated_at": "2026-10-15T20:52:19+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -2570,6 +2570,62 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-23846",
+   "name": "Office shows preselected on Assign patient ID modal when switching views",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Daryl Myrick",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-29T11:26:31.005-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21920",
+   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-23835",
+   "name": "Duplicate External ID for a member",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Daryl Myrick",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-29T07:45:14.941-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21920",
+   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-21736",
@@ -6025,62 +6081,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-23846",
-   "name": "Office shows preselected on Assign patient ID modal when switching views",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Daryl Myrick",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-29T11:26:31.005-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21920",
-   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-23835",
-   "name": "Duplicate External ID for a member",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Daryl Myrick",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-29T07:45:14.941-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21920",
-   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-23794",
@@ -30669,9 +30669,9 @@
   },
   {
    "key": "PLANS-24545",
-   "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list (bug report in progress)",
-   "status": "WAITING REVIEW",
-   "who": "Anuradhi Wickramasinghe",
+   "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list 1.",
+   "status": "Backlog",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
