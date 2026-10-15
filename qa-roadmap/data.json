@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T20:28:19+00:00",
+ "generated_at": "2026-10-15T20:30:23+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -30660,6 +30660,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24545",
+   "name": "Prod - One Smile Mobile view - Claude quality scrub - Issue list (bug report in progress)",
+   "status": "Backlog",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24540",
    "name": "Prod - One Smile - Claude quality scrub - Issue list (bug report in progress)",
