@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T03:15:20+00:00",
+ "generated_at": "2026-10-15T03:30:23+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -919,6 +919,17 @@
   {
    "key": "WT-1190",
    "name": "Enhancement Receipts & WF Emails to carry logo of plan or Name of Office",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1191",
+   "name": "Marketing Details - fee schedule",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -2076,6 +2087,17 @@
   {
    "key": "WT-1190",
    "name": "Enhancement Receipts & WF Emails to carry logo of plan or Name of Office",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1191",
+   "name": "Marketing Details - fee schedule",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
