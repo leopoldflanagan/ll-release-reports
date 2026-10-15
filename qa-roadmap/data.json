@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T16:00:26+00:00",
+ "generated_at": "2026-10-15T16:15:23+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -5402,34 +5402,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-21585",
-   "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Unassigned",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-19T12:47:49.177-0700",
-   "resolved": "",
-   "due": "2026-09-02",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-21015",
    "name": "Retest/Member Portal/Benefit Status for used benefits is not displayed in Benefit Summaries",
    "pod": "LL",
@@ -6375,6 +6347,34 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-21585",
+   "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "David Jones",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-08-19T12:47:49.177-0700",
+   "resolved": "",
+   "due": "2026-09-02",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-21251",
