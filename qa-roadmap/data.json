@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T12:30:23+00:00",
+ "generated_at": "2026-10-15T12:45:23+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -132,8 +132,8 @@
    "key": "WT-993",
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "status": "In Development",
-   "ted": "2026-10-23",
-   "fv": "R9.10",
+   "ted": "2026-10-19",
+   "fv": "R9.9",
    "who": "Denys Kernychnyi",
    "tshirt": "Moderate"
   },
@@ -557,8 +557,8 @@
    "key": "WT-993",
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "status": "In Development",
-   "ted": "2026-10-23",
-   "fv": "R9.10",
+   "ted": "2026-10-19",
+   "fv": "R9.9",
    "who": "Denys Kernychnyi",
    "tshirt": "Moderate",
    "pod": "LL",
@@ -1727,8 +1727,8 @@
    "pod": "LL",
    "proj": "WT",
    "status": "In Development",
-   "fv": "R9.10",
-   "ted": "2026-10-23",
+   "fv": "R9.9",
+   "ted": "2026-10-19",
    "who": "Denys Kernychnyi",
    "theme": "LL-Fast Follows"
   },
