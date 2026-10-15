@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T15:15:26+00:00",
+ "generated_at": "2026-10-15T15:16:02+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -2471,35 +2471,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24521",
-   "name": "Remove the 5 limit add for UCR codes",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-15T07:18:10.239-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "OneSmile",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
   {
    "key": "PLANS-24499",
    "name": "Configuration Changes - not taking in Prod.",
