@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T16:30:29+00:00",
+ "generated_at": "2026-10-15T16:42:05+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -5873,7 +5873,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL-Sprint 24-26",
    "who": "Valentyna Tenus",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
@@ -5901,44 +5901,13 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL-Sprint 24-26",
    "who": "Nazarii Polinyk",
    "reporter": "Daniel Marineni",
    "prio": "2: Important",
    "created": "2026-10-09T08:49:57.908-0700",
    "resolved": "",
    "due": "2026-10-14",
-   "labels": [
-    "OneSmile",
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24335",
-   "name": "PLANS-24335: Member Portal: Add plan: UI on phone - not mobile compatible",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Daniel Marineni",
-   "prio": "2: Important",
-   "created": "2026-10-09T08:47:00.145-0700",
-   "resolved": "",
-   "due": "2026-10-13",
    "labels": [
     "OneSmile",
     "group1_migration",
@@ -7020,6 +6989,37 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24335",
+   "name": "PLANS-24335: Member Portal: Add plan: UI on phone - not mobile compatible",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-09T08:47:00.145-0700",
+   "resolved": "2026-10-15T09:37:40.500-0700",
+   "due": "2026-10-13",
+   "labels": [
+    "OneSmile",
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-16163",
    "name": "Member Portal \\ Opt-out reasons email flow is throwing a 401 error when user is not previously Logged in at MemberPortal",
@@ -30243,33 +30243,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-19785",
-   "name": "Provider - Plan can be renewed when renewal restriction is enabled",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-16T23:53:03.731-0700",
-   "resolved": "2026-07-17T09:36:41.999-0700",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15107",
-   "parentName": "[DCA] Portal Level Sellability Testing",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
