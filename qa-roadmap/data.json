@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T06:15:19+00:00",
+ "generated_at": "2026-10-15T06:30:22+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -4732,7 +4732,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-10-14T10:08:00.607-0700",
