@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T20:15:22+00:00",
+ "generated_at": "2026-10-15T20:28:19+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -7,7 +7,7 @@
    "name": "Wellfit User - Practice Assignment Picker",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Chris Rubio",
    "tshirt": "Small"
   },
@@ -34,7 +34,7 @@
    "name": "Unify Purchase Into NPM Package",
    "status": "Blocked",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
   },
@@ -79,7 +79,7 @@
    "name": "Bulk Sellable Acceptable",
    "status": "Backlog",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Dmytro Tymofiienko",
    "tshirt": "Large"
   },
@@ -184,7 +184,7 @@
    "name": "Wellfit User - Practice Assignment Picker",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Chris Rubio",
    "tshirt": "Small",
    "pod": "LL",
@@ -228,7 +228,7 @@
    "name": "Add Locations to Smile Health",
    "status": "Backlog",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Camille Knight",
    "tshirt": "Small",
    "pod": "PLANS",
@@ -239,7 +239,7 @@
    "name": "Unify Purchase Into NPM Package",
    "status": "Blocked",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
    "pod": "LL",
@@ -283,7 +283,7 @@
    "name": "Member Search Improvements",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -371,7 +371,7 @@
    "name": "Bulk Sellable Acceptable",
    "status": "Backlog",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Dmytro Tymofiienko",
    "tshirt": "Large",
    "pod": "LL",
@@ -393,7 +393,7 @@
    "name": "PBO Arrangements (Provider Portal & Wellfit Pay): Show Refunds and Adjustments (Crosby Bug)",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -503,7 +503,7 @@
    "name": "TN/CA Capabilities for Care Pay + Clients",
    "status": "Ready for Development",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -569,7 +569,7 @@
    "name": "Edge Cases - for Member Portal - Multi Plans",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.10",
+   "fv": null,
    "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -1364,7 +1364,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "Architecture",
-   "fv": "R9.10",
+   "fv": null,
    "ted": null,
    "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
@@ -1408,7 +1408,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
-   "fv": "R9.10",
+   "fv": null,
    "ted": null,
    "who": "Camille Knight",
    "theme": "LL-Fast Follows"
@@ -1419,7 +1419,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "Blocked",
-   "fv": "R9.10",
+   "fv": null,
    "ted": null,
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
@@ -1463,7 +1463,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Requirements",
-   "fv": "R9.10",
+   "fv": null,
    "ted": null,
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
@@ -1551,7 +1551,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "Backlog",
-   "fv": "R9.10",
+   "fv": null,
    "ted": null,
    "who": "Dmytro Tymofiienko",
    "theme": "LL-Fast Follows"
@@ -1573,7 +1573,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Requirements",
-   "fv": "R9.10",
+   "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
@@ -1683,7 +1683,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Ready for Development",
-   "fv": "R9.10",
+   "fv": null,
    "ted": null,
    "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
@@ -1749,7 +1749,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Architecture",
-   "fv": "R9.10",
+   "fv": null,
    "ted": null,
    "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
@@ -6111,34 +6111,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-23550",
-   "name": "PMP - Resend Welcome Letter Button Remains Disabled When Switching to Another Eligible Member",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-25T10:07:45.831-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-22140",
    "name": "Plan Details PDF in PMP and CSP - Showing only Prophy plan prices (Perio/ Child prices are not visible)",
    "pod": "LL",
@@ -6784,6 +6756,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23550",
+   "name": "PMP - Resend Welcome Letter Button Remains Disabled When Switching to Another Eligible Member",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-09-25T10:07:45.831-0700",
+   "resolved": "2026-10-15T13:26:39.040-0700",
+   "due": "2026-10-14",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24052",
    "name": "Plan Prioritization - Ranking Not Honored on Second Plan Selection Page in Purchase Portals",
@@ -30660,6 +30660,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24540",
+   "name": "Prod - One Smile - Claude quality scrub - Issue list (bug report in progress)",
+   "status": "WAITING REVIEW",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24533",
    "name": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed together instead of aligned in columns",
