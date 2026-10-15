@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T15:30:25+00:00",
+ "generated_at": "2026-10-15T15:41:51+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -5684,34 +5684,6 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
-   "key": "PLANS-23846",
-   "name": "Office shows preselected on Assign patient ID modal when switching views",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Daryl Myrick",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-29T11:26:31.005-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21920",
-   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-24145",
    "name": "PMP-Stage-Manually renewed Plan-Old plan(still Active) not showing in Overview Plan summary, its showing new renewed plan",
    "pod": "PLANS",
@@ -6207,6 +6179,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-23846",
+   "name": "Office shows preselected on Assign patient ID modal when switching views",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Daryl Myrick",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-29T11:26:31.005-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21920",
+   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-23835",
