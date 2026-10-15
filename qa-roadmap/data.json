@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T05:45:20+00:00",
+ "generated_at": "2026-10-15T06:00:24+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -30238,31 +30238,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-18912",
-   "name": "Provider Portal \\ \"Same address as primary\" checkbox fails to re-populate address fields after uncheck/recheck",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 17-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2026-07-02T16:58:49.973-0700",
-   "resolved": "2026-07-16T22:49:39.020-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
