@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T03:00:25+00:00",
+ "generated_at": "2026-10-15T03:15:20+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -4631,6 +4631,35 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24518",
+   "name": "Configurations for Website not working",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.10\"",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "3: Standard",
+   "created": "2026-10-14T20:02:07.130-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "group3_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -30214,13 +30243,6 @@
   {
    "key": "PLANS-24516",
    "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-24515",
-   "name": "Prod/Smile Health/Digital Smiles 55+/Fee schedule for Member+One is incorrect",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
