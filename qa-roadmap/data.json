@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T19:11:59+00:00",
+ "generated_at": "2026-10-15T19:15:24+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -6370,35 +6370,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-14884",
-   "name": "Additional Benefits | Refresh causes content not to load and Back button does not redirect to /plan",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-02-26T14:09:30.262-0800",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "Reenbit",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24517",
    "name": "Support Profile Incorrect for One Smile",
    "pod": "PLANS",
@@ -6872,6 +6843,35 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-14884",
+   "name": "Additional Benefits | Refresh causes content not to load and Back button does not redirect to /plan",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-02-26T14:09:30.262-0800",
+   "resolved": "2026-10-15T12:13:23.940-0700",
+   "due": "2026-10-14",
+   "labels": [
+    "Reenbit",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24193",
    "name": "ACH - broken - unable to add an ACH payment method from plan overview / Add payment page.",
