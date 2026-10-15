@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T17:15:22+00:00",
+ "generated_at": "2026-10-15T17:27:30+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -5839,34 +5839,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24498",
-   "name": "Stage-Essential Smile/SmileHealth/Custom Portals-Missing Coverage Type in Plan Summary while purchasing plan",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-14T09:57:55.729-0700",
-   "resolved": "",
-   "due": "2026-10-15",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24339",
    "name": "URL is correct in member portal, but incorrect in WF Pay",
    "pod": "LL",
@@ -6961,6 +6933,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24498",
+   "name": "Stage-Essential Smile/SmileHealth/Custom Portals-Missing Coverage Type in Plan Summary while purchasing plan",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-14T09:57:55.729-0700",
+   "resolved": "2026-10-15T10:20:08.062-0700",
+   "due": "2026-10-15",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24112",
    "name": "The STAGE SGDP portal is displaying Kids Plans instead of SGDP coverage levels.",
