@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T14:16:17+00:00",
+ "generated_at": "2026-10-15T14:30:26+00:00",
  "today": "2026-10-15",
  "features": [
   {
@@ -2582,6 +2582,34 @@
    "init": "Bug Fix Container"
   },
   {
+   "key": "PLANS-23856",
+   "name": "CSP \\ Unable to overwrite plan price for plans",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-29T14:09:03.423-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-21736",
    "name": "ACH Refund - Full/ Partial refunded ACH transaction that is more than 6 month old continues to display \"Refunded\" instead of \"Past Refund Window\".",
    "pod": "LL",
@@ -4556,6 +4584,35 @@
    "init": ""
   },
   {
+   "key": "PLANS-24521",
+   "name": "Remove the 5 limit add for UCR codes",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-15T07:18:10.239-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "OneSmile",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24519",
    "name": "Production - Android User/Edge Search Browser for One Smile",
    "pod": "LL",
@@ -4975,34 +5032,6 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-23856",
-   "name": "CSP \\ Unable to overwrite plan price for plans",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-29T14:09:03.423-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
