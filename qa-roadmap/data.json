@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:40:22+00:00",
+ "generated_at": "2026-10-16T16:45:21+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -105,7 +105,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Testing",
-   "ted": "2026-10-15",
+   "ted": "2026-10-19",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -480,7 +480,7 @@
    "key": "WT-977",
    "name": "Individual Plus - Tier 2 Expansion",
    "status": "In Testing",
-   "ted": "2026-11-04",
+   "ted": "2026-10-23",
    "fv": "R9.9",
    "who": "Camille Knight",
    "tshirt": "Moderate",
@@ -513,7 +513,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Testing",
-   "ted": "2026-10-15",
+   "ted": "2026-10-19",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -1673,7 +1673,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-11-04",
+   "ted": "2026-10-23",
    "who": "Camille Knight",
    "theme": "LL-Fast Follows"
   },
@@ -1706,7 +1706,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-15",
+   "ted": "2026-10-19",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
@@ -30680,6 +30680,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24568",
+   "name": "PMP-Stage-\"Add Primary Contact” option shows for a minor (Minor 2) who already has a primary contact",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-24566",
    "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
