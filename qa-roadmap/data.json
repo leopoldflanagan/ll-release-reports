@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:15:21+00:00",
+ "generated_at": "2026-10-16T17:24:31+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -403,7 +403,7 @@
    "key": "WT-821",
    "name": "Auto-Renewal Re-Try Process",
    "status": "In Development",
-   "ted": "2026-10-21",
+   "ted": "2026-10-23",
    "fv": "R9.9",
    "who": "Daniel Marineni",
    "tshirt": "Moderate",
@@ -1596,7 +1596,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-10-21",
+   "ted": "2026-10-23",
    "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
