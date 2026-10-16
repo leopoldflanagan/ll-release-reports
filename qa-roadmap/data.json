@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T18:17:21+00:00",
+ "generated_at": "2026-10-16T18:30:23+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -2735,6 +2735,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24569",
+   "name": "Marketing Details - Reset to Last Saved does not restore previously saved CDPS/FS data",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-16T11:14:55.301-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23255",
+   "parentName": "[2] Marketing Details Driving Smile Health - Categorization Management in the CSP Editor",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24568",
@@ -30705,13 +30730,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24569",
-   "name": "Marketing Details - Last saved data is NOT restored when Reset Common Dental Plan Savings to last saved",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24566",
    "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
