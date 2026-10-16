@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:45:21+00:00",
+ "generated_at": "2026-10-16T16:51:44+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -41,7 +41,7 @@
   {
    "key": "WT-1033",
    "name": "CSP Integration Setting at Org level",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.10",
    "who": "Chris Rubio",
@@ -237,7 +237,7 @@
   {
    "key": "WT-1033",
    "name": "CSP Integration Setting at Org level",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.10",
    "who": "Chris Rubio",
@@ -1429,7 +1429,7 @@
    "name": "CSP Integration Setting at Org level",
    "pod": "LL",
    "proj": "WT",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": "R9.10",
    "ted": null,
    "who": "Chris Rubio",
