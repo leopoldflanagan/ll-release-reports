@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T14:30:25+00:00",
+ "generated_at": "2026-10-16T14:41:32+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -776,7 +776,7 @@
   {
    "key": "WT-1046",
    "name": "CREG Eligibility Verification",
-   "status": "Ready for Development",
+   "status": "In Testing",
    "ted": null,
    "fv": "R9.9",
    "who": "Sailaja Yanamandra",
@@ -818,22 +818,11 @@
    "theme": ""
   },
   {
-   "key": "WT-1062",
-   "name": "Creg Claims Funds Transfer",
-   "status": "Requirements",
-   "ted": null,
-   "fv": "R9.9",
-   "who": "Daniel Marineni",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
-   "theme": ""
-  },
-  {
    "key": "WT-1063",
    "name": "CREG Report",
    "status": "Backlog",
    "ted": null,
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -930,6 +919,39 @@
   {
    "key": "WT-1195",
    "name": "Legal Language Additions",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-609",
+   "name": "Tech Debt: 2026",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-681",
+   "name": "LL Changes to Support DCA",
+   "status": "In Development",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": "Moderate",
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-682",
+   "name": "Plans Marketplace (Fast Follow)",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -1946,7 +1968,7 @@
    "name": "CREG Eligibility Verification",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "In Testing",
    "fv": "R9.9",
    "ted": null,
    "who": "Sailaja Yanamandra",
@@ -1986,23 +2008,12 @@
    "theme": ""
   },
   {
-   "key": "WT-1062",
-   "name": "Creg Claims Funds Transfer",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "Requirements",
-   "fv": "R9.9",
-   "ted": null,
-   "who": "Daniel Marineni",
-   "theme": ""
-  },
-  {
    "key": "WT-1063",
    "name": "CREG Report",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "ted": null,
    "who": "Unassigned",
    "theme": ""
@@ -2098,6 +2109,39 @@
   {
    "key": "WT-1195",
    "name": "Legal Language Additions",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-609",
+   "name": "Tech Debt: 2026",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-681",
+   "name": "LL Changes to Support DCA",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "In Development",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-682",
+   "name": "Plans Marketplace (Fast Follow)",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
@@ -6436,34 +6480,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-23794",
-   "name": "ACH - Incorrect Remaining Amount and Status in CSP Plan Transactions After Returned Partial Refund",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-28T13:15:27.977-0700",
-   "resolved": "",
-   "due": "2026-09-30",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21665",
    "name": "PDS Team Plan - Plan details missing",
    "pod": "PLANS",
@@ -6762,6 +6778,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23794",
+   "name": "ACH - Incorrect Remaining Amount and Status in CSP Plan Transactions After Returned Partial Refund",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-28T13:15:27.977-0700",
+   "resolved": "2026-10-16T07:32:43.368-0700",
+   "due": "2026-09-30",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-20111",
    "name": "All Careington Plans - Custom Logos Not Visible on WFP Membership Cards and Printed Membership Cards , Plan details and Membership agreements",
