@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:51:30+00:00",
+ "generated_at": "2026-10-16T16:00:24+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -5981,34 +5981,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24499",
-   "name": "Configuration Changes - not taking in Prod.",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-14T10:08:00.607-0700",
-   "resolved": "",
-   "due": "2026-10-16",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24480",
    "name": "PMP - DCA - membership card/plan details print - logo should be corrected.",
    "pod": "LL",
@@ -6358,6 +6330,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24499",
+   "name": "Configuration Changes - not taking in Prod.",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-14T10:08:00.607-0700",
+   "resolved": "",
+   "due": "2026-10-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24340",
@@ -30630,6 +30630,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24566",
+   "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Sushma Bankar"
+  },
   {
    "key": "PLANS-24561",
    "name": "Marketing Setting - CDPS section is not visible for 2 individual coverage level [AC PMP plan] , visible for 1 and 3",
