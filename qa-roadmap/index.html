@@ -502,6 +502,8 @@
   /* visible status header in bug board */
   .colstatus{font-size:13px;font-weight:800;color:#fff;background:var(--navy);padding:4px 12px;border-radius:6px;letter-spacing:.01em}
   .bugcolhead.near .colstatus{background:var(--green)}
+  .bugcolhead.done{border-bottom-color:#2E7D1E}
+  .bugcolhead.done .colstatus{background:#2E7D1E}
   .bugcolhead.back .colstatus{background:#7c8a99}
 .bugcolhead.rfd .colstatus{background:#5f6c7a}
 .bugcolhead.review .colstatus{background:#B8801A}
@@ -1602,6 +1604,12 @@ let CLOSED_DAYS = 90;
 const FLOW = ["Backlog","WAITING REVIEW","Ready for Development","On Hold","In Development","PR Created","PR Merged","Dev Verification","In Stage","In QA","In PreProd"];
 function flowRank(s){ const i=FLOW.indexOf(s); return i<0?0:i; }
 const NEAR_CLOSE = ["In Stage","In QA","Dev Verification","PR Merged","In PreProd"];
+// Finished work. Deliberately NOT folded into NEAR_CLOSE: that list feeds the
+// "Near closing" count, and adding finished bugs would inflate a number whose
+// whole job is to say "almost there, not there yet". This only sets a colour.
+// Done/Resolved are not in this Jira today; listed so a rename does not silently
+// drop a finished column back to navy.
+const DONE_STATUS = ["Closed","Ready Prod","Done","Resolved"];
 // Fixed column widths so every per-status table lines up (Bug col flexes, the rest are fixed).
 const BUGCOLS = `<colgroup><col><col style="width:70px"><col style="width:82px"><col style="width:88px"><col style="width:100px"><col style="width:146px"><col style="width:132px"><col style="width:124px"><col style="width:116px"></colgroup>`;
 // PLANS bugs with no Pod (needs triage)
@@ -1864,9 +1872,10 @@ function renderBugs(){
     const hold=/hold/i.test(st);
     const rfd=st==="Ready for Development";
     const review=/waiting review/i.test(st);
+    const done=DONE_STATUS.includes(st);
     const isOpen = hadRender ? (prevOpen.has(st) || openByDefault) : openByDefault;
     const sec=document.createElement("div"); sec.className="bugcol"+(isOpen?" open":"");
-    sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''} ${rfd?'rfd':''} ${review?'review':''}"><span class="chev">▸</span><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
+    sec.innerHTML=`<div class="bugcolhead ${near?'near':''} ${isBack?'back':''} ${hold?'hold':''} ${rfd?'rfd':''} ${review?'review':''} ${done?'done':''}"><span class="chev">▸</span><span class="colstatus ${hold?'hold':''}">${st}</span><span class="bugcount">${list.length}</span></div>`;
     const tbl=document.createElement("table"); tbl.className="xref bugtbl";
     tbl.innerHTML=BUGCOLS+`<thead><tr><th>Bug</th><th>Pod</th><th>Priority</th><th>Fix Version</th><th>Due</th><th>Sprint</th><th>Parent</th><th>Assignee</th><th>Reporter</th></tr></thead>`;
     const tb=document.createElement("tbody");
