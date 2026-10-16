@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:45:23+00:00",
+ "generated_at": "2026-10-16T15:51:30+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -2751,7 +2751,7 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-23202",
    "parentName": "[1] Marketing Details Driving Smile Health - Savings Header Framing and Value Mode",
@@ -2768,7 +2768,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2776,15 +2776,15 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24552",
@@ -2905,7 +2905,7 @@
    "prio": "3: Standard",
    "created": "2026-10-12T10:32:45.790-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-23",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -3015,7 +3015,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 24-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
    "prio": "3: Standard",
@@ -3028,11 +3028,11 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
    "initKey": "",
    "init": ""
   },
@@ -4454,7 +4454,7 @@
    "prio": "4: Low",
    "created": "2026-07-24T10:08:46.751-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-27",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4482,7 +4482,7 @@
    "prio": "4: Low",
    "created": "2026-07-24T10:01:15.248-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-27",
    "labels": [
     "group3_migration",
     "product_prioritized"
@@ -4510,7 +4510,7 @@
    "prio": "4: Low",
    "created": "2026-07-01T13:40:41.771-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-27",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -4538,7 +4538,7 @@
    "prio": "4: Low",
    "created": "2026-07-01T13:38:17.116-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-27",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -4566,7 +4566,7 @@
    "prio": "4: Low",
    "created": "2026-07-01T13:35:36.232-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-27",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -4949,7 +4949,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Camille Knight",
    "prio": "3: Standard",
@@ -4962,12 +4962,12 @@
     "group3_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "FMP-8946",
+   "parentName": "Proceed Finance Lowline Offers for PDS",
    "lpEpic": false,
-   "lpSprint": false,
+   "lpSprint": true,
    "linkedLP": false,
    "initKey": "",
    "init": ""
@@ -5770,7 +5770,7 @@
    "prio": "2: Important",
    "created": "2026-06-26T06:54:54.209-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-13",
    "labels": [
     "product_prioritized"
    ],
@@ -5797,7 +5797,7 @@
    "prio": "2: Important",
    "created": "2026-06-24T05:26:17.589-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-18",
    "labels": [
     "product_prioritized"
    ],
@@ -5880,7 +5880,7 @@
    "prio": "2: Important",
    "created": "2026-10-12T08:47:38.780-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-21",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5950,34 +5950,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24540",
-   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 2",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-15T13:15:44.243-0700",
-   "resolved": "",
-   "due": "2026-10-16",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24521",
@@ -6360,6 +6332,34 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
+   "key": "PLANS-24540",
+   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 2",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-15T13:15:44.243-0700",
+   "resolved": "",
+   "due": "2026-10-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24340",
    "name": "Plan details the paragraph is not correct in WFPAY.",
    "pod": "LL",
@@ -6595,7 +6595,7 @@
    "status": "WAITING REVIEW",
    "cat": "In Progress",
    "fv": null,
-   "sprint": "LL-Sprint 24-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Nazarii Polinyk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -6608,11 +6608,11 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
    "initKey": "",
    "init": ""
   },
@@ -30640,7 +30640,7 @@
   {
    "key": "PLANS-24551",
    "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
-   "status": "Ready for Development",
+   "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
   }
