@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T14:00:29+00:00",
+ "generated_at": "2026-10-16T14:15:20+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -303,7 +303,7 @@
   {
    "key": "WT-708",
    "name": "Non Annual Renewals",
-   "status": "In Testing",
+   "status": "Blocked",
    "ted": "2026-09-30",
    "fv": "R9.9",
    "who": "Unassigned",
@@ -1473,7 +1473,7 @@
    "name": "Non Annual Renewals",
    "pod": "DYN",
    "proj": "WT",
-   "status": "In Testing",
+   "status": "Blocked",
    "fv": "R9.9",
    "ted": "2026-09-30",
    "who": "Unassigned",
@@ -2493,34 +2493,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24545",
-   "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list 1.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-15T13:30:14.076-0700",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24533",
    "name": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed together instead of aligned in columns",
@@ -5827,6 +5799,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24545",
+   "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list 1.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-15T13:30:14.076-0700",
+   "resolved": "",
+   "due": "2026-10-19",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24516",
    "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
    "pod": "LL",
@@ -6464,34 +6464,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-22140",
-   "name": "Plan Details PDF in PMP and CSP - Showing only Prophy plan prices (Perio/ Child prices are not visible)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-31T12:13:06.814-0700",
-   "resolved": "",
-   "due": "2026-10-14",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21665",
    "name": "PDS Team Plan - Plan details missing",
    "pod": "PLANS",
@@ -6847,6 +6819,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22140",
+   "name": "Plan Details PDF in PMP and CSP - Showing only Prophy plan prices (Perio/ Child prices are not visible)",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-31T12:13:06.814-0700",
+   "resolved": "2026-10-16T07:08:10.700-0700",
+   "due": "2026-10-14",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-22413",
    "name": "Stage/PMP/Multipractice/Plans Purchase/Practice Name dropdown/ Dental care alliance practices are not displayed in the nested group",
