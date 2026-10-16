@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T19:45:21+00:00",
+ "generated_at": "2026-10-16T19:49:26+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -447,7 +447,7 @@
    "key": "WT-887",
    "name": "SaaS Fee Per Practice",
    "status": "In Testing",
-   "ted": "2026-10-06",
+   "ted": "2026-10-23",
    "fv": "R9.9",
    "who": "Vic Du Plessis",
    "tshirt": "Moderate",
@@ -1640,7 +1640,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-06",
+   "ted": "2026-10-23",
    "who": "Vic Du Plessis",
    "theme": "LL-Fast Follows"
   },
