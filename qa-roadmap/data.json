@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T10:30:26+00:00",
+ "generated_at": "2026-10-16T10:45:19+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -2493,34 +2493,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24545",
-   "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list 1.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-15T13:30:14.076-0700",
-   "resolved": "",
-   "due": "2026-10-16",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
   {
    "key": "PLANS-24532",
    "name": "Prod / STAGE - One Smile - Mobile - Membership agreement is not Downloadable / Viewable",
@@ -5020,34 +4992,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24480",
-   "name": "PMP - DCA - membership card/plan details print - logo should be corrected.",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-14T07:43:42.519-0700",
-   "resolved": "",
-   "due": "2026-10-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24478",
    "name": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price - CONFIG ISSUE",
    "pod": "LL",
@@ -5858,6 +5802,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24545",
+   "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list 1.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-15T13:30:14.076-0700",
+   "resolved": "",
+   "due": "2026-10-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24540",
    "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 2",
    "pod": "LL",
@@ -5912,6 +5884,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24480",
+   "name": "PMP - DCA - membership card/plan details print - logo should be corrected.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-14T07:43:42.519-0700",
+   "resolved": "",
+   "due": "2026-10-21",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24340",
