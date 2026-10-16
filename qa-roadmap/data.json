@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T20:53:26+00:00",
+ "generated_at": "2026-10-16T21:00:26+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -2787,31 +2787,6 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
-   "key": "PLANS-24567",
-   "name": "Offboard Request: Ideal Dental | Effective immediately",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Laryssa Hulsey",
-   "prio": "3: Standard",
-   "created": "2026-10-16T09:39:22.489-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24564",
    "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
    "pod": "LL",
@@ -4895,6 +4870,31 @@
    "labels": [
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "EDW-2476",
+   "name": "Offboard Request: Ideal Dental | Effective immediately",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Laryssa Hulsey",
+   "prio": "3: Standard",
+   "created": "2026-10-16T09:39:22.489-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
    "theme": "",
    "triage": "",
    "parentKey": "",
