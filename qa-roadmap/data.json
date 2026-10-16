@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T08:30:23+00:00",
+ "generated_at": "2026-10-16T08:45:22+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -2550,27 +2550,27 @@
    "init": ""
   },
   {
-   "key": "PLANS-24499",
-   "name": "Configuration Changes - not taking in Prod.",
+   "key": "PLANS-24514",
+   "name": "Fw: [EXTERNAL] Re: Payment",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
+   "sprint": null,
    "who": "Petro Yarish",
-   "reporter": "Camille Knight",
+   "reporter": "Brianna Hill",
    "prio": "2: Important",
-   "created": "2026-10-14T10:08:00.607-0700",
+   "created": "2026-10-14T17:41:32.044-0700",
    "resolved": "",
-   "due": "2026-10-16",
+   "due": "",
    "labels": [
-    "group2_migration",
+    "group1_migration",
     "product_prioritized"
    ],
-   "theme": "LL-Fast Follows",
+   "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -5048,34 +5048,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24514",
-   "name": "Fw: [EXTERNAL] Re: Payment",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Brianna Hill",
-   "prio": "2: Important",
-   "created": "2026-10-14T17:41:32.044-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24480",
    "name": "PMP - DCA - membership card/plan details print - logo should be corrected.",
    "pod": "LL",
@@ -5940,6 +5912,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24499",
+   "name": "Configuration Changes - not taking in Prod.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-14T10:08:00.607-0700",
+   "resolved": "",
+   "due": "2026-10-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24340",
