@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T14:51:51+00:00",
+ "generated_at": "2026-10-16T15:00:27+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -2620,34 +2620,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24384",
-   "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Dima Shtympel",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-12T08:47:38.780-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24339",
@@ -5322,7 +5294,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "Plans-Sprint 24-26",
-   "who": "Unassigned",
+   "who": "Conor Kamperman",
    "reporter": "Hazel Loya",
    "prio": "2: Important",
    "created": "2026-09-30T12:46:42.859-0700",
@@ -5899,34 +5871,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24499",
-   "name": "Configuration Changes - not taking in Prod.",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-14T10:08:00.607-0700",
-   "resolved": "",
-   "due": "2026-10-16",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24480",
    "name": "PMP - DCA - membership card/plan details print - logo should be corrected.",
    "pod": "LL",
@@ -5945,6 +5889,34 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24384",
+   "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-12T08:47:38.780-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22414",
    "parentName": "Plans 9.9 Bugs",
@@ -6094,6 +6066,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24499",
+   "name": "Configuration Changes - not taking in Prod.",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-14T10:08:00.607-0700",
+   "resolved": "",
+   "due": "2026-10-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24340",
