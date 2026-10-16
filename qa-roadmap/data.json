@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T08:00:31+00:00",
+ "generated_at": "2026-10-16T08:15:22+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -2550,6 +2550,34 @@
    "init": "Bug Fix Container"
   },
   {
+   "key": "PLANS-24516",
+   "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-14T19:07:19.432-0700",
+   "resolved": "",
+   "due": "2026-10-19",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24499",
    "name": "Configuration Changes - not taking in Prod.",
    "pod": "LL",
@@ -2761,7 +2789,7 @@
    "prio": "2: Important",
    "created": "2026-08-14T02:34:50.968-0700",
    "resolved": "",
-   "due": "2026-10-13",
+   "due": "2026-10-16",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5038,34 +5066,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24516",
-   "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-14T19:07:19.432-0700",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "",
    "parentName": "",
