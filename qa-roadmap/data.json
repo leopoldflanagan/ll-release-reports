@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T13:45:21+00:00",
+ "generated_at": "2026-10-16T13:51:25+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -2800,6 +2800,31 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24552",
+   "name": "PBO flow charges full amount instead of Wellfit share — Crosby plans",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Vivienne Chawande",
+   "reporter": "Sushma Bankar",
+   "prio": "3: Standard",
+   "created": "2026-10-15T14:24:01.310-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24446",
+   "parentName": "9.9 Release Prep Work",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24520",
@@ -30613,13 +30638,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24552",
-   "name": "PBO flow charges full amount instead of Wellfit share — Crosby plans",
-   "status": "Backlog",
-   "who": "Vivienne Chawande",
-   "reporter": "Sushma Bankar"
-  },
   {
    "key": "PLANS-24551",
    "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
