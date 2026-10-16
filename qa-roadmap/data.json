@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T09:45:20+00:00",
+ "generated_at": "2026-10-16T10:00:22+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -2522,6 +2522,34 @@
    "init": "Bug Fix Container"
   },
   {
+   "key": "PLANS-24532",
+   "name": "Prod / STAGE - One Smile - Mobile - Membership agreement is not Downloadable / Viewable",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-15T09:55:04.764-0700",
+   "resolved": "",
+   "due": "2026-10-18",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24446",
+   "parentName": "9.9 Release Prep Work",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24516",
    "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
    "pod": "LL",
@@ -2772,34 +2800,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24532",
-   "name": "Prod / STAGE - One Smile - Mobile - Membership agreement is not Downloadable / Viewable",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-15T09:55:04.764-0700",
-   "resolved": "",
-   "due": "2026-10-18",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24446",
-   "parentName": "9.9 Release Prep Work",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-24520",
