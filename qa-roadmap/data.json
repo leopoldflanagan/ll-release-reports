@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T18:00:28+00:00",
+ "generated_at": "2026-10-16T18:15:24+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -30705,6 +30705,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24569",
+   "name": "Marketing Details - Last saved data is NOT restored when Reset Common Dental Plan Savings to last saved",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24566",
    "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
