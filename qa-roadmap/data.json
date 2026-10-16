@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:13:53+00:00",
+ "generated_at": "2026-10-16T15:15:22+00:00",
  "today": "2026-10-16",
  "features": [
   {
@@ -30605,6 +30605,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24564",
+   "name": "Marketing Settings - Legacy ONLY - Suffix is updated as 'OFF' for 1 individual , none set to 2,3 . Suffix is not visible for 2/3",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24561",
    "name": "Marketing Setting - CDPS section is not visible for 2 individual coverage level [AC PMP plan] , visible for 1 and 3",
