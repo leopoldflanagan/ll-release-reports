@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T17:15:22+00:00",
+ "generated_at": "2026-10-18T17:30:23+00:00",
  "today": "2026-10-18",
  "features": [
   {
@@ -30542,31 +30542,6 @@
    "labels": [
     "plans"
    ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-19690",
-   "name": "PMP/Additional Benefits PDF Card /Layout Issues and inline html elements are displayed in the text",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Hunter Redhead",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-15T16:02:05.140-0700",
-   "resolved": "2026-07-20T10:21:55.473-0700",
-   "due": "2026-07-20",
-   "labels": [],
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-18470",
