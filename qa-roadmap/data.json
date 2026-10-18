@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T17:30:23+00:00",
+ "generated_at": "2026-10-18T17:45:19+00:00",
  "today": "2026-10-18",
  "features": [
   {
@@ -30524,33 +30524,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-19924",
-   "name": "[Multi-Practice View] - No results displayed while searching a patient from the multi-practice view",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-20T10:22:27.063-0700",
-   "resolved": "2026-07-20T10:30:44.169-0700",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
