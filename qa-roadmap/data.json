@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T09:45:21+00:00",
+ "generated_at": "2026-10-18T10:00:26+00:00",
  "today": "2026-10-18",
  "features": [
   {
@@ -30696,31 +30696,6 @@
    "triage": "",
    "parentKey": "PLANS-14864",
    "parentName": "RE - MP Refactor Work Placeholder",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-19562",
-   "name": "Member portal - Plan details has the old template ; not updated with new CSP settings ; not Dynamic",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 17-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-14T08:34:38.173-0700",
-   "resolved": "2026-07-20T02:50:24.320-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14926",
-   "parentName": "Updates to Marketing Details",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
