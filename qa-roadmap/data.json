@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T14:54:28+00:00",
+ "generated_at": "2026-10-19T15:00:26+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -3798,7 +3798,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans-Sprint 24-26",
+   "sprint": "LL-Sprint 24-26",
    "who": "Dmytro Tymofiienko",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
