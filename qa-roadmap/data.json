@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T07:45:25+00:00",
+ "generated_at": "2026-10-19T08:00:26+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30453,6 +30453,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24585",
+   "name": "KOS portal uses static footer instead of shared dynamic footer",
+   "status": "Backlog",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus"
+  },
   {
    "key": "PLANS-24566",
    "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
