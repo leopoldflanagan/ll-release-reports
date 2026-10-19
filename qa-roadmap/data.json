@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T20:50:52+00:00",
+ "generated_at": "2026-10-19T21:00:22+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30296,60 +30296,24 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-18164",
-   "name": "Stage - CSP - Promo Codes - Removing all promo Code Rules doesn't persist after save",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-06-18T07:49:56.576-0700",
-   "resolved": "2026-07-21T13:58:00.281-0700",
-   "due": "2026-07-20",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15227",
-   "parentName": "WAIVEFAM Validation via CSP",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-402",
-   "init": "LL Core Product - Refunds, Payments, Communications & Websites"
-  },
-  {
-   "key": "PLANS-19546",
-   "name": "Smile health - Admin Fee displayed as whole number (17) instead of configured decimal value (16.5) on Plan Benefits page",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-14T07:01:34.109-0700",
-   "resolved": "2026-07-21T13:51:07.313-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-18610",
-   "parentName": "Smile Health — Display Admin Fee Dynamically - Accurate, Dynamic Admin-Fee Display",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24619",
+   "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
+  {
+   "key": "PLANS-24618",
+   "name": "CREG/Unable to Add Dependent member to primary in the UI",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24614",
    "name": "QA Env/CSP/Unable to purchase CREG plan for new member",
