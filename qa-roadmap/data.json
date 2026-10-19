@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T10:00:26+00:00",
+ "generated_at": "2026-10-19T10:15:20+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -32,7 +32,7 @@
   {
    "key": "WT-1032",
    "name": "Unify Purchase Into NPM Package",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": null,
    "fv": null,
    "who": "Ivan Yarymovych",
@@ -226,7 +226,7 @@
   {
    "key": "WT-1032",
    "name": "Unify Purchase Into NPM Package",
-   "status": "Blocked",
+   "status": "In Development",
    "ted": null,
    "fv": null,
    "who": "Ivan Yarymovych",
@@ -1418,7 +1418,7 @@
    "name": "Unify Purchase Into NPM Package",
    "pod": "LL",
    "proj": "WT",
-   "status": "Blocked",
+   "status": "In Development",
    "fv": null,
    "ted": null,
    "who": "Ivan Yarymovych",
@@ -2550,7 +2550,7 @@
    "prio": "2: Important",
    "created": "2026-10-15T09:57:00.339-0700",
    "resolved": "",
-   "due": "2026-10-16",
+   "due": "2026-10-20",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -2679,34 +2679,6 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-22870",
-   "name": "PMP - Resend Welcome Email",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-11T11:05:18.353-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-21736",
@@ -6536,6 +6508,34 @@
    "created": "2026-09-29T14:09:03.423-0700",
    "resolved": "",
    "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-22870",
+   "name": "PMP - Resend Welcome Email",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-11T11:05:18.353-0700",
+   "resolved": "",
+   "due": "2026-10-19",
    "labels": [
     "group1_migration",
     "product_prioritized"
