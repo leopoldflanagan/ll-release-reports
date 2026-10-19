@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T18:30:25+00:00",
+ "generated_at": "2026-10-19T18:45:23+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30377,31 +30377,6 @@
    "linkedLP": false,
    "initKey": "WT-266",
    "init": "Plans Tech Debt"
-  },
-  {
-   "key": "PLANS-19743",
-   "name": "Provider Portal \\ Currency symbol disappears when Treatment Amount field receives focus",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "4: Low",
-   "created": "2026-07-16T11:12:52.449-0700",
-   "resolved": "2026-07-21T11:38:20.253-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
@@ -30409,7 +30384,7 @@
   {
    "key": "PLANS-24608",
    "name": "CSP Marketing Settings - Preventative section missing from Child/Prophy/Perio Add Defaults presets",
-   "status": "PR Created",
+   "status": "PR Merged",
    "who": "Valentyna Tenus",
    "reporter": "Valentyna Tenus"
   },
