@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T19:30:27+00:00",
+ "generated_at": "2026-10-19T19:39:03+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30391,13 +30391,6 @@
    "status": "PR Merged",
    "who": "Valentyna Tenus",
    "reporter": "Valentyna Tenus"
-  },
-  {
-   "key": "PLANS-24588",
-   "name": "Marketing Details -",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
   }
  ],
  "weeks": [
