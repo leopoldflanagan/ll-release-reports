@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T12:30:22+00:00",
+ "generated_at": "2026-10-19T12:45:21+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -95,7 +95,7 @@
   {
    "key": "WT-833",
    "name": "PMP - Account Information Google/Apple Wallet",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-19",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
@@ -114,7 +114,7 @@
    "key": "WT-987",
    "name": "Add Missing Data Icon to PMP",
    "status": "In Development",
-   "ted": "2026-10-23",
+   "ted": "2026-10-21",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
@@ -131,7 +131,7 @@
   {
    "key": "WT-993",
    "name": "Log Cancellation/Opt Out Reason in Account History",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-19",
    "fv": "R9.9",
    "who": "Denys Kernychnyi",
@@ -413,7 +413,7 @@
   {
    "key": "WT-833",
    "name": "PMP - Account Information Google/Apple Wallet",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-19",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
@@ -524,7 +524,7 @@
    "key": "WT-987",
    "name": "Add Missing Data Icon to PMP",
    "status": "In Development",
-   "ted": "2026-10-23",
+   "ted": "2026-10-21",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small",
@@ -545,7 +545,7 @@
   {
    "key": "WT-993",
    "name": "Log Cancellation/Opt Out Reason in Account History",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-19",
    "fv": "R9.9",
    "who": "Denys Kernychnyi",
@@ -1605,7 +1605,7 @@
    "name": "PMP - Account Information Google/Apple Wallet",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.10",
    "ted": "2026-10-19",
    "who": "Rostyslav Masniuk",
@@ -1717,7 +1717,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.9",
-   "ted": "2026-10-23",
+   "ted": "2026-10-21",
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
@@ -1737,7 +1737,7 @@
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.9",
    "ted": "2026-10-19",
    "who": "Denys Kernychnyi",
