@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T09:30:25+00:00",
+ "generated_at": "2026-10-19T09:45:21+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30395,31 +30395,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-4985",
-   "name": "Member V3 | Change password verification email logo UI issue - logo is too large.",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-02-24T07:50:43.165-0800",
-   "resolved": "2026-07-21T02:34:13.152-0700",
-   "due": "2025-03-26",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-6058",
-   "parentName": "Member Portal UI Fixes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-127",
-   "init": "Mobile Support Member Portal"
   }
  ],
  "closed_days": 90,
@@ -30427,7 +30402,7 @@
   {
    "key": "PLANS-24586",
    "name": "PMP Wallet QR - wallet pass shows no logo when the logo file name contains spaces",
-   "status": "In Development",
+   "status": "PR Created",
    "who": "Mykyta Moroz",
    "reporter": "Mykyta Moroz"
   },
