@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T13:46:09+00:00",
+ "generated_at": "2026-10-19T14:00:24+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -58,7 +58,7 @@
   },
   {
    "key": "WT-1053",
-   "name": "Purchase Widget to Payment Widget Integration",
+   "name": "Purchase Widget to Payment ARCHIVE/DELETE: Widget Integration - Purchase Portal & Member Portal",
    "status": "Requirements",
    "ted": null,
    "fv": "R9.10",
@@ -258,7 +258,7 @@
   },
   {
    "key": "WT-1053",
-   "name": "Purchase Widget to Payment Widget Integration",
+   "name": "Purchase Widget to Payment ARCHIVE/DELETE: Widget Integration - Purchase Portal & Member Portal",
    "status": "Requirements",
    "ted": null,
    "fv": "R9.10",
@@ -1448,7 +1448,7 @@
   },
   {
    "key": "WT-1053",
-   "name": "Purchase Widget to Payment Widget Integration",
+   "name": "Purchase Widget to Payment ARCHIVE/DELETE: Widget Integration - Purchase Portal & Member Portal",
    "pod": "LL",
    "proj": "WT",
    "status": "Requirements",
@@ -30327,6 +30327,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24588",
+   "name": "Marketing Details -",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24586",
    "name": "PMP Wallet QR - wallet pass shows no logo when the logo file name contains spaces",
