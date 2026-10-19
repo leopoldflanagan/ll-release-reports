@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T22:49:31+00:00",
+ "generated_at": "2026-10-19T23:00:23+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30171,6 +30171,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24627",
+   "name": "CREG/Member Card/Administered by Wellfit is displayed in the Member Card",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24624",
    "name": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additional Benefits, Legal Text, and Incorrect Fee Information",
