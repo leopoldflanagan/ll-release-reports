@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T17:27:42+00:00",
+ "generated_at": "2026-10-19T17:30:23+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -5832,34 +5832,6 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
-   "key": "PLANS-24564",
-   "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-16T08:14:40.539-0700",
-   "resolved": "",
-   "due": "2026-10-20",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-23202",
-   "parentName": "[1] Marketing Details Driving Smile Health - Savings Header Framing and Value Mode",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-24545",
    "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list 1.",
    "pod": "LL",
@@ -5914,6 +5886,34 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24564",
+   "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-16T08:14:40.539-0700",
+   "resolved": "",
+   "due": "2026-10-20",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-23202",
+   "parentName": "[1] Marketing Details Driving Smile Health - Savings Header Framing and Value Mode",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24516",
