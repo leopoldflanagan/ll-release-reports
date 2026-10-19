@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T09:15:18+00:00",
+ "generated_at": "2026-10-19T09:30:25+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -152,7 +152,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": "R9.10",
-   "who": "Dmytro Tymofiienko",
+   "who": "Denys Kernychnyi",
    "tshirt": "Small"
   }
  ],
@@ -867,7 +867,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": "R9.10",
-   "who": "Dmytro Tymofiienko",
+   "who": "Denys Kernychnyi",
    "tshirt": "Small",
    "pod": "LL",
    "theme": ""
@@ -2059,7 +2059,7 @@
    "status": "Backlog",
    "fv": "R9.10",
    "ted": null,
-   "who": "Dmytro Tymofiienko",
+   "who": "Denys Kernychnyi",
    "theme": ""
   },
   {
