@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T10:15:20+00:00",
+ "generated_at": "2026-10-19T10:30:24+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -743,10 +743,10 @@
   {
    "key": "WT-1026",
    "name": "Smile health replace treatment and sales api on plans api",
-   "status": "Requirements",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.10",
-   "who": "Ivan Yarymovych",
+   "who": "Nazarii Polinyk",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1935,10 +1935,10 @@
    "name": "Smile health replace treatment and sales api on plans api",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Requirements",
+   "status": "In Development",
    "fv": "R9.10",
    "ted": null,
-   "who": "Ivan Yarymovych",
+   "who": "Nazarii Polinyk",
    "theme": ""
   },
   {
@@ -2941,36 +2941,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24408",
-   "name": "PMP - Additional benefit card - org logo is missing",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 24-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-12T10:32:45.790-0700",
-   "resolved": "",
-   "due": "2026-10-23",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-23885",
-   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24361",
@@ -5842,7 +5812,7 @@
    "prio": "2: Important",
    "created": "2026-10-15T13:30:14.076-0700",
    "resolved": "",
-   "due": "2026-10-19",
+   "due": "2026-10-20",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -6348,6 +6318,36 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24408",
+   "name": "PMP - Additional benefit card - org logo is missing",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-12T10:32:45.790-0700",
+   "resolved": "",
+   "due": "2026-10-23",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24340",
@@ -30365,31 +30365,6 @@
    "triage": "",
    "parentKey": "PLANS-14926",
    "parentName": "Updates to Marketing Details",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-17035",
-   "name": "Member portal - RENEW button visible after renewing plan added thorugh ADD PLAN; and renewed the wrong members plan",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-05-29T12:26:36.733-0700",
-   "resolved": "2026-07-21T03:26:00.106-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14864",
-   "parentName": "RE - MP Refactor Work Placeholder",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
