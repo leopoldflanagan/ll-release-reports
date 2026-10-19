@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T21:49:46+00:00",
+ "generated_at": "2026-10-19T22:00:28+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30196,6 +30196,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24624",
+   "name": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additional Benefits, Legal Text, and Incorrect Fee Information",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24621",
    "name": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Prophy/Child)",
