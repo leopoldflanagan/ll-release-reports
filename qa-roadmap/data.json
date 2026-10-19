@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T17:40:51+00:00",
+ "generated_at": "2026-10-19T17:45:19+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -304,8 +304,8 @@
    "key": "WT-708",
    "name": "Non Annual Renewals",
    "status": "Blocked",
-   "ted": "2026-09-30",
-   "fv": "R9.9",
+   "ted": "2026-11-27",
+   "fv": "R9.10",
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -1496,8 +1496,8 @@
    "pod": "DYN",
    "proj": "WT",
    "status": "Blocked",
-   "fv": "R9.9",
-   "ted": "2026-09-30",
+   "fv": "R9.10",
+   "ted": "2026-11-27",
    "who": "Unassigned",
    "theme": "LL-Fast Follows"
   },
