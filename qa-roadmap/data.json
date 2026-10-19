@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T19:23:48+00:00",
+ "generated_at": "2026-10-19T19:30:27+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30380,7 +30380,7 @@
  "nopod": [
   {
    "key": "PLANS-24614",
-   "name": "QA Environment/Unable to purchase CREG plan for new member",
+   "name": "QA Env/CSP/Unable to purchase CREG plan for new member",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
