@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T22:00:28+00:00",
+ "generated_at": "2026-10-19T22:14:39+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30167,31 +30167,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-19563",
-   "name": "SGDP purchase portal — summary-of-discounts loads wrong documents (plan year parsed from plan name)",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Clint Tredway",
-   "reporter": "Clint Tredway",
-   "prio": "3: Standard",
-   "created": "2026-07-14T08:34:43.981-0700",
-   "resolved": "2026-07-21T15:08:29.013-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
@@ -30226,7 +30201,7 @@
   },
   {
    "key": "PLANS-24614",
-   "name": "QA Env/CSP/Unable to purchase CREG plan for new member",
+   "name": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
