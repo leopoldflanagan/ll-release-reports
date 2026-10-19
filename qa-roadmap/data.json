@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T19:15:20+00:00",
+ "generated_at": "2026-10-19T19:23:48+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -938,7 +938,7 @@
   },
   {
    "key": "WT-1201",
-   "name": "Individual Plus & Individual Plans - Ability to add members via website",
+   "name": "Individual Plus Plans - website/mp/pmp - verbiage for max number (when under 8 ppl)",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -2139,7 +2139,7 @@
   },
   {
    "key": "WT-1201",
-   "name": "Individual Plus & Individual Plans - Ability to add members via website",
+   "name": "Individual Plus Plans - website/mp/pmp - verbiage for max number (when under 8 ppl)",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
@@ -30378,6 +30378,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24614",
+   "name": "QA Environment/Unable to purchase CREG plan for new member",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24608",
    "name": "CSP Marketing Settings - Preventative section missing from Child/Prophy/Perio Add Defaults presets",
