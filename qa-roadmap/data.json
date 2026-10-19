@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T15:00:26+00:00",
+ "generated_at": "2026-10-19T15:15:00+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -2734,6 +2734,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-21111",
+   "name": "Stage - Member Portal - Overview - Other adult's savings contribution is not displayed",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-12T12:02:55.729-0700",
+   "resolved": "",
+   "due": "2026-10-20",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24569",
    "name": "Marketing Details - Reset to Last Saved does not restore previously saved CDPS/FS data",
    "pod": "LL",
@@ -2839,14 +2867,14 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-15T14:22:38.812-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-20",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -6554,34 +6582,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-21111",
-   "name": "Stage - Member Portal - Overview - Other adult's savings contribution is not displayed",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-12T12:02:55.729-0700",
-   "resolved": "",
-   "due": "2026-10-20",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-18564",
