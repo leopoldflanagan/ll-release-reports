@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T21:30:24+00:00",
+ "generated_at": "2026-10-19T21:40:42+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -578,7 +578,7 @@
    "name": "Plans Journey - ACH Email Updates",
    "status": "In Testing",
    "ted": "2026-11-06",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Unassigned",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -1791,7 +1791,7 @@
    "pod": "DYN",
    "proj": "WT",
    "status": "In Testing",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "ted": "2026-11-06",
    "who": "Unassigned",
    "theme": "ACH"
@@ -6081,34 +6081,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24145",
-   "name": "PMP-Stage-Manually renewed Plan-Old plan(still Active) not showing in Overview Plan summary, its showing new renewed plan",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-10-06T06:11:17.918-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-23846",
    "name": "Office shows preselected on Assign patient ID modal when switching views",
    "pod": "PLANS",
@@ -7016,6 +6988,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24145",
+   "name": "PMP-Stage-Manually renewed Plan-Old plan(still Active) not showing in Overview Plan summary, its showing new renewed plan",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-10-06T06:11:17.918-0700",
+   "resolved": "2026-10-19T14:37:24.140-0700",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-20268",
    "name": "RETEST - Plan Details - Benefit Details should display QTY and Description only in a list format, not as a grid",
