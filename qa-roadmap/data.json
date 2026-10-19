@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T12:24:09+00:00",
+ "generated_at": "2026-10-19T12:30:22+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -2609,37 +2609,6 @@
    "due": "2026-10-19",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24339",
-   "name": "URL is correct in member portal, but incorrect in WF Pay",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Daniel Marineni",
-   "prio": "2: Important",
-   "created": "2026-10-09T08:49:57.908-0700",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "OneSmile",
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
@@ -5843,6 +5812,37 @@
    "due": "2026-10-19",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24339",
+   "name": "URL is correct in member portal, but incorrect in WF Pay",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-09T08:49:57.908-0700",
+   "resolved": "",
+   "due": "2026-10-19",
+   "labels": [
+    "OneSmile",
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
