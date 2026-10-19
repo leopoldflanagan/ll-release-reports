@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T13:30:21+00:00",
+ "generated_at": "2026-10-19T13:45:23+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -2706,8 +2706,8 @@
    "init": ""
   },
   {
-   "key": "PLANS-18564",
-   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
+   "key": "PLANS-18461",
+   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -2716,9 +2716,9 @@
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
-   "created": "2026-06-26T06:54:54.209-0700",
+   "created": "2026-06-24T05:26:17.589-0700",
    "resolved": "",
-   "due": "2026-11-13",
+   "due": "2026-11-18",
    "labels": [
     "product_prioritized"
    ],
@@ -2792,11 +2792,14 @@
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-10-16T08:14:40.539-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-23202",
@@ -4956,34 +4959,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24535",
-   "name": "PROD - DCA Website is down.",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-15T11:29:14.042-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24519",
    "name": "Production - Android User/Edge Search Browser for One Smile",
    "pod": "LL",
@@ -5738,33 +5713,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-18461",
-   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-24T05:26:17.589-0700",
-   "resolved": "",
-   "due": "2026-11-18",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
@@ -6635,6 +6583,33 @@
    "init": ""
   },
   {
+   "key": "PLANS-18564",
+   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-06-26T06:54:54.209-0700",
+   "resolved": "",
+   "due": "2026-11-13",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24108",
    "name": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
    "pod": "LL",
@@ -6849,6 +6824,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24535",
+   "name": "PROD - DCA Website is down.",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-15T11:29:14.042-0700",
+   "resolved": "2026-10-19T06:37:57.113-0700",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24561",
    "name": "Marketing Setting - CDPS section is not visible for 2 individual coverage level [AC PMP plan] , visible for 1 and 3",
