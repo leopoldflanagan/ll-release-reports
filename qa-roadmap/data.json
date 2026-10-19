@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T15:50:43+00:00",
+ "generated_at": "2026-10-19T16:00:26+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -24,7 +24,7 @@
    "key": "WT-1029",
    "name": "PDF Enhancements",
    "status": "In Testing",
-   "ted": "2026-10-30",
+   "ted": "2026-10-23",
    "fv": "R9.9",
    "who": "Dima Shtympel",
    "tshirt": "Large"
@@ -96,7 +96,7 @@
    "key": "WT-833",
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "In Testing",
-   "ted": "2026-10-19",
+   "ted": "2026-10-23",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
@@ -105,7 +105,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Testing",
-   "ted": "2026-10-19",
+   "ted": "2026-10-20",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -132,7 +132,7 @@
    "key": "WT-993",
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "status": "In Testing",
-   "ted": "2026-10-19",
+   "ted": "2026-10-21",
    "fv": "R9.9",
    "who": "Denys Kernychnyi",
    "tshirt": "Moderate"
@@ -142,7 +142,7 @@
    "name": "Define Refund Window Timeframes",
    "status": "In Development",
    "ted": "2026-10-19",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
   },
@@ -205,7 +205,7 @@
    "key": "WT-1029",
    "name": "PDF Enhancements",
    "status": "In Testing",
-   "ted": "2026-10-30",
+   "ted": "2026-10-23",
    "fv": "R9.9",
    "who": "Dima Shtympel",
    "tshirt": "Large",
@@ -414,7 +414,7 @@
    "key": "WT-833",
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "In Testing",
-   "ted": "2026-10-19",
+   "ted": "2026-10-23",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small",
@@ -513,7 +513,7 @@
    "key": "WT-985",
    "name": "Marketing Details - Driving Smile Health",
    "status": "In Testing",
-   "ted": "2026-10-19",
+   "ted": "2026-10-20",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -546,7 +546,7 @@
    "key": "WT-993",
    "name": "Log Cancellation/Opt Out Reason in Account History",
    "status": "In Testing",
-   "ted": "2026-10-19",
+   "ted": "2026-10-21",
    "fv": "R9.9",
    "who": "Denys Kernychnyi",
    "tshirt": "Moderate",
@@ -580,7 +580,7 @@
    "name": "Define Refund Window Timeframes",
    "status": "In Development",
    "ted": "2026-10-19",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate",
    "pod": "LL",
@@ -1398,7 +1398,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-30",
+   "ted": "2026-10-23",
    "who": "Dima Shtympel",
    "theme": "LL-Fast Follows"
   },
@@ -1607,7 +1607,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-10-19",
+   "ted": "2026-10-23",
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
@@ -1706,7 +1706,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-19",
+   "ted": "2026-10-20",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
@@ -1739,7 +1739,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-19",
+   "ted": "2026-10-21",
    "who": "Denys Kernychnyi",
    "theme": "LL-Fast Follows"
   },
@@ -1771,7 +1771,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "In Development",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "ted": "2026-10-19",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
@@ -5718,34 +5718,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24516",
-   "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-14T19:07:19.432-0700",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24021",
    "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
    "pod": "LL",
@@ -5795,6 +5767,34 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24516",
+   "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-14T19:07:19.432-0700",
+   "resolved": "",
+   "due": "2026-10-19",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -6809,7 +6809,7 @@
    "prio": "4: Low",
    "created": "2026-07-24T10:08:46.751-0700",
    "resolved": "2026-10-19T08:37:56.648-0700",
-   "due": "2026-11-27",
+   "due": "2026-11-04",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6837,7 +6837,7 @@
    "prio": "4: Low",
    "created": "2026-07-24T10:01:15.248-0700",
    "resolved": "2026-10-19T08:37:36.087-0700",
-   "due": "2026-11-27",
+   "due": "2026-11-04",
    "labels": [
     "group3_migration",
     "product_prioritized"
