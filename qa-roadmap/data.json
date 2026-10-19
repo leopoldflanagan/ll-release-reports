@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T08:45:25+00:00",
+ "generated_at": "2026-10-19T09:00:26+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -2679,6 +2679,34 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-22870",
+   "name": "PMP - Resend Welcome Email",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-11T11:05:18.353-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-21736",
@@ -5579,34 +5607,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-22870",
-   "name": "PMP - Resend Welcome Email",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-11T11:05:18.353-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
@@ -30424,6 +30424,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24586",
+   "name": "PMP Wallet QR - wallet pass shows no logo when the logo file name contains spaces",
+   "status": "In Development",
+   "who": "Mykyta Moroz",
+   "reporter": "Mykyta Moroz"
+  },
   {
    "key": "PLANS-24585",
    "name": "KOS portal uses static footer instead of shared dynamic footer",
