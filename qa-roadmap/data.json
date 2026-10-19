@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T14:00:24+00:00",
+ "generated_at": "2026-10-19T14:15:24+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30298,31 +30298,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-13401",
-   "name": "Provider - KIDS treatments are not showing in Member portal (Showing only sgdp treatments )",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-03-30T16:02:11.755-0700",
-   "resolved": "2026-07-21T07:13:28.231-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-13306",
-   "parentName": "Member portal bugs bucket",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
