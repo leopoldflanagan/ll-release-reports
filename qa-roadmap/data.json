@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T19:39:03+00:00",
+ "generated_at": "2026-10-19T19:45:22+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -939,6 +939,17 @@
   {
    "key": "WT-1201",
    "name": "Individual Plus Plans - website/mp/pmp - verbiage for max number (when under 8 ppl)",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1202",
+   "name": "Notes for Launch Loyalty Migration Client",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -2140,6 +2151,17 @@
   {
    "key": "WT-1201",
    "name": "Individual Plus Plans - website/mp/pmp - verbiage for max number (when under 8 ppl)",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1202",
+   "name": "Notes for Launch Loyalty Migration Client",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
