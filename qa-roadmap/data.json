@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T18:00:25+00:00",
+ "generated_at": "2026-10-19T18:15:21+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -100,6 +100,15 @@
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
+  },
+  {
+   "key": "WT-974",
+   "name": "Payment wallet and plans enhancement - Member portal",
+   "status": "Ready for Development",
+   "ted": null,
+   "fv": "R9.10",
+   "who": "Daniel Marineni",
+   "tshirt": "Moderate"
   },
   {
    "key": "WT-985",
@@ -473,7 +482,7 @@
    "fv": "R9.10",
    "who": "Daniel Marineni",
    "tshirt": "Moderate",
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1658,7 +1667,7 @@
   {
    "key": "WT-974",
    "name": "Payment wallet and plans enhancement - Member portal",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "WT",
    "status": "Ready for Development",
    "fv": "R9.10",
