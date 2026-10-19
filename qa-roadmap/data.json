@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T19:00:31+00:00",
+ "generated_at": "2026-10-19T19:11:14+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -928,6 +928,17 @@
   {
    "key": "WT-1195",
    "name": "Legal Language Additions",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1201",
+   "name": "Individual Plus & Individual Plans - Ability to add members via website",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -2118,6 +2129,17 @@
   {
    "key": "WT-1195",
    "name": "Legal Language Additions",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1201",
+   "name": "Individual Plus & Individual Plans - Ability to add members via website",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
@@ -30352,31 +30374,6 @@
    "linkedLP": false,
    "initKey": "WT-402",
    "init": "LL Core Product - Refunds, Payments, Communications & Websites"
-  },
-  {
-   "key": "PLANS-19216",
-   "name": "Prod/PlansMarketplace/Member Overview/Benefit Summary Tab is displayed thoughg the Benefits are not set up for Plan",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "1: Urgent",
-   "created": "2026-07-08T12:05:14.038-0700",
-   "resolved": "2026-07-21T12:03:10.222-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-11431",
-   "parentName": "2026 Production Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-266",
-   "init": "Plans Tech Debt"
   }
  ],
  "closed_days": 90,
