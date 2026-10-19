@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T22:15:22+00:00",
+ "generated_at": "2026-10-19T22:28:29+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -2602,34 +2602,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-15T09:57:00.339-0700",
-   "resolved": "",
-   "due": "2026-10-20",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24532",
-   "name": "Prod / STAGE - One Smile - Mobile - Membership agreement is not Downloadable / Viewable",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-15T09:55:04.764-0700",
    "resolved": "",
    "due": "2026-10-20",
    "labels": [
@@ -5893,6 +5865,34 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-15T13:30:14.076-0700",
+   "resolved": "",
+   "due": "2026-10-20",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24532",
+   "name": "Prod / STAGE - One Smile - Mobile - Membership agreement is not Downloadable / Viewable",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-15T09:55:04.764-0700",
    "resolved": "",
    "due": "2026-10-20",
    "labels": [
