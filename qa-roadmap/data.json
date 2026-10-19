@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T14:30:25+00:00",
+ "generated_at": "2026-10-19T14:41:41+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -2538,6 +2538,34 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24564",
+   "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-16T08:14:40.539-0700",
+   "resolved": "",
+   "due": "2026-10-20",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-23202",
+   "parentName": "[1] Marketing Details Driving Smile Health - Savings Header Framing and Value Mode",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
    "key": "PLANS-24533",
    "name": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed together instead of aligned in columns",
    "pod": "LL",
@@ -2706,33 +2734,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-18461",
-   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 21-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-24T05:26:17.589-0700",
-   "resolved": "",
-   "due": "2026-11-18",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24569",
    "name": "Marketing Details - Reset to Last Saved does not restore previously saved CDPS/FS data",
    "pod": "LL",
@@ -2776,34 +2777,6 @@
    "triage": "",
    "parentKey": "PLANS-22197",
    "parentName": "Epic 1: Missing Primary Contact Visibility",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-24564",
-   "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-16T08:14:40.539-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-23202",
-   "parentName": "[1] Marketing Details Driving Smile Health - Savings Header Framing and Value Mode",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -6624,6 +6597,33 @@
    "created": "2026-06-26T06:54:54.209-0700",
    "resolved": "",
    "due": "2026-11-13",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-18461",
+   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 21-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-06-24T05:26:17.589-0700",
+   "resolved": "",
+   "due": "2026-11-18",
    "labels": [
     "product_prioritized"
    ],
@@ -30334,7 +30334,7 @@
    "key": "PLANS-24588",
    "name": "Marketing Details -",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
