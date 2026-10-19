@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T07:30:24+00:00",
+ "generated_at": "2026-10-19T07:45:25+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -50,7 +50,7 @@
   {
    "key": "WT-1036",
    "name": "Payment Term: ID on overview",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-19",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
@@ -248,7 +248,7 @@
   {
    "key": "WT-1036",
    "name": "Payment Term: ID on overview",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-19",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
@@ -1440,7 +1440,7 @@
    "name": "Payment Term: ID on overview",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.9",
    "ted": "2026-10-19",
    "who": "Valentyna Tenus",
