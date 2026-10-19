@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T15:45:23+00:00",
+ "generated_at": "2026-10-19T15:50:43+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -149,7 +149,7 @@
   {
    "key": "WT-1170",
    "name": "Show statuses for ACH transactions at Member Portal",
-   "status": "Backlog",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
@@ -864,7 +864,7 @@
   {
    "key": "WT-1170",
    "name": "Show statuses for ACH transactions at Member Portal",
-   "status": "Backlog",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
@@ -2056,7 +2056,7 @@
    "name": "Show statuses for ACH transactions at Member Portal",
    "pod": "LL",
    "proj": "WT",
-   "status": "Backlog",
+   "status": "Architecture",
    "fv": "R9.10",
    "ted": null,
    "who": "Denys Kernychnyi",
