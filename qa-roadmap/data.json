@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T08:30:22+00:00",
+ "generated_at": "2026-10-19T08:45:25+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -2634,7 +2634,7 @@
    "prio": "2: Important",
    "created": "2026-10-09T08:49:57.908-0700",
    "resolved": "",
-   "due": "2026-10-14",
+   "due": "2026-10-19",
    "labels": [
     "OneSmile",
     "group1_migration",
@@ -5385,35 +5385,6 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-23913",
-   "name": "ACH - Emails are not working (Declines, Returns)",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Lucy Mbahyam",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-09-30T11:02:15.290-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "CCB_candidate",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-23564",
@@ -30472,6 +30443,13 @@
    "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
    "status": "Backlog",
    "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-23913",
+   "name": "ACH - Emails are not working (Declines, Returns)",
+   "status": "Ready for Development",
+   "who": "Lucy Mbahyam",
    "reporter": "Anuradhi Wickramasinghe"
   }
  ],
