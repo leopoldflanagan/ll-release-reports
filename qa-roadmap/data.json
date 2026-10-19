@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T11:15:19+00:00",
+ "generated_at": "2026-10-19T11:30:22+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30320,31 +30320,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-18664",
-   "name": "Member portal - Exclusions -Exclusions section duplicated and incorrectly positioned in Plan Details PDF",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-29T09:49:48.465-0700",
-   "resolved": "2026-07-21T04:28:47.324-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14926",
-   "parentName": "Updates to Marketing Details",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
