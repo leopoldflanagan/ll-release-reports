@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T16:15:23+00:00",
+ "generated_at": "2026-10-19T16:17:30+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -2678,6 +2678,34 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
+   "key": "PLANS-23878",
+   "name": "PDF's - Additional Benefits was not implemented correctly",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-30T04:48:06.334-0700",
+   "resolved": "",
+   "due": "2026-10-23",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-24377",
+   "parentName": "PDF Enhancements - Epic 2: Administrator footer and remaining PDF fixes (R9.9)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
    "key": "PLANS-23835",
    "name": "Duplicate External ID for a member",
    "pod": "PLANS",
@@ -2784,34 +2812,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24585",
-   "name": "KOS portal uses static footer instead of shared dynamic footer",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "3: Standard",
-   "created": "2026-10-19T00:46:55.866-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -4903,6 +4903,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24585",
+   "name": "KOS portal uses static footer instead of shared dynamic footer",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "3: Standard",
+   "created": "2026-10-19T00:46:55.866-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24566",
    "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
    "pod": "LL",
@@ -5788,7 +5816,10 @@
    "created": "2026-10-19T01:54:56.257-0700",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-16864",
@@ -5937,34 +5968,6 @@
    "parentKey": "PLANS-22410",
    "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21247",
-   "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-14T02:34:50.968-0700",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -6526,34 +6529,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-23878",
-   "name": "PDF's - Additional Benefits was not implemented correctly",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-30T04:48:06.334-0700",
-   "resolved": "",
-   "due": "2026-10-23",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-24377",
-   "parentName": "PDF Enhancements - Epic 2: Administrator footer and remaining PDF fixes (R9.9)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-22870",
    "name": "PMP - Resend Welcome Email",
    "pod": "PLANS",
@@ -6636,6 +6611,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-21247",
+   "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-14T02:34:50.968-0700",
+   "resolved": "",
+   "due": "2026-10-19",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-18564",
