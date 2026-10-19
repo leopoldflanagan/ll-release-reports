@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T18:19:46+00:00",
+ "generated_at": "2026-10-19T18:30:25+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -2631,17 +2631,17 @@
    "init": ""
   },
   {
-   "key": "PLANS-23919",
-   "name": "Office user can edit/remove External ID from offices he doesn't have access to",
+   "key": "PLANS-24469",
+   "name": "Duplicate Charge-Not Showing in CSP",
    "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "Plans-Sprint 24-26",
    "who": "Conor Kamperman",
-   "reporter": "Hazel Loya",
+   "reporter": "Carmen West",
    "prio": "2: Important",
-   "created": "2026-09-30T12:46:42.859-0700",
+   "created": "2026-10-13T14:23:04.464-0700",
    "resolved": "",
    "due": "",
    "labels": [
@@ -2650,13 +2650,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-21920",
-   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-23878",
@@ -2680,34 +2680,6 @@
    "triage": "",
    "parentKey": "PLANS-24377",
    "parentName": "PDF Enhancements - Epic 2: Administrator footer and remaining PDF fixes (R9.9)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-23835",
-   "name": "Duplicate External ID for a member",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-09-29T07:45:14.941-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21920",
-   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -3094,6 +3066,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-23919",
+   "name": "Office user can edit/remove External ID from offices he doesn't have access to",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-30T12:46:42.859-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21920",
+   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
    "key": "PLANS-23852",
    "name": "PLANS-23852: Member Portal: Find A Dentist: Accessibility Screen Reader does not read aloud the navigation",
    "pod": "LL",
@@ -3120,6 +3120,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-23835",
+   "name": "Duplicate External ID for a member",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-09-29T07:45:14.941-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21920",
+   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-23805",
@@ -5168,34 +5196,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24469",
-   "name": "Duplicate Charge-Not Showing in CSP",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Carmen West",
-   "prio": "2: Important",
-   "created": "2026-10-13T14:23:04.464-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24467",
@@ -30402,31 +30402,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-19683",
-   "name": "SGDP Purchase Portal \\ SGDP TN Plan is not shown when member is in TN state",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-07-15T15:20:28.741-0700",
-   "resolved": "2026-07-21T11:19:53.365-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
