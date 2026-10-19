@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T17:49:48+00:00",
+ "generated_at": "2026-10-19T18:00:25+00:00",
  "today": "2026-10-19",
  "features": [
   {
@@ -30422,6 +30422,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24608",
+   "name": "CSP Marketing Settings - Preventative section missing from Child/Prophy/Perio Add Defaults presets",
+   "status": "In Development",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus"
+  },
   {
    "key": "PLANS-24588",
    "name": "Marketing Details -",
