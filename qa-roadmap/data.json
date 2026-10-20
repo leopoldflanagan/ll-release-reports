@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T03:30:22+00:00",
+ "generated_at": "2026-10-20T03:45:19+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -30164,31 +30164,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-20010",
-   "name": "Comfort Dental>Stage>Google Map is not loading",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-07-21T11:27:03.487-0700",
-   "resolved": "2026-07-21T20:44:41.603-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
