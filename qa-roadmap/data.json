@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T18:18:51+00:00",
+ "generated_at": "2026-10-20T18:30:24+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -961,6 +961,17 @@
   {
    "key": "WT-1203",
    "name": "Auto-Renewal Report - Slack Channel Reading & Report Send",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1208",
+   "name": "Agent Org plan selling",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -2184,6 +2195,17 @@
   {
    "key": "WT-1203",
    "name": "Auto-Renewal Report - Slack Channel Reading & Report Send",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1208",
+   "name": "Agent Org plan selling",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
