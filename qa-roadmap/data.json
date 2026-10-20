@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T17:38:50+00:00",
+ "generated_at": "2026-10-20T17:45:21+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -5050,34 +5050,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24643",
-   "name": "Pre-Prod - MW Dental - No offices are coming up on the site",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Chris Rubio",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-20T12:32:12.627-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24624",
    "name": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additional Benefits, Legal Text, and Incorrect Fee Information",
    "pod": "LL",
@@ -7307,6 +7279,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24643",
+   "name": "Pre-Prod - MW Dental - No offices are coming up on the site",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Chris Rubio",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-20T12:32:12.627-0500",
+   "resolved": "2026-10-20T12:38:53.729-0500",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24145",
    "name": "PMP-Stage-Manually renewed Plan-Old plan(still Active) not showing in Overview Plan summary, its showing new renewed plan",
