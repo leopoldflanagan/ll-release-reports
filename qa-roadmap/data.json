@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T20:45:24+00:00",
+ "generated_at": "2026-10-20T20:51:18+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -2800,6 +2800,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24656",
+   "name": "Danahay Discount Plan Upgrade Plan to Add Member",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Michael Joe",
+   "prio": "3: Standard",
+   "created": "2026-10-20T15:47:34.224-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
