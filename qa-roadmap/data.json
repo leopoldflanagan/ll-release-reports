@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T00:45:23+00:00",
+ "generated_at": "2026-10-20T01:00:27+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -950,6 +950,17 @@
   {
    "key": "WT-1202",
    "name": "Notes for Launch Loyalty Migration Client",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1203",
+   "name": "Auto-Renewal Report - Slack Channel Reading & Report Send",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -2162,6 +2173,17 @@
   {
    "key": "WT-1202",
    "name": "Notes for Launch Loyalty Migration Client",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1203",
+   "name": "Auto-Renewal Report - Slack Channel Reading & Report Send",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
