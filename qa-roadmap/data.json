@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T09:00:24+00:00",
+ "generated_at": "2026-10-20T09:15:22+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -30089,31 +30089,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-18524",
-   "name": "Provider - Restricted plans remain visible and selectable during plan selection; however plan purchase is restricted as expected",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-25T10:24:44.290-0700",
-   "resolved": "2026-07-22T02:07:26.222-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15107",
-   "parentName": "[DCA] Portal Level Sellability Testing",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
