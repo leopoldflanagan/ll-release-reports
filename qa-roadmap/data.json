@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T15:30:47+00:00",
+ "generated_at": "2026-10-20T15:45:21+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -2810,6 +2810,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24631",
+   "name": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"††Includes a one-time, nonrefundable administration fee.\"",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-20T10:33:52.806-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24630",
