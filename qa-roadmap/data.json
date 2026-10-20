@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T18:30:24+00:00",
+ "generated_at": "2026-10-20T18:43:53+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -2800,6 +2800,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24644",
+   "name": "Unable to add dependent to plan in CSP or WFP.",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Carmen West",
+   "prio": "3: Standard",
+   "created": "2026-10-20T13:34:36.036-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
