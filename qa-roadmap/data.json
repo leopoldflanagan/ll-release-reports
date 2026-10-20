@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T14:45:20+00:00",
+ "generated_at": "2026-10-20T14:53:05+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -2837,6 +2837,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24624",
+   "name": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additional Benefits, Legal Text, and Incorrect Fee Information",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-19T14:52:47.011-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23328",
+   "parentName": "[4] Marketing Details Driving Smile Health - One PDF per Coverage Level for Ad Hoc Plans",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24615",
@@ -5764,34 +5792,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24551",
-   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-15T14:22:38.812-0700",
-   "resolved": "",
-   "due": "2026-10-20",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24545",
    "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list 1.",
    "pod": "LL",
@@ -5986,6 +5986,34 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-24551",
+   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-15T14:22:38.812-0700",
+   "resolved": "",
+   "due": "2026-10-20",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24516",
@@ -30017,20 +30045,6 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-24627",
-   "name": "CREG/Member Card/Administered by Wellfit is displayed in the Member Card",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-24624",
-   "name": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additional Benefits, Legal Text, and Incorrect Fee Information",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
    "key": "PLANS-24621",
    "name": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Prophy/Child)",
    "status": "Backlog",
@@ -30040,22 +30054,15 @@
   {
    "key": "PLANS-24619",
    "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-24618",
-   "name": "CREG/Unable to Add Dependent member to primary in the UI",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "Ready for Development",
+   "who": "Sailaja Yanamandra",
    "reporter": "Vivienne Chawande"
   },
   {
    "key": "PLANS-24614",
    "name": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Conor Kamperman",
    "reporter": "Vivienne Chawande"
   },
   {
