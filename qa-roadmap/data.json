@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T06:00:26+00:00",
+ "generated_at": "2026-10-20T06:15:22+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -5011,7 +5011,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Sushma Bankar",
    "prio": "1: Urgent",
    "created": "2026-10-16T08:55:22.443-0700",
