@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T15:45:21+00:00",
+ "generated_at": "2026-10-20T15:51:47+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -2821,11 +2821,14 @@
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "4: Low",
    "created": "2026-10-20T10:33:52.806-0500",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22414",
