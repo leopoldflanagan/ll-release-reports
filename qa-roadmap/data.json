@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T08:15:20+00:00",
+ "generated_at": "2026-10-20T08:30:26+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -150,7 +150,7 @@
    "key": "WT-1003",
    "name": "Define Refund Window Timeframes",
    "status": "In Development",
-   "ted": "2026-10-19",
+   "ted": "2026-10-22",
    "fv": "R9.10",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
@@ -588,7 +588,7 @@
    "key": "WT-1003",
    "name": "Define Refund Window Timeframes",
    "status": "In Development",
-   "ted": "2026-10-19",
+   "ted": "2026-10-22",
    "fv": "R9.10",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate",
@@ -1814,7 +1814,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": "2026-10-19",
+   "ted": "2026-10-22",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
@@ -2612,6 +2612,35 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-24566",
+   "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Sushma Bankar",
+   "prio": "1: Urgent",
+   "created": "2026-10-16T08:55:22.443-0700",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "plans",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24551",
    "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
@@ -5002,35 +5031,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24566",
-   "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Sushma Bankar",
-   "prio": "1: Urgent",
-   "created": "2026-10-16T08:55:22.443-0700",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "plans",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24546",
@@ -30114,31 +30114,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-19665",
-   "name": "PLANS-19665: Smile Health: Some of the offices are not visible in Smile health zip code selection (Visible on website configured YES in csp)",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-15T09:18:08.221-0700",
-   "resolved": "2026-07-22T01:25:38.650-0700",
-   "due": "2026-07-22",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
