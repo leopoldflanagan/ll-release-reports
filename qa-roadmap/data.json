@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T17:00:26+00:00",
+ "generated_at": "2026-10-20T17:15:23+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -30100,31 +30100,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-19781",
-   "name": "Member Portal \\ Purchase flow fails with 400 error for plans outside the renewal window",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-07-17T00:38:56.261-0500",
-   "resolved": "2026-07-22T12:08:19.315-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
