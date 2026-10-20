@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T08:00:27+00:00",
+ "generated_at": "2026-10-20T08:15:20+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -2656,34 +2656,6 @@
    "due": "2026-10-20",
    "labels": [
     "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24514",
-   "name": "Fw: [EXTERNAL] Re: Payment",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Brianna Hill",
-   "prio": "2: Important",
-   "created": "2026-10-14T17:41:32.044-0700",
-   "resolved": "",
-   "due": "2026-10-20",
-   "labels": [
-    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
@@ -5919,6 +5891,34 @@
    "due": "2026-10-22",
    "labels": [
     "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24514",
+   "name": "Fw: [EXTERNAL] Re: Payment",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Brianna Hill",
+   "prio": "2: Important",
+   "created": "2026-10-14T17:41:32.044-0700",
+   "resolved": "",
+   "due": "2026-10-20",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
