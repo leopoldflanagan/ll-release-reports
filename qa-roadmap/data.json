@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T07:30:26+00:00",
+ "generated_at": "2026-10-20T07:45:21+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -14,7 +14,7 @@
   {
    "key": "WT-1024",
    "name": "Manage Preferences - CSP & WF Pay",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-19",
    "fv": "R9.9",
    "who": "Nazarii Polinyk",
@@ -191,7 +191,7 @@
   {
    "key": "WT-1024",
    "name": "Manage Preferences - CSP & WF Pay",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-10-19",
    "fv": "R9.9",
    "who": "Nazarii Polinyk",
@@ -1416,7 +1416,7 @@
    "name": "Manage Preferences - CSP & WF Pay",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.9",
    "ted": "2026-10-19",
    "who": "Nazarii Polinyk",
@@ -4982,12 +4982,12 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-10-19T09:29:24.142-0700",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-20",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -5916,7 +5916,7 @@
    "prio": "3: Standard",
    "created": "2026-10-15T09:55:04.764-0700",
    "resolved": "",
-   "due": "2026-10-20",
+   "due": "2026-10-22",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -5944,7 +5944,7 @@
    "prio": "3: Standard",
    "created": "2026-10-01T12:03:00.046-0700",
    "resolved": "",
-   "due": "2026-10-11",
+   "due": "2026-10-22",
    "labels": [
     "group1_migration",
     "group2_migration"
