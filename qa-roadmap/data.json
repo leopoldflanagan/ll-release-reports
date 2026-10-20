@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T14:00:27+00:00",
+ "generated_at": "2026-10-20T14:15:24+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -577,7 +577,7 @@
    "key": "WT-713",
    "name": "Plans Journey - ACH Email Updates",
    "status": "In Testing",
-   "ted": "2026-11-06",
+   "ted": "2026-11-13",
    "fv": "R9.10",
    "who": "Unassigned",
    "tshirt": "Moderate",
@@ -1803,7 +1803,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-11-06",
+   "ted": "2026-11-13",
    "who": "Unassigned",
    "theme": "ACH"
   },
@@ -5382,9 +5382,9 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 24-26",
-   "who": "Lucy Mbahyam",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-09-30T11:02:15.290-0700",
    "resolved": "",
    "due": "",
