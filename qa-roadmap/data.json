@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T19:29:01+00:00",
+ "generated_at": "2026-10-20T19:30:24+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -6130,34 +6130,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24614",
-   "name": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-19T14:21:03.189-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24263",
-   "parentName": "End to end QA validation for CREG",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-435",
-   "init": "CREG / Additional PDS Family TPA Clients"
-  },
-  {
    "key": "PLANS-24551",
    "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
    "pod": "LL",
@@ -6268,6 +6240,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24614",
+   "name": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
+   "pod": "PLANS",
+   "status": "In QA",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-19T14:21:03.189-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24263",
+   "parentName": "End to end QA validation for CREG",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-435",
+   "init": "CREG / Additional PDS Family TPA Clients"
   },
   {
    "key": "PLANS-23846",
