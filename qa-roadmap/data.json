@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T15:51:47+00:00",
+ "generated_at": "2026-10-20T16:00:27+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -2831,13 +2831,13 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
+   "parentKey": "PLANS-23328",
+   "parentName": "[4] Marketing Details Driving Smile Health - One PDF per Coverage Level for Ad Hoc Plans",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24630",
