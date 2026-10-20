@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T19:00:26+00:00",
+ "generated_at": "2026-10-20T19:15:04+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -2804,6 +2804,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24646",
+   "name": "Stage-Member(minor) Deleted from CSP, showing Active in PMP",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-10-20T14:08:58.477-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22200",
+   "parentName": "Epic 2: Primary Contact Management in PMP",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24644",
@@ -30234,7 +30259,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-24645",
+   "name": "Marketing Settings - One Smile - the section cannot be moved using the Up/Down arrow controls & new section is inserted in the middle of the existing sections list",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Oct 19–25",
