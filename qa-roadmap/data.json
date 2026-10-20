@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T07:15:23+00:00",
+ "generated_at": "2026-10-20T07:30:26+00:00",
  "today": "2026-10-20",
  "features": [
   {
@@ -2613,6 +2613,34 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24551",
+   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-15T14:22:38.812-0700",
+   "resolved": "",
+   "due": "2026-10-20",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24533",
    "name": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed together instead of aligned in columns",
    "pod": "LL",
@@ -5020,34 +5048,6 @@
    "labels": [
     "group1_migration",
     "plans",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24551",
-   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-15T14:22:38.812-0700",
-   "resolved": "",
-   "due": "2026-10-20",
-   "labels": [
-    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -30139,31 +30139,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-18507",
-   "name": "DCA – Plan Purchase Restrictions Not Enforced",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-25T07:26:44.376-0700",
-   "resolved": "2026-07-22T00:29:29.358-0700",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15107",
-   "parentName": "[DCA] Portal Level Sellability Testing",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
