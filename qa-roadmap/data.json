@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:45:21+00:00",
+ "generated_at": "2026-10-21T18:57:04+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -6988,33 +6988,6 @@
    "created": "2026-06-26T08:54:54.209-0500",
    "resolved": "",
    "due": "2026-10-22",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-18461",
-   "name": "Member Portal – Renewal Restrictions Not Applied; Restricted Plans Still Visible During Renewal",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-24T07:26:17.589-0500",
-   "resolved": "",
-   "due": "2026-10-21",
    "labels": [
     "product_prioritized"
    ],
