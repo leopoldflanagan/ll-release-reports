@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:27:04+00:00",
+ "generated_at": "2026-10-21T17:30:25+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -2979,7 +2979,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": "LL-Sprint 24-26",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2995,8 +2995,8 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
+   "lpSprint": true,
+   "linkedLP": true,
    "initKey": "",
    "init": ""
   },
@@ -5162,7 +5162,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -5175,13 +5175,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-23328",
-   "parentName": "[4] Marketing Details Driving Smile Health - One PDF per Coverage Level for Ad Hoc Plans",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24619",
@@ -6341,13 +6341,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-23255",
-   "parentName": "[2] Marketing Details Driving Smile Health - Categorization Management in the CSP Editor",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24564",
@@ -6369,13 +6369,13 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-23202",
-   "parentName": "[1] Marketing Details Driving Smile Health - Savings Header Framing and Value Mode",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24551",
@@ -7444,8 +7444,8 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -7453,15 +7453,15 @@
    "resolved": "2026-10-21T08:04:27.627-0500",
    "due": "",
    "labels": [],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-23255",
-   "parentName": "[2] Marketing Details Driving Smile Health - Categorization Management in the CSP Editor",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24640",
@@ -7645,13 +7645,13 @@
    "labels": [],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-23202",
-   "parentName": "[1] Marketing Details Driving Smile Health - Savings Header Framing and Value Mode",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-23794",
