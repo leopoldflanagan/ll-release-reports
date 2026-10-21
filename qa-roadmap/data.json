@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T13:30:28+00:00",
+ "generated_at": "2026-10-21T13:40:43+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -2676,7 +2676,7 @@
    "prio": "1: Urgent",
    "created": "2026-10-16T10:55:22.443-0500",
    "resolved": "",
-   "due": "2026-10-21",
+   "due": "2026-10-22",
    "labels": [
     "CCB_candidate",
     "group1_migration",
