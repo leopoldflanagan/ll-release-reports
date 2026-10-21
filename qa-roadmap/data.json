@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:30:26+00:00",
+ "generated_at": "2026-10-21T18:44:40+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -6631,34 +6631,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24480",
-   "name": "PMP - DCA - membership card/plan details print - logo should be corrected.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-14T09:43:42.519-0500",
-   "resolved": "",
-   "due": "2026-10-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24384",
    "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
    "pod": "LL",
@@ -7271,6 +7243,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24480",
+   "name": "PMP - DCA - membership card/plan details print - logo should be corrected.",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-14T09:43:42.519-0500",
+   "resolved": "2026-10-21T13:31:05.957-0500",
+   "due": "2026-10-22",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24408",
    "name": "PMP - Additional benefit card - org logo is missing",
@@ -30106,33 +30106,6 @@
    "linkedLP": false,
    "initKey": "WT-472",
    "init": "FMP 2026 BAU"
-  },
-  {
-   "key": "PLANS-20033",
-   "name": "Stage - CSP - Promo Codes - Promo Code creates a new variant instead of updating the existing configuration",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-07-21T15:43:32.481-0500",
-   "resolved": "2026-07-23T13:31:23.164-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15227",
-   "parentName": "WAIVEFAM Validation via CSP",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-402",
-   "init": "LL Core Product - Refunds, Payments, Communications & Websites"
   }
  ],
  "closed_days": 90,
