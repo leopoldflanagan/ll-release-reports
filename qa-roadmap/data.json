@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T15:32:40+00:00",
+ "generated_at": "2026-10-21T15:45:21+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -5088,12 +5088,12 @@
   },
   {
    "key": "PLANS-24664",
-   "name": "Essential Smile - Member Portal Password Set Up on Mobile",
+   "name": "Essential Smile - Website Mobile View Issues",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL-Sprint 24-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
    "prio": "2: Important",
@@ -5106,8 +5106,8 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -5121,7 +5121,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL-Sprint 24-26",
    "who": "Unassigned",
    "reporter": "Camille Knight",
    "prio": "2: Important",
@@ -5132,10 +5132,10 @@
     "group3_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -5587,13 +5587,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-23885",
-   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24273",
