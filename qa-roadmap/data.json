@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T16:45:19+00:00",
+ "generated_at": "2026-10-21T16:54:15+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -483,17 +483,6 @@
    "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-977",
-   "name": "Individual Plus - Tier 2 Expansion",
-   "status": "In Testing",
-   "ted": "2026-10-23",
-   "fv": "R9.9",
-   "who": "Camille Knight",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1717,17 +1706,6 @@
    "fv": "R9.10",
    "ted": null,
    "who": "Daniel Marineni",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-977",
-   "name": "Individual Plus - Tier 2 Expansion",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.9",
-   "ted": "2026-10-23",
-   "who": "Camille Knight",
    "theme": "LL-Fast Follows"
   },
   {
