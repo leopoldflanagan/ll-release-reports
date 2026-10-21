@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:00:24+00:00",
+ "generated_at": "2026-10-21T21:13:17+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -2626,6 +2626,34 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24664",
+   "name": "Essential Smile - Website Mobile View Issues",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-21T10:31:07.194-0500",
+   "resolved": "",
+   "due": "2026-10-22",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24644",
    "name": "Unable to add dependent to plan in CSP or WFP.",
    "pod": "PLANS",
@@ -2681,35 +2709,6 @@
    "linkedLP": false,
    "initKey": "WT-435",
    "init": "CREG / Additional PDS Family TPA Clients"
-  },
-  {
-   "key": "PLANS-24605",
-   "name": "Email Change Logic",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-19T11:29:24.142-0500",
-   "resolved": "",
-   "due": "2026-10-21",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-24566",
@@ -2831,7 +2830,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.9",
+   "fv": null,
    "sprint": null,
    "who": "Valentyna Tenus",
    "reporter": "Camille Knight",
@@ -5054,34 +5053,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24664",
-   "name": "Essential Smile - Website Mobile View Issues",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-21T10:31:07.194-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24662",
    "name": "Essential Smile Website Issues - Test in Pre-Prod",
    "pod": "LL",
@@ -6087,6 +6058,35 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24605",
+   "name": "Email Change Logic",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-19T11:29:24.142-0500",
+   "resolved": "",
+   "due": "2026-10-21",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
