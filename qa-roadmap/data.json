@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:00:23+00:00",
+ "generated_at": "2026-10-21T20:14:45+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -952,6 +952,17 @@
   {
    "key": "WT-1212",
    "name": "Ambetter Plan Design",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1213",
+   "name": "Ambetter Site",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -2175,6 +2186,17 @@
   {
    "key": "WT-1212",
    "name": "Ambetter Plan Design",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1213",
+   "name": "Ambetter Site",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
@@ -30221,33 +30243,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-19645",
-   "name": "Member portal - Admin Fee displayed as whole number (18) instead of configured decimal value (17.5) on Overview page",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-07-15T09:28:07.698-0500",
-   "resolved": "2026-07-23T15:11:00.851-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-18610",
-   "parentName": "Smile Health — Display Admin Fee Dynamically - Accurate, Dynamic Admin-Fee Display",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
