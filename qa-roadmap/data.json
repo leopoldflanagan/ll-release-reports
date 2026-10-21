@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T14:30:23+00:00",
+ "generated_at": "2026-10-21T14:41:25+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -2635,6 +2635,62 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24644",
+   "name": "Unable to add dependent to plan in CSP or WFP.",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Carmen West",
+   "prio": "1: Urgent",
+   "created": "2026-10-20T13:34:36.036-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24630",
+   "name": "Dependent Not Showing Purchased Plan",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Carmen West",
+   "prio": "1: Urgent",
+   "created": "2026-10-20T09:57:12.058-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24605",
    "name": "Email Change Logic",
    "pod": "LL",
@@ -2662,34 +2718,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24469",
-   "name": "Duplicate Charge-Not Showing in CSP",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Carmen West",
-   "prio": "2: Important",
-   "created": "2026-10-13T16:23:04.464-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-21736",
@@ -2911,34 +2939,6 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-24630",
-   "name": "Dependent Not Showing Purchased Plan",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Conor Kamperman",
-   "reporter": "Carmen West",
-   "prio": "1: Urgent",
-   "created": "2026-10-20T09:57:12.058-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-24615",
@@ -3269,8 +3269,8 @@
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
+   "fv": "R9.10",
+   "sprint": "Plans-Sprint 25-26",
    "who": "Conor Kamperman",
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
@@ -5107,34 +5107,6 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
-   "key": "PLANS-24644",
-   "name": "Unable to add dependent to plan in CSP or WFP.",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Conor Kamperman",
-   "reporter": "Carmen West",
-   "prio": "1: Urgent",
-   "created": "2026-10-20T13:34:36.036-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24631",
    "name": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"††Includes a one-time, nonrefundable administration fee.\"",
    "pod": "LL",
@@ -5445,6 +5417,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24469",
+   "name": "Duplicate Charge-Not Showing in CSP",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Carmen West",
+   "prio": "2: Important",
+   "created": "2026-10-13T16:23:04.464-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24467",
