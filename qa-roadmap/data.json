@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T04:30:24+00:00",
+ "generated_at": "2026-10-21T04:45:23+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -30291,34 +30291,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-18883",
-   "name": "Blocker - [PMP] - WAIVEFAM promo code is not applied while purchasing a plan",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-06-12T10:47:29.457-0500",
-   "resolved": "2026-07-22T23:44:54.175-0500",
-   "due": "2026-07-20",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15238",
-   "parentName": "Marketplace WAIVEFAM Checkout (DEFERRED)",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
