@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T05:15:21+00:00",
+ "generated_at": "2026-10-21T05:30:26+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -30257,33 +30257,6 @@
    "created": "2026-07-10T12:00:31.710-0500",
    "resolved": "2026-07-23T00:39:42.832-0500",
    "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-19681",
-   "name": "PLANS-19681: Smile Health: Incorrect location for miles at the zip code search pop-up",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vivienne Chawande",
-   "prio": "4: Low",
-   "created": "2026-07-15T15:50:38.391-0500",
-   "resolved": "2026-07-23T00:29:46.006-0500",
-   "due": "2026-07-23",
    "labels": [
     "product_prioritized"
    ],
