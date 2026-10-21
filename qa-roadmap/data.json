@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:00:28+00:00",
+ "generated_at": "2026-10-21T17:12:31+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -51,7 +51,7 @@
    "key": "WT-1036",
    "name": "Payment Term: ID on overview",
    "status": "In Testing",
-   "ted": "2026-10-23",
+   "ted": "2026-10-29",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -96,7 +96,7 @@
    "key": "WT-833",
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "In Testing",
-   "ted": "2026-10-23",
+   "ted": "2026-10-26",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
@@ -109,15 +109,6 @@
    "fv": "R9.10",
    "who": "Daniel Marineni",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "WT-985",
-   "name": "Marketing Details - Driving Smile Health",
-   "status": "In Testing",
-   "ted": "2026-10-20",
-   "fv": "R9.9",
-   "who": "Valentyna Tenus",
-   "tshirt": "Small"
   },
   {
    "key": "WT-987",
@@ -166,17 +157,6 @@
   }
  ],
  "features_all": [
-  {
-   "key": "WT-1011",
-   "name": "Multi-Practice User - Manage Patient",
-   "status": "In Testing",
-   "ted": "2026-10-23",
-   "fv": "R9.9",
-   "who": "Conor Kamperman",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
   {
    "key": "WT-1021",
    "name": "Wellfit User - Practice Assignment Picker",
@@ -258,7 +238,7 @@
    "key": "WT-1036",
    "name": "Payment Term: ID on overview",
    "status": "In Testing",
-   "ted": "2026-10-23",
+   "ted": "2026-10-29",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -423,7 +403,7 @@
    "key": "WT-833",
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "In Testing",
-   "ted": "2026-10-23",
+   "ted": "2026-10-26",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small",
@@ -505,17 +485,6 @@
    "who": "Unassigned",
    "tshirt": "Large",
    "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-985",
-   "name": "Marketing Details - Driving Smile Health",
-   "status": "In Testing",
-   "ted": "2026-10-20",
-   "fv": "R9.9",
-   "who": "Valentyna Tenus",
-   "tshirt": "Small",
-   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1390,17 +1359,6 @@
  ],
  "all": [
   {
-   "key": "WT-1011",
-   "name": "Multi-Practice User - Manage Patient",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.9",
-   "ted": "2026-10-23",
-   "who": "Conor Kamperman",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "WT-1021",
    "name": "Wellfit User - Practice Assignment Picker",
    "pod": "LL",
@@ -1484,7 +1442,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-23",
+   "ted": "2026-10-29",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
@@ -1649,7 +1607,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-10-23",
+   "ted": "2026-10-26",
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
@@ -1728,17 +1686,6 @@
    "fv": "R9.10",
    "ted": null,
    "who": "Unassigned",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-985",
-   "name": "Marketing Details - Driving Smile Health",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.9",
-   "ted": "2026-10-20",
-   "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
   {
