@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:30:24+00:00",
+ "generated_at": "2026-10-21T22:41:58+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -6090,6 +6090,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24564",
+   "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-16T10:14:40.539-0500",
+   "resolved": "",
+   "due": "2026-10-22",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-21733",
    "name": "ACH Refund - Transaction Older Than 6months Does Not Display \"Past Refund Window\" and Allows Refund from CSP",
    "pod": "LL",
@@ -6140,34 +6168,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24564",
-   "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-16T10:14:40.539-0500",
-   "resolved": "",
-   "due": "2026-10-22",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
