@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-20T23:49:43+00:00",
- "today": "2026-10-20",
+ "generated_at": "2026-10-21T00:00:24+00:00",
+ "today": "2026-10-21",
  "features": [
   {
    "key": "WT-1021",
@@ -30319,34 +30319,6 @@
    "triage": "",
    "parentKey": "PLANS-15238",
    "parentName": "Marketplace WAIVEFAM Checkout (DEFERRED)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20036",
-   "name": "Primary Member Only rule - Promo code should not be applied for renewal",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-21T15:58:58.046-0500",
-   "resolved": "2026-07-22T18:52:12.650-0500",
-   "due": "",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
