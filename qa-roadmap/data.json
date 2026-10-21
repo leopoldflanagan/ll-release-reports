@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T11:30:27+00:00",
+ "generated_at": "2026-10-21T11:45:20+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -6036,34 +6036,6 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
-   "key": "PLANS-24551",
-   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-15T16:22:38.812-0500",
-   "resolved": "",
-   "due": "2026-10-20",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24533",
    "name": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed together instead of aligned in columns",
    "pod": "LL",
@@ -6077,34 +6049,6 @@
    "created": "2026-10-15T11:57:00.339-0500",
    "resolved": "",
    "due": "2026-10-21",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24532",
-   "name": "Prod / STAGE - One Smile - Mobile - Membership agreement is not Downloadable / Viewable",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-15T11:55:04.764-0500",
-   "resolved": "",
-   "due": "2026-10-22",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -6176,6 +6120,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24551",
+   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-15T16:22:38.812-0500",
+   "resolved": "",
+   "due": "2026-10-20",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24545",
    "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list 1.",
    "pod": "LL",
@@ -6189,6 +6161,34 @@
    "created": "2026-10-15T15:30:14.076-0500",
    "resolved": "",
    "due": "2026-10-21",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24532",
+   "name": "Prod / STAGE - One Smile - Mobile - Membership agreement is not Downloadable / Viewable",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-15T11:55:04.764-0500",
+   "resolved": "",
+   "due": "2026-10-22",
    "labels": [
     "group2_migration",
     "product_prioritized"
