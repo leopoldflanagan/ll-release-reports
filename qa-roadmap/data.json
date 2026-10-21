@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:15:19+00:00",
+ "generated_at": "2026-10-21T17:27:04+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -6294,34 +6294,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24645",
-   "name": "Marketing Settings - One Smile - the section cannot be moved using the Up/Down arrow controls && new section is inserted in the middle of the existing sections list",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-20T14:05:42.617-0500",
-   "resolved": "",
-   "due": "2026-10-21",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24614",
    "name": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
    "pod": "PLANS",
@@ -7005,34 +6977,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-21665",
-   "name": "PDS Team Plan - Plan details missing",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-20T19:27:52.942-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21806",
-   "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-21585",
    "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
    "pod": "PLANS",
@@ -7357,6 +7301,62 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24645",
+   "name": "Marketing Settings - One Smile - the section cannot be moved using the Up/Down arrow controls && new section is inserted in the middle of the existing sections list",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-20T14:05:42.617-0500",
+   "resolved": "2026-10-21T12:26:44.219-0500",
+   "due": "2026-10-21",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-21665",
+   "name": "PDS Team Plan - Plan details missing",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-08-20T19:27:52.942-0500",
+   "resolved": "2026-10-21T12:24:16.409-0500",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21806",
+   "parentName": "Plans 9.8 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24586",
    "name": "PMP Wallet QR - wallet pass shows no logo when the logo file name contains spaces",
@@ -8862,13 +8862,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-23328",
-   "parentName": "[4] Marketing Details Driving Smile Health - One PDF per Coverage Level for Ad Hoc Plans",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24474",
