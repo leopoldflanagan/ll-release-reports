@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:12:31+00:00",
+ "generated_at": "2026-10-21T17:15:19+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -6378,34 +6378,6 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
-   "key": "PLANS-24586",
-   "name": "PMP Wallet QR - wallet pass shows no logo when the logo file name contains spaces",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Mykyta Moroz",
-   "prio": "3: Standard",
-   "created": "2026-10-19T03:54:56.257-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-16864",
-   "parentName": "PMP Account Information Google/Apple Wallet - Wallet QR Handoff Service (Marketplace API)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-24564",
    "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
    "pod": "LL",
@@ -7385,6 +7357,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24586",
+   "name": "PMP Wallet QR - wallet pass shows no logo when the logo file name contains spaces",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Mykyta Moroz",
+   "prio": "3: Standard",
+   "created": "2026-10-19T03:54:56.257-0500",
+   "resolved": "2026-10-21T12:14:32.425-0500",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-16864",
+   "parentName": "PMP Account Information Google/Apple Wallet - Wallet QR Handoff Service (Marketplace API)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
   {
    "key": "PLANS-24658",
    "name": "Member Search -Returns No Results When Filtering by 'Practice' filter for Multi-Org Admin User",
