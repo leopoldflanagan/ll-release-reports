@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T15:00:28+00:00",
+ "generated_at": "2026-10-21T15:15:04+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -2649,6 +2649,7 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "CCB_candidate",
     "group2_migration",
     "product_prioritized"
    ],
@@ -2677,6 +2678,7 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "CCB_candidate",
     "group2_migration",
     "product_prioritized"
    ],
@@ -2739,13 +2741,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "",
-   "init": ""
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-21736",
@@ -2869,7 +2871,7 @@
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-10-21T09:07:44.165-0500",
    "resolved": "",
    "due": "",
@@ -5095,7 +5097,9 @@
    "created": "2026-10-20T15:47:34.224-0500",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "CCB_candidate"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "",
