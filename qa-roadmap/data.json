@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:19:10+00:00",
+ "generated_at": "2026-10-21T18:30:26+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -6840,7 +6840,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 24-26",
    "who": "Oleksandr Terletskyy",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -6856,8 +6856,8 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
@@ -7009,7 +7009,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": "LL-Sprint 21-26",
+   "sprint": "LL-Sprint 24-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -7036,7 +7036,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": "LL-Sprint 21-26",
+   "sprint": "LL-Sprint 24-26",
    "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
