@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:31:26+00:00",
+ "generated_at": "2026-10-21T20:45:24+00:00",
  "today": "2026-10-21",
  "features": [
   {
@@ -2831,14 +2831,14 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Valentyna Tenus",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-10-21T09:08:03.611-0500",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-22",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6121,34 +6121,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-23878",
-   "name": "PDF's - Additional Benefits was not implemented correctly",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-30T06:48:06.334-0500",
-   "resolved": "",
-   "due": "2026-10-23",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-24377",
-   "parentName": "PDF Enhancements - Epic 2: Administrator footer and remaining PDF fixes (R9.9)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-21733",
    "name": "ACH Refund - Transaction Older Than 6months Does Not Display \"Past Refund Window\" and Allows Refund from CSP",
    "pod": "LL",
@@ -6175,6 +6147,34 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-23878",
+   "name": "PDF's - Additional Benefits was not implemented correctly",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-30T06:48:06.334-0500",
+   "resolved": "",
+   "due": "2026-10-23",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-24377",
+   "parentName": "PDF Enhancements - Epic 2: Administrator footer and remaining PDF fixes (R9.9)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-23913",
