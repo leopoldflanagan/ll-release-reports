@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T13:45:22+00:00",
+ "generated_at": "2026-10-22T13:52:21+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -30271,34 +30271,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-19883",
-   "name": "[Membership Fee Promo] - Autorenewal did not include discount",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-07-20T08:40:49.487-0500",
-   "resolved": "2026-07-24T08:51:24.059-0500",
-   "due": "",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14870",
-   "parentName": "Ability to Apply Promo Code to Membership Fee for Individual Plus Plans",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-382",
-   "init": "LL Core Product - Plan Design, Onboarding & Configuration"
   }
  ],
  "closed_days": 90,
