@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T08:15:20+00:00",
+ "generated_at": "2026-10-22T08:30:26+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -691,7 +691,7 @@
    "key": "WT-1026",
    "name": "Smile health replace treatment and sales api on plans api",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-11-06",
    "fv": "R9.10",
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate",
@@ -1917,7 +1917,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": null,
+   "ted": "2026-11-06",
    "who": "Nazarii Polinyk",
    "theme": ""
   },
@@ -5082,7 +5082,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-10-21T21:16:27.814-0500",
@@ -5110,7 +5110,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-10-21T20:07:40.701-0500",
