@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T14:15:44+00:00",
+ "generated_at": "2026-10-22T14:30:23+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -2617,6 +2617,34 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24705",
+   "name": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a second Save",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-22T07:44:20.696-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24703",
    "name": "Portal Renew Restrictions - Renew button disabled in Plan Overview when one plan is renewal-restricted, preventing renewal to eligible unrestricted plans",
    "pod": "LL",
@@ -5060,34 +5088,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24705",
-   "name": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a second Save",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-22T07:44:20.696-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
