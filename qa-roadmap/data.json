@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T15:15:22+00:00",
+ "generated_at": "2026-10-22T15:30:24+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -2799,7 +2799,10 @@
    "created": "2026-10-21T22:27:00.078-0500",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
@@ -6138,34 +6141,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24564",
-   "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-16T10:14:40.539-0500",
-   "resolved": "",
-   "due": "2026-10-22",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21733",
    "name": "ACH Refund - Transaction Older Than 6months Does Not Display \"Past Refund Window\" and Allows Refund from CSP",
    "pod": "LL",
@@ -6323,6 +6298,34 @@
     "CCB_candidate",
     "group1_migration",
     "plans",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24564",
+   "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-16T10:14:40.539-0500",
+   "resolved": "",
+   "due": "2026-10-22",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
@@ -6885,34 +6888,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24103",
-   "name": "CSP - Office assigned from PMP, the office assignment is not reflected in CSP > Member > Plan Details.",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-05T07:52:01.324-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24003",
    "name": "PLANS-24003: Selecting at org level should update practice level visibility options",
    "pod": "LL",
@@ -7296,6 +7271,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24103",
+   "name": "CSP - Office assigned from PMP, the office assignment is not reflected in CSP > Member > Plan Details.",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-05T07:52:01.324-0500",
+   "resolved": "2026-10-22T10:26:55.676-0500",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24340",
    "name": "Plan details the paragraph is not correct in WFPAY.",
