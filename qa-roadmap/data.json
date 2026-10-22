@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T09:45:23+00:00",
+ "generated_at": "2026-10-22T10:00:27+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -866,10 +866,10 @@
   {
    "key": "WT-1195",
    "name": "Legal Language Additions",
-   "status": "Backlog",
+   "status": "Architecture",
    "ted": null,
    "fv": null,
-   "who": "Obie Khandaker",
+   "who": "Dima Shtympel",
    "tshirt": null,
    "pod": "PLANS",
    "theme": ""
@@ -2091,10 +2091,10 @@
    "name": "Legal Language Additions",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Backlog",
+   "status": "Architecture",
    "fv": null,
    "ted": null,
-   "who": "Obie Khandaker",
+   "who": "Dima Shtympel",
    "theme": ""
   },
   {
