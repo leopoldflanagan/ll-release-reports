@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T12:00:28+00:00",
+ "generated_at": "2026-10-22T12:15:23+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -2736,6 +2736,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24703",
+   "name": "Portal Renew Restrictions - Renew button disabled in Plan Overview when one plan is renewal-restricted, preventing renewal to eligible unrestricted plans",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-22T06:56:54.118-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24685",
@@ -30251,15 +30276,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-24703",
-   "name": "Portal Restrictions - when renew is restricted for Core plan , Renew button is not visible , there for unrestricted plan not visible for selection",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Oct 19–25",
