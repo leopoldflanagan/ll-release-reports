@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T16:41:45+00:00",
+ "generated_at": "2026-10-22T16:45:20+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -30213,7 +30213,7 @@
   },
   {
    "key": "PLANS-24710",
-   "name": "Plan Details PDF - Auto renew text incorrect for below mentioned plans in STAGE",
+   "name": "Plan Details PDF - Incorrect Auto Renewal Text Displayed for Danahay Dental Savings 365 & Digital Smiles for Seniors 55+",
    "status": "Backlog",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
