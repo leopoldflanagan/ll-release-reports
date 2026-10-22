@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T20:50:33+00:00",
+ "generated_at": "2026-10-22T21:00:23+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -6488,34 +6488,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24664",
-   "name": "Essential Smile - Website Mobile View Issues",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-21T10:31:07.194-0500",
-   "resolved": "",
-   "due": "2026-10-22",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24619",
    "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
    "pod": "PLANS",
@@ -7181,6 +7153,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24664",
+   "name": "Essential Smile - Website Mobile View Issues",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-21T10:31:07.194-0500",
+   "resolved": "2026-10-22T15:56:17.875-0500",
+   "due": "2026-10-22",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24662",
    "name": "Essential Smile Website Issues - Test in Pre-Prod",
