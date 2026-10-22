@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T15:30:24+00:00",
+ "generated_at": "2026-10-22T15:40:55+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -30203,7 +30203,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-24709",
+   "name": "Plan Details PDF - Discounts not visible for DVD plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Oct 19–25",
