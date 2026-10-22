@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T04:30:20+00:00",
+ "generated_at": "2026-10-22T04:45:21+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -15,7 +15,7 @@
    "key": "WT-1024",
    "name": "Manage Preferences - CSP & WF Pay",
    "status": "In Testing",
-   "ted": "2026-10-19",
+   "ted": "2026-10-26",
    "fv": "R9.9",
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate"
@@ -69,7 +69,7 @@
    "key": "WT-783",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
-   "ted": "2026-09-25",
+   "ted": "2026-10-23",
    "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
@@ -172,7 +172,7 @@
    "key": "WT-1024",
    "name": "Manage Preferences - CSP & WF Pay",
    "status": "In Testing",
-   "ted": "2026-10-19",
+   "ted": "2026-10-26",
    "fv": "R9.9",
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate",
@@ -337,7 +337,7 @@
    "key": "WT-783",
    "name": "Use Custom URL on Smile Health",
    "status": "In Testing",
-   "ted": "2026-09-25",
+   "ted": "2026-10-23",
    "fv": "R9.9",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
@@ -1409,7 +1409,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-19",
+   "ted": "2026-10-26",
    "who": "Nazarii Polinyk",
    "theme": "LL-Fast Follows"
   },
@@ -1574,7 +1574,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-09-25",
+   "ted": "2026-10-23",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -6865,34 +6865,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24288",
-   "name": "PRODUCTION - Theme Bug",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-08T13:39:42.185-0500",
-   "resolved": "",
-   "due": "2026-10-12",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24188",
    "name": "PreProd PMP \\ Error when trying to manually renew a migrated member",
    "pod": "LL",
@@ -7360,6 +7332,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24288",
+   "name": "PRODUCTION - Theme Bug",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-08T13:39:42.185-0500",
+   "resolved": "2026-10-21T23:40:22.807-0500",
+   "due": "2026-10-12",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24540",
    "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 2",
