@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T17:00:26+00:00",
+ "generated_at": "2026-10-22T17:12:28+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -2759,7 +2759,7 @@
   },
   {
    "key": "PLANS-24712",
-   "name": "Plan Details - footer discount not visible for some offices",
+   "name": "delete",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
