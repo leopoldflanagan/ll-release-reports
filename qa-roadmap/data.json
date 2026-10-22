@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T22:26:58+00:00",
+ "generated_at": "2026-10-22T22:39:48+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -30087,31 +30087,6 @@
    "triage": "",
    "parentKey": "PLANS-18470",
    "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20269",
-   "name": "One Smile: Fix the hard coded Plan ID for NV and WA offices to be available",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Mariano Hernández",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-07-24T12:12:08.773-0500",
-   "resolved": "2026-07-24T17:37:13.479-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
