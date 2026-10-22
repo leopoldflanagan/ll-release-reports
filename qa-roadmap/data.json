@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T14:41:40+00:00",
+ "generated_at": "2026-10-22T14:45:20+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -6199,7 +6199,7 @@
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "LL-Sprint 24-26",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -6215,8 +6215,8 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
@@ -6352,13 +6352,13 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-24377",
-   "parentName": "PDF Enhancements - Epic 2: Administrator footer and remaining PDF fixes (R9.9)",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-23913",
