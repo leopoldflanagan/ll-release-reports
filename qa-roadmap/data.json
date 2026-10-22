@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T12:45:23+00:00",
+ "generated_at": "2026-10-22T12:50:39+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -2736,6 +2736,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24705",
+   "name": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a second Save",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-22T07:44:20.696-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24703",
@@ -6123,7 +6148,7 @@
    "prio": "2: Important",
    "created": "2026-10-19T11:29:24.142-0500",
    "resolved": "",
-   "due": "2026-10-21",
+   "due": "2026-10-23",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -30249,15 +30274,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-24705",
-   "name": "Plan Prioterization -Broken - When save ranking user have to click twise",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Oct 19–25",
