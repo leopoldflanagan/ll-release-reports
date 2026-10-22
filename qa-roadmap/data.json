@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T03:45:22+00:00",
+ "generated_at": "2026-10-22T04:00:22+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -6637,34 +6637,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24540",
-   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 2",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-15T15:15:44.243-0500",
-   "resolved": "",
-   "due": "2026-10-16",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24533",
    "name": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed together instead of aligned in columns",
    "pod": "LL",
@@ -7388,6 +7360,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24540",
+   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 2",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-15T15:15:44.243-0500",
+   "resolved": "2026-10-21T22:54:27.314-0500",
+   "due": "2026-10-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24339",
    "name": "URL is correct in member portal, but incorrect in WF Pay",
