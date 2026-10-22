@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T18:18:10+00:00",
+ "generated_at": "2026-10-22T18:30:25+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -6769,34 +6769,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24516",
-   "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-14T21:07:19.432-0500",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24514",
    "name": "Fw: [EXTERNAL] Re: Payment",
    "pod": "LL",
@@ -7321,6 +7293,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24516",
+   "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-14T21:07:19.432-0500",
+   "resolved": "2026-10-22T13:25:15.635-0500",
+   "due": "2026-10-19",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24103",
    "name": "CSP - Office assigned from PMP, the office assignment is not reflected in CSP > Member > Plan Details.",
