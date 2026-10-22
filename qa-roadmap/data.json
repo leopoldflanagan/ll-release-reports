@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T15:45:18+00:00",
+ "generated_at": "2026-10-22T15:51:21+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -470,7 +470,7 @@
   {
    "key": "WT-981",
    "name": "Subscription - Consolidated Feature",
-   "status": "Ready for Development",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.10",
    "who": "David Jones",
@@ -1706,7 +1706,7 @@
    "name": "Subscription - Consolidated Feature",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R9.10",
    "ted": null,
    "who": "David Jones",
