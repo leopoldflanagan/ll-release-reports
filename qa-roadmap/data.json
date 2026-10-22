@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T07:45:23+00:00",
+ "generated_at": "2026-10-22T08:00:27+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -30300,33 +30300,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-18895",
-   "name": "CSP - Org Selection section disappears after selecting an Organization before clicking Save ; click on cancel org still saved.",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-02T09:34:14.561-0500",
-   "resolved": "2026-07-24T02:57:37.142-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15107",
-   "parentName": "[DCA] Portal Level Sellability Testing",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
