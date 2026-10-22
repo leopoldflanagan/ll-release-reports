@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T15:51:21+00:00",
+ "generated_at": "2026-10-22T16:00:26+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -107,7 +107,7 @@
    "status": "Ready for Development",
    "ted": null,
    "fv": "R9.10",
-   "who": "Daniel Marineni",
+   "who": "Valentyna Tenus",
    "tshirt": "Moderate"
   },
   {
@@ -451,7 +451,7 @@
    "status": "Ready for Development",
    "ted": null,
    "fv": "R9.10",
-   "who": "Daniel Marineni",
+   "who": "Valentyna Tenus",
    "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -1687,7 +1687,7 @@
    "status": "Ready for Development",
    "fv": "R9.10",
    "ted": null,
-   "who": "Daniel Marineni",
+   "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
   {
@@ -30204,6 +30204,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24710",
+   "name": "Plan Details PDF - Auto renew text incorrect for below mentioned plans in STAGE",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24709",
    "name": "Plan Details PDF - Discounts not visible for DVD plan",
