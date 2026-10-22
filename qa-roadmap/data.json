@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T19:51:01+00:00",
+ "generated_at": "2026-10-22T20:00:25+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -30157,33 +30157,6 @@
    "created": "2026-07-08T13:38:12.640-0500",
    "resolved": "2026-07-24T15:41:26.784-0500",
    "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-19465",
-   "name": "Renaming a plan (benefitplan template) does not rename sales.plan — plan info missing from Sales tab on reload",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Chris Rubio",
-   "reporter": "Leopoldo Flanagan",
-   "prio": "2: Important",
-   "created": "2026-07-10T13:41:41.945-0500",
-   "resolved": "2026-07-24T14:58:37.383-0500",
-   "due": "2026-07-20",
    "labels": [
     "product_prioritized"
    ],
