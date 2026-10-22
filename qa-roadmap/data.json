@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T11:15:24+00:00",
+ "generated_at": "2026-10-22T11:30:24+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -6029,6 +6029,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24664",
+   "name": "Essential Smile - Website Mobile View Issues",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-21T10:31:07.194-0500",
+   "resolved": "",
+   "due": "2026-10-22",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24630",
    "name": "Dependent Not Showing Purchased Plan",
    "pod": "PLANS",
@@ -6167,34 +6195,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24664",
-   "name": "Essential Smile - Website Mobile View Issues",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-21T10:31:07.194-0500",
-   "resolved": "",
-   "due": "2026-10-22",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
