@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T12:50:39+00:00",
+ "generated_at": "2026-10-22T13:00:26+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -943,6 +943,17 @@
   {
    "key": "WT-1213",
    "name": "Ambetter Site",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1215",
+   "name": "ACH Legal language for purchasing plan",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -2166,6 +2177,17 @@
   {
    "key": "WT-1213",
    "name": "Ambetter Site",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1215",
+   "name": "ACH Legal language for purchasing plan",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
