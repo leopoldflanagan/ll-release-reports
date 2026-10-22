@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T19:15:21+00:00",
+ "generated_at": "2026-10-22T19:27:52+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -6249,6 +6249,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-23856",
+   "name": "CSP \\ Unable to overwrite plan price for plans",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 24-26",
+   "who": "Conor Kamperman",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-09-29T16:09:03.423-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-23913",
    "name": "ACH - Emails are not working (Declines, Returns)",
    "pod": "LL",
@@ -6600,34 +6628,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24551",
-   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-15T16:22:38.812-0500",
-   "resolved": "",
-   "due": "2026-10-20",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24545",
    "name": "Prod - One Smile - UI/UX - Claude quality scrub - Issue list 1.",
    "pod": "LL",
@@ -6937,34 +6937,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-23856",
-   "name": "CSP \\ Unable to overwrite plan price for plans",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 24-26",
-   "who": "Conor Kamperman",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-09-29T16:09:03.423-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-22870",
@@ -7293,6 +7265,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24551",
+   "name": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list 3",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-15T16:22:38.812-0500",
+   "resolved": "2026-10-22T14:16:14.614-0500",
+   "due": "2026-10-20",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24516",
    "name": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be hidden in CSP",
