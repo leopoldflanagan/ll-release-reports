@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T16:45:20+00:00",
+ "generated_at": "2026-10-22T16:53:09+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -2756,6 +2756,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24710",
+   "name": "Plan Details PDF - Incorrect Auto Renewal Text Displayed for 'Danahay Dental Savings 365' & 'Digital Smiles for Seniors 55+'",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-22T10:54:04.777-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24685",
@@ -30212,15 +30237,8 @@
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
-   "key": "PLANS-24710",
-   "name": "Plan Details PDF - Incorrect Auto Renewal Text Displayed for Danahay Dental Savings 365 & Digital Smiles for Seniors 55+",
-   "status": "Backlog",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
    "key": "PLANS-24709",
-   "name": "Plan Details PDF - Discounts not visible for DVD plan",
+   "name": "Plan Details PDF - Discounts not visible for DVD plan & Beauty Smiles by Design",
    "status": "Backlog",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
