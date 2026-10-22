@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T12:30:23+00:00",
+ "generated_at": "2026-10-22T12:45:23+00:00",
  "today": "2026-10-22",
  "features": [
   {
@@ -6888,34 +6888,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24021",
-   "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-01T14:03:00.046-0500",
-   "resolved": "",
-   "due": "2026-10-22",
-   "labels": [
-    "group1_migration",
-    "group2_migration"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24003",
    "name": "PLANS-24003: Selecting at org level should update practice level visibility options",
    "pod": "LL",
@@ -7047,33 +7019,6 @@
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-18564",
-   "name": "WFP – Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP Plan",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-26T08:54:54.209-0500",
-   "resolved": "",
-   "due": "2026-10-22",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
@@ -7326,6 +7271,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24021",
+   "name": "Plan Prioterization - Expanding Discount Plan and Updating Rank Updates Membership Plan Record Instead of Maintaining as seperate Keys",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-01T14:03:00.046-0500",
+   "resolved": "2026-10-22T07:43:31.672-0500",
+   "due": "2026-10-22",
+   "labels": [
+    "group1_migration",
+    "group2_migration"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24288",
    "name": "PRODUCTION - Theme Bug",
@@ -30276,7 +30249,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-24705",
+   "name": "Plan Prioterization -Broken - When save ranking user have to click twise",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Oct 19–25",
