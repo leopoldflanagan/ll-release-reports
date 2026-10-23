@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T11:15:20+00:00",
+ "generated_at": "2026-10-23T11:30:22+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -2616,6 +2616,34 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-24682",
+   "name": "Additional Benefits Link in PDF",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-21T20:07:40.701-0500",
+   "resolved": "",
+   "due": "2026-10-26",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24644",
    "name": "Unable to add dependent to plan in CSP or WFP.",
@@ -6849,34 +6877,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24682",
-   "name": "Additional Benefits Link in PDF",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-21T20:07:40.701-0500",
-   "resolved": "",
-   "due": "2026-10-26",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
