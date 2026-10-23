@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T15:52:40+00:00",
+ "generated_at": "2026-10-23T16:00:26+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -913,17 +913,6 @@
    "status": "Backlog",
    "ted": null,
    "fv": "R9.10",
-   "who": "Obie Khandaker",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": ""
-  },
-  {
-   "key": "WT-1210",
-   "name": "Migrate SGDP website to the Purchase Widget",
-   "status": "Backlog",
-   "ted": null,
-   "fv": null,
    "who": "Obie Khandaker",
    "tshirt": null,
    "pod": "PLANS",
@@ -2153,17 +2142,6 @@
    "theme": ""
   },
   {
-   "key": "WT-1210",
-   "name": "Migrate SGDP website to the Purchase Widget",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "Backlog",
-   "fv": null,
-   "ted": null,
-   "who": "Obie Khandaker",
-   "theme": ""
-  },
-  {
    "key": "WT-1212",
    "name": "Ambetter Plan Design",
    "pod": "PLANS",
@@ -2784,6 +2762,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24726",
+   "name": "Plan Details PDF – Additional Person Amount Uses Annual Pricing When Subscription Type Is not annual. (Quarterly)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-23T10:02:30.530-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24725",
@@ -30130,15 +30133,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-24726",
-   "name": "Plan Details PDF – Additional Person Amount Uses Annual Pricing When Subscription Type Is not annual. (Quarterly)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Oct 19–25",
