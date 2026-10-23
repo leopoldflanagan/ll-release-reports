@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T15:00:31+00:00",
+ "generated_at": "2026-10-23T15:14:34+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -30130,7 +30130,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-24726",
+   "name": "Plan Details PDF - When Subscription type is not Annual , addtional plan discount is still taking from Annual price settings",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Oct 19–25",
