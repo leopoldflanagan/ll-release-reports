@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T09:00:26+00:00",
+ "generated_at": "2026-10-23T09:15:20+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -6078,36 +6078,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24566",
-   "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Sushma Bankar",
-   "prio": "1: Urgent",
-   "created": "2026-10-16T10:55:22.443-0500",
-   "resolved": "",
-   "due": "2026-10-23",
-   "labels": [
-    "CCB_candidate",
-    "group1_migration",
-    "plans",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21733",
    "name": "ACH Refund - Transaction Older Than 6months Does Not Display \"Past Refund Window\" and Allows Refund from CSP",
    "pod": "LL",
@@ -6186,6 +6156,36 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24566",
+   "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Sushma Bankar",
+   "prio": "1: Urgent",
+   "created": "2026-10-16T10:55:22.443-0500",
+   "resolved": "",
+   "due": "2026-10-23",
+   "labels": [
+    "CCB_candidate",
+    "group1_migration",
+    "plans",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
