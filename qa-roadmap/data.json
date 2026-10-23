@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T18:30:36+00:00",
+ "generated_at": "2026-10-23T18:44:44+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -6609,35 +6609,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24416",
-   "name": "Prod - PMP - One Smile - Incorrect URL in membership card",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-12T13:26:52.717-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "OneSmile",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24384",
    "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
    "pod": "LL",
@@ -7162,6 +7133,35 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24416",
+   "name": "Prod - PMP - One Smile - Incorrect URL in membership card",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-12T13:26:52.717-0500",
+   "resolved": "2026-10-23T13:31:05.662-0500",
+   "due": "",
+   "labels": [
+    "OneSmile",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24705",
    "name": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a second Save",
