@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T09:15:20+00:00",
+ "generated_at": "2026-10-23T09:30:23+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -2899,7 +2899,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-10-20T14:08:58.477-0500",
@@ -2999,34 +2999,6 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24568",
-   "name": "PMP-Stage-\"Add Primary Contact” option shows for a minor (Minor 2) who already has a primary contact",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-10-16T11:40:23.030-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22197",
-   "parentName": "Epic 1: Missing Primary Contact Visibility",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24555",
@@ -5101,7 +5073,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-10-20T14:19:48.389-0500",
@@ -6909,6 +6881,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24568",
+   "name": "PMP-Stage-\"Add Primary Contact” option shows for a minor (Minor 2) who already has a primary contact",
+   "pod": "LL",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-10-16T11:40:23.030-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22197",
+   "parentName": "Epic 1: Missing Primary Contact Visibility",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24108",
