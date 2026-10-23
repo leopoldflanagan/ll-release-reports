@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T19:49:31+00:00",
+ "generated_at": "2026-10-23T20:00:26+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -2758,6 +2758,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24735",
+   "name": "Unable to Update Payment Method in Wellfit Pay (Launch Loyalty Office)",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vera King",
+   "prio": "3: Standard",
+   "created": "2026-10-23T14:52:44.262-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
