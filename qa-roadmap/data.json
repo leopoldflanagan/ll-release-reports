@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T07:15:21+00:00",
+ "generated_at": "2026-10-23T07:30:25+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -86,7 +86,7 @@
   {
    "key": "WT-820",
    "name": "Member Portal Support for Subscription Payments",
-   "status": "In Development",
+   "status": "On Hold",
    "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
@@ -371,7 +371,7 @@
   {
    "key": "WT-820",
    "name": "Member Portal Support for Subscription Payments",
-   "status": "In Development",
+   "status": "On Hold",
    "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
@@ -1607,7 +1607,7 @@
    "name": "Member Portal Support for Subscription Payments",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "On Hold",
    "fv": "R9.10",
    "ted": "2026-11-23",
    "who": "Rostyslav Masniuk",
