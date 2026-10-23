@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T14:00:27+00:00",
+ "generated_at": "2026-10-23T14:15:22+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -6111,34 +6111,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24705",
-   "name": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a second Save",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-22T07:44:20.696-0500",
-   "resolved": "",
-   "due": "2026-10-23",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24605",
    "name": "Email Change Logic",
    "pod": "LL",
@@ -6220,6 +6192,34 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24705",
+   "name": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a second Save",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-22T07:44:20.696-0500",
+   "resolved": "",
+   "due": "2026-10-23",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
