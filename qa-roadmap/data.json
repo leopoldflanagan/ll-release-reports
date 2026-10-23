@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T18:00:22+00:00",
+ "generated_at": "2026-10-23T18:15:19+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -6637,34 +6637,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24499",
-   "name": "Configuration Changes - not taking in Prod.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-14T12:08:00.607-0500",
-   "resolved": "",
-   "due": "2026-10-16",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24416",
    "name": "Prod - PMP - One Smile - Incorrect URL in membership card",
    "pod": "LL",
@@ -7218,6 +7190,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24499",
+   "name": "Configuration Changes - not taking in Prod.",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-14T12:08:00.607-0500",
+   "resolved": "2026-10-23T13:01:05.323-0500",
+   "due": "2026-10-16",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24664",
    "name": "Essential Smile - Website Mobile View Issues",
