@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T15:15:21+00:00",
+ "generated_at": "2026-10-23T15:30:27+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -30133,7 +30133,7 @@
  "nopod": [
   {
    "key": "PLANS-24726",
-   "name": "Plan Details PDF - When Subscription type is not Annual , addtional plan discount is still taking from Annual price settings",
+   "name": "Plan Details PDF – Additional Person Amount Uses Annual Pricing When Subscription Type Is not annual. (Quarterly)",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
