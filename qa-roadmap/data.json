@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T14:45:20+00:00",
+ "generated_at": "2026-10-23T14:54:58+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -6224,36 +6224,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24566",
-   "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Petro Yarish",
-   "reporter": "Sushma Bankar",
-   "prio": "1: Urgent",
-   "created": "2026-10-16T10:55:22.443-0500",
-   "resolved": "",
-   "due": "2026-10-23",
-   "labels": [
-    "CCB_candidate",
-    "group1_migration",
-    "plans",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-23913",
    "name": "ACH - Emails are not working (Declines, Returns)",
    "pod": "LL",
@@ -6544,6 +6514,36 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24566",
+   "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Petro Yarish",
+   "reporter": "Sushma Bankar",
+   "prio": "1: Urgent",
+   "created": "2026-10-16T10:55:22.443-0500",
+   "resolved": "",
+   "due": "2026-10-23",
+   "labels": [
+    "CCB_candidate",
+    "group1_migration",
+    "plans",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
