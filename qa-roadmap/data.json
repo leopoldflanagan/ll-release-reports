@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T16:00:26+00:00",
+ "generated_at": "2026-10-23T16:15:21+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -114,7 +114,7 @@
    "key": "WT-987",
    "name": "Add Missing Data Icon to PMP",
    "status": "In Testing",
-   "ted": "2026-10-21",
+   "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
@@ -482,7 +482,7 @@
    "key": "WT-987",
    "name": "Add Missing Data Icon to PMP",
    "status": "In Testing",
-   "ted": "2026-10-21",
+   "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small",
@@ -1708,7 +1708,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-21",
+   "ted": "2026-10-30",
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
