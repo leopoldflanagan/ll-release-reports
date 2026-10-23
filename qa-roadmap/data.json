@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T18:18:15+00:00",
+ "generated_at": "2026-10-23T18:30:36+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -2806,7 +2806,7 @@
     "group1_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-23988",
    "parentName": "PLANS-23988: Epic 1: Manage Preferences - CSP & WF Pay - WellfitPay Preference Changes in Account History",
@@ -2890,7 +2890,7 @@
     "group2_migration",
     "product_prioritized"
    ],
-   "theme": "",
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-23885",
    "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
@@ -6353,34 +6353,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24705",
-   "name": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a second Save",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-22T07:44:20.696-0500",
-   "resolved": "",
-   "due": "2026-10-23",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24703",
    "name": "Portal Renew Restrictions - Renew button disabled in Plan Overview when one plan is renewal-restricted, preventing renewal to eligible unrestricted plans",
    "pod": "LL",
@@ -7190,6 +7162,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24705",
+   "name": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a second Save",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Oleksandr Terletskyy",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-22T07:44:20.696-0500",
+   "resolved": "2026-10-23T13:19:38.160-0500",
+   "due": "2026-10-23",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24499",
    "name": "Configuration Changes - not taking in Prod.",
