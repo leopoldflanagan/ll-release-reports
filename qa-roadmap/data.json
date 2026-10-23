@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T20:00:26+00:00",
+ "generated_at": "2026-10-23T20:14:55+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -2758,6 +2758,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24736",
+   "name": "Office Closure: Dental Care Alliance | Effective immediately",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Brianna Hill",
+   "prio": "3: Standard",
+   "created": "2026-10-23T15:00:26.644-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
