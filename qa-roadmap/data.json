@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-22T23:49:38+00:00",
- "today": "2026-10-22",
+ "generated_at": "2026-10-23T00:00:24+00:00",
+ "today": "2026-10-23",
  "features": [
   {
    "key": "WT-1021",
@@ -30065,33 +30065,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-20153",
-   "name": "PMP \\ rate limiting is triggered during normal user activity",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Daryl Myrick",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-07-22T17:29:51.313-0500",
-   "resolved": "2026-07-24T18:54:44.857-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
