@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T07:30:25+00:00",
+ "generated_at": "2026-10-23T07:45:21+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -5067,34 +5067,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24681",
-   "name": "Use Fee Schedule Bug for Click Here for Details",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-21T19:58:24.145-0500",
-   "resolved": "",
-   "due": "2026-10-22",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24656",
    "name": "Danahay Discount Plan Upgrade Plan to Add Member",
    "pod": "PLANS",
@@ -6458,6 +6430,34 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-24681",
+   "name": "Use Fee Schedule Bug for Click Here for Details",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-21T19:58:24.145-0500",
+   "resolved": "",
+   "due": "2026-10-22",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24619",
