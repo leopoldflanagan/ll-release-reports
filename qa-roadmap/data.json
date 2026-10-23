@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T15:33:12+00:00",
+ "generated_at": "2026-10-23T15:45:19+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -6168,34 +6168,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24703",
-   "name": "Portal Renew Restrictions - Renew button disabled in Plan Overview when one plan is renewal-restricted, preventing renewal to eligible unrestricted plans",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-22T06:56:54.118-0500",
-   "resolved": "",
-   "due": "2026-10-26",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-23913",
    "name": "ACH - Emails are not working (Declines, Returns)",
    "pod": "LL",
@@ -6420,6 +6392,34 @@
    "created": "2026-10-22T07:44:20.696-0500",
    "resolved": "",
    "due": "2026-10-23",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24703",
+   "name": "Portal Renew Restrictions - Renew button disabled in Plan Overview when one plan is renewal-restricted, preventing renewal to eligible unrestricted plans",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-22T06:56:54.118-0500",
+   "resolved": "",
+   "due": "2026-10-26",
    "labels": [
     "group3_migration",
     "product_prioritized"
