@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T22:30:23+00:00",
+ "generated_at": "2026-10-23T22:39:43+00:00",
  "today": "2026-10-23",
  "features": [
   {
@@ -6910,34 +6910,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-21247",
-   "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-14T04:34:50.968-0500",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24568",
    "name": "PMP-Stage-\"Add Primary Contact” option shows for a minor (Minor 2) who already has a primary contact",
    "pod": "LL",
@@ -7208,6 +7180,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-21247",
+   "name": "PMP - Duplicate ACH Account Can Be Added Without Validation",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-08-14T04:34:50.968-0500",
+   "resolved": "2026-10-23T17:37:43.335-0500",
+   "due": "2026-10-19",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24416",
    "name": "Prod - PMP - One Smile - Incorrect URL in membership card",
