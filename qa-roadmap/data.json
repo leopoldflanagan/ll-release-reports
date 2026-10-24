@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T22:45:20+00:00",
+ "generated_at": "2026-10-24T23:00:25+00:00",
  "today": "2026-10-24",
  "features": [
   {
@@ -6797,34 +6797,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-22870",
-   "name": "PMP - Resend Welcome Email",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-09-11T13:05:18.353-0500",
-   "resolved": "",
-   "due": "2026-10-19",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21585",
    "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
    "pod": "PLANS",
@@ -7123,6 +7095,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22870",
+   "name": "PMP - Resend Welcome Email",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-09-11T13:05:18.353-0500",
+   "resolved": "2026-10-24T17:49:25.828-0500",
+   "due": "2026-10-19",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24521",
    "name": "Remove the 5 limit add for UCR codes",
