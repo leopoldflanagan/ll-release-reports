@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T20:45:19+00:00",
+ "generated_at": "2026-10-24T21:00:25+00:00",
  "today": "2026-10-24",
  "features": [
   {
@@ -30175,31 +30175,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "WEL-6326",
-   "name": "Role-derived org access is dropped when editing a user (org sync gap)",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "WFP Sprint 19",
-   "who": "Jorge Fuentes",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-20T17:52:15.721-0500",
-   "resolved": "2026-07-26T15:49:37.576-0500",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-19589",
-   "parentName": "[3] PMP Member ID & Office Assignment - Missing-Office-Assignment Flagging",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
