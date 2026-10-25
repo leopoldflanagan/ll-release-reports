@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T10:00:20+00:00",
+ "generated_at": "2026-10-25T10:15:20+00:00",
  "today": "2026-10-25",
  "features": [
   {
@@ -30140,33 +30140,6 @@
    "prio": "1: Urgent",
    "created": "2026-06-29T14:54:29.036-0500",
    "resolved": "2026-07-27T09:01:31.195-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-19988",
-   "name": "paymentManagementAPI (httpClients idx 5) has no per-env baseUrl — resolves to localhost in deployed envs",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Denys Kernychnyi",
-   "prio": "3: Standard",
-   "created": "2026-07-21T10:26:09.805-0500",
-   "resolved": "2026-07-27T05:14:16.457-0500",
    "due": "",
    "labels": [
     "product_prioritized"
