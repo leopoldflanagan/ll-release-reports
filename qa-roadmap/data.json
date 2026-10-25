@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T15:45:22+00:00",
+ "generated_at": "2026-10-25T16:00:21+00:00",
  "today": "2026-10-25",
  "features": [
   {
@@ -2594,34 +2594,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24682",
-   "name": "Additional Benefits Link in PDF",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 24-26",
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-21T20:07:40.701-0500",
-   "resolved": "",
-   "due": "2026-10-26",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24619",
    "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
@@ -6439,6 +6411,34 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-22T06:56:54.118-0500",
+   "resolved": "",
+   "due": "2026-10-26",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24682",
+   "name": "Additional Benefits Link in PDF",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 24-26",
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-21T20:07:40.701-0500",
    "resolved": "",
    "due": "2026-10-26",
    "labels": [
