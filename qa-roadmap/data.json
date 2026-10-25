@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T19:45:19+00:00",
+ "generated_at": "2026-10-25T20:00:25+00:00",
  "today": "2026-10-25",
  "features": [
   {
@@ -29889,31 +29889,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-19708",
-   "name": "Plan Confirmation Receipt \\ Broken CC brand icon",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "4: Low",
-   "created": "2026-07-16T10:48:50.629-0500",
-   "resolved": "2026-07-27T14:49:01.552-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
