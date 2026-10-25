@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T17:15:20+00:00",
+ "generated_at": "2026-10-25T17:30:23+00:00",
  "today": "2026-10-25",
  "features": [
   {
@@ -29968,58 +29968,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-20274",
-   "name": "One Smile: Ensure when on the site even without a specific practice we are showing correct contact phone number",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Mariano Hernández",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-07-24T12:29:09.380-0500",
-   "resolved": "2026-07-27T12:23:31.160-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20068",
-   "name": "Provider Portal: Renew button is not displayed for plans in renewal period when Purchase Restriction is enabled",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-22T04:08:36.651-0500",
-   "resolved": "2026-07-27T12:22:15.300-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15107",
-   "parentName": "[DCA] Portal Level Sellability Testing",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
