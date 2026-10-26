@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T15:33:16+00:00",
+ "generated_at": "2026-10-26T15:45:23+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -10,15 +10,6 @@
    "fv": null,
    "who": "Chris Rubio",
    "tshirt": "Small"
-  },
-  {
-   "key": "WT-1024",
-   "name": "Manage Preferences - CSP & WF Pay",
-   "status": "In Testing",
-   "ted": "2026-10-26",
-   "fv": "R9.9",
-   "who": "Nazarii Polinyk",
-   "tshirt": "Moderate"
   },
   {
    "key": "WT-1029",
@@ -51,7 +42,7 @@
    "key": "WT-1036",
    "name": "Payment Term: ID on overview",
    "status": "In Testing",
-   "ted": "2026-10-29",
+   "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small"
@@ -96,7 +87,7 @@
    "key": "WT-833",
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "In Testing",
-   "ted": "2026-10-26",
+   "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small"
@@ -147,17 +138,6 @@
    "fv": null,
    "who": "Chris Rubio",
    "tshirt": "Small",
-   "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1024",
-   "name": "Manage Preferences - CSP & WF Pay",
-   "status": "In Testing",
-   "ted": "2026-10-26",
-   "fv": "R9.9",
-   "who": "Nazarii Polinyk",
-   "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
   },
@@ -220,7 +200,7 @@
    "key": "WT-1036",
    "name": "Payment Term: ID on overview",
    "status": "In Testing",
-   "ted": "2026-10-29",
+   "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Valentyna Tenus",
    "tshirt": "Small",
@@ -385,7 +365,7 @@
    "key": "WT-833",
    "name": "PMP - Account Information Google/Apple Wallet",
    "status": "In Testing",
-   "ted": "2026-10-26",
+   "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": "Small",
@@ -1363,17 +1343,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "WT-1024",
-   "name": "Manage Preferences - CSP & WF Pay",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.9",
-   "ted": "2026-10-26",
-   "who": "Nazarii Polinyk",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "WT-1028",
    "name": "WFShare reporting for new Individual Plus Plan",
    "pod": "PLANS",
@@ -1435,7 +1404,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-29",
+   "ted": "2026-10-30",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
@@ -1600,7 +1569,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-26",
+   "ted": "2026-10-30",
    "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
@@ -6017,35 +5986,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24644",
-   "name": "Unable to add dependent to plan in CSP or WFP.",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Conor Kamperman",
-   "reporter": "Carmen West",
-   "prio": "1: Urgent",
-   "created": "2026-10-20T13:34:36.036-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "CCB_candidate",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24605",
    "name": "Email Change Logic",
    "pod": "LL",
@@ -6058,7 +5998,7 @@
    "prio": "2: Important",
    "created": "2026-10-19T11:29:24.142-0500",
    "resolved": "",
-   "due": "2026-10-26",
+   "due": "2026-10-28",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -6129,6 +6069,35 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24644",
+   "name": "Unable to add dependent to plan in CSP or WFP.",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Conor Kamperman",
+   "reporter": "Carmen West",
+   "prio": "1: Urgent",
+   "created": "2026-10-20T13:34:36.036-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "CCB_candidate",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24726",
