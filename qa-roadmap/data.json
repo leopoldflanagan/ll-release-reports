@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T14:00:30+00:00",
+ "generated_at": "2026-10-26T14:15:19+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -2816,7 +2816,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2826,13 +2826,13 @@
    "labels": [],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-23885",
-   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24725",
@@ -2897,7 +2897,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2910,13 +2910,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-23885",
-   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24685",
@@ -6167,7 +6167,7 @@
    "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL-Sprint 24-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -6180,13 +6180,13 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-23885",
-   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-23913",
@@ -6504,13 +6504,13 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "",
-   "init": ""
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24608",
