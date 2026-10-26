@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T22:00:29+00:00",
+ "generated_at": "2026-10-26T22:15:13+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -29905,33 +29905,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-20363",
-   "name": "Blocker-Member Portal-Stage-ACH is not displaying on Dashboard and Manage Payment after feature flag is ON in CSP",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-07-28T09:42:51.120-0500",
-   "resolved": "2026-07-28T17:12:42.878-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-19578",
-   "parentName": "[2] Handle ACH in Member Portal - ACH Visibility & Management in the Wallet",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
