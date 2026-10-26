@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T18:15:23+00:00",
+ "generated_at": "2026-10-26T18:23:47+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -10,15 +10,6 @@
    "fv": null,
    "who": "Chris Rubio",
    "tshirt": "Small"
-  },
-  {
-   "key": "WT-1029",
-   "name": "PDF Enhancements",
-   "status": "In Testing",
-   "ted": "2026-10-26",
-   "fv": "R9.9",
-   "who": "Dima Shtympel",
-   "tshirt": "Large"
   },
   {
    "key": "WT-1032",
@@ -150,17 +141,6 @@
    "who": "Camille Knight",
    "tshirt": "Moderate",
    "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1029",
-   "name": "PDF Enhancements",
-   "status": "In Testing",
-   "ted": "2026-10-26",
-   "fv": "R9.9",
-   "who": "Dima Shtympel",
-   "tshirt": "Large",
-   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1351,17 +1331,6 @@
    "fv": "R9.10",
    "ted": null,
    "who": "Camille Knight",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1029",
-   "name": "PDF Enhancements",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.9",
-   "ted": "2026-10-26",
-   "who": "Dima Shtympel",
    "theme": "LL-Fast Follows"
   },
   {
@@ -2589,6 +2558,34 @@
    "linkedLP": false,
    "initKey": "WT-435",
    "init": "CREG / Additional PDS Family TPA Clients"
+  },
+  {
+   "key": "PLANS-24564",
+   "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-16T10:14:40.539-0500",
+   "resolved": "",
+   "due": "2026-10-22",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24469",
@@ -6529,34 +6526,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24564",
-   "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-16T10:14:40.539-0500",
-   "resolved": "",
-   "due": "2026-10-22",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
