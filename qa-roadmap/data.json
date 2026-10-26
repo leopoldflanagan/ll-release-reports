@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T10:30:24+00:00",
+ "generated_at": "2026-10-26T10:45:22+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -6075,34 +6075,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24709",
-   "name": "Plan Details PDF – Footer \"Discount\" and \"Exclusive Discounts\" Sections Not Visible for the Below-Mentioned offices.",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-22T10:39:05.170-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-23885",
-   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-24644",
    "name": "Unable to add dependent to plan in CSP or WFP.",
    "pod": "PLANS",
@@ -6187,6 +6159,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24709",
+   "name": "Plan Details PDF – Footer \"Discount\" and \"Exclusive Discounts\" Sections Not Visible for the Below-Mentioned offices.",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-22T10:39:05.170-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-23885",
+   "parentName": "PDF Enhancements - Epic 1: Plan Details PDF fixes (R9.8, deployed)",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-23913",
