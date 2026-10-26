@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T20:15:41+00:00",
+ "generated_at": "2026-10-26T20:30:26+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -29926,33 +29926,6 @@
    "parentName": "[2] Handle ACH in Member Portal - ACH Visibility & Management in the Wallet",
    "lpEpic": false,
    "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20234",
-   "name": "Smile Health - Admin Fee - Portal doesn' display unavailable state after admin fee retrieval retries are exhausted",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-07-23T18:01:28.122-0500",
-   "resolved": "2026-07-28T15:25:22.424-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": true,
    "linkedLP": false,
    "initKey": "",
    "init": ""
