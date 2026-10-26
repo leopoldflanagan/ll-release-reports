@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T16:45:23+00:00",
+ "generated_at": "2026-10-26T16:56:27+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -6563,36 +6563,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24566",
-   "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Petro Yarish",
-   "reporter": "Sushma Bankar",
-   "prio": "1: Urgent",
-   "created": "2026-10-16T10:55:22.443-0500",
-   "resolved": "",
-   "due": "2026-10-23",
-   "labels": [
-    "CCB_candidate",
-    "group1_migration",
-    "plans",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24564",
    "name": "Marketing Settings - Legacy ONLY - FS 'suffix' is not inherited from 1 Individual coverage level for 2/ 3 Individual coverage levels",
    "pod": "LL",
@@ -7145,6 +7115,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24566",
+   "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Petro Yarish",
+   "reporter": "Sushma Bankar",
+   "prio": "1: Urgent",
+   "created": "2026-10-16T10:55:22.443-0500",
+   "resolved": "2026-10-26T11:46:42.369-0500",
+   "due": "2026-10-23",
+   "labels": [
+    "CCB_candidate",
+    "group1_migration",
+    "plans",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-23856",
    "name": "CSP \\ Unable to overwrite plan price for plans",
@@ -29965,33 +29965,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-20169",
-   "name": "PMP/Waivefam/Plan Summary displays incorrect information on applying Waivefam promo",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-22T23:42:28.565-0500",
-   "resolved": "2026-07-28T11:50:15.968-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-16410",
-   "parentName": "WAIVEFAM: Epic 3 - Marketplace WAIVEFAM Checkout",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-402",
-   "init": "LL Core Product - Refunds, Payments, Communications & Websites"
   }
  ],
  "closed_days": 90,
