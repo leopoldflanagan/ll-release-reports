@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T15:58:41+00:00",
+ "generated_at": "2026-10-26T16:00:24+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -29881,33 +29881,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-20330",
-   "name": "PMP \\ Payment Accounts API returns Auto Renew as enabled when plan was purchased with Auto Renew disabled",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-07-27T13:09:39.066-0500",
-   "resolved": "2026-07-28T11:00:20.497-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
