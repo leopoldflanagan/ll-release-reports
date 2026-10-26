@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T19:13:46+00:00",
+ "generated_at": "2026-10-26T19:15:20+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -29909,7 +29909,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-24810",
+   "name": "Plan details PDF - Some of the Provider logos are not showing",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Oct 26–Nov 1",
