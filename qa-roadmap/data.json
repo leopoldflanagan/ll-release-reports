@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T19:15:20+00:00",
+ "generated_at": "2026-10-26T19:29:57+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -29912,7 +29912,7 @@
  "nopod": [
   {
    "key": "PLANS-24810",
-   "name": "Plan details PDF - Some of the Provider logos are not showing",
+   "name": "Plan details PDF -Additional Benefit provider logos are not visible for 'MedImpact' & 'QualSight' & 'Elixir Savings'",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
