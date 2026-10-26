@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T17:00:28+00:00",
+ "generated_at": "2026-10-26T17:15:22+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -5260,7 +5260,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 25-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-10-26T10:51:54.878-0500",
