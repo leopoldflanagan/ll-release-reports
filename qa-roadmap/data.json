@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T17:50:45+00:00",
+ "generated_at": "2026-10-26T18:00:27+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -6393,34 +6393,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24709",
-   "name": "Plan Details PDF – Footer \"Discount\" and \"Exclusive Discounts\" Sections Not Visible for the Below-Mentioned offices.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-22T10:39:05.170-0500",
-   "resolved": "",
-   "due": "2026-10-26",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24703",
    "name": "Portal Renew Restrictions - Renew button disabled in Plan Overview when one plan is renewal-restricted, preventing renewal to eligible unrestricted plans",
    "pod": "LL",
@@ -7115,6 +7087,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24709",
+   "name": "Plan Details PDF – Footer \"Discount\" and \"Exclusive Discounts\" Sections Not Visible for the Below-Mentioned offices.",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-22T10:39:05.170-0500",
+   "resolved": "2026-10-26T12:57:09.319-0500",
+   "due": "2026-10-26",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24566",
    "name": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)",
