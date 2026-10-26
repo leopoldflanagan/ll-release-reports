@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T17:30:24+00:00",
+ "generated_at": "2026-10-26T17:39:59+00:00",
  "today": "2026-10-26",
  "features": [
   {
@@ -29934,34 +29934,6 @@
    "parentName": "",
    "lpEpic": false,
    "lpSprint": true,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-19679",
-   "name": "[Membership Fee Promo] - Renewing a plan displays wrong annual plan cost",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-07-15T15:23:56.927-0500",
-   "resolved": "2026-07-28T12:36:51.973-0500",
-   "due": "",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
    "init": ""
