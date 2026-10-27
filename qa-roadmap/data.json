@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T20:00:27+00:00",
+ "generated_at": "2026-10-27T20:12:08+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -29939,6 +29939,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24856",
+   "name": "Provider Portal \\ Identification card is missing Office Location and Office Number when plan is in \"Renewal payment pending\" status",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-24854",
    "name": "PMP - Auto Renewal setting is disabled and Renew button is visible for Monthly plans purchased from CSP",
