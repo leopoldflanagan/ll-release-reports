@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T20:30:23+00:00",
+ "generated_at": "2026-10-27T20:35:29+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -29964,20 +29964,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24860",
-   "name": "PMP/EssentialSmiles/Member ID is not displayed in Plan Card PDF",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
-  {
-   "key": "PLANS-24859",
-   "name": "PMP/EssentialSmiles/Incorrect support link in Plan Card",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
   {
    "key": "PLANS-24854",
    "name": "PMP - Auto Renewal setting is disabled and Renew button is visible for Monthly plans purchased from CSP",
