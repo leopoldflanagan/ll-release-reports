@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T18:15:19+00:00",
+ "generated_at": "2026-10-27T18:26:31+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -6690,35 +6690,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24003",
-   "name": "PLANS-24003: Selecting at org level should update practice level visibility options",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Daniel Marineni",
-   "prio": "2: Important",
-   "created": "2026-10-01T10:48:21.147-0500",
-   "resolved": "",
-   "due": "2026-10-27",
-   "labels": [
-    "CCB_candidate",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21585",
    "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
    "pod": "PLANS",
@@ -7101,6 +7072,35 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24003",
+   "name": "PLANS-24003: Selecting at org level should update practice level visibility options",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-01T10:48:21.147-0500",
+   "resolved": "2026-10-27T13:15:21.559-0500",
+   "due": "2026-10-27",
+   "labels": [
+    "CCB_candidate",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24703",
    "name": "Portal Renew Restrictions - Renew button disabled in Plan Overview when one plan is renewal-restricted, preventing renewal to eligible unrestricted plans",
