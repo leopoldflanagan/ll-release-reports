@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T09:15:18+00:00",
+ "generated_at": "2026-10-27T09:30:21+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -2530,36 +2530,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24795",
-   "name": "Blocker-Stage-PMP-Wallet QR scan not working for Apple wallet, it worked on Android phone",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-26T10:51:54.878-0500",
-   "resolved": "",
-   "due": "2026-10-27",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24619",
    "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
    "pod": "PLANS",
@@ -4341,7 +4311,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
-   "who": "Vasyl Skochko",
+   "who": "Unassigned",
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
    "created": "2026-08-17T17:15:17.841-0500",
@@ -6441,6 +6411,36 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-24795",
+   "name": "Blocker-Stage-PMP-Wallet QR scan not working for Apple wallet, it worked on Android phone",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-26T10:51:54.878-0500",
+   "resolved": "",
+   "due": "2026-10-27",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24703",
