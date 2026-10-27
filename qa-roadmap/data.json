@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T13:30:24+00:00",
+ "generated_at": "2026-10-27T13:45:17+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -2696,6 +2696,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24836",
+   "name": "PMP - Renew - Auto Renewal setting is not retained after manual renewal (Auto renew checked at the purchase)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-27T08:27:26.815-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24810",
@@ -6998,6 +7023,31 @@
  ],
  "bugs_closed": [
   {
+   "key": "PLANS-24811",
+   "name": "Plan Details PDF - Hearing care logo is very small & Custom line phone number not updated (issues from PLANS-23878 )",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-26T14:40:12.524-0500",
+   "resolved": "2026-10-27T07:10:38.710-0500",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24681",
    "name": "Use Fee Schedule Bug for Click Here for Details",
    "pod": "LL",
@@ -7229,7 +7279,7 @@
    "pod": "PLANS",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Michael Joe",
@@ -7256,7 +7306,7 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": "LL-Sprint 24-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -29908,15 +29958,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-24836",
-   "name": "PMP - Renew - Auto renewal not enabled after renew eventhough I checked auto renewal checkbox",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Oct 26–Nov 1",
