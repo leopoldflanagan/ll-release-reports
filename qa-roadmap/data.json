@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T21:09:24+00:00",
+ "generated_at": "2026-10-27T21:15:25+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -5291,7 +5291,7 @@
   },
   {
    "key": "PLANS-24860",
-   "name": "Stage/PMP/EssentialSmiles/Member ID is not displayed in Plan Card PDF",
+   "name": "Stage/PMP/EssentialSmiles/Member ID is not displayed in Plan Card PDF for migrated member",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
