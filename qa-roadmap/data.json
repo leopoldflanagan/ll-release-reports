@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T09:00:25+00:00",
+ "generated_at": "2026-10-27T09:15:18+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -2502,34 +2502,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-24812",
-   "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-26T15:10:52.945-0500",
-   "resolved": "",
-   "due": "2026-10-27",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24801",
    "name": "Euler CSP Setting",
    "pod": "LL",
@@ -2537,7 +2509,7 @@
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Valentyna Tenus",
+   "who": "Petro Yarish",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-10-26T11:19:17.452-0500",
@@ -2642,35 +2614,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24003",
-   "name": "PLANS-24003: Selecting at org level should update practice level visibility options",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Daniel Marineni",
-   "prio": "2: Important",
-   "created": "2026-10-01T10:48:21.147-0500",
-   "resolved": "",
-   "due": "2026-10-13",
-   "labels": [
-    "CCB_candidate",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-21736",
@@ -6261,6 +6204,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24812",
+   "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-26T15:10:52.945-0500",
+   "resolved": "",
+   "due": "2026-10-27",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24726",
    "name": "Plan Details PDF – Additional Person Amount Uses Annual Pricing When Subscription Type Is not annual. (Quarterly)",
    "pod": "LL",
@@ -6633,6 +6604,35 @@
     "product_prioritized"
    ],
    "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24003",
+   "name": "PLANS-24003: Selecting at org level should update practice level visibility options",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Daniel Marineni",
+   "prio": "2: Important",
+   "created": "2026-10-01T10:48:21.147-0500",
+   "resolved": "",
+   "due": "2026-10-27",
+   "labels": [
+    "CCB_candidate",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "LL Pod - P1 / P2 bugs",
