@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T17:15:28+00:00",
+ "generated_at": "2026-10-27T17:21:39+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -29959,7 +29959,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-24854",
+   "name": "PMP - Auto renewa setting is disabled and Renew button visible for Monthly plans purchased from CSP",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Oct 26–Nov 1",
