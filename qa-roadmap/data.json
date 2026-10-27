@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T18:00:26+00:00",
+ "generated_at": "2026-10-27T18:13:11+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -806,7 +806,7 @@
   {
    "key": "WT-1195",
    "name": "Legal Language Additions",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "ted": null,
    "fv": null,
    "who": "Dima Shtympel",
@@ -1998,7 +1998,7 @@
    "name": "Legal Language Additions",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "fv": null,
    "ted": null,
    "who": "Dima Shtympel",
