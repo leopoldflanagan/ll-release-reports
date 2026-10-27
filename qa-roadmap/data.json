@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T19:49:25+00:00",
+ "generated_at": "2026-10-27T20:00:27+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -2501,31 +2501,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24844",
-   "name": "CSP \\ User can remove dependents while the plan is in \"Renewal payment pending\" status",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-10-27T10:46:36.351-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
   {
    "key": "PLANS-24619",
    "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
@@ -6161,6 +6136,31 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24844",
+   "name": "CSP \\ User can remove dependents while the plan is in \"Renewal payment pending\" status",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-27T10:46:36.351-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24801",
