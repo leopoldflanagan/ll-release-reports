@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T16:30:23+00:00",
+ "generated_at": "2026-10-27T16:38:57+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -5281,6 +5281,34 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24847",
+   "name": "Production - Sellability/Accept for the Org continues to turn on",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-27T11:31:44.613-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
     "product_prioritized"
    ],
    "theme": "",
@@ -29933,15 +29961,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-24841",
-   "name": "CSP \\ Transactions page returns a 500 Internal Server Error when searching transactions for DCA plans",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Oct 26–Nov 1",
