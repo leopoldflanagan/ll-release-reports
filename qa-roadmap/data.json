@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T15:45:21+00:00",
+ "generated_at": "2026-10-27T15:54:00+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -29884,6 +29884,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24844",
+   "name": "CSP \\ User can remove dependents while the plan is in \"Renewal payment pending\" status",
+   "status": "In Development",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-24841",
    "name": "CSP \\ Transactions page returns a 500 Internal Server Error when searching transactions for DCA plans",
