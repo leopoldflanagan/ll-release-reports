@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T19:19:37+00:00",
+ "generated_at": "2026-10-27T19:30:29+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -6488,36 +6488,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24795",
-   "name": "Blocker-Stage-PMP-Wallet QR scan not working for Apple wallet, it worked on Android phone",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-26T10:51:54.878-0500",
-   "resolved": "",
-   "due": "2026-10-27",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24644",
    "name": "Unable to add dependent to plan in CSP or WFP.",
    "pod": "PLANS",
@@ -7072,6 +7042,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24795",
+   "name": "Blocker-Stage-PMP-Wallet QR scan not working for Apple wallet, it worked on Android phone",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-26T10:51:54.878-0500",
+   "resolved": "2026-10-27T14:24:59.813-0500",
+   "due": "2026-10-27",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24003",
    "name": "PLANS-24003: Selecting at org level should update practice level visibility options",
