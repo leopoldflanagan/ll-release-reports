@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T22:00:35+00:00",
+ "generated_at": "2026-10-27T22:10:18+00:00",
  "today": "2026-10-27",
  "features": [
   {
@@ -2725,7 +2725,7 @@
   },
   {
    "key": "PLANS-24848",
-   "name": "BLOCKER - Payment Term - Payment Term is not displayed for Monthly plans in Plan Overview and Membership Card",
+   "name": "BLOCKER - Payment Term - Payment Term is not displayed in Plan Overview and Membership Card",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
