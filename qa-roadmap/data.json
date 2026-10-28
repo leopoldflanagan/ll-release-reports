@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T23:45:21+00:00",
+ "generated_at": "2026-10-28T23:49:16+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -29876,33 +29876,6 @@
    "resolved": "2026-07-31T06:22:48.206-0500",
    "due": "",
    "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20377",
-   "name": "PROD: FAILED 835 - resolving this issue with object reference not set to an instance of object issue.",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-07-28T14:03:23.548-0500",
-   "resolved": "2026-07-30T18:48:34.623-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-18470",
