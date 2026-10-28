@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T15:36:23+00:00",
+ "generated_at": "2026-10-28T15:45:23+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -73,15 +73,6 @@
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "WT-833",
-   "name": "PMP - Account Information Google/Apple Wallet",
-   "status": "In Testing",
-   "ted": "2026-10-30",
-   "fv": "R9.9",
-   "who": "Rostyslav Masniuk",
-   "tshirt": "Small"
   },
   {
    "key": "WT-974",
@@ -339,17 +330,6 @@
    "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-833",
-   "name": "PMP - Account Information Google/Apple Wallet",
-   "status": "In Testing",
-   "ted": "2026-10-30",
-   "fv": "R9.9",
-   "who": "Rostyslav Masniuk",
-   "tshirt": "Small",
-   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1529,17 +1509,6 @@
    "fv": "R9.9",
    "ted": "2026-10-30",
    "who": "Daniel Marineni",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-833",
-   "name": "PMP - Account Information Google/Apple Wallet",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.9",
-   "ted": "2026-10-30",
-   "who": "Rostyslav Masniuk",
    "theme": "LL-Fast Follows"
   },
   {
@@ -6275,34 +6244,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24801",
-   "name": "Euler CSP Setting",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Petro Yarish",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-26T11:19:17.452-0500",
-   "resolved": "",
-   "due": "2026-10-28",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24812",
    "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
    "pod": "LL",
@@ -6598,6 +6539,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24801",
+   "name": "Euler CSP Setting",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-26T11:19:17.452-0500",
+   "resolved": "",
+   "due": "2026-10-28",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24735",
@@ -8261,7 +8230,7 @@
    "status": "Ready Prod",
    "cat": "Done",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL-Sprint 25-26",
    "who": "Mykyta Moroz",
    "reporter": "Mykyta Moroz",
    "prio": "3: Standard",
@@ -8274,13 +8243,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-16864",
-   "parentName": "PMP Account Information Google/Apple Wallet - Wallet QR Handoff Service (Marketplace API)",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24658",
