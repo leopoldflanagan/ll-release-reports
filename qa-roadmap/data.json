@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:36:23+00:00",
+ "generated_at": "2026-10-28T21:45:24+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -29930,31 +29930,6 @@
    "labels": [
     "plans"
    ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20542",
-   "name": "PMP \\ Membership Agreement changes from Closed to Open after dependent removal during manual renewal flow",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-07-29T15:11:43.709-0500",
-   "resolved": "2026-07-30T16:36:27.834-0500",
-   "due": "",
-   "labels": [],
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-18470",
