@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:15:24+00:00",
+ "generated_at": "2026-10-28T18:28:41+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -2611,8 +2611,8 @@
    "init": ""
   },
   {
-   "key": "PLANS-24869",
-   "name": "Plan Transactions - Source Displayed as \"Unknown\" for Custom Portal Purchases (Essential Smile / One Smile / DCA)",
+   "key": "PLANS-24872",
+   "name": "PMP plans - Support info visible in the membership agreement",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -2621,13 +2621,10 @@
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
-   "created": "2026-10-28T12:22:28.207-0500",
+   "created": "2026-10-28T13:13:08.290-0500",
    "resolved": "",
    "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
+   "labels": [],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22414",
@@ -2645,23 +2642,26 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL-Sprint 25-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-10-28T11:29:35.884-0500",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24864",
@@ -5287,6 +5287,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24869",
+   "name": "Plan Transactions - Source Displayed as \"Unknown\" for Custom Portal Purchases (Essential Smile / One Smile / DCA)",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-28T12:22:28.207-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24847",
    "name": "Production - Sellability/Accept for the Org continues to turn on",
    "pod": "PLANS",
@@ -6241,34 +6269,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24619",
-   "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-19T15:54:17.011-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24263",
-   "parentName": "End to end QA validation for CREG",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-435",
-   "init": "CREG / Additional PDS Family TPA Clients"
-  },
-  {
    "key": "PLANS-21733",
    "name": "ACH Refund - Transaction Older Than 6months Does Not Display \"Past Refund Window\" and Allows Refund from CSP",
    "pod": "LL",
@@ -6295,6 +6295,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24619",
+   "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-19T15:54:17.011-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24263",
+   "parentName": "End to end QA validation for CREG",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-435",
+   "init": "CREG / Additional PDS Family TPA Clients"
   },
   {
    "key": "PLANS-24812",
@@ -30073,13 +30101,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24872",
-   "name": "Essential Smile / DCA /One Smile - Support info visible in the membership agreement",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24854",
    "name": "PMP - Auto Renewal setting is disabled and Renew button is visible for Monthly plans purchased from CSP",
