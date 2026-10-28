@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T15:11:34+00:00",
+ "generated_at": "2026-10-28T15:15:22+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -2556,6 +2556,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-23919",
+   "name": "Office user can edit/remove External ID from offices he doesn't have access to",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Conor Kamperman",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-30T14:46:42.859-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21920",
+   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-21736",
@@ -5719,34 +5747,6 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-23919",
-   "name": "Office user can edit/remove External ID from offices he doesn't have access to",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Conor Kamperman",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-30T14:46:42.859-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21920",
-   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-23846",
