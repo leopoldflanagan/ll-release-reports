@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:30:25+00:00",
+ "generated_at": "2026-10-28T20:35:58+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -6700,34 +6700,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24735",
-   "name": "Unable to Update Payment Method in Wellfit Pay (Launch Loyalty Office)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Dima Shtympel",
-   "reporter": "Vera King",
-   "prio": "2: Important",
-   "created": "2026-10-23T14:52:44.262-0500",
-   "resolved": "",
-   "due": "2026-10-29",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24605",
    "name": "Email Change Logic",
    "pod": "LL",
@@ -7140,6 +7112,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24735",
+   "name": "Unable to Update Payment Method in Wellfit Pay (Launch Loyalty Office)",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vera King",
+   "prio": "2: Important",
+   "created": "2026-10-23T14:52:44.262-0500",
+   "resolved": "2026-10-28T15:31:35.636-0500",
+   "due": "2026-10-29",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24856",
    "name": "Provider Portal \\ Identification card is missing Office Location and Office Number when plan is in \"Renewal payment pending\" status",
