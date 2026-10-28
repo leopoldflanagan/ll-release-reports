@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:15:20+00:00",
+ "generated_at": "2026-10-28T20:23:33+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -5227,6 +5227,31 @@
    "labels": [
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "EDW-2504",
+   "name": "Office Closure: Dental Care Alliance | Effective immediately",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Brianna Hill",
+   "prio": "3: Standard",
+   "created": "2026-10-28T15:23:21.489-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
    "theme": "",
    "triage": "",
    "parentKey": "",
@@ -30075,8 +30100,15 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-24879",
+   "name": "Stage/PMP/Primary member email is populated for the minor",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
+  {
    "key": "PLANS-24878",
-   "name": "Stage/Provider/Wellfit Chatbot is displayed footer",
+   "name": "Stage/Provider/Wellfit Chatbot is displayed in the footer",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande"
