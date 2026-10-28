@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T10:15:21+00:00",
+ "generated_at": "2026-10-28T10:30:29+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -5729,7 +5729,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Oleksandr Terletskyy",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-05T10:23:22.128-0500",
@@ -5757,7 +5757,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Oleksandr Terletskyy",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-05T05:26:34.316-0500",
