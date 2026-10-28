@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T22:20:57+00:00",
+ "generated_at": "2026-10-28T22:30:26+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -6488,34 +6488,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24844",
-   "name": "CSP \\ User can remove dependents while the plan is in \"Renewal payment pending\" status",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-27T10:46:36.351-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24801",
    "name": "Euler CSP Setting",
    "pod": "LL",
@@ -6984,6 +6956,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24844",
+   "name": "CSP \\ User can remove dependents while the plan is in \"Renewal payment pending\" status",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "David Jones",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-27T10:46:36.351-0500",
+   "resolved": "2026-10-28T17:29:12.833-0500",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24799",
    "name": "SGDP - The legal text displayed on the website does not match the legal text configured in CSP for SGDP plans.",
