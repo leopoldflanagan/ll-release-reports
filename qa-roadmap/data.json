@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T22:45:19+00:00",
+ "generated_at": "2026-10-28T22:49:41+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -29902,33 +29902,6 @@
    "due": "",
    "labels": [
     "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20259",
-   "name": "Member Portal - [DCA PLAN] Headers are displayed in the center of the screen.",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Clint Tredway",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-24T11:24:07.314-0500",
-   "resolved": "2026-07-30T17:46:42.022-0500",
-   "due": "",
-   "labels": [
-    "plans"
    ],
    "theme": "LL-MVP",
    "triage": "",
