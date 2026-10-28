@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:48:56+00:00",
+ "generated_at": "2026-10-28T19:00:27+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -6300,7 +6300,7 @@
    "key": "PLANS-24619",
    "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
    "pod": "PLANS",
-   "status": "PR Merged",
+   "status": "In QA",
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "Plans-Sprint 25-26",
@@ -30101,13 +30101,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24875",
-   "name": "Provider Portal container/CI build fails: encoding@0.1.14 requires Node >=20 (no yarn.lock)",
-   "status": "WAITING REVIEW",
-   "who": "Aleff Morais",
-   "reporter": "Aleff Morais"
-  },
   {
    "key": "PLANS-24854",
    "name": "PMP - Auto Renewal setting is disabled and Renew button is visible for Monthly plans purchased from CSP",
