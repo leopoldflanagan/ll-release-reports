@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T15:49:51+00:00",
+ "generated_at": "2026-10-28T16:00:27+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -755,7 +755,7 @@
    "name": "Enhancement Receipts & WF Emails to carry logo of plan or Name of Office",
    "status": "Backlog",
    "ted": null,
-   "fv": null,
+   "fv": "R9.10",
    "who": "Obie Khandaker",
    "tshirt": null,
    "pod": "PLANS",
@@ -1935,7 +1935,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
-   "fv": null,
+   "fv": "R9.10",
    "ted": null,
    "who": "Obie Khandaker",
    "theme": ""
@@ -2470,34 +2470,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24619",
-   "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-19T15:54:17.011-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24263",
-   "parentName": "End to end QA validation for CREG",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-435",
-   "init": "CREG / Additional PDS Family TPA Clients"
-  },
   {
    "key": "PLANS-24469",
    "name": "Duplicate Charge-Not Showing in CSP",
@@ -6214,6 +6186,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24619",
+   "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-19T15:54:17.011-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24263",
+   "parentName": "End to end QA validation for CREG",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-435",
+   "init": "CREG / Additional PDS Family TPA Clients"
   },
   {
    "key": "PLANS-21733",
