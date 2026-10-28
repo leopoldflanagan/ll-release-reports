@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T17:49:56+00:00",
+ "generated_at": "2026-10-28T18:00:31+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -6732,34 +6732,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24384",
-   "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Dima Shtympel",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-12T10:47:38.780-0500",
-   "resolved": "",
-   "due": "2026-10-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24188",
    "name": "PreProd PMP \\ Error when trying to manually renew a migrated member",
    "pod": "LL",
@@ -7115,6 +7087,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24384",
+   "name": "PreProd-PMP and One Smile custom Portal-Logo Missing form Membership Agreement for One Smile and all other Offices.",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-12T10:47:38.780-0500",
+   "resolved": "2026-10-28T12:50:50.351-0500",
+   "due": "2026-10-21",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24644",
    "name": "Unable to add dependent to plan in CSP or WFP.",
