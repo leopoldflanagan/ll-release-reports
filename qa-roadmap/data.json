@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T21:00:25+00:00",
+ "generated_at": "2026-10-28T21:10:08+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -2470,34 +2470,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24799",
-   "name": "SGDP - The legal text displayed on the website does not match the legal text configured in CSP for SGDP plans.",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-26T11:10:29.975-0500",
-   "resolved": "",
-   "due": "2026-10-29",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24469",
    "name": "Duplicate Charge-Not Showing in CSP",
@@ -7012,6 +6984,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24799",
+   "name": "SGDP - The legal text displayed on the website does not match the legal text configured in CSP for SGDP plans.",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-26T11:10:29.975-0500",
+   "resolved": "2026-10-28T16:03:15.678-0500",
+   "due": "2026-10-29",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24735",
    "name": "Unable to Update Payment Method in Wellfit Pay (Launch Loyalty Office)",
