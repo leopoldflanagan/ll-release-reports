@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T14:36:06+00:00",
+ "generated_at": "2026-10-28T14:45:23+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -6632,35 +6632,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24630",
-   "name": "Dependent Not Showing Purchased Plan",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Conor Kamperman",
-   "reporter": "Carmen West",
-   "prio": "1: Urgent",
-   "created": "2026-10-20T09:57:12.058-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "CCB_candidate",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24605",
    "name": "Email Change Logic",
    "pod": "LL",
@@ -7129,6 +7100,35 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24630",
+   "name": "Dependent Not Showing Purchased Plan",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Conor Kamperman",
+   "reporter": "Carmen West",
+   "prio": "1: Urgent",
+   "created": "2026-10-20T09:57:12.058-0500",
+   "resolved": "2026-10-28T09:44:50.562-0500",
+   "due": "",
+   "labels": [
+    "CCB_candidate",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24648",
    "name": "Stage-PMP-Retry option in Primary Contact panel not showing after refresh for adding Primary contact for Minor member",
