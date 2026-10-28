@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T10:30:29+00:00",
+ "generated_at": "2026-10-28T10:45:20+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -6279,34 +6279,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24735",
-   "name": "Unable to Update Payment Method in Wellfit Pay (Launch Loyalty Office)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Dima Shtympel",
-   "reporter": "Vera King",
-   "prio": "2: Important",
-   "created": "2026-10-23T14:52:44.262-0500",
-   "resolved": "",
-   "due": "2026-10-29",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21733",
    "name": "ACH Refund - Transaction Older Than 6months Does Not Display \"Past Refund Window\" and Allows Refund from CSP",
    "pod": "LL",
@@ -6378,6 +6350,34 @@
    "due": "2026-10-28",
    "labels": [
     "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24735",
+   "name": "Unable to Update Payment Method in Wellfit Pay (Launch Loyalty Office)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vera King",
+   "prio": "2: Important",
+   "created": "2026-10-23T14:52:44.262-0500",
+   "resolved": "",
+   "due": "2026-10-29",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
