@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T11:45:19+00:00",
+ "generated_at": "2026-10-28T12:00:24+00:00",
  "today": "2026-10-28",
  "features": [
   {
@@ -2501,6 +2501,34 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-24836",
+   "name": "PMP - Broken- Auto Renewal setting is not retained after manual renewal (Auto renew checked at the purchase)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-27T08:27:26.815-0500",
+   "resolved": "",
+   "due": "2026-10-29",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24644",
    "name": "Unable to add dependent to plan in CSP or WFP.",
@@ -5295,34 +5323,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24836",
-   "name": "PMP - Broken- Auto Renewal setting is not retained after manual renewal (Auto renew checked at the purchase)",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-27T08:27:26.815-0500",
-   "resolved": "",
-   "due": "2026-10-29",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24631",
