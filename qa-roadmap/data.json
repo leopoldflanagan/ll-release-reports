@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:49:40+00:00",
+ "generated_at": "2026-10-29T18:00:26+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -5501,7 +5501,7 @@
    "prio": "2: Important",
    "created": "2026-10-29T11:38:54.107-0500",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-30",
    "labels": [
     "group3_migration",
     "product_prioritized"
@@ -6744,34 +6744,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24860",
-   "name": "Stage/PMP/EssentialSmiles/Member ID is not displayed in Plan Card PDF for migrated member",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-27T15:26:20.470-0500",
-   "resolved": "",
-   "due": "2026-10-29",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24801",
    "name": "Euler CSP Setting",
    "pod": "LL",
@@ -7211,6 +7183,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24860",
+   "name": "Stage/PMP/EssentialSmiles/Member ID is not displayed in Plan Card PDF for migrated member",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-27T15:26:20.470-0500",
+   "resolved": "2026-10-29T12:53:44.661-0500",
+   "due": "2026-10-29",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24605",
    "name": "Email Change Logic",
