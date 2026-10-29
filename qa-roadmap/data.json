@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T20:15:21+00:00",
+ "generated_at": "2026-10-29T20:23:37+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -6444,34 +6444,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24469",
-   "name": "Duplicate Charge-Not Showing in CSP",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Conor Kamperman",
-   "reporter": "Carmen West",
-   "prio": "2: Important",
-   "created": "2026-10-13T16:23:04.464-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-21733",
    "name": "ACH Refund - Transaction Older Than 6months Does Not Display \"Past Refund Window\" and Allows Refund from CSP",
    "pod": "LL",
@@ -6498,6 +6470,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24469",
+   "name": "Duplicate Charge-Not Showing in CSP",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Conor Kamperman",
+   "reporter": "Carmen West",
+   "prio": "2: Important",
+   "created": "2026-10-13T16:23:04.464-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24812",
