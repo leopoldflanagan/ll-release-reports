@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T22:11:04+00:00",
+ "generated_at": "2026-10-29T22:15:22+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -5192,34 +5192,6 @@
    "init": "LL Changes to Support DCA"
   },
   {
-   "key": "PLANS-16901",
-   "name": "Member Portal - Contact Information is empty after verifying email address",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
-   "reporter": "Mireya Alvarez",
-   "prio": "4: Low",
-   "created": "2026-05-27T14:27:34.927-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-16185",
    "name": "Stage - Smile Health - Zip Code - No results returned when searching office by ZIP code (404 error)",
    "pod": "PLANS",
@@ -6425,6 +6397,34 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-16901",
+   "name": "Member Portal - Contact Information is empty after verifying email address",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-05-27T14:27:34.927-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
