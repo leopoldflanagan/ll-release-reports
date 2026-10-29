@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T15:49:44+00:00",
+ "generated_at": "2026-10-29T16:00:30+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -30100,6 +30100,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24903",
+   "name": "Plan Details - Essential Smile - Auto renewal text not matched with the configured text",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24902",
    "name": "CREG/Member Id in the PDF does not match the member Id in app",
