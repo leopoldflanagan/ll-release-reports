@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T18:15:22+00:00",
+ "generated_at": "2026-10-29T18:29:03+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -5438,7 +5438,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Oleksandr Terletskyy",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-10-29T12:38:14.290-0500",
@@ -5466,7 +5466,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 25-26",
-   "who": "Unassigned",
+   "who": "Nazarii Polinyk",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-10-29T11:58:20.801-0500",
