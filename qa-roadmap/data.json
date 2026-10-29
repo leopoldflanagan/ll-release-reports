@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T15:35:58+00:00",
+ "generated_at": "2026-10-29T15:45:22+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2471,6 +2471,34 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24894",
+   "name": "PMP - 400 error - Membership Card PDF fails to load when viewing Primary Plan Card from Dependent Member profile",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-29T09:50:07.478-0500",
+   "resolved": "",
+   "due": "2026-10-30",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24469",
    "name": "Duplicate Charge-Not Showing in CSP",
    "pod": "PLANS",
@@ -2627,34 +2655,6 @@
    "labels": [
     "group1_migration",
     "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24894",
-   "name": "PMP - 400 error - Membership Card PDF fails to load when viewing Primary Plan Card from Dependent Member profile",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-29T09:50:07.478-0500",
-   "resolved": "",
-   "due": "2026-10-30",
-   "labels": [
     "group3_migration",
     "product_prioritized"
    ],
@@ -6342,34 +6342,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24861",
-   "name": "Stage/PMP/EssentialSmiles/Member ID is incorrect in Plan Card PDF for new members",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-27T16:15:49.415-0500",
-   "resolved": "",
-   "due": "2026-10-29",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24812",
    "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
    "pod": "LL",
@@ -6609,6 +6581,34 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-24861",
+   "name": "Stage/PMP/EssentialSmiles/Member ID is incorrect in Plan Card PDF for new members",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-27T16:15:49.415-0500",
+   "resolved": "",
+   "due": "2026-10-29",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24860",
@@ -30100,6 +30100,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24902",
+   "name": "CREG/Member Id in the PDF does not match the member Id in app",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24854",
    "name": "PMP - Auto Renewal setting is disabled and Renew button is visible for Monthly plans purchased from CSP",
