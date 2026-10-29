@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T18:30:25+00:00",
+ "generated_at": "2026-10-29T18:40:03+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -30233,6 +30233,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24915",
+   "name": "Member portal - Deleted members still visible under primary plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24909",
    "name": "Auto Renewal Retry \\ Failure notification email is not sent after all retry attempts are declined",
