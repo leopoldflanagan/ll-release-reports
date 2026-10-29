@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T21:36:15+00:00",
+ "generated_at": "2026-10-29T21:45:23+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2631,6 +2631,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24909",
+   "name": "Auto Renewal Retry \\ Failure notification email is not sent after all retry attempts are declined",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-29T12:16:36.875-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24905",
@@ -6603,7 +6628,7 @@
    "sprint": "LL-Sprint 25-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
+   "prio": "3: Standard",
    "created": "2026-09-30T13:02:15.290-0500",
    "resolved": "",
    "due": "2026-10-22",
@@ -30340,13 +30365,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-24909",
-   "name": "Auto Renewal Retry \\ Failure notification email is not sent after all retry attempts are declined",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
   },
   {
    "key": "PLANS-24854",
