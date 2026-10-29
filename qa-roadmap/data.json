@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T16:45:22+00:00",
+ "generated_at": "2026-10-29T16:49:26+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -30127,14 +30127,14 @@
  "nopod": [
   {
    "key": "PLANS-24905",
-   "name": "Member Portal-Stage-Essential Smile- Print Membership card for showing Office Location for Dependent",
+   "name": "Member Portal-Stage-Essential Smile- Print Membership card Not showing Office Location for Dependent",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vinita Thankur"
   },
   {
    "key": "PLANS-24904",
-   "name": "PMP - Remove Primary Contact is Visible under minor dependant when remove incorrect text visible and actluyy not removed",
+   "name": "PMP - Minor dependant member can remove Primary Contact, but removal is not applied and confirmation message is misleading",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
