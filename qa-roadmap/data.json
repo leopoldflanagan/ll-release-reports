@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T04:00:24+00:00",
+ "generated_at": "2026-10-29T04:15:23+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -6598,34 +6598,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24514",
-   "name": "Fw: [EXTERNAL] Re: Payment",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Petro Yarish",
-   "reporter": "Brianna Hill",
-   "prio": "2: Important",
-   "created": "2026-10-14T19:41:32.044-0500",
-   "resolved": "",
-   "due": "2026-10-20",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24188",
    "name": "PreProd PMP \\ Error when trying to manually renew a migrated member",
    "pod": "LL",
@@ -6981,6 +6953,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24514",
+   "name": "Fw: [EXTERNAL] Re: Payment",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Petro Yarish",
+   "reporter": "Brianna Hill",
+   "prio": "2: Important",
+   "created": "2026-10-14T19:41:32.044-0500",
+   "resolved": "2026-10-28T23:06:33.511-0500",
+   "due": "2026-10-20",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24844",
    "name": "CSP \\ User can remove dependents while the plan is in \"Renewal payment pending\" status",
