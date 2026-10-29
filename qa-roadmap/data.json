@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T14:45:20+00:00",
+ "generated_at": "2026-10-29T14:49:45+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2664,34 +2664,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24891",
-   "name": "CSP-Stage-Upgrade plan fee showing incorrect in Plan Overview, no old deleted plan showing after upgrade",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-29T09:19:00.750-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24887",
    "name": "PMP - Essential Smile - Activation email not recieved",
    "pod": "LL",
@@ -2822,7 +2794,7 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "sprint": "LL-Sprint 25-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -6591,34 +6563,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24619",
-   "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-19T15:54:17.011-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24263",
-   "parentName": "End to end QA validation for CREG",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-435",
-   "init": "CREG / Additional PDS Family TPA Clients"
-  },
-  {
    "key": "PLANS-24605",
    "name": "Email Change Logic",
    "pod": "LL",
@@ -7031,6 +6975,62 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24891",
+   "name": "CSP-Stage-Upgrade plan fee showing incorrect in Plan Overview, no old deleted plan showing after upgrade",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-29T09:19:00.750-0500",
+   "resolved": "2026-10-29T09:47:56.836-0500",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24619",
+   "name": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not displayed)",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-19T15:54:17.011-0500",
+   "resolved": "2026-10-29T09:47:05.491-0500",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24263",
+   "parentName": "End to end QA validation for CREG",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-435",
+   "init": "CREG / Additional PDS Family TPA Clients"
+  },
   {
    "key": "PLANS-24514",
    "name": "Fw: [EXTERNAL] Re: Payment",
