@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T21:00:26+00:00",
+ "generated_at": "2026-10-29T21:10:21+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2708,31 +2708,6 @@
     "group3_migration",
     "product_prioritized"
    ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24887",
-   "name": "PMP - Essential Smile - Activation email not recieved",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Rojesh Thapa",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-29T08:45:13.657-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22414",
@@ -7186,6 +7161,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24887",
+   "name": "PMP - Essential Smile - Activation email not recieved",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Rojesh Thapa",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-29T08:45:13.657-0500",
+   "resolved": "2026-10-29T16:09:12.700-0500",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24916",
    "name": "PMP - Manage Patient - \"Add Member\" Button Not Visible When Plan Is Near Expiration but Still Active",
