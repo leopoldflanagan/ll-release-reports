@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T15:23:11+00:00",
+ "generated_at": "2026-10-29T15:30:25+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2471,34 +2471,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-24847",
-   "name": "Production - Sellability/Accept for the Org continues to turn on",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-27T11:31:44.613-0500",
-   "resolved": "",
-   "due": "2026-10-30",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24469",
    "name": "Duplicate Charge-Not Showing in CSP",
    "pod": "PLANS",
@@ -2652,7 +2624,12 @@
    "created": "2026-10-29T10:17:08.378-0500",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22414",
@@ -6802,6 +6779,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24847",
+   "name": "Production - Sellability/Accept for the Org continues to turn on",
+   "pod": "PLANS",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-27T11:31:44.613-0500",
+   "resolved": "",
+   "due": "2026-10-30",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24646",
