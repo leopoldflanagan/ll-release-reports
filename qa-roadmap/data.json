@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T16:37:56+00:00",
+ "generated_at": "2026-10-29T16:45:22+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -30125,6 +30125,20 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24905",
+   "name": "Member Portal-Stage-Essential Smile- Print Membership card for showing Office Location for Dependent",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
+  {
+   "key": "PLANS-24904",
+   "name": "PMP - Remove Primary Contact is Visible under minor dependant when remove incorrect text visible and actluyy not removed",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24902",
    "name": "CREG/Member Id in the PDF does not match the member Id in app",
