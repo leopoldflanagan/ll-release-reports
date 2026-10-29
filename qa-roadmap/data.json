@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T16:15:20+00:00",
+ "generated_at": "2026-10-29T16:26:37+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2499,6 +2499,34 @@
    "init": "Bug Fix Container"
   },
   {
+   "key": "PLANS-24861",
+   "name": "Stage/PMP/EssentialSmiles/Member ID is incorrect in Plan Card PDF for new members",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-27T16:15:49.415-0500",
+   "resolved": "",
+   "due": "2026-10-29",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24469",
    "name": "Duplicate Charge-Not Showing in CSP",
    "pod": "PLANS",
@@ -2754,8 +2782,8 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
+   "fv": "R9.10",
+   "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
@@ -2768,13 +2796,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24878",
@@ -5418,7 +5446,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 25-26",
-   "who": "Unassigned",
+   "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-28T16:15:06.522-0500",
@@ -6606,34 +6634,6 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
-  },
-  {
-   "key": "PLANS-24861",
-   "name": "Stage/PMP/EssentialSmiles/Member ID is incorrect in Plan Card PDF for new members",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-27T16:15:49.415-0500",
-   "resolved": "",
-   "due": "2026-10-29",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-24860",
