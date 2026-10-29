@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T23:45:23+00:00",
+ "generated_at": "2026-10-29T23:49:31+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2788,7 +2788,7 @@
    "sprint": "LL - Low Prior Bugs",
    "who": "Unassigned",
    "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
+   "prio": "3: Standard",
    "created": "2026-10-28T21:52:13.748-0500",
    "resolved": "",
    "due": "",
