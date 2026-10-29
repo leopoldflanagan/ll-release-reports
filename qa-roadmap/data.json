@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:10:44+00:00",
+ "generated_at": "2026-10-29T17:15:23+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2499,62 +2499,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24861",
-   "name": "Stage/PMP/EssentialSmiles/Member ID is incorrect in Plan Card PDF for new members",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-27T16:15:49.415-0500",
-   "resolved": "",
-   "due": "2026-10-29",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24860",
-   "name": "Stage/PMP/EssentialSmiles/Member ID is not displayed in Plan Card PDF for migrated member",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-27T15:26:20.470-0500",
-   "resolved": "",
-   "due": "2026-10-29",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24469",
    "name": "Duplicate Charge-Not Showing in CSP",
    "pod": "PLANS",
@@ -2696,7 +2640,7 @@
   },
   {
    "key": "PLANS-24904",
-   "name": "PMP - Remove button is visible for minor dependents under an adult primary plan and displays a misleading message / Remove not working",
+   "name": "PMP - 'Remove primary contact' button is visible for minor dependents under an adult primary plan and displays a misleading message / Remove not working",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -6422,6 +6366,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24861",
+   "name": "Stage/PMP/EssentialSmiles/Member ID is incorrect in Plan Card PDF for new members",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-27T16:15:49.415-0500",
+   "resolved": "",
+   "due": "2026-10-29",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24836",
    "name": "PMP - Broken- Auto Renewal setting is not retained after manual renewal (Auto renew checked at the purchase)",
    "pod": "LL",
@@ -6717,6 +6689,34 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-24860",
+   "name": "Stage/PMP/EssentialSmiles/Member ID is not displayed in Plan Card PDF for migrated member",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-27T15:26:20.470-0500",
+   "resolved": "",
+   "due": "2026-10-29",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24801",
