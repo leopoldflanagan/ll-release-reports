@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:36:21+00:00",
+ "generated_at": "2026-10-29T17:45:21+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2519,6 +2519,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24882",
+   "name": "Essential Smile - Add membership advantages table to essential smile website",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-28T16:15:06.522-0500",
+   "resolved": "",
+   "due": "2026-10-30",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24469",
@@ -5403,6 +5431,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24912",
+   "name": "Essential Smiles Plan - Box for Chose Now/Click here for details",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-29T12:38:14.290-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24908",
    "name": "Dial Care Language Update",
    "pod": "LL",
@@ -5489,34 +5545,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24882",
-   "name": "Essential Smile - Add membership advantages table to essential smile website",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-28T16:15:06.522-0500",
-   "resolved": "",
-   "due": "2026-10-30",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-24879",
