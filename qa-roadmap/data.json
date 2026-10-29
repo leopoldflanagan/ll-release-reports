@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T21:15:21+00:00",
+ "generated_at": "2026-10-29T21:20:25+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -30320,6 +30320,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24922",
+   "name": "Preprod/EssentialSmiles/Learn More in the nav is a <button type=\"submit\"> instead of a link",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24921",
    "name": "Preprod/EssentialSmiles/Typos in the Portal",
