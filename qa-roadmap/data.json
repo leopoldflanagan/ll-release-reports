@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:30:24+00:00",
+ "generated_at": "2026-10-29T17:36:21+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -5440,7 +5440,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 25-26",
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-29T11:38:54.107-0500",
@@ -5503,7 +5503,7 @@
    "prio": "2: Important",
    "created": "2026-10-28T16:15:06.522-0500",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-30",
    "labels": [
     "group3_migration",
     "product_prioritized"
