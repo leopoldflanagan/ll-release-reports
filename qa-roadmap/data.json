@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T15:30:25+00:00",
+ "generated_at": "2026-10-29T15:35:58+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2648,12 +2648,12 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-29T09:50:07.478-0500",
    "resolved": "",
-   "due": "",
+   "due": "2026-10-30",
    "labels": [
     "group3_migration",
     "product_prioritized"
@@ -6783,7 +6783,7 @@
   {
    "key": "PLANS-24847",
    "name": "Production - Sellability/Accept for the Org continues to turn on",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "WAITING REVIEW",
    "cat": "In Progress",
    "fv": "R9.9",
