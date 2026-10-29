@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T22:49:10+00:00",
+ "generated_at": "2026-10-29T23:00:26+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -6895,34 +6895,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-23919",
-   "name": "Office user can edit/remove External ID from offices he doesn't have access to",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Conor Kamperman",
-   "reporter": "Hazel Loya",
-   "prio": "2: Important",
-   "created": "2026-09-30T14:46:42.859-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21920",
-   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-21585",
    "name": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Plan",
    "pod": "PLANS",
@@ -7249,6 +7221,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23919",
+   "name": "Office user can edit/remove External ID from offices he doesn't have access to",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Conor Kamperman",
+   "reporter": "Hazel Loya",
+   "prio": "2: Important",
+   "created": "2026-09-30T14:46:42.859-0500",
+   "resolved": "2026-10-29T17:58:33.303-0500",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-21920",
+   "parentName": "[1] PMP - Tying Multiple Patient IDs to One WF ID - View & manage external IDs on Account Information",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
   {
    "key": "PLANS-24887",
    "name": "PMP - Essential Smile - Activation email not recieved",
