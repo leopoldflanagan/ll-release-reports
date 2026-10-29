@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T16:00:30+00:00",
+ "generated_at": "2026-10-29T16:13:04+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2637,6 +2637,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24903",
+   "name": "Plan Details - Essential Smile - Incorrect Auto Renewal disclaimer text displayed",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-29T10:57:26.539-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24899",
@@ -5405,13 +5430,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24879",
@@ -6667,35 +6692,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24605",
-   "name": "Email Change Logic",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-19T11:29:24.142-0500",
-   "resolved": "",
-   "due": "2026-10-26",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24188",
    "name": "PreProd PMP \\ Error when trying to manually renew a migrated member",
    "pod": "LL",
@@ -7107,6 +7103,35 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24605",
+   "name": "Email Change Logic",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-19T11:29:24.142-0500",
+   "resolved": "2026-10-29T11:02:13.867-0500",
+   "due": "2026-10-26",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24868",
    "name": "One Smile - Mobile Number Consent is not displayed below the Phone Number field (legal language FF is ON )",
@@ -30100,13 +30125,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24903",
-   "name": "Plan Details - Essential Smile - Auto renewal text not matched with the configured text",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24902",
    "name": "CREG/Member Id in the PDF does not match the member Id in app",
