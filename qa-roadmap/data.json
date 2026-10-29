@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T14:30:25+00:00",
+ "generated_at": "2026-10-29T14:36:33+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2653,6 +2653,34 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24891",
+   "name": "CSP-Stage-Upgrade plan fee showing incorrect in Plan Overview, no old deleted plan showing after upgrade",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-29T09:19:00.750-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22414",
@@ -6238,34 +6266,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24860",
-   "name": "Stage/PMP/EssentialSmiles/Member ID is not displayed in Plan Card PDF for migrated member",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-27T15:26:20.470-0500",
-   "resolved": "",
-   "due": "2026-10-29",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24812",
    "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
    "pod": "LL",
@@ -6533,6 +6533,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24860",
+   "name": "Stage/PMP/EssentialSmiles/Member ID is not displayed in Plan Card PDF for migrated member",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-27T15:26:20.470-0500",
+   "resolved": "",
+   "due": "2026-10-29",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24801",
@@ -29939,13 +29967,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24891",
-   "name": "CSP-Stage-Upgrade plan fee showing incorrect in Plan Overview, no old deleted plan showing after upgrade",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur"
-  },
   {
    "key": "PLANS-24882",
    "name": "Essential Smile - Add membership advantages table to essential smile website",
