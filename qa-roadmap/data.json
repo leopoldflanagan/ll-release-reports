@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T20:35:47+00:00",
+ "generated_at": "2026-10-29T20:45:19+00:00",
  "today": "2026-10-29",
  "features": [
   {
@@ -2720,14 +2720,17 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "LL-Sprint 25-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-29T10:57:26.539-0500",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22414",
@@ -30222,33 +30225,6 @@
    "triage": "",
    "parentKey": "DYN-1354",
    "parentName": "Plans SGDP - Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20669",
-   "name": "Preprod - Member Portal - No information is displayed for the logged user",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-31T12:46:52.755-0500",
-   "resolved": "2026-07-31T15:40:34.132-0500",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
