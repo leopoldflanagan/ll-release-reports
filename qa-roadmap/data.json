@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T14:49:34+00:00",
+ "generated_at": "2026-10-30T15:00:26+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2771,6 +2771,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24934",
+   "name": "Preprod / STAGE - Phase 3 - Euler Family Dental Org & practices not visible.",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-30T09:49:17.571-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24933",
@@ -7355,7 +7380,7 @@
    "pod": "PLANS",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -30425,13 +30450,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24934",
-   "name": "Preprod / STAGE - Phase 3 - Euler",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24922",
    "name": "Preprod/EssentialSmiles/Learn More in the nav is a <button type=\"submit\"> instead of a link",
