@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T20:30:25+00:00",
+ "generated_at": "2026-10-30T20:35:23+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -718,7 +718,7 @@
    "name": "Auto-Renewal Re-Try Process - part 2",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.10",
+   "fv": "R10.01",
    "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -1887,7 +1887,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Requirements",
-   "fv": "R9.10",
+   "fv": "R10.01",
    "ted": null,
    "who": "Daniel Marineni",
    "theme": ""
@@ -30755,6 +30755,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24958",
+   "name": "bug",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24957",
    "name": "PMP - Incorrect Plan end date After renew a plan",
