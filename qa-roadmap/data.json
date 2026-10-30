@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T19:49:20+00:00",
+ "generated_at": "2026-10-30T20:00:22+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -80,7 +80,7 @@
    "status": "In Development",
    "ted": "2026-11-02",
    "fv": "R9.10",
-   "who": "Valentyna Tenus",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate"
   },
   {
@@ -89,7 +89,7 @@
    "status": "In Development",
    "ted": "2026-11-06",
    "fv": "R9.10",
-   "who": "Mykyta Moroz",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate"
   },
   {
@@ -100,6 +100,15 @@
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
    "tshirt": "Small"
+  },
+  {
+   "key": "WT-1195",
+   "name": "Legal Language Additions",
+   "status": "In Development",
+   "ted": "2026-11-12",
+   "fv": "R9.10",
+   "who": "Daniel Marineni",
+   "tshirt": null
   },
   {
    "key": "WT-1212",
@@ -391,7 +400,7 @@
    "status": "In Development",
    "ted": "2026-11-02",
    "fv": "R9.10",
-   "who": "Valentyna Tenus",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "LL",
    "theme": "LL-Fast Follows"
@@ -446,7 +455,7 @@
    "status": "In Development",
    "ted": "2026-11-06",
    "fv": "R9.10",
-   "who": "Mykyta Moroz",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "LL",
    "theme": "ACH-Fast Follows"
@@ -600,7 +609,7 @@
    "status": "Ready for Development",
    "ted": null,
    "fv": "R9.10",
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Small",
    "pod": "PLANS",
    "theme": ""
@@ -775,10 +784,10 @@
    "name": "Legal Language Additions",
    "status": "In Development",
    "ted": "2026-11-12",
-   "fv": null,
-   "who": "Dima Shtympel",
+   "fv": "R9.10",
+   "who": "Daniel Marineni",
    "tshirt": null,
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": ""
   },
   {
@@ -1561,7 +1570,7 @@
    "status": "In Development",
    "fv": "R9.10",
    "ted": "2026-11-02",
-   "who": "Valentyna Tenus",
+   "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1616,7 +1625,7 @@
    "status": "In Development",
    "fv": "R9.10",
    "ted": "2026-11-06",
-   "who": "Mykyta Moroz",
+   "who": "Daniel Marineni",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -1770,7 +1779,7 @@
    "status": "Ready for Development",
    "fv": "R9.10",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -1941,12 +1950,12 @@
   {
    "key": "WT-1195",
    "name": "Legal Language Additions",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "WT",
    "status": "In Development",
-   "fv": null,
+   "fv": "R9.10",
    "ted": "2026-11-12",
-   "who": "Dima Shtympel",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
