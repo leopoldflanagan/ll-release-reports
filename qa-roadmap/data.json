@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T04:45:21+00:00",
+ "generated_at": "2026-10-30T05:00:26+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -30352,7 +30352,7 @@
  "nopod": [
   {
    "key": "PLANS-24924",
-   "name": "CSP \\ Duplicate Account History records are created after manual renewal through Member Portal",
+   "name": "CSP \\ Duplicate \"Plan Renewed\" records in Account History after manual renewal through Member Portal",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
