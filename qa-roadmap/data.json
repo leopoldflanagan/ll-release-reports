@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T14:15:23+00:00",
+ "generated_at": "2026-10-30T14:30:22+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -720,10 +720,10 @@
   {
    "key": "WT-1156",
    "name": "Auto-Renewal Re-Try Process - part 2",
-   "status": "Backlog",
+   "status": "Requirements",
    "ted": null,
-   "fv": null,
-   "who": "Obie Khandaker",
+   "fv": "R9.10",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -753,10 +753,10 @@
   {
    "key": "WT-1190",
    "name": "Enhancement Receipts & WF Emails to carry logo of plan or Name of Office",
-   "status": "Backlog",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.10",
-   "who": "Obie Khandaker",
+   "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
    "theme": ""
@@ -1912,10 +1912,10 @@
    "name": "Auto-Renewal Re-Try Process - part 2",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Backlog",
-   "fv": null,
+   "status": "Requirements",
+   "fv": "R9.10",
    "ted": null,
-   "who": "Obie Khandaker",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -1945,10 +1945,10 @@
    "name": "Enhancement Receipts & WF Emails to carry logo of plan or Name of Office",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Backlog",
+   "status": "Requirements",
    "fv": "R9.10",
    "ted": null,
-   "who": "Obie Khandaker",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
