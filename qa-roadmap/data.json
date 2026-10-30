@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T20:35:23+00:00",
+ "generated_at": "2026-10-30T20:45:19+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2691,6 +2691,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24957",
+   "name": "PMP - Renew - Future Plan Displays as 'Active' without new dependants and Current Active Plan Is Not Visible in Manage Patient",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-30T15:22:58.971-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24915",
@@ -30758,13 +30783,6 @@
   {
    "key": "PLANS-24958",
    "name": "bug",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-24957",
-   "name": "PMP - Incorrect Plan end date After renew a plan",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
