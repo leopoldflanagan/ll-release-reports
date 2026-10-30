@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T19:30:24+00:00",
+ "generated_at": "2026-10-30T19:35:39+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -113,7 +113,7 @@
   {
    "key": "WT-1215",
    "name": "ACH Legal language for purchasing plan",
-   "status": "Backlog",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.10",
    "who": "Daniel Marineni",
@@ -850,7 +850,7 @@
   {
    "key": "WT-1215",
    "name": "ACH Legal language for purchasing plan",
-   "status": "Backlog",
+   "status": "Requirements",
    "ted": null,
    "fv": "R9.10",
    "who": "Daniel Marineni",
@@ -2020,7 +2020,7 @@
    "name": "ACH Legal language for purchasing plan",
    "pod": "LL",
    "proj": "WT",
-   "status": "Backlog",
+   "status": "Requirements",
    "fv": "R9.10",
    "ted": null,
    "who": "Daniel Marineni",
