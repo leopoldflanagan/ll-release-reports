@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T05:15:22+00:00",
+ "generated_at": "2026-10-30T05:30:22+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2631,6 +2631,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24924",
+   "name": "CSP \\ Duplicate \"Plan Renewed\" records at Account History after renewing an expired plan via Member Portal after all Auto-Renewal retries fail",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-29T23:39:43.377-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24905",
@@ -30350,13 +30375,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24924",
-   "name": "CSP \\ Duplicate \"Plan Renewed\" records in Account History after manual renewal through Member Portal",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
   {
    "key": "PLANS-24922",
    "name": "Preprod/EssentialSmiles/Learn More in the nav is a <button type=\"submit\"> instead of a link",
