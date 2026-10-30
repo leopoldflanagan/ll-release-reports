@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T13:49:32+00:00",
+ "generated_at": "2026-10-30T14:00:28+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -690,7 +690,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": "R9.10",
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1882,7 +1882,7 @@
    "status": "Backlog",
    "fv": "R9.10",
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2549,6 +2549,62 @@
    "init": ""
   },
   {
+   "key": "PLANS-24847",
+   "name": "Production - Sellability/Accept for the Org continues to turn on",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-27T11:31:44.613-0500",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24812",
+   "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-26T15:10:52.945-0500",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24113",
    "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
    "pod": "LL",
@@ -2573,6 +2629,34 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-23913",
+   "name": "ACH - Emails are not working (Declines, Returns)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-30T13:02:15.290-0500",
+   "resolved": "",
+   "due": "2026-11-06",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
@@ -2648,6 +2732,34 @@
    "due": "2026-10-20",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-16901",
+   "name": "Member Portal - Contact Information is empty after verifying email address",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-05-27T14:27:34.927-0500",
+   "resolved": "",
+   "due": "2026-10-31",
+   "labels": [
+    "group3_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
@@ -6312,34 +6424,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-16901",
-   "name": "Member Portal - Contact Information is empty after verifying email address",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-05-27T14:27:34.927-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24912",
    "name": "Essential Smiles Plan - Box for Chose Now/Click here for details",
    "pod": "LL",
@@ -6594,62 +6678,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24847",
-   "name": "Production - Sellability/Accept for the Org continues to turn on",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-27T11:31:44.613-0500",
-   "resolved": "",
-   "due": "2026-10-30",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24812",
-   "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-26T15:10:52.945-0500",
-   "resolved": "",
-   "due": "2026-10-27",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24726",
    "name": "Plan Details PDF – Additional Person Amount Uses Annual Pricing When Subscription Type Is not annual. (Quarterly)",
    "pod": "LL",
@@ -6673,34 +6701,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-23913",
-   "name": "ACH - Emails are not working (Declines, Returns)",
-   "pod": "LL",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-30T13:02:15.290-0500",
-   "resolved": "",
-   "due": "2026-10-22",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
@@ -30377,7 +30377,7 @@
  "nopod": [
   {
    "key": "PLANS-24929",
-   "name": "Member Portal \\ Missing payment method value after renewing an expired plan via Provider Portal after all Auto-Renewal retries fail",
+   "name": "Member Portal \\ Payment method is missing from Transactions section after plan renewal after failed Auto-Renewal retries",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
