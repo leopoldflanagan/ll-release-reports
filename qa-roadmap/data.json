@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T15:15:22+00:00",
+ "generated_at": "2026-10-30T15:21:14+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -357,7 +357,7 @@
   {
    "key": "WT-887",
    "name": "SaaS Fee Per Practice",
-   "status": "In Testing",
+   "status": "In Development",
    "ted": "2026-10-23",
    "fv": "R9.9",
    "who": "Vic Du Plessis",
@@ -1549,7 +1549,7 @@
    "name": "SaaS Fee Per Practice",
    "pod": "PLAT",
    "proj": "WT",
-   "status": "In Testing",
+   "status": "In Development",
    "fv": "R9.9",
    "ted": "2026-10-23",
    "who": "Vic Du Plessis",
@@ -2771,6 +2771,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24936",
+   "name": "Phase 3 -Euler Premium Plan - Missing Logos - Membership card and Smile health",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-30T10:17:21.727-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24929",
@@ -30459,8 +30484,8 @@
   {
    "key": "PLANS-24935",
    "name": "STAge (issue intpgress)",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "WAITING REVIEW",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
