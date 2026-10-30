@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T21:30:23+00:00",
+ "generated_at": "2026-10-30T21:35:22+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -30797,9 +30797,9 @@
  "nopod": [
   {
    "key": "PLANS-24958",
-   "name": "Phase 3 - Monthly amount visible in Essential Smiles (Monthly Subscription FF OFF)",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "name": "Phase 3 - inprogress bug",
+   "status": "WAITING REVIEW",
+   "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
@@ -30818,9 +30818,9 @@
   },
   {
    "key": "PLANS-24935",
-   "name": "STAge (issue intpgress)",
+   "name": "DELETE this",
    "status": "WAITING REVIEW",
-   "who": "Anuradhi Wickramasinghe",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
