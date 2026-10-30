@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T15:45:23+00:00",
+ "generated_at": "2026-10-30T15:49:21+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -624,7 +624,7 @@
    "status": "In Testing",
    "ted": "2026-10-30",
    "fv": "R9.9",
-   "who": "Sailaja Yanamandra",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1816,7 +1816,7 @@
    "status": "In Testing",
    "fv": "R9.9",
    "ted": "2026-10-30",
-   "who": "Sailaja Yanamandra",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -5742,7 +5742,7 @@
   },
   {
    "key": "PLANS-24869",
-   "name": "Plan Transactions - Source Displayed as \"Unknown\" for Custom Portal Purchases (Essential Smile / One Smile / DCA)",
+   "name": "Plan Transactions - Source Displayed as \"Unknown\" for Smile health and Custom Portal Purchases (Essential Smile / One Smile / DCA)",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
