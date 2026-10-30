@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T15:30:25+00:00",
+ "generated_at": "2026-10-30T15:36:42+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2773,8 +2773,33 @@
    "init": ""
   },
   {
+   "key": "PLANS-24937",
+   "name": "Phase 3- Preprod - Legacy West Dental - Offices not visible on Smile health ( Wesbite visibility is ON in CSP)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-30T10:30:24.340-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24936",
-   "name": "Phase 3 -Euler Premium Plan - Missing Logos - Membership card and Smile health",
+   "name": "Phase 3 - Preprod - Euler Premium Plan - Missing Logos - Membership card and Smile health",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -30481,13 +30506,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24937",
-   "name": "Phase 3- Preprod - Legacy West Dental - Offices not visible on Smile health ( Wesbite visibility is ON in CSP)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24935",
    "name": "STAge (issue intpgress)",
