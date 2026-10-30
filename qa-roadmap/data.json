@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T06:15:22+00:00",
+ "generated_at": "2026-10-30T06:30:24+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -5359,7 +5359,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-10-29T15:58:45.811-0500",
