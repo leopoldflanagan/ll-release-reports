@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T09:00:23+00:00",
+ "generated_at": "2026-10-30T09:15:23+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -5699,16 +5699,16 @@
    "key": "PLANS-24585",
    "name": "KOS portal uses static footer instead of shared dynamic footer",
    "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
    "sprint": "LL - Low Prior Bugs",
    "who": "Valentyna Tenus",
    "reporter": "Valentyna Tenus",
    "prio": "3: Standard",
    "created": "2026-10-19T02:46:55.866-0500",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-06",
    "labels": [
     "group3_migration",
     "product_prioritized"
