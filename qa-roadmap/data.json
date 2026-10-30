@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T17:00:26+00:00",
+ "generated_at": "2026-10-30T17:09:25+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -16,7 +16,7 @@
    "name": "Unify Purchase Into NPM Package",
    "status": "In Development",
    "ted": "2026-10-29",
-   "fv": null,
+   "fv": "R9.10",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
   },
@@ -96,7 +96,7 @@
    "key": "WT-1170",
    "name": "Show statuses for ACH transactions at Member Portal",
    "status": "In Development",
-   "ted": "2026-10-30",
+   "ted": "2026-11-05",
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
    "tshirt": "Small"
@@ -141,7 +141,7 @@
    "name": "Unify Purchase Into NPM Package",
    "status": "In Development",
    "ted": "2026-10-29",
-   "fv": null,
+   "fv": "R9.10",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
    "pod": "LL",
@@ -701,7 +701,7 @@
    "key": "WT-1170",
    "name": "Show statuses for ACH transactions at Member Portal",
    "status": "In Development",
-   "ted": "2026-10-30",
+   "ted": "2026-11-05",
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
    "tshirt": "Small",
@@ -1310,7 +1310,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "In Development",
-   "fv": null,
+   "fv": "R9.10",
    "ted": "2026-10-29",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
@@ -1872,7 +1872,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": "2026-10-30",
+   "ted": "2026-11-05",
    "who": "Denys Kernychnyi",
    "theme": ""
   },
@@ -2439,34 +2439,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24904",
-   "name": "PMP - 'Remove primary contact' button is visible for minor dependents under an adult primary plan and displays a misleading message / Remove not working",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-29T11:38:54.107-0500",
-   "resolved": "",
-   "due": "2026-10-30",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24879",
    "name": "Stage/PMP/Primary member email is populated for the minor",
@@ -5536,6 +5508,31 @@
    "init": ""
   },
   {
+   "key": "EDW-2514",
+   "name": "Member Shows as Active In CSP but Expired in WFP (DCA)",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vera King",
+   "prio": "3: Standard",
+   "created": "2026-10-30T12:03:54.329-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "DYN-1472",
    "name": "CRM email buttons looks different for sgdp ADHA /KIDSplans",
    "pod": "PLANS",
@@ -6537,6 +6534,34 @@
    "labels": [
     "group1_migration",
     "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24904",
+   "name": "PMP - 'Remove primary contact' button is visible for minor dependents under an adult primary plan and displays a misleading message / Remove not working",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-29T11:38:54.107-0500",
+   "resolved": "",
+   "due": "2026-10-30",
+   "labels": [
     "group3_migration",
     "product_prioritized"
    ],
@@ -30528,6 +30553,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24950",
+   "name": "PMP - Unable to update Responsibility party of a minor (getting an error)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24949",
    "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
