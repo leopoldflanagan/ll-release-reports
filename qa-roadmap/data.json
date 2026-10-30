@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T00:15:19+00:00",
+ "generated_at": "2026-10-30T00:30:27+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -942,7 +942,7 @@
    "name": "Show Provider by Office for Website",
    "status": "Backlog",
    "ted": "2026-11-04",
-   "fv": "R9.10",
+   "fv": null,
    "who": "Daniel Marineni",
    "tshirt": "Large",
    "pod": "PLANS",
@@ -2133,7 +2133,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
-   "fv": "R9.10",
+   "fv": null,
    "ted": "2026-11-04",
    "who": "Daniel Marineni",
    "theme": ""
