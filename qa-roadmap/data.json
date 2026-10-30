@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T10:00:29+00:00",
+ "generated_at": "2026-10-30T10:15:22+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2492,6 +2492,34 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-24920",
+   "name": "Production - Essential Smile - PDF's do not match",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-29T15:58:45.811-0500",
+   "resolved": "",
+   "due": "2026-11-02",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24908",
    "name": "Dial Care Language Update",
@@ -5410,34 +5438,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24920",
-   "name": "Production - Essential Smile - PDF's do not match",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-29T15:58:45.811-0500",
-   "resolved": "",
-   "due": "2026-11-02",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24909",
    "name": "Auto Renewal Retry \\ Failure notification email is not sent after all retry attempts are declined",
    "pod": "PLANS",
@@ -6482,34 +6482,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24585",
-   "name": "KOS portal uses static footer instead of shared dynamic footer",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "3: Standard",
-   "created": "2026-10-19T02:46:55.866-0500",
-   "resolved": "",
-   "due": "2026-11-06",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-23835",
    "name": "Duplicate External ID for a member",
    "pod": "PLANS",
@@ -6562,6 +6534,34 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24585",
+   "name": "KOS portal uses static footer instead of shared dynamic footer",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "3: Standard",
+   "created": "2026-10-19T02:46:55.866-0500",
+   "resolved": "",
+   "due": "2026-11-06",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
    "initKey": "",
    "init": ""
   },
