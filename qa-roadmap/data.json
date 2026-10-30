@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T16:30:22+00:00",
+ "generated_at": "2026-10-30T16:35:51+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -82,15 +82,6 @@
    "fv": "R9.10",
    "who": "Valentyna Tenus",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "WT-987",
-   "name": "Add Missing Data Icon to PMP",
-   "status": "Ready for Production",
-   "ted": "2026-10-30",
-   "fv": "R9.9",
-   "who": "Rostyslav Masniuk",
-   "tshirt": "Small"
   },
   {
    "key": "WT-1003",
@@ -407,17 +398,6 @@
    "who": "David Jones",
    "tshirt": "Large",
    "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-987",
-   "name": "Add Missing Data Icon to PMP",
-   "status": "Ready for Production",
-   "ted": "2026-10-30",
-   "fv": "R9.9",
-   "who": "Rostyslav Masniuk",
-   "tshirt": "Small",
-   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1589,17 +1569,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "WT-987",
-   "name": "Add Missing Data Icon to PMP",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "Ready for Production",
-   "fv": "R9.9",
-   "ted": "2026-10-30",
-   "who": "Rostyslav Masniuk",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "WT-998",
    "name": "Edge Cases - for Member Portal - Multi Plans",
    "pod": "PLANS",
@@ -2726,7 +2695,7 @@
   },
   {
    "key": "PLANS-24937",
-   "name": "Phase 3- Preprod - Legacy West Dental - Offices not visible on Smile health ( Wesbite visibility is ON in CSP)",
+   "name": "Phase 3- Preprod/STAGE - Legacy West Dental - Offices not visible on Smile health ( Wesbite visibility is ON in CSP)",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
@@ -2751,7 +2720,7 @@
   },
   {
    "key": "PLANS-24936",
-   "name": "Phase 3 - Preprod - Euler Premium Plan - Missing Logos - Membership card and Smile health",
+   "name": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card and Smile health",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
