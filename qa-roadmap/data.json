@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T21:15:23+00:00",
+ "generated_at": "2026-10-30T21:19:25+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -90,6 +90,15 @@
    "ted": "2026-11-06",
    "fv": "R9.10",
    "who": "Dmytro Tymofiienko",
+   "tshirt": "Moderate"
+  },
+  {
+   "key": "WT-1026",
+   "name": "Smile health replace treatment and sales api on plans api",
+   "status": "In Development",
+   "ted": "2026-11-06",
+   "fv": "R9.10",
+   "who": "Nazarii Polinyk",
    "tshirt": "Moderate"
   },
   {
@@ -611,7 +620,7 @@
    "fv": "R9.10",
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate",
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": ""
   },
   {
@@ -1752,7 +1761,7 @@
   {
    "key": "WT-1026",
    "name": "Smile health replace treatment and sales api on plans api",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
