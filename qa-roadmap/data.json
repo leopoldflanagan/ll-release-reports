@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T21:00:23+00:00",
+ "generated_at": "2026-10-30T21:08:11+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2650,7 +2650,7 @@
   },
   {
    "key": "PLANS-24957",
-   "name": "PMP - Renew - Current plan displays with future plan end dates",
+   "name": "PMP - Renew - Current plan displays with future plan end dates after renewal",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
