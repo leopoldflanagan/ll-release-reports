@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T20:49:24+00:00",
+ "generated_at": "2026-10-30T21:00:23+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -107,7 +107,7 @@
    "status": "In Development",
    "ted": "2026-11-12",
    "fv": "R9.10",
-   "who": "Daniel Marineni",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null
   },
   {
@@ -124,8 +124,8 @@
    "name": "ACH Legal language for purchasing plan",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.10",
-   "who": "Daniel Marineni",
+   "fv": "R10.01",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null
   }
  ],
@@ -263,17 +263,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "WT-764",
-   "name": "Implement web analytics platform to support DSO analytics requirements",
-   "status": "Requirements",
-   "ted": "2026-11-04",
-   "fv": "R9.10",
-   "who": "Daniel Marineni",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "WT-777",
    "name": "Benefit Usage and Office Assignment",
    "status": "Backlog",
@@ -388,7 +377,7 @@
    "name": "consolidate smile health portal to access plans widget api",
    "status": "Architecture",
    "ted": null,
-   "fv": "R9.10",
+   "fv": "R10.01",
    "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
@@ -774,7 +763,7 @@
    "status": "In Development",
    "ted": "2026-11-12",
    "fv": "R9.10",
-   "who": "Daniel Marineni",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null,
    "pod": "LL",
    "theme": ""
@@ -850,8 +839,8 @@
    "name": "ACH Legal language for purchasing plan",
    "status": "Requirements",
    "ted": null,
-   "fv": "R9.10",
-   "who": "Daniel Marineni",
+   "fv": "R10.01",
+   "who": "Dmytro Tymofiienko",
    "tshirt": null,
    "pod": "LL",
    "theme": ""
@@ -1420,17 +1409,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "WT-764",
-   "name": "Implement web analytics platform to support DSO analytics requirements",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "Requirements",
-   "fv": "R9.10",
-   "ted": "2026-11-04",
-   "who": "Daniel Marineni",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "WT-777",
    "name": "Benefit Usage and Office Assignment",
    "pod": "PLANS",
@@ -1546,7 +1524,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Architecture",
-   "fv": "R9.10",
+   "fv": "R10.01",
    "ted": null,
    "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
@@ -1933,7 +1911,7 @@
    "status": "In Development",
    "fv": "R9.10",
    "ted": "2026-11-12",
-   "who": "Daniel Marineni",
+   "who": "Dmytro Tymofiienko",
    "theme": ""
   },
   {
@@ -2008,9 +1986,9 @@
    "pod": "LL",
    "proj": "WT",
    "status": "Requirements",
-   "fv": "R9.10",
+   "fv": "R10.01",
    "ted": null,
-   "who": "Daniel Marineni",
+   "who": "Dmytro Tymofiienko",
    "theme": ""
   },
   {
@@ -2672,7 +2650,7 @@
   },
   {
    "key": "PLANS-24957",
-   "name": "PMP - Renew - Future Plan Displays as 'Active' without new dependants and Current Active Plan Is Not Visible in Manage Patient",
+   "name": "PMP - Renew - Current plan displays with future plan end dates",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
