@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T16:24:25+00:00",
+ "generated_at": "2026-10-30T16:30:22+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -86,7 +86,7 @@
   {
    "key": "WT-987",
    "name": "Add Missing Data Icon to PMP",
-   "status": "In Testing",
+   "status": "Ready for Production",
    "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
@@ -412,7 +412,7 @@
   {
    "key": "WT-987",
    "name": "Add Missing Data Icon to PMP",
-   "status": "In Testing",
+   "status": "Ready for Production",
    "ted": "2026-10-30",
    "fv": "R9.9",
    "who": "Rostyslav Masniuk",
@@ -633,18 +633,7 @@
    "key": "WT-1043",
    "name": "CREG Enrollment Feed",
    "status": "In Testing",
-   "ted": "2026-10-23",
-   "fv": "R9.9",
-   "who": "Daniel Marineni",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
-   "theme": ""
-  },
-  {
-   "key": "WT-1046",
-   "name": "CREG Eligibility Verification",
-   "status": "In Testing",
-   "ted": "2026-10-23",
+   "ted": "2026-11-02",
    "fv": "R9.9",
    "who": "Daniel Marineni",
    "tshirt": "Moderate",
@@ -1604,7 +1593,7 @@
    "name": "Add Missing Data Icon to PMP",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Testing",
+   "status": "Ready for Production",
    "fv": "R9.9",
    "ted": "2026-10-30",
    "who": "Rostyslav Masniuk",
@@ -1826,18 +1815,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.9",
-   "ted": "2026-10-23",
-   "who": "Daniel Marineni",
-   "theme": ""
-  },
-  {
-   "key": "WT-1046",
-   "name": "CREG Eligibility Verification",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.9",
-   "ted": "2026-10-23",
+   "ted": "2026-11-02",
    "who": "Daniel Marineni",
    "theme": ""
   },
@@ -2519,6 +2497,36 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24879",
+   "name": "Stage/PMP/Primary member email is populated for the minor",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-28T15:20:54.100-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24847",
@@ -5703,36 +5711,6 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24879",
-   "name": "Stage/PMP/Primary member email is populated for the minor",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-28T15:20:54.100-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24869",
