@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T22:00:28+00:00",
+ "generated_at": "2026-10-30T22:08:09+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -30797,8 +30797,8 @@
  "nopod": [
   {
    "key": "PLANS-24958",
-   "name": "Phase 3 - inprogress bug",
-   "status": "WAITING REVIEW",
+   "name": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount",
+   "status": "Backlog",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
   },
