@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T12:17:11+00:00",
+ "generated_at": "2026-10-30T12:30:23+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -6482,34 +6482,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24585",
-   "name": "KOS portal uses static footer instead of shared dynamic footer",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "3: Standard",
-   "created": "2026-10-19T02:46:55.866-0500",
-   "resolved": "",
-   "due": "2026-11-06",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-23835",
    "name": "Duplicate External ID for a member",
    "pod": "PLANS",
@@ -6562,6 +6534,34 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24585",
+   "name": "KOS portal uses static footer instead of shared dynamic footer",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "3: Standard",
+   "created": "2026-10-19T02:46:55.866-0500",
+   "resolved": "",
+   "due": "2026-11-06",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
    "initKey": "",
    "init": ""
   },
