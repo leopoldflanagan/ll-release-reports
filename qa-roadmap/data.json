@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T18:22:36+00:00",
+ "generated_at": "2026-10-30T18:30:24+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2672,7 +2672,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL-Sprint 25-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
@@ -2687,13 +2687,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24915",
