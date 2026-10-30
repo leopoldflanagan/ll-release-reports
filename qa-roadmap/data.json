@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T04:30:24+00:00",
+ "generated_at": "2026-10-30T04:45:21+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -30350,6 +30350,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24924",
+   "name": "CSP \\ Duplicate Account History records are created after manual renewal through Member Portal",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-24922",
    "name": "Preprod/EssentialSmiles/Learn More in the nav is a <button type=\"submit\"> instead of a link",
