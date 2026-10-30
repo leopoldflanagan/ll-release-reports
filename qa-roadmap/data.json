@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T17:19:25+00:00",
+ "generated_at": "2026-10-30T17:30:23+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2664,6 +2664,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24952",
+   "name": "PMP - MEmbership card , Additional Benefit Cards , Benefit summary still visible for cancelled plans",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-30T12:23:37.854-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24950",
