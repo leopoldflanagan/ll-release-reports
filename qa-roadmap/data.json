@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T08:00:26+00:00",
+ "generated_at": "2026-10-30T08:15:22+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -841,10 +841,10 @@
   {
    "key": "WT-1212",
    "name": "Ambetter Plan Design",
-   "status": "Backlog",
+   "status": "In Development",
    "ted": null,
    "fv": null,
-   "who": "Obie Khandaker",
+   "who": "Ivan Yarymovych",
    "tshirt": null,
    "pod": "PLANS",
    "theme": ""
@@ -2033,10 +2033,10 @@
    "name": "Ambetter Plan Design",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Backlog",
+   "status": "In Development",
    "fv": null,
    "ted": null,
-   "who": "Obie Khandaker",
+   "who": "Ivan Yarymovych",
    "theme": ""
   },
   {
