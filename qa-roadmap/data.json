@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T17:30:23+00:00",
+ "generated_at": "2026-10-30T17:35:41+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2667,7 +2667,7 @@
   },
   {
    "key": "PLANS-24952",
-   "name": "PMP - MEmbership card , Additional Benefit Cards , Benefit summary still visible for cancelled plans",
+   "name": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visible for Cancelled Plans",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
