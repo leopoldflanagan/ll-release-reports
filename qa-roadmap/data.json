@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T23:35:13+00:00",
+ "generated_at": "2026-10-30T23:45:21+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2652,31 +2652,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24964",
-   "name": "Healthy Smiles of Lakeway - Need to Remove the Location Search",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Ezra Skeete",
-   "prio": "3: Standard",
-   "created": "2026-10-30T17:28:51.024-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -5467,6 +5442,34 @@
    "resolved": "",
    "due": "",
    "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24964",
+   "name": "Healthy Smiles of Lakeway - Need to Remove the Location Search",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Ezra Skeete",
+   "prio": "3: Standard",
+   "created": "2026-10-30T17:28:51.024-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
