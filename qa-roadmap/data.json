@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T16:35:51+00:00",
+ "generated_at": "2026-10-30T16:45:23+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -30503,6 +30503,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24943",
+   "name": "Member Portal \\ Cardholder name is missing from Manage Payments after adding a new card through CSP during renewal",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-24942",
    "name": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet",
