@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T13:45:19+00:00",
+ "generated_at": "2026-10-30T13:49:32+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -6466,7 +6466,7 @@
    "prio": "2: Important",
    "created": "2026-10-27T08:27:26.815-0500",
    "resolved": "",
-   "due": "2026-10-29",
+   "due": "2026-10-31",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -30375,6 +30375,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24929",
+   "name": "Member Portal \\ Missing payment method value after renewing an expired plan via Provider Portal after all Auto-Renewal retries fail",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-24922",
    "name": "Preprod/EssentialSmiles/Learn More in the nav is a <button type=\"submit\"> instead of a link",
