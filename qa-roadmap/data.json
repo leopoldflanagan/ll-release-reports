@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T17:48:55+00:00",
+ "generated_at": "2026-10-30T18:00:29+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2702,7 +2702,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL-Sprint 25-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -2717,13 +2717,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24945",
@@ -2971,6 +2971,34 @@
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-10-29T16:11:15.698-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24915",
+   "name": "Member portal - Deleted members / Membership cards still visible under primary plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-29T13:35:56.095-0500",
    "resolved": "",
    "due": "",
    "labels": [
@@ -30712,13 +30740,6 @@
    "name": "STAge (issue intpgress)",
    "status": "WAITING REVIEW",
    "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-24915",
-   "name": "Member portal - Deleted members / Membership cards still visible under primary plan",
-   "status": "Backlog",
-   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
