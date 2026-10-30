@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T21:19:25+00:00",
+ "generated_at": "2026-10-30T21:30:23+00:00",
  "today": "2026-10-30",
  "features": [
   {
@@ -2652,6 +2652,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24963",
+   "name": "Not Able to Add Dependent to Plan",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Carmen West",
+   "prio": "3: Standard",
+   "created": "2026-10-30T16:21:31.203-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -30772,7 +30797,7 @@
  "nopod": [
   {
    "key": "PLANS-24958",
-   "name": "bug",
+   "name": "Phase 3 - Monthly amount visible in Essential Smiles (Monthly Subscription FF OFF)",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
