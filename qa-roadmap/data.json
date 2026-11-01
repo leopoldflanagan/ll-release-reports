@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T02:30:21+00:00",
+ "generated_at": "2026-11-01T02:45:23+00:00",
  "today": "2026-11-01",
  "features": [
   {
@@ -30850,31 +30850,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "DYN-1328",
-   "name": "Welcome Email is not sent after successfully purchasing a dental plan through the CSP portal",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": null,
-   "who": "Satva Tech",
-   "reporter": "Alejandro Monroy",
-   "prio": "1: Urgent",
-   "created": "2026-07-16T10:22:06.047-0500",
-   "resolved": "2026-08-02T21:33:23.184-0500",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "DYN-1354",
-   "parentName": "Plans SGDP - Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
