@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T15:30:26+00:00",
+ "generated_at": "2026-11-01T15:45:21+00:00",
  "today": "2026-11-01",
  "features": [
   {
@@ -30823,33 +30823,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-20510",
-   "name": "Member Portal \\ When manually renewing a plan membership agreement link button is redirecting user to Dashboard page",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Clint Tredway",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-07-29T13:11:45.325-0500",
-   "resolved": "2026-08-03T10:43:06.309-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
