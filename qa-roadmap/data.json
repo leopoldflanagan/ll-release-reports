@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T19:00:25+00:00",
+ "generated_at": "2026-11-01T19:15:21+00:00",
  "today": "2026-11-01",
  "features": [
   {
@@ -30713,31 +30713,6 @@
    "triage": "",
    "parentKey": "PLANS-17458",
    "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20124",
-   "name": "DCA PP<Stage<After purchasing plan, Practice Name and Logo is not displaying in Member Portal for both Core and Deluxe plans",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-07-22T13:09:45.510-0500",
-   "resolved": "2026-08-03T14:00:36.897-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
