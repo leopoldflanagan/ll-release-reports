@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T18:30:21+00:00",
+ "generated_at": "2026-11-01T18:45:21+00:00",
  "today": "2026-11-01",
  "features": [
   {
@@ -30738,33 +30738,6 @@
    "triage": "",
    "parentKey": "PLANS-20094",
    "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-19144",
-   "name": "Renewal email from PMP is not sent",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 18-26",
-   "who": "Michael McNulty",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-07T19:47:07.068-0500",
-   "resolved": "2026-08-03T13:44:59.094-0500",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
