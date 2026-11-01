@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T16:30:23+00:00",
+ "generated_at": "2026-11-01T16:45:21+00:00",
  "today": "2026-11-01",
  "features": [
   {
@@ -30795,34 +30795,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-19757",
-   "name": "[Membership Fee Promo] - Getting error \"Purchase must exist\" while purchasing a plan",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL-Sprint 18-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-07-16T14:57:53.699-0500",
-   "resolved": "2026-08-03T11:34:25.870-0500",
-   "due": "",
-   "labels": [
-    "LLplans",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
