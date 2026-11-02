@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T15:11:02+00:00",
+ "generated_at": "2026-11-02T15:15:31+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -30514,7 +30514,7 @@
  "nopod": [
   {
    "key": "PLANS-24972",
-   "name": "PMP & MP - Auto renewal turned off after upgrading minor plan from CSP",
+   "name": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
