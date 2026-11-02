@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T02:30:22+00:00",
+ "generated_at": "2026-11-02T02:45:20+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -30564,33 +30564,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-19140",
-   "name": "PLANS-19140: PMP: Additional Benefits: Back of the card: UI is not matching Figma",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-07-07T17:57:35.224-0500",
-   "resolved": "2026-08-03T21:38:23.398-0500",
-   "due": "2026-07-21",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": true,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
