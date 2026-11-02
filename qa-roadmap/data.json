@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T16:00:27+00:00",
+ "generated_at": "2026-11-02T16:11:28+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -2625,6 +2625,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24979",
+   "name": "PMP - Responsible Party Details Requested Again During Minor Plan Upgrade Flow",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-02T09:52:28.707-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24976",
@@ -7403,34 +7428,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24646",
-   "name": "RETEST - Stage-Member(minor) Deleted from CSP, showing Active in PMP",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Petro Yarish",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-10-20T14:08:58.477-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24469",
    "name": "Duplicate Charge-Not Showing in CSP",
    "pod": "PLANS",
@@ -7509,31 +7506,6 @@
    "triage": "",
    "parentKey": "PLANS-21806",
    "parentName": "Plans 9.8 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24979",
-   "name": "PMP - Responsible Party Details Requested Again During Minor Plan Upgrade Flow",
-   "pod": "PLANS",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": null,
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-11-02T09:52:28.707-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -7811,6 +7783,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24646",
+   "name": "RETEST - Stage-Member(minor) Deleted from CSP, showing Active in PMP",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Petro Yarish",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-10-20T14:08:58.477-0500",
+   "resolved": "2026-11-02T10:06:10.556-0600",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24957",
    "name": "PMP - Renew - Current plan displays with future plan end dates after renewal",
@@ -30657,6 +30657,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24982",
+   "name": "PMP - Incorrect \"Missing Primary Contact (Responsible Party)\" Message and \"Add Primary Contact\" Button Displayed After Minor Plan Upgrade",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24949",
    "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
