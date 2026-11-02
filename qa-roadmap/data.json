@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T23:35:01+00:00",
+ "generated_at": "2026-11-02T23:45:22+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -2632,18 +2632,21 @@
   {
    "key": "PLANS-25008",
    "name": "PT is Unable to Log into Member Portal",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Carmen West",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-11-02T14:56:11.906-0600",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "",
