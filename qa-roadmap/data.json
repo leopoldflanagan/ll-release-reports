@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T17:19:35+00:00",
+ "generated_at": "2026-11-02T17:30:26+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -2401,6 +2401,34 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24956",
+   "name": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-30T15:20:44.480-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24263",
+   "parentName": "End to end QA validation for CREG",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-435",
+   "init": "CREG / Additional PDS Family TPA Clients"
+  },
+  {
    "key": "PLANS-24934",
    "name": "Preprod / STAGE - Phase 3 - Euler Family Dental Org & practices not visible.",
    "pod": "LL",
@@ -2621,6 +2649,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24988",
+   "name": "Healthy Smiles of Lakeway - Need to Update their Check for Benefit Details Page",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Ezra Skeete",
+   "prio": "3: Standard",
+   "created": "2026-11-02T11:26:25.461-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -5630,34 +5683,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24956",
-   "name": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-30T15:20:44.480-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24263",
-   "parentName": "End to end QA validation for CREG",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-435",
-   "init": "CREG / Additional PDS Family TPA Clients"
   },
   {
    "key": "PLANS-24952",
