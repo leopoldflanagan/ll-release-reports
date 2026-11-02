@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T09:15:22+00:00",
+ "generated_at": "2026-11-02T09:30:23+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -6791,34 +6791,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24921",
-   "name": "Preprod/EssentialSmiles/Typos in the Portal",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-29T16:11:15.698-0500",
-   "resolved": "",
-   "due": "2026-11-02",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24908",
    "name": "Dial Care Language Update",
    "pod": "LL",
@@ -6983,6 +6955,34 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24921",
+   "name": "Preprod/EssentialSmiles/Typos in the Portal",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-29T16:11:15.698-0500",
+   "resolved": "",
+   "due": "2026-11-02",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
