@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T14:36:03+00:00",
+ "generated_at": "2026-11-02T14:45:25+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -106,7 +106,7 @@
    "name": "Legal Language Additions",
    "status": "In Development",
    "ted": "2026-11-06",
-   "fv": "R9.10",
+   "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": null
   },
@@ -751,7 +751,7 @@
    "name": "Legal Language Additions",
    "status": "In Development",
    "ted": "2026-11-06",
-   "fv": "R9.10",
+   "fv": "R9.9",
    "who": "Rostyslav Masniuk",
    "tshirt": null,
    "pod": "LL",
@@ -1887,7 +1887,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "In Development",
-   "fv": "R9.10",
+   "fv": "R9.9",
    "ted": "2026-11-06",
    "who": "Rostyslav Masniuk",
    "theme": ""
@@ -30512,6 +30512,20 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24969",
+   "name": "PMP - Auto renewal payment account not added for minor",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
+   "key": "PLANS-24966",
+   "name": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Member (its visible in Overview of minor)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24949",
    "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
