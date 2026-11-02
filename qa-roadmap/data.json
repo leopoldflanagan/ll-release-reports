@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T17:15:22+00:00",
+ "generated_at": "2026-11-02T17:19:35+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -30652,31 +30652,6 @@
    "prio": "2: Important",
    "created": "2026-07-21T10:02:57.384-0500",
    "resolved": "2026-08-04T12:43:33.852-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15107",
-   "parentName": "[DCA] Portal Level Sellability Testing",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-20716",
-   "name": "One Smile - CRM - welcome email - Activate button not functioning",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Rojesh Thapa",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-04T10:59:09.674-0500",
-   "resolved": "2026-08-04T12:18:39.905-0500",
    "due": "",
    "labels": [],
    "theme": "LL-MVP",
