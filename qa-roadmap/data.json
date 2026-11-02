@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T18:00:25+00:00",
+ "generated_at": "2026-11-02T18:12:29+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -2401,6 +2401,34 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-24958",
+   "name": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-30T15:33:40.245-0500",
+   "resolved": "",
+   "due": "2026-11-02",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24934",
    "name": "Preprod / STAGE - Phase 3 - Euler Family Dental Org & practices not visible.",
    "pod": "LL",
@@ -2653,6 +2681,56 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24991",
+   "name": "Unable to Purchase Upgrade or New Plan for Patient",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vera King",
+   "prio": "3: Standard",
+   "created": "2026-11-02T12:10:26.432-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24985",
+   "name": "PMP - Upgrade Flow Allows Minor with Existing Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-02T10:29:29.134-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24982",
@@ -5630,34 +5708,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-24958",
-   "name": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-30T15:33:40.245-0500",
-   "resolved": "",
-   "due": "2026-11-02",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24952",
@@ -30611,44 +30661,10 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-15006",
-   "name": "Member portal - Renew - showing KIDS plans when Renew a SGDP plan (Sgdp plan purchased from SGDP site, no office assigned)",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-04-06T13:24:15.667-0500",
-   "resolved": "2026-08-04T13:06:55.932-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14864",
-   "parentName": "RE - MP Refactor Work Placeholder",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-24985",
-   "name": "PMP - Dependent with Existing RP Can Be Added to Family Plan Resulting in Multiple Responsible Parties Under Same Plan",
-   "status": "WAITING REVIEW",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-24949",
    "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
