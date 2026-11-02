@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T18:49:07+00:00",
+ "generated_at": "2026-11-02T19:00:26+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -30702,6 +30702,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-24996",
+   "name": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Primary Member",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-24994",
    "name": "PMP- Missing Data icon inconsisent on member vs primary contact",
