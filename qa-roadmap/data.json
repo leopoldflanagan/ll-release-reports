@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T15:00:28+00:00",
+ "generated_at": "2026-11-02T15:11:02+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -6628,7 +6628,7 @@
    "prio": "2: Important",
    "created": "2026-10-30T12:06:53.540-0500",
    "resolved": "",
-   "due": "2026-11-02",
+   "due": "2026-11-03",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -6744,7 +6744,7 @@
    "prio": "2: Important",
    "created": "2026-10-29T09:50:07.478-0500",
    "resolved": "",
-   "due": "2026-11-02",
+   "due": "2026-11-03",
    "labels": [
     "group3_migration",
     "product_prioritized"
@@ -30513,8 +30513,15 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-24972",
+   "name": "PMP & MP - Auto renewal turned off after upgrading minor plan from CSP",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-24969",
-   "name": "PMP - Auto-Renewal Enabled but No Payment Method Assigned in Plan Overview for Minor Plans Purchased via CSP",
+   "name": "PMP & MP - Auto-Renewal Enabled but No Payment Method Assigned in Plan Overview for Minor Plans Purchased via CSP",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
