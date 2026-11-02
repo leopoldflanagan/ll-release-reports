@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T14:45:25+00:00",
+ "generated_at": "2026-11-02T14:49:54+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -30514,7 +30514,7 @@
  "nopod": [
   {
    "key": "PLANS-24969",
-   "name": "PMP - Auto renewal payment account not added for minor",
+   "name": "PMP - Auto-Renewal Enabled but No Payment Method Assigned in Plan Overview for Minor Plans (Auto renew will not process)",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
