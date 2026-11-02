@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T18:45:22+00:00",
+ "generated_at": "2026-11-02T18:49:07+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -2400,6 +2400,36 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-24969",
+   "name": "PMP & MP - Auto-Renewal Enabled but No Payment Method Assigned in Plan Overview for Minor Plans Purchased via CSP",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-02T08:41:59.596-0600",
+   "resolved": "",
+   "due": "2026-11-03",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24958",
    "name": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount",
@@ -5629,36 +5659,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24969",
-   "name": "PMP & MP - Auto-Renewal Enabled but No Payment Method Assigned in Plan Overview for Minor Plans Purchased via CSP",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-02T08:41:59.596-0600",
-   "resolved": "",
-   "due": "2026-11-03",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24966",
    "name": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Member (its visible in Overview of minor)",
    "pod": "PLANS",
@@ -7053,34 +7053,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-16901",
-   "name": "Member Portal - Contact Information is empty after verifying email address",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-05-27T14:27:34.927-0500",
-   "resolved": "",
-   "due": "2026-11-02",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24836",
    "name": "PMP - Broken- Auto Renewal setting is not retained after manual renewal (Auto renew checked at the purchase)",
    "pod": "LL",
@@ -7133,6 +7105,34 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-16901",
+   "name": "Member Portal - Contact Information is empty after verifying email address",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-05-27T14:27:34.927-0500",
+   "resolved": "",
+   "due": "2026-11-02",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
