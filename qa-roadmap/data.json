@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T17:49:00+00:00",
+ "generated_at": "2026-11-02T18:00:25+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -2401,34 +2401,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-24956",
-   "name": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-30T15:20:44.480-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24263",
-   "parentName": "End to end QA validation for CREG",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-435",
-   "init": "CREG / Additional PDS Family TPA Clients"
-  },
-  {
    "key": "PLANS-24934",
    "name": "Preprod / STAGE - Phase 3 - Euler Family Dental Org & practices not visible.",
    "pod": "LL",
@@ -2450,6 +2422,34 @@
    "triage": "",
    "parentKey": "PLANS-22410",
    "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24920",
+   "name": "Production - Essential Smile - PDF's do not match",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Dima Shtympel",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-29T15:58:45.811-0500",
+   "resolved": "",
+   "due": "2026-11-03",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -6796,6 +6796,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-24956",
+   "name": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-30T15:20:44.480-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24263",
+   "parentName": "End to end QA validation for CREG",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-435",
+   "init": "CREG / Additional PDS Family TPA Clients"
+  },
+  {
    "key": "PLANS-24937",
    "name": "PLANS-24937: Phase 3- Preprod/STAGE - Legacy West Dental - Offices not visible on Smile health (Wesbite visibility is ON in CSP)",
    "pod": "LL",
@@ -6960,34 +6988,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24920",
-   "name": "Production - Essential Smile - PDF's do not match",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Dima Shtympel",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-29T15:58:45.811-0500",
-   "resolved": "",
-   "due": "2026-11-03",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -30644,7 +30644,7 @@
  "nopod": [
   {
    "key": "PLANS-24985",
-   "name": "PMP",
+   "name": "PMP - Dependent with Existing RP Can Be Added to Family Plan Resulting in Multiple Responsible Parties Under Same Plan",
    "status": "WAITING REVIEW",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe"
