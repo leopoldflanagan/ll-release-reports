@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T22:30:26+00:00",
+ "generated_at": "2026-11-02T22:34:58+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -7048,7 +7048,7 @@
    "prio": "1: Urgent",
    "created": "2026-10-30T09:46:35.489-0500",
    "resolved": "",
-   "due": "2026-11-03",
+   "due": "2026-11-04",
    "labels": [
     "group3_migration",
     "product_prioritized"
@@ -30747,33 +30747,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-18603",
-   "name": "Stage - PMP - Purchase Plan - Incorrect toast message displayed when сpromo code is not eligible",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Mykyta Moroz",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-06-26T17:08:25.208-0500",
-   "resolved": "2026-08-04T17:33:20.098-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
    "initKey": "",
    "init": ""
   }
