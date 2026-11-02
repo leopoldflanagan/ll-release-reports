@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T22:19:13+00:00",
+ "generated_at": "2026-11-02T22:30:26+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -315,17 +315,6 @@
    "who": "Rostyslav Masniuk",
    "tshirt": "Moderate",
    "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-821",
-   "name": "Auto-Renewal Re-Try Process",
-   "status": "In Testing",
-   "ted": "2026-11-01",
-   "fv": "R9.9",
-   "who": "Daniel Marineni",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1450,17 +1439,6 @@
    "fv": "R9.10",
    "ted": "2026-11-23",
    "who": "Rostyslav Masniuk",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-821",
-   "name": "Auto-Renewal Re-Try Process",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.9",
-   "ted": "2026-11-01",
-   "who": "Daniel Marineni",
    "theme": "LL-Fast Follows"
   },
   {
@@ -2685,7 +2663,7 @@
    "cat": "To Do",
    "fv": "R9.10",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
    "created": "2026-11-02T12:59:25.061-0600",
@@ -5633,7 +5611,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 25-26",
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-11-02T13:27:04.864-0600",
@@ -7471,34 +7449,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24956",
-   "name": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-30T15:20:44.480-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24263",
-   "parentName": "End to end QA validation for CREG",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-435",
-   "init": "CREG / Additional PDS Family TPA Clients"
-  },
-  {
    "key": "PLANS-24950",
    "name": "PMP - Unable to Update Responsible Party for Minor Dependent After Removal From Primary Plan (getting an error )",
    "pod": "LL",
@@ -7913,6 +7863,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24956",
+   "name": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-30T15:20:44.480-0500",
+   "resolved": "2026-11-02T16:23:27.667-0600",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24263",
+   "parentName": "End to end QA validation for CREG",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-435",
+   "init": "CREG / Additional PDS Family TPA Clients"
+  },
   {
    "key": "PLANS-24958",
    "name": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount",
