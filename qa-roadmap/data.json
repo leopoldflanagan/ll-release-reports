@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T21:09:11+00:00",
+ "generated_at": "2026-11-02T21:15:25+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -106,7 +106,7 @@
    "name": "Legal Language Additions",
    "status": "In Development",
    "ted": "2026-11-06",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": null
   },
@@ -751,7 +751,7 @@
    "name": "Legal Language Additions",
    "status": "In Development",
    "ted": "2026-11-06",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": null,
    "pod": "LL",
@@ -1887,7 +1887,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "In Development",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "ted": "2026-11-06",
    "who": "Rostyslav Masniuk",
    "theme": ""
@@ -5748,7 +5748,7 @@
   },
   {
    "key": "PLANS-24985",
-   "name": "PMP - Upgrade Flow Allows Minor with Existing Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
+   "name": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
@@ -7473,34 +7473,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24958",
-   "name": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-30T15:33:40.245-0500",
-   "resolved": "",
-   "due": "2026-11-02",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24956",
    "name": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan",
    "pod": "PLANS",
@@ -7941,6 +7913,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24958",
+   "name": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-30T15:33:40.245-0500",
+   "resolved": "2026-11-02T15:13:36.941-0600",
+   "due": "2026-11-02",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24188",
    "name": "PreProd PMP \\ Error when trying to manually renew a migrated member",
