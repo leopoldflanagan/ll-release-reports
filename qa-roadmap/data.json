@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T19:49:07+00:00",
+ "generated_at": "2026-11-02T20:00:23+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -2400,34 +2400,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24958",
-   "name": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-30T15:33:40.245-0500",
-   "resolved": "",
-   "due": "2026-11-02",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
   {
    "key": "PLANS-24950",
    "name": "PMP - Unable to Update Responsible Party for Minor Dependent After Removal From Primary Plan (getting an error )",
@@ -7427,6 +7399,34 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
+   "key": "PLANS-24958",
+   "name": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-30T15:33:40.245-0500",
+   "resolved": "",
+   "due": "2026-11-02",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24945",
    "name": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
    "pod": "LL",
@@ -7547,7 +7547,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL-Sprint 25-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
