@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T12:15:44+00:00",
+ "generated_at": "2026-11-02T12:30:23+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -6686,7 +6686,7 @@
    "prio": "1: Urgent",
    "created": "2026-10-30T09:46:35.489-0500",
    "resolved": "",
-   "due": "2026-11-02",
+   "due": "2026-11-03",
    "labels": [
     "group3_migration",
     "product_prioritized"
@@ -30541,7 +30541,7 @@
    "key": "PLANS-24949",
    "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
