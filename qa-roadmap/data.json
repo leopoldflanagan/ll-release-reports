@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T19:30:25+00:00",
+ "generated_at": "2026-11-02T19:35:25+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -2400,36 +2400,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24969",
-   "name": "PMP & MP - Auto-Renewal Enabled but No Payment Method Assigned in Plan Overview for Minor Plans Purchased via CSP",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-02T08:41:59.596-0600",
-   "resolved": "",
-   "due": "2026-11-03",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
   {
    "key": "PLANS-24958",
    "name": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount",
@@ -6906,6 +6876,36 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24969",
+   "name": "PMP & MP - Auto-Renewal Enabled but No Payment Method Assigned in Plan Overview for Minor Plans Purchased via CSP",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-02T08:41:59.596-0600",
+   "resolved": "",
+   "due": "2026-11-03",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24956",
