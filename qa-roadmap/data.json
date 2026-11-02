@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T21:19:43+00:00",
+ "generated_at": "2026-11-02T21:30:24+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -5629,7 +5629,7 @@
   },
   {
    "key": "PLANS-25001",
-   "name": "CSP - Plan Upgrade Completes Despite Voided Transaction and Failed Member Addition",
+   "name": "CSP - Plan Upgrade Completes Despite Voided Transaction",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
