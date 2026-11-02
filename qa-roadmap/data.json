@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T08:45:34+00:00",
+ "generated_at": "2026-11-02T09:00:34+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -2431,34 +2431,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-24921",
-   "name": "Preprod/EssentialSmiles/Typos in the Portal",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-10-29T16:11:15.698-0500",
-   "resolved": "",
-   "due": "2026-11-02",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24879",
    "name": "Stage/PMP/Primary member email is populated for the minor",
@@ -6802,6 +6774,34 @@
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
    "created": "2026-10-29T16:18:45.301-0500",
+   "resolved": "",
+   "due": "2026-11-02",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24921",
+   "name": "Preprod/EssentialSmiles/Typos in the Portal",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-10-29T16:11:15.698-0500",
    "resolved": "",
    "due": "2026-11-02",
    "labels": [
