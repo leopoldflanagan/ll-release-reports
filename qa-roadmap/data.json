@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T18:23:57+00:00",
+ "generated_at": "2026-11-02T18:30:26+00:00",
  "today": "2026-11-02",
  "features": [
   {
@@ -30641,8 +30641,15 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-24994",
+   "name": "PMP- Missing Data icon inconsisent on member vs primary contact",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  },
+  {
    "key": "PLANS-24993",
-   "name": "PreProd-Phase3-Logo is missing for Org-Kurt Calender Dentistry in CSP Plan template in Preprod",
+   "name": "PreProd-Phase3-Config Issue-Logo is missing for Org-Kurt Calender Dentistry in CSP Plan template in Preprod",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vinita Thankur"
