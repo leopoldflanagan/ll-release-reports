@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T11:45:23+00:00",
+ "generated_at": "2026-11-03T12:00:31+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2425,6 +2425,35 @@
     "group2_migration",
     "group3_migration",
     "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24993",
+   "name": "PreProd-Phase3-Config Issue-Logo is missing for Listed Org in CSP Plan template in Preprod",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-11-02T12:23:29.025-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
    ],
    "theme": "",
    "triage": "",
@@ -5651,35 +5680,6 @@
     "group2_migration",
     "group3_migration",
     "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24993",
-   "name": "PreProd-Phase3-Config Issue-Logo is missing for Listed Org in CSP Plan template in Preprod",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-11-02T12:23:29.025-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
    ],
    "theme": "",
    "triage": "",
