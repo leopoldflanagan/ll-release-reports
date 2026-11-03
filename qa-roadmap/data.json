@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T21:49:37+00:00",
+ "generated_at": "2026-11-03T22:00:29+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2637,7 +2637,7 @@
   },
   {
    "key": "PLANS-25061",
-   "name": "PMP - BROKEN - Add Member - Add CC / Select CC options not visible in purchase page",
+   "name": "PMP - BROKEN - Add Member - Add CC / Select CC options not visible in purchase page (STAGE)",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
