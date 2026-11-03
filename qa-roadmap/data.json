@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T20:00:25+00:00",
+ "generated_at": "2026-11-03T20:09:54+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -30768,6 +30768,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25063",
+   "name": "Blocker Preprod PMP \\ Manual Renew flow does not display Credit Card Payment Method",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-25061",
    "name": "PMP - BROKEN - Add Member - Add CC / Select CC options not visible in purchase page",
