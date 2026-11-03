@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T15:09:22+00:00",
+ "generated_at": "2026-11-03T15:15:30+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -6791,7 +6791,7 @@
    "prio": "2: Important",
    "created": "2026-11-02T13:27:04.864-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-04",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -6821,7 +6821,7 @@
    "prio": "2: Important",
    "created": "2026-11-02T12:59:25.061-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-05",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -7398,36 +7398,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24950",
-   "name": "PMP - Unable to Update Responsible Party for Minor Dependent After Removal From Primary Plan (getting an error )",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-30T12:06:53.540-0500",
-   "resolved": "",
-   "due": "2026-11-03",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24904",
    "name": "PMP - 'Remove primary contact' button is visible for minor dependents under an adult primary plan and displays a misleading message / Remove not working",
    "pod": "LL",
@@ -7754,6 +7724,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24950",
+   "name": "PMP - Unable to Update Responsible Party for Minor Dependent After Removal From Primary Plan (getting an error )",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-30T12:06:53.540-0500",
+   "resolved": "2026-11-03T09:13:25.687-0600",
+   "due": "2026-11-03",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24894",
    "name": "PMP - 400 error - Membership Card PDF fails to load when viewing Primary Plan Card from Dependent Member profile",
