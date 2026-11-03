@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T18:15:42+00:00",
+ "generated_at": "2026-11-03T18:22:03+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -30716,7 +30716,7 @@
   {
    "key": "PLANS-25018",
    "name": "Blocker -Preprod/Provider/Unable to purchase a plan in Provider",
-   "status": "In Development",
+   "status": "PR Created",
    "who": "Valentyna Tenus",
    "reporter": "Vivienne Chawande"
   },
