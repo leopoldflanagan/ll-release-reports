@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T14:49:31+00:00",
+ "generated_at": "2026-11-03T15:00:27+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -315,17 +315,6 @@
    "ted": null,
    "fv": null,
    "who": "Unassigned",
-   "tshirt": "Moderate",
-   "pod": "PLAT",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-887",
-   "name": "SaaS Fee Per Practice",
-   "status": "In Testing",
-   "ted": "2026-11-13",
-   "fv": "R9.10",
-   "who": "Vic Du Plessis",
    "tshirt": "Moderate",
    "pod": "PLAT",
    "theme": "LL-Fast Follows"
@@ -1430,17 +1419,6 @@
    "fv": null,
    "ted": null,
    "who": "Unassigned",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-887",
-   "name": "SaaS Fee Per Practice",
-   "pod": "PLAT",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.10",
-   "ted": "2026-11-13",
-   "who": "Vic Du Plessis",
    "theme": "LL-Fast Follows"
   },
   {
