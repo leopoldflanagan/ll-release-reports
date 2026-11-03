@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T18:35:58+00:00",
+ "generated_at": "2026-11-03T18:45:42+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2396,7 +2396,7 @@
    "prio": "2: Important",
    "created": "2026-10-30T11:47:18.666-0500",
    "resolved": "",
-   "due": "2026-11-03",
+   "due": "2026-11-04",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -2426,7 +2426,7 @@
    "prio": "1: Urgent",
    "created": "2026-10-30T09:49:17.571-0500",
    "resolved": "",
-   "due": "2026-11-03",
+   "due": "2026-11-04",
    "labels": [
     "group3_migration",
     "product_prioritized",
@@ -5585,7 +5585,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 25-26",
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-11-03T11:11:21.552-0600",
