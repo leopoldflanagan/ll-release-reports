@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T22:00:29+00:00",
+ "generated_at": "2026-11-03T22:08:16+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2636,36 +2636,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25061",
-   "name": "PMP - BROKEN - Add Member - Add CC / Select CC options not visible in purchase page (STAGE)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-03T13:38:32.217-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-25060",
    "name": "Blocker Preprod Auto Renew Retry \\ Plans that failed for auto renewal are not showing the expected held for renewal status",
    "pod": "PLANS",
@@ -2739,7 +2709,12 @@
    "created": "2026-11-03T11:00:11.650-0600",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22414",
@@ -7431,15 +7406,20 @@
    "pod": "LL",
    "status": "WAITING REVIEW",
    "cat": "In Progress",
-   "fv": null,
+   "fv": "R9.10",
    "sprint": null,
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-11-03T09:53:11.129-0600",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22414",
@@ -7721,6 +7701,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25061",
+   "name": "PMP - BROKEN - Add Member - Add CC / Select CC options not visible in purchase page (STAGE)",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-03T13:38:32.217-0600",
+   "resolved": "2026-11-03T16:01:54.569-0600",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-25012",
    "name": "Widget ach-authorization/text rejects ACH for minor-dependent patients",
