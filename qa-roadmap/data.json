@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T17:15:26+00:00",
+ "generated_at": "2026-11-03T17:19:17+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2459,7 +2459,8 @@
    "due": "2026-11-03",
    "labels": [
     "group3_migration",
-    "product_prioritized"
+    "product_prioritized",
+    "wave-3"
    ],
    "theme": "",
    "triage": "",
@@ -6884,7 +6885,8 @@
    "due": "",
    "labels": [
     "group3_migration",
-    "product_prioritized"
+    "product_prioritized",
+    "wave-3"
    ],
    "theme": "",
    "triage": "",
@@ -6912,7 +6914,8 @@
    "due": "2026-11-04",
    "labels": [
     "group3_migration",
-    "product_prioritized"
+    "product_prioritized",
+    "wave-3"
    ],
    "theme": "",
    "triage": "",
@@ -7443,7 +7446,8 @@
    "due": "2026-10-28",
    "labels": [
     "group3_migration",
-    "product_prioritized"
+    "product_prioritized",
+    "wave-3"
    ],
    "theme": "",
    "triage": "",
@@ -30683,7 +30687,7 @@
  "nopod": [
   {
    "key": "PLANS-25022",
-   "name": "Preprod - Essential Smile - Plan Details PDF not matched with STAGE (missing logo , incorrect auto renew text)",
+   "name": "Preprod - Essential Smile - Plan Details PDF Displays Incorrect Plan Name, Plan Fee, Auto-Renewal Text, and Plan Benefits",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
