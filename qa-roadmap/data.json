@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T19:49:23+00:00",
+ "generated_at": "2026-11-03T20:00:25+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2605,6 +2605,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25062",
+   "name": "Member has 2 active plans in the system (OneSmile )",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vera King",
+   "prio": "3: Standard",
+   "created": "2026-11-03T13:53:37.083-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -5584,7 +5609,7 @@
   },
   {
    "key": "PLANS-25022",
-   "name": "Preprod - Essential Smile - Plan Details PDF Displays Incorrect Plan Name, Plan Fee, Auto-Renewal Text, and Plan Benefits",
+   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
