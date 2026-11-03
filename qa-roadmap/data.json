@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T16:30:29+00:00",
+ "generated_at": "2026-11-03T16:35:37+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2325,36 +2325,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25012",
-   "name": "Widget ach-authorization/text rejects ACH for minor-dependent patients",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "2: Important",
-   "created": "2026-11-03T04:10:52.532-0600",
-   "resolved": "",
-   "due": "2026-11-03",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-25005",
    "name": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan",
@@ -6780,6 +6750,36 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25012",
+   "name": "Widget ach-authorization/text rejects ACH for minor-dependent patients",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "2: Important",
+   "created": "2026-11-03T04:10:52.532-0600",
+   "resolved": "",
+   "due": "2026-11-03",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
