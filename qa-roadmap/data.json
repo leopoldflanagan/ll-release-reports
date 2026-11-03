@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T15:36:16+00:00",
+ "generated_at": "2026-11-03T15:45:22+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -5424,7 +5424,7 @@
    "cat": "To Do",
    "fv": "R9.10",
    "sprint": "Plans-Sprint 25-26",
-   "who": "Conor Kamperman",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-03-13T15:25:12.186-0500",
@@ -7398,34 +7398,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24904",
-   "name": "PMP - 'Remove primary contact' button is visible for minor dependents under an adult primary plan and displays a misleading message / Remove not working",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-29T11:38:54.107-0500",
-   "resolved": "",
-   "due": "2026-11-03",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24801",
    "name": "Euler CSP Setting",
    "pod": "LL",
@@ -7724,6 +7696,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24904",
+   "name": "PMP - 'Remove primary contact' button is visible for minor dependents under an adult primary plan and displays a misleading message / Remove not working",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-29T11:38:54.107-0500",
+   "resolved": "2026-11-03T09:41:58.539-0600",
+   "due": "2026-11-03",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24950",
    "name": "PMP - Unable to Update Responsible Party for Minor Dependent After Removal From Primary Plan (getting an error )",
@@ -30667,31 +30667,6 @@
    "triage": "",
    "parentKey": "PLANS-20094",
    "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20759",
-   "name": "Smile Health - Zip code search is not fucntioning - 400 error (Missing / in the url)",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-05T06:25:23.476-0500",
-   "resolved": "2026-08-05T10:41:35.544-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
