@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T22:19:28+00:00",
+ "generated_at": "2026-11-03T22:30:24+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2355,6 +2355,34 @@
    "init": "Bug Fix Container"
   },
   {
+   "key": "PLANS-25008",
+   "name": "PT is Unable to Log into Member Portal",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Carmen West",
+   "prio": "2: Important",
+   "created": "2026-11-02T14:56:11.906-0600",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25005",
    "name": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan",
    "pod": "LL",
@@ -2694,34 +2722,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-25008",
-   "name": "PT is Unable to Log into Member Portal",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Carmen West",
-   "prio": "2: Important",
-   "created": "2026-11-02T14:56:11.906-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-24994",
@@ -30839,8 +30839,22 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-25078",
+   "name": "Preprod/SmileHealth/Legacy West is not displayed in the Search Results",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
+  {
+   "key": "PLANS-25077",
+   "name": "Preprod/WFP/Practices for Alpha Dental are not displayed in the practice down",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
+  {
    "key": "PLANS-25063",
-   "name": "Blocker Preprod PMP \\ Manual Renew flow does not display Credit Card Payment Method",
+   "name": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Payment Method",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
