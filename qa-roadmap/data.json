@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T02:00:25+00:00",
+ "generated_at": "2026-11-03T02:15:24+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -5583,7 +5583,7 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.9",
    "sprint": "LL-Sprint 25-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
@@ -5599,13 +5599,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25000",
