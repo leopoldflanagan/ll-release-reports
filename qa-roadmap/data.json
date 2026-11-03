@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T19:35:49+00:00",
+ "generated_at": "2026-11-03T19:45:20+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -30744,8 +30744,15 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-25061",
+   "name": "PMP - BROKEN - Add Member - Add CC / Select CC options not visible in purchase page",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-25060",
-   "name": "BLOCKER Auto Renew Retry \\ Plans that failed for auto renewal are not showing the expected held for renewal status",
+   "name": "Blocker Preprod Auto Renew Retry \\ Plans that failed for auto renewal are not showing the expected held for renewal status",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
