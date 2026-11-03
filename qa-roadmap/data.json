@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T15:49:21+00:00",
+ "generated_at": "2026-11-03T16:00:24+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -5589,7 +5589,7 @@
    "cat": "To Do",
    "fv": "R9.10",
    "sprint": null,
-   "who": "Anuradhi Wickramasinghe",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-11-02T10:29:29.134-0600",
@@ -6955,36 +6955,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24908",
-   "name": "Dial Care Language Update",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-29T11:58:20.801-0500",
-   "resolved": "",
-   "due": "2026-11-03",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24113",
    "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
    "pod": "LL",
@@ -7063,6 +7033,36 @@
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24908",
+   "name": "Dial Care Language Update",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-29T11:58:20.801-0500",
+   "resolved": "",
+   "due": "2026-11-03",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -30647,35 +30647,17 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20734",
-   "name": "Stage - Providers - Purchase Plan - Unable to add dependent member",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Conor Kamperman",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-04T11:57:44.364-0500",
-   "resolved": "2026-08-05T10:52:27.144-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25014",
+   "name": "bug",
+   "status": "WAITING REVIEW",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-24949",
    "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
