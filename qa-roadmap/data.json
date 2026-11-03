@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T23:30:25+00:00",
+ "generated_at": "2026-11-03T23:35:20+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -7043,35 +7043,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24933",
-   "name": "Preprod / STAGE - Phase 3 - Duplicate 'Legacy West Dental' Orgs visible in Preprod / STAGE",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-30T09:46:35.489-0500",
-   "resolved": "",
-   "due": "2026-11-04",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24836",
    "name": "PMP - Broken- Auto Renewal setting is not retained after manual renewal (Auto renew checked at the purchase)",
    "pod": "LL",
@@ -7311,6 +7282,35 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-24933",
+   "name": "Preprod / STAGE - Phase 3 - Duplicate 'Legacy West Dental' Orgs visible in Preprod / STAGE",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-30T09:46:35.489-0500",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24908",
