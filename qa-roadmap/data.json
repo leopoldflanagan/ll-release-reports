@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T21:19:18+00:00",
+ "generated_at": "2026-11-03T21:30:34+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -6983,34 +6983,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24836",
-   "name": "PMP - Broken- Auto Renewal setting is not retained after manual renewal (Auto renew checked at the purchase)",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-27T08:27:26.815-0500",
-   "resolved": "",
-   "due": "2026-11-02",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24113",
    "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
    "pod": "LL",
@@ -7093,6 +7065,34 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24836",
+   "name": "PMP - Broken- Auto Renewal setting is not retained after manual renewal (Auto renew checked at the purchase)",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-27T08:27:26.815-0500",
+   "resolved": "",
+   "due": "2026-11-02",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24585",
@@ -7306,36 +7306,6 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
-  },
-  {
-   "key": "PLANS-25012",
-   "name": "Widget ach-authorization/text rejects ACH for minor-dependent patients",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "2: Important",
-   "created": "2026-11-03T04:10:52.532-0600",
-   "resolved": "",
-   "due": "2026-11-03",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-24995",
@@ -7751,6 +7721,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25012",
+   "name": "Widget ach-authorization/text rejects ACH for minor-dependent patients",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "2: Important",
+   "created": "2026-11-03T04:10:52.532-0600",
+   "resolved": "2026-11-03T15:29:13.270-0600",
+   "due": "2026-11-03",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24993",
    "name": "PreProd-Phase3-Config Issue-Logo is missing for Listed Org in CSP Plan template in Preprod",
@@ -30838,7 +30838,7 @@
   {
    "key": "PLANS-25018",
    "name": "Blocker -Preprod/Provider/Unable to purchase a plan in Provider",
-   "status": "PR Created",
+   "status": "PR Merged",
    "who": "Valentyna Tenus",
    "reporter": "Vivienne Chawande"
   },
