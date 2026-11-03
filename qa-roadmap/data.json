@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T17:35:10+00:00",
+ "generated_at": "2026-11-03T17:45:29+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2338,7 +2338,7 @@
    "prio": "2: Important",
    "created": "2026-11-02T14:19:12.095-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-03",
    "labels": [
     "group3_migration",
     "product_prioritized",
@@ -2367,41 +2367,11 @@
    "prio": "2: Important",
    "created": "2026-11-02T12:23:29.025-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-03",
    "labels": [
     "group3_migration",
     "product_prioritized",
     "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24972",
-   "name": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-02T09:10:14.416-0600",
-   "resolved": "",
-   "due": "2026-11-04",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
@@ -6901,7 +6871,7 @@
    "cat": "In Progress",
    "fv": "R9.9",
    "sprint": "LL-Sprint 25-26",
-   "who": "Ivan Yarymovych",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-10-30T10:30:24.340-0500",
@@ -7064,6 +7034,36 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-24972",
+   "name": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-02T09:10:14.416-0600",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24836",
@@ -7401,7 +7401,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.9",
-   "sprint": null,
+   "sprint": "LL-Sprint 25-26",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -7483,35 +7483,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24801",
-   "name": "Euler CSP Setting",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Petro Yarish",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-10-26T11:19:17.452-0500",
-   "resolved": "",
-   "due": "2026-10-28",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-25014",
@@ -7809,6 +7780,35 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24801",
+   "name": "Euler CSP Setting",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Petro Yarish",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-10-26T11:19:17.452-0500",
+   "resolved": "2026-11-03T11:44:56.549-0600",
+   "due": "2026-10-28",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24904",
    "name": "PMP - 'Remove primary contact' button is visible for minor dependents under an adult primary plan and displays a misleading message / Remove not working",
