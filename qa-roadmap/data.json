@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T21:00:28+00:00",
+ "generated_at": "2026-11-03T21:08:49+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -7367,36 +7367,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25001",
-   "name": "CSP - Plan Upgrade Completes Despite Voided Transaction",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-02T13:27:04.864-0600",
-   "resolved": "",
-   "due": "2026-11-04",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24995",
    "name": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitations",
    "pod": "LL",
@@ -7810,6 +7780,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25001",
+   "name": "CSP - Plan Upgrade Completes Despite Voided Transaction",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-02T13:27:04.864-0600",
+   "resolved": "2026-11-03T15:05:52.304-0600",
+   "due": "2026-11-04",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24972",
    "name": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan",
