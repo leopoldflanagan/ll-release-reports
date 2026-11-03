@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T16:35:37+00:00",
+ "generated_at": "2026-11-03T16:45:28+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -6754,36 +6754,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25012",
-   "name": "Widget ach-authorization/text rejects ACH for minor-dependent patients",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "2: Important",
-   "created": "2026-11-03T04:10:52.532-0600",
-   "resolved": "",
-   "due": "2026-11-03",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25001",
    "name": "CSP - Plan Upgrade Completes Despite Voided Transaction",
    "pod": "LL",
@@ -6832,36 +6802,6 @@
     "group2_migration",
     "group3_migration",
     "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24995",
-   "name": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitations",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-11-02T12:35:55.731-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
    ],
    "theme": "",
    "triage": "",
@@ -7012,6 +6952,66 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25012",
+   "name": "Widget ach-authorization/text rejects ACH for minor-dependent patients",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "2: Important",
+   "created": "2026-11-03T04:10:52.532-0600",
+   "resolved": "",
+   "due": "2026-11-03",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24995",
+   "name": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitations",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-11-02T12:35:55.731-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24972",
@@ -30656,6 +30656,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25018",
+   "name": "Preprod/Provider/Unable to purchase a plan in Provider",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande"
+  },
   {
    "key": "PLANS-24949",
    "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
