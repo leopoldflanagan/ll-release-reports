@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T13:10:33+00:00",
+ "generated_at": "2026-11-03T13:15:24+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2424,6 +2424,36 @@
     "group3_migration",
     "product_prioritized",
     "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24972",
+   "name": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-02T09:10:14.416-0600",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
@@ -5673,36 +5703,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-11-02T10:29:29.134-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24972",
-   "name": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-02T09:10:14.416-0600",
    "resolved": "",
    "due": "",
    "labels": [
