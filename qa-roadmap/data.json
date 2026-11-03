@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T21:30:34+00:00",
+ "generated_at": "2026-11-03T21:35:40+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2325,6 +2325,35 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-25022",
+   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-03T11:11:21.552-0600",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-25005",
    "name": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan",
@@ -5637,35 +5666,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-25022",
-   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-03T11:11:21.552-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-25000",
