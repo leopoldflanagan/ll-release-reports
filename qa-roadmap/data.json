@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T09:45:23+00:00",
+ "generated_at": "2026-11-03T10:00:36+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2347,6 +2347,35 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-25005",
+   "name": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-11-02T14:19:12.095-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-25001",
    "name": "CSP - Plan Upgrade Completes Despite Voided Transaction",
@@ -5579,35 +5608,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25005",
-   "name": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-11-02T14:19:12.095-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-25000",
    "name": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans under \"Self-Cured\"",
    "pod": "PLANS",
@@ -5675,7 +5675,7 @@
    "cat": "To Do",
    "fv": "R9.9",
    "sprint": "LL-Sprint 25-26",
-   "who": "Unassigned",
+   "who": "Nazarii Polinyk",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-11-02T12:23:29.025-0600",
@@ -7022,7 +7022,7 @@
    "prio": "2: Important",
    "created": "2026-10-29T11:58:20.801-0500",
    "resolved": "",
-   "due": "2026-11-02",
+   "due": "2026-11-03",
    "labels": [
     "group1_migration",
     "group2_migration",
