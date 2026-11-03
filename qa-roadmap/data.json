@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T18:49:30+00:00",
+ "generated_at": "2026-11-03T19:00:50+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -30713,6 +30713,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25033",
+   "name": "Preprod and Stage-PMP-Primary Contact not added after adding it for Minor plan in PMP",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-25018",
    "name": "Blocker -Preprod/Provider/Unable to purchase a plan in Provider",
