@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T16:49:25+00:00",
+ "generated_at": "2026-11-03T17:00:28+00:00",
  "today": "2026-11-03",
  "features": [
   {
@@ -2372,6 +2372,36 @@
     "group3_migration",
     "product_prioritized",
     "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24972",
+   "name": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-02T09:10:14.416-0600",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
@@ -7002,36 +7032,6 @@
     "group3_migration",
     "product_prioritized",
     "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24972",
-   "name": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-02T09:10:14.416-0600",
-   "resolved": "",
-   "due": "2026-11-04",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
@@ -30656,6 +30656,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25019",
+   "name": "PMP - Wallet QR - When scan QR code system doesnt ask for member portal login just downloaded the membership card to wallet",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-25018",
    "name": "Blocker -Preprod/Provider/Unable to purchase a plan in Provider",
