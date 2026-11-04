@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T16:35:29+00:00",
+ "generated_at": "2026-11-04T16:45:23+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -790,17 +790,6 @@
    "who": "Valentyna Tenus",
    "tshirt": null,
    "pod": "LL",
-   "theme": ""
-  },
-  {
-   "key": "WT-1273",
-   "name": "Legal language on footer",
-   "status": "Backlog",
-   "ted": null,
-   "fv": null,
-   "who": "Obie Khandaker",
-   "tshirt": null,
-   "pod": "PLANS",
    "theme": ""
   },
   {
@@ -1892,17 +1881,6 @@
    "fv": "R10.01",
    "ted": "2026-11-11",
    "who": "Valentyna Tenus",
-   "theme": ""
-  },
-  {
-   "key": "WT-1273",
-   "name": "Legal language on footer",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "Backlog",
-   "fv": null,
-   "ted": null,
-   "who": "Obie Khandaker",
    "theme": ""
   },
   {
