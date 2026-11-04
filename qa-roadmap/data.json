@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T21:30:22+00:00",
+ "generated_at": "2026-11-04T21:35:36+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -7135,34 +7135,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-16901",
-   "name": "Member Portal - Contact Information is empty after verifying email address",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-05-27T14:27:34.927-0500",
-   "resolved": "",
-   "due": "2026-11-02",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24568",
    "name": "PMP-Stage-\"Add Primary Contact” option shows for a minor (Minor 2) who already has a primary contact",
    "pod": "LL",
@@ -7433,6 +7405,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-16901",
+   "name": "Member Portal - Contact Information is empty after verifying email address",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Mireya Alvarez",
+   "prio": "2: Important",
+   "created": "2026-05-27T14:27:34.927-0500",
+   "resolved": "2026-11-04T15:30:32.415-0600",
+   "due": "2026-11-02",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24879",
    "name": "Stage/PMP/Primary member email is populated for the minor",
@@ -30570,33 +30570,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-20401",
-   "name": "PMP \\ Membership Agreement form on plan purchase shows wrong title on closed network configuration",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mariano Hernández",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-07-29T02:13:29.599-0500",
-   "resolved": "2026-08-06T16:35:13.163-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
