@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T18:35:41+00:00",
+ "generated_at": "2026-11-04T18:45:23+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -2303,35 +2303,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25005",
-   "name": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-11-02T14:19:12.095-0600",
-   "resolved": "",
-   "due": "2026-11-04",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24949",
    "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
@@ -7582,6 +7553,35 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25005",
+   "name": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-11-02T14:19:12.095-0600",
+   "resolved": "2026-11-04T12:41:07.638-0600",
+   "due": "2026-11-04",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-25080",
    "name": "STAGE /Preprod - CSP - Duplicate Legacy West Orgs visible in Practices/Regions",
