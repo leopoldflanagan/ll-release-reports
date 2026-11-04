@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T21:35:36+00:00",
+ "generated_at": "2026-11-04T21:45:22+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -30543,33 +30543,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20301",
-   "name": "Smile Health, DCA/Practice search Pop-up/No Results text does not match text in user story",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vivienne Chawande",
-   "prio": "4: Low",
-   "created": "2026-07-24T19:34:59.112-0500",
-   "resolved": "2026-08-06T16:42:51.924-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-16843",
-   "parentName": "[Practice Selection] Epic 4 — Purchase Widget Bootstrap & Flow Router",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
