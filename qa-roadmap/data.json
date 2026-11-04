@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T18:49:21+00:00",
+ "generated_at": "2026-11-04T19:00:27+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -7105,36 +7105,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-25033",
-   "name": "Stage- PMP-Primary Contact Missing after adding it for Minor plan in PMP",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-11-03T12:55:57.489-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24995",
    "name": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitations",
    "pod": "LL",
@@ -7553,6 +7523,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25033",
+   "name": "Stage- PMP-Primary Contact Missing after adding it for Minor plan in PMP",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Conor Kamperman",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-11-03T12:55:57.489-0600",
+   "resolved": "2026-11-04T12:56:30.775-0600",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-25005",
    "name": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan",
@@ -30692,33 +30692,6 @@
    "prio": "3: Standard",
    "created": "2026-07-29T15:10:27.293-0500",
    "resolved": "2026-08-06T14:31:18.601-0500",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20540",
-   "name": "[PMP]-Phone number filed has no longitude validation",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mariano Hernández",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-29T14:51:55.800-0500",
-   "resolved": "2026-08-06T13:59:41.635-0500",
    "due": "",
    "labels": [
     "plans"
