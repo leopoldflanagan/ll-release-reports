@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T17:19:27+00:00",
+ "generated_at": "2026-11-04T17:30:24+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -30758,31 +30758,6 @@
    "triage": "",
    "parentKey": "PLANS-21311",
    "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-12776",
-   "name": "- Plan Confirmation receipt \\ missing email for Primary Contact purchasing SGDP Kids plan via Member Portal",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "David Jones",
-   "reporter": "Luis Moreno",
-   "prio": "2: Important",
-   "created": "2026-03-16T09:49:40.433-0500",
-   "resolved": "2026-08-06T12:28:43.625-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-13306",
-   "parentName": "Member portal bugs bucket",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
