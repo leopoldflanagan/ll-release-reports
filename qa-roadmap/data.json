@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T20:19:45+00:00",
+ "generated_at": "2026-11-04T20:30:24+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -7169,7 +7169,7 @@
    "status": "WAITING REVIEW",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "LL-Sprint 25-26",
    "who": "Anuradhi Wickramasinghe",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -7184,13 +7184,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24568",
@@ -7858,6 +7858,33 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25078",
+   "name": "Preprod/SmileHealth/Legacy West is not displayed in the Search Results",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-11-03T16:22:32.182-0600",
+   "resolved": "2026-11-03T17:43:05.813-0600",
+   "due": "",
+   "labels": [
+    "wave-3"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-25061",
