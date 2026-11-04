@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T17:49:27+00:00",
+ "generated_at": "2026-11-04T18:00:56+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -2333,35 +2333,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24937",
-   "name": "Phase 3- Preprod/STAGE - Legacy West Dental - Offices not visible on Smile health (Wesbite visibility is ON in CSP)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Chris Rubio",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-30T10:30:24.340-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24812",
    "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
    "pod": "LL",
@@ -2500,6 +2471,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25096",
+   "name": "PMP - Ad hoc- ADD PLAN Shows No Available Plans , member has to use ADD MEMBER flow (flow changed)",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-04T11:38:03.164-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-25088",
@@ -7612,6 +7608,31 @@
  ],
  "bugs_closed": [
   {
+   "key": "PLANS-25018",
+   "name": "Blocker -Preprod/Provider/Unable to purchase a plan in Provider",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-11-03T10:45:20.660-0600",
+   "resolved": "2026-11-04T11:55:31.984-0600",
+   "due": "2026-11-03",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
    "key": "PLANS-24903",
    "name": "Plan Details PDF - Phase 3 - Essential Smile/ Legacy West Dental - Incorrect Auto Renewal disclaimer text displayed",
    "pod": "LL",
@@ -7769,6 +7790,35 @@
    "created": "2026-10-30T09:46:35.489-0500",
    "resolved": "2026-11-04T07:54:24.752-0600",
    "due": "2026-11-05",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24937",
+   "name": "Phase 3- Preprod/STAGE - Legacy West Dental - Offices not visible on Smile health (Wesbite visibility is ON in CSP)",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Chris Rubio",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-30T10:30:24.340-0500",
+   "resolved": "2026-11-03T17:54:42.212-0600",
+   "due": "",
    "labels": [
     "group3_migration",
     "product_prioritized",
@@ -30741,13 +30791,6 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-25096",
-   "name": "PMP - Ad hoc- ADD PLAN Shows No Available Plans , member has to use ADD MEMBER flow",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
    "key": "PLANS-25092",
    "name": "STAGE ONLY - 'Euler Family Dental' not visible in PMP",
    "status": "Backlog",
@@ -30760,13 +30803,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-25018",
-   "name": "Blocker -Preprod/Provider/Unable to purchase a plan in Provider",
-   "status": "In Stage",
-   "who": "Valentyna Tenus",
-   "reporter": "Vivienne Chawande"
   },
   {
    "key": "PLANS-24854",
