@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T15:20:51+00:00",
+ "generated_at": "2026-11-04T15:30:25+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -2579,6 +2579,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25088",
+   "name": "PMP - Auto-Renewal Enabled Without Payment Method for Additional Member Plan added during Add Plan Flow",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-04T09:05:12.049-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-25085",
@@ -30786,13 +30811,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25088",
-   "name": "PMP - Auto renewal enabled without a payment method for members added while renewing a plan",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-25077",
    "name": "Preprod/WFP/Practices for Alpha Dental are not displayed in the practice down",
