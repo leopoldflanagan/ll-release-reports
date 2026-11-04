@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T15:45:21+00:00",
+ "generated_at": "2026-11-04T15:49:23+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -2326,35 +2326,6 @@
  ],
  "bugs": [
   {
-   "key": "PLANS-25022",
-   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-03T11:11:21.552-0600",
-   "resolved": "",
-   "due": "2026-11-04",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-25005",
    "name": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan",
    "pod": "LL",
@@ -2638,7 +2609,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Claro Briones",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-11-03T17:56:22.726-0600",
@@ -7747,6 +7718,35 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25022",
+   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-03T11:11:21.552-0600",
+   "resolved": "2026-11-04T09:48:12.817-0600",
+   "due": "2026-11-04",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-24933",
    "name": "Preprod / STAGE - Phase 3 - Duplicate 'Legacy West Dental' Orgs visible in Preprod / STAGE",
