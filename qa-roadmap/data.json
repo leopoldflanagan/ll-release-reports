@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T20:49:21+00:00",
+ "generated_at": "2026-11-04T21:00:34+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -30676,33 +30676,6 @@
    "linkedLP": false,
    "initKey": "WT-127",
    "init": "Mobile Support Member Portal"
-  },
-  {
-   "key": "PLANS-20668",
-   "name": "(Enhanment) - Dental365 | Confort Dental - Increase practice logo size on Purchase and Success pages",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mireya Alvarez",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-07-31T12:09:27.804-0500",
-   "resolved": "2026-08-06T15:50:31.851-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
