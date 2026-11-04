@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T15:30:25+00:00",
+ "generated_at": "2026-11-04T15:35:51+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -30814,8 +30814,8 @@
   {
    "key": "PLANS-25077",
    "name": "Preprod/WFP/Practices for Alpha Dental are not displayed in the practice down",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "WAITING REVIEW",
+   "who": "Daniel Marineni",
    "reporter": "Vivienne Chawande"
   },
   {
@@ -30828,7 +30828,7 @@
   {
    "key": "PLANS-25018",
    "name": "Blocker -Preprod/Provider/Unable to purchase a plan in Provider",
-   "status": "PR Merged",
+   "status": "In Stage",
    "who": "Valentyna Tenus",
    "reporter": "Vivienne Chawande"
   },
