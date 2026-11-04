@@ -1,6 +1,6 @@
 {
  "schema": 4,
- "updated_at": "2026-11-04T10:15:24+00:00",
+ "updated_at": "2026-11-04T10:45:24+00:00",
  "teams": [
   "LL",
   "PLANS"
@@ -725,7 +725,7 @@
       "other": 0
      },
      "ttr_days": {},
-     "work_items": 0,
+     "work_items": 4,
      "features": 9,
      "sizes": {
       "Small": 5,
