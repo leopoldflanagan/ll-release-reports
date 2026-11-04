@@ -1,6 +1,6 @@
 {
  "schema": 4,
- "updated_at": "2026-11-03T23:49:18+00:00",
+ "updated_at": "2026-11-04T00:00:36+00:00",
  "teams": [
   "LL",
   "PLANS"
@@ -566,24 +566,24 @@
   "R9.8": {
    "start": "2026-10-07",
    "end": "2026-11-04",
-   "closed": false,
+   "closed": true,
    "teams_measured": [
     "LL",
     "PLANS"
    ],
-   "measured_at": "2026-11-03",
+   "measured_at": "2026-11-04",
    "teams": {
     "LL": {
      "reported": {
       "1": 19,
       "2": 65,
-      "3": 78,
+      "3": 79,
       "4": 2,
       "other": 0
      },
      "resolved": {
       "1": 28,
-      "2": 71,
+      "2": 72,
       "3": 41,
       "4": 2,
       "other": 0
@@ -595,7 +595,7 @@
        "p90": 21
       },
       "2": {
-       "n": 71,
+       "n": 72,
        "median": 6,
        "p90": 46
       },
@@ -624,14 +624,14 @@
        "2026-10-12": 45,
        "2026-10-19": 31,
        "2026-10-26": 44,
-       "2026-11-02": 13
+       "2026-11-02": 14
       },
       "resolved": {
        "2026-10-05": 25,
        "2026-10-12": 50,
        "2026-10-19": 26,
        "2026-10-26": 25,
-       "2026-11-02": 16
+       "2026-11-02": 17
       }
      }
     },
@@ -695,6 +695,76 @@
        "2026-10-26": 9,
        "2026-11-02": 7
       }
+     }
+    }
+   }
+  },
+  "R9.9": {
+   "start": "2026-11-04",
+   "end": "2026-12-02",
+   "closed": false,
+   "teams_measured": [
+    "LL",
+    "PLANS"
+   ],
+   "measured_at": "2026-11-04",
+   "teams": {
+    "LL": {
+     "reported": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "other": 0
+     },
+     "resolved": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "other": 0
+     },
+     "ttr_days": {},
+     "work_items": 0,
+     "features": 9,
+     "sizes": {
+      "Small": 5,
+      "Large": 2,
+      "Moderate": 2
+     },
+     "size_points": 26,
+     "sized_features": 9,
+     "weeks": {
+      "reported": {},
+      "resolved": {}
+     }
+    },
+    "PLANS": {
+     "reported": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "other": 0
+     },
+     "resolved": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "other": 0
+     },
+     "ttr_days": {},
+     "work_items": 0,
+     "features": 7,
+     "sizes": {
+      "Moderate": 7
+     },
+     "size_points": 21,
+     "sized_features": 7,
+     "weeks": {
+      "reported": {},
+      "resolved": {}
      }
     }
    }

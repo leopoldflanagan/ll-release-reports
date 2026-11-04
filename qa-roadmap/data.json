@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T23:49:15+00:00",
- "today": "2026-11-03",
+ "generated_at": "2026-11-04T00:00:28+00:00",
+ "today": "2026-11-04",
  "features": [
   {
    "key": "WT-1021",
@@ -2696,6 +2696,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25080",
+   "name": "STAGE /Preprod - CSP - Duplicate Legacy West Orgs visible in Practices/Regions",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-03T17:56:22.726-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-25062",
@@ -7043,35 +7068,6 @@
    "init": "Bug Fix Container"
   },
   {
-   "key": "PLANS-24937",
-   "name": "PLANS-24937: Phase 3- Preprod/STAGE - Legacy West Dental - Offices not visible on Smile health (Wesbite visibility is ON in CSP)",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-30T10:30:24.340-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24836",
    "name": "PMP - Broken- Auto Renewal setting is not retained after manual renewal (Auto renew checked at the purchase)",
    "pod": "LL",
@@ -7701,6 +7697,35 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24937",
+   "name": "PLANS-24937: Phase 3- Preprod/STAGE - Legacy West Dental - Offices not visible on Smile health (Wesbite visibility is ON in CSP)",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-30T10:30:24.340-0500",
+   "resolved": "2026-11-03T17:54:42.212-0600",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-25061",
    "name": "PMP - BROKEN - Add Member - Add CC / Select CC options not visible in purchase page (STAGE)",
