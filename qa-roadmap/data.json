@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T21:00:34+00:00",
+ "generated_at": "2026-11-04T21:08:29+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -30651,31 +30651,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-5833",
-   "name": "V3 Member \\ Add New Member to Plan \\ Wrong Error Message Displayed For Invalid Phone Number",
-   "pod": "PLANS",
-   "status": "Ready Prod",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Luis Moreno",
-   "prio": "4: Low",
-   "created": "2025-04-15T12:30:54.145-0500",
-   "resolved": "2026-08-06T16:07:28.934-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-6055",
-   "parentName": "Member Portal Bug Fixes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-127",
-   "init": "Mobile Support Member Portal"
   }
  ],
  "closed_days": 90,
