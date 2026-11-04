@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T12:30:29+00:00",
+ "generated_at": "2026-11-04T12:38:20+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -2382,6 +2382,35 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24934",
+   "name": "Preprod / STAGE - Phase 3 - Euler Family Dental Org & practices not visible.",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "1: Urgent",
+   "created": "2026-10-30T09:49:17.571-0500",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24847",
@@ -5786,35 +5815,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-24934",
-   "name": "Preprod / STAGE - Phase 3 - Euler Family Dental Org & practices not visible.",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-10-30T09:49:17.571-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-24929",
