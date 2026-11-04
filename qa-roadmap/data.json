@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T19:30:29+00:00",
+ "generated_at": "2026-11-04T19:35:55+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -7804,6 +7804,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25084",
+   "name": "Preprod - Euler - Purchase failed with a 400 error (The captcha is empty or invalid.)",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-04T07:23:03.714-0600",
+   "resolved": "2026-11-04T07:42:53.911-0600",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24937",
@@ -30723,33 +30748,6 @@
    "triage": "",
    "parentKey": "PLANS-18470",
    "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20541",
-   "name": "[PMP] - Misalignment in the membership agreement section",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mariano Hernández",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-29T15:10:27.293-0500",
-   "resolved": "2026-08-06T14:31:18.601-0500",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
