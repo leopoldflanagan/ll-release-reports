@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T13:19:24+00:00",
+ "generated_at": "2026-11-04T13:30:21+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -30786,6 +30786,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25084",
+   "name": "Preprod - Euler - Purchase failed with a 400 error (The captcha is empty or invalid.)",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-25077",
    "name": "Preprod/WFP/Practices for Alpha Dental are not displayed in the practice down",
