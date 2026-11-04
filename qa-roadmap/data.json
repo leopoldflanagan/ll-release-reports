@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T15:49:23+00:00",
+ "generated_at": "2026-11-04T16:00:24+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -6827,36 +6827,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24945",
-   "name": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-10-30T11:47:18.666-0500",
-   "resolved": "",
-   "due": "2026-11-04",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24113",
    "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
    "pod": "LL",
@@ -6969,6 +6939,36 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24945",
+   "name": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-10-30T11:47:18.666-0500",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24836",
@@ -7273,7 +7273,7 @@
   },
   {
    "key": "PLANS-24937",
-   "name": "PLANS-24937: Phase 3- Preprod/STAGE - Legacy West Dental - Offices not visible on Smile health (Wesbite visibility is ON in CSP)",
+   "name": "Phase 3- Preprod/STAGE - Legacy West Dental - Offices not visible on Smile health (Wesbite visibility is ON in CSP)",
    "pod": "LL",
    "status": "In Stage",
    "cat": "In Progress",
