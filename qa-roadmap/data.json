@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T15:11:03+00:00",
+ "generated_at": "2026-11-04T15:20:51+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -5813,35 +5813,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24936",
-   "name": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card and Smile health",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.9",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Daniel Marineni",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-30T10:17:21.727-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24929",
    "name": "Member Portal \\ Payment method is missing from Transactions section after plan renewal that failed after Auto-Renewal retries",
    "pod": "PLANS",
@@ -7440,6 +7411,35 @@
     "group2_migration",
     "group3_migration",
     "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-24936",
+   "name": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card and Smile health",
+   "pod": "PLANS",
+   "status": "WAITING REVIEW",
+   "cat": "In Progress",
+   "fv": "R9.9",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Daniel Marineni",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-30T10:17:21.727-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
    ],
    "theme": "",
    "triage": "",
@@ -30788,7 +30788,7 @@
  "nopod": [
   {
    "key": "PLANS-25088",
-   "name": "PMP - bug",
+   "name": "PMP - Auto renewal enabled without a payment method for members added while renewing a plan",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
