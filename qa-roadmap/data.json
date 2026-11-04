@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T18:30:22+00:00",
+ "generated_at": "2026-11-04T18:35:41+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -30727,33 +30727,6 @@
    "triage": "",
    "parentKey": "PLANS-20094",
    "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20643",
-   "name": "Member Portal QA - [DCA PLAN] Branding logo is broken",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Clint Tredway",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-07-30T17:44:08.075-0500",
-   "resolved": "2026-08-06T13:32:37.547-0500",
-   "due": "",
-   "labels": [
-    "plans"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
