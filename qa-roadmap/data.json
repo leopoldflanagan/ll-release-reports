@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T19:00:27+00:00",
+ "generated_at": "2026-11-04T19:07:52+00:00",
  "today": "2026-11-04",
  "features": [
   {
@@ -6839,7 +6839,7 @@
    "pod": "LL",
    "status": "PR Merged",
    "cat": "In Progress",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "sprint": "LL-Sprint 25-26",
    "who": "Valentyna Tenus",
    "reporter": "Vinita Thankur",
@@ -7103,36 +7103,6 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
-  },
-  {
-   "key": "PLANS-24995",
-   "name": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitations",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.9",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-11-02T12:35:55.731-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24908",
@@ -7523,6 +7493,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24995",
+   "name": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitations",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-11-02T12:35:55.731-0600",
+   "resolved": "2026-11-04T13:00:32.929-0600",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
   {
    "key": "PLANS-25033",
    "name": "Stage- PMP-Primary Contact Missing after adding it for Minor plan in PMP",
