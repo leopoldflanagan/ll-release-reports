@@ -1,6 +1,6 @@
 {
  "schema": 4,
- "updated_at": "2026-11-04T13:45:25+00:00",
+ "updated_at": "2026-11-04T13:49:29+00:00",
  "teams": [
   "LL",
   "PLANS"
@@ -743,7 +743,7 @@
      "reported": {
       "1": 0,
       "2": 0,
-      "3": 0,
+      "3": 1,
       "4": 0,
       "other": 0
      },
@@ -763,7 +763,9 @@
      "size_points": 21,
      "sized_features": 7,
      "weeks": {
-      "reported": {},
+      "reported": {
+       "2026-11-02": 1
+      },
       "resolved": {}
      }
     }
