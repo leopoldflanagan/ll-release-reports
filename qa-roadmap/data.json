@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:35:00+00:00",
+ "generated_at": "2026-11-05T17:45:23+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -60,7 +60,7 @@
    "key": "WT-974",
    "name": "Payment wallet and plans enhancement - Member portal",
    "status": "In Testing",
-   "ted": "2026-11-06",
+   "ted": "2026-11-13",
    "fv": "R9.10",
    "who": "Valentyna Tenus",
    "tshirt": "Moderate"
@@ -334,7 +334,7 @@
    "key": "WT-974",
    "name": "Payment wallet and plans enhancement - Member portal",
    "status": "In Testing",
-   "ted": "2026-11-06",
+   "ted": "2026-11-13",
    "fv": "R9.10",
    "who": "Valentyna Tenus",
    "tshirt": "Moderate",
@@ -1395,7 +1395,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-11-06",
+   "ted": "2026-11-13",
    "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
