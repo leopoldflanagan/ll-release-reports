@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:00:26+00:00",
+ "generated_at": "2026-11-05T17:09:33+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -15,7 +15,7 @@
    "key": "WT-1032",
    "name": "Unify Purchase Into NPM Package",
    "status": "In Development",
-   "ted": "2026-10-29",
+   "ted": null,
    "fv": "R9.10",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
@@ -158,7 +158,7 @@
    "key": "WT-1032",
    "name": "Unify Purchase Into NPM Package",
    "status": "In Development",
-   "ted": "2026-10-29",
+   "ted": null,
    "fv": "R9.10",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
@@ -1219,7 +1219,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": "2026-10-29",
+   "ted": null,
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
@@ -30349,7 +30349,7 @@
   {
    "key": "PLANS-25117",
    "name": "Preprod - ACH and CC Auto renewal didn't process ( Euler /Legacy West Dental)",
-   "status": "PR Created",
+   "status": "In Stage",
    "who": "David Jones",
    "reporter": "Anuradhi Wickramasinghe"
   },
