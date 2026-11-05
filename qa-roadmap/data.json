@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T06:00:24+00:00",
+ "generated_at": "2026-11-05T06:15:19+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -5821,7 +5821,7 @@
    "cat": "To Do",
    "fv": "R9.10",
    "sprint": "LL - Low Prior Bugs",
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
    "created": "2026-10-28T21:52:13.748-0500",
