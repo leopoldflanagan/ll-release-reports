@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T15:49:20+00:00",
+ "generated_at": "2026-11-05T16:00:28+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -6710,36 +6710,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24996",
-   "name": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Primary Member",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-11-02T12:59:25.061-0600",
-   "resolved": "",
-   "due": "2026-11-05",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
    "key": "PLANS-24945",
    "name": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
    "pod": "LL",
@@ -7037,6 +7007,36 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-24996",
+   "name": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Primary Member",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-11-02T12:59:25.061-0600",
+   "resolved": "",
+   "due": "2026-11-05",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-24568",
