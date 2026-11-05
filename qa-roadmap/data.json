@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T20:30:37+00:00",
+ "generated_at": "2026-11-05T20:35:25+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -568,17 +568,6 @@
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate",
    "pod": "LL",
-   "theme": ""
-  },
-  {
-   "key": "WT-1043",
-   "name": "CREG Enrollment Feed",
-   "status": "In Testing",
-   "ted": "2026-11-02",
-   "fv": "R9.9",
-   "who": "Daniel Marineni",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
    "theme": ""
   },
   {
@@ -1626,17 +1615,6 @@
    "fv": "R9.10",
    "ted": "2026-11-13",
    "who": "Nazarii Polinyk",
-   "theme": ""
-  },
-  {
-   "key": "WT-1043",
-   "name": "CREG Enrollment Feed",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.9",
-   "ted": "2026-11-02",
-   "who": "Daniel Marineni",
    "theme": ""
   },
   {
