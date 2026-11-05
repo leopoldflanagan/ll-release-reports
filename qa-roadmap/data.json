@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:15:20+00:00",
+ "generated_at": "2026-11-05T17:19:30+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -6987,7 +6987,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans-Sprint 25-26",
    "who": "Denys Kernychnyi",
    "reporter": "Luis Moreno Soberón",
    "prio": "2: Important",
@@ -7017,7 +7017,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans-Sprint 25-26",
    "who": "Sailaja Yanamandra",
    "reporter": "Vivienne Chawande",
    "prio": "2: Important",
