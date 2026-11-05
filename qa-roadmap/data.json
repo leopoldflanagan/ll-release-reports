@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T04:30:22+00:00",
+ "generated_at": "2026-11-05T04:45:17+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -1015,17 +1015,6 @@
   {
    "key": "WT-797",
    "name": "PMP Multi-Plan Ownership",
-   "status": "Backlog",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": null,
-   "pod": "PLANS",
-   "theme": ""
-  },
-  {
-   "key": "WT-812",
-   "name": "Plans Bill to Office",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -2084,17 +2073,6 @@
   {
    "key": "WT-797",
    "name": "PMP Multi-Plan Ownership",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "Backlog",
-   "fv": null,
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
-  },
-  {
-   "key": "WT-812",
-   "name": "Plans Bill to Office",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
