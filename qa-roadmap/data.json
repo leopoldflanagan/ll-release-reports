@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T15:19:39+00:00",
+ "generated_at": "2026-11-05T15:30:23+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -2438,7 +2438,7 @@
   },
   {
    "key": "PLANS-25096",
-   "name": "PMP - Ad hoc- ADD PLAN Shows No Available Plans , member has to use ADD MEMBER flow (flow changed)",
+   "name": "Member Portal - Ad hoc- ADD PLAN Shows No Available Plans , member has to use ADD MEMBER flow (flow changed)",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
