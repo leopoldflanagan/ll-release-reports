@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T04:15:19+00:00",
+ "generated_at": "2026-11-05T04:30:22+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -877,17 +877,6 @@
    "fv": null,
    "who": "Vic Du Plessis",
    "tshirt": "Moderate",
-   "pod": "PLANS",
-   "theme": ""
-  },
-  {
-   "key": "WT-766",
-   "name": "Subscription Purchases inside of Plans",
-   "status": "Ready for Development",
-   "ted": null,
-   "fv": null,
-   "who": "Unassigned",
-   "tshirt": "X-Large",
    "pod": "PLANS",
    "theme": ""
   },
@@ -1961,17 +1950,6 @@
    "theme": ""
   },
   {
-   "key": "WT-766",
-   "name": "Subscription Purchases inside of Plans",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "Ready for Development",
-   "fv": null,
-   "ted": null,
-   "who": "Unassigned",
-   "theme": ""
-  },
-  {
    "key": "WT-768",
    "name": "DSO Plan Payment Feature",
    "pod": "PLANS",
@@ -2294,7 +2272,7 @@
    "prio": "2: Important",
    "created": "2026-11-03T09:53:11.129-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-05",
    "labels": [
     "group1_migration",
     "group2_migration",
