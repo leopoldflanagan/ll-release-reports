@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T16:15:33+00:00",
+ "generated_at": "2026-11-05T16:24:38+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -7329,6 +7329,31 @@
     "group3_migration",
     "product_prioritized"
    ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-25102",
+   "name": "STG Preprod PMP \\ Active plan displays future plan's end date after manual renewal",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.9",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-11-04T16:40:37.333-0600",
+   "resolved": "2026-11-04T17:08:43.071-0600",
+   "due": "",
+   "labels": [],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-22414",
