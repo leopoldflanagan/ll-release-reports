@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T15:00:26+00:00",
+ "generated_at": "2026-11-05T15:10:24+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -2463,7 +2463,7 @@
   },
   {
    "key": "PLANS-25088",
-   "name": "PMP - Auto-Renewal Enabled Without Payment Method for Additional Member Plan added during Add Plan Flow",
+   "name": "PMP - Auto-Renewal Enabled Without Payment Method for Additional Member Plan added during Add Plan Flow/Renewal flow",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
