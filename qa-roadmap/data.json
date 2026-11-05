@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:30:27+00:00",
+ "generated_at": "2026-11-05T17:35:00+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -2341,34 +2341,6 @@
     "product_prioritized"
    ],
    "theme": "ACH-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21605",
-   "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Shchekochykhin Vladyslav",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-08-19T20:10:18.244-0500",
-   "resolved": "",
-   "due": "2026-08-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "LL - Low Prior Bugs",
@@ -6568,6 +6540,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-21605",
+   "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-19T20:10:18.244-0500",
+   "resolved": "",
+   "due": "2026-08-21",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "LL - Low Prior Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-21015",
    "name": "Retest/Member Portal/Benefit Status for used benefits is not displayed in Benefit Summaries",
    "pod": "LL",
@@ -6594,6 +6594,34 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25022",
+   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-03T11:11:21.552-0600",
+   "resolved": "",
+   "due": "2026-11-04",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22414",
+   "parentName": "Plans 9.9 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-25014",
@@ -7695,34 +7723,6 @@
     "group3_migration",
     "product_prioritized",
     "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22414",
-   "parentName": "Plans 9.9 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-25022",
-   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
-   "pod": "LL",
-   "status": "Ready Prod",
-   "cat": "Done",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-03T11:11:21.552-0600",
-   "resolved": "2026-11-04T09:48:12.817-0600",
-   "due": "2026-11-04",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
@@ -30284,34 +30284,6 @@
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20614",
-   "name": "CSP - Blocker - Restriction Banner Not Displayed on Member Profile After Plan Cancellation (All portals)",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.6",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-30T12:32:52.186-0500",
-   "resolved": "2026-08-07T12:34:41.309-0500",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "LL - Low Prior Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
    "initKey": "",
    "init": ""
   }
