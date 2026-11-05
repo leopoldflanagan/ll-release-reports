@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T16:35:43+00:00",
+ "generated_at": "2026-11-05T16:45:24+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -59,7 +59,7 @@
   {
    "key": "WT-974",
    "name": "Payment wallet and plans enhancement - Member portal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-11-06",
    "fv": "R9.10",
    "who": "Valentyna Tenus",
@@ -333,7 +333,7 @@
   {
    "key": "WT-974",
    "name": "Payment wallet and plans enhancement - Member portal",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-11-06",
    "fv": "R9.10",
    "who": "Valentyna Tenus",
@@ -686,7 +686,7 @@
    "key": "WT-1191",
    "name": "Marketing Details - fee schedule",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-11-09",
    "fv": null,
    "who": "Valentyna Tenus",
    "tshirt": null,
@@ -1393,7 +1393,7 @@
    "name": "Payment wallet and plans enhancement - Member portal",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.10",
    "ted": "2026-11-06",
    "who": "Valentyna Tenus",
@@ -1747,7 +1747,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": null,
-   "ted": null,
+   "ted": "2026-11-09",
    "who": "Valentyna Tenus",
    "theme": ""
   },
@@ -2237,36 +2237,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25014",
-   "name": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After Plan-Level Primary Contact Removal",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-03T09:53:11.129-0600",
-   "resolved": "",
-   "due": "2026-11-05",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24949",
    "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
@@ -6622,6 +6592,36 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25014",
+   "name": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After Plan-Level Primary Contact Removal",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-03T09:53:11.129-0600",
+   "resolved": "",
+   "due": "2026-11-05",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
