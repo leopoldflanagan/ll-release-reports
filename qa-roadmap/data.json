@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:19:30+00:00",
+ "generated_at": "2026-11-05T17:30:27+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -2356,7 +2356,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "sprint": "LL-Sprint 25-26",
    "who": "Shchekochykhin Vladyslav",
    "reporter": "Vivienne Chawande",
@@ -2384,7 +2384,7 @@
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
-   "fv": "R9.9",
+   "fv": "R9.10",
    "sprint": "LL-Sprint 25-26",
    "who": "Petro Yarish",
    "reporter": "Gabriel Perez Cardozo",
@@ -7722,8 +7722,7 @@
    "due": "2026-11-04",
    "labels": [
     "group3_migration",
-    "product_prioritized",
-    "wave-3"
+    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
@@ -30315,33 +30314,6 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-20695",
-   "name": "Member portal - Renew button showing disabled in Dashboard for expired plans (btn visible in plan overview as expected)",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-03T17:05:04.967-0500",
-   "resolved": "2026-08-07T12:30:10.185-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
