@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T21:35:22+00:00",
+ "generated_at": "2026-11-05T21:45:23+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -6935,36 +6935,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-24996",
-   "name": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Primary Member",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-11-02T12:59:25.061-0600",
-   "resolved": "",
-   "due": "2026-11-05",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24945",
    "name": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
    "pod": "LL",
@@ -7321,6 +7291,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24996",
+   "name": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Primary Member",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-11-02T12:59:25.061-0600",
+   "resolved": "2026-11-05T15:37:41.383-0600",
+   "due": "2026-11-05",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24138",
    "name": "Treatment API creates duplicate CustomCodes rows during practice management imports",
