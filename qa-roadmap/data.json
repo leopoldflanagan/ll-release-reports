@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T16:45:24+00:00",
+ "generated_at": "2026-11-05T16:49:42+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -96,7 +96,7 @@
    "key": "WT-1195",
    "name": "Legal Language Additions",
    "status": "In Development",
-   "ted": "2026-11-06",
+   "ted": "2026-11-10",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": null
@@ -708,7 +708,7 @@
    "key": "WT-1195",
    "name": "Legal Language Additions",
    "status": "In Development",
-   "ted": "2026-11-06",
+   "ted": "2026-11-10",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
    "tshirt": null,
@@ -1769,7 +1769,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": "2026-11-06",
+   "ted": "2026-11-10",
    "who": "Rostyslav Masniuk",
    "theme": ""
   },
