@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T22:00:31+00:00",
+ "generated_at": "2026-11-05T22:09:50+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -30164,31 +30164,6 @@
    "linkedLP": false,
    "initKey": "WT-127",
    "init": "Mobile Support Member Portal"
-  },
-  {
-   "key": "PLANS-20681",
-   "name": "PMP- Existing Member Detection Not Triggered && Plan Purchase Fails with Validation Error when member has a active plan(Same Org , Practice A and B)",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Conor Kamperman",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-03T10:36:51.541-0500",
-   "resolved": "2026-08-07T17:05:49.695-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
