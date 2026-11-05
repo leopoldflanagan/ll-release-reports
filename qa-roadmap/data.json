@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T18:49:14+00:00",
+ "generated_at": "2026-11-05T19:00:27+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -30163,34 +30163,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-20773",
-   "name": "Member Portal \\ Auto renew toggle configured as off turns on after upgrading a plan",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-05T13:24:47.958-0500",
-   "resolved": "2026-08-07T13:56:49.362-0500",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
