@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T16:49:42+00:00",
+ "generated_at": "2026-11-05T17:00:26+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -687,7 +687,7 @@
    "name": "Marketing Details - fee schedule",
    "status": "In Development",
    "ted": "2026-11-09",
-   "fv": null,
+   "fv": "R9.10",
    "who": "Valentyna Tenus",
    "tshirt": null,
    "pod": "PLANS",
@@ -1746,7 +1746,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "In Development",
-   "fv": null,
+   "fv": "R9.10",
    "ted": "2026-11-09",
    "who": "Valentyna Tenus",
    "theme": ""
@@ -30349,8 +30349,8 @@
   {
    "key": "PLANS-25117",
    "name": "Preprod - ACH and CC Auto renewal didn't process ( Euler /Legacy West Dental)",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "PR Created",
+   "who": "David Jones",
    "reporter": "Anuradhi Wickramasinghe"
   },
   {
