@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T18:30:24+00:00",
+ "generated_at": "2026-11-05T18:35:56+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -30191,58 +30191,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20040",
-   "name": "PLANS-20040: One Smile Portal: Purchase: Duplicate plans are displayed on \"Choose Plan\" page",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-07-21T16:53:38.715-0500",
-   "resolved": "2026-08-07T13:35:30.092-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-12360",
-   "name": "WFP - Card Display name shows as “Primary card” not as name on the card / inconsistent behavior (seperated out from UI -PLANS-12338)",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-02-24T08:17:33.855-0600",
-   "resolved": "2026-08-07T13:31:40.131-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-10457",
-   "parentName": "Plans Marketplace Post MVP (Fast Follow)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-417",
-   "init": "Plans Marketplace (Fast Follow)"
   }
  ],
  "closed_days": 90,
