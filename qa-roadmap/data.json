@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T18:15:21+00:00",
+ "generated_at": "2026-11-05T18:25:14+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -30243,58 +30243,6 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
-  },
-  {
-   "key": "DYN-1423",
-   "name": "Comfort Dental<Stage<Welcome Email doesn't contain Custom Practice Logo",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-07-21T16:02:00.394-0500",
-   "resolved": "2026-08-07T13:17:48.747-0500",
-   "due": "2026-07-27",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-18882",
-   "name": "PLAN BENEFITS: Add Discount to Plan Benefits Section",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vic Du Plessis",
-   "prio": "2: Important",
-   "created": "2026-07-01T21:03:45.568-0500",
-   "resolved": "2026-08-07T13:16:48.319-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
