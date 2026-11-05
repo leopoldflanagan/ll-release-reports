@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T21:00:28+00:00",
+ "generated_at": "2026-11-05T21:08:06+00:00",
  "today": "2026-11-05",
  "features": [
   {
@@ -2360,6 +2360,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25132",
+   "name": "Tioga Dental Celebration Pointe Showing No Plans Available in that State",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vera King",
+   "prio": "3: Standard",
+   "created": "2026-11-05T15:03:06.262-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
