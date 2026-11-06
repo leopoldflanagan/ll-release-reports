@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T21:45:20+00:00",
+ "generated_at": "2026-11-06T21:49:21+00:00",
  "today": "2026-11-06",
  "features": [
   {
@@ -2332,6 +2332,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25161",
+   "name": "Beautiful Smiles By Design - Manage Patients only showing a member when you are logged into the right office",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Ezra Skeete",
+   "prio": "3: Standard",
+   "created": "2026-11-06T15:45:39.647-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
