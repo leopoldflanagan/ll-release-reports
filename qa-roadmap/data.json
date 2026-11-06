@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T09:45:25+00:00",
+ "generated_at": "2026-11-06T10:00:26+00:00",
  "today": "2026-11-06",
  "features": [
   {
@@ -2242,34 +2242,6 @@
     "group3_migration",
     "product_prioritized",
     "wave-3"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24812",
-   "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-26T15:10:52.945-0500",
-   "resolved": "",
-   "due": "2026-11-09",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
    ],
    "theme": "",
    "triage": "",
@@ -6737,6 +6709,34 @@
     "group1_migration",
     "group2_migration",
     "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24812",
+   "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-26T15:10:52.945-0500",
+   "resolved": "",
+   "due": "2026-11-09",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "",
