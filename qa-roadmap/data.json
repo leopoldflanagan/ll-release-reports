@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T16:49:20+00:00",
+ "generated_at": "2026-11-06T17:00:26+00:00",
  "today": "2026-11-06",
  "features": [
   {
@@ -30168,13 +30168,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25141",
-   "name": "Dashboard - Organization Plans - Total Active Plans count increased by 5 when purchase a plan /upgrade a plan",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-25133",
    "name": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as one source and fail purchases after five a day",
