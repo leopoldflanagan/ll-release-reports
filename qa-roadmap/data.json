@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T17:49:13+00:00",
+ "generated_at": "2026-11-06T18:00:26+00:00",
  "today": "2026-11-06",
  "features": [
   {
@@ -6667,36 +6667,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25014",
-   "name": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After Plan-Level Primary Contact Removal",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-03T09:53:11.129-0600",
-   "resolved": "",
-   "due": "2026-11-05",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24812",
    "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
    "pod": "LL",
@@ -6908,6 +6878,36 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-25014",
+   "name": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After Plan-Level Primary Contact Removal",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-03T09:53:11.129-0600",
+   "resolved": "",
+   "due": "2026-11-05",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24945",
