@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T16:10:47+00:00",
+ "generated_at": "2026-11-06T16:15:21+00:00",
  "today": "2026-11-06",
  "features": [
   {
@@ -4162,31 +4162,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-22016",
-   "name": "Dashboard - Purchasing a new plan is incorrectly increasing the 'Plans Renewal' & 'Remaining Renewals' count on the Dashboard.",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans-Sprint 25-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-28T16:17:39.677-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21981",
    "name": "PMP - Inconsistent Behaviour Between ACH and Credit Card - Deleting the Only Primary Payment Method",
    "pod": "PLANS",
@@ -7291,6 +7266,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22016",
+   "name": "Dashboard - Purchasing a new plan is incorrectly increasing the 'Plans Renewal' & 'Remaining Renewals' count on the Dashboard.",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans-Sprint 25-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T16:17:39.677-0500",
+   "resolved": "2026-11-06T10:12:55.105-0600",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24996",
    "name": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Primary Member",
