@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T16:15:21+00:00",
+ "generated_at": "2026-11-06T16:20:21+00:00",
  "today": "2026-11-06",
  "features": [
   {
@@ -87,7 +87,7 @@
    "key": "WT-1170",
    "name": "Show statuses for ACH transactions at Member Portal",
    "status": "In Development",
-   "ted": "2026-11-05",
+   "ted": "2026-11-09",
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
    "tshirt": "Small"
@@ -651,7 +651,7 @@
    "key": "WT-1170",
    "name": "Show statuses for ACH transactions at Member Portal",
    "status": "In Development",
-   "ted": "2026-11-05",
+   "ted": "2026-11-09",
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
    "tshirt": "Small",
@@ -1701,7 +1701,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": "2026-11-05",
+   "ted": "2026-11-09",
    "who": "Denys Kernychnyi",
    "theme": ""
   },
