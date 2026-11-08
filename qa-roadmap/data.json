@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T03:30:21+00:00",
+ "generated_at": "2026-11-08T03:45:25+00:00",
  "today": "2026-11-08",
  "features": [
   {
@@ -30164,31 +30164,6 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
-  },
-  {
-   "key": "PLANS-5415",
-   "name": "Member V3 | Responsibility party | Edit child | Email is required , should not be required",
-   "pod": "PLANS",
-   "status": "Ready Prod",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2025-03-28T13:12:37.826-0500",
-   "resolved": "2026-08-09T22:35:38.375-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-6055",
-   "parentName": "Member Portal Bug Fixes",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-127",
-   "init": "Mobile Support Member Portal"
   }
  ],
  "closed_days": 90,
