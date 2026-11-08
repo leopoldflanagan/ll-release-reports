@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T15:00:24+00:00",
+ "generated_at": "2026-11-08T15:15:18+00:00",
  "today": "2026-11-08",
  "features": [
   {
@@ -30089,31 +30089,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-17434",
-   "name": "VM- Eaglesoft - Unable to Create member in Wellfit",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Vivienne Chawande",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-06-03T14:55:15.652-0500",
-   "resolved": "2026-08-10T10:12:34.933-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-17458",
-   "parentName": "Plans 9.5 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
