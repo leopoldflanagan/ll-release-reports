@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T18:00:23+00:00",
+ "generated_at": "2026-11-08T18:15:22+00:00",
  "today": "2026-11-08",
  "features": [
   {
@@ -29888,60 +29888,6 @@
    "due": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20207",
-   "name": "WaiveFam/Able to Apply Waivefam promo code to an Initial plan purchase",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-07-23T13:09:00.945-0500",
-   "resolved": "2026-08-10T13:04:08.890-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20745",
-   "name": "QA retest - PLANS-20720 - One Smile - Headers are displayed in the center of the screen & missing logos",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Mireya Alvarez",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-04T14:57:15.312-0500",
-   "resolved": "2026-08-10T13:01:26.843-0500",
-   "due": "",
-   "labels": [
     "product_prioritized"
    ],
    "theme": "LL-MVP",
