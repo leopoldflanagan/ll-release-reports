@@ -1,6 +1,6 @@
 {
  "schema": 4,
- "updated_at": "2026-11-09T16:49:20+00:00",
+ "updated_at": "2026-11-09T17:00:29+00:00",
  "teams": [
   "LL",
   "PLANS"
@@ -741,7 +741,7 @@
        "p90": 15
       }
      },
-     "work_items": 27,
+     "work_items": 26,
      "features": 8,
      "sizes": {
       "Large": 2,
