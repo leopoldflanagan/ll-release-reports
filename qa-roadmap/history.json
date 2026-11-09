@@ -1,6 +1,6 @@
 {
  "schema": 4,
- "updated_at": "2026-11-08T23:45:23+00:00",
+ "updated_at": "2026-11-09T00:00:23+00:00",
  "teams": [
   "LL",
   "PLANS"
@@ -707,7 +707,7 @@
     "LL",
     "PLANS"
    ],
-   "measured_at": "2026-11-08",
+   "measured_at": "2026-11-09",
    "teams": {
     "LL": {
      "reported": {
