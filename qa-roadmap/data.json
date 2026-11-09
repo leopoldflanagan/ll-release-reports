@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T18:35:31+00:00",
+ "generated_at": "2026-11-09T18:45:25+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -2393,7 +2393,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
+   "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Petro Yarish",
    "reporter": "Gabriel Perez Cardozo",
    "prio": "3: Standard",
@@ -6620,7 +6620,7 @@
    "status": "PR Merged",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Petro Yarish",
    "reporter": "Petro Yarish",
    "prio": "2: Important",
@@ -6862,7 +6862,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": "LL-Sprint 25-26",
+   "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Petro Yarish",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -7078,7 +7078,7 @@
    "status": "WAITING REVIEW",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Petro Yarish",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
