@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T14:35:39+00:00",
+ "generated_at": "2026-11-09T14:45:22+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -224,7 +224,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Nithusha Byrapaka",
    "tshirt": null,
    "pod": "PLAT",
    "theme": "LL-Fast Follows"
@@ -235,7 +235,7 @@
    "status": "Blocked",
    "ted": "2026-11-27",
    "fv": "R9.10",
-   "who": "Unassigned",
+   "who": "Karey Crump",
    "tshirt": "Moderate",
    "pod": "DYN",
    "theme": "LL-Fast Follows"
@@ -246,7 +246,7 @@
    "status": "Blocked",
    "ted": "2026-11-13",
    "fv": "R9.10",
-   "who": "Unassigned",
+   "who": "Karey Crump",
    "tshirt": "Small",
    "pod": "DYN",
    "theme": "LL-Fast Follows"
@@ -323,7 +323,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Nithusha Byrapaka",
    "tshirt": "Moderate",
    "pod": "PLAT",
    "theme": "LL-Fast Follows"
@@ -389,7 +389,7 @@
    "status": "In Testing",
    "ted": "2026-11-13",
    "fv": "R9.10",
-   "who": "Unassigned",
+   "who": "Karey Crump",
    "tshirt": "Moderate",
    "pod": "DYN",
    "theme": "ACH"
@@ -840,7 +840,7 @@
    "status": "Requirements",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -851,7 +851,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Large",
    "pod": "PLANS",
    "theme": ""
@@ -873,7 +873,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
    "theme": ""
@@ -895,7 +895,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Large",
    "pod": "PLANS",
    "theme": ""
@@ -906,7 +906,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Huge",
    "pod": "PLANS",
    "theme": ""
@@ -983,7 +983,7 @@
    "status": "Ready for Development",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -994,7 +994,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1016,7 +1016,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
    "theme": ""
@@ -1027,7 +1027,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
    "theme": ""
@@ -1038,7 +1038,7 @@
    "status": "Ready for Development",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1049,7 +1049,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1060,7 +1060,7 @@
    "status": "Ready for Development",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1071,7 +1071,7 @@
    "status": "Requirements",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1082,7 +1082,7 @@
    "status": "Requirements",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1093,7 +1093,7 @@
    "status": "Ready for Development",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1104,7 +1104,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1115,7 +1115,7 @@
    "status": "Architecture",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
@@ -1126,7 +1126,7 @@
    "status": "Backlog",
    "ted": null,
    "fv": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "tshirt": "Small",
    "pod": "PLANS",
    "theme": ""
@@ -1284,7 +1284,7 @@
    "status": "Backlog",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Nithusha Byrapaka",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1295,7 +1295,7 @@
    "status": "Blocked",
    "fv": "R9.10",
    "ted": "2026-11-27",
-   "who": "Unassigned",
+   "who": "Karey Crump",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1306,7 +1306,7 @@
    "status": "Blocked",
    "fv": "R9.10",
    "ted": "2026-11-13",
-   "who": "Unassigned",
+   "who": "Karey Crump",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1383,7 +1383,7 @@
    "status": "Architecture",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Nithusha Byrapaka",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1449,7 +1449,7 @@
    "status": "In Testing",
    "fv": "R9.10",
    "ted": "2026-11-13",
-   "who": "Unassigned",
+   "who": "Karey Crump",
    "theme": "ACH"
   },
   {
@@ -1900,7 +1900,7 @@
    "status": "Requirements",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -1911,7 +1911,7 @@
    "status": "Backlog",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -1933,7 +1933,7 @@
    "status": "Backlog",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -1955,7 +1955,7 @@
    "status": "Backlog",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -1966,7 +1966,7 @@
    "status": "Backlog",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2043,7 +2043,7 @@
    "status": "Ready for Development",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2054,7 +2054,7 @@
    "status": "Backlog",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2076,7 +2076,7 @@
    "status": "Backlog",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2087,7 +2087,7 @@
    "status": "Backlog",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2098,7 +2098,7 @@
    "status": "Ready for Development",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2109,7 +2109,7 @@
    "status": "Backlog",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2120,7 +2120,7 @@
    "status": "Ready for Development",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2131,7 +2131,7 @@
    "status": "Requirements",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2142,7 +2142,7 @@
    "status": "Requirements",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2153,7 +2153,7 @@
    "status": "Ready for Development",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2164,7 +2164,7 @@
    "status": "Architecture",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2175,7 +2175,7 @@
    "status": "Architecture",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
@@ -2186,7 +2186,7 @@
    "status": "Backlog",
    "fv": null,
    "ted": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
