@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T17:19:38+00:00",
+ "generated_at": "2026-11-09T17:30:24+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -29704,37 +29704,17 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20240",
-   "name": "One Smile /Essential smile-provider URL / phone number configured in CSP is not reflected in Dynamic Footer for Smile Health (WA/Nevada) and OneSmile",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-24T01:58:21.559-0500",
-   "resolved": "2026-08-11T12:21:31.842-0500",
-   "due": "2026-08-11",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25180",
+   "name": "Dashboard - After a plan cancel Opt-Out & Cancellations data nnot visible",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-25133",
    "name": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as one source and fail purchases after five a day",
