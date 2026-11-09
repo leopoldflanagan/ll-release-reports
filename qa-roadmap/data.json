@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T17:30:24+00:00",
+ "generated_at": "2026-11-09T17:35:23+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -29709,8 +29709,8 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-25180",
-   "name": "Dashboard - After a plan cancel Opt-Out & Cancellations data nnot visible",
+   "key": "PLANS-25183",
+   "name": "Dashboard - Total Active Plans count not updated after a plan cancellation",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
