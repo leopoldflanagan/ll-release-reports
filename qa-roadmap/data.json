@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T16:21:25+00:00",
+ "generated_at": "2026-11-09T16:30:24+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -6634,8 +6634,8 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
