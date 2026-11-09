@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T07:45:19+00:00",
+ "generated_at": "2026-11-09T08:00:27+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -2332,6 +2332,35 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25168",
+   "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-11-09T01:53:43.747-0600",
+   "resolved": "",
+   "due": "2026-11-09",
+   "labels": [
+    "CCB_candidate",
+    "plans",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
