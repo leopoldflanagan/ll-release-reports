@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T16:10:57+00:00",
+ "generated_at": "2026-11-09T16:21:25+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -6502,35 +6502,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25168",
-   "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-11-09T01:53:43.747-0600",
-   "resolved": "",
-   "due": "2026-11-09",
-   "labels": [
-    "CCB_candidate",
-    "plans",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25022",
    "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
    "pod": "LL",
@@ -6637,6 +6608,35 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25168",
+   "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-11-09T01:53:43.747-0600",
+   "resolved": "",
+   "due": "2026-11-09",
+   "labels": [
+    "CCB_candidate",
+    "plans",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
