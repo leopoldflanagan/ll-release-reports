@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T22:49:12+00:00",
+ "generated_at": "2026-11-09T23:00:26+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -2516,7 +2516,7 @@
   },
   {
    "key": "PLANS-25085",
-   "name": "PMP - MP Account Status Displays \"Not Activated\" for Members Who Activated via Smile Health",
+   "name": "PMP - Account Status Displays \"Not Activated\" for members who activated via Smile Health and custom portals",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
@@ -4288,7 +4288,7 @@
    "prio": "3: Standard",
    "created": "2026-08-22T18:39:23.599-0500",
    "resolved": "",
-   "due": "2026-11-09",
+   "due": "2026-11-11",
    "labels": [
     "group1_migration",
     "product_prioritized"
