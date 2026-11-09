@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T19:00:28+00:00",
+ "generated_at": "2026-11-09T19:07:49+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -6856,36 +6856,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-25014",
-   "name": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After Plan-Level Primary Contact Removal",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-03T09:53:11.129-0600",
-   "resolved": "",
-   "due": "2026-11-05",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24945",
    "name": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
    "pod": "LL",
@@ -7314,6 +7284,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25014",
+   "name": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After Plan-Level Primary Contact Removal",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-03T09:53:11.129-0600",
+   "resolved": "2026-11-09T13:02:24.347-0600",
+   "due": "2026-11-05",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24902",
    "name": "CREG/Member Id in the PDF does not match the member Id in app",
