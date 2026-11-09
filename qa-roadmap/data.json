@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T20:30:24+00:00",
+ "generated_at": "2026-11-09T20:35:36+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -29611,34 +29611,6 @@
    "resolved": "2026-08-11T15:52:08.442-0500",
    "due": "",
    "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20856",
-   "name": "DCA/KOS – Updated \"No Results\" message is not displayed in Practice Search pop-up",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-06T16:38:12.073-0500",
-   "resolved": "2026-08-11T15:30:36.107-0500",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "",
