@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T14:10:44+00:00",
+ "generated_at": "2026-11-09T14:15:20+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -788,6 +788,17 @@
    "who": "Valentyna Tenus",
    "tshirt": null,
    "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "WT-1277",
+   "name": "Subscription Consolidated Part2",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Daniel Marineni",
+   "tshirt": null,
+   "pod": "PLANS",
    "theme": ""
   },
   {
@@ -1835,6 +1846,17 @@
    "fv": "R10.01",
    "ted": "2026-11-11",
    "who": "Valentyna Tenus",
+   "theme": ""
+  },
+  {
+   "key": "WT-1277",
+   "name": "Subscription Consolidated Part2",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Daniel Marineni",
    "theme": ""
   },
   {
