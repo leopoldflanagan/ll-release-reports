@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T11:45:21+00:00",
+ "generated_at": "2026-11-09T12:00:29+00:00",
  "today": "2026-11-09",
  "features": [
   {
@@ -2224,35 +2224,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25168",
-   "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-11-09T01:53:43.747-0600",
-   "resolved": "",
-   "due": "2026-11-09",
-   "labels": [
-    "CCB_candidate",
-    "plans",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22410",
-   "parentName": "LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-24949",
    "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
@@ -6605,6 +6576,35 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25168",
+   "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-11-09T01:53:43.747-0600",
+   "resolved": "",
+   "due": "2026-11-09",
+   "labels": [
+    "CCB_candidate",
+    "plans",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22410",
+   "parentName": "LL Pod - P1 / P2 bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
