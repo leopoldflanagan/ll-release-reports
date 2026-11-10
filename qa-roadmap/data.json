@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T04:45:21+00:00",
+ "generated_at": "2026-11-10T05:00:24+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -2409,6 +2409,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25212",
+   "name": "pdf-api-core: normalize HTML input to XHTML before iTextSharp parse (PrintHtmlDocDocument.Build)",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Chris Rubio",
+   "prio": "2: Important",
+   "created": "2026-11-09T22:58:27.297-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "DYN-536",
+   "parentName": "Plans PDF Generated ID Cards",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
