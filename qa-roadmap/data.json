@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T14:49:11+00:00",
+ "generated_at": "2026-11-10T15:00:28+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -19,15 +19,6 @@
    "fv": "R9.10",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
-  },
-  {
-   "key": "WT-1033",
-   "name": "CSP Integration Setting at Org level",
-   "status": "Architecture",
-   "ted": null,
-   "fv": "R10.01",
-   "who": "Petro Yarish",
-   "tshirt": "Small"
   },
   {
    "key": "WT-1036",
@@ -84,6 +75,15 @@
    "tshirt": "Small"
   },
   {
+   "key": "WT-1191",
+   "name": "Marketing Details - fee schedule",
+   "status": "In Development",
+   "ted": "2026-11-10",
+   "fv": "R9.10",
+   "who": "Valentyna Tenus",
+   "tshirt": null
+  },
+  {
    "key": "WT-1195",
    "name": "Legal Language Additions",
    "status": "In Development",
@@ -104,7 +104,7 @@
   {
    "key": "WT-1213",
    "name": "Ambetter Site",
-   "status": "Backlog",
+   "status": "On Hold",
    "ted": null,
    "fv": "R9.10",
    "who": "Dmytro Tymofiienko",
@@ -173,7 +173,7 @@
    "fv": "R10.01",
    "who": "Petro Yarish",
    "tshirt": "Small",
-   "pod": "LL",
+   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -675,11 +675,11 @@
    "key": "WT-1191",
    "name": "Marketing Details - fee schedule",
    "status": "In Development",
-   "ted": "2026-11-09",
+   "ted": "2026-11-10",
    "fv": "R9.10",
    "who": "Valentyna Tenus",
    "tshirt": null,
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": ""
   },
   {
@@ -773,7 +773,7 @@
   {
    "key": "WT-1213",
    "name": "Ambetter Site",
-   "status": "Backlog",
+   "status": "On Hold",
    "ted": null,
    "fv": "R9.10",
    "who": "Dmytro Tymofiienko",
@@ -1237,7 +1237,7 @@
   {
    "key": "WT-1033",
    "name": "CSP Integration Setting at Org level",
-   "pod": "LL",
+   "pod": "PLANS",
    "proj": "WT",
    "status": "Architecture",
    "fv": "R10.01",
@@ -1743,11 +1743,11 @@
   {
    "key": "WT-1191",
    "name": "Marketing Details - fee schedule",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": "2026-11-09",
+   "ted": "2026-11-10",
    "who": "Valentyna Tenus",
    "theme": ""
   },
@@ -1844,7 +1844,7 @@
    "name": "Ambetter Site",
    "pod": "LL",
    "proj": "WT",
-   "status": "Backlog",
+   "status": "On Hold",
    "fv": "R9.10",
    "ted": null,
    "who": "Dmytro Tymofiienko",
