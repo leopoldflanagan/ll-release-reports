@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T12:00:24+00:00",
+ "generated_at": "2026-11-10T12:14:16+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -2253,13 +2253,13 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
+   "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Ivan Yarymovych",
    "reporter": "Chris Rubio",
    "prio": "2: Important",
    "created": "2026-11-09T22:58:27.297-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-10",
    "labels": [],
    "theme": "",
    "triage": "",
@@ -29600,7 +29600,7 @@
   {
    "key": "PLANS-25211",
    "name": "Member Portal \\ Checkout screen is asks for Payment consent on existent payment method",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "Valentyna Tenus",
    "reporter": "Luis Moreno Soberón"
   },
