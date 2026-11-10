@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T18:30:26+00:00",
+ "generated_at": "2026-11-10T18:35:30+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -29541,6 +29541,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25225",
+   "name": "PMP \\ Primary Payment Method designation and configuration are missing from Member Payment Types",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-24854",
    "name": "PMP - Auto Renewal setting is disabled and Renew button is visible for Monthly plans purchased from CSP",
