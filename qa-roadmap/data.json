@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T15:35:09+00:00",
+ "generated_at": "2026-11-10T15:45:23+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -6568,35 +6568,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25168",
-   "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-11-09T01:53:43.747-0600",
-   "resolved": "",
-   "due": "2026-11-09",
-   "labels": [
-    "CCB_candidate",
-    "plans",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25022",
    "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
    "pod": "LL",
@@ -6865,6 +6836,35 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-25168",
+   "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-11-09T01:53:43.747-0600",
+   "resolved": "",
+   "due": "2026-11-09",
+   "labels": [
+    "CCB_candidate",
+    "plans",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24966",
