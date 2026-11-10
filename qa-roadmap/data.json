@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T17:08:34+00:00",
+ "generated_at": "2026-11-10T17:15:22+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -6482,36 +6482,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24985",
-   "name": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-02T10:29:29.134-0600",
-   "resolved": "",
-   "due": "2026-11-10",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24924",
    "name": "CSP \\ Duplicate \"Plan Renewed\" records at Account History after renewing an expired plan via Member Portal after all Auto-Renewal retries fail",
    "pod": "PLANS",
@@ -6592,6 +6562,36 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24985",
+   "name": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-02T10:29:29.134-0600",
+   "resolved": "",
+   "due": "2026-11-10",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
