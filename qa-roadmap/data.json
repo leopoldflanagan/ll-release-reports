@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T21:35:04+00:00",
+ "generated_at": "2026-11-10T21:45:21+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -6926,34 +6926,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25022",
-   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-03T11:11:21.552-0600",
-   "resolved": "",
-   "due": "2026-11-11",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24966",
    "name": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Member (its visible in Overview of minor)",
    "pod": "PLANS",
@@ -8132,6 +8104,34 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
+  },
+  {
+   "key": "PLANS-25022",
+   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-03T11:11:21.552-0600",
+   "resolved": "2026-11-04T09:48:12.817-0600",
+   "due": "2026-11-11",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24933",
