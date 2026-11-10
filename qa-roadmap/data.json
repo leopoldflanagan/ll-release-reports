@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T21:00:27+00:00",
+ "generated_at": "2026-11-10T21:08:37+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -29568,8 +29568,8 @@
  "nopod": [
   {
    "key": "PLANS-25236",
-   "name": "Production issue on the retry of claims failure",
-   "status": "Backlog",
+   "name": "Production issue on the Auto retry for failed claims",
+   "status": "Ready for Development",
    "who": "Unassigned",
    "reporter": "Sushma Bankar"
   },
