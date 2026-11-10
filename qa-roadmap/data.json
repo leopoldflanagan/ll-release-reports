@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T19:00:26+00:00",
+ "generated_at": "2026-11-10T19:08:18+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -377,7 +377,7 @@
   {
    "key": "WT-713",
    "name": "Plans Journey - ACH Email Updates",
-   "status": "In Testing",
+   "status": "Blocked",
    "ted": "2026-11-13",
    "fv": "R9.10",
    "who": "Karey Crump",
@@ -1437,7 +1437,7 @@
    "name": "Plans Journey - ACH Email Updates",
    "pod": "DYN",
    "proj": "WT",
-   "status": "In Testing",
+   "status": "Blocked",
    "fv": "R9.10",
    "ted": "2026-11-13",
    "who": "Karey Crump",
