@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T20:45:19+00:00",
+ "generated_at": "2026-11-10T20:49:03+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -6737,34 +6737,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-22024",
-   "name": "Dashboard - Refunding a plan incorrectly increases the Goal Reached (%) value on the Dashboard.",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": null,
-   "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-28T16:58:57.466-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21594",
    "name": "CSP - Refund with \"Disable benefit plan\" cancels the wrong plan when two plans were purchased in one transaction",
    "pod": "PLANS",
@@ -7390,6 +7362,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22024",
+   "name": "Dashboard - Refunding a plan incorrectly increases the Goal Reached (%) value on the Dashboard.",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": "LL-Sprint 23-26",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T16:58:57.466-0500",
+   "resolved": "2026-11-10T14:46:58.417-0600",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-22023",
    "name": "Dashboard - 'Core plan'/ 'Plan sold' Count increased when Refund a plan",
