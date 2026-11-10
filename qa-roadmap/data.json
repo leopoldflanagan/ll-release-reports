@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T04:15:24+00:00",
+ "generated_at": "2026-11-10T04:30:23+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -29572,6 +29572,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25211",
+   "name": "Member Portal \\ Checkout screen is asks for Payment consent on existent payment method",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
   {
    "key": "PLANS-25184",
    "name": "Prevent over-billing of dependents on renewal due to incorrect PrimaryPlan_Id",
