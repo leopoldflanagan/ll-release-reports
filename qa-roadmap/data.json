@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T15:00:28+00:00",
+ "generated_at": "2026-11-10T15:09:08+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -811,17 +811,6 @@
    "fv": null,
    "who": "Obie Khandaker",
    "tshirt": null,
-   "pod": "PLANS",
-   "theme": ""
-  },
-  {
-   "key": "WT-681",
-   "name": "LL Changes to Support DCA",
-   "status": "In Development",
-   "ted": null,
-   "fv": null,
-   "who": "Obie Khandaker",
-   "tshirt": "Moderate",
    "pod": "PLANS",
    "theme": ""
   },
@@ -1878,17 +1867,6 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
-   "fv": null,
-   "ted": null,
-   "who": "Obie Khandaker",
-   "theme": ""
-  },
-  {
-   "key": "WT-681",
-   "name": "LL Changes to Support DCA",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "In Development",
    "fv": null,
    "ted": null,
    "who": "Obie Khandaker",
@@ -29564,7 +29542,7 @@
   },
   {
    "key": "PLANS-25183",
-   "name": "delete",
+   "name": "inprogress buug",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
