@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T17:19:21+00:00",
+ "generated_at": "2026-11-10T17:30:23+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -7088,31 +7088,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-22017",
-   "name": "Dashboard - When a plan purchase is declined, the Dashboard incorrectly updates the Plans Renewal metric",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-28T16:22:09.914-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24568",
    "name": "PMP-Stage-\"Add Primary Contact” option shows for a minor (Minor 2) who already has a primary contact",
    "pod": "LL",
@@ -7355,6 +7330,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-22017",
+   "name": "Dashboard - When a plan purchase is declined, the Dashboard incorrectly updates the Plans Renewal metric",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-28T16:22:09.914-0500",
+   "resolved": "2026-11-10T11:21:06.562-0600",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-25014",
    "name": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After Plan-Level Primary Contact Removal",
