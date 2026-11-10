@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T19:19:19+00:00",
+ "generated_at": "2026-11-10T19:30:23+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -14,8 +14,8 @@
   {
    "key": "WT-1032",
    "name": "Unify Purchase Into NPM Package",
-   "status": "In Development",
-   "ted": null,
+   "status": "In Testing",
+   "ted": "2026-11-16",
    "fv": "R9.10",
    "who": "Ivan Yarymovych",
    "tshirt": "Large"
@@ -157,8 +157,8 @@
   {
    "key": "WT-1032",
    "name": "Unify Purchase Into NPM Package",
-   "status": "In Development",
-   "ted": null,
+   "status": "In Testing",
+   "ted": "2026-11-16",
    "fv": "R9.10",
    "who": "Ivan Yarymovych",
    "tshirt": "Large",
@@ -1217,9 +1217,9 @@
    "name": "Unify Purchase Into NPM Package",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.10",
-   "ted": null,
+   "ted": "2026-11-16",
    "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
