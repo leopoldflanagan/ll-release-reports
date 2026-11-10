@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T23:00:25+00:00",
+ "generated_at": "2026-11-10T23:07:57+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -6600,31 +6600,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25212",
-   "name": "PLANS-25212: pdf-api-core: normalize HTML input to XHTML before iTextSharp parse (PrintHtmlDocDocument.Build)",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Chris Rubio",
-   "prio": "2: Important",
-   "created": "2026-11-09T22:58:27.297-0600",
-   "resolved": "",
-   "due": "2026-11-10",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "DYN-536",
-   "parentName": "Plans PDF Generated ID Cards",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24985",
    "name": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
    "pod": "PLANS",
@@ -6867,6 +6842,31 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-25212",
+   "name": "PLANS-25212: pdf-api-core: normalize HTML input to XHTML before iTextSharp parse (PrintHtmlDocDocument.Build)",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Chris Rubio",
+   "prio": "2: Important",
+   "created": "2026-11-09T22:58:27.297-0600",
+   "resolved": "",
+   "due": "2026-11-10",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "DYN-536",
+   "parentName": "Plans PDF Generated ID Cards",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25168",
