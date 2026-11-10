@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T11:30:24+00:00",
+ "generated_at": "2026-11-10T11:45:22+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -122,7 +122,7 @@
   {
    "key": "WT-1215",
    "name": "ACH Legal language for purchasing plan",
-   "status": "Ready for Development",
+   "status": "In Development",
    "ted": "2026-11-11",
    "fv": "R10.01",
    "who": "Valentyna Tenus",
@@ -782,7 +782,7 @@
   {
    "key": "WT-1215",
    "name": "ACH Legal language for purchasing plan",
-   "status": "Ready for Development",
+   "status": "In Development",
    "ted": "2026-11-11",
    "fv": "R10.01",
    "who": "Valentyna Tenus",
@@ -1842,7 +1842,7 @@
    "name": "ACH Legal language for purchasing plan",
    "pod": "LL",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R10.01",
    "ted": "2026-11-11",
    "who": "Valentyna Tenus",
@@ -2369,7 +2369,7 @@
    "prio": "3: Standard",
    "created": "2026-10-05T05:26:34.316-0500",
    "resolved": "",
-   "due": "2026-11-09",
+   "due": "2026-11-13",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6505,7 +6505,7 @@
    "prio": "2: Important",
    "created": "2026-11-03T11:11:21.552-0600",
    "resolved": "",
-   "due": "2026-11-04",
+   "due": "2026-11-11",
    "labels": [
     "group3_migration",
     "product_prioritized"
@@ -6561,7 +6561,7 @@
    "prio": "3: Standard",
    "created": "2026-10-05T10:23:22.128-0500",
    "resolved": "",
-   "due": "2026-11-09",
+   "due": "2026-11-13",
    "labels": [
     "group2_migration",
     "product_prioritized"
