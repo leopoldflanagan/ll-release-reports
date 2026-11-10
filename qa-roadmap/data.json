@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T00:30:22+00:00",
+ "generated_at": "2026-11-10T00:45:19+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -29563,31 +29563,6 @@
    "triage": "",
    "parentKey": "PLANS-21311",
    "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-6832",
-   "name": "CRM Emails \\ Plan Auto Renewal Receipt \\ Card Icon is broken",
-   "pod": "PLANS",
-   "status": "Ready Prod",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Luis Moreno",
-   "prio": "3: Standard",
-   "created": "2025-06-06T20:24:34.539-0500",
-   "resolved": "2026-08-11T19:38:39.268-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
