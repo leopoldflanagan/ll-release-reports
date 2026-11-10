@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T13:00:29+00:00",
+ "generated_at": "2026-11-10T13:09:50+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -6493,34 +6493,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25022",
-   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Dima Shtympel",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-03T11:11:21.552-0600",
-   "resolved": "",
-   "due": "2026-11-11",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25008",
    "name": "PT is Unable to Log into Member Portal",
    "pod": "LL",
@@ -6621,6 +6593,34 @@
    "labels": [
     "CCB_candidate",
     "plans",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25022",
+   "name": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal text",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Dima Shtympel",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-03T11:11:21.552-0600",
+   "resolved": "",
+   "due": "2026-11-11",
+   "labels": [
+    "group3_migration",
     "product_prioritized"
    ],
    "theme": "",
