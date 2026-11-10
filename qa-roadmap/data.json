@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T14:15:23+00:00",
+ "generated_at": "2026-11-10T14:19:56+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -2275,7 +2275,7 @@
    "key": "PLANS-24985",
    "name": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
    "pod": "PLANS",
-   "status": "In Development",
+   "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.10",
    "sprint": "Plans Pod 1-Sprint 26-26",
@@ -2283,36 +2283,6 @@
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-11-02T10:29:29.134-0600",
-   "resolved": "",
-   "due": "2026-11-10",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24924",
-   "name": "CSP \\ Duplicate \"Plan Renewed\" records at Account History after renewing an expired plan via Member Portal after all Auto-Renewal retries fail",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-29T23:39:43.377-0500",
    "resolved": "",
    "due": "2026-11-10",
    "labels": [
@@ -6508,6 +6478,36 @@
    "due": "2026-11-10",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24924",
+   "name": "CSP \\ Duplicate \"Plan Renewed\" records at Account History after renewing an expired plan via Member Portal after all Auto-Renewal retries fail",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-29T23:39:43.377-0500",
+   "resolved": "",
+   "due": "2026-11-10",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
     "product_prioritized"
    ],
    "theme": "",
