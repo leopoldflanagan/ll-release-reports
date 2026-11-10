@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T20:49:03+00:00",
+ "generated_at": "2026-11-10T21:00:27+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -29566,6 +29566,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25236",
+   "name": "Production issue on the retry of claims failure",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Sushma Bankar"
+  },
   {
    "key": "PLANS-24854",
    "name": "PMP - Auto Renewal setting is disabled and Renew button is visible for Monthly plans purchased from CSP",
