@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T12:15:18+00:00",
+ "generated_at": "2026-11-10T12:27:28+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -2248,7 +2248,7 @@
  "bugs": [
   {
    "key": "PLANS-25212",
-   "name": "pdf-api-core: normalize HTML input to XHTML before iTextSharp parse (PrintHtmlDocDocument.Build)",
+   "name": "PLANS-25212: pdf-api-core: normalize HTML input to XHTML before iTextSharp parse (PrintHtmlDocDocument.Build)",
    "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
