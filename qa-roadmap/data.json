@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T14:10:24+00:00",
+ "generated_at": "2026-11-10T14:15:23+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -29558,33 +29558,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20346",
-   "name": "Blocker-Getting error on Purchase page after feature flag-paymentWidgetEnabled= ON, for SmileHealth Crosby, DCA and KOS Plans in Stage.",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Vinita Thankur",
-   "prio": "1: Urgent",
-   "created": "2026-07-27T16:43:26.982-0500",
-   "resolved": "2026-08-12T09:10:27.215-0500",
-   "due": "2026-08-12",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-21311",
    "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
