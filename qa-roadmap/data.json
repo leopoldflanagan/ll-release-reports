@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T14:35:44+00:00",
+ "generated_at": "2026-11-10T14:45:23+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -75,15 +75,6 @@
    "tshirt": "Moderate"
   },
   {
-   "key": "WT-1026",
-   "name": "Smile health replace treatment and sales api on plans api",
-   "status": "In Development",
-   "ted": "2026-11-13",
-   "fv": "R9.10",
-   "who": "Nazarii Polinyk",
-   "tshirt": "Moderate"
-  },
-  {
    "key": "WT-1170",
    "name": "Show statuses for ACH transactions at Member Portal",
    "status": "In Testing",
@@ -104,7 +95,7 @@
   {
    "key": "WT-1212",
    "name": "Ambetter Plan Design",
-   "status": "In Development",
+   "status": "On Hold",
    "ted": null,
    "fv": "R9.10",
    "who": "Daniel Marineni",
@@ -123,7 +114,7 @@
    "key": "WT-1215",
    "name": "ACH Legal language for purchasing plan",
    "status": "In Development",
-   "ted": "2026-11-11",
+   "ted": "2026-11-27",
    "fv": "R10.01",
    "who": "Valentyna Tenus",
    "tshirt": null
@@ -567,7 +558,7 @@
    "fv": "R9.10",
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate",
-   "pod": "LL",
+   "pod": "PLANS",
    "theme": ""
   },
   {
@@ -758,9 +749,20 @@
    "theme": ""
   },
   {
+   "key": "WT-1210",
+   "name": "Migrate SGDP website to the Purchase Widget",
+   "status": "In Testing",
+   "ted": null,
+   "fv": "R9.10",
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
    "key": "WT-1212",
    "name": "Ambetter Plan Design",
-   "status": "In Development",
+   "status": "On Hold",
    "ted": null,
    "fv": "R9.10",
    "who": "Daniel Marineni",
@@ -783,7 +785,7 @@
    "key": "WT-1215",
    "name": "ACH Legal language for purchasing plan",
    "status": "In Development",
-   "ted": "2026-11-11",
+   "ted": "2026-11-27",
    "fv": "R10.01",
    "who": "Valentyna Tenus",
    "tshirt": null,
@@ -1620,7 +1622,7 @@
   {
    "key": "WT-1026",
    "name": "Smile health replace treatment and sales api on plans api",
-   "pod": "LL",
+   "pod": "PLANS",
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
@@ -1816,11 +1818,22 @@
    "theme": ""
   },
   {
+   "key": "WT-1210",
+   "name": "Migrate SGDP website to the Purchase Widget",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "In Testing",
+   "fv": "R9.10",
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
    "key": "WT-1212",
    "name": "Ambetter Plan Design",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "On Hold",
    "fv": "R9.10",
    "ted": null,
    "who": "Daniel Marineni",
@@ -1844,7 +1857,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R10.01",
-   "ted": "2026-11-11",
+   "ted": "2026-11-27",
    "who": "Valentyna Tenus",
    "theme": ""
   },
@@ -29542,13 +29555,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25211",
-   "name": "Member Portal \\ Checkout screen is asks for Payment consent on existent payment method",
-   "status": "In Development",
-   "who": "Valentyna Tenus",
-   "reporter": "Luis Moreno Soberón"
-  },
   {
    "key": "PLANS-25184",
    "name": "Prevent over-billing of dependents on renewal due to incorrect PrimaryPlan_Id",
