@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T13:45:23+00:00",
+ "generated_at": "2026-11-10T13:49:24+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -2246,31 +2246,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25212",
-   "name": "PLANS-25212: pdf-api-core: normalize HTML input to XHTML before iTextSharp parse (PrintHtmlDocDocument.Build)",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Chris Rubio",
-   "prio": "2: Important",
-   "created": "2026-11-09T22:58:27.297-0600",
-   "resolved": "",
-   "due": "2026-11-10",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "DYN-536",
-   "parentName": "Plans PDF Generated ID Cards",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-25132",
    "name": "Tioga Dental Celebration Pointe Showing No Plans Available in that State",
@@ -6489,6 +6464,31 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25212",
+   "name": "PLANS-25212: pdf-api-core: normalize HTML input to XHTML before iTextSharp parse (PrintHtmlDocDocument.Build)",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Chris Rubio",
+   "prio": "2: Important",
+   "created": "2026-11-09T22:58:27.297-0600",
+   "resolved": "",
+   "due": "2026-11-10",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "DYN-536",
+   "parentName": "Plans PDF Generated ID Cards",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
