@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T11:15:21+00:00",
+ "generated_at": "2026-11-10T11:30:24+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -122,7 +122,7 @@
   {
    "key": "WT-1215",
    "name": "ACH Legal language for purchasing plan",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "ted": "2026-11-11",
    "fv": "R10.01",
    "who": "Valentyna Tenus",
@@ -782,7 +782,7 @@
   {
    "key": "WT-1215",
    "name": "ACH Legal language for purchasing plan",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "ted": "2026-11-11",
    "fv": "R10.01",
    "who": "Valentyna Tenus",
@@ -1842,7 +1842,7 @@
    "name": "ACH Legal language for purchasing plan",
    "pod": "LL",
    "proj": "WT",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "fv": "R10.01",
    "ted": "2026-11-11",
    "who": "Valentyna Tenus",
@@ -29601,7 +29601,7 @@
    "key": "PLANS-25211",
    "name": "Member Portal \\ Checkout screen is asks for Payment consent on existent payment method",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Valentyna Tenus",
    "reporter": "Luis Moreno Soberón"
   },
   {
