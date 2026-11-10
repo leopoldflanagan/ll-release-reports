@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T10:30:23+00:00",
+ "generated_at": "2026-11-10T10:45:23+00:00",
  "today": "2026-11-10",
  "features": [
   {
@@ -2284,7 +2284,7 @@
    "prio": "3: Standard",
    "created": "2026-11-05T15:03:06.262-0600",
    "resolved": "",
-   "due": "2026-11-11",
+   "due": "2026-11-12",
    "labels": [],
    "theme": "",
    "triage": "",
@@ -2315,35 +2315,6 @@
     "group2_migration",
     "group3_migration",
     "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24949",
-   "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-10-30T11:57:20.039-0500",
-   "resolved": "",
-   "due": "2026-11-10",
-   "labels": [
-    "group3_migration",
-    "product_prioritized",
-    "wave-3"
    ],
    "theme": "",
    "triage": "",
@@ -6651,6 +6622,35 @@
     "CCB_candidate",
     "plans",
     "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24949",
+   "name": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-10-30T11:57:20.039-0500",
+   "resolved": "",
+   "due": "2026-11-12",
+   "labels": [
+    "group3_migration",
+    "product_prioritized",
+    "wave-3"
    ],
    "theme": "",
    "triage": "",
