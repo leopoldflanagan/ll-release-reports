@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T14:35:39+00:00",
+ "generated_at": "2026-11-11T14:45:25+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -6479,6 +6479,31 @@
    "triage": "",
    "parentKey": "PLANS-25130",
    "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25250",
+   "name": "KOS Purchase Portal - Stage - Join: offices show only SHOW LOCATION, no office can be selected (purchase blocked)",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Rostyslav Masniuk",
+   "prio": "2: Important",
+   "created": "2026-11-11T07:20:38.804-0600",
+   "resolved": "",
+   "due": "2026-11-11",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -29520,13 +29545,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25250",
-   "name": "KOS Purchase Portal - Stage - Join: offices show only SHOW LOCATION, no office can be selected (purchase blocked)",
-   "status": "PR Created",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Rostyslav Masniuk"
-  },
   {
    "key": "PLANS-25244",
    "name": "SGDP Purchase Portal-Stage-Autorenewal checkbox is showing for SGDP CA plan, CSP have Auto-renew toggle is On in Plan template",
