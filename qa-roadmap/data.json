@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T17:45:22+00:00",
+ "generated_at": "2026-11-11T17:49:01+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -7016,13 +7016,13 @@
    "labels": [],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-24430",
+   "parentName": "PLANS-24430: Unify Purchase Into NPM Package: Epic 8: SGDP Portal - replace the iframe with the shared Purchase-Widget npm package",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "",
-   "init": ""
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-24985",
