@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T17:00:26+00:00",
+ "generated_at": "2026-11-11T17:09:32+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -5182,36 +5182,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25272",
-   "name": "Plan showing for two active plans",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-11-11T10:22:33.569-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25264",
    "name": "Essential Smile Plan Member ID- Incorrect Location",
    "pod": "LL",
@@ -5567,34 +5537,6 @@
    "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24884",
-   "name": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-10-28T21:52:13.748-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
    "initKey": "",
    "init": ""
   },
@@ -6528,6 +6470,36 @@
    "init": ""
   },
   {
+   "key": "EDW-2548",
+   "name": "Plan showing for two active plans",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-11-11T10:22:33.569-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "EDW-2543",
    "name": "Auto Renewal Retry \\ Failure notification email is not sent after all retry attempts are declined",
    "pod": "PLANS",
@@ -7438,6 +7410,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24884",
+   "name": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-10-28T21:52:13.748-0500",
+   "resolved": "2026-11-11T11:04:18.352-0600",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24966",
    "name": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Member (its visible in Overview of minor)",
