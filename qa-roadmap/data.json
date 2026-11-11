@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T19:15:19+00:00",
+ "generated_at": "2026-11-11T19:19:31+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -2247,6 +2247,36 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-25243",
+   "name": "Member Portal| Inconsistent behavior when deleting asigned CC from payment management vs change payment method",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-11-10T20:46:47.711-0600",
+   "resolved": "",
+   "due": "2026-11-12",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25222",
    "name": "Settings are reverting after release",
    "pod": "LL",
@@ -2426,36 +2456,6 @@
    "triage": "",
    "parentKey": "PLANS-25139",
    "parentName": "9.10 Release Prep Work",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25243",
-   "name": "Member Portal| Inconsistent behavior when deleting asigned CC from payment management vs change payment method",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-11-10T20:46:47.711-0600",
-   "resolved": "",
-   "due": "2026-11-12",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -6675,7 +6675,7 @@
    "prio": "2: Important",
    "created": "2026-10-27T08:27:26.815-0500",
    "resolved": "",
-   "due": "2026-11-02",
+   "due": "2026-11-12",
    "labels": [
     "group1_migration",
     "product_prioritized"
