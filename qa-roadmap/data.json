@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T00:15:22+00:00",
+ "generated_at": "2026-11-11T00:30:23+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -2641,7 +2641,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Carmen West",
    "prio": "3: Standard",
    "created": "2026-10-30T16:10:17.665-0500",
