@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T19:19:31+00:00",
+ "generated_at": "2026-11-11T19:30:26+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -96,7 +96,7 @@
    "key": "WT-1210",
    "name": "Migrate SGDP website to the Purchase Widget",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-11-16",
    "fv": "R9.10",
    "who": "Obie Khandaker",
    "tshirt": null
@@ -761,7 +761,7 @@
    "key": "WT-1210",
    "name": "Migrate SGDP website to the Purchase Widget",
    "status": "In Testing",
-   "ted": null,
+   "ted": "2026-11-16",
    "fv": "R9.10",
    "who": "Obie Khandaker",
    "tshirt": null,
@@ -1822,7 +1822,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": null,
+   "ted": "2026-11-16",
    "who": "Obie Khandaker",
    "theme": ""
   },
@@ -2246,36 +2246,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25243",
-   "name": "Member Portal| Inconsistent behavior when deleting asigned CC from payment management vs change payment method",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-11-10T20:46:47.711-0600",
-   "resolved": "",
-   "due": "2026-11-12",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-25222",
    "name": "Settings are reverting after release",
@@ -6598,6 +6568,36 @@
    "triage": "",
    "parentKey": "PLANS-25130",
    "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25243",
+   "name": "Member Portal| Inconsistent behavior when deleting asigned CC from payment management vs change payment method",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Valentyna Tenus",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-11-10T20:46:47.711-0600",
+   "resolved": "",
+   "due": "2026-11-12",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
