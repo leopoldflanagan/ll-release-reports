@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T21:07:16+00:00",
+ "generated_at": "2026-11-11T21:15:27+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -475,17 +475,6 @@
    "key": "WT-1008",
    "name": "AAC Wellfit Framework Integration",
    "status": "Ready for Development",
-   "ted": null,
-   "fv": null,
-   "who": "Daniel Marineni",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
-   "theme": ""
-  },
-  {
-   "key": "WT-1009",
-   "name": "Provider Portal - Multiple Plan Management",
-   "status": "Requirements",
    "ted": null,
    "fv": null,
    "who": "Daniel Marineni",
@@ -1535,17 +1524,6 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Ready for Development",
-   "fv": null,
-   "ted": null,
-   "who": "Daniel Marineni",
-   "theme": ""
-  },
-  {
-   "key": "WT-1009",
-   "name": "Provider Portal - Multiple Plan Management",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "Requirements",
    "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
