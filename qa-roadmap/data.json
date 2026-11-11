@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T16:49:14+00:00",
+ "generated_at": "2026-11-11T17:00:26+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -2286,7 +2286,7 @@
    "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Ivan Yarymovych",
    "reporter": "Chris Rubio",
-   "prio": "2: Important",
+   "prio": "1: Urgent",
    "created": "2026-11-09T22:58:27.297-0600",
    "resolved": "",
    "due": "2026-11-10",
