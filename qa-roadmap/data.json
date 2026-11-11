@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T22:15:21+00:00",
+ "generated_at": "2026-11-11T22:19:19+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -28441,31 +28441,6 @@
    "prio": "3: Standard",
    "created": "2025-11-26T14:32:24.276-0600",
    "resolved": "2026-08-13T17:19:32.918-0500",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-10871",
-   "name": "Intermittent | Wallet | ADHA PLANS & Ad Hoc plans & KIDS plans | I phone | Membership card not added to wallet",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R8.11",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2025-11-26T12:08:23.807-0600",
-   "resolved": "2026-08-13T17:19:14.470-0500",
    "due": "",
    "labels": [],
    "theme": "",
