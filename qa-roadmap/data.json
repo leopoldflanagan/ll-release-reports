@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T16:10:49+00:00",
+ "generated_at": "2026-11-11T16:15:22+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -550,7 +550,7 @@
   },
   {
    "key": "WT-1022",
-   "name": "Security metrics for Account Information",
+   "name": "Security metrics for Account Information (CREG)",
    "status": "In Development",
    "ted": null,
    "fv": "R9.10",
@@ -1608,7 +1608,7 @@
   },
   {
    "key": "WT-1022",
-   "name": "Security metrics for Account Information",
+   "name": "Security metrics for Account Information (CREG)",
    "pod": "PLANS",
    "proj": "WT",
    "status": "In Development",
