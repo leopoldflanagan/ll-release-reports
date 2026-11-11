@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T21:15:27+00:00",
+ "generated_at": "2026-11-11T21:21:01+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -199,7 +199,7 @@
   {
    "key": "WT-1060",
    "name": "Member Search Improvements",
-   "status": "Requirements",
+   "status": "Backlog",
    "ted": null,
    "fv": null,
    "who": "Daniel Marineni",
@@ -738,7 +738,7 @@
   {
    "key": "WT-1208",
    "name": "Agent Org plan selling",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.10",
    "who": "Daniel Marineni",
@@ -1248,7 +1248,7 @@
    "name": "Member Search Improvements",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Requirements",
+   "status": "Backlog",
    "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
@@ -1787,7 +1787,7 @@
    "name": "Agent Org plan selling",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": "R9.10",
    "ted": null,
    "who": "Daniel Marineni",
