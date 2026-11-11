@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T18:30:21+00:00",
+ "generated_at": "2026-11-11T18:35:40+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -233,8 +233,8 @@
    "key": "WT-708",
    "name": "Non Annual Renewals",
    "status": "Blocked",
-   "ted": "2026-11-27",
-   "fv": "R9.10",
+   "ted": "2027-01-15",
+   "fv": "R10.02",
    "who": "Karey Crump",
    "tshirt": "Moderate",
    "pod": "DYN",
@@ -1293,8 +1293,8 @@
    "pod": "DYN",
    "proj": "WT",
    "status": "Blocked",
-   "fv": "R9.10",
-   "ted": "2026-11-27",
+   "fv": "R10.02",
+   "ted": "2027-01-15",
    "who": "Karey Crump",
    "theme": "LL-Fast Follows"
   },
