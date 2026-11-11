@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T10:30:26+00:00",
+ "generated_at": "2026-11-11T10:45:21+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -2251,6 +2251,36 @@
    "created": "2026-11-10T12:22:20.631-0600",
    "resolved": "",
    "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25222",
+   "name": "Settings are reverting after release",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-11-10T12:09:21.951-0600",
+   "resolved": "",
+   "due": "2026-11-12",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -5158,36 +5188,6 @@
    "resolved": "",
    "due": "",
    "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25222",
-   "name": "Settings are reverting after release",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-11-10T12:09:21.951-0600",
-   "resolved": "",
-   "due": "2026-11-12",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
     "product_prioritized"
    ],
    "theme": "",
