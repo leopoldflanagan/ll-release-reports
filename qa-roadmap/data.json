@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T15:30:23+00:00",
+ "generated_at": "2026-11-11T15:35:26+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -6588,36 +6588,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24924",
-   "name": "CSP \\ Duplicate \"Plan Renewed\" records at Account History after renewing an expired plan via Member Portal after all Auto-Renewal retries fail",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-10-29T23:39:43.377-0500",
-   "resolved": "",
-   "due": "2026-11-10",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24113",
    "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
    "pod": "LL",
@@ -6692,6 +6662,36 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24924",
+   "name": "CSP \\ Duplicate \"Plan Renewed\" records at Account History after renewing an expired plan via Member Portal after all Auto-Renewal retries fail",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "2: Important",
+   "created": "2026-10-29T23:39:43.377-0500",
+   "resolved": "",
+   "due": "2026-11-10",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
