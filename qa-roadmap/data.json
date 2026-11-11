@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T20:00:52+00:00",
+ "generated_at": "2026-11-11T20:09:58+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -28661,60 +28661,17 @@
    "linkedLP": false,
    "initKey": "WT-127",
    "init": "Mobile Support Member Portal"
-  },
-  {
-   "key": "PLANS-8323",
-   "name": "Purchased CHILD from Dynamic purchase portal | Payment Cards are not showing for RP in member portal",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R8.11",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2025-08-07T11:32:30.186-0500",
-   "resolved": "2026-08-13T15:02:15.290-0500",
-   "due": "2025-10-21",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-8592",
-   "parentName": "Member Portal - Bug Fixes - Adding Members",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-127",
-   "init": "Mobile Support Member Portal"
-  },
-  {
-   "key": "PLANS-8269",
-   "name": "ADD HOC | Expired minor plans are not showing for RP in member portal unable to RENEW",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R8.11",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2025-08-06T05:44:47.241-0500",
-   "resolved": "2026-08-13T15:01:20.689-0500",
-   "due": "2025-10-21",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-8592",
-   "parentName": "Member Portal - Bug Fixes - Adding Members",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-127",
-   "init": "Mobile Support Member Portal"
   }
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25289",
+   "name": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Sailaja Yanamandra"
+  },
   {
    "key": "PLANS-25274",
    "name": "Blocker-SGDP AHDA- Stage-Plans are missing",
