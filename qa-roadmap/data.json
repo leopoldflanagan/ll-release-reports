@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T03:45:22+00:00",
+ "generated_at": "2026-11-11T04:00:25+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -29488,6 +29488,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25244",
+   "name": "SGDP Purchase Portal-Stage-Autorenewal checkbox is showing for SGDP CA plan, CSP have Auto-renew toggle is On in Plan template",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-25243",
    "name": "Member Portal| Inconsistent behavior when deleting asigned CC from payment management vs change payment method",
