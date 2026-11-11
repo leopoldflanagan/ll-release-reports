@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T21:21:01+00:00",
+ "generated_at": "2026-11-11T21:30:21+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -661,7 +661,7 @@
   {
    "key": "WT-1190",
    "name": "Enhancement Receipts & WF Emails to carry logo of plan or Name of Office",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": "R9.10",
    "who": "Daniel Marineni",
@@ -1710,7 +1710,7 @@
    "name": "Enhancement Receipts & WF Emails to carry logo of plan or Name of Office",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": "R9.10",
    "ted": null,
    "who": "Daniel Marineni",
