@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T09:45:21+00:00",
+ "generated_at": "2026-11-11T10:00:29+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -2237,36 +2237,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25241",
-   "name": "PMP - Plan Type Correction",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-11-10T16:32:57.072-0600",
-   "resolved": "",
-   "due": "2026-11-11",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-25223",
    "name": "Configuration Settings not saving",
@@ -5208,12 +5178,12 @@
    "cat": "To Do",
    "fv": "R9.10",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Camille Knight",
    "prio": "2: Important",
    "created": "2026-11-10T12:09:21.951-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-12",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -6479,6 +6449,36 @@
    "triage": "",
    "parentKey": "PLANS-25130",
    "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25241",
+   "name": "PMP - Plan Type Correction",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-11-10T16:32:57.072-0600",
+   "resolved": "",
+   "due": "2026-11-11",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
