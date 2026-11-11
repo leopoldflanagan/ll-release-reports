@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T02:45:24+00:00",
+ "generated_at": "2026-11-11T03:00:26+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -29488,6 +29488,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25243",
+   "name": "Member Portal| Inconsistent behavior when deleting asigned CC from payment management vs change payment method",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  },
   {
    "key": "PLANS-25242",
    "name": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment method",
