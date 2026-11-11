@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T18:45:21+00:00",
+ "generated_at": "2026-11-11T18:49:02+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -5324,7 +5324,7 @@
    "cat": "To Do",
    "fv": "R9.10",
    "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-11-10T21:49:32.432-0600",
@@ -7075,31 +7075,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-25250",
-   "name": "KOS Purchase Portal - Stage - Join: offices show only SHOW LOCATION, no office can be selected (purchase blocked)",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Rostyslav Masniuk",
-   "prio": "2: Important",
-   "created": "2026-11-11T07:20:38.804-0600",
-   "resolved": "",
-   "due": "2026-11-11",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24430",
-   "parentName": "PLANS-24430: Unify Purchase Into NPM Package: Epic 8: SGDP Portal - replace the iframe with the shared Purchase-Widget npm package",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-24985",
    "name": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
    "pod": "PLANS",
@@ -7485,6 +7460,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25250",
+   "name": "KOS Purchase Portal - Stage - Join: offices show only SHOW LOCATION, no office can be selected (purchase blocked)",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Rostyslav Masniuk",
+   "prio": "2: Important",
+   "created": "2026-11-11T07:20:38.804-0600",
+   "resolved": "2026-11-11T12:48:08.590-0600",
+   "due": "2026-11-11",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24430",
+   "parentName": "PLANS-24430: Unify Purchase Into NPM Package: Epic 8: SGDP Portal - replace the iframe with the shared Purchase-Widget npm package",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
   {
    "key": "PLANS-24884",
    "name": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal",
