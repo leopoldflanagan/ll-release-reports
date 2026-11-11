@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T18:10:27+00:00",
+ "generated_at": "2026-11-11T18:15:22+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -2356,6 +2356,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25287",
+   "name": "Blocker - Stage/Smile Health/Practice Search is failing",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Unassigned",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-11-11T12:09:09.264-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24430",
+   "parentName": "PLANS-24430: Unify Purchase Into NPM Package: Epic 8: SGDP Portal - replace the iframe with the shared Purchase-Widget npm package",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-25286",
@@ -29636,13 +29661,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25287",
-   "name": "Stage/Smile Health/Practice Search is failing",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande"
-  },
   {
    "key": "PLANS-25274",
    "name": "Blocker-SGDP AHDA- Stage-Plans are missing",
