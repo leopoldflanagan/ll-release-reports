@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T17:30:24+00:00",
+ "generated_at": "2026-11-11T17:35:29+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -243,7 +243,7 @@
   {
    "key": "WT-721",
    "name": "LL - Expired Plans Winback Journey",
-   "status": "Blocked",
+   "status": "Ready for Development",
    "ted": "2026-11-13",
    "fv": "R9.10",
    "who": "Karey Crump",
@@ -1303,7 +1303,7 @@
    "name": "LL - Expired Plans Winback Journey",
    "pod": "DYN",
    "proj": "WT",
-   "status": "Blocked",
+   "status": "Ready for Development",
    "fv": "R9.10",
    "ted": "2026-11-13",
    "who": "Karey Crump",
@@ -6590,35 +6590,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25168",
-   "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Petro Yarish",
-   "prio": "2: Important",
-   "created": "2026-11-09T01:53:43.747-0600",
-   "resolved": "",
-   "due": "2026-11-09",
-   "labels": [
-    "CCB_candidate",
-    "plans",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25008",
    "name": "PT is Unable to Log into Member Portal",
    "pod": "LL",
@@ -6750,6 +6721,35 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25168",
+   "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Petro Yarish",
+   "prio": "2: Important",
+   "created": "2026-11-09T01:53:43.747-0600",
+   "resolved": "",
+   "due": "2026-11-09",
+   "labels": [
+    "CCB_candidate",
+    "plans",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
