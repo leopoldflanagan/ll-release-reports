@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T15:19:00+00:00",
+ "generated_at": "2026-11-11T15:30:23+00:00",
  "today": "2026-11-11",
  "features": [
   {
@@ -90,6 +90,15 @@
    "ted": "2026-11-11",
    "fv": "R9.10",
    "who": "Rostyslav Masniuk",
+   "tshirt": null
+  },
+  {
+   "key": "WT-1210",
+   "name": "Migrate SGDP website to the Purchase Widget",
+   "status": "In Testing",
+   "ted": null,
+   "fv": "R9.10",
+   "who": "Obie Khandaker",
    "tshirt": null
   },
   {
@@ -542,7 +551,7 @@
   {
    "key": "WT-1022",
    "name": "Security metrics for Account Information",
-   "status": "Ready for Development",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.10",
    "who": "Daniel Marineni",
@@ -756,7 +765,7 @@
    "fv": "R9.10",
    "who": "Obie Khandaker",
    "tshirt": null,
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": ""
   },
   {
@@ -1602,7 +1611,7 @@
    "name": "Security metrics for Account Information",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R9.10",
    "ted": null,
    "who": "Daniel Marineni",
@@ -1809,7 +1818,7 @@
   {
    "key": "WT-1210",
    "name": "Migrate SGDP website to the Purchase Widget",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
@@ -2398,31 +2407,6 @@
     "group3_migration",
     "product_prioritized"
    ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25225",
-   "name": "PMP \\ Primary Payment Method designation and configuration are missing from Member Payment Types",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-11-10T12:33:03.652-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
    "theme": "",
    "triage": "",
    "parentKey": "",
@@ -7159,31 +7143,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-22108",
-   "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Anuradhi Wickramasinghe",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-31T09:38:26.909-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-22022",
    "name": "Dashboard - When a plan purchase is refunded, the Dashboard incorrectly updates the Plans Renewal metric",
    "pod": "LL",
@@ -7451,6 +7410,56 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25225",
+   "name": "PMP \\ Primary Payment Method designation and configuration are missing from Member Payment Types",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-11-10T12:33:03.652-0600",
+   "resolved": "2026-11-11T09:26:58.590-0600",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-22108",
+   "name": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metrics/details",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Anuradhi Wickramasinghe",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-31T09:38:26.909-0500",
+   "resolved": "2026-11-11T09:26:25.763-0600",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-23913",
    "name": "ACH - Emails are not working (Declines, Returns)",
@@ -29543,41 +29552,13 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-16106",
-   "name": "Smile Health - Pre-Prod Purchase - reCAPTCHA Displays \"Invalid Domain for Site Key\"",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-05-13T13:26:37.019-0500",
-   "resolved": "2026-08-13T10:23:14.670-0500",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-25253",
-   "name": "Dashboard - Organization plan - Auto renewal metric not showing in Auto-Renewals Dashboard",
+   "key": "PLANS-25254",
+   "name": "delete.",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
