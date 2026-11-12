@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T09:45:22+00:00",
+ "generated_at": "2026-11-12T10:00:23+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -2250,6 +2250,36 @@
    "init": ""
   },
   {
+   "key": "PLANS-25264",
+   "name": "Essential Smile Plan Member ID- Incorrect Location",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Brianna Hill",
+   "prio": "2: Important",
+   "created": "2026-11-11T09:53:32.392-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25244",
    "name": "SGDP Purchase Portal-Stage-Autorenewal checkbox is showing for SGDP CA plan, CSP have Auto-renew toggle is On in Plan template",
    "pod": "LL",
@@ -2293,7 +2323,7 @@
    "prio": "2: Important",
    "created": "2026-11-10T12:09:21.951-0600",
    "resolved": "",
-   "due": "2026-11-12",
+   "due": "2026-11-13",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -5179,36 +5209,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25264",
-   "name": "Essential Smile Plan Member ID- Incorrect Location",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Brianna Hill",
-   "prio": "2: Important",
-   "created": "2026-11-11T09:53:32.392-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25063",
    "name": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Payment Method",
    "pod": "LL",
@@ -6436,36 +6436,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25251",
-   "name": "Legal Language - Not applying everywhere",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-11-11T08:48:46.454-0600",
-   "resolved": "",
-   "due": "2026-11-13",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25241",
    "name": "PMP - Plan Type Correction",
    "pod": "LL",
@@ -6478,7 +6448,7 @@
    "prio": "1: Urgent",
    "created": "2026-11-10T16:32:57.072-0600",
    "resolved": "",
-   "due": "2026-11-12",
+   "due": "2026-11-13",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -6627,6 +6597,36 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25251",
+   "name": "Legal Language - Not applying everywhere",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-11-11T08:48:46.454-0600",
+   "resolved": "",
+   "due": "2026-11-13",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
