@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:30:24+00:00",
+ "generated_at": "2026-11-12T16:35:16+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -797,6 +797,17 @@
    "ted": null,
    "fv": null,
    "who": "Daniel Marineni",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1284",
+   "name": "Member Portal renewal on the shared Purchase-Widget",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
    "tshirt": null,
    "pod": "PLANS",
    "theme": ""
@@ -1846,6 +1857,17 @@
    "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
+   "theme": ""
+  },
+  {
+   "key": "WT-1284",
+   "name": "Member Portal renewal on the shared Purchase-Widget",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
    "theme": ""
   },
   {
