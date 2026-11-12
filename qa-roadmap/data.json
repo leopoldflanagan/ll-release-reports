@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T15:20:24+00:00",
+ "generated_at": "2026-11-12T15:30:25+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -7056,34 +7056,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24585",
-   "name": "KOS portal uses static footer instead of shared dynamic footer",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "LL - Low Prior Bugs",
-   "who": "Valentyna Tenus",
-   "reporter": "Valentyna Tenus",
-   "prio": "3: Standard",
-   "created": "2026-10-19T02:46:55.866-0500",
-   "resolved": "",
-   "due": "2026-11-06",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-22022",
    "name": "Dashboard - When a plan purchase is refunded, the Dashboard incorrectly updates the Plans Renewal metric",
    "pod": "LL",
@@ -7379,6 +7351,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24585",
+   "name": "KOS portal uses static footer instead of shared dynamic footer",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "LL - Low Prior Bugs",
+   "who": "Valentyna Tenus",
+   "reporter": "Valentyna Tenus",
+   "prio": "3: Standard",
+   "created": "2026-10-19T02:46:55.866-0500",
+   "resolved": "2026-11-12T09:20:58.130-0600",
+   "due": "2026-11-06",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": true,
+   "linkedLP": true,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-25250",
    "name": "KOS Purchase Portal - Stage - Join: offices show only SHOW LOCATION, no office can be selected (purchase blocked)",
@@ -25841,61 +25841,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-21103",
-   "name": "PMP - broken - bill to office option is not visible when purchasing a plan",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-12T11:46:54.877-0500",
-   "resolved": "2026-08-14T10:26:26.441-0500",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20491",
-   "name": "WFP - Overview page - Membership shows as 'Delinquent' when org setting is set to Bill to Office",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.8",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-29T07:39:42.364-0500",
-   "resolved": "2026-08-14T10:25:49.258-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18926",
-   "parentName": "Epic 2: Effective payment method - cascade, practice override and WellfitPay display",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
