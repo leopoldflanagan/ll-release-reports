@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T09:00:23+00:00",
+ "generated_at": "2026-11-12T09:15:21+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -2226,7 +2226,7 @@
  "bugs": [
   {
    "key": "PLANS-25287",
-   "name": "Blocker - Stage/Smile Health/Practice Search is failing",
+   "name": "PLANS-25287: Blocker - Stage: Smile Health: Practice search is failing",
    "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
@@ -2237,7 +2237,7 @@
    "prio": "2: Important",
    "created": "2026-11-11T12:09:09.264-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-12",
    "labels": [],
    "theme": "",
    "triage": "",
