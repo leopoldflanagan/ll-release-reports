@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T17:19:19+00:00",
+ "generated_at": "2026-11-12T17:30:24+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -7562,7 +7562,7 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.10",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón",
@@ -7640,7 +7640,7 @@
    "pod": "PLANS",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.10",
    "sprint": "LL-Sprint 23-26",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
@@ -7668,7 +7668,7 @@
    "pod": "LL",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.10",
    "sprint": "LL - Low Prior Bugs",
    "who": "Daniel Marineni",
    "reporter": "Anuradhi Wickramasinghe",
@@ -7743,7 +7743,7 @@
    "pod": "PLANS",
    "status": "Closed",
    "cat": "Done",
-   "fv": null,
+   "fv": "R9.10",
    "sprint": null,
    "who": "Unassigned",
    "reporter": "Ezra Skeete",
