@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T20:00:24+00:00",
+ "generated_at": "2026-11-12T20:10:08+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -51,7 +51,7 @@
    "key": "WT-1003",
    "name": "Define Refund Window Timeframes",
    "status": "In Testing",
-   "ted": "2026-11-06",
+   "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
@@ -78,7 +78,7 @@
    "key": "WT-1210",
    "name": "Migrate SGDP website to the Purchase Widget",
    "status": "In Testing",
-   "ted": "2026-11-16",
+   "ted": "2026-11-17",
    "fv": "R9.10",
    "who": "Obie Khandaker",
    "tshirt": null
@@ -369,7 +369,7 @@
    "key": "WT-1003",
    "name": "Define Refund Window Timeframes",
    "status": "In Testing",
-   "ted": "2026-11-06",
+   "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate",
@@ -710,7 +710,7 @@
    "key": "WT-1210",
    "name": "Migrate SGDP website to the Purchase Widget",
    "status": "In Testing",
-   "ted": "2026-11-16",
+   "ted": "2026-11-17",
    "fv": "R9.10",
    "who": "Obie Khandaker",
    "tshirt": null,
@@ -1419,7 +1419,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-11-06",
+   "ted": "2026-11-23",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
@@ -1760,7 +1760,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-11-16",
+   "ted": "2026-11-17",
    "who": "Obie Khandaker",
    "theme": ""
   },
