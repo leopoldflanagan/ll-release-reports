@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:49:11+00:00",
+ "generated_at": "2026-11-12T17:00:29+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -144,8 +144,8 @@
   {
    "key": "WT-1028",
    "name": "WFShare reporting for new Individual Plus Plan",
-   "status": "Ready for Development",
-   "ted": null,
+   "status": "In Testing",
+   "ted": "2026-11-16",
    "fv": "R9.10",
    "who": "Camille Knight",
    "tshirt": "Moderate",
@@ -1215,9 +1215,9 @@
    "name": "WFShare reporting for new Individual Plus Plan",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "In Testing",
    "fv": "R9.10",
-   "ted": null,
+   "ted": "2026-11-16",
    "who": "Camille Knight",
    "theme": "LL-Fast Follows"
   },
@@ -25878,34 +25878,6 @@
    "linkedLP": true,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-20910",
-   "name": "Preprod/Smile Health / Check all checkbox shows incorrect status for partially selected elements",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-08-10T14:10:38.476-0500",
-   "resolved": "2026-08-14T11:57:13.010-0500",
-   "due": "2026-08-14",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
