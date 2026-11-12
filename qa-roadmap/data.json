@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:11:31+00:00",
+ "generated_at": "2026-11-12T16:15:20+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -2263,36 +2263,6 @@
    "created": "2026-11-10T12:09:21.951-0600",
    "resolved": "",
    "due": "2026-11-13",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25133",
-   "name": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as one source and fail purchases after five a day",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-06T02:28:25.797-0600",
-   "resolved": "",
-   "due": "2026-11-12",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -6393,6 +6363,36 @@
    "created": "2026-11-10T16:32:57.072-0600",
    "resolved": "",
    "due": "2026-11-13",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25133",
+   "name": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as one source and fail purchases after five a day",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-06T02:28:25.797-0600",
+   "resolved": "",
+   "due": "2026-11-12",
    "labels": [
     "group1_migration",
     "group2_migration",
