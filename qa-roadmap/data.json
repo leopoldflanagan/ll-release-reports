@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T15:35:37+00:00",
+ "generated_at": "2026-11-12T15:45:22+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -62,7 +62,7 @@
    "status": "In Development",
    "ted": "2026-11-06",
    "fv": "R9.10",
-   "who": "Dmytro Tymofiienko",
+   "who": "Mykyta Moroz",
    "tshirt": "Moderate"
   },
   {
@@ -400,7 +400,7 @@
    "status": "In Development",
    "ted": "2026-11-06",
    "fv": "R9.10",
-   "who": "Dmytro Tymofiienko",
+   "who": "Mykyta Moroz",
    "tshirt": "Moderate",
    "pod": "LL",
    "theme": "ACH-Fast Follows"
@@ -1449,7 +1449,7 @@
    "status": "In Development",
    "fv": "R9.10",
    "ted": "2026-11-06",
-   "who": "Dmytro Tymofiienko",
+   "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
   {
@@ -25868,7 +25868,7 @@
   },
   {
    "key": "PLANS-25254",
-   "name": "bug",
+   "name": "CSP -ucr Practices Not Visible Under Organization & Region/Practices Menu Was Renamed",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
