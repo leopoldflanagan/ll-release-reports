@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T07:15:19+00:00",
+ "generated_at": "2026-11-12T07:30:24+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -2273,6 +2273,36 @@
    "triage": "",
    "parentKey": "DYN-536",
    "parentName": "Plans PDF Generated ID Cards",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25133",
+   "name": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as one source and fail purchases after five a day",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-06T02:28:25.797-0600",
+   "resolved": "",
+   "due": "2026-11-12",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -5207,36 +5237,6 @@
    "linkedLP": false,
    "initKey": "WT-266",
    "init": "Plans Tech Debt"
-  },
-  {
-   "key": "PLANS-25133",
-   "name": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as one source and fail purchases after five a day",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-06T02:28:25.797-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-25063",
