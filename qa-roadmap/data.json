@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T23:00:25+00:00",
+ "generated_at": "2026-11-12T23:08:08+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -6937,36 +6937,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24985",
-   "name": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-02T10:29:29.134-0600",
-   "resolved": "",
-   "due": "2026-11-10",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24945",
    "name": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
    "pod": "LL",
@@ -7322,6 +7292,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24985",
+   "name": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-02T10:29:29.134-0600",
+   "resolved": "2026-11-12T17:04:09.032-0600",
+   "due": "2026-11-10",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-25251",
    "name": "Legal Language - Not applying everywhere",
