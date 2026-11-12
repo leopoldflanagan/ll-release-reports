@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:15:20+00:00",
+ "generated_at": "2026-11-12T16:22:36+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -5087,6 +5087,31 @@
    "parentKey": "",
    "parentName": "",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25236",
+   "name": "Production issue on the Auto retry for failed claims",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Sailaja Yanamandra",
+   "reporter": "Sushma Bankar",
+   "prio": "3: Standard",
+   "created": "2026-11-10T14:59:11.427-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -25872,13 +25897,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-25236",
-   "name": "Production issue on the Auto retry for failed claims",
-   "status": "Ready for Development",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Sushma Bankar"
   },
   {
    "key": "PLANS-24854",
