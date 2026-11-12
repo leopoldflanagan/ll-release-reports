@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:22:36+00:00",
+ "generated_at": "2026-11-12T16:30:24+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -5099,7 +5099,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Sailaja Yanamandra",
    "reporter": "Sushma Bankar",
    "prio": "3: Standard",
@@ -6570,6 +6570,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25289",
+   "name": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Sailaja Yanamandra",
+   "prio": "3: Standard",
+   "created": "2026-11-11T14:08:29.232-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25237",
+   "parentName": "Plans 9.10 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-25168",
@@ -25837,46 +25862,10 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-20874",
-   "name": "Member Portal \\ GetPaymentAccountById returns 500 after plan upgrade when userName cannot be resolved from token claims",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Hunter Redhead",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "2: Important",
-   "created": "2026-08-07T14:31:40.052-0500",
-   "resolved": "2026-08-14T11:27:35.701-0500",
-   "due": "2026-08-19",
-   "labels": [
-    "PDS",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25289",
-   "name": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
-   "status": "PR Merged",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Sailaja Yanamandra"
-  },
   {
    "key": "PLANS-25274",
    "name": "Blocker-SGDP AHDA- Stage-Plans are missing",
