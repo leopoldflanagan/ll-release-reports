@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T03:30:24+00:00",
+ "generated_at": "2026-11-12T03:45:20+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -25973,34 +25973,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-15283",
-   "name": "Member Portal \\ Failed to display expected values in Procedures section of Treatment Summaries",
-   "pod": "LL",
-   "status": "Ready Prod",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Luis Moreno",
-   "prio": "2: Important",
-   "created": "2026-04-22T15:09:17.434-0500",
-   "resolved": "2026-08-13T22:40:06.950-0500",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
