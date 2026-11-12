@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T19:19:25+00:00",
+ "generated_at": "2026-11-12T19:30:24+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -25729,33 +25729,6 @@
    "triage": "",
    "parentKey": "PLANS-21311",
    "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20263",
-   "name": "One Smile | Essential Smile - Security Code field accepts invalid CVV length",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Mariano Hernández",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-07-24T11:50:43.229-0500",
-   "resolved": "2026-08-14T14:25:47.854-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
