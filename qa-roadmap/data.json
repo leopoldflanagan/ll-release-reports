@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T15:45:22+00:00",
+ "generated_at": "2026-11-12T15:49:17+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -25868,7 +25868,7 @@
   },
   {
    "key": "PLANS-25254",
-   "name": "CSP -ucr Practices Not Visible Under Organization & Region/Practices Menu Was Renamed",
+   "name": "CSP - Practices/Regions- Practices Not Visible Under Organization & Region/Practices Menu is Renamed",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
