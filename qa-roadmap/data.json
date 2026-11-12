@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T22:48:56+00:00",
+ "generated_at": "2026-11-12T23:00:25+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -25771,33 +25771,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21277",
-   "name": "[ACH] - Getting an error while trying to add ACH as payment method",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 19-26",
-   "who": "Juan Rodrigo Mejia Rivera",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "1: Urgent",
-   "created": "2026-08-14T11:43:11.407-0500",
-   "resolved": "2026-08-14T17:51:10.839-0500",
-   "due": "",
-   "labels": [
-    "LLplans"
-   ],
-   "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-21311",
    "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
