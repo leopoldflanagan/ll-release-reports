@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T15:10:03+00:00",
+ "generated_at": "2026-11-12T15:15:19+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -25923,7 +25923,7 @@
   },
   {
    "key": "PLANS-25254",
-   "name": "delete.",
+   "name": "bug",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
