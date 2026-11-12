@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:49:14+00:00",
+ "generated_at": "2026-11-12T19:00:30+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -57,19 +57,10 @@
    "tshirt": "Moderate"
   },
   {
-   "key": "WT-1170",
-   "name": "Show statuses for ACH transactions at Member Portal",
-   "status": "In Testing",
-   "ted": "2026-11-16",
-   "fv": "R9.10",
-   "who": "Denys Kernychnyi",
-   "tshirt": "Small"
-  },
-  {
    "key": "WT-1191",
    "name": "Marketing Details - fee schedule",
    "status": "In Testing",
-   "ted": "2026-11-10",
+   "ted": "2026-11-18",
    "fv": "R9.10",
    "who": "Valentyna Tenus",
    "tshirt": null
@@ -617,17 +608,6 @@
    "theme": ""
   },
   {
-   "key": "WT-1170",
-   "name": "Show statuses for ACH transactions at Member Portal",
-   "status": "In Testing",
-   "ted": "2026-11-16",
-   "fv": "R9.10",
-   "who": "Denys Kernychnyi",
-   "tshirt": "Small",
-   "pod": "LL",
-   "theme": ""
-  },
-  {
    "key": "WT-1176",
    "name": "Waive Admin Fee when changing plan types",
    "status": "Backlog",
@@ -653,7 +633,7 @@
    "key": "WT-1191",
    "name": "Marketing Details - fee schedule",
    "status": "In Testing",
-   "ted": "2026-11-10",
+   "ted": "2026-11-18",
    "fv": "R9.10",
    "who": "Valentyna Tenus",
    "tshirt": null,
@@ -1675,17 +1655,6 @@
    "theme": ""
   },
   {
-   "key": "WT-1170",
-   "name": "Show statuses for ACH transactions at Member Portal",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.10",
-   "ted": "2026-11-16",
-   "who": "Denys Kernychnyi",
-   "theme": ""
-  },
-  {
    "key": "WT-1176",
    "name": "Waive Admin Fee when changing plan types",
    "pod": "PLANS",
@@ -1714,7 +1683,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-11-10",
+   "ted": "2026-11-18",
    "who": "Valentyna Tenus",
    "theme": ""
   },
