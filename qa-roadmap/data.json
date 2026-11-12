@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:00:32+00:00",
+ "generated_at": "2026-11-12T18:11:55+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -2378,12 +2378,12 @@
   },
   {
    "key": "PLANS-25282",
-   "name": "SGDP ADHA-Stage-Landing Page missing Plans card",
+   "name": "Blocker - SGDP ADHA-Stage-Landing Page missing Plans card",
    "pod": "PLANS",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
