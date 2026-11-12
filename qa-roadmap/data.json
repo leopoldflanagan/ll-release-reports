@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:45:21+00:00",
+ "generated_at": "2026-11-12T16:49:11+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -25923,13 +25923,6 @@
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vinita Thankur"
-  },
-  {
-   "key": "PLANS-25254",
-   "name": "CSP - Practices/Regions- Practices Not Visible Under Organization & Region/Practices Menu is Renamed",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
   },
   {
    "key": "PLANS-24854",
