@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T17:30:24+00:00",
+ "generated_at": "2026-11-12T17:35:06+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -6889,31 +6889,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-25287",
-   "name": "PLANS-25287: Blocker - Stage: Smile Health: Practice search is failing",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-11-11T12:09:09.264-0600",
-   "resolved": "",
-   "due": "2026-11-12",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25251",
    "name": "Legal Language - Not applying everywhere",
    "pod": "LL",
@@ -7445,6 +7420,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25287",
+   "name": "PLANS-25287: Blocker - Stage: Smile Health: Practice search is failing",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-11-11T12:09:09.264-0600",
+   "resolved": "2026-11-12T11:34:47.702-0600",
+   "due": "2026-11-12",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24585",
    "name": "KOS portal uses static footer instead of shared dynamic footer",
