@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T15:49:17+00:00",
+ "generated_at": "2026-11-12T16:00:29+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -25848,7 +25848,7 @@
   {
    "key": "PLANS-25289",
    "name": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
-   "status": "PR Created",
+   "status": "PR Merged",
    "who": "Sailaja Yanamandra",
    "reporter": "Sailaja Yanamandra"
   },
