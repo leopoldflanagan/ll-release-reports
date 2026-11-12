@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:30:28+00:00",
+ "generated_at": "2026-11-12T18:35:02+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -50,7 +50,7 @@
   {
    "key": "WT-1003",
    "name": "Define Refund Window Timeframes",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-11-06",
    "fv": "R9.10",
    "who": "Mykyta Moroz",
@@ -377,7 +377,7 @@
   {
    "key": "WT-1003",
    "name": "Define Refund Window Timeframes",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-11-06",
    "fv": "R9.10",
    "who": "Mykyta Moroz",
@@ -1437,7 +1437,7 @@
    "name": "Define Refund Window Timeframes",
    "pod": "LL",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.10",
    "ted": "2026-11-06",
    "who": "Mykyta Moroz",
