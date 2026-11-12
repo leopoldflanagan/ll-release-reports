@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T17:35:06+00:00",
+ "generated_at": "2026-11-12T17:45:26+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -25810,33 +25810,6 @@
    "prio": "3: Standard",
    "created": "2026-07-24T11:50:43.229-0500",
    "resolved": "2026-08-14T14:25:47.854-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21071",
-   "name": "PLANS-21071: Smile Health: Stage: Crosby: Plan purchase is failed",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 19-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-12T10:17:28.960-0500",
-   "resolved": "2026-08-14T12:37:14.072-0500",
    "due": "",
    "labels": [
     "product_prioritized"
