@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:35:16+00:00",
+ "generated_at": "2026-11-12T16:45:21+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -804,6 +804,17 @@
   {
    "key": "WT-1284",
    "name": "Member Portal renewal on the shared Purchase-Widget",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1285",
+   "name": "PMP (Plans Marketplace) on the shared Purchase-Widget",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -1871,6 +1882,17 @@
    "theme": ""
   },
   {
+   "key": "WT-1285",
+   "name": "PMP (Plans Marketplace) on the shared Purchase-Widget",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
    "key": "WT-609",
    "name": "Tech Debt: 2026",
    "pod": "PLANS",
@@ -2246,31 +2268,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25287",
-   "name": "PLANS-25287: Blocker - Stage: Smile Health: Practice search is failing",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-11-11T12:09:09.264-0600",
-   "resolved": "",
-   "due": "2026-11-12",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-25222",
    "name": "Settings are reverting after release",
@@ -6890,6 +6887,31 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-25287",
+   "name": "PLANS-25287: Blocker - Stage: Smile Health: Practice search is failing",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vivienne Chawande",
+   "prio": "2: Important",
+   "created": "2026-11-11T12:09:09.264-0600",
+   "resolved": "",
+   "due": "2026-11-12",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25251",
