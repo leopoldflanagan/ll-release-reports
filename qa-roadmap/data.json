@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T19:00:30+00:00",
+ "generated_at": "2026-11-12T19:08:05+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -567,7 +567,7 @@
    "key": "WT-1063",
    "name": "CREG Report",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-11-20",
    "fv": "R9.10",
    "who": "Daniel Marineni",
    "tshirt": "Moderate",
@@ -1617,7 +1617,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": null,
+   "ted": "2026-11-20",
    "who": "Daniel Marineni",
    "theme": ""
   },
