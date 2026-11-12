@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T07:00:24+00:00",
+ "generated_at": "2026-11-12T07:15:19+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -2306,34 +2306,6 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-21111",
-   "name": "Stage - Member Portal - Overview - Other adult's savings contribution is not displayed",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "3: Standard",
-   "created": "2026-08-12T14:02:55.729-0500",
-   "resolved": "",
-   "due": "2026-10-20",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-25290",
@@ -7126,6 +7098,34 @@
    "resolved": "",
    "due": "",
    "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-21111",
+   "name": "Stage - Member Portal - Overview - Other adult's savings contribution is not displayed",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Gabriel Perez Cardozo",
+   "prio": "3: Standard",
+   "created": "2026-08-12T14:02:55.729-0500",
+   "resolved": "",
+   "due": "2026-10-20",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
    "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
