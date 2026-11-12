@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T18:23:12+00:00",
+ "generated_at": "2026-11-12T18:30:28+00:00",
  "today": "2026-11-12",
  "features": [
   {
@@ -10,15 +10,6 @@
    "fv": null,
    "who": "Chris Rubio",
    "tshirt": "Small"
-  },
-  {
-   "key": "WT-1032",
-   "name": "Unify Purchase Into NPM Package",
-   "status": "In Testing",
-   "ted": "2026-11-16",
-   "fv": "R9.10",
-   "who": "Ivan Yarymovych",
-   "tshirt": "Large"
   },
   {
    "key": "WT-1036",
@@ -161,17 +152,6 @@
    "who": "Camille Knight",
    "tshirt": "Small",
    "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1032",
-   "name": "Unify Purchase Into NPM Package",
-   "status": "In Testing",
-   "ted": "2026-11-16",
-   "fv": "R9.10",
-   "who": "Ivan Yarymovych",
-   "tshirt": "Large",
-   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1230,17 +1210,6 @@
    "fv": null,
    "ted": null,
    "who": "Camille Knight",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1032",
-   "name": "Unify Purchase Into NPM Package",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.10",
-   "ted": "2026-11-16",
-   "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
   {
@@ -6919,37 +6888,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25244",
-   "name": "SGDP Purchase Portal-Stage-Autorenewal checkbox is showing for SGDP CA plan, CSP have Auto-renew toggle is On in Plan template",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-11-10T21:49:32.432-0600",
-   "resolved": "",
-   "due": "2026-11-12",
-   "labels": [
-    "PDS",
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-23553",
-   "parentName": "Plans 9.9 Tech-Debt",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-266",
-   "init": "Plans Tech Debt"
-  },
-  {
    "key": "PLANS-25243",
    "name": "Member Portal| Inconsistent behavior when deleting asigned CC from payment management vs change payment method",
    "pod": "LL",
@@ -7420,6 +7358,37 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25244",
+   "name": "SGDP Purchase Portal-Stage-Autorenewal checkbox is showing for SGDP CA plan, CSP have Auto-renew toggle is On in Plan template",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-11-10T21:49:32.432-0600",
+   "resolved": "2026-11-12T12:28:15.651-0600",
+   "due": "2026-11-12",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23553",
+   "parentName": "Plans 9.9 Tech-Debt",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-266",
+   "init": "Plans Tech Debt"
+  },
   {
    "key": "PLANS-25287",
    "name": "PLANS-25287: Blocker - Stage: Smile Health: Practice search is failing",
