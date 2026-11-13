@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T17:35:24+00:00",
+ "generated_at": "2026-11-13T17:45:23+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -215,7 +215,7 @@
    "key": "WT-721",
    "name": "LL - Expired Plans Winback Journey",
    "status": "Ready for Development",
-   "ted": "2026-11-13",
+   "ted": "2026-11-20",
    "fv": "R9.10",
    "who": "Karey Crump",
    "tshirt": "Small",
@@ -248,7 +248,7 @@
    "key": "WT-817",
    "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard",
    "status": "In Development",
-   "ted": "2026-11-04",
+   "ted": "2027-01-06",
    "fv": null,
    "who": "Lloyd Tokerud",
    "tshirt": "Moderate",
@@ -1265,7 +1265,7 @@
    "proj": "WT",
    "status": "Ready for Development",
    "fv": "R9.10",
-   "ted": "2026-11-13",
+   "ted": "2026-11-20",
    "who": "Karey Crump",
    "theme": "LL-Fast Follows"
   },
@@ -1298,7 +1298,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": null,
-   "ted": "2026-11-04",
+   "ted": "2027-01-06",
    "who": "Lloyd Tokerud",
    "theme": "LL-Fast Follows"
   },
