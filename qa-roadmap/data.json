@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T18:15:21+00:00",
+ "generated_at": "2026-11-13T18:21:05+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -249,7 +249,7 @@
    "name": "REVENUE SHARE REPORT: Show these reports in a WFP dashboard",
    "status": "In Development",
    "ted": "2027-01-06",
-   "fv": null,
+   "fv": "R10.01",
    "who": "Lloyd Tokerud",
    "tshirt": "Moderate",
    "pod": "EDW",
@@ -1297,7 +1297,7 @@
    "pod": "EDW",
    "proj": "WT",
    "status": "In Development",
-   "fv": null,
+   "fv": "R10.01",
    "ted": "2027-01-06",
    "who": "Lloyd Tokerud",
    "theme": "LL-Fast Follows"
@@ -2288,6 +2288,31 @@
    "triage": "",
    "parentKey": "PLANS-22784",
    "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-25328",
+   "name": "ADHA - Footer legal text does not match with configured CSP legal footer text (Administered by Wellfit)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-13T12:03:33.339-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24819",
+   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -25887,18 +25912,18 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-25342",
+   "name": "ADHA - Footer legal text does not match with Plan Details PDF",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
+  {
    "key": "PLANS-25339",
    "name": "Member Portal \\ Savings contribution is not displayed for the primary member",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
-  },
-  {
-   "key": "PLANS-25328",
-   "name": "ADHA - Footer legal text does not match with configured CSP legal footer text",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
   },
   {
    "key": "PLANS-25313",
