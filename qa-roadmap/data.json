@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T19:30:24+00:00",
+ "generated_at": "2026-11-13T19:34:42+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -2293,6 +2293,31 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-25352",
+   "name": "Payment Status Inqury",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Michael Joe",
+   "prio": "3: Standard",
+   "created": "2026-11-13T13:31:15.873-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25346",
