@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T16:10:33+00:00",
+ "generated_at": "2026-11-13T16:15:20+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -2886,23 +2886,28 @@
   {
    "key": "PLANS-24798",
    "name": "Dependents not showing in CSP/WP",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Unassigned",
    "reporter": "Michael Joe",
-   "prio": "3: Standard",
+   "prio": "1: Urgent",
    "created": "2026-10-26T11:08:52.884-0500",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -25779,7 +25784,7 @@
    "key": "PLANS-25313",
    "name": "SGDP Portal-Stage-SGDP CS 2025 plan-Footer text line along with Provider url is missing while changing Is Administered By value.",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Vinita Thankur"
   },
   {
