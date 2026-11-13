@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T22:34:44+00:00",
+ "generated_at": "2026-11-13T22:45:21+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -687,7 +687,7 @@
   {
    "key": "WT-1208",
    "name": "Agent Org plan selling",
-   "status": "Architecture",
+   "status": "In Testing",
    "ted": "2026-11-16",
    "fv": "R9.10",
    "who": "Daniel Marineni",
@@ -1736,7 +1736,7 @@
    "name": "Agent Org plan selling",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Architecture",
+   "status": "In Testing",
    "fv": "R9.10",
    "ted": "2026-11-16",
    "who": "Daniel Marineni",
