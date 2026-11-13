@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T16:49:20+00:00",
+ "generated_at": "2026-11-13T17:00:26+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -2257,7 +2257,7 @@
   },
   {
    "key": "PLANS-25320",
-   "name": "Member portal - Plan Details PDF – SGDP Legal Disclaimer Text Does Not Match CSP Legal Disclaimer Configuration",
+   "name": "Member portal - Plan Details PDF – SGDP Legal Disclaimer Text Does Not Match CSP Legal Disclaimer Configuration (for all desclaimer types)",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
