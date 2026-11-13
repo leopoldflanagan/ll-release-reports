@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T07:00:28+00:00",
+ "generated_at": "2026-11-13T07:15:20+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -148,7 +148,7 @@
   {
    "key": "WT-1033",
    "name": "CSP Integration Setting at Org level",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "ted": null,
    "fv": "R10.01",
    "who": "Petro Yarish",
@@ -1197,7 +1197,7 @@
    "name": "CSP Integration Setting at Org level",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "fv": "R10.01",
    "ted": null,
    "who": "Petro Yarish",
