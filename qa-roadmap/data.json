@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T11:45:19+00:00",
+ "generated_at": "2026-11-13T12:14:12+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -148,8 +148,8 @@
   {
    "key": "WT-1033",
    "name": "CSP Integration Setting at Org level",
-   "status": "Ready for Development",
-   "ted": null,
+   "status": "In Development",
+   "ted": "2026-11-24",
    "fv": "R10.01",
    "who": "Petro Yarish",
    "tshirt": "Small",
@@ -1197,9 +1197,9 @@
    "name": "CSP Integration Setting at Org level",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R10.01",
-   "ted": null,
+   "ted": "2026-11-24",
    "who": "Petro Yarish",
    "theme": "LL-Fast Follows"
   },
