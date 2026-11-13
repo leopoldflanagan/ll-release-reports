@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T16:00:26+00:00",
+ "generated_at": "2026-11-13T16:10:33+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -2232,31 +2232,6 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-25318",
-   "name": "Essential Smile Plan Member Plan Effective Date Confusion",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Brianna Hill",
-   "prio": "3: Standard",
-   "created": "2026-11-13T09:51:31.639-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-25286",
