@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T14:49:06+00:00",
+ "generated_at": "2026-11-13T15:00:27+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -7,7 +7,7 @@
    "name": "Wellfit User - Practice Assignment Picker",
    "status": "Architecture",
    "ted": null,
-   "fv": null,
+   "fv": "R10.01",
    "who": "Chris Rubio",
    "tshirt": "Small"
   },
@@ -117,7 +117,7 @@
    "name": "Wellfit User - Practice Assignment Picker",
    "status": "Architecture",
    "ted": null,
-   "fv": null,
+   "fv": "R10.01",
    "who": "Chris Rubio",
    "tshirt": "Small",
    "pod": "LL",
@@ -1165,7 +1165,7 @@
    "pod": "LL",
    "proj": "WT",
    "status": "Architecture",
-   "fv": null,
+   "fv": "R10.01",
    "ted": null,
    "who": "Chris Rubio",
    "theme": "LL-Fast Follows"
@@ -2292,18 +2292,21 @@
   {
    "key": "PLANS-25282",
    "name": "Blocker - SGDP ADHA-Stage-Landing Page missing Plans card",
-   "pod": "PLANS",
+   "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.10",
    "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-11-11T11:23:15.015-0600",
    "resolved": "",
    "due": "",
-   "labels": [],
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-23553",
@@ -2324,36 +2327,14 @@
    "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Unassigned",
    "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-11-11T10:33:42.695-0600",
    "resolved": "",
    "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-23553",
-   "parentName": "Plans 9.9 Tech-Debt",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-266",
-   "init": "Plans Tech Debt"
-  },
-  {
-   "key": "PLANS-25273",
-   "name": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for ADHA plan",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-11-11T10:29:18.727-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-23553",
@@ -5083,6 +5064,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-25273",
+   "name": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for ADHA plan",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-11-11T10:29:18.727-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23553",
+   "parentName": "Plans 9.9 Tech-Debt",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-266",
+   "init": "Plans Tech Debt"
+  },
+  {
    "key": "PLANS-25236",
    "name": "Production issue on the Auto retry for failed claims",
    "pod": "PLANS",
@@ -6861,6 +6870,34 @@
    "linkedLP": false,
    "initKey": "WT-417",
    "init": "Plans Marketplace (Fast Follow)"
+  },
+  {
+   "key": "PLANS-25309",
+   "name": "SGDP Portal-Stage- Plan disclaimer text is missing the participating provider URL sentence for \"Smile Generation Dental Plan CA\"",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-11-12T18:01:09.444-0600",
+   "resolved": "",
+   "due": "2026-11-13",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24820",
+   "parentName": "[2] Legal Language Additions - Frontend: choose the disclaimer type and show legal text correctly",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-25223",
@@ -25781,13 +25818,6 @@
    "name": "CSP-Stage-SGDP CA 2025 plan- Plan Details PDF showing wrong Provider name",
    "status": "Backlog",
    "who": "Unassigned",
-   "reporter": "Vinita Thankur"
-  },
-  {
-   "key": "PLANS-25309",
-   "name": "SGDP Portal-Stage- Plan disclaimer text is missing the participating provider URL sentence for \"Smile Generation Dental Plan CA\"",
-   "status": "In Stage",
-   "who": "Rostyslav Masniuk",
    "reporter": "Vinita Thankur"
   },
   {
