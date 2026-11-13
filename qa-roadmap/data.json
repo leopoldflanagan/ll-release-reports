@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T08:30:23+00:00",
+ "generated_at": "2026-11-13T08:45:20+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -25800,8 +25800,8 @@
   {
    "key": "PLANS-25309",
    "name": "SGDP Portal-Stage- Plan disclaimer text is missing the participating provider URL sentence for \"Smile Generation Dental Plan CA\"",
-   "status": "Backlog",
-   "who": "Unassigned",
+   "status": "In Stage",
+   "who": "Rostyslav Masniuk",
    "reporter": "Vinita Thankur"
   },
   {
