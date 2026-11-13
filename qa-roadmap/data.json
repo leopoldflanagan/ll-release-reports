@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T15:19:04+00:00",
+ "generated_at": "2026-11-13T15:30:24+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -5040,7 +5040,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Unassigned",
    "reporter": "Brianna Hill",
    "prio": "1: Urgent",
@@ -5055,8 +5055,8 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
