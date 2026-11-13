@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T18:00:31+00:00",
+ "generated_at": "2026-11-13T18:11:13+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -4211,7 +4211,7 @@
    "prio": "3: Standard",
    "created": "2026-08-22T18:39:23.599-0500",
    "resolved": "",
-   "due": "2026-11-12",
+   "due": "2026-11-16",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6499,7 +6499,7 @@
    "prio": "2: Important",
    "created": "2026-11-02T14:56:11.906-0600",
    "resolved": "",
-   "due": "2026-11-12",
+   "due": "2026-11-16",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6552,7 +6552,7 @@
    "prio": "2: Important",
    "created": "2026-10-27T08:27:26.815-0500",
    "resolved": "",
-   "due": "2026-11-12",
+   "due": "2026-11-16",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6608,7 +6608,7 @@
    "prio": "3: Standard",
    "created": "2026-08-22T18:21:52.563-0500",
    "resolved": "",
-   "due": "2026-11-12",
+   "due": "2026-11-16",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -25886,6 +25886,20 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25339",
+   "name": "Member Portal \\ Savings contribution is not displayed for the primary member",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón"
+  },
+  {
+   "key": "PLANS-25328",
+   "name": "ADHA - Footer legal text does not match with configured CSP legal disclaimer text",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-25313",
    "name": "SGDP Portal-Stage-SGDP CS 2025 plan-Footer text line along with Provider url is missing while changing Is Administered By value.",
