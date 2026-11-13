@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T00:15:18+00:00",
+ "generated_at": "2026-11-13T00:30:27+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -6877,36 +6877,6 @@
    "init": "Plans Marketplace (Fast Follow)"
   },
   {
-   "key": "PLANS-25243",
-   "name": "Member Portal| Inconsistent behavior when deleting asigned CC from payment management vs change payment method",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-11-10T20:46:47.711-0600",
-   "resolved": "",
-   "due": "2026-11-12",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25223",
    "name": "Configuration Settings not saving",
    "pod": "LL",
@@ -7292,6 +7262,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25243",
+   "name": "Member Portal| Inconsistent behavior when deleting asigned CC from payment management vs change payment method",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-11-10T20:46:47.711-0600",
+   "resolved": "2026-11-12T18:22:11.213-0600",
+   "due": "2026-11-12",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24985",
    "name": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in Multiple Responsible Parties on the Same Plan",
@@ -25785,7 +25785,7 @@
  "nopod": [
   {
    "key": "PLANS-25309",
-   "name": "SGDP Portal-Stage- Plan disclaimer text is missing the participating provider URL sentence for \"Smile Generation Dental Plan CA 2025\"",
+   "name": "SGDP Portal-Stage- Plan disclaimer text is missing the participating provider URL sentence for \"Smile Generation Dental Plan CA\"",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vinita Thankur"
