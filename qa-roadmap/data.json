@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T15:45:25+00:00",
+ "generated_at": "2026-11-13T15:49:10+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -36,15 +36,6 @@
    "ted": "2026-11-23",
    "fv": "R10.01",
    "who": "Rostyslav Masniuk",
-   "tshirt": "Moderate"
-  },
-  {
-   "key": "WT-974",
-   "name": "Payment wallet and plans enhancement - Member portal",
-   "status": "In Testing",
-   "ted": "2026-11-13",
-   "fv": "R9.10",
-   "who": "Valentyna Tenus",
    "tshirt": "Moderate"
   },
   {
@@ -308,17 +299,6 @@
    "who": "Chris Rubio",
    "tshirt": "Moderate",
    "pod": "PLANS",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-974",
-   "name": "Payment wallet and plans enhancement - Member portal",
-   "status": "In Testing",
-   "ted": "2026-11-13",
-   "fv": "R9.10",
-   "who": "Valentyna Tenus",
-   "tshirt": "Moderate",
-   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1355,17 +1335,6 @@
    "fv": "R10.01",
    "ted": null,
    "who": "Chris Rubio",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-974",
-   "name": "Payment wallet and plans enhancement - Member portal",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.10",
-   "ted": "2026-11-13",
-   "who": "Valentyna Tenus",
    "theme": "LL-Fast Follows"
   },
   {
@@ -7609,13 +7578,13 @@
    "labels": [],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-25237",
+   "parentName": "Plans 9.10 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "",
-   "init": ""
+   "initKey": "WT-379",
+   "init": "Bug Fix Container"
   },
   {
    "key": "PLANS-22108",
