@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T18:11:13+00:00",
+ "generated_at": "2026-11-13T18:15:21+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -25895,7 +25895,7 @@
   },
   {
    "key": "PLANS-25328",
-   "name": "ADHA - Footer legal text does not match with configured CSP legal disclaimer text",
+   "name": "ADHA - Footer legal text does not match with configured CSP legal footer text",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
@@ -25905,13 +25905,6 @@
    "name": "SGDP Portal-Stage-SGDP CS 2025 plan-Footer text line along with Provider url is missing while changing Is Administered By value.",
    "status": "Backlog",
    "who": "Rostyslav Masniuk",
-   "reporter": "Vinita Thankur"
-  },
-  {
-   "key": "PLANS-25311",
-   "name": "CSP-Stage-SGDP CA 2025 plan- Plan Details PDF showing wrong Provider name",
-   "status": "Backlog",
-   "who": "Unassigned",
    "reporter": "Vinita Thankur"
   },
   {
