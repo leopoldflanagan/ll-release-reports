@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T17:00:26+00:00",
+ "generated_at": "2026-11-13T17:08:59+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -2338,7 +2338,7 @@
    "cat": "To Do",
    "fv": "R9.10",
    "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-11-11T11:23:15.015-0600",
@@ -2366,7 +2366,7 @@
    "cat": "To Do",
    "fv": "R9.10",
    "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Unassigned",
+   "who": "Ivan Yarymovych",
    "reporter": "Vinita Thankur",
    "prio": "2: Important",
    "created": "2026-11-11T10:33:42.695-0600",
@@ -2950,36 +2950,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24798",
-   "name": "Dependents not showing in CSP/WP",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Unassigned",
-   "reporter": "Michael Joe",
-   "prio": "1: Urgent",
-   "created": "2026-10-26T11:08:52.884-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -5432,6 +5402,36 @@
    "init": ""
   },
   {
+   "key": "PLANS-24798",
+   "name": "Dependents not showing in CSP/WP",
+   "pod": "LL",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Dima Shtympel",
+   "reporter": "Michael Joe",
+   "prio": "1: Urgent",
+   "created": "2026-10-26T11:08:52.884-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24659",
    "name": "Joint ACH Language",
    "pod": "LL",
@@ -6907,13 +6907,13 @@
    "labels": [],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-25237",
-   "parentName": "Plans 9.10 Bugs",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25223",
@@ -7655,13 +7655,13 @@
    "labels": [],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-25237",
-   "parentName": "Plans 9.10 Bugs",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-22108",
@@ -25852,6 +25852,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25325",
+   "name": "Member Portal -",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-25313",
    "name": "SGDP Portal-Stage-SGDP CS 2025 plan-Footer text line along with Provider url is missing while changing Is Administered By value.",
