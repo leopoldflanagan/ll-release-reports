@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T17:08:59+00:00",
+ "generated_at": "2026-11-13T17:15:21+00:00",
  "today": "2026-11-13",
  "features": [
   {
@@ -99,6 +99,15 @@
    "ted": "2026-11-27",
    "fv": "R10.01",
    "who": "Valentyna Tenus",
+   "tshirt": null
+  },
+  {
+   "key": "WT-1286",
+   "name": "Upgrade Plans services to .NET 10",
+   "status": "Backlog",
+   "ted": null,
+   "fv": "R9.10",
+   "who": "Obie Khandaker",
    "tshirt": null
   }
  ],
@@ -768,10 +777,10 @@
    "name": "Upgrade Plans services to .NET 10",
    "status": "Backlog",
    "ted": null,
-   "fv": null,
+   "fv": "R9.10",
    "who": "Obie Khandaker",
    "tshirt": null,
-   "pod": "PLANS",
+   "pod": "LL",
    "theme": ""
   },
   {
@@ -1813,10 +1822,10 @@
   {
    "key": "WT-1286",
    "name": "Upgrade Plans services to .NET 10",
-   "pod": "PLANS",
+   "pod": "LL",
    "proj": "WT",
    "status": "Backlog",
-   "fv": null,
+   "fv": "R9.10",
    "ted": null,
    "who": "Obie Khandaker",
    "theme": ""
@@ -2249,6 +2258,31 @@
    "triage": "",
    "parentKey": "PLANS-22784",
    "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-25325",
+   "name": "Member Portal – Printed Membership Card Displays Incorrect \"Administered By\" Value for Careington Plans",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-13T11:03:11.036-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24819",
+   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -25852,13 +25886,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25325",
-   "name": "Member Portal -",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-25313",
    "name": "SGDP Portal-Stage-SGDP CS 2025 plan-Footer text line along with Provider url is missing while changing Is Administered By value.",
