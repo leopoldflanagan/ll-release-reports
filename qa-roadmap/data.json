@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T16:15:20+00:00",
+ "generated_at": "2026-11-15T16:30:20+00:00",
  "today": "2026-11-15",
  "features": [
   {
@@ -25851,34 +25851,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-8578",
-   "name": "MPV3 | Minor benefit summaries are not shown for RP",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 15-26",
-   "who": "Clint Tredway",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2025-08-22T12:14:16.290-0500",
-   "resolved": "2026-08-17T11:16:07.255-0500",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-13306",
-   "parentName": "Member portal bugs bucket",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
