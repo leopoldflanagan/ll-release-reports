@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T20:15:19+00:00",
+ "generated_at": "2026-11-15T20:30:25+00:00",
  "today": "2026-11-15",
  "features": [
   {
@@ -25735,34 +25735,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21324",
-   "name": "PLANS-21324: KOS: Unable to complete plan purchase",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "2: Important",
-   "created": "2026-08-14T16:00:20.937-0500",
-   "resolved": "2026-08-17T15:25:43.241-0500",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
