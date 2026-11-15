@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T18:30:20+00:00",
+ "generated_at": "2026-11-15T18:45:20+00:00",
  "today": "2026-11-15",
  "features": [
   {
@@ -25790,34 +25790,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21363",
-   "name": "PMP/manage payments/ ACH is displayed in the ADD payment dropdown though achOnPmpEnabled flag is OFF",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-17T00:16:42.072-0500",
-   "resolved": "2026-08-17T13:38:48.922-0500",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
