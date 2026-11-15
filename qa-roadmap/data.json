@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T18:00:25+00:00",
+ "generated_at": "2026-11-15T18:15:19+00:00",
  "today": "2026-11-15",
  "features": [
   {
@@ -25823,34 +25823,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-21389",
-   "name": "PMP \\ Purchase widget is throwing a 500 error at Checkout screen",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-08-17T11:03:14.356-0500",
-   "resolved": "2026-08-17T13:09:48.606-0500",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
