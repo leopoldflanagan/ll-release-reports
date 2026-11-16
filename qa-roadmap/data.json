@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T19:35:12+00:00",
+ "generated_at": "2026-11-16T19:45:19+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -5053,31 +5053,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PAY-5322",
-   "name": "Payment Status Inqury",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Michael Joe",
-   "prio": "3: Standard",
-   "created": "2026-11-13T13:31:15.873-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
