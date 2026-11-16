@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T11:45:20+00:00",
+ "generated_at": "2026-11-16T12:00:34+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2266,7 +2266,7 @@
   },
   {
    "key": "PLANS-25282",
-   "name": "Blocker - SGDP ADHA-Stage-Landing Page missing Plans card",
+   "name": "PLANS-25282: Stage: SGDP: AHDA: Landing page: Plans are missing",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -2294,7 +2294,7 @@
   },
   {
    "key": "PLANS-25274",
-   "name": "Blocker-SGDP AHDA- Stage-Plans are missing",
+   "name": "PLANS-25274: Stage: SGDP: AHDA: Purchase widget: Plans are missing",
    "pod": "LL",
    "status": "In Development",
    "cat": "In Progress",
@@ -5199,7 +5199,7 @@
   },
   {
    "key": "PLANS-25273",
-   "name": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for ADHA plan",
+   "name": "PLANS-25273 SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for ADHA plan",
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
