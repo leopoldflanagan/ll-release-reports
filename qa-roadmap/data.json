@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T13:30:30+00:00",
+ "generated_at": "2026-11-16T13:45:21+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2266,7 +2266,7 @@
   },
   {
    "key": "PLANS-25286",
-   "name": "SGDPADHA-Stage-Missing details for \"More benefits for you\" on Landing page",
+   "name": "PLANS-25286: Stage: SGDP: AHDA: Landing page: Missing details for \"More benefits for you\"",
    "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
