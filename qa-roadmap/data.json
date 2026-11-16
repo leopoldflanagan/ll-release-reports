@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T17:30:23+00:00",
+ "generated_at": "2026-11-16T17:36:04+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2206,34 +2206,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25328",
-   "name": "ADHA - Footer legal text does not match with configured CSP legal footer text (Administered by Wellfit)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-13T12:03:33.339-0600",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24819",
-   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
   {
    "key": "PLANS-25290",
    "name": "Essential Smile Plan- Wellfit Member Error",
@@ -6647,36 +6619,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25325",
-   "name": "Member Portal – Printed Membership Card Displays Incorrect \"Administered By\" Value for Careington Plans",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-13T11:03:11.036-0600",
-   "resolved": "",
-   "due": "2026-11-16",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24819",
-   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-25168",
    "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
    "pod": "PLANS",
@@ -6867,6 +6809,64 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25328",
+   "name": "ADHA - Footer legal text does not match with configured CSP legal footer text (Administered by Wellfit)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-13T12:03:33.339-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24819",
+   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-25325",
+   "name": "Member Portal – Printed Membership Card Displays Incorrect \"Administered By\" Value for Careington Plans",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-13T11:03:11.036-0600",
+   "resolved": "",
+   "due": "2026-11-16",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24819",
+   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-25309",
@@ -25580,11 +25580,11 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-25364",
-   "name": "WFP| Plans sales report showing duplicate amount for purchase and upgrade",
+   "key": "PLANS-25365",
+   "name": "Member Portal \\ Find a Provider shows practices from other organizations",
    "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Hazel Loya"
+   "who": "Nazarii Polinyk",
+   "reporter": "Chris Rubio"
   },
   {
    "key": "PLANS-25313",
