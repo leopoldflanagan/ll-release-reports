@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T21:35:32+00:00",
+ "generated_at": "2026-11-16T21:45:21+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -25333,31 +25333,6 @@
    "lpEpic": true,
    "lpSprint": true,
    "linkedLP": true,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-19780",
-   "name": "Member Portal \\ Renewal late renewal",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.8",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-07-17T00:28:27.676-0500",
-   "resolved": "2026-08-18T16:44:29.653-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
    "initKey": "",
    "init": ""
   }
