@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T20:35:03+00:00",
+ "generated_at": "2026-11-16T20:45:20+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -6759,7 +6759,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Rostyslav Masniuk",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
