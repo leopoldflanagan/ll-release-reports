@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T23:00:26+00:00",
+ "generated_at": "2026-11-16T23:08:12+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2421,31 +2421,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-25319",
-   "name": "CSP – Plan Details PDF - for SGDP Plans Displays Smile Health Template Instead of SGDP Template",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-11-13T10:23:30.417-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24819",
-   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-25269",
@@ -7360,6 +7335,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25319",
+   "name": "CSP – Plan Details PDF - for SGDP Plans Displays Smile Health Template Instead of SGDP Template",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-13T10:23:30.417-0600",
+   "resolved": "2026-11-16T17:07:47.600-0600",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24819",
+   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
   {
    "key": "PLANS-25325",
    "name": "Member Portal – Printed Membership Card Displays Incorrect \"Administered By\" Value for Careington Plans",
@@ -25343,7 +25343,7 @@
    "key": "PLANS-25398",
    "name": "BLOCKER PreProd \\ Practices are not displayed for all orgs at CSP Practice/Region screen",
    "status": "Backlog",
-   "who": "Unassigned",
+   "who": "Carlos Parra",
    "reporter": "Luis Moreno Soberón"
   },
   {
