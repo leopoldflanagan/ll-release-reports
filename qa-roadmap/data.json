@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T08:45:18+00:00",
+ "generated_at": "2026-11-16T09:00:23+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2206,6 +2206,34 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-25328",
+   "name": "ADHA - Footer legal text does not match with configured CSP legal footer text (Administered by Wellfit)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-13T12:03:33.339-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24819",
+   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
   {
    "key": "PLANS-25290",
    "name": "Essential Smile Plan- Wellfit Member Error",
@@ -5170,34 +5198,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25328",
-   "name": "ADHA - Footer legal text does not match with configured CSP legal footer text (Administered by Wellfit)",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-13T12:03:33.339-0600",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24819",
-   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-25325",
    "name": "Member Portal – Printed Membership Card Displays Incorrect \"Administered By\" Value for Careington Plans",
    "pod": "LL",
@@ -5205,7 +5205,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-11-13T11:03:11.036-0600",
