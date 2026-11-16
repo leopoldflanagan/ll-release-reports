@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T21:19:43+00:00",
+ "generated_at": "2026-11-16T21:30:24+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -25364,6 +25364,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25396",
+   "name": "Smile Health Portal-Stage-Logo missing for Practice-Legacy West Dental Plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-25372",
    "name": "Smile Health-Stage-Footer Legal text -Plan name in missing in case of Is Administered by='Careington' in CSP, legal text also not updating in portal footer.",
