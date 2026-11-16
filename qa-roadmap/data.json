@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T14:24:11+00:00",
+ "generated_at": "2026-11-16T14:30:23+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -6442,8 +6442,8 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
