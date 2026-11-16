@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T23:30:21+00:00",
+ "generated_at": "2026-11-16T23:35:21+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2271,7 +2271,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Oleksandr Terletskyy",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -2284,13 +2284,13 @@
    ],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-22784",
-   "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "EDW-2548",
@@ -6476,7 +6476,7 @@
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Oleksandr Terletskyy",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -6492,8 +6492,8 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
@@ -7088,7 +7088,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Valentyna Tenus",
    "reporter": "Vivienne Chawande",
    "prio": "3: Standard",
@@ -7104,8 +7104,8 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
