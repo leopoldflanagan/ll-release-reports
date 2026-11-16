@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T21:09:09+00:00",
+ "generated_at": "2026-11-16T21:15:18+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -6695,36 +6695,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25325",
-   "name": "Member Portal – Printed Membership Card Displays Incorrect \"Administered By\" Value for Careington Plans",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-13T11:03:11.036-0600",
-   "resolved": "",
-   "due": "2026-11-16",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24819",
-   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-25309",
    "name": "SGDP Portal-Stage- Plan disclaimer text is missing the participating provider URL sentence for \"Smile Generation Dental Plan CA\"",
    "pod": "LL",
@@ -7387,20 +7357,22 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
+  }
+ ],
+ "bugs_closed": [
   {
-   "key": "PLANS-24798",
-   "name": "Dependents not showing in CSP/WP",
-   "pod": "PLANS",
-   "status": "In PreProd",
-   "cat": "To Do",
+   "key": "PLANS-25325",
+   "name": "Member Portal – Printed Membership Card Displays Incorrect \"Administered By\" Value for Careington Plans",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
    "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Michael Joe",
-   "prio": "1: Urgent",
-   "created": "2026-10-26T11:08:52.884-0500",
-   "resolved": "",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-13T11:03:11.036-0600",
+   "resolved": "2026-11-16T15:12:31.032-0600",
    "due": "2026-11-16",
    "labels": [
     "group1_migration",
@@ -7410,16 +7382,14 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "parentKey": "PLANS-24819",
+   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  }
- ],
- "bugs_closed": [
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
   {
    "key": "PLANS-25328",
    "name": "ADHA - Footer legal text does not match with configured CSP legal footer text (Administered by Wellfit)",
