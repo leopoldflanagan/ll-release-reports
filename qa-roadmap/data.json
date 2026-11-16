@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T19:08:53+00:00",
+ "generated_at": "2026-11-16T19:15:20+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -25449,7 +25449,7 @@
  "nopod": [
   {
    "key": "PLANS-25372",
-   "name": "Smile Health-Stage-Footer Legal text -Plan name in missing in case of Is Administered by-'Careington'",
+   "name": "Smile Health-Stage-Footer Legal text -Plan name in missing in case of Is Administered by='Careington' in CSP, legal text also not updating in portal footer.",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Vinita Thankur"
