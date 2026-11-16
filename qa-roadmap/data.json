@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T15:30:23+00:00",
+ "generated_at": "2026-11-16T15:41:22+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2274,7 +2274,7 @@
    "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Ivan Yarymovych",
    "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
+   "prio": "2: Important",
    "created": "2026-11-11T11:29:30.368-0600",
    "resolved": "",
    "due": "",
@@ -7166,7 +7166,7 @@
    "prio": "2: Important",
    "created": "2026-10-29T23:39:43.377-0500",
    "resolved": "",
-   "due": "2026-11-10",
+   "due": "",
    "labels": [
     "group1_migration",
     "group2_migration",
