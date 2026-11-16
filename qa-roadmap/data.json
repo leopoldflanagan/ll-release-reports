@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T17:09:06+00:00",
+ "generated_at": "2026-11-16T17:15:20+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -25529,6 +25529,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25360",
+   "name": "Smile Health - Footer not matched with configured legal text (updated to new settings not reflected in Smile health )",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-25313",
    "name": "SGDP Portal-Stage-SGDP CS 2025 plan-Footer text line along with Provider url is missing while changing Is Administered By value.",
