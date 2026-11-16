@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T12:19:04+00:00",
+ "generated_at": "2026-11-16T12:30:24+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2265,6 +2265,31 @@
    "init": ""
   },
   {
+   "key": "PLANS-25286",
+   "name": "SGDPADHA-Stage-Missing details for \"More benefits for you\" on Landing page",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-11-11T11:29:30.368-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23553",
+   "parentName": "Plans 9.9 Tech-Debt",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-266",
+   "init": "Plans Tech Debt"
+  },
+  {
    "key": "PLANS-25282",
    "name": "PLANS-25282: Stage: SGDP: AHDA: Landing page: Plans are missing",
    "pod": "LL",
@@ -2480,31 +2505,6 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
-   "key": "PLANS-25286",
-   "name": "SGDPADHA-Stage-Missing details for \"More benefits for you\" on Landing page",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-11-11T11:29:30.368-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-23553",
-   "parentName": "Plans 9.9 Tech-Debt",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-266",
-   "init": "Plans Tech Debt"
   },
   {
    "key": "PLANS-25269",
