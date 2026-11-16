@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T16:49:29+00:00",
+ "generated_at": "2026-11-16T17:00:26+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -25516,34 +25516,6 @@
    "resolved": "2026-08-18T12:59:23.690-0500",
    "due": "",
    "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-19457",
-   "name": "Member Portal - unable to add payment cards",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-07-10T11:32:36.484-0500",
-   "resolved": "2026-08-18T11:51:59.324-0500",
-   "due": "2026-08-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-18470",
