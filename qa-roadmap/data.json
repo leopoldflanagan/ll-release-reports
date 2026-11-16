@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T14:15:21+00:00",
+ "generated_at": "2026-11-16T14:24:11+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -6427,8 +6427,8 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.10",
-   "sprint": null,
-   "who": "Unassigned",
+   "sprint": "EDW-Sprint 26-26",
+   "who": "Lloyd Tokerud",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
    "created": "2026-11-11T10:22:33.569-0600",
