@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T11:00:23+00:00",
+ "generated_at": "2026-11-16T11:15:25+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2293,6 +2293,34 @@
    "init": "Plans Tech Debt"
   },
   {
+   "key": "PLANS-25274",
+   "name": "Blocker-SGDP AHDA- Stage-Plans are missing",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-11-11T10:33:42.695-0600",
+   "resolved": "",
+   "due": "2026-11-16",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23553",
+   "parentName": "Plans 9.9 Tech-Debt",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-266",
+   "init": "Plans Tech Debt"
+  },
+  {
    "key": "PLANS-24798",
    "name": "Dependents not showing in CSP/WP",
    "pod": "LL",
@@ -2440,34 +2468,6 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-23553",
-   "parentName": "Plans 9.9 Tech-Debt",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-266",
-   "init": "Plans Tech Debt"
-  },
-  {
-   "key": "PLANS-25274",
-   "name": "Blocker-SGDP AHDA- Stage-Plans are missing",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-11-11T10:33:42.695-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-23553",
