@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T17:15:20+00:00",
+ "generated_at": "2026-11-16T17:20:58+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2398,6 +2398,31 @@
    "triage": "",
    "parentKey": "PLANS-22784",
    "parentName": "[2] Plan Prioritization - Configure and honor a plan ranking",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-25360",
+   "name": "Smile Health - Footer Legal Text Does Not Match Configured \"Administered By\" new Settings",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-16T11:12:29.403-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24819",
+   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -25530,8 +25555,8 @@
  "closed_days": 90,
  "nopod": [
   {
-   "key": "PLANS-25360",
-   "name": "Smile Health - Footer not matched with configured legal text (updated to new settings not reflected in Smile health )",
+   "key": "PLANS-25363",
+   "name": "Smile Health - Plan Details PDF Legal Disclaimer Does Not Match CSP Configuration",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
