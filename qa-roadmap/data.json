@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T11:30:30+00:00",
+ "generated_at": "2026-11-16T11:45:20+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -7746,7 +7746,7 @@
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-24430",
-   "parentName": "PLANS-24430: Unify Purchase Into NPM Package: Epic 8: SGDP Portal - replace the iframe with the shared Purchase-Widget npm package",
+   "parentName": "PLANS-24430: Unify Purchase Into NPM Package: Epic 6: SGDP Portal - replace the iframe with the shared Purchase-Widget npm package",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
