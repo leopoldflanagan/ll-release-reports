@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T19:45:19+00:00",
+ "generated_at": "2026-11-16T19:48:44+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -5127,9 +5127,9 @@
    "labels": [],
    "theme": "LL-Fast Follows",
    "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
