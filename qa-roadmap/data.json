@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T18:12:21+00:00",
+ "generated_at": "2026-11-16T18:15:23+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -25471,33 +25471,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-7588",
-   "name": "Unable to add dependent after change primary",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R8.11",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Jasmin Martin",
-   "prio": "3: Standard",
-   "created": "2025-07-10T17:07:45.109-0500",
-   "resolved": "2026-08-18T13:12:59.642-0500",
-   "due": "",
-   "labels": [
-    "JSM"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
