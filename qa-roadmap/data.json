@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T20:00:25+00:00",
+ "generated_at": "2026-11-16T20:10:09+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -512,7 +512,7 @@
    "key": "WT-1026",
    "name": "Smile health replace treatment and sales api on plans api",
    "status": "In Testing",
-   "ted": "2026-11-16",
+   "ted": "2026-11-20",
    "fv": "R9.10",
    "who": "Nazarii Polinyk",
    "tshirt": "Moderate",
@@ -1562,7 +1562,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-11-16",
+   "ted": "2026-11-20",
    "who": "Nazarii Polinyk",
    "theme": ""
   },
@@ -6194,34 +6194,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-21605",
-   "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-08-19T20:10:18.244-0500",
-   "resolved": "",
-   "due": "2026-08-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21044",
    "name": "PMP -Restriction affecting the remaining Smile WA plan even though the restriction was configured only for Smile NV.",
    "pod": "LL",
@@ -7175,6 +7147,34 @@
    "parentKey": "PLANS-25130",
    "parentName": "[R9.10] Plans - P1 / P2 Bugs",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-21605",
+   "name": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF receipt",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-08-19T20:10:18.244-0500",
+   "resolved": "",
+   "due": "2026-11-16",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
