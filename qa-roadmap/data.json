@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T23:15:18+00:00",
+ "generated_at": "2026-11-16T23:19:29+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -6993,7 +6993,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Denys Kernychnyi",
    "reporter": "Camille Knight",
    "prio": "2: Important",
@@ -7008,8 +7008,8 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
