@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T17:36:04+00:00",
+ "generated_at": "2026-11-16T17:45:20+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -5106,6 +5106,31 @@
    "init": ""
   },
   {
+   "key": "PLANS-25365",
+   "name": "Member Portal \\ Find a Provider shows practices from other organizations",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Chris Rubio",
+   "prio": "3: Standard",
+   "created": "2026-11-16T11:35:56.843-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25345",
    "name": "Member Portal \\ Savings contributions are not displayed when accessing the portal as a dependent member",
    "pod": "LL",
@@ -6713,7 +6738,7 @@
    "status": "On Hold",
    "cat": "In Progress",
    "fv": null,
-   "sprint": "LL - Low Prior Bugs",
+   "sprint": null,
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
@@ -6728,8 +6753,8 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": true,
-   "linkedLP": true,
+   "lpSprint": false,
+   "linkedLP": false,
    "initKey": "",
    "init": ""
   },
@@ -6793,7 +6818,7 @@
    "cat": "In Progress",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Daniel Marineni",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2025-11-07T10:13:22.180-0600",
@@ -25579,13 +25604,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25365",
-   "name": "Member Portal \\ Find a Provider shows practices from other organizations",
-   "status": "Backlog",
-   "who": "Nazarii Polinyk",
-   "reporter": "Chris Rubio"
-  },
   {
    "key": "PLANS-25313",
    "name": "SGDP Portal-Stage-SGDP CS 2025 plan-Footer text line along with Provider url is missing while changing Is Administered By value.",
