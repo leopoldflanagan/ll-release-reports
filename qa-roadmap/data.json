@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T14:00:31+00:00",
+ "generated_at": "2026-11-16T14:15:21+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2376,11 +2376,11 @@
   {
    "key": "PLANS-24798",
    "name": "Dependents not showing in CSP/WP",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
+   "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Nazarii Polinyk",
    "reporter": "Michael Joe",
    "prio": "1: Urgent",
@@ -6547,7 +6547,7 @@
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Denys Kernychnyi",
    "reporter": "Camille Knight",
    "prio": "1: Urgent",
@@ -6562,8 +6562,8 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "",
-   "parentName": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
