@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T15:41:22+00:00",
+ "generated_at": "2026-11-16T15:45:17+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2263,31 +2263,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-25286",
-   "name": "PLANS-25286: Stage: SGDP: AHDA: Landing page: Missing details for \"More benefits for you\"",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-11-11T11:29:30.368-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-23553",
-   "parentName": "Plans 9.9 Tech-Debt",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-266",
-   "init": "Plans Tech Debt"
   },
   {
    "key": "PLANS-25282",
@@ -7032,6 +7007,31 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25286",
+   "name": "PLANS-25286: Stage: SGDP: AHDA: Landing page: Missing details for \"More benefits for you\"",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Vinita Thankur",
+   "prio": "2: Important",
+   "created": "2026-11-11T11:29:30.368-0600",
+   "resolved": "",
+   "due": "2026-11-16",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-23553",
+   "parentName": "Plans 9.9 Tech-Debt",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-266",
+   "init": "Plans Tech Debt"
   },
   {
    "key": "PLANS-25223",
