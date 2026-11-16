@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T17:49:21+00:00",
+ "generated_at": "2026-11-16T18:00:25+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -25575,31 +25575,6 @@
    "linkedLP": false,
    "initKey": "WT-266",
    "init": "Plans Tech Debt"
-  },
-  {
-   "key": "PLANS-19218",
-   "name": "Re-Test: Member portal - Blocker - Crosby plan manual renew failed with 409",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Luis Moreno Soberón",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-07-08T14:11:10.493-0500",
-   "resolved": "2026-08-18T12:59:23.690-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-18470",
-   "parentName": "Plans 9.6 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
