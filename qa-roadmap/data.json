@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T17:00:26+00:00",
+ "generated_at": "2026-11-16T17:09:06+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -6454,36 +6454,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25325",
-   "name": "Member Portal – Printed Membership Card Displays Incorrect \"Administered By\" Value for Careington Plans",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-13T11:03:11.036-0600",
-   "resolved": "",
-   "due": "2026-11-16",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24819",
-   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
-  {
    "key": "PLANS-25264",
    "name": "Essential Smile Plan Member ID- Incorrect Location",
    "pod": "LL",
@@ -6709,6 +6679,36 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25325",
+   "name": "Member Portal – Printed Membership Card Displays Incorrect \"Administered By\" Value for Careington Plans",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-13T11:03:11.036-0600",
+   "resolved": "",
+   "due": "2026-11-16",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24819",
+   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-25168",
