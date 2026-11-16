@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T23:45:21+00:00",
+ "generated_at": "2026-11-16T23:48:48+00:00",
  "today": "2026-11-16",
  "features": [
   {
@@ -2316,6 +2316,31 @@
    "triage": "",
    "parentKey": "PLANS-25130",
    "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25401",
+   "name": "Plan bug: Joel Whiteman and Kristy Whiteman (DBA Smile Art Dental) | Smile Art Dental Plan | Stage: Correct logo is working and displayed",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Ezra Skeete",
+   "prio": "3: Standard",
+   "created": "2026-11-16T17:47:45.000-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
