@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T17:00:27+00:00",
+ "generated_at": "2026-11-17T17:09:42+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -2206,34 +2206,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25408",
-   "name": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" after the move to the Widget BFF",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "3: Standard",
-   "created": "2026-11-17T06:29:24.034-0600",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "FE",
-    "plans"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-25363",
    "name": "Smile Health - Plan Details PDF Legal Disclaimer Does Not Match CSP Configuration",
@@ -6216,6 +6188,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-25408",
+   "name": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" after the move to the Widget BFF",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "3: Standard",
+   "created": "2026-11-17T06:29:24.034-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "FE",
+    "plans"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25402",
    "name": "PDS Team Plan Claim - Processed Odd",
    "pod": "PLANS",
@@ -6350,33 +6350,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24552",
-   "name": "PBO flow charges full amount instead of Wellfit share — Crosby plans",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-10-15T16:24:01.310-0500",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24113",
    "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
    "pod": "LL",
@@ -6423,6 +6396,33 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24552",
+   "name": "PBO flow charges full amount instead of Wellfit share — Crosby plans",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Sushma Bankar",
+   "prio": "2: Important",
+   "created": "2026-10-15T16:24:01.310-0500",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
