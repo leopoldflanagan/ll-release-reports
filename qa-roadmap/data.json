@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T18:49:25+00:00",
+ "generated_at": "2026-11-17T19:00:23+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -2229,6 +2229,38 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-25404",
+   "name": "Smile Health-Stage-Header is missing 'Administered by' value in case of Is Administered by='Careington CA' or 'Careington WA' in CSP plan template",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-11-16T22:26:09.567-0600",
+   "resolved": "",
+   "due": "2026-11-18",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "group4_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24820",
+   "parentName": "[2] Legal Language Additions - Frontend: choose the disclaimer type and show legal text correctly",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
    "key": "PLANS-25363",
    "name": "Smile Health - Plan Details PDF Legal Disclaimer Does Not Match CSP Configuration",
    "pod": "LL",
@@ -2541,38 +2573,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-25404",
-   "name": "Smile Health-Stage-Header is missing 'Administered by' value in case of Is Administered by='Careington CA' or 'Careington WA' in CSP plan template",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-11-16T22:26:09.567-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "group4_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24820",
-   "parentName": "[2] Legal Language Additions - Frontend: choose the disclaimer type and show legal text correctly",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-25403",
