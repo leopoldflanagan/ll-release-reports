@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T18:45:20+00:00",
+ "generated_at": "2026-11-17T18:49:25+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -781,6 +781,17 @@
    "who": "Denys Kernychnyi",
    "tshirt": null,
    "pod": "LL",
+   "theme": ""
+  },
+  {
+   "key": "WT-1292",
+   "name": "Angular Upgrade (20 → 22)",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
    "theme": ""
   },
   {
@@ -1828,6 +1839,17 @@
    "fv": "R9.10",
    "ted": "2026-11-25",
    "who": "Denys Kernychnyi",
+   "theme": ""
+  },
+  {
+   "key": "WT-1292",
+   "name": "Angular Upgrade (20 → 22)",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
    "theme": ""
   },
   {
