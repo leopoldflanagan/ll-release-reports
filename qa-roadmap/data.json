@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T07:45:20+00:00",
+ "generated_at": "2026-11-17T08:00:27+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -5608,7 +5608,7 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.10",
    "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Petro Yarish",
    "reporter": "Sushma Bankar",
@@ -6060,7 +6060,7 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R9.10",
    "sprint": "Reenbit - Backlog",
    "who": "Valentyna Tenus",
    "reporter": "Anuradhi Wickramasinghe",
