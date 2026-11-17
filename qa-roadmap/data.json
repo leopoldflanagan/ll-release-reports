@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T17:15:21+00:00",
+ "generated_at": "2026-11-17T17:19:27+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -2239,36 +2239,6 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
-   "key": "PLANS-25290",
-   "name": "Wellfit ID Update for Reporting due to Wellfit ID Number",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Brianna Hill",
-   "prio": "1: Urgent",
-   "created": "2026-11-11T14:34:37.719-0600",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24812",
    "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
    "pod": "LL",
@@ -2344,6 +2314,36 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "EDW-2565",
+   "name": "Wellfit ID Update for Reporting due to Wellfit ID Number",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Brianna Hill",
+   "prio": "1: Urgent",
+   "created": "2026-11-11T14:34:37.719-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
