@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T16:22:50+00:00",
+ "generated_at": "2026-11-17T16:30:32+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -5125,6 +5125,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "EDW-2563",
+   "name": "Member has an active plan but shows expired in WFP (Essential Smiles Plan)",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Vera King",
+   "prio": "3: Standard",
+   "created": "2026-11-17T10:28:57.658-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
