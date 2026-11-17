@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T14:30:25+00:00",
+ "generated_at": "2026-11-17T14:35:42+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -2352,11 +2352,11 @@
   {
    "key": "PLANS-24552",
    "name": "PBO flow charges full amount instead of Wellfit share — Crosby plans",
-   "pod": "LL",
+   "pod": "PLANS",
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
+   "sprint": "Plans Pod 1-Sprint 26-26",
    "who": "Petro Yarish",
    "reporter": "Sushma Bankar",
    "prio": "2: Important",
