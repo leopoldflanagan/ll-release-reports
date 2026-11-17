@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T09:15:21+00:00",
+ "generated_at": "2026-11-17T09:30:32+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -2526,7 +2526,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Dima Shtympel",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-11-16T11:19:35.190-0600",
