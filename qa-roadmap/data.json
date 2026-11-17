@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T14:35:42+00:00",
+ "generated_at": "2026-11-17T14:45:26+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -105,7 +105,7 @@
    "key": "WT-1286",
    "name": "Upgrade Plans services to .NET 10",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-11-25",
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
    "tshirt": null
@@ -776,7 +776,7 @@
    "key": "WT-1286",
    "name": "Upgrade Plans services to .NET 10",
    "status": "In Development",
-   "ted": null,
+   "ted": "2026-11-25",
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
    "tshirt": null,
@@ -1826,7 +1826,7 @@
    "proj": "WT",
    "status": "In Development",
    "fv": "R9.10",
-   "ted": null,
+   "ted": "2026-11-25",
    "who": "Denys Kernychnyi",
    "theme": ""
   },
@@ -2390,34 +2390,6 @@
    "created": "2026-10-05T05:26:34.316-0500",
    "resolved": "",
    "due": "2026-11-20",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-22892",
-   "name": "Smile Health/ all custom portals - Inconsistent Font Sizes/Styles/ link colors in Legal Consent Section",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Reenbit - Backlog",
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-14T05:44:43.607-0500",
-   "resolved": "",
-   "due": "2026-11-17",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -4104,34 +4076,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-21967",
-   "name": "Electronic consent renders with different typography from the consent controls around it",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Reenbit - Backlog",
-   "who": "Unassigned",
-   "reporter": "Leopoldo Flanagan",
-   "prio": "4: Low",
-   "created": "2026-08-27T15:24:50.213-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-21965",
    "name": "Member Portal - Multiple plan cards are displayed in the PDF",
    "pod": "PLANS",
@@ -5426,34 +5370,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24659",
-   "name": "Joint ACH Language",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R10.01",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-10-21T09:08:03.611-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24631",
    "name": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"††Includes a one-time, nonrefundable administration fee.\"",
    "pod": "LL",
@@ -6356,6 +6272,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-22892",
+   "name": "Smile Health/ all custom portals - Inconsistent Font Sizes/Styles/ link colors in Legal Consent Section",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Reenbit - Backlog",
+   "who": "Valentyna Tenus",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-14T05:44:43.607-0500",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-22675",
    "name": "Unify Font's in the Plans Widget Checkout Screen",
    "pod": "LL",
@@ -6374,6 +6318,34 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-21967",
+   "name": "Electronic consent renders with different typography from the consent controls around it",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Reenbit - Backlog",
+   "who": "Valentyna Tenus",
+   "reporter": "Leopoldo Flanagan",
+   "prio": "4: Low",
+   "created": "2026-08-27T15:24:50.213-0500",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
@@ -6601,6 +6573,34 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24659",
+   "name": "Joint ACH Language",
+   "pod": "LL",
+   "status": "On Hold",
+   "cat": "In Progress",
+   "fv": "R10.01",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Valentyna Tenus",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-10-21T09:08:03.611-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
