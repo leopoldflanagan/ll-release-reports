@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T08:00:27+00:00",
+ "generated_at": "2026-11-17T08:15:20+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -2531,12 +2531,12 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
    "created": "2026-11-16T11:12:29.403-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-17",
    "labels": [
     "PDS",
     "group1_migration",
