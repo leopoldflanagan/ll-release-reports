@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T13:00:26+00:00",
+ "generated_at": "2026-11-17T13:10:24+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -25493,6 +25493,20 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25412",
+   "name": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the Directory:ExcludedOrganization setting was never seeded",
+   "status": "Backlog",
+   "who": "Nazarii Polinyk",
+   "reporter": "Ivan Yarymovych"
+  },
+  {
+   "key": "PLANS-25411",
+   "name": "Smile Health portal: purchase widget asks for its profile without a theme id and gets 404, because the portal reads theme.id instead of themeId",
+   "status": "Backlog",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych"
+  },
   {
    "key": "PLANS-25410",
    "name": "Smile Health portal: plan details page shows an empty \"Plan Summary\" card after the move to the Widget BFF",
