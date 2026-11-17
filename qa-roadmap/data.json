@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T10:00:25+00:00",
+ "generated_at": "2026-11-17T10:15:21+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -104,7 +104,7 @@
   {
    "key": "WT-1286",
    "name": "Upgrade Plans services to .NET 10",
-   "status": "Backlog",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
@@ -775,7 +775,7 @@
   {
    "key": "WT-1286",
    "name": "Upgrade Plans services to .NET 10",
-   "status": "Backlog",
+   "status": "In Development",
    "ted": null,
    "fv": "R9.10",
    "who": "Denys Kernychnyi",
@@ -1824,7 +1824,7 @@
    "name": "Upgrade Plans services to .NET 10",
    "pod": "LL",
    "proj": "WT",
-   "status": "Backlog",
+   "status": "In Development",
    "fv": "R9.10",
    "ted": null,
    "who": "Denys Kernychnyi",
