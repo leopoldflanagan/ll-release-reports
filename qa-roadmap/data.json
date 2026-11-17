@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T12:30:24+00:00",
+ "generated_at": "2026-11-17T12:39:12+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -25521,7 +25521,7 @@
   {
    "key": "PLANS-25408",
    "name": "Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" after the move to the Widget BFF",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
