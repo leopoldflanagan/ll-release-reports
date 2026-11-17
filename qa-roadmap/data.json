@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T13:45:26+00:00",
+ "generated_at": "2026-11-17T13:49:22+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -25456,31 +25456,6 @@
    "due": "",
    "labels": [],
    "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21540",
-   "name": "RESOLVED: consent form not showing on Dev — LegalLanguageUpdates2026 flag was disabled",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Reenbit - Backlog",
-   "who": "Dima Shtympel",
-   "reporter": "Dima Shtympel",
-   "prio": "3: Standard",
-   "created": "2026-08-19T06:03:08.085-0500",
-   "resolved": "2026-08-19T08:45:38.156-0500",
-   "due": "",
-   "labels": [],
-   "theme": "LL-MVP",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
