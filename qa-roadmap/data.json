@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T15:35:41+00:00",
+ "generated_at": "2026-11-17T15:45:22+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -2207,6 +2207,34 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-25408",
+   "name": "Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" after the move to the Widget BFF",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-17T06:29:24.034-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "FE",
+    "plans"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25402",
    "name": "PDS Team Plan Claim - Processed Odd",
    "pod": "PLANS",
@@ -2247,7 +2275,7 @@
    "prio": "2: Important",
    "created": "2026-11-16T11:35:56.843-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-17",
    "labels": [],
    "theme": "LL-Fast Follows",
    "triage": "",
@@ -2364,33 +2392,6 @@
    "resolved": "",
    "due": "",
    "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24552",
-   "name": "PBO flow charges full amount instead of Wellfit share — Crosby plans",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Petro Yarish",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-10-15T16:24:01.310-0500",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "product_prioritized"
-   ],
    "theme": "",
    "triage": "",
    "parentKey": "PLANS-20751",
@@ -5070,6 +5071,60 @@
    "init": ""
   },
   {
+   "key": "PLANS-25411",
+   "name": "Smile Health portal: purchase widget asks for its profile without a theme id and gets 404, because the portal reads theme.id instead of themeId",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-17T07:05:21.562-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "FE"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25410",
+   "name": "Smile Health portal: plan details page shows an empty \"Plan Summary\" card after the move to the Widget BFF",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-17T06:53:31.202-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "FE"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25345",
    "name": "Member Portal \\ Savings contributions are not displayed when accessing the portal as a dependent member",
    "pod": "LL",
@@ -6239,6 +6294,33 @@
    "init": ""
   },
   {
+   "key": "PLANS-24552",
+   "name": "PBO flow charges full amount instead of Wellfit share — Crosby plans",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Petro Yarish",
+   "reporter": "Sushma Bankar",
+   "prio": "2: Important",
+   "created": "2026-10-15T16:24:01.310-0500",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24113",
    "name": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
    "pod": "LL",
@@ -6753,7 +6835,7 @@
    "status": "In Stage",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 26-26",
    "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -25376,36 +25458,15 @@
   {
    "key": "PLANS-25412",
    "name": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the Directory:ExcludedOrganization setting was never seeded",
-   "status": "Backlog",
+   "status": "Ready for Development",
    "who": "Nazarii Polinyk",
-   "reporter": "Ivan Yarymovych"
-  },
-  {
-   "key": "PLANS-25411",
-   "name": "Smile Health portal: purchase widget asks for its profile without a theme id and gets 404, because the portal reads theme.id instead of themeId",
-   "status": "Backlog",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych"
-  },
-  {
-   "key": "PLANS-25410",
-   "name": "Smile Health portal: plan details page shows an empty \"Plan Summary\" card after the move to the Widget BFF",
-   "status": "Backlog",
-   "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
   {
    "key": "PLANS-25409",
    "name": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Feature Flag Service, or Smile Health loses the dynamic legal footer",
-   "status": "Backlog",
+   "status": "Ready for Development",
    "who": "Nazarii Polinyk",
-   "reporter": "Ivan Yarymovych"
-  },
-  {
-   "key": "PLANS-25408",
-   "name": "Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" after the move to the Widget BFF",
-   "status": "In Development",
-   "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
   {
