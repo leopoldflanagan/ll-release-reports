@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T19:45:22+00:00",
+ "generated_at": "2026-11-17T19:49:13+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -25439,33 +25439,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-20740",
-   "name": "One Smile – Enrollment email is not received after successful enrollment",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "David Jones",
-   "reporter": "Mireya Alvarez",
-   "prio": "3: Standard",
-   "created": "2026-08-04T14:01:40.223-0500",
-   "resolved": "2026-08-19T14:48:13.603-0500",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
