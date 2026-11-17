@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T08:45:22+00:00",
+ "generated_at": "2026-11-17T09:00:28+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -2206,38 +2206,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25360",
-   "name": "Smile Health - Footer Legal Text Does Not Match Configured \"Administered By\" Settings",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-16T11:12:29.403-0600",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "PDS",
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "group4_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-24819",
-   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-383",
-   "init": "Launch Loyalty Payment Term Options (Phase 2)"
-  },
   {
    "key": "PLANS-25290",
    "name": "Essential Smile Plan- Wellfit Member Error",
@@ -6777,6 +6745,38 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25360",
+   "name": "Smile Health - Footer Legal Text Does Not Match Configured \"Administered By\" Settings",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-16T11:12:29.403-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "group4_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-24819",
+   "parentName": "[1] Legal Language Additions - Backend: store, resolve and serve the disclaimer type",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-383",
+   "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
    "key": "PLANS-25313",
