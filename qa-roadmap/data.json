@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T00:15:20+00:00",
+ "generated_at": "2026-11-17T00:30:24+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -7449,36 +7449,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25241",
-   "name": "PMP - Plan Type Correction",
-   "pod": "LL",
-   "status": "In PreProd",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Camille Knight",
-   "prio": "1: Urgent",
-   "created": "2026-11-10T16:32:57.072-0600",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
