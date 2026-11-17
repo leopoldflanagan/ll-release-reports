@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T12:29:05+00:00",
+ "generated_at": "2026-11-17T12:30:24+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -25518,6 +25518,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25408",
+   "name": "Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" after the move to the Widget BFF",
+   "status": "Backlog",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych"
+  },
   {
    "key": "PLANS-25404",
    "name": "Smile Health-Stage-Header is missing 'Administered by' value in case of Is Administered by='Careington CA' or 'Careington WA' in CSP plan template",
