@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T15:15:24+00:00",
+ "generated_at": "2026-11-17T15:20:29+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -6133,36 +6133,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25264",
-   "name": "Essential Smile Plan Member ID- Incorrect Location",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Brianna Hill",
-   "prio": "2: Important",
-   "created": "2026-11-11T09:53:32.392-0600",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25008",
    "name": "PT is Unable to Log into Member Portal",
    "pod": "LL",
@@ -6294,6 +6264,36 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25264",
+   "name": "Essential Smile Plan Member ID- Incorrect Location",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Brianna Hill",
+   "prio": "2: Important",
+   "created": "2026-11-11T09:53:32.392-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
