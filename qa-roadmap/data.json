@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T16:00:30+00:00",
+ "generated_at": "2026-11-17T16:11:34+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -6377,36 +6377,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25264",
-   "name": "Essential Smile Plan Member ID- Incorrect Location",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Brianna Hill",
-   "prio": "2: Important",
-   "created": "2026-11-11T09:53:32.392-0600",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-22904",
    "name": "Smile Health - \"Total Due\" Amount Displayed Within Card Information Section",
    "pod": "LL",
@@ -7014,6 +6984,36 @@
    "linkedLP": false,
    "initKey": "WT-266",
    "init": "Plans Tech Debt"
+  },
+  {
+   "key": "PLANS-25264",
+   "name": "Essential Smile Plan Member ID- Incorrect Location",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Brianna Hill",
+   "prio": "2: Important",
+   "created": "2026-11-11T09:53:32.392-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25223",
