@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T09:30:32+00:00",
+ "generated_at": "2026-11-17T09:45:29+00:00",
  "today": "2026-11-17",
  "features": [
   {
@@ -2302,7 +2302,7 @@
    "prio": "2: Important",
    "created": "2026-10-15T16:24:01.310-0500",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-17",
    "labels": [
     "product_prioritized"
    ],
