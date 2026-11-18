@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T18:48:44+00:00",
+ "generated_at": "2026-11-18T19:00:27+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -121,17 +121,6 @@
    "who": "Chris Rubio",
    "tshirt": "Small",
    "pod": "LL",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1028",
-   "name": "WFShare reporting for new Individual Plus Plan",
-   "status": "In Testing",
-   "ted": "2026-11-16",
-   "fv": "R9.10",
-   "who": "Camille Knight",
-   "tshirt": "Moderate",
-   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1190,17 +1179,6 @@
    "fv": "R10.01",
    "ted": null,
    "who": "Chris Rubio",
-   "theme": "LL-Fast Follows"
-  },
-  {
-   "key": "WT-1028",
-   "name": "WFShare reporting for new Individual Plus Plan",
-   "pod": "PLANS",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.10",
-   "ted": "2026-11-16",
-   "who": "Camille Knight",
    "theme": "LL-Fast Follows"
   },
   {
@@ -6809,9 +6787,9 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
