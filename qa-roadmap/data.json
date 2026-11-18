@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T10:45:22+00:00",
+ "generated_at": "2026-11-18T11:00:24+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -6269,31 +6269,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25365",
-   "name": "Member Portal \\ Find a Provider shows practices from other organizations",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Chris Rubio",
-   "prio": "2: Important",
-   "created": "2026-11-16T11:35:56.843-0600",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25008",
    "name": "PT is Unable to Log into Member Portal",
    "pod": "LL",
@@ -6489,6 +6464,31 @@
    "linkedLP": false,
    "initKey": "WT-383",
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
+  },
+  {
+   "key": "PLANS-25365",
+   "name": "Member Portal \\ Find a Provider shows practices from other organizations",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Chris Rubio",
+   "prio": "2: Important",
+   "created": "2026-11-16T11:35:56.843-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-24552",
