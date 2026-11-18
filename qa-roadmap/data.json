@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T13:09:44+00:00",
+ "generated_at": "2026-11-18T13:15:21+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -25056,34 +25056,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-18575",
-   "name": "CSP - Stage - Practices (Monet)are not showing for SGDP CA Plan while purchasing",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-06-26T11:05:24.099-0500",
-   "resolved": "2026-08-20T08:10:16.592-0500",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-15806",
-   "parentName": "2026 Automation Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
@@ -25105,7 +25077,7 @@
   {
    "key": "PLANS-25412",
    "name": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the Directory:ExcludedOrganization setting was never seeded",
-   "status": "In Development",
+   "status": "PR Created",
    "who": "Nazarii Polinyk",
    "reporter": "Ivan Yarymovych"
   },
