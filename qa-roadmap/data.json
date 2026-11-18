@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T15:00:25+00:00",
+ "generated_at": "2026-11-18T15:10:02+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -2261,6 +2261,34 @@
    "init": "Launch Loyalty Payment Term Options (Phase 2)"
   },
   {
+   "key": "PLANS-25236",
+   "name": "Production issue on the Auto retry for failed claims",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Sushma Bankar",
+   "prio": "2: Important",
+   "created": "2026-11-10T14:59:11.427-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24812",
    "name": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL",
    "pod": "LL",
@@ -2359,6 +2387,34 @@
     "group1_migration",
     "group2_migration",
     "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25437",
+   "name": "PLANS-25437: Stage: SGDP: Landing page: See what you can save today: Root canal and exam values differ from Prod",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-18T09:07:35.583-0600",
+   "resolved": "",
+   "due": "2026-11-18",
+   "labels": [
+    "PDS",
     "product_prioritized"
    ],
    "theme": "",
@@ -3778,7 +3834,7 @@
    "prio": "3: Standard",
    "created": "2026-09-24T12:54:21.503-0500",
    "resolved": "",
-   "due": "2026-11-17",
+   "due": "2026-11-19",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -5114,34 +5170,6 @@
     "group1_migration",
     "group2_migration",
     "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25236",
-   "name": "Production issue on the Auto retry for failed claims",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Sushma Bankar",
-   "prio": "2: Important",
-   "created": "2026-11-10T14:59:11.427-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
     "product_prioritized"
    ],
    "theme": "",
@@ -6735,31 +6763,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25289",
-   "name": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
-   "pod": "PLANS",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Sailaja Yanamandra",
-   "reporter": "Sailaja Yanamandra",
-   "prio": "3: Standard",
-   "created": "2026-11-11T14:08:29.232-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25264",
    "name": "Essential Smile Plan Member ID- Incorrect Location",
    "pod": "LL",
@@ -7370,6 +7373,31 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25289",
+   "name": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
+   "pod": "PLANS",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Sailaja Yanamandra",
+   "reporter": "Sailaja Yanamandra",
+   "prio": "3: Standard",
+   "created": "2026-11-11T14:08:29.232-0600",
+   "resolved": "2026-11-18T09:08:56.555-0600",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "EDW-2565",
    "name": "Wellfit ID Update for Reporting due to Wellfit ID Number",
