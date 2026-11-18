@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T12:15:22+00:00",
+ "generated_at": "2026-11-18T12:28:37+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -2336,36 +2336,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "EDW-2565",
-   "name": "Wellfit ID Update for Reporting due to Wellfit ID Number",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Brianna Hill",
-   "prio": "1: Urgent",
-   "created": "2026-11-11T14:34:37.719-0600",
-   "resolved": "",
-   "due": "2026-11-19",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -7400,6 +7370,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "EDW-2565",
+   "name": "Wellfit ID Update for Reporting due to Wellfit ID Number",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Brianna Hill",
+   "prio": "1: Urgent",
+   "created": "2026-11-11T14:34:37.719-0600",
+   "resolved": "2026-11-18T06:18:08.095-0600",
+   "due": "2026-11-19",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-25286",
    "name": "PLANS-25286: Stage: SGDP: AHDA: Landing page: Missing details for \"More benefits for you\"",
