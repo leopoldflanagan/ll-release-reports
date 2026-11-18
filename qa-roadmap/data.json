@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T15:15:26+00:00",
+ "generated_at": "2026-11-18T15:19:24+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -6528,7 +6528,7 @@
    "prio": "2: Important",
    "created": "2026-11-09T01:53:43.747-0600",
    "resolved": "",
-   "due": "2026-11-09",
+   "due": "",
    "labels": [
     "CCB_candidate",
     "plans",
