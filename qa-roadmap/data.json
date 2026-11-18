@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T11:00:24+00:00",
+ "generated_at": "2026-11-18T11:15:20+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -25236,31 +25236,6 @@
    "prio": "3: Standard",
    "created": "2026-08-20T05:25:49.949-0500",
    "resolved": "2026-08-20T06:31:54.717-0500",
-   "due": "",
-   "labels": [],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21611",
-   "name": "ACH Refund - 409 Error Occurs When Printing Refunded ACH Transaction",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-20T05:19:04.131-0500",
-   "resolved": "2026-08-20T06:11:01.257-0500",
    "due": "",
    "labels": [],
    "theme": "ACH",
