@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T17:19:14+00:00",
+ "generated_at": "2026-11-18T17:30:25+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -2560,34 +2560,6 @@
     "FE",
     "group1_migration",
     "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25409",
-   "name": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Feature Flag Service, or Smile Health loses the dynamic legal footer",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-17T06:44:44.000-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized",
-    "release-protocol"
    ],
    "theme": "",
    "triage": "",
@@ -5179,6 +5151,34 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25409",
+   "name": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Feature Flag Service, or Smile Health loses the dynamic legal footer",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-17T06:44:44.000-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized",
+    "release-protocol"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
