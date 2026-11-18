@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T14:45:26+00:00",
+ "generated_at": "2026-11-18T14:49:19+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -2400,7 +2400,7 @@
   },
   {
    "key": "PLANS-25434",
-   "name": "QA Retest - ACH Refund - BROKEN - ACH Transactions Eligible for Refund Before Settlement",
+   "name": "delete",
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
