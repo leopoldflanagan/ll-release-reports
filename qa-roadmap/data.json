@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T16:45:21+00:00",
+ "generated_at": "2026-11-18T16:49:16+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -24972,34 +24972,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-21534",
-   "name": "ACH<Member Portal<Stage<Delete Primary Bank account doesn't display option to choose replacement primary Bank account and ACH authorization dialog is not displayed",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-19T00:15:16.290-0500",
-   "resolved": "2026-08-20T11:47:16.796-0500",
-   "due": "2026-08-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
