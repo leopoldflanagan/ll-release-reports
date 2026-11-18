@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T01:15:25+00:00",
+ "generated_at": "2026-11-18T01:30:23+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -25331,6 +25331,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25429",
+   "name": "One Smile| Welcome email is not being received for One smile plan",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Hazel Loya"
+  },
   {
    "key": "PLANS-25413",
    "name": "DCA portal: remove the dead /pdfapicore proxy route and the unused API_ENDPOINTS constants",
