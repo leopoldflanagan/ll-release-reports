@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T16:49:16+00:00",
+ "generated_at": "2026-11-18T17:00:29+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -2508,6 +2508,63 @@
    "triage": "",
    "parentKey": "PLANS-25139",
    "parentName": "9.10 Release Prep Work",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25413",
+   "name": "DCA portal: remove the dead /pdfapicore proxy route and the unused API_ENDPOINTS constants",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "3: Standard",
+   "created": "2026-11-17T07:28:35.700-0600",
+   "resolved": "",
+   "due": "2026-11-18",
+   "labels": [
+    "FE",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25409",
+   "name": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Feature Flag Service, or Smile Health loses the dynamic legal footer",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-17T06:44:44.000-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized",
+    "release-protocol"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -5075,31 +5132,6 @@
    "init": ""
   },
   {
-   "key": "EDW-2563",
-   "name": "Member has an active plan but shows expired in WFP (Essential Smiles Plan)",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Vera King",
-   "prio": "3: Standard",
-   "created": "2026-11-17T10:28:57.658-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "EDW-2514",
    "name": "Member Shows as Active In CSP but Expired in WFP (DCA)",
    "pod": "PLANS",
@@ -6185,6 +6217,35 @@
    "init": ""
   },
   {
+   "key": "PLANS-25412",
+   "name": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the Directory:ExcludedOrganization setting was never seeded",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-17T07:08:23.782-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "BE",
+    "product_prioritized",
+    "release-protocol"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25402",
    "name": "PDS Team Plan Claim - Processed Odd",
    "pod": "PLANS",
@@ -6392,34 +6453,6 @@
    "due": "2026-11-18",
    "labels": [
     "FE"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25408",
-   "name": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" after the move to the Widget BFF",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "3: Standard",
-   "created": "2026-11-17T06:29:24.034-0600",
-   "resolved": "",
-   "due": "2026-11-17",
-   "labels": [
-    "FE",
-    "plans"
    ],
    "theme": "",
    "triage": "",
@@ -6673,6 +6706,34 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25408",
+   "name": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" after the move to the Widget BFF",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "3: Standard",
+   "created": "2026-11-17T06:29:24.034-0600",
+   "resolved": "",
+   "due": "2026-11-17",
+   "labels": [
+    "FE",
+    "plans"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -24975,29 +25036,7 @@
   }
  ],
  "closed_days": 90,
- "nopod": [
-  {
-   "key": "PLANS-25413",
-   "name": "DCA portal: remove the dead /pdfapicore proxy route and the unused API_ENDPOINTS constants",
-   "status": "Backlog",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych"
-  },
-  {
-   "key": "PLANS-25412",
-   "name": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the Directory:ExcludedOrganization setting was never seeded",
-   "status": "PR Created",
-   "who": "Nazarii Polinyk",
-   "reporter": "Ivan Yarymovych"
-  },
-  {
-   "key": "PLANS-25409",
-   "name": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Feature Flag Service, or Smile Health loses the dynamic legal footer",
-   "status": "Backlog",
-   "who": "Nazarii Polinyk",
-   "reporter": "Ivan Yarymovych"
-  }
- ],
+ "nopod": [],
  "weeks": [
   {
    "label": "Nov 16–22",
