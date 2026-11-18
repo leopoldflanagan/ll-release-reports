@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T20:00:28+00:00",
+ "generated_at": "2026-11-18T20:10:23+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -25092,7 +25092,15 @@
   }
  ],
  "closed_days": 90,
- "nopod": [],
+ "nopod": [
+  {
+   "key": "PLANS-25443",
+   "name": "Refund Window -",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  }
+ ],
  "weeks": [
   {
    "label": "Nov 16–22",
