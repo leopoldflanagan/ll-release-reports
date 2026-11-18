@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T22:49:06+00:00",
+ "generated_at": "2026-11-18T23:00:23+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -434,7 +434,7 @@
   {
    "key": "WT-1012",
    "name": "Wallet Brandtheming Integration",
-   "status": "Ready for Development",
+   "status": "Requirements",
    "ted": null,
    "fv": null,
    "who": "Daniel Marineni",
@@ -1494,7 +1494,7 @@
    "name": "Wallet Brandtheming Integration",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "Requirements",
    "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
