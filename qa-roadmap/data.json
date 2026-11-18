@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T09:45:21+00:00",
+ "generated_at": "2026-11-18T10:00:27+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -25348,7 +25348,7 @@
   {
    "key": "PLANS-25412",
    "name": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the Directory:ExcludedOrganization setting was never seeded",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "Nazarii Polinyk",
    "reporter": "Ivan Yarymovych"
   },
