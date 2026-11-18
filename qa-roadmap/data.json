@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T16:00:29+00:00",
+ "generated_at": "2026-11-18T16:10:20+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -6212,33 +6212,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25410",
-   "name": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card after the move to the Widget BFF",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "3: Standard",
-   "created": "2026-11-17T06:53:31.202-0600",
-   "resolved": "",
-   "due": "2026-11-18",
-   "labels": [
-    "FE"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25402",
    "name": "PDS Team Plan Claim - Processed Odd",
    "pod": "PLANS",
@@ -6398,6 +6371,33 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25410",
+   "name": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card after the move to the Widget BFF",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "3: Standard",
+   "created": "2026-11-17T06:53:31.202-0600",
+   "resolved": "",
+   "due": "2026-11-18",
+   "labels": [
+    "FE"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
