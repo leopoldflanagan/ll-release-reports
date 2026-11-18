@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T16:30:22+00:00",
+ "generated_at": "2026-11-18T16:35:47+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -2228,33 +2228,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25411",
-   "name": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id and gets 404, because the portal reads theme.id instead of themeId",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "3: Standard",
-   "created": "2026-11-17T07:05:21.562-0600",
-   "resolved": "",
-   "due": "2026-11-18",
-   "labels": [
-    "FE"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-25363",
    "name": "Smile Health - Plan Details PDF Legal Disclaimer Does Not Match CSP Configuration",
@@ -6371,6 +6344,33 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25411",
+   "name": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id and gets 404, because the portal reads theme.id instead of themeId",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "3: Standard",
+   "created": "2026-11-17T07:05:21.562-0600",
+   "resolved": "",
+   "due": "2026-11-18",
+   "labels": [
+    "FE"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
