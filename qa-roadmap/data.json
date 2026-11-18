@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T11:30:21+00:00",
+ "generated_at": "2026-11-18T11:45:20+00:00",
  "today": "2026-11-18",
  "features": [
   {
@@ -25222,31 +25222,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-21612",
-   "name": "ACH Refund - Receipt Displays Incorrect Amount for Partial Refund (Refund Amount Excludes Admin Fee but Receipt Shows Full Amount)",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-20T05:25:49.949-0500",
-   "resolved": "2026-08-20T06:31:54.717-0500",
-   "due": "",
-   "labels": [],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
