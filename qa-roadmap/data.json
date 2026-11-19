@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T17:08:20+00:00",
+ "generated_at": "2026-11-19T17:15:30+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -2258,34 +2258,6 @@
    "linkedLP": false,
    "initKey": "WT-518",
    "init": "ACH Fast Follows"
-  },
-  {
-   "key": "PLANS-25440",
-   "name": "PLANS-25440: Stage: SGDP: California: header shows \"Administered by Wellfit\" instead of Careington, and the California UNOA disclaimer is missing",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-18T11:57:46.234-0600",
-   "resolved": "",
-   "due": "2026-11-19",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-25409",
@@ -6777,6 +6749,34 @@
    "reporter": "Ivan Yarymovych",
    "prio": "2: Important",
    "created": "2026-11-19T02:54:18.483-0600",
+   "resolved": "",
+   "due": "2026-11-19",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25440",
+   "name": "PLANS-25440: Stage: SGDP: California: header shows \"Administered by Wellfit\" instead of Careington, and the California UNOA disclaimer is missing",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-18T11:57:46.234-0600",
    "resolved": "",
    "due": "2026-11-19",
    "labels": [
