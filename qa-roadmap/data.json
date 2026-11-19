@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T19:19:52+00:00",
+ "generated_at": "2026-11-19T19:30:22+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -24962,31 +24962,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-21696",
-   "name": "PMP \\ Migrated member with ACH Payment type is not able to update their auto renew toggle ON due a authorization issue",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Vivienne Chawande",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-08-21T14:11:51.430-0500",
-   "resolved": "2026-08-21T14:29:59.456-0500",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
