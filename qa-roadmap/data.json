@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T21:15:20+00:00",
+ "generated_at": "2026-11-19T21:19:35+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -2418,34 +2418,6 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-14923",
-   "name": "[Exising issue] Member poral -no validations for Downgrade renewals",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "David Jones",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-03-13T15:25:12.186-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
@@ -6316,6 +6288,34 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-14923",
+   "name": "[Exising issue] Member poral -no validations for Downgrade renewals",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "David Jones",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-03-13T15:25:12.186-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
