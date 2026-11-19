@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T15:09:55+00:00",
+ "generated_at": "2026-11-19T15:15:21+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -25101,7 +25101,7 @@
  "nopod": [
   {
    "key": "PLANS-25459",
-   "name": "Smile Health - Footer legal text is only visible in Home page",
+   "name": "Smile Health - Footer Not Visible on Search, Purchase Flow, or Site Navigation Pages",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
