@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T14:20:49+00:00",
+ "generated_at": "2026-11-19T14:30:23+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -2228,6 +2228,37 @@
   }
  ],
  "bugs": [
+  {
+   "key": "PLANS-25443",
+   "name": "ACH Refund - Past Refund Window Status and Manual Refund Permission Popup Not Displayed for Partially Refunded Transactions(transaction -180 days ago)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-18T14:09:57.850-0600",
+   "resolved": "",
+   "due": "2026-11-20",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "group4_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22677",
+   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-518",
+   "init": "ACH Fast Follows"
+  },
   {
    "key": "PLANS-25437",
    "name": "PLANS-25437: Stage: SGDP: Landing page: See what you can save today: Price table differs from Prod in 22 of the 24 sellable states",
@@ -5055,37 +5086,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-25443",
-   "name": "ACH Refund - Past Refund Window Status and Manual Refund Permission Popup Not Displayed for Partially Refunded Transactions(transaction -180 days ago)",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-18T14:09:57.850-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "group4_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22677",
-   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-518",
-   "init": "ACH Fast Follows"
   },
   {
    "key": "PLANS-25424",
@@ -25083,34 +25083,6 @@
    ],
    "theme": "",
    "triage": "Yes",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21429",
-   "name": "ACH - [PMP] - Error is displayed for valid data while adding a second ACH account",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-17T15:10:33.796-0500",
-   "resolved": "2026-08-21T09:22:24.330-0500",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
    "parentKey": "",
    "parentName": "",
    "lpEpic": false,
