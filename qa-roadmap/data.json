@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T12:39:39+00:00",
+ "generated_at": "2026-11-19T12:45:19+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -2229,6 +2229,34 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-25437",
+   "name": "PLANS-25437: Stage: SGDP: Landing page: See what you can save today: Price table differs from Prod in 22 of the 24 sellable states",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-18T09:07:35.583-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25409",
    "name": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Feature Flag Service, or Smile Health loses the dynamic legal footer",
    "pod": "PLANS",
@@ -2426,34 +2454,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25451",
-   "name": "PLANS-25451: Prod and Stage: SGDP: Footer copyright year is hardcoded to 2024 and never updates",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-19T02:59:32.741-0600",
-   "resolved": "",
-   "due": "2026-11-19",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25449",
    "name": "Member OTP Issues",
    "pod": "PLANS",
@@ -2490,34 +2490,6 @@
    "reporter": "Ivan Yarymovych",
    "prio": "2: Important",
    "created": "2026-11-18T11:57:46.234-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25437",
-   "name": "PLANS-25437: Stage: SGDP: Landing page: See what you can save today: Price table differs from Prod in 22 of the 24 sellable states",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-18T09:07:35.583-0600",
    "resolved": "",
    "due": "",
    "labels": [
@@ -6503,6 +6475,34 @@
    "reporter": "Ivan Yarymovych",
    "prio": "2: Important",
    "created": "2026-11-19T03:11:37.140-0600",
+   "resolved": "",
+   "due": "2026-11-19",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25451",
+   "name": "PLANS-25451: Prod and Stage: SGDP: Footer copyright year is hardcoded to 2024 and never updates",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-19T02:59:32.741-0600",
    "resolved": "",
    "due": "2026-11-19",
    "labels": [
