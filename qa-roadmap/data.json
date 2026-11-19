@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:10:48+00:00",
+ "generated_at": "2026-11-19T16:15:28+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -42,7 +42,7 @@
    "key": "WT-1003",
    "name": "Define Refund Window Timeframes",
    "status": "In Testing",
-   "ted": "2026-11-23",
+   "ted": "2026-11-24",
    "fv": "R9.10",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
@@ -347,7 +347,7 @@
    "key": "WT-1003",
    "name": "Define Refund Window Timeframes",
    "status": "In Testing",
-   "ted": "2026-11-23",
+   "ted": "2026-11-24",
    "fv": "R9.10",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate",
@@ -1408,7 +1408,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-11-23",
+   "ted": "2026-11-24",
    "who": "Mykyta Moroz",
    "theme": "ACH-Fast Follows"
   },
@@ -7628,6 +7628,36 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25241",
+   "name": "PMP - Plan Type Correction",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Camille Knight",
+   "prio": "1: Urgent",
+   "created": "2026-11-10T16:32:57.072-0600",
+   "resolved": "2026-11-19T10:13:28.738-0600",
+   "due": "2026-11-17",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-25363",
    "name": "Smile Health - Plan Details PDF Legal Disclaimer Does Not Match CSP Configuration",
