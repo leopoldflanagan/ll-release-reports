@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T23:00:26+00:00",
+ "generated_at": "2026-11-19T23:07:54+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -24934,34 +24934,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-21590",
-   "name": "Tie Plan Multi Practice View| Add member to tier plan shows practice selector",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Hunter Redhead",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-19T16:34:21.910-0500",
-   "resolved": "2026-08-21T18:02:57.249-0500",
-   "due": "2026-08-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21192",
-   "parentName": "[1] Tie Plan Upgrade to Practice - Backend Upgrade Office Resolution & Attribution",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
