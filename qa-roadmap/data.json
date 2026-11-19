@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:30:23+00:00",
+ "generated_at": "2026-11-19T16:35:29+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -6575,34 +6575,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25402",
-   "name": "PDS Team Plan Claim - Processed Odd",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-11-16T18:03:04.006-0600",
-   "resolved": "",
-   "due": "2026-11-19",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25008",
    "name": "PT is Unable to Log into Member Portal",
    "pod": "LL",
@@ -6988,6 +6960,34 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25402",
+   "name": "PDS Team Plan Claim - Processed Odd",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Camille Knight",
+   "prio": "2: Important",
+   "created": "2026-11-16T18:03:04.006-0600",
+   "resolved": "",
+   "due": "2026-11-19",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -25131,6 +25131,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25460",
+   "name": "PLANS-25460: CSP: Plan Management: Marketing Settings: computed savings are saved with two decimals, so the SGDP site prints values like $382.00",
+   "status": "Backlog",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych"
+  },
   {
    "key": "PLANS-25446",
    "name": "Smilehealth \\ Dental Plan Enrollment Confirmation is not being received",
