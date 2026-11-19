@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T15:30:32+00:00",
+ "generated_at": "2026-11-19T15:35:26+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -2419,6 +2419,36 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25459",
+   "name": "Smile Health - Footer legal text Not Visible throughout the purchase flow and other site pages. (NOT reproducible with one smile/essential smile/sgdp)",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-19T09:08:12.135-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "group3_migration",
+    "group4_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25139",
+   "parentName": "9.10 Release Prep Work",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -25071,13 +25101,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25459",
-   "name": "Smile Health - Footer legal text Not Visible throughout the purchase flow and other site pages. (NOT reproducible with one smile/essential smile/sgdp)",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-25446",
    "name": "Smilehealth \\ Dental Plan Enrollment Confirmation is not being received",
