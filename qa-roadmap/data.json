@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T19:35:27+00:00",
+ "generated_at": "2026-11-19T19:45:20+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -10,6 +10,15 @@
    "fv": "R10.01",
    "who": "Chris Rubio",
    "tshirt": "Small"
+  },
+  {
+   "key": "WT-1032",
+   "name": "Unify Purchase Into NPM Package",
+   "status": "In Testing",
+   "ted": "2026-12-01",
+   "fv": "R9.10",
+   "who": "Ivan Yarymovych",
+   "tshirt": "Large"
   },
   {
    "key": "WT-1036",
@@ -132,6 +141,17 @@
    "who": "Camille Knight",
    "tshirt": "Small",
    "pod": "PLANS",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "WT-1032",
+   "name": "Unify Purchase Into NPM Package",
+   "status": "In Testing",
+   "ted": "2026-12-01",
+   "fv": "R9.10",
+   "who": "Ivan Yarymovych",
+   "tshirt": "Large",
+   "pod": "LL",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1190,6 +1210,17 @@
    "fv": null,
    "ted": null,
    "who": "Camille Knight",
+   "theme": "LL-Fast Follows"
+  },
+  {
+   "key": "WT-1032",
+   "name": "Unify Purchase Into NPM Package",
+   "pod": "LL",
+   "proj": "WT",
+   "status": "In Testing",
+   "fv": "R9.10",
+   "ted": "2026-12-01",
+   "who": "Ivan Yarymovych",
    "theme": "LL-Fast Follows"
   },
   {
