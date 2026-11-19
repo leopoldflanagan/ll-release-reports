@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:35:29+00:00",
+ "generated_at": "2026-11-19T16:45:19+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -6492,35 +6492,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25413",
-   "name": "PLANS-25413: DCA portal: remove the dead /pdfapicore proxy route and the unused API_ENDPOINTS constants",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "3: Standard",
-   "created": "2026-11-17T07:28:35.700-0600",
-   "resolved": "",
-   "due": "2026-11-19",
-   "labels": [
-    "FE",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25411",
    "name": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id and gets 404, because the portal reads theme.id instead of themeId",
    "pod": "PLANS",
@@ -6900,6 +6871,35 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25413",
+   "name": "PLANS-25413: DCA portal: remove the dead /pdfapicore proxy route and the unused API_ENDPOINTS constants",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "3: Standard",
+   "created": "2026-11-17T07:28:35.700-0600",
+   "resolved": "",
+   "due": "2026-11-19",
+   "labels": [
+    "FE",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
