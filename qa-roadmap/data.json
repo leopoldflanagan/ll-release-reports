@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T10:45:20+00:00",
+ "generated_at": "2026-11-19T11:00:35+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -742,11 +742,11 @@
   {
    "key": "WT-1284",
    "name": "Member Portal renewal on the shared Purchase-Widget",
-   "status": "Backlog",
-   "ted": null,
-   "fv": null,
-   "who": "Obie Khandaker",
-   "tshirt": null,
+   "status": "Requirements",
+   "ted": "2026-12-11",
+   "fv": "R10.01",
+   "who": "Valentyna Tenus",
+   "tshirt": "Large",
    "pod": "PLANS",
    "theme": ""
   },
@@ -1802,10 +1802,10 @@
    "name": "Member Portal renewal on the shared Purchase-Widget",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Backlog",
-   "fv": null,
-   "ted": null,
-   "who": "Obie Khandaker",
+   "status": "Requirements",
+   "fv": "R10.01",
+   "ted": "2026-12-11",
+   "who": "Valentyna Tenus",
    "theme": ""
   },
   {
