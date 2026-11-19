@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T14:10:32+00:00",
+ "generated_at": "2026-11-19T14:15:21+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -4181,7 +4181,7 @@
    "prio": "3: Standard",
    "created": "2026-08-22T18:39:23.599-0500",
    "resolved": "",
-   "due": "2026-11-18",
+   "due": "2026-11-20",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6304,7 +6304,7 @@
    "prio": "2: Important",
    "created": "2026-11-16T18:03:04.006-0600",
    "resolved": "",
-   "due": "2026-11-18",
+   "due": "2026-11-19",
    "labels": [
     "PDS",
     "product_prioritized"
@@ -6332,7 +6332,7 @@
    "prio": "2: Important",
    "created": "2026-11-02T14:56:11.906-0600",
    "resolved": "",
-   "due": "2026-11-18",
+   "due": "2026-11-20",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6385,7 +6385,7 @@
    "prio": "2: Important",
    "created": "2026-10-27T08:27:26.815-0500",
    "resolved": "",
-   "due": "2026-11-18",
+   "due": "2026-11-20",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6441,7 +6441,7 @@
    "prio": "3: Standard",
    "created": "2026-08-22T18:21:52.563-0500",
    "resolved": "",
-   "due": "2026-11-18",
+   "due": "2026-11-20",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -25118,34 +25118,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-21278",
-   "name": "[PMP] - \"Add Member\" button is disabled for the 4th member",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-14T12:39:35.143-0500",
-   "resolved": "2026-08-21T09:13:55.959-0500",
-   "due": "2026-08-21",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
