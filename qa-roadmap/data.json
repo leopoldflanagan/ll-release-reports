@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T18:49:26+00:00",
+ "generated_at": "2026-11-19T19:00:24+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -25011,34 +25011,6 @@
    "parentKey": "PLANS-21311",
    "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20772",
-   "name": "PMP - Summary displays incorrect duplicated promo in a renewal process",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "3: Standard",
-   "created": "2026-08-05T12:56:53.216-0500",
-   "resolved": "2026-08-21T13:59:02.540-0500",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
