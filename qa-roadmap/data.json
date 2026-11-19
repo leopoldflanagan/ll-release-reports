@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T12:28:28+00:00",
+ "generated_at": "2026-11-19T12:30:20+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -6298,34 +6298,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25450",
-   "name": "PLANS-25450: Stage: SGDP: Tablet widths 768-991px: sub-header overlaps the header by 10px",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-19T02:54:18.483-0600",
-   "resolved": "",
-   "due": "2026-11-19",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25412",
    "name": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the Directory:ExcludedOrganization setting was never seeded",
    "pod": "PLANS",
@@ -6531,6 +6503,34 @@
    "reporter": "Ivan Yarymovych",
    "prio": "2: Important",
    "created": "2026-11-19T03:11:37.140-0600",
+   "resolved": "",
+   "due": "2026-11-19",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25450",
+   "name": "PLANS-25450: Stage: SGDP: Tablet widths 768-991px: sub-header overlaps the header by 10px",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-19T02:54:18.483-0600",
    "resolved": "",
    "due": "2026-11-19",
    "labels": [
