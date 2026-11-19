@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T07:45:19+00:00",
+ "generated_at": "2026-11-19T08:00:24+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -2228,35 +2228,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25413",
-   "name": "PLANS-25413: DCA portal: remove the dead /pdfapicore proxy route and the unused API_ENDPOINTS constants",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "3: Standard",
-   "created": "2026-11-17T07:28:35.700-0600",
-   "resolved": "",
-   "due": "2026-11-19",
-   "labels": [
-    "FE",
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
   {
    "key": "PLANS-25363",
    "name": "Smile Health - Plan Details PDF Legal Disclaimer Does Not Match CSP Configuration",
@@ -6292,6 +6263,35 @@
    "triage": "",
    "parentKey": "PLANS-25130",
    "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25413",
+   "name": "PLANS-25413: DCA portal: remove the dead /pdfapicore proxy route and the unused API_ENDPOINTS constants",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "3: Standard",
+   "created": "2026-11-17T07:28:35.700-0600",
+   "resolved": "",
+   "due": "2026-11-19",
+   "labels": [
+    "FE",
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
