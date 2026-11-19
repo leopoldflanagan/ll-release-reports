@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T18:15:28+00:00",
+ "generated_at": "2026-11-19T18:24:38+00:00",
  "today": "2026-11-19",
  "features": [
   {
@@ -775,7 +775,7 @@
   {
    "key": "WT-1292",
    "name": "Angular Upgrade (20 → 21)",
-   "status": "Backlog",
+   "status": "Ready for Development",
    "ted": null,
    "fv": null,
    "who": "Ivan Yarymovych",
@@ -1835,7 +1835,7 @@
    "name": "Angular Upgrade (20 → 21)",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Backlog",
+   "status": "Ready for Development",
    "fv": null,
    "ted": null,
    "who": "Ivan Yarymovych",
@@ -25039,34 +25039,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21577",
-   "name": "PMP \\ Membership status of DCA migrated member are getting updated from Active to Delinquent after setting up their auto renewal using ACH Payment method",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-08-19T12:59:26.595-0500",
-   "resolved": "2026-08-21T13:18:00.475-0500",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
