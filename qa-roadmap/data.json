@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T08:00:27+00:00",
+ "generated_at": "2026-11-20T08:15:26+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -2260,6 +2260,34 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-25452",
+   "name": "PLANS-25452: Stage: SGDP: Plan card: price is rendered lighter than on Prod",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-19T03:06:02.055-0600",
+   "resolved": "",
+   "due": "2026-11-20",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25443",
    "name": "ACH Refund - Past Refund Window Status and Manual Refund Permission Popup Not Displayed for Partially Refunded Transactions(transaction -180 days ago)",
    "pod": "LL",
@@ -2506,34 +2534,6 @@
    "triage": "",
    "parentKey": "PLANS-25139",
    "parentName": "9.10 Release Prep Work",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25452",
-   "name": "PLANS-25452: Stage: SGDP: Plan card: price is rendered lighter than on Prod",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-19T03:06:02.055-0600",
-   "resolved": "",
-   "due": "2026-11-20",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -24743,9 +24743,23 @@
  "closed_days": 90,
  "nopod": [
   {
+   "key": "PLANS-25520",
+   "name": "PLANS-25520: Prod and Stage: SGDP: See what you can save today: the table headers do not line up with their columns and the table is not responsive",
+   "status": "Backlog",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych"
+  },
+  {
+   "key": "PLANS-25519",
+   "name": "PLANS-25519: Stage: SGDP: Purchase step 3: the embedded payment widget fields do not match the SGDP form styling",
+   "status": "In Development",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych"
+  },
+  {
    "key": "PLANS-25518",
    "name": "PLANS-25518: Stage: SGDP: Purchase flow dialogs still use the default blue buttons instead of the SGDP yellow ones",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
