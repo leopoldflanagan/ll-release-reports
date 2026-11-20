@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T17:00:27+00:00",
+ "generated_at": "2026-11-20T17:07:40+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -195,7 +195,7 @@
    "fv": null,
    "who": "Vic Du Plessis",
    "tshirt": "Moderate",
-   "pod": "PLAT",
+   "pod": "PLANS",
    "theme": "LL-Fast Follows"
   },
   {
@@ -1270,7 +1270,7 @@
   {
    "key": "WT-1085",
    "name": "Plan Design",
-   "pod": "PLAT",
+   "pod": "PLANS",
    "proj": "WT",
    "status": "Ready for Development",
    "fv": null,
