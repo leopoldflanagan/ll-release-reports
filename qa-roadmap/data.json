@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T16:36:16+00:00",
+ "generated_at": "2026-11-20T16:45:19+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -223,7 +223,7 @@
   {
    "key": "WT-721",
    "name": "LL - Expired Plans Winback Journey",
-   "status": "Ready for Development",
+   "status": "In Development",
    "ted": "2026-11-20",
    "fv": "R9.10",
    "who": "Karey Crump",
@@ -815,6 +815,28 @@
    "theme": ""
   },
   {
+   "key": "WT-1306",
+   "name": "Solomon Dentistry Plans Widget & Hosted Checkout",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1307",
+   "name": "Wellfit Portion (Servicing Fee)",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
    "key": "WT-609",
    "name": "Tech Debt: 2026",
    "status": "In Development",
@@ -1294,7 +1316,7 @@
    "name": "LL - Expired Plans Winback Journey",
    "pod": "DYN",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R9.10",
    "ted": "2026-11-20",
    "who": "Karey Crump",
@@ -1875,6 +1897,28 @@
   {
    "key": "WT-1295",
    "name": "Portal restrictions: Smile Health Portal and SGDP Portal",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1306",
+   "name": "Solomon Dentistry Plans Widget & Hosted Checkout",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1307",
+   "name": "Wellfit Portion (Servicing Fee)",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
