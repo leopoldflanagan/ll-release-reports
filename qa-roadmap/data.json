@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T09:15:18+00:00",
+ "generated_at": "2026-11-20T09:30:22+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -24742,6 +24742,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25521",
+   "name": "PLANS-25521: Stage: SGDP: Home page: the three plan cards no longer fit on one row, add a size input to the shared plan card",
+   "status": "Backlog",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych"
+  },
   {
    "key": "PLANS-25520",
    "name": "PLANS-25520: Prod and Stage: SGDP: See what you can save today: the table headers do not line up with their columns and the table is not responsive",
