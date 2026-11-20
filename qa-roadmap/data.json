@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:15:21+00:00",
+ "generated_at": "2026-11-20T11:30:27+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -24759,7 +24759,7 @@
   {
    "key": "PLANS-25519",
    "name": "PLANS-25519: Stage: SGDP: Purchase step 3: the embedded payment widget fields do not match the SGDP form styling",
-   "status": "In Development",
+   "status": "PR Created",
    "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
