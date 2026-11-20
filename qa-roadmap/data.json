@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T02:15:26+00:00",
+ "generated_at": "2026-11-20T02:30:21+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -24818,34 +24818,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21410",
-   "name": "PMP/ACH/Inline agreement is not displayed under payment methods on using a saved ACH for purchase",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Vasyl Skochko",
-   "reporter": "Vivienne Chawande",
-   "prio": "2: Important",
-   "created": "2026-08-17T12:49:35.018-0500",
-   "resolved": "2026-08-21T21:26:53.339-0500",
-   "due": "2026-08-21",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
