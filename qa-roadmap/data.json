@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T17:30:23+00:00",
+ "generated_at": "2026-11-20T17:35:54+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -60,7 +60,7 @@
    "key": "WT-1191",
    "name": "Marketing Details - fee schedule",
    "status": "In Testing",
-   "ted": "2026-11-18",
+   "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Valentyna Tenus",
    "tshirt": null
@@ -78,7 +78,7 @@
    "key": "WT-1210",
    "name": "Migrate SGDP website to the Purchase Widget",
    "status": "In Testing",
-   "ted": "2026-11-17",
+   "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Obie Khandaker",
    "tshirt": null
@@ -499,7 +499,7 @@
    "key": "WT-1022",
    "name": "Security metrics for Account Information",
    "status": "In Testing",
-   "ted": "2026-11-18",
+   "ted": "2026-11-24",
    "fv": "R9.10",
    "who": "Daniel Marineni",
    "tshirt": "Small",
@@ -620,7 +620,7 @@
    "key": "WT-1191",
    "name": "Marketing Details - fee schedule",
    "status": "In Testing",
-   "ted": "2026-11-18",
+   "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Valentyna Tenus",
    "tshirt": null,
@@ -697,7 +697,7 @@
    "key": "WT-1210",
    "name": "Migrate SGDP website to the Purchase Widget",
    "status": "In Testing",
-   "ted": "2026-11-17",
+   "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Obie Khandaker",
    "tshirt": null,
@@ -1582,7 +1582,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-11-18",
+   "ted": "2026-11-24",
    "who": "Daniel Marineni",
    "theme": ""
   },
@@ -1703,7 +1703,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-11-18",
+   "ted": "2026-11-23",
    "who": "Valentyna Tenus",
    "theme": ""
   },
@@ -1780,7 +1780,7 @@
    "proj": "WT",
    "status": "In Testing",
    "fv": "R9.10",
-   "ted": "2026-11-17",
+   "ted": "2026-11-23",
    "who": "Obie Khandaker",
    "theme": ""
   },
