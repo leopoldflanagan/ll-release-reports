@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T18:12:12+00:00",
+ "generated_at": "2026-11-20T18:15:20+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -5061,33 +5061,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25522",
-   "name": "Error Message When Processing a Payment.",
-   "pod": "PLANS",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Chris Rubio",
-   "reporter": "Carmen West",
-   "prio": "1: Urgent",
-   "created": "2026-11-20T10:16:02.954-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25424",
    "name": "SmileHealth \\ Microsoft Clarity Tag Request Returns 400 Bad Request on Initial Page Load",
    "pod": "LL",
@@ -7733,6 +7706,33 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25522",
+   "name": "Error Message When Processing a Payment.",
+   "pod": "PLANS",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": null,
+   "sprint": null,
+   "who": "Chris Rubio",
+   "reporter": "Carmen West",
+   "prio": "1: Urgent",
+   "created": "2026-11-20T10:16:02.954-0600",
+   "resolved": "2026-11-20T12:14:47.361-0600",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-25241",
    "name": "PMP - Plan Type Correction",
