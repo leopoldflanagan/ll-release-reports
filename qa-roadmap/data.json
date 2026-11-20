@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T14:49:08+00:00",
+ "generated_at": "2026-11-20T15:00:24+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -24710,34 +24710,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-12134",
-   "name": "WFP - Incorrect amounts appear in CSP Plan Transactions when two plans are purchased together with an additional plan discount.",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Daryl Myrick",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-02-13T08:20:57.953-0600",
-   "resolved": "2026-08-22T09:56:43.972-0500",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-10457",
-   "parentName": "Plans Marketplace Post MVP (Fast Follow)",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-417",
-   "init": "Plans Marketplace (Fast Follow)"
   }
  ],
  "closed_days": 90,
