@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T15:19:29+00:00",
+ "generated_at": "2026-11-20T15:30:25+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -443,7 +443,7 @@
   {
    "key": "WT-1008",
    "name": "AAC Wellfit Framework Integration",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": null,
    "who": "Daniel Marineni",
@@ -1514,7 +1514,7 @@
    "name": "AAC Wellfit Framework Integration",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
