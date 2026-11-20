@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:45:21+00:00",
+ "generated_at": "2026-11-20T20:49:03+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -24763,13 +24763,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25526",
-   "name": "Smile health/custom portals - Blocker - Unable to purchase plans",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
   {
    "key": "PLANS-25521",
    "name": "PLANS-25521: Stage: SGDP: Home page: the three plan cards no longer fit on one row, add a size input to the shared plan card",
