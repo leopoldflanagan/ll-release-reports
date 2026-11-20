@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T19:19:38+00:00",
+ "generated_at": "2026-11-20T19:30:25+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -6289,62 +6289,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25452",
-   "name": "PLANS-25452: Stage: SGDP: Plan card: price is rendered lighter than on Prod",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-19T03:06:02.055-0600",
-   "resolved": "",
-   "due": "2026-11-20",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25130",
-   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-14923",
-   "name": "[Exising issue] Member poral -no validations for Downgrade renewals",
-   "pod": "PLANS",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "David Jones",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-03-13T15:25:12.186-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25168",
    "name": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic claims import with no plan",
    "pod": "PLANS",
@@ -6605,6 +6549,34 @@
    "created": "2026-11-19T03:11:37.140-0600",
    "resolved": "",
    "due": "2026-11-19",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25130",
+   "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25452",
+   "name": "PLANS-25452: Stage: SGDP: Plan card: price is rendered lighter than on Prod",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Ivan Yarymovych",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-19T03:06:02.055-0600",
+   "resolved": "",
+   "due": "2026-11-20",
    "labels": [
     "PDS",
     "product_prioritized"
@@ -7404,6 +7376,34 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-14923",
+   "name": "[Exising issue] Member poral -no validations for Downgrade renewals",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "David Jones",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-03-13T15:25:12.186-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
@@ -24801,14 +24801,14 @@
   {
    "key": "PLANS-25519",
    "name": "PLANS-25519: Stage: SGDP: Purchase step 3: the embedded payment widget fields do not match the SGDP form styling",
-   "status": "PR Merged",
+   "status": "In Stage",
    "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
   {
    "key": "PLANS-25518",
    "name": "PLANS-25518: Stage: SGDP: Purchase flow dialogs still use the default blue buttons instead of the SGDP yellow ones",
-   "status": "PR Merged",
+   "status": "In Stage",
    "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
