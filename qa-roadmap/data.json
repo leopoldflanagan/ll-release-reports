@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T15:45:18+00:00",
+ "generated_at": "2026-11-20T15:49:06+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -509,7 +509,7 @@
   {
    "key": "WT-1022",
    "name": "Security metrics for Account Information",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-11-18",
    "fv": "R9.10",
    "who": "Daniel Marineni",
@@ -1580,7 +1580,7 @@
    "name": "Security metrics for Account Information",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.10",
    "ted": "2026-11-18",
    "who": "Daniel Marineni",
