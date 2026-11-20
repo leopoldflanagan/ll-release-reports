@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T16:45:19+00:00",
+ "generated_at": "2026-11-20T16:49:11+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -210,17 +210,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "WT-708",
-   "name": "Non Annual Renewals",
-   "status": "Blocked",
-   "ted": "2027-01-15",
-   "fv": "R10.02",
-   "who": "Karey Crump",
-   "tshirt": "Moderate",
-   "pod": "DYN",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "WT-721",
    "name": "LL - Expired Plans Winback Journey",
    "status": "In Development",
@@ -391,7 +380,7 @@
    "status": "Blocked",
    "ted": null,
    "fv": null,
-   "who": "Satva Tech",
+   "who": "Karey Crump",
    "tshirt": "Small",
    "pod": "DYN",
    "theme": "ACH-Fast Follows"
@@ -1301,17 +1290,6 @@
    "theme": "LL-Fast Follows"
   },
   {
-   "key": "WT-708",
-   "name": "Non Annual Renewals",
-   "pod": "DYN",
-   "proj": "WT",
-   "status": "Blocked",
-   "fv": "R10.02",
-   "ted": "2027-01-15",
-   "who": "Karey Crump",
-   "theme": "LL-Fast Follows"
-  },
-  {
    "key": "WT-721",
    "name": "LL - Expired Plans Winback Journey",
    "pod": "DYN",
@@ -1484,7 +1462,7 @@
    "status": "Blocked",
    "fv": null,
    "ted": null,
-   "who": "Satva Tech",
+   "who": "Karey Crump",
    "theme": "ACH-Fast Follows"
   },
   {
