@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T16:19:29+00:00",
+ "generated_at": "2026-11-20T16:30:25+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -190,7 +190,7 @@
   {
    "key": "WT-1085",
    "name": "Plan Design",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "ted": null,
    "fv": null,
    "who": "Vic Du Plessis",
@@ -410,7 +410,7 @@
   {
    "key": "WT-1002",
    "name": "Wallet Framework Migration",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": null,
    "who": "Daniel Marineni",
@@ -432,7 +432,7 @@
   {
    "key": "WT-1007",
    "name": "Artifact Self Contained Appsettings",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": null,
    "who": "Daniel Marineni",
@@ -454,7 +454,7 @@
   {
    "key": "WT-1012",
    "name": "Wallet Brandtheming Integration",
-   "status": "Requirements",
+   "status": "Architecture",
    "ted": null,
    "fv": null,
    "who": "Daniel Marineni",
@@ -1261,7 +1261,7 @@
    "name": "Plan Design",
    "pod": "PLAT",
    "proj": "WT",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "fv": null,
    "ted": null,
    "who": "Vic Du Plessis",
@@ -1481,7 +1481,7 @@
    "name": "Wallet Framework Migration",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
@@ -1503,7 +1503,7 @@
    "name": "Artifact Self Contained Appsettings",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
@@ -1525,7 +1525,7 @@
    "name": "Wallet Brandtheming Integration",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Requirements",
+   "status": "Architecture",
    "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
@@ -6320,34 +6320,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-21248",
-   "name": "PMP - Broken - Minor Bug: Duplicate Credit Card Not Added, but Success Message Is Displayed",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "David Jones",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-14T04:42:36.977-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-14923",
    "name": "[Exising issue] Member poral -no validations for Downgrade renewals",
    "pod": "PLANS",
@@ -7407,6 +7379,34 @@
     "product_prioritized"
    ],
    "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-21248",
+   "name": "PMP - Broken - Minor Bug: Duplicate Credit Card Not Added, but Success Message Is Displayed",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "David Jones",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-14T04:42:36.977-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
@@ -24742,14 +24742,14 @@
   {
    "key": "PLANS-25521",
    "name": "PLANS-25521: Stage: SGDP: Home page: the three plan cards no longer fit on one row, add a size input to the shared plan card",
-   "status": "PR Merged",
+   "status": "PR Created",
    "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
   {
    "key": "PLANS-25520",
    "name": "PLANS-25520: Prod and Stage: SGDP: See what you can save today: the table headers do not line up with their columns and the table is not responsive",
-   "status": "PR Merged",
+   "status": "In Stage",
    "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
