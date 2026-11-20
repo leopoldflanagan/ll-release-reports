@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T14:10:07+00:00",
+ "generated_at": "2026-11-20T14:15:22+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -443,7 +443,7 @@
   {
    "key": "WT-1008",
    "name": "AAC Wellfit Framework Integration",
-   "status": "Ready for Development",
+   "status": "Requirements",
    "ted": null,
    "fv": null,
    "who": "Daniel Marineni",
@@ -797,7 +797,7 @@
    "name": "Angular Upgrade (20 → 21)",
    "status": "Ready for Development",
    "ted": null,
-   "fv": null,
+   "fv": "R10.01",
    "who": "Ivan Yarymovych",
    "tshirt": null,
    "pod": "PLANS",
@@ -1180,7 +1180,7 @@
   {
    "key": "WT-997",
    "name": "Feature Flags Framework Integration",
-   "status": "Ready for Development",
+   "status": "Requirements",
    "ted": null,
    "fv": null,
    "who": "Daniel Marineni",
@@ -1514,7 +1514,7 @@
    "name": "AAC Wellfit Framework Integration",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "Requirements",
    "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
@@ -1867,7 +1867,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Ready for Development",
-   "fv": null,
+   "fv": "R10.01",
    "ted": null,
    "who": "Ivan Yarymovych",
    "theme": ""
@@ -2251,7 +2251,7 @@
    "name": "Feature Flags Framework Integration",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "Requirements",
    "fv": null,
    "ted": null,
    "who": "Daniel Marineni",
@@ -24766,7 +24766,7 @@
   {
    "key": "PLANS-25518",
    "name": "PLANS-25518: Stage: SGDP: Purchase flow dialogs still use the default blue buttons instead of the SGDP yellow ones",
-   "status": "In Development",
+   "status": "PR Merged",
    "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
