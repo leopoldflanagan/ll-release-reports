@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T18:00:29+00:00",
+ "generated_at": "2026-11-20T18:12:12+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -2534,31 +2534,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25522",
-   "name": "Error Message When Processing a Payment.",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Carmen West",
-   "prio": "3: Standard",
-   "created": "2026-11-20T10:16:02.954-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25517",
    "name": "Migrated Groups Phases 2 and 3 - Transaction Not Loading",
    "pod": "PLANS",
@@ -5080,6 +5055,33 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25522",
+   "name": "Error Message When Processing a Payment.",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Chris Rubio",
+   "reporter": "Carmen West",
+   "prio": "1: Urgent",
+   "created": "2026-11-20T10:16:02.954-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
