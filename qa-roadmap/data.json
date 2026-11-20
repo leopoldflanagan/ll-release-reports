@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T16:00:28+00:00",
+ "generated_at": "2026-11-20T16:09:49+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -687,7 +687,7 @@
    "name": "Auto-Renewal Report - Slack Channel Reading & Report Send",
    "status": "Architecture",
    "ted": null,
-   "fv": null,
+   "fv": "R10.01",
    "who": "Obie Khandaker",
    "tshirt": null,
    "pod": "PLANS",
@@ -753,7 +753,7 @@
    "name": "Subscription Consolidated Part2",
    "status": "Architecture",
    "ted": null,
-   "fv": null,
+   "fv": "R10.01",
    "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
@@ -1757,7 +1757,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Architecture",
-   "fv": null,
+   "fv": "R10.01",
    "ted": null,
    "who": "Obie Khandaker",
    "theme": ""
@@ -1823,7 +1823,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Architecture",
-   "fv": null,
+   "fv": "R10.01",
    "ted": null,
    "who": "Daniel Marineni",
    "theme": ""
