@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:30:27+00:00",
+ "generated_at": "2026-11-20T11:45:21+00:00",
  "today": "2026-11-20",
  "features": [
   {
@@ -24745,7 +24745,7 @@
   {
    "key": "PLANS-25521",
    "name": "PLANS-25521: Stage: SGDP: Home page: the three plan cards no longer fit on one row, add a size input to the shared plan card",
-   "status": "Backlog",
+   "status": "In Development",
    "who": "Ivan Yarymovych",
    "reporter": "Ivan Yarymovych"
   },
