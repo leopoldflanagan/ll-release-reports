@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T17:00:25+00:00",
+ "generated_at": "2026-11-22T17:15:17+00:00",
  "today": "2026-11-22",
  "features": [
   {
@@ -24594,34 +24594,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-21756",
-   "name": "ACH - Payment options not visible for default Office Manager user role (403 error )",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Conor Kamperman",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-24T09:05:56.359-0500",
-   "resolved": "2026-08-24T12:01:08.208-0500",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
