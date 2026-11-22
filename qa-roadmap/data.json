@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T15:15:19+00:00",
+ "generated_at": "2026-11-22T15:30:22+00:00",
  "today": "2026-11-22",
  "features": [
   {
@@ -24618,31 +24618,6 @@
    "parentKey": "PLANS-21311",
    "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21712",
-   "name": "Member Portal/ ACH is not displayed as a payment method",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Unassigned",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-08-21T19:32:59.415-0500",
-   "resolved": "2026-08-24T10:27:32.516-0500",
-   "due": "",
-   "labels": [],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
