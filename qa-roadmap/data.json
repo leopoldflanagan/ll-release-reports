@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T13:00:28+00:00",
+ "generated_at": "2026-11-23T13:11:44+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -5534,9 +5534,9 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R10.01",
    "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Luis Moreno Soberón",
    "prio": "3: Standard",
    "created": "2026-10-15T13:47:02.730-0500",
