@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T22:19:50+00:00",
+ "generated_at": "2026-11-23T22:30:22+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -2499,6 +2499,31 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25646",
+   "name": "CSP \\ Change Admin User Gets 500 Code Error When Tries to Create or Edit a Plan Template",
+   "pod": "PLANS",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-11-23T15:08:37.747-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [],
+   "theme": "",
+   "triage": "",
+   "parentKey": "",
+   "parentName": "",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -24426,13 +24451,6 @@
  ],
  "closed_days": 90,
  "nopod": [
-  {
-   "key": "PLANS-25646",
-   "name": "CSP \\ Change Admin User Gets 500 Code Error When Tries to Create or Edit a Plan Template",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Luis Moreno Soberón"
-  },
   {
    "key": "PLANS-25446",
    "name": "Smilehealth \\ Dental Plan Enrollment Confirmation is not being received",
