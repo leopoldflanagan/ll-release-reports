@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T12:45:19+00:00",
+ "generated_at": "2026-11-23T12:48:46+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -24284,34 +24284,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21760",
-   "name": "ACH - Manage patient page not loading for default office manager role",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": null,
-   "who": "Valentyna Tenus",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "1: Urgent",
-   "created": "2026-08-24T09:22:10.931-0500",
-   "resolved": "2026-08-25T07:47:37.082-0500",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
