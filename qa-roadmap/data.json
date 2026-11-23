@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T10:00:29+00:00",
+ "generated_at": "2026-11-23T10:15:27+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -2940,33 +2940,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24963",
-   "name": "Not Able to Add Dependent to Plan",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Carmen West",
-   "prio": "2: Important",
-   "created": "2026-10-30T16:21:31.203-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24915",
    "name": "Member portal - Deleted members / Membership cards still visible under primary plan",
    "pod": "LL",
@@ -5233,6 +5206,33 @@
    "parentKey": "",
    "parentName": "",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24963",
+   "name": "Not Able to Add Dependent to Plan",
+   "pod": "PLANS",
+   "status": "Ready for Development",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Carmen West",
+   "prio": "2: Important",
+   "created": "2026-10-30T16:21:31.203-0500",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
