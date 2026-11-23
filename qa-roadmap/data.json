@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T17:09:33+00:00",
+ "generated_at": "2026-11-23T17:15:22+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -2503,6 +2503,129 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25576",
+   "name": "PMP - Manual Refund - Past Refund Window - Refunded Transaction Not Displayed in PMP Member Transactions",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-23T10:12:04.935-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "group4_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22677",
+   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-518",
+   "init": "ACH Fast Follows"
+  },
+  {
+   "key": "PLANS-25573",
+   "name": "Manual Refund - Past Refund Window - \"Disable Benefit Plan\" Checkbox is Disabled and Cannot Be Selected",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-23T10:03:23.909-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22677",
+   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-518",
+   "init": "ACH Fast Follows"
+  },
+  {
+   "key": "PLANS-25570",
+   "name": "Manual Refund - Past Refund Window - Refunded Transaction Receipt/Details Not Visible After Manual Refund",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-23T09:54:18.486-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22677",
+   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-518",
+   "init": "ACH Fast Follows"
+  },
+  {
+   "key": "PLANS-25567",
+   "name": "ACH Refund - Past Refund Window - Unable to Perform Multiple Partial Manual Refunds",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-23T09:34:11.289-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22677",
+   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-518",
+   "init": "ACH Fast Follows"
   },
   {
    "key": "PLANS-25517",
@@ -24163,41 +24286,6 @@
   {
    "key": "PLANS-25583",
    "name": "CSP / PMP - Manual Refund - Past Refund Window - Refund Not Audited in Account History",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-25579",
-   "name": "Member Portal- Manual Refund - Past Refund Window - Refunded Transaction Not Displayed in Member Transactions",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-25576",
-   "name": "PMP - Manual Refund - Past Refund Window - Refunded Transaction Not Displayed in PMP Member Transactions",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-25573",
-   "name": "Manual Refund - Past Refund Window - \"Disable Benefit Plan\" Checkbox is Disabled and Cannot Be Selected",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-25570",
-   "name": "Manual Refund - Past Refund Window - Refunded Transaction Receipt/Details Not Visible After Manual Refund",
-   "status": "Backlog",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe"
-  },
-  {
-   "key": "PLANS-25567",
-   "name": "ACH Refund - Past Refund Window - Unable to Perform Multiple Partial Manual Refunds",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
