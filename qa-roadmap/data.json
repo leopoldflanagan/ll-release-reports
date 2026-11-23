@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T22:00:24+00:00",
+ "generated_at": "2026-11-23T22:08:42+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -24422,34 +24422,6 @@
    "linkedLP": false,
    "initKey": "WT-416",
    "init": "LL Changes to Support DCA"
-  },
-  {
-   "key": "PLANS-21698",
-   "name": "Stage - Member Portal - Price on Add Plan card is incorrect",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.8",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Conor Kamperman",
-   "reporter": "Gabriel Perez Cardozo",
-   "prio": "2: Important",
-   "created": "2026-08-21T14:35:02.311-0500",
-   "resolved": "2026-08-25T17:05:40.411-0500",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
