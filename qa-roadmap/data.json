@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T14:49:03+00:00",
+ "generated_at": "2026-11-23T15:00:25+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -6182,7 +6182,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.11",
+   "fv": "R10.01",
    "sprint": "Plans Pod 1-Sprint 27-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
@@ -6210,7 +6210,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.11",
+   "fv": "R10.01",
    "sprint": "Plans Pod 1-Sprint 27-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
@@ -6238,7 +6238,7 @@
    "pod": "LL",
    "status": "PR Created",
    "cat": "In Progress",
-   "fv": "R9.11",
+   "fv": "R10.01",
    "sprint": "Plans Pod 1-Sprint 27-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
