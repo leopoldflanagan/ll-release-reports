@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T00:15:20+00:00",
+ "generated_at": "2026-11-23T00:30:22+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -24317,34 +24317,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-20967",
-   "name": "Member Portal - Renew Button Remains Visible on Old Plan After Successful Renewal",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Hunter Redhead",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-11T10:58:19.200-0500",
-   "resolved": "2026-08-24T19:30:13.337-0500",
-   "due": "2026-08-19",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
