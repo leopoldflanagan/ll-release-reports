@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T12:00:25+00:00",
+ "generated_at": "2026-11-23T12:14:57+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -2378,7 +2378,7 @@
    "prio": "3: Standard",
    "created": "2026-10-05T05:26:34.316-0500",
    "resolved": "",
-   "due": "2026-11-20",
+   "due": "2026-11-27",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -2450,6 +2450,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-20838",
+   "name": "CSP - Renewal Restriction Banner Not Visible and Restriction Value Lost When Configured from Group Management",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R10.11",
+   "sprint": "Plans Pod 1-Sprint 27-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-06T12:03:40.953-0500",
+   "resolved": "",
+   "due": "2026-11-24",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-20507",
    "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
    "pod": "LL",
@@ -2468,34 +2496,6 @@
     "product_prioritized"
    ],
    "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-15033",
-   "name": "Member portal - All plans - Theming /nav bar icons not loading for Responsible Party(RP without a plan)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.11",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-04-09T13:07:28.498-0500",
-   "resolved": "",
-   "due": "2026-11-24",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
@@ -5821,12 +5821,12 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-09-25T18:20:32.907-0500",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-24",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -6122,34 +6122,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-20838",
-   "name": "CSP - Renewal Restriction Banner Not Visible and Restriction Value Lost When Configured from Group Management",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-06T12:03:40.953-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "EDW-2543",
    "name": "Auto Renewal Retry \\ Failure notification email is not sent after all retry attempts are declined",
    "pod": "PLANS",
@@ -6245,9 +6217,37 @@
    "prio": "3: Standard",
    "created": "2026-10-05T10:23:22.128-0500",
    "resolved": "",
-   "due": "2026-11-20",
+   "due": "2026-11-27",
    "labels": [
     "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-15033",
+   "name": "Member portal - All plans - Theming /nav bar icons not loading for Responsible Party(RP without a plan)",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.11",
+   "sprint": "Plans Pod 1-Sprint 27-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-04-09T13:07:28.498-0500",
+   "resolved": "",
+   "due": "2026-11-24",
+   "labels": [
+    "group1_migration",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
