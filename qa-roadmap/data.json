@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T20:00:27+00:00",
+ "generated_at": "2026-11-23T20:09:15+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -24420,33 +24420,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21826",
-   "name": "PMP - ACH authorization is not displayed in the Member Payment Types tab.",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Juan Rodrigo Mejia Rivera",
-   "prio": "2: Important",
-   "created": "2026-08-25T14:56:35.343-0500",
-   "resolved": "2026-08-25T15:04:18.116-0500",
-   "due": "",
-   "labels": [
-    "LLplans"
-   ],
-   "theme": "ACH",
-   "triage": "Yes",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
