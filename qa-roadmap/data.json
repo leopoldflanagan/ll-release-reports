@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T15:45:18+00:00",
+ "generated_at": "2026-11-23T15:48:47+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -3735,7 +3735,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
+   "sprint": "Plans-Sprint 25-26",
    "who": "Conor Kamperman",
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
@@ -5736,7 +5736,7 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
+   "sprint": "Plans-Sprint 25-26",
    "who": "Conor Kamperman",
    "reporter": "Hazel Loya",
    "prio": "3: Standard",
@@ -24239,7 +24239,7 @@
  "nopod": [
   {
    "key": "PLANS-25567",
-   "name": "ACH manual Refund - When manual refund a transaction",
+   "name": "ACH Refund - Past Refund Window - Unable to Perform Multiple Partial Manual Refunds",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
