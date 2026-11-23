@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T16:00:27+00:00",
+ "generated_at": "2026-11-23T16:10:02+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -5130,8 +5130,8 @@
    "pod": "PLANS",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R10.01",
+   "sprint": "Plans Pod 1-Sprint 27-26",
    "who": "Petro Yarish",
    "reporter": "Carmen West",
    "prio": "2: Important",
@@ -5143,9 +5143,9 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
+   "parentKey": "PLANS-25442",
+   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -24237,6 +24237,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25573",
+   "name": "Manual Refund - Past Refund Window - \"Disable Benefit Plan\" Checkbox is Disabled and Cannot Be Selected",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-25570",
    "name": "Manual Refund - Past Refund Window - Refunded Transaction Receipt/Details Not Visible After Manual Refund",
