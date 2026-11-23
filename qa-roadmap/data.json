@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T15:48:47+00:00",
+ "generated_at": "2026-11-23T16:00:27+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -2310,37 +2310,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-25443",
-   "name": "ACH Refund - Past Refund Window Status and Manual Refund Permission Popup Not Displayed for Partially Refunded Transactions(transaction -180 days ago)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 26-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-18T14:09:57.850-0600",
-   "resolved": "",
-   "due": "2026-11-24",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "group4_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22677",
-   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-518",
-   "init": "ACH Fast Follows"
   },
   {
    "key": "PLANS-25236",
@@ -5658,7 +5627,7 @@
    "prio": "3: Standard",
    "created": "2026-10-08T09:59:32.733-0500",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-24",
    "labels": [
     "group2_migration",
     "product_prioritized"
@@ -6268,7 +6237,7 @@
    "cat": "In Progress",
    "fv": "R9.10",
    "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Leopoldo Flanagan",
+   "who": "Daniel Marineni",
    "reporter": "Petro Yarish",
    "prio": "2: Important",
    "created": "2026-11-09T01:53:43.747-0600",
@@ -6284,36 +6253,6 @@
    "parentKey": "PLANS-25130",
    "parentName": "[R9.10] Plans - P1 / P2 Bugs",
    "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25117",
-   "name": "Preprod - ACH and CC Auto renewal didn't process ( Euler /Legacy West Dental)",
-   "pod": "PLANS",
-   "status": "On Hold",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 26-26",
-   "who": "Daniel Marineni",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-11-05T08:34:20.924-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -7049,6 +6988,36 @@
    "init": ""
   },
   {
+   "key": "PLANS-25117",
+   "name": "QA retest - Preprod - ACH and CC Auto renewal didn't process ( Euler /Legacy West Dental)",
+   "pod": "PLANS",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Daniel Marineni",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-05T08:34:20.924-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25008",
    "name": "PT is Unable to Log into Member Portal",
    "pod": "LL",
@@ -7678,6 +7647,37 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-25443",
+   "name": "ACH Refund - Past Refund Window Status and Manual Refund Permission Popup Not Displayed for Partially Refunded Transactions(transaction -180 days ago)",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 26-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-18T14:09:57.850-0600",
+   "resolved": "2026-11-23T09:53:36.040-0600",
+   "due": "2026-11-24",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "group4_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22677",
+   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-518",
+   "init": "ACH Fast Follows"
+  },
   {
    "key": "PLANS-25409",
    "name": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Feature Flag Service, or Smile Health loses the dynamic legal footer",
@@ -24237,6 +24237,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25570",
+   "name": "Manual Refund - Past Refund Window - Refunded Transaction Receipt/Details Not Visible After Manual Refund",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe"
+  },
   {
    "key": "PLANS-25567",
    "name": "ACH Refund - Past Refund Window - Unable to Perform Multiple Partial Manual Refunds",
