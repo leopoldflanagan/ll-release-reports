@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T15:20:16+00:00",
+ "generated_at": "2026-11-23T15:30:23+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -5249,8 +5249,8 @@
    "status": "Ready for Development",
    "cat": "To Do",
    "fv": null,
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Unassigned",
+   "sprint": "Plans Pod 2-Sprint 27-26",
+   "who": "Rostyslav Masniuk",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-10-30T11:12:11.622-0500",
@@ -6239,7 +6239,7 @@
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R10.01",
-   "sprint": "Plans Pod 2-Sprint 27-26",
+   "sprint": "Plans Pod 1-Sprint 27-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
