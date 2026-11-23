@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T13:22:47+00:00",
+ "generated_at": "2026-11-23T13:30:24+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -2294,7 +2294,7 @@
    "prio": "2: Important",
    "created": "2026-11-18T14:09:57.850-0600",
    "resolved": "",
-   "due": "2026-11-23",
+   "due": "2026-11-24",
    "labels": [
     "group1_migration",
     "group2_migration",
@@ -2406,7 +2406,7 @@
    "prio": "3: Standard",
    "created": "2026-09-24T12:54:21.503-0500",
    "resolved": "",
-   "due": "2026-11-23",
+   "due": "2026-11-24",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -2434,40 +2434,12 @@
    "prio": "3: Standard",
    "created": "2026-08-22T18:39:23.599-0500",
    "resolved": "",
-   "due": "2026-11-23",
+   "due": "2026-11-24",
    "labels": [
     "group1_migration",
     "product_prioritized"
    ],
    "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-20838",
-   "name": "CSP - Renewal Restriction Banner Not Visible and Restriction Value Lost When Configured from Group Management",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R10.11",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-08-06T12:03:40.953-0500",
-   "resolved": "",
-   "due": "2026-11-24",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
@@ -2490,12 +2462,40 @@
    "prio": "3: Standard",
    "created": "2026-07-29T12:11:02.632-0500",
    "resolved": "",
-   "due": "2026-11-23",
+   "due": "2026-11-27",
    "labels": [
     "group2_migration",
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-20496",
+   "name": "WFP - Incorrect Success Message Displayed for 'Bill to Office' Purchases",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 27-26",
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "4: Low",
+   "created": "2026-07-29T10:41:22.846-0500",
+   "resolved": "",
+   "due": "2026-11-24",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
@@ -4704,34 +4704,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-20496",
-   "name": "WFP - Incorrect Success Message Displayed for 'Bill to Office' Purchases",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "4: Low",
-   "created": "2026-07-29T10:41:22.846-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-18790",
    "name": "Marketing Setting - Value Row Should Not Require Quantity and Should Be Configured Separately",
    "pod": "LL",
@@ -6223,6 +6195,34 @@
     "product_prioritized"
    ],
    "theme": "ACH-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-20838",
+   "name": "CSP - Renewal Restriction Banner Not Visible and Restriction Value Lost When Configured from Group Management",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R10.11",
+   "sprint": "Plans Pod 1-Sprint 27-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-08-06T12:03:40.953-0500",
+   "resolved": "",
+   "due": "2026-11-24",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
