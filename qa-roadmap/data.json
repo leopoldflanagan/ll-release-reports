@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T16:36:11+00:00",
+ "generated_at": "2026-11-23T16:45:19+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -24177,41 +24177,13 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-21775",
-   "name": "ACH<Member Portal<Deleting Primary Card< Selecting Bank account as replacement- Getting error \"could not retrieve Bank auth\" and Card is not deleting",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Valentyna Tenus",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-24T12:33:58.117-0500",
-   "resolved": "2026-08-25T11:39:17.212-0500",
-   "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
  "nopod": [
   {
    "key": "PLANS-25583",
-   "name": "CSP / PMP - Manual Refund - Past Refund Window - Refund not audited in history of Accounts.",
+   "name": "CSP / PMP - Manual Refund - Past Refund Window - Refund Not Audited in Account History",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
