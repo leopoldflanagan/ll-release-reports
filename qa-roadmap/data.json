@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T20:45:18+00:00",
+ "generated_at": "2026-11-23T20:49:04+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -740,7 +740,7 @@
   {
    "key": "WT-1277",
    "name": "Subscription Consolidated Part2",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "ted": null,
    "fv": "R10.01",
    "who": "Daniel Marineni",
@@ -1822,7 +1822,7 @@
    "name": "Subscription Consolidated Part2",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Architecture",
+   "status": "Ready for Development",
    "fv": "R10.01",
    "ted": null,
    "who": "Daniel Marineni",
