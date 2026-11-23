@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T16:20:51+00:00",
+ "generated_at": "2026-11-23T16:30:29+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -24205,41 +24205,13 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-21632",
-   "name": "Smile Health - Password error",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Camille Knight",
-   "prio": "3: Standard",
-   "created": "2026-08-20T11:12:24.837-0500",
-   "resolved": "2026-08-25T11:27:27.227-0500",
-   "due": "2026-08-21",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
  "nopod": [
   {
    "key": "PLANS-25579",
-   "name": "CLONE - PMP - Manual Refund - Past Refund Window - Refunded Transaction Not Displayed in PMP Member Transactions",
+   "name": "Member Portal- Manual Refund - Past Refund Window - Refunded Transaction Not Displayed in Member Transactions",
    "status": "Backlog",
    "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe"
