@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T14:35:38+00:00",
+ "generated_at": "2026-11-23T14:45:20+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -2282,6 +2282,36 @@
  ],
  "bugs": [
   {
+   "key": "PLANS-25459",
+   "name": "Smile Health - Footer legal text Not Visible throughout the purchase flow and other site pages. (NOT reproducible with one smile/essential smile/sgdp)",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 26-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-19T09:08:12.135-0600",
+   "resolved": "",
+   "due": "2026-11-23",
+   "labels": [
+    "group2_migration",
+    "group3_migration",
+    "group4_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25139",
+   "parentName": "9.10 Release Prep Work",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25443",
    "name": "ACH Refund - Past Refund Window Status and Manual Refund Permission Popup Not Displayed for Partially Refunded Transactions(transaction -180 days ago)",
    "pod": "LL",
@@ -2524,36 +2554,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25459",
-   "name": "Smile Health - Footer legal text Not Visible throughout the purchase flow and other site pages. (NOT reproducible with one smile/essential smile/sgdp)",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-11-19T09:08:12.135-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group2_migration",
-    "group3_migration",
-    "group4_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25139",
-   "parentName": "9.10 Release Prep Work",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
@@ -24332,7 +24332,7 @@
    "key": "PLANS-25446",
    "name": "Smilehealth \\ Dental Plan Enrollment Confirmation is not being received",
    "status": "In Development",
-   "who": "Nazarii Polinyk",
+   "who": "Unassigned",
    "reporter": "Luis Moreno Soberón"
   }
  ],
