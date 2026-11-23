@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T07:15:22+00:00",
+ "generated_at": "2026-11-23T07:30:22+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -784,7 +784,7 @@
   {
    "key": "WT-1292",
    "name": "Angular Upgrade (20 → 21)",
-   "status": "Ready for Development",
+   "status": "In Development",
    "ted": null,
    "fv": "R10.01",
    "who": "Ivan Yarymovych",
@@ -1866,7 +1866,7 @@
    "name": "Angular Upgrade (20 → 21)",
    "pod": "PLANS",
    "proj": "WT",
-   "status": "Ready for Development",
+   "status": "In Development",
    "fv": "R10.01",
    "ted": null,
    "who": "Ivan Yarymovych",
