@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T17:15:22+00:00",
+ "generated_at": "2026-11-23T17:19:08+00:00",
  "today": "2026-11-23",
  "features": [
   {
@@ -2503,6 +2503,36 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25579",
+   "name": "Member Portal- Manual Refund - Past Refund Window - Refunded Transaction Not Displayed in Member Transactions",
+   "pod": "LL",
+   "status": "Backlog",
+   "cat": "To Do",
+   "fv": null,
+   "sprint": null,
+   "who": "Unassigned",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-23T10:19:07.795-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "group4_migration"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22677",
+   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-518",
+   "init": "ACH Fast Follows"
   },
   {
    "key": "PLANS-25576",
