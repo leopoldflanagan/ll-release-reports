@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T09:30:26+00:00",
+ "generated_at": "2026-11-24T09:45:22+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -2402,36 +2402,6 @@
    "linkedLP": false,
    "initKey": "WT-518",
    "init": "ACH Fast Follows"
-  },
-  {
-   "key": "PLANS-25459",
-   "name": "Smile Health - Footer legal text Not Visible throughout the purchase flow and other site pages. (NOT reproducible with one smile/essential smile/sgdp)",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-11-19T09:08:12.135-0600",
-   "resolved": "",
-   "due": "2026-11-23",
-   "labels": [
-    "group2_migration",
-    "group3_migration",
-    "group4_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25139",
-   "parentName": "9.10 Release Prep Work",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   },
   {
    "key": "PLANS-25449",
@@ -5825,34 +5795,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24273",
-   "name": "Prod/Plan Details PDF/Provider Link is not clickable",
-   "pod": "LL",
-   "status": "Ready for Development",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 25-26",
-   "who": "Dima Shtympel",
-   "reporter": "Vivienne Chawande",
-   "prio": "3: Standard",
-   "created": "2026-10-08T09:59:32.733-0500",
-   "resolved": "",
-   "due": "2026-11-24",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24067",
    "name": "Single Location Practice's are not honoring the no need for zip code entry for Smile Health - when you have the dedicated URL",
    "pod": "LL",
@@ -6247,6 +6189,36 @@
    "init": ""
   },
   {
+   "key": "PLANS-25459",
+   "name": "Smile Health - Footer legal text Not Visible throughout the purchase flow and other site pages. (NOT reproducible with one smile/essential smile/sgdp)",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 27-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-19T09:08:12.135-0600",
+   "resolved": "",
+   "due": "2026-11-23",
+   "labels": [
+    "group2_migration",
+    "group3_migration",
+    "group4_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25139",
+   "parentName": "9.10 Release Prep Work",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24962",
    "name": "Member Unable to Login to Member Portal",
    "pod": "PLANS",
@@ -6294,6 +6266,34 @@
    "parentKey": "PLANS-25130",
    "parentName": "[R9.10] Plans - P1 / P2 Bugs",
    "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24273",
+   "name": "Prod/Plan Details PDF/Provider Link is not clickable",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.11",
+   "sprint": "LL-Sprint 25-26",
+   "who": "Dima Shtympel",
+   "reporter": "Vivienne Chawande",
+   "prio": "3: Standard",
+   "created": "2026-10-08T09:59:32.733-0500",
+   "resolved": "",
+   "due": "2026-11-24",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
