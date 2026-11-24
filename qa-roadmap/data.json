@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T03:00:25+00:00",
+ "generated_at": "2026-11-24T03:15:20+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -24335,34 +24335,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-21669",
-   "name": "E-Consent <Not Displaying for all Listed Plans- Essential Smile, One Smile,KOS",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Oleksandr Terletskyy",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-08-21T00:19:49.644-0500",
-   "resolved": "2026-08-25T22:08:37.587-0500",
-   "due": "2026-08-23",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
