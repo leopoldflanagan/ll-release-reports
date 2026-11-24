@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T19:45:18+00:00",
+ "generated_at": "2026-11-24T19:49:23+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -6311,36 +6311,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25459",
-   "name": "Smile Health - Footer legal text Not Visible throughout the purchase flow and other site pages. (NOT reproducible with one smile/essential smile/sgdp)",
-   "pod": "LL",
-   "status": "PR Merged",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Nazarii Polinyk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-11-19T09:08:12.135-0600",
-   "resolved": "",
-   "due": "2026-11-23",
-   "labels": [
-    "group2_migration",
-    "group3_migration",
-    "group4_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25139",
-   "parentName": "9.10 Release Prep Work",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-23564",
    "name": "ACH Refund - Refund Receipt Opens Blank Page for ~20 Seconds Before Loading in member portal",
    "pod": "LL",
@@ -6775,6 +6745,36 @@
    "triage": "",
    "parentKey": "PLANS-25130",
    "parentName": "[R9.10] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25459",
+   "name": "Smile Health - Footer legal text Not Visible throughout the purchase flow and other site pages. (NOT reproducible with one smile/essential smile/sgdp)",
+   "pod": "LL",
+   "status": "In Stage",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 27-26",
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-19T09:08:12.135-0600",
+   "resolved": "",
+   "due": "2026-11-23",
+   "labels": [
+    "group2_migration",
+    "group3_migration",
+    "group4_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25139",
+   "parentName": "9.10 Release Prep Work",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
