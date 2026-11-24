@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T18:30:24+00:00",
+ "generated_at": "2026-11-24T18:35:10+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -203,7 +203,7 @@
   {
    "key": "WT-721",
    "name": "LL - Expired Plans Winback Journey",
-   "status": "In Development",
+   "status": "In Testing",
    "ted": "2026-11-20",
    "fv": "R9.10",
    "who": "Karey Crump",
@@ -1263,7 +1263,7 @@
    "name": "LL - Expired Plans Winback Journey",
    "pod": "DYN",
    "proj": "WT",
-   "status": "In Development",
+   "status": "In Testing",
    "fv": "R9.10",
    "ted": "2026-11-20",
    "who": "Karey Crump",
