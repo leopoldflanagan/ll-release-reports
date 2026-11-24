@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T22:49:14+00:00",
+ "generated_at": "2026-11-24T23:00:25+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -24222,34 +24222,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21782",
-   "name": "Plan Confirmation Receipt / Missing email for DCA members who purchased a plan using ACH payment method",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "1: Urgent",
-   "created": "2026-08-24T14:06:01.375-0500",
-   "resolved": "2026-08-26T17:56:23.607-0500",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-21311",
    "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
