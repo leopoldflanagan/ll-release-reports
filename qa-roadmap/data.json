@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T17:49:06+00:00",
+ "generated_at": "2026-11-24T18:00:26+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -24273,34 +24273,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-21642",
-   "name": "PLANS-21642: DCA: Purchase: Configuration Error is displayed when proceeding to the purchase step with multiple additional members",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Ivan Yarymovych",
-   "reporter": "Mireya Alvarez",
-   "prio": "1: Urgent",
-   "created": "2026-08-20T12:47:39.847-0500",
-   "resolved": "2026-08-26T12:56:50.075-0500",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "",
-   "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
