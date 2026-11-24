@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T15:00:26+00:00",
+ "generated_at": "2026-11-24T15:10:02+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -2257,7 +2257,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 27-26",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -2272,13 +2272,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22677",
-   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "parentKey": "PLANS-25442",
+   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-518",
-   "init": "ACH Fast Follows"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25576",
@@ -2287,7 +2287,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 27-26",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -2303,13 +2303,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22677",
-   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "parentKey": "PLANS-25442",
+   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-518",
-   "init": "ACH Fast Follows"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25567",
@@ -2318,7 +2318,7 @@
    "status": "In Development",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 27-26",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -2333,13 +2333,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22677",
-   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "parentKey": "PLANS-25442",
+   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-518",
-   "init": "ACH Fast Follows"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25449",
@@ -6012,7 +6012,7 @@
    "status": "PR Created",
    "cat": "In Progress",
    "fv": "R9.10",
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 27-26",
    "who": "Mykyta Moroz",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "2: Important",
@@ -6028,13 +6028,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22677",
-   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "parentKey": "PLANS-25442",
+   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-518",
-   "init": "ACH Fast Follows"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25570",
@@ -6059,13 +6059,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22677",
-   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "parentKey": "PLANS-25442",
+   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-518",
-   "init": "ACH Fast Follows"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25459",
@@ -8007,13 +8007,13 @@
    ],
    "theme": "",
    "triage": "",
-   "parentKey": "PLANS-22677",
-   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "parentKey": "PLANS-25442",
+   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
-   "initKey": "WT-518",
-   "init": "ACH Fast Follows"
+   "initKey": "",
+   "init": ""
   },
   {
    "key": "PLANS-25404",
