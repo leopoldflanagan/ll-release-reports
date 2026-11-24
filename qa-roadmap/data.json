@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T20:09:15+00:00",
+ "generated_at": "2026-11-24T20:15:20+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -799,7 +799,7 @@
    "name": "Subscription Consolidated part3",
    "status": "Backlog",
    "ted": null,
-   "fv": null,
+   "fv": "R10.01",
    "who": "Obie Khandaker",
    "tshirt": null,
    "pod": "PLANS",
@@ -1880,7 +1880,7 @@
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
-   "fv": null,
+   "fv": "R10.01",
    "ted": null,
    "who": "Obie Khandaker",
    "theme": ""
@@ -7618,34 +7618,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24568",
-   "name": "PMP-Stage-\"Add Primary Contact” option shows for a minor (Minor 2) who already has a primary contact",
-   "pod": "LL",
-   "status": "WAITING REVIEW",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Petro Yarish",
-   "reporter": "Vinita Thankur",
-   "prio": "3: Standard",
-   "created": "2026-10-16T11:40:23.030-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24108",
    "name": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
    "pod": "LL",
@@ -7885,6 +7857,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24568",
+   "name": "PMP-Stage-\"Add Primary Contact” option shows for a minor (Minor 2) who already has a primary contact",
+   "pod": "LL",
+   "status": "Closed",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 1-Sprint 27-26",
+   "who": "Petro Yarish",
+   "reporter": "Vinita Thankur",
+   "prio": "3: Standard",
+   "created": "2026-10-16T11:40:23.030-0500",
+   "resolved": "2026-11-24T14:09:57.947-0600",
+   "due": "",
+   "labels": [
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-24864",
    "name": "EssentialSmile - \"$30 each additional member / per year\" text is not displayed",
