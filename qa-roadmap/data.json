@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T23:48:55+00:00",
- "today": "2026-11-23",
+ "generated_at": "2026-11-24T00:00:24+00:00",
+ "today": "2026-11-24",
  "features": [
   {
    "key": "WT-1021",
@@ -24419,34 +24419,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-21652",
-   "name": "Plan Details PDF - Auto renew text should be Dynamic",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-20T16:18:14.024-0500",
-   "resolved": "2026-08-25T18:53:58.607-0500",
-   "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-14926",
-   "parentName": "Updates to Marketing Details",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-416",
-   "init": "LL Changes to Support DCA"
   }
  ],
  "closed_days": 90,
