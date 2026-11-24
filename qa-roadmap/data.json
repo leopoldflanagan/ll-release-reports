@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T21:19:20+00:00",
+ "generated_at": "2026-11-24T21:30:22+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -55,15 +55,6 @@
    "fv": "R9.10",
    "who": "Mykyta Moroz",
    "tshirt": "Moderate"
-  },
-  {
-   "key": "WT-1191",
-   "name": "Marketing Details - fee schedule",
-   "status": "In Testing",
-   "ted": "2026-11-24",
-   "fv": "R9.10",
-   "who": "Valentyna Tenus",
-   "tshirt": null
   },
   {
    "key": "WT-1210",
@@ -594,17 +585,6 @@
    "who": "Daniel Marineni",
    "tshirt": null,
    "pod": "PLANS",
-   "theme": ""
-  },
-  {
-   "key": "WT-1191",
-   "name": "Marketing Details - fee schedule",
-   "status": "In Testing",
-   "ted": "2026-11-24",
-   "fv": "R9.10",
-   "who": "Valentyna Tenus",
-   "tshirt": null,
-   "pod": "LL",
    "theme": ""
   },
   {
@@ -1674,17 +1654,6 @@
    "fv": "R10.01",
    "ted": null,
    "who": "Daniel Marineni",
-   "theme": ""
-  },
-  {
-   "key": "WT-1191",
-   "name": "Marketing Details - fee schedule",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.10",
-   "ted": "2026-11-24",
-   "who": "Valentyna Tenus",
    "theme": ""
   },
   {
