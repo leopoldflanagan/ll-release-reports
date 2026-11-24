@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T20:00:30+00:00",
+ "generated_at": "2026-11-24T20:09:15+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -790,6 +790,28 @@
    "ted": null,
    "fv": "R10.01",
    "who": "Dmytro Tymofiienko",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1314",
+   "name": "Subscription Consolidated part3",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1315",
+   "name": "Purchase flow enhancement",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
    "tshirt": null,
    "pod": "PLANS",
    "theme": ""
@@ -1850,6 +1872,28 @@
    "fv": "R10.01",
    "ted": null,
    "who": "Dmytro Tymofiienko",
+   "theme": ""
+  },
+  {
+   "key": "WT-1314",
+   "name": "Subscription Consolidated part3",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1315",
+   "name": "Purchase flow enhancement",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
    "theme": ""
   },
   {
