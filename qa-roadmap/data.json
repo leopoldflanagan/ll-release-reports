@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T12:49:02+00:00",
+ "generated_at": "2026-11-24T13:00:29+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -5100,14 +5100,14 @@
    "pod": "LL",
    "status": "Ready for Development",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "fv": "R10.01",
+   "sprint": "Plans Pod 2-Sprint 27-26",
+   "who": "Rostyslav Masniuk",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
    "created": "2026-11-16T15:24:00.136-0600",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-24",
    "labels": [
     "group3_migration",
     "product_prioritized"
