@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T16:45:21+00:00",
+ "generated_at": "2026-11-24T16:49:10+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -6008,7 +6008,7 @@
    "cat": "To Do",
    "fv": "R10.01",
    "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Clint Tredway",
+   "who": "Unassigned",
    "reporter": "Luis Moreno",
    "prio": "3: Standard",
    "created": "2026-01-05T15:51:28.276-0600",
@@ -7462,34 +7462,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-23015",
-   "name": "Member Portal – Clicking Print Icon on Refund Transaction Redirects to Empty Page Instead of Displaying Refund Receipt",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 27-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-09-15T13:36:00.279-0500",
-   "resolved": "",
-   "due": "2026-11-24",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-22904",
    "name": "Smile Health - \"Total Due\" Amount Displayed Within Card Information Section",
    "pod": "LL",
@@ -7953,6 +7925,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-23015",
+   "name": "Member Portal – Clicking Print Icon on Refund Transaction Redirects to Empty Page Instead of Displaying Refund Receipt",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 27-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-09-15T13:36:00.279-0500",
+   "resolved": "2026-11-24T10:48:28.161-0600",
+   "due": "2026-11-24",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-21248",
    "name": "PMP - Broken - Minor Bug: Duplicate Credit Card Not Added, but Success Message Is Displayed",
