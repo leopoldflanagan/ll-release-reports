@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T01:00:25+00:00",
+ "generated_at": "2026-11-24T01:15:19+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -63,15 +63,6 @@
    "ted": "2026-11-23",
    "fv": "R9.10",
    "who": "Valentyna Tenus",
-   "tshirt": null
-  },
-  {
-   "key": "WT-1195",
-   "name": "Legal Language Additions",
-   "status": "In Testing",
-   "ted": "2026-11-20",
-   "fv": "R9.10",
-   "who": "Rostyslav Masniuk",
    "tshirt": null
   },
   {
@@ -636,17 +627,6 @@
    "who": "Obie Khandaker",
    "tshirt": null,
    "pod": "PLANS",
-   "theme": ""
-  },
-  {
-   "key": "WT-1195",
-   "name": "Legal Language Additions",
-   "status": "In Testing",
-   "ted": "2026-11-20",
-   "fv": "R9.10",
-   "who": "Rostyslav Masniuk",
-   "tshirt": null,
-   "pod": "LL",
    "theme": ""
   },
   {
@@ -1716,17 +1696,6 @@
    "fv": "R10.02",
    "ted": null,
    "who": "Obie Khandaker",
-   "theme": ""
-  },
-  {
-   "key": "WT-1195",
-   "name": "Legal Language Additions",
-   "pod": "LL",
-   "proj": "WT",
-   "status": "In Testing",
-   "fv": "R9.10",
-   "ted": "2026-11-20",
-   "who": "Rostyslav Masniuk",
    "theme": ""
   },
   {
