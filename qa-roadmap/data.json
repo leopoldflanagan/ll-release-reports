@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T13:30:27+00:00",
+ "generated_at": "2026-11-24T13:35:37+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -3348,14 +3348,14 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 27-26",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-26T11:08:17.365-0500",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-24",
    "labels": [
     "group2_migration",
     "product_prioritized"
