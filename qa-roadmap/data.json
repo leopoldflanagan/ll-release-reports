@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T14:00:30+00:00",
+ "generated_at": "2026-11-24T14:10:27+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -2250,37 +2250,6 @@
   }
  ],
  "bugs": [
-  {
-   "key": "PLANS-25583",
-   "name": "CSP / PMP - Manual Refund - Past Refund Window - Refund Not Audited in Account History",
-   "pod": "LL",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-11-23T10:35:41.070-0600",
-   "resolved": "",
-   "due": "2026-11-26",
-   "labels": [
-    "PDS",
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "group4_migration"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-22677",
-   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-518",
-   "init": "ACH Fast Follows"
-  },
   {
    "key": "PLANS-25579",
    "name": "Member Portal- Manual Refund - Past Refund Window - Refunded Transaction Not Displayed in Member Transactions",
@@ -5985,6 +5954,37 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
+  },
+  {
+   "key": "PLANS-25583",
+   "name": "CSP / PMP - Manual Refund - Past Refund Window - Refund Not Audited in Account History",
+   "pod": "LL",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Mykyta Moroz",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "2: Important",
+   "created": "2026-11-23T10:35:41.070-0600",
+   "resolved": "",
+   "due": "2026-11-26",
+   "labels": [
+    "PDS",
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "group4_migration"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-22677",
+   "parentName": "[1] Define Refund Window Timeframes - Refund Windows and Eligibility States",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "WT-518",
+   "init": "ACH Fast Follows"
   },
   {
    "key": "PLANS-25570",
