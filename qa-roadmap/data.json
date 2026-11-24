@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T15:49:02+00:00",
+ "generated_at": "2026-11-24T16:00:26+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -24252,6 +24252,13 @@
  ],
  "closed_days": 90,
  "nopod": [
+  {
+   "key": "PLANS-25656",
+   "name": "Stage-Member Portal-Legacy West Dental-Plan details is missing office Logo, its showing Wellfit.",
+   "status": "Backlog",
+   "who": "Unassigned",
+   "reporter": "Vinita Thankur"
+  },
   {
    "key": "PLANS-25654",
    "name": "Stage-Smile Health-San Dimas Dental-Logo is missing in Membership Agreement",
