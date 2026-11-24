@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T17:15:24+00:00",
+ "generated_at": "2026-11-24T17:19:39+00:00",
  "today": "2026-11-24",
  "features": [
   {
@@ -2502,7 +2502,7 @@
    "prio": "3: Standard",
    "created": "2026-09-24T12:54:21.503-0500",
    "resolved": "",
-   "due": "2026-11-24",
+   "due": "2026-11-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -2530,7 +2530,7 @@
    "prio": "3: Standard",
    "created": "2026-08-22T18:39:23.599-0500",
    "resolved": "",
-   "due": "2026-11-24",
+   "due": "2026-11-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -2586,7 +2586,7 @@
    "prio": "4: Low",
    "created": "2026-07-29T10:41:22.846-0500",
    "resolved": "",
-   "due": "2026-11-24",
+   "due": "2026-11-25",
    "labels": [
     "group2_migration",
     "product_prioritized"
