@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T05:45:18+00:00",
+ "generated_at": "2026-11-25T06:00:23+00:00",
  "today": "2026-11-25",
  "features": [
   {
@@ -3171,7 +3171,7 @@
    "status": "Backlog",
    "cat": "To Do",
    "fv": null,
-   "sprint": null,
+   "sprint": "Plans Pod 2-Sprint 27-26",
    "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
