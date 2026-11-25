@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T15:20:33+00:00",
+ "generated_at": "2026-11-25T15:30:22+00:00",
  "today": "2026-11-25",
  "features": [
   {
@@ -2405,7 +2405,7 @@
    "prio": "2: Important",
    "created": "2026-11-18T16:32:28.871-0600",
    "resolved": "",
-   "due": "2026-11-25",
+   "due": "2026-11-26",
    "labels": [
     "PDS",
     "group1_migration",
@@ -24002,34 +24002,6 @@
    ],
    "theme": "LL-MVP",
    "triage": "Yes",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21627",
-   "name": "ACH Partial refund - Unable to perform multiple refunds",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Mykyta Moroz",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-20T10:04:54.075-0500",
-   "resolved": "2026-08-27T10:21:59.178-0500",
-   "due": "2026-08-25",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
-   "triage": "",
    "parentKey": "PLANS-21311",
    "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
    "lpEpic": false,
