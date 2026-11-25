@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:00:27+00:00",
+ "generated_at": "2026-11-25T21:09:58+00:00",
  "today": "2026-11-25",
  "features": [
   {
@@ -23783,34 +23783,6 @@
    "triage": "",
    "parentKey": "",
    "parentName": "",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21819",
-   "name": "SGDP Purchase Portal<Can not do refund for SGDP plan in CSP , getting error message-'Practice is required'",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Conor Kamperman",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-25T11:29:58.497-0500",
-   "resolved": "2026-08-27T16:04:10.977-0500",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21467",
-   "parentName": "9.7 Release prep work",
    "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
