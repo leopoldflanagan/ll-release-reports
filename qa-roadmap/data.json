@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T13:00:27+00:00",
+ "generated_at": "2026-11-25T13:10:20+00:00",
  "today": "2026-11-25",
  "features": [
   {
@@ -24137,34 +24137,6 @@
    "resolved": "2026-08-27T08:40:15.339-0500",
    "due": "",
    "labels": [],
-   "theme": "ACH",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21797",
-   "name": "PMP - Credit card-specific consent language is displayed when select ACH payment method while purchasing a plan.",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-24T16:57:20.058-0500",
-   "resolved": "2026-08-27T08:06:12.597-0500",
-   "due": "2026-08-26",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
    "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-21311",
