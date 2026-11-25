@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T15:15:20+00:00",
+ "generated_at": "2026-11-25T15:20:33+00:00",
  "today": "2026-11-25",
  "features": [
   {
@@ -2825,7 +2825,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Ivan Yarymovych",
+   "who": "Petro Yarish",
    "reporter": "Ivan Yarymovych",
    "prio": "2: Important",
    "created": "2026-11-19T10:33:15.322-0600",
