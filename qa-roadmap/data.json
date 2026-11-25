@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T10:00:24+00:00",
+ "generated_at": "2026-11-25T10:15:18+00:00",
  "today": "2026-11-25",
  "features": [
   {
@@ -2480,6 +2480,37 @@
    "init": ""
   },
   {
+   "key": "PLANS-24791",
+   "name": "PMP - Membership card - Missing contact number",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R9.10",
+   "sprint": null,
+   "who": "Nazarii Polinyk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-26T10:05:23.524-0500",
+   "resolved": "",
+   "due": "2026-11-25",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "group4_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-24736",
    "name": "Office Closure: Dental Care Alliance | Effective immediately",
    "pod": "PLANS",
@@ -2518,6 +2549,34 @@
    "created": "2026-10-05T05:26:34.316-0500",
    "resolved": "",
    "due": "2026-11-27",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24072",
+   "name": "Member Portal \\ Treatment Summaries are not available for adult dependent",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R10.01",
+   "sprint": "Plans Pod 2-Sprint 27-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-02T14:02:40.878-0500",
+   "resolved": "",
+   "due": "2026-11-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
@@ -3420,37 +3479,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24791",
-   "name": "PMP - Membership card - Missing contact number",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R9.10",
-   "sprint": null,
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-26T10:05:23.524-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "group4_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24725",
    "name": "Preference is not refreshin when changing between tabs",
    "pod": "LL",
@@ -3799,34 +3827,6 @@
    "created": "2026-10-08T10:16:23.034-0500",
    "resolved": "",
    "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24072",
-   "name": "Member Portal \\ Treatment Summaries are not available for adult dependent",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": "LL-Sprint 23-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-10-02T14:02:40.878-0500",
-   "resolved": "",
-   "due": "2026-11-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
