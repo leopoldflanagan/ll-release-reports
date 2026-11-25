@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T11:30:23+00:00",
+ "generated_at": "2026-11-25T11:45:24+00:00",
  "today": "2026-11-25",
  "features": [
   {
@@ -3056,7 +3056,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Denys Kernychnyi",
+   "who": "Unassigned",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-11-04T07:44:10.270-0600",
