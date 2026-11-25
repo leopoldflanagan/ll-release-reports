@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T23:49:03+00:00",
- "today": "2026-11-24",
+ "generated_at": "2026-11-25T00:00:25+00:00",
+ "today": "2026-11-25",
  "features": [
   {
    "key": "WT-1021",
@@ -7392,34 +7392,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24797",
-   "name": "Smile Health - Broken - Incorrect Legal Text Displayed When Administrator is Configured as Careington / Careington CA / Careington WA",
-   "pod": "LL",
-   "status": "In Stage",
-   "cat": "In Progress",
-   "fv": "R9.10",
-   "sprint": "Plans Pod 2-Sprint 27-26",
-   "who": "Rostyslav Masniuk",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-26T11:08:17.365-0500",
-   "resolved": "",
-   "due": "2026-11-24",
-   "labels": [
-    "group2_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24552",
    "name": "PBO flow charges full amount instead of Wellfit share — Crosby plans",
    "pod": "PLANS",
@@ -7798,6 +7770,34 @@
   }
  ],
  "bugs_closed": [
+  {
+   "key": "PLANS-24797",
+   "name": "Smile Health - Broken - Incorrect Legal Text Displayed When Administrator is Configured as Careington / Careington CA / Careington WA",
+   "pod": "LL",
+   "status": "Ready Prod",
+   "cat": "Done",
+   "fv": "R9.10",
+   "sprint": "Plans Pod 2-Sprint 27-26",
+   "who": "Rostyslav Masniuk",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-26T11:08:17.365-0500",
+   "resolved": "2026-11-24T17:52:29.039-0600",
+   "due": "2026-11-24",
+   "labels": [
+    "group2_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
   {
    "key": "PLANS-14923",
    "name": "[Exising issue] Member poral -no validations for Downgrade renewals",
