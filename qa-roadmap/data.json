@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T09:45:18+00:00",
+ "generated_at": "2026-11-25T10:00:24+00:00",
  "today": "2026-11-25",
  "features": [
   {
@@ -3821,12 +3821,12 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 23-26",
-   "who": "Unassigned",
+   "who": "Rostyslav Masniuk",
    "reporter": "Luis Moreno Soberón",
    "prio": "3: Standard",
    "created": "2026-10-02T14:02:40.878-0500",
    "resolved": "",
-   "due": "",
+   "due": "2026-11-25",
    "labels": [
     "group1_migration",
     "product_prioritized"
