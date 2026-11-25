@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T19:00:26+00:00",
+ "generated_at": "2026-11-25T19:07:59+00:00",
  "today": "2026-11-25",
  "features": [
   {
@@ -23844,34 +23844,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-21560",
-   "name": "Ind Plus - Member Portal - Capacity Showing",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Santiago Kirk Cabrera",
-   "reporter": "Camille Knight",
-   "prio": "2: Important",
-   "created": "2026-08-19T09:40:02.809-0500",
-   "resolved": "2026-08-27T14:00:25.335-0500",
-   "due": "2026-08-24",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
