@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T13:35:14+00:00",
+ "generated_at": "2026-11-25T13:45:19+00:00",
  "today": "2026-11-25",
  "features": [
   {
@@ -24113,31 +24113,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-21311",
-   "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21881",
-   "name": "ACH - ACH declined transactions not visible under Payment Declines report",
-   "pod": "LL",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "LL-Sprint 20-26",
-   "who": "Unassigned",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "2: Important",
-   "created": "2026-08-26T16:31:58.297-0500",
-   "resolved": "2026-08-27T08:40:15.339-0500",
-   "due": "",
-   "labels": [],
-   "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-21311",
    "parentName": "[R9.7] LL Pod - P1 / P2 bugs",
