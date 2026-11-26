@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T16:49:04+00:00",
+ "generated_at": "2026-11-26T17:08:56+00:00",
  "today": "2026-11-26",
  "features": [
   {
@@ -5869,7 +5869,7 @@
    "prio": "2: Important",
    "created": "2026-11-18T16:32:28.871-0600",
    "resolved": "",
-   "due": "2026-11-26",
+   "due": "2026-11-30",
    "labels": [
     "PDS",
     "group1_migration",
@@ -23642,34 +23642,6 @@
    "linkedLP": false,
    "initKey": "WT-379",
    "init": "Bug Fix Container"
-  },
-  {
-   "key": "PLANS-21876",
-   "name": "SGDP Purchase Portal-Stage-Getting 2 Plan Receipt emails after purchase any plan from SGDP Purchase Portal",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Clint Tredway",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-26T15:23:46.260-0500",
-   "resolved": "2026-08-28T11:55:14.255-0500",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-21467",
-   "parentName": "9.7 Release prep work",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
   }
  ],
  "closed_days": 90,
