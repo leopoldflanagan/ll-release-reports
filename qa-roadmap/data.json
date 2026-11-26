@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T13:15:21+00:00",
+ "generated_at": "2026-11-26T13:20:54+00:00",
  "today": "2026-11-26",
  "features": [
   {
@@ -788,6 +788,17 @@
   {
    "key": "WT-1315",
    "name": "Purchase flow enhancement",
+   "status": "Backlog",
+   "ted": null,
+   "fv": null,
+   "who": "Obie Khandaker",
+   "tshirt": null,
+   "pod": "PLANS",
+   "theme": ""
+  },
+  {
+   "key": "WT-1317",
+   "name": "Member Portal: remove legacy Treatment and Sales API calls from member-bff",
    "status": "Backlog",
    "ted": null,
    "fv": null,
@@ -1857,6 +1868,17 @@
   {
    "key": "WT-1315",
    "name": "Purchase flow enhancement",
+   "pod": "PLANS",
+   "proj": "WT",
+   "status": "Backlog",
+   "fv": null,
+   "ted": null,
+   "who": "Obie Khandaker",
+   "theme": ""
+  },
+  {
+   "key": "WT-1317",
+   "name": "Member Portal: remove legacy Treatment and Sales API calls from member-bff",
    "pod": "PLANS",
    "proj": "WT",
    "status": "Backlog",
