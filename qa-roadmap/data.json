@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T17:19:09+00:00",
+ "generated_at": "2026-11-26T17:35:26+00:00",
  "today": "2026-11-26",
  "features": [
   {
@@ -3549,9 +3549,9 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
+   "fv": "R10.01",
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-12T08:57:41.620-0500",
