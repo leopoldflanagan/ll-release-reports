@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T01:45:20+00:00",
+ "generated_at": "2026-11-26T02:00:25+00:00",
  "today": "2026-11-26",
  "features": [
   {
@@ -3621,7 +3621,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": "LL-Sprint 25-26",
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-10-13T09:00:54.154-0500",
@@ -4236,7 +4236,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Denys Kernychnyi",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-08-21T08:51:16.648-0500",
@@ -6013,36 +6013,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24976",
-   "name": "PMP - Account Status Displays \"Not Activated\" for Minor Members After Account Activation via Welcome Email",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R10.01",
-   "sprint": "Plans Pod 2-Sprint 27-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-11-02T09:30:04.135-0600",
-   "resolved": "",
-   "due": "2026-11-26",
-   "labels": [
-    "group1_migration",
-    "group2_migration",
-    "group3_migration",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24963",
    "name": "Not Able to Add Dependent to Plan",
    "pod": "PLANS",
@@ -6230,6 +6200,36 @@
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24976",
+   "name": "PMP - Account Status Displays \"Not Activated\" for Minor Members After Account Activation via Welcome Email",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R10.01",
+   "sprint": "Plans Pod 2-Sprint 27-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-11-02T09:30:04.135-0600",
+   "resolved": "",
+   "due": "2026-11-26",
+   "labels": [
+    "group1_migration",
+    "group2_migration",
+    "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
