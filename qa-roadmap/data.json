@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T17:08:56+00:00",
+ "generated_at": "2026-11-26T17:19:09+00:00",
  "today": "2026-11-26",
  "features": [
   {
@@ -2355,6 +2355,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-25460",
+   "name": "PLANS-25460: CSP: Plan Management: Marketing Settings: computed savings are saved with two decimals, so the SGDP site prints values like $382.00",
+   "pod": "PLANS",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R10.01",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-19T10:33:15.322-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25442",
+   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-25459",
    "name": "Smile Health - Footer legal text Not Visible throughout the purchase flow and other site pages. (NOT reproducible with one smile/essential smile/sgdp)",
    "pod": "LL",
@@ -2830,34 +2858,6 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-25460",
-   "name": "PLANS-25460: CSP: Plan Management: Marketing Settings: computed savings are saved with two decimals, so the SGDP site prints values like $382.00",
-   "pod": "PLANS",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-19T10:33:15.322-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25442",
-   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
@@ -5298,7 +5298,7 @@
    "cat": "To Do",
    "fv": null,
    "sprint": null,
-   "who": "Unassigned",
+   "who": "Petro Yarish",
    "reporter": "Camille Knight",
    "prio": "3: Standard",
    "created": "2026-10-14T08:07:34.813-0500",
