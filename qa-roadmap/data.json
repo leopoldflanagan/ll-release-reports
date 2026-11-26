@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T19:35:51+00:00",
+ "generated_at": "2026-11-26T19:48:51+00:00",
  "today": "2026-11-26",
  "features": [
   {
@@ -2355,34 +2355,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-25460",
-   "name": "PLANS-25460: CSP: Plan Management: Marketing Settings: computed savings are saved with two decimals, so the SGDP site prints values like $382.00",
-   "pod": "PLANS",
-   "status": "In Development",
-   "cat": "In Progress",
-   "fv": "R10.01",
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Ivan Yarymovych",
-   "prio": "2: Important",
-   "created": "2026-11-19T10:33:15.322-0600",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25442",
-   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-25459",
    "name": "Smile Health - Footer legal text Not Visible throughout the purchase flow and other site pages. (NOT reproducible with one smile/essential smile/sgdp)",
    "pod": "LL",
@@ -2511,6 +2483,34 @@
    "due": "",
    "labels": [
     "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24361",
+   "name": "SGDP / SGDP CA – 'Member Savings' in the pricing table does not match the value configured in Marketing Settings",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R10.01",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Anuradhi Wickramasinghe",
+   "prio": "3: Standard",
+   "created": "2026-10-12T08:57:41.620-0500",
+   "resolved": "",
+   "due": "2026-11-30",
+   "labels": [
+    "PDS",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
@@ -3531,34 +3531,6 @@
    "due": "",
    "labels": [
     "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-24361",
-   "name": "SGDP / SGDP CA – 'Member Savings' in the pricing table does not match the value configured in Marketing Settings",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R10.01",
-   "sprint": null,
-   "who": "Petro Yarish",
-   "reporter": "Anuradhi Wickramasinghe",
-   "prio": "3: Standard",
-   "created": "2026-10-12T08:57:41.620-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "PDS",
     "product_prioritized"
    ],
    "theme": "LL-Fast Follows",
@@ -5844,6 +5816,34 @@
     "group1_migration",
     "group2_migration",
     "group3_migration",
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25442",
+   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-25460",
+   "name": "PLANS-25460: CSP: Plan Management: Marketing Settings: computed savings are saved with two decimals, so the SGDP site prints values like $382.00",
+   "pod": "PLANS",
+   "status": "PR Created",
+   "cat": "In Progress",
+   "fv": "R10.01",
+   "sprint": null,
+   "who": "Petro Yarish",
+   "reporter": "Ivan Yarymovych",
+   "prio": "2: Important",
+   "created": "2026-11-19T10:33:15.322-0600",
+   "resolved": "",
+   "due": "",
+   "labels": [
+    "PDS",
     "product_prioritized"
    ],
    "theme": "",
