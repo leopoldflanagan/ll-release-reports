@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T13:45:21+00:00",
+ "generated_at": "2026-11-26T13:49:17+00:00",
  "today": "2026-11-26",
  "features": [
   {
@@ -5977,33 +5977,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24963",
-   "name": "Not Able to Add Dependent to Plan",
-   "pod": "PLANS",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R10.01",
-   "sprint": "Plans Pod 1-Sprint 27-26",
-   "who": "Petro Yarish",
-   "reporter": "Carmen West",
-   "prio": "2: Important",
-   "created": "2026-10-30T16:21:31.203-0500",
-   "resolved": "",
-   "due": "2026-11-26",
-   "labels": [
-    "product_prioritized"
-   ],
-   "theme": "",
-   "triage": "",
-   "parentKey": "PLANS-25442",
-   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24962",
    "name": "Member Unable to Login to Member Portal",
    "pod": "PLANS",
@@ -6195,6 +6168,33 @@
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
    "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24963",
+   "name": "Not Able to Add Dependent to Plan",
+   "pod": "PLANS",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R10.01",
+   "sprint": "Plans Pod 1-Sprint 27-26",
+   "who": "Petro Yarish",
+   "reporter": "Carmen West",
+   "prio": "2: Important",
+   "created": "2026-10-30T16:21:31.203-0500",
+   "resolved": "",
+   "due": "2026-11-26",
+   "labels": [
+    "product_prioritized"
+   ],
+   "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-25442",
+   "parentName": "[R10.01] Plans - P1 / P2 Bugs",
+   "lpEpic": false,
    "lpSprint": false,
    "linkedLP": false,
    "initKey": "",
