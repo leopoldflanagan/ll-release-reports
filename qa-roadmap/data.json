@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T20:19:30+00:00",
+ "generated_at": "2026-11-26T20:35:16+00:00",
  "today": "2026-11-26",
  "features": [
   {
@@ -23614,34 +23614,6 @@
    "linkedLP": false,
    "initKey": "",
    "init": ""
-  },
-  {
-   "key": "PLANS-21559",
-   "name": "SmileHealth<AB PMP Practice<Medical Insurance checkbox is not clickable, it is working when checking Check all Items checkbox",
-   "pod": "PLANS",
-   "status": "Closed",
-   "cat": "Done",
-   "fv": "R9.7",
-   "sprint": "Plans-Sprint 20-26",
-   "who": "Mariano Hernández",
-   "reporter": "Vinita Thankur",
-   "prio": "2: Important",
-   "created": "2026-08-19T09:37:51.636-0500",
-   "resolved": "2026-08-28T15:26:43.475-0500",
-   "due": "2026-08-19",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20094",
-   "parentName": "Plans 9.7 Bugs",
-   "lpEpic": false,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "WT-379",
-   "init": "Bug Fix Container"
   }
  ],
  "closed_days": 90,
