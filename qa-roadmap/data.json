@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T13:30:26+00:00",
+ "generated_at": "2026-11-26T13:35:32+00:00",
  "today": "2026-11-26",
  "features": [
   {
@@ -3163,8 +3163,8 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
+   "fv": "R10.01",
+   "sprint": "Plans Pod 2-Sprint 27-26",
    "who": "Denys Kernychnyi",
    "reporter": "Vinita Thankur",
    "prio": "3: Standard",
