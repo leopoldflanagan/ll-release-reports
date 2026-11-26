@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:15:26+00:00",
+ "generated_at": "2026-11-26T08:30:22+00:00",
  "today": "2026-11-26",
  "features": [
   {
@@ -3053,9 +3053,9 @@
    "pod": "LL",
    "status": "Backlog",
    "cat": "To Do",
-   "fv": null,
-   "sprint": null,
-   "who": "Unassigned",
+   "fv": "R10.01",
+   "sprint": "Plans Pod 2-Sprint 27-26",
+   "who": "Rostyslav Masniuk",
    "reporter": "Anuradhi Wickramasinghe",
    "prio": "3: Standard",
    "created": "2026-11-03T11:00:11.650-0600",
