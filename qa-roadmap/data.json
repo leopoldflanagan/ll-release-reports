@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T14:20:33+00:00",
+ "generated_at": "2026-11-27T14:35:53+00:00",
  "today": "2026-11-27",
  "features": [
   {
@@ -2638,6 +2638,34 @@
    "init": ""
   },
   {
+   "key": "PLANS-21435",
+   "name": "PMP| ACH| Entered Data is not preserved When Switching Between Payment Tiles",
+   "pod": "LL",
+   "status": "In Development",
+   "cat": "In Progress",
+   "fv": "R10.01",
+   "sprint": "Plans Pod 2-Sprint 27-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Hazel Loya",
+   "prio": "3: Standard",
+   "created": "2026-08-17T17:15:17.841-0500",
+   "resolved": "",
+   "due": "2026-11-30",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "ACH",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
    "key": "PLANS-20507",
    "name": "WFP - Bill to Office Sales are not visible in Plans Sales Report",
    "pod": "LL",
@@ -4065,34 +4093,6 @@
     "product_prioritized"
    ],
    "theme": "LL-MVP",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
-   "key": "PLANS-21435",
-   "name": "PMP| ACH| Entered Data is not preserved When Switching Between Payment Tiles",
-   "pod": "LL",
-   "status": "Backlog",
-   "cat": "To Do",
-   "fv": "R10.01",
-   "sprint": "Plans Pod 2-Sprint 27-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Hazel Loya",
-   "prio": "3: Standard",
-   "created": "2026-08-17T17:15:17.841-0500",
-   "resolved": "",
-   "due": "",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "ACH",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
@@ -5834,34 +5834,6 @@
    "init": ""
   },
   {
-   "key": "PLANS-24685",
-   "name": "PMP \\ Opt-Out Reason displays as an ID instead of text in Account History",
-   "pod": "LL",
-   "status": "PR Created",
-   "cat": "In Progress",
-   "fv": "R10.01",
-   "sprint": "Plans Pod 2-Sprint 27-26",
-   "who": "Denys Kernychnyi",
-   "reporter": "Luis Moreno Soberón",
-   "prio": "3: Standard",
-   "created": "2026-10-21T22:27:00.078-0500",
-   "resolved": "",
-   "due": "2026-11-27",
-   "labels": [
-    "group1_migration",
-    "product_prioritized"
-   ],
-   "theme": "LL-Fast Follows",
-   "triage": "",
-   "parentKey": "PLANS-20751",
-   "parentName": "Plans - P3 / P4 Bugs",
-   "lpEpic": true,
-   "lpSprint": false,
-   "linkedLP": false,
-   "initKey": "",
-   "init": ""
-  },
-  {
    "key": "PLANS-24615",
    "name": "PMP \\ Plan Status Shows Expired Instead of Cancelled After Cancellation in CSP",
    "pod": "LL",
@@ -6054,6 +6026,34 @@
     "product_prioritized"
    ],
    "theme": "",
+   "triage": "",
+   "parentKey": "PLANS-20751",
+   "parentName": "Plans - P3 / P4 Bugs",
+   "lpEpic": true,
+   "lpSprint": false,
+   "linkedLP": false,
+   "initKey": "",
+   "init": ""
+  },
+  {
+   "key": "PLANS-24685",
+   "name": "PMP \\ Opt-Out Reason displays as an ID instead of text in Account History",
+   "pod": "LL",
+   "status": "PR Merged",
+   "cat": "In Progress",
+   "fv": "R10.01",
+   "sprint": "Plans Pod 2-Sprint 27-26",
+   "who": "Denys Kernychnyi",
+   "reporter": "Luis Moreno Soberón",
+   "prio": "3: Standard",
+   "created": "2026-10-21T22:27:00.078-0500",
+   "resolved": "",
+   "due": "2026-11-27",
+   "labels": [
+    "group1_migration",
+    "product_prioritized"
+   ],
+   "theme": "LL-Fast Follows",
    "triage": "",
    "parentKey": "PLANS-20751",
    "parentName": "Plans - P3 / P4 Bugs",
